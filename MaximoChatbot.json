@@ -1,1 +1,343 @@
-{"name":"WDC-Basics-new","created":"2018-01-09T21:28:15.116Z","intents":[{"intent":"greeting","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","examples":[{"text":"Hi","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"Good morning","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"Good evening","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"Good afternoon","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"Hello","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"}],"description":null},{"intent":"phone","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","examples":[{"text":"I need a new phone","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I want to replace my phone","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I want advice regarding phones","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"What is the best phone available","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I am looking for a new phone","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"My old phone is garbage","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I am interested in buying new phone","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"}],"description":null},{"intent":"problem","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","examples":[{"text":"How to fix problem","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"Bug","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I have some bugs with","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I have a problem with my hardware","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"Fix bug","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"}],"description":null},{"intent":"negative","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","examples":[{"text":"HTC is the worst","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I hate Samsing","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"Android sucks","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I don't care about the looks","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I don't care about the battery","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I do not care about the style","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I don't like iPhones","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"}],"description":null},{"intent":"welcome","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","examples":[],"description":null},{"intent":"positive","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","examples":[{"text":"I prefer Android","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I love Apple","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I care about the looks","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I want a good looking phone","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I want a great battery","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I need a good battery life","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I care about style","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"New Samsung looks great","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"},{"text":"I like the Galaxy phones","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z"}],"description":null}],"updated":"2018-01-09T21:28:15.116Z","entities":[{"entity":"problem_type","values":[{"type":"synonyms","value":"software","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"synonyms":["Bluemix","Lotus","Maximo","Watson Explorer"]},{"type":"synonyms","value":"industry","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"synonyms":["rig","car","pipe"]},{"type":"synonyms","value":"hardware","created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"synonyms":["компьютер","disk","screen","memory","RAM","battery","keyboard"]}],"created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"response_condition","title":null,"output":{"text":{"values":["You have an industrial problem. Let me add a new Service request Ticket for you in the system."],"selection_policy":"sequential"}},"parent":"Problem_type","context":null,"created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"next_step":null,"conditions":"@problem_type:industry","description":null,"dialog_node":"node_10_1498043012802","previous_sibling":"node_9_1498042972702"},{"type":"response_condition","title":null,"output":{"text":{"values":["You have a software problem. Let me add a new Service request Ticket for you in the system."],"selection_policy":"sequential"}},"parent":"Problem_type","context":null,"created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"next_step":null,"conditions":" @problem_type:software","description":null,"dialog_node":"node_9_1498042972702","previous_sibling":"node_8_1498042779277"},{"type":"response_condition","title":null,"output":{"text":{"values":["You have a hardware problem. Let me add a new Service request Ticket for you in the system."],"selection_policy":"sequential"}},"parent":"Problem_type","context":null,"created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"next_step":null,"conditions":" @problem_type:hardware","description":null,"dialog_node":"node_8_1498042779277","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Can I help you with something else?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Help","previous_sibling":"Problem_type"},{"type":"standard","title":null,"output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"Help"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"next_step":null,"conditions":"@problem_type || #problem","description":null,"dialog_node":"Problem_type","previous_sibling":"Welcome"},{"type":"standard","title":null,"output":{"text":{"values":["Hello. I am a  service advisor. How can I help you?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:28:15.116Z","updated":"2018-01-09T21:28:15.116Z","metadata":null,"next_step":null,"conditions":"input.text == 'init' || #greeting || welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"1a190057-b3fc-4fc3-b3d3-89309b2ec1dd","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Maximo Chatbot",
+	"created": "2018-01-09T21:28:15.116Z",
+	"intents": [{
+		"intent": "greeting",
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"examples": [{
+			"text": "Hi",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "Good morning",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "Good evening",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "Good afternoon",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "Hello",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}],
+		"description": null
+	}, {
+		"intent": "phone",
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"examples": [{
+			"text": "I need a new phone",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I want to replace my phone",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I want advice regarding phones",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "What is the best phone available",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I am looking for a new phone",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "My old phone is garbage",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I am interested in buying new phone",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}],
+		"description": null
+	}, {
+		"intent": "problem",
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"examples": [{
+			"text": "How to fix problem",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "Bug",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I have some bugs with",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I have a problem with my hardware",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "Fix bug",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}],
+		"description": null
+	}, {
+		"intent": "negative",
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"examples": [{
+			"text": "HTC is the worst",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I hate Samsing",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "Android sucks",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I don't care about the looks",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I don't care about the battery",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I do not care about the style",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I don't like iPhones",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}],
+		"description": null
+	}, {
+		"intent": "welcome",
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"examples": [],
+		"description": null
+	}, {
+		"intent": "positive",
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"examples": [{
+			"text": "I prefer Android",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I love Apple",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I care about the looks",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I want a good looking phone",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I want a great battery",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I need a good battery life",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I care about style",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "New Samsung looks great",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}, {
+			"text": "I like the Galaxy phones",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-01-09T21:28:15.116Z",
+	"entities": [{
+		"entity": "problem_type",
+		"values": [{
+			"type": "synonyms",
+			"value": "software",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z",
+			"metadata": null,
+			"synonyms": ["Bluemix", "Lotus", "Maximo", "Watson Explorer"]
+		}, {
+			"type": "synonyms",
+			"value": "industry",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z",
+			"metadata": null,
+			"synonyms": ["rig", "car", "pipe"]
+		}, {
+			"type": "synonyms",
+			"value": "hardware",
+			"created": "2018-01-09T21:28:15.116Z",
+			"updated": "2018-01-09T21:28:15.116Z",
+			"metadata": null,
+			"synonyms": ["компьютер", "disk", "screen", "memory", "RAM", "battery", "keyboard"]
+		}],
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You have an industrial problem. Let me add a new Service request Ticket for you in the system."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Problem_type",
+		"context": null,
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@problem_type:industry",
+		"description": null,
+		"dialog_node": "node_10_1498043012802",
+		"previous_sibling": "node_9_1498042972702"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You have a software problem. Let me add a new Service request Ticket for you in the system."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Problem_type",
+		"context": null,
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @problem_type:software",
+		"description": null,
+		"dialog_node": "node_9_1498042972702",
+		"previous_sibling": "node_8_1498042779277"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You have a hardware problem. Let me add a new Service request Ticket for you in the system."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Problem_type",
+		"context": null,
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @problem_type:hardware",
+		"description": null,
+		"dialog_node": "node_8_1498042779277",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Can I help you with something else?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Help",
+		"previous_sibling": "Problem_type"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Help"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@problem_type || #problem",
+		"description": null,
+		"dialog_node": "Problem_type",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hello. I am a  service advisor. How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:28:15.116Z",
+		"updated": "2018-01-09T21:28:15.116Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "input.text == 'init' || #greeting || welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "1a190057-b3fc-4fc3-b3d3-89309b2ec1dd",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

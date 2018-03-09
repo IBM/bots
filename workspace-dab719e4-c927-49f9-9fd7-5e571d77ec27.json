@@ -1,1 +1,1454 @@
-{"name":"Movie Ticket Booking Bot","created":"2017-10-21T16:14:29.308Z","intents":[{"intent":"book_ticket","created":"2017-10-21T16:19:09.722Z","updated":"2017-10-25T14:19:53.217Z","examples":[{"text":"make a booking","created":"2017-10-21T16:19:43.676Z","updated":"2017-10-21T16:19:43.676Z"},{"text":"Please book ticket","created":"2017-10-21T16:19:14.649Z","updated":"2017-10-21T16:19:14.649Z"},{"text":"Book ticket","created":"2017-10-21T16:19:16.922Z","updated":"2017-10-21T16:19:16.922Z"},{"text":"reserve ticket","created":"2017-10-21T16:19:20.294Z","updated":"2017-10-21T16:19:20.294Z"},{"text":"please reserve ticket","created":"2017-10-21T16:19:34.371Z","updated":"2017-10-21T16:19:34.371Z"},{"text":"pls book ticket","created":"2017-10-25T14:19:53.217Z","updated":"2017-10-25T14:19:53.217Z"},{"text":"reserve","created":"2017-10-21T16:22:15.510Z","updated":"2017-10-21T16:22:15.510Z"},{"text":"book","created":"2017-10-21T16:22:13.602Z","updated":"2017-10-21T16:22:13.602Z"},{"text":"make a reservation","created":"2017-10-21T16:19:49.468Z","updated":"2017-10-21T16:19:49.468Z"}],"description":null},{"intent":"greetings","created":"2017-10-21T16:18:00.503Z","updated":"2017-10-21T16:18:16.444Z","examples":[{"text":"Hi there","created":"2017-10-21T16:18:04.881Z","updated":"2017-10-21T16:18:04.881Z"},{"text":"Hello","created":"2017-10-21T16:18:06.224Z","updated":"2017-10-21T16:18:06.224Z"},{"text":"Hey","created":"2017-10-21T16:18:08.401Z","updated":"2017-10-21T16:18:08.401Z"},{"text":"Heyya","created":"2017-10-21T16:18:09.719Z","updated":"2017-10-21T16:18:09.719Z"},{"text":"What's up?","created":"2017-10-21T16:18:16.444Z","updated":"2017-10-21T16:18:16.444Z"}],"description":null},{"intent":"thankyou","created":"2017-10-21T16:18:35.107Z","updated":"2017-10-21T16:18:52.354Z","examples":[{"text":"Thank","created":"2017-10-21T16:18:52.354Z","updated":"2017-10-21T16:18:52.354Z"},{"text":"Thank you so much","created":"2017-10-21T16:18:48.316Z","updated":"2017-10-21T16:18:48.316Z"},{"text":"Thank you very much","created":"2017-10-21T16:18:45.005Z","updated":"2017-10-21T16:18:45.005Z"},{"text":"Thanks a lot","created":"2017-10-21T16:18:41.665Z","updated":"2017-10-21T16:18:41.665Z"},{"text":"Thanks","created":"2017-10-21T16:18:38.127Z","updated":"2017-10-21T16:18:38.127Z"}],"description":null}],"updated":"2017-10-25T15:02:19.858Z","entities":[{"entity":"sys-time","values":[],"created":"2017-10-21T16:17:51.760Z","updated":"2017-10-21T16:17:51.760Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2017-10-21T16:17:51.337Z","updated":"2017-10-21T16:17:51.337Z","metadata":null,"description":null},{"entity":"sys-currency","values":[],"created":"2017-10-21T16:17:51.837Z","updated":"2017-10-21T16:17:51.837Z","metadata":null,"description":null},{"entity":"sys-person","values":[],"created":"2017-10-21T16:17:50.624Z","updated":"2017-10-21T16:17:50.624Z","metadata":null,"description":null},{"entity":"movie","values":[{"type":"synonyms","value":"movie","created":"2017-10-21T16:16:22.531Z","updated":"2017-10-21T16:17:36.898Z","metadata":null,"synonyms":["film","cinema","picture","motion picture","feature film","entertainment"]}],"created":"2017-10-21T16:16:21.134Z","updated":"2017-10-21T16:17:36.898Z","metadata":null,"description":null},{"entity":"sys-date","values":[],"created":"2017-10-21T16:17:51.833Z","updated":"2017-10-21T16:17:51.833Z","metadata":null,"description":null},{"entity":"newyork-theater","values":[{"type":"synonyms","value":"Sunshine Cinema","created":"2017-10-25T14:33:28.031Z","updated":"2017-10-25T14:33:32.100Z","metadata":null,"synonyms":["sunshine cinema"]},{"type":"synonyms","value":"AMC 84th Street 6","created":"2017-10-25T14:33:04.240Z","updated":"2017-10-25T14:33:14.704Z","metadata":null,"synonyms":["AMC Theater"]}],"created":"2017-10-25T14:32:24.721Z","updated":"2017-10-25T14:33:32.100Z","metadata":null,"description":null},{"entity":"losangeles-theater","values":[{"type":"synonyms","value":"Regal Cinemas L.A. LIVE 14","created":"2017-10-25T14:34:21.118Z","updated":"2017-10-25T14:34:23.339Z","metadata":null,"synonyms":["Regal Cinemas"]},{"type":"synonyms","value":"Eileen Norris Cinema Theatre","created":"2017-10-25T14:33:54.123Z","updated":"2017-10-25T14:34:07.742Z","metadata":null,"synonyms":["Eileen Norris"]}],"created":"2017-10-25T14:33:47.203Z","updated":"2017-10-25T14:34:23.339Z","metadata":null,"description":null},{"entity":"india-theater","values":[{"type":"synonyms","value":"INOX","created":"2017-10-25T14:35:11.203Z","updated":"2017-10-25T14:35:19.602Z","metadata":null,"synonyms":["inox"]},{"type":"synonyms","value":"PVR cinemas","created":"2017-10-25T14:35:24.610Z","updated":"2017-10-25T14:35:27.498Z","metadata":null,"synonyms":["PVR"]}],"created":"2017-10-25T14:34:38.015Z","updated":"2017-10-25T14:35:27.498Z","metadata":null,"description":null},{"entity":"sys-location","values":[],"created":"2017-10-21T16:17:51.830Z","updated":"2017-10-21T16:17:51.830Z","metadata":null,"description":null},{"entity":"sys-percentage","values":[],"created":"2017-10-21T16:17:51.800Z","updated":"2017-10-21T16:17:51.800Z","metadata":null,"description":null},{"entity":"movie-name","values":[{"type":"synonyms","value":"Spider-Man: Homecoming","created":"2017-10-21T16:36:59.544Z","updated":"2017-10-21T16:41:21.718Z","metadata":null,"synonyms":["Spider-Man","Spiderman","SpiderMan2","Spider-Man 3"]},{"type":"synonyms","value":"Star Wars:The Last Jedi","created":"2017-10-21T16:41:38.527Z","updated":"2017-10-21T16:47:29.541Z","metadata":null,"synonyms":["Star Wars","Star Wars:Force Awakens","Star Wars:The Clone Wars"]},{"type":"synonyms","value":"Geostorm","created":"2017-10-21T16:48:34.122Z","updated":"2017-10-21T16:48:43.898Z","metadata":null,"synonyms":["Geo storm"]}],"created":"2017-10-21T16:35:49.272Z","updated":"2017-10-21T16:48:43.898Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"A simple movie ticket booking bot","dialog_nodes":[{"type":"event_handler","title":null,"output":null,"parent":"slot_50_1508942793120","context":{"username":"@sys-person"},"created":"2017-10-25T14:46:32.896Z","updated":"2017-10-25T14:48:12.000Z","metadata":null,"next_step":null,"conditions":"@sys-person","event_name":"input","description":null,"dialog_node":"handler_51_1508942793120","previous_sibling":"handler_52_1508942793120"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your name"],"selection_policy":"sequential"}},"parent":"slot_50_1508942793120","context":null,"created":"2017-10-25T14:48:12.727Z","updated":"2017-10-25T14:48:12.727Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_61_1508942887852","previous_sibling":"handler_51_1508942793120"},{"type":"event_handler","title":null,"output":{"text":"Please enter your name"},"parent":"slot_50_1508942793120","context":null,"created":"2017-10-25T14:46:33.717Z","updated":"2017-10-25T14:48:11.224Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_52_1508942793120","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_36_1508942654371","context":{"username":"@sys-person"},"created":"2017-10-25T14:44:14.335Z","updated":"2017-10-25T14:48:45.476Z","metadata":null,"next_step":null,"conditions":"@sys-person","event_name":"input","description":null,"dialog_node":"handler_37_1508942654371","previous_sibling":"handler_38_1508942654371"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your name"],"selection_policy":"sequential"}},"parent":"slot_36_1508942654371","context":null,"created":"2017-10-25T14:44:47.880Z","updated":"2017-10-25T14:44:47.880Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_40_1508942682069","previous_sibling":"handler_37_1508942654371"},{"type":"event_handler","title":null,"output":{"text":"Please enter your name"},"parent":"slot_36_1508942654371","context":null,"created":"2017-10-25T14:44:14.873Z","updated":"2017-10-25T14:44:46.904Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_38_1508942654371","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_34_1508605150998","context":{"seats":"@sys-number"},"created":"2017-10-21T16:59:13.001Z","updated":"2017-10-21T16:59:43.027Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_35_1508605150998","previous_sibling":"handler_36_1508605150998"},{"type":"event_handler","title":null,"output":{"text":{"values":["How many seats do you require?"],"selection_policy":"sequential"}},"parent":"slot_34_1508605150998","context":null,"created":"2017-10-21T16:59:43.480Z","updated":"2017-10-21T16:59:43.480Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_38_1508605172756","previous_sibling":"handler_35_1508605150998"},{"type":"event_handler","title":null,"output":{"text":"How many seats?"},"parent":"slot_34_1508605150998","context":null,"created":"2017-10-21T16:59:13.477Z","updated":"2017-10-21T16:59:42.587Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_36_1508605150998","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter preferred date"],"selection_policy":"sequential"}},"parent":"slot_5_1508603344632","context":null,"created":"2017-10-21T16:35:03.407Z","updated":"2017-10-21T16:35:03.407Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_14_1508603697085","previous_sibling":"handler_6_1508603344632"},{"type":"event_handler","title":null,"output":null,"parent":"slot_5_1508603344632","context":{"movieDate":"@sys-date"},"created":"2017-10-21T16:29:05.882Z","updated":"2017-10-21T17:09:22.911Z","metadata":null,"next_step":null,"conditions":"@sys-date","event_name":"input","description":null,"dialog_node":"handler_6_1508603344632","previous_sibling":"handler_7_1508603344632"},{"type":"event_handler","title":null,"output":{"text":"Please enter preferred date"},"parent":"slot_5_1508603344632","context":null,"created":"2017-10-21T16:29:06.342Z","updated":"2017-10-21T16:35:02.508Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_7_1508603344632","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_25_1508942534695","context":{"mobnumber":"@sys-number"},"created":"2017-10-25T14:42:13.802Z","updated":"2017-10-25T14:42:40.952Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_26_1508942534695","previous_sibling":"handler_27_1508942534695"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your mobile number"],"selection_policy":"sequential"}},"parent":"slot_25_1508942534695","context":null,"created":"2017-10-25T14:42:41.497Z","updated":"2017-10-25T14:42:41.497Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_29_1508942555687","previous_sibling":"handler_26_1508942534695"},{"type":"event_handler","title":null,"output":{"text":"Please enter your mobile number"},"parent":"slot_25_1508942534695","context":null,"created":"2017-10-25T14:42:14.308Z","updated":"2017-10-25T14:42:40.188Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_27_1508942534695","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_2_1508941403234","context":null,"created":"2017-10-25T14:44:49.651Z","updated":"2017-10-25T14:45:37.704Z","metadata":null,"variable":"$mobnumber","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_41_1508942691186","previous_sibling":"slot_36_1508942654371"},{"type":"slot","title":null,"output":null,"parent":"node_2_1508941403234","context":null,"created":"2017-10-25T14:44:13.723Z","updated":"2017-10-25T14:48:44.983Z","metadata":null,"variable":"$username","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_36_1508942654371","previous_sibling":"slot_13_1508941846569"},{"type":"slot","title":null,"output":null,"parent":"node_2_1508941403234","context":null,"created":"2017-10-25T14:30:45.454Z","updated":"2017-10-25T14:45:53.519Z","metadata":null,"variable":"$movietime","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_13_1508941846569","previous_sibling":"slot_10_1508941836191"},{"type":"slot","title":null,"output":null,"parent":"node_2_1508941403234","context":null,"created":"2017-10-25T14:30:35.556Z","updated":"2017-10-25T14:51:25.626Z","metadata":null,"variable":"$losangelestheater","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_10_1508941836191","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_41_1508942691186","context":{"mobnumber":"@sys-number"},"created":"2017-10-25T14:44:50.183Z","updated":"2017-10-25T14:45:38.319Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_42_1508942691186","previous_sibling":"handler_43_1508942691186"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your mobile number"],"selection_policy":"sequential"}},"parent":"slot_41_1508942691186","context":null,"created":"2017-10-25T14:45:38.887Z","updated":"2017-10-25T14:45:38.887Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_45_1508942733845","previous_sibling":"handler_42_1508942691186"},{"type":"event_handler","title":null,"output":{"text":"Please enter your mobile number"},"parent":"slot_41_1508942691186","context":null,"created":"2017-10-25T14:44:50.682Z","updated":"2017-10-25T14:45:37.831Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_43_1508942691186","previous_sibling":null},{"type":"frame","title":"Location-Time-Theater","output":{"text":{"values":["Thank You $username! Your request for booking $moviename $movieDate $movietime has been completed. Tickets will be send to your registered mobile number!"],"selection_policy":"sequential"}},"parent":"node_4_1508603144606","context":null,"created":"2017-10-25T14:15:15.158Z","updated":"2017-10-25T15:02:12.220Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"@sys-location:(New York)","description":null,"dialog_node":"node_1_1508940916652","previous_sibling":"slot_5_1508603344632"},{"type":"frame","title":"Location-Time-Theater","output":{"text":{"values":["Thank You $username! Your request for booking $moviename $movieDate $movietime has been completed. Tickets will be send to your registered mobile number!"],"selection_policy":"sequential"}},"parent":"node_4_1508603144606","context":null,"created":"2017-10-25T14:23:28.159Z","updated":"2017-10-25T14:49:53.745Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"@sys-location:India","description":null,"dialog_node":"node_3_1508941409637","previous_sibling":"node_2_1508941403234"},{"type":"slot","title":null,"output":null,"parent":"node_4_1508603144606","context":null,"created":"2017-10-21T16:29:05.385Z","updated":"2017-10-21T17:09:22.466Z","metadata":null,"variable":"$movieDate","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_5_1508603344632","previous_sibling":"slot_67_1508943343700"},{"type":"frame","title":"Location-Time-Theater","output":{"text":{"values":["Thank You $username! Your request for booking $moviename $movieDate $movietime has been completed . Tickets will be send to your registered mobile number!"],"selection_policy":"sequential"}},"parent":"node_4_1508603144606","context":null,"created":"2017-10-25T14:23:21.879Z","updated":"2017-10-25T15:02:19.858Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"@sys-location:(Los Angeles)","description":null,"dialog_node":"node_2_1508941403234","previous_sibling":"node_1_1508940916652"},{"type":"slot","title":null,"output":null,"parent":"node_4_1508603144606","context":null,"created":"2017-10-21T16:59:12.550Z","updated":"2017-10-21T16:59:42.568Z","metadata":null,"variable":"$seats","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_34_1508605150998","previous_sibling":"node_3_1508941409637"},{"type":"slot","title":null,"output":null,"parent":"node_4_1508603144606","context":null,"created":"2017-10-25T14:55:43.299Z","updated":"2017-10-25T14:56:02.448Z","metadata":null,"variable":"$moviename","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_67_1508943343700","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_67_1508943343700","context":null,"created":"2017-10-25T14:55:44.324Z","updated":"2017-10-25T14:55:44.324Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_69_1508943343700","previous_sibling":"handler_68_1508943343700"},{"type":"event_handler","title":null,"output":null,"parent":"slot_67_1508943343700","context":{"moviename":"@movie-name"},"created":"2017-10-25T14:55:43.808Z","updated":"2017-10-25T14:56:02.965Z","metadata":null,"next_step":null,"conditions":"@movie-name","event_name":"input","description":null,"dialog_node":"handler_68_1508943343700","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_4_1508941733302","context":{"movietime":"@sys-time"},"created":"2017-10-25T14:28:53.577Z","updated":"2017-10-25T14:47:56.485Z","metadata":null,"next_step":null,"conditions":"@sys-time","event_name":"input","description":null,"dialog_node":"handler_5_1508941733302","previous_sibling":"handler_6_1508941733302"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please select movie time-09:00:00hours,13:00:00hours,22:00:00hours"],"selection_policy":"sequential"}},"parent":"slot_4_1508941733302","context":null,"created":"2017-10-25T14:47:57.603Z","updated":"2017-10-25T14:47:57.603Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_59_1508942873111","previous_sibling":"handler_5_1508941733302"},{"type":"event_handler","title":null,"output":{"text":"Please select movie time-09:00:00hours,13:00:00hours,22:00:00hours"},"parent":"slot_4_1508941733302","context":null,"created":"2017-10-25T14:28:54.121Z","updated":"2017-10-25T14:47:55.937Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_6_1508941733302","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_53_1508942797632","context":{"mobnumber":"@sys-number"},"created":"2017-10-25T14:46:37.806Z","updated":"2017-10-25T14:48:29.073Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_54_1508942797632","previous_sibling":"handler_55_1508942797632"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your mobile number"],"selection_policy":"sequential"}},"parent":"slot_53_1508942797632","context":null,"created":"2017-10-25T14:48:30.622Z","updated":"2017-10-25T14:48:30.622Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_63_1508942903299","previous_sibling":"handler_54_1508942797632"},{"type":"event_handler","title":null,"output":{"text":"Please enter your mobile number"},"parent":"slot_53_1508942797632","context":null,"created":"2017-10-25T14:46:38.701Z","updated":"2017-10-25T14:48:28.215Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_55_1508942797632","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please select movie time-09:00:00hours,15:00:00hours,21:00:00hours"],"selection_policy":"sequential"}},"parent":"slot_13_1508941846569","context":null,"created":"2017-10-25T14:45:54.728Z","updated":"2017-10-25T14:45:54.728Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_47_1508942750010","previous_sibling":"handler_14_1508941846569"},{"type":"event_handler","title":null,"output":null,"parent":"slot_13_1508941846569","context":{"movietime":"@sys-time"},"created":"2017-10-25T14:30:46.440Z","updated":"2017-10-25T14:45:54.173Z","metadata":null,"next_step":null,"conditions":"@sys-time","event_name":"input","description":null,"dialog_node":"handler_14_1508941846569","previous_sibling":"handler_15_1508941846569"},{"type":"event_handler","title":null,"output":{"text":"Please select movie time-09:00:00hours,15:00:00hours,21:00:00hours"},"parent":"slot_13_1508941846569","context":null,"created":"2017-10-25T14:30:47.011Z","updated":"2017-10-25T14:45:53.548Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_15_1508941846569","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_1_1508940916652","context":null,"created":"2017-10-25T14:42:13.133Z","updated":"2017-10-25T14:42:38.325Z","metadata":null,"variable":"$mobnumber","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_25_1508942534695","previous_sibling":"slot_22_1508942385842"},{"type":"slot","title":null,"output":null,"parent":"node_1_1508940916652","context":null,"created":"2017-10-25T14:31:20.943Z","updated":"2017-10-25T14:43:14.151Z","metadata":null,"variable":"$movietime","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_19_1508941882428","previous_sibling":"slot_16_1508941879007"},{"type":"slot","title":null,"output":null,"parent":"node_1_1508940916652","context":null,"created":"2017-10-25T14:39:45.229Z","updated":"2017-10-25T14:48:54.452Z","metadata":null,"variable":"$username","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_22_1508942385842","previous_sibling":"slot_19_1508941882428"},{"type":"slot","title":null,"output":null,"parent":"node_1_1508940916652","context":null,"created":"2017-10-25T14:31:17.565Z","updated":"2017-10-25T14:52:43.054Z","metadata":null,"variable":"$newyorktheater","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_16_1508941879007","previous_sibling":null},{"type":"frame","title":"Movie Name-Date-Seats","output":{"text":{"values":["Please enter location of your preference Booking open only for Los Angeles,New York and Indian theaters currently!"],"selection_policy":"sequential"}},"parent":"node_3_1508603092392","context":null,"created":"2017-10-21T16:25:44.141Z","updated":"2017-10-25T14:56:09.466Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"@movie-name","description":null,"dialog_node":"node_4_1508603144606","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_22_1508942385842","context":{"username":"@sys-person"},"created":"2017-10-25T14:39:45.772Z","updated":"2017-10-25T14:48:55.272Z","metadata":null,"next_step":null,"conditions":"@sys-person","event_name":"input","description":null,"dialog_node":"handler_23_1508942385842","previous_sibling":"handler_24_1508942385842"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your name"],"selection_policy":"sequential"}},"parent":"slot_22_1508942385842","context":null,"created":"2017-10-25T14:42:54.596Z","updated":"2017-10-25T14:42:54.596Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_31_1508942570764","previous_sibling":"handler_23_1508942385842"},{"type":"event_handler","title":null,"output":{"text":"Please enter your name"},"parent":"slot_22_1508942385842","context":null,"created":"2017-10-25T14:39:46.357Z","updated":"2017-10-25T14:42:53.443Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_24_1508942385842","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_7_1508941808251","context":{"indiatheater":"@india-theater"},"created":"2017-10-25T14:30:08.641Z","updated":"2017-10-25T14:47:37.000Z","metadata":null,"next_step":null,"conditions":"@india-theater","event_name":"input","description":null,"dialog_node":"handler_8_1508941808251","previous_sibling":"handler_9_1508941808251"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter preferred movie theater-INOX or PVR cinemas"],"selection_policy":"sequential"}},"parent":"slot_7_1508941808251","context":null,"created":"2017-10-25T14:47:37.495Z","updated":"2017-10-25T14:47:37.495Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_57_1508942852370","previous_sibling":"handler_8_1508941808251"},{"type":"event_handler","title":null,"output":{"text":"Please enter preferred movie theater-INOX or PVR cinemas"},"parent":"slot_7_1508941808251","context":null,"created":"2017-10-25T14:30:09.224Z","updated":"2017-10-25T14:47:36.513Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_9_1508941808251","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_3_1508941409637","context":null,"created":"2017-10-25T14:46:36.222Z","updated":"2017-10-25T14:48:28.251Z","metadata":null,"variable":"$mobnumber","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_53_1508942797632","previous_sibling":"slot_50_1508942793120"},{"type":"slot","title":null,"output":null,"parent":"node_3_1508941409637","context":null,"created":"2017-10-25T14:46:32.106Z","updated":"2017-10-25T14:48:11.164Z","metadata":null,"variable":"$username","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_50_1508942793120","previous_sibling":"slot_4_1508941733302"},{"type":"slot","title":null,"output":null,"parent":"node_3_1508941409637","context":null,"created":"2017-10-25T14:28:52.876Z","updated":"2017-10-25T14:47:56.384Z","metadata":null,"variable":"$movietime","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_4_1508941733302","previous_sibling":"slot_7_1508941808251"},{"type":"slot","title":null,"output":null,"parent":"node_3_1508941409637","context":null,"created":"2017-10-25T14:30:07.929Z","updated":"2017-10-25T14:47:35.677Z","metadata":null,"variable":"$indiatheater","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_7_1508941808251","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_10_1508941836191","context":{"losangelestheater":"@losangeles-theater"},"created":"2017-10-25T14:30:36.941Z","updated":"2017-10-25T14:51:26.997Z","metadata":null,"next_step":null,"conditions":"@losangeles-theater","event_name":"input","description":null,"dialog_node":"handler_11_1508941836191","previous_sibling":"handler_12_1508941836191"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter preferred movie theater from the list- Regal Cinemas L.A. LIVE 14,Eileen Norris Cinema Theatre"],"selection_policy":"sequential"}},"parent":"slot_10_1508941836191","context":null,"created":"2017-10-25T14:46:10.636Z","updated":"2017-10-25T14:51:27.554Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_49_1508942764739","previous_sibling":"handler_11_1508941836191"},{"type":"event_handler","title":null,"output":{"text":"Please enter preferred movie theater from the list- Regal Cinemas L.A. LIVE 14,Eileen Norris Cinema Theatre"},"parent":"slot_10_1508941836191","context":null,"created":"2017-10-25T14:30:39.400Z","updated":"2017-10-25T14:51:26.474Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_12_1508941836191","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter preferred movie theater from the list-Sunshine Cinema,AMC 84th Street 6"],"selection_policy":"sequential"}},"parent":"slot_16_1508941879007","context":null,"created":"2017-10-25T14:43:42.432Z","updated":"2017-10-25T14:52:45.044Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_35_1508942617150","previous_sibling":"handler_17_1508941879007"},{"type":"event_handler","title":null,"output":null,"parent":"slot_16_1508941879007","context":{"newyorktheater":"@newyork-theater"},"created":"2017-10-25T14:31:18.160Z","updated":"2017-10-25T14:52:44.389Z","metadata":null,"next_step":null,"conditions":"@newyork-theater","event_name":"input","description":null,"dialog_node":"handler_17_1508941879007","previous_sibling":"handler_18_1508941879007"},{"type":"event_handler","title":null,"output":{"text":"Please enter preferred movie theater from the list-Sunshine Cinema,AMC 84th Street 6"},"parent":"slot_16_1508941879007","context":null,"created":"2017-10-25T14:31:18.896Z","updated":"2017-10-25T14:52:43.905Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_18_1508941879007","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_19_1508941882428","context":{"movietime":"@sys-time"},"created":"2017-10-25T14:31:21.440Z","updated":"2017-10-25T14:43:14.727Z","metadata":null,"next_step":null,"conditions":"@sys-time","event_name":"input","description":null,"dialog_node":"handler_20_1508941882428","previous_sibling":"handler_21_1508941882428"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please select movie time-11:00:00hours,15:00:00hours,20:00:00hours"],"selection_policy":"sequential"}},"parent":"slot_19_1508941882428","context":null,"created":"2017-10-25T14:43:15.224Z","updated":"2017-10-25T14:43:15.224Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_33_1508942588178","previous_sibling":"handler_20_1508941882428"},{"type":"event_handler","title":null,"output":{"text":"Please select preferred movie time-11:00:00hours,15:00:00hours,20:00:00hours"},"parent":"slot_19_1508941882428","context":null,"created":"2017-10-25T14:31:21.934Z","updated":"2017-10-25T14:52:54.577Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_21_1508941882428","previous_sibling":null},{"title":"Book Movie Ticket","output":{"text":{"values":["For which movie?(Currently only 3 movies-Spider-Man: Homecoming,Star Wars:The Last Jedi,Geostorm)"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-21T16:24:51.952Z","updated":"2017-10-25T14:20:41.008Z","metadata":null,"next_step":null,"conditions":"#book_ticket || @movie","description":null,"dialog_node":"node_3_1508603092392","previous_sibling":"node_1_1508603039324"},{"title":"Greetings","output":{"text":{"values":["Hello. I can help you with booking movie tickets!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-21T16:23:58.860Z","updated":"2017-10-21T16:26:42.943Z","metadata":null,"next_step":null,"conditions":"#greetings","description":null,"dialog_node":"node_1_1508603039324","previous_sibling":"Welcome"},{"title":"Thank You","output":{"text":{"values":["My pleasure!","Welcome!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-21T16:24:17.780Z","updated":"2017-10-21T16:26:58.372Z","metadata":null,"next_step":null,"conditions":"#thankyou","description":null,"dialog_node":"node_2_1508603058235","previous_sibling":"node_3_1508603092392"},{"title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-21T16:23:11.862Z","updated":"2017-10-21T16:23:11.862Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_2_1508603058235"},{"title":"Welcome","output":{"text":{"values":["Hello. I can help you with booking movie tickets!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-21T16:23:11.862Z","updated":"2017-10-21T16:24:10.804Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"dab719e4-c927-49f9-9fd7-5e571d77ec27","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Movie Ticket Booking Bot",
+	"created": "2017-10-21T16:14:29.308Z",
+	"intents": [{
+		"intent": "book_ticket",
+		"created": "2017-10-21T16:19:09.722Z",
+		"updated": "2017-10-25T14:19:53.217Z",
+		"examples": [{
+			"text": "make a booking",
+			"created": "2017-10-21T16:19:43.676Z",
+			"updated": "2017-10-21T16:19:43.676Z"
+		}, {
+			"text": "Please book ticket",
+			"created": "2017-10-21T16:19:14.649Z",
+			"updated": "2017-10-21T16:19:14.649Z"
+		}, {
+			"text": "Book ticket",
+			"created": "2017-10-21T16:19:16.922Z",
+			"updated": "2017-10-21T16:19:16.922Z"
+		}, {
+			"text": "reserve ticket",
+			"created": "2017-10-21T16:19:20.294Z",
+			"updated": "2017-10-21T16:19:20.294Z"
+		}, {
+			"text": "please reserve ticket",
+			"created": "2017-10-21T16:19:34.371Z",
+			"updated": "2017-10-21T16:19:34.371Z"
+		}, {
+			"text": "pls book ticket",
+			"created": "2017-10-25T14:19:53.217Z",
+			"updated": "2017-10-25T14:19:53.217Z"
+		}, {
+			"text": "reserve",
+			"created": "2017-10-21T16:22:15.510Z",
+			"updated": "2017-10-21T16:22:15.510Z"
+		}, {
+			"text": "book",
+			"created": "2017-10-21T16:22:13.602Z",
+			"updated": "2017-10-21T16:22:13.602Z"
+		}, {
+			"text": "make a reservation",
+			"created": "2017-10-21T16:19:49.468Z",
+			"updated": "2017-10-21T16:19:49.468Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greetings",
+		"created": "2017-10-21T16:18:00.503Z",
+		"updated": "2017-10-21T16:18:16.444Z",
+		"examples": [{
+			"text": "Hi there",
+			"created": "2017-10-21T16:18:04.881Z",
+			"updated": "2017-10-21T16:18:04.881Z"
+		}, {
+			"text": "Hello",
+			"created": "2017-10-21T16:18:06.224Z",
+			"updated": "2017-10-21T16:18:06.224Z"
+		}, {
+			"text": "Hey",
+			"created": "2017-10-21T16:18:08.401Z",
+			"updated": "2017-10-21T16:18:08.401Z"
+		}, {
+			"text": "Heyya",
+			"created": "2017-10-21T16:18:09.719Z",
+			"updated": "2017-10-21T16:18:09.719Z"
+		}, {
+			"text": "What's up?",
+			"created": "2017-10-21T16:18:16.444Z",
+			"updated": "2017-10-21T16:18:16.444Z"
+		}],
+		"description": null
+	}, {
+		"intent": "thankyou",
+		"created": "2017-10-21T16:18:35.107Z",
+		"updated": "2017-10-21T16:18:52.354Z",
+		"examples": [{
+			"text": "Thank",
+			"created": "2017-10-21T16:18:52.354Z",
+			"updated": "2017-10-21T16:18:52.354Z"
+		}, {
+			"text": "Thank you so much",
+			"created": "2017-10-21T16:18:48.316Z",
+			"updated": "2017-10-21T16:18:48.316Z"
+		}, {
+			"text": "Thank you very much",
+			"created": "2017-10-21T16:18:45.005Z",
+			"updated": "2017-10-21T16:18:45.005Z"
+		}, {
+			"text": "Thanks a lot",
+			"created": "2017-10-21T16:18:41.665Z",
+			"updated": "2017-10-21T16:18:41.665Z"
+		}, {
+			"text": "Thanks",
+			"created": "2017-10-21T16:18:38.127Z",
+			"updated": "2017-10-21T16:18:38.127Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-10-25T15:02:19.858Z",
+	"entities": [{
+		"entity": "sys-time",
+		"values": [],
+		"created": "2017-10-21T16:17:51.760Z",
+		"updated": "2017-10-21T16:17:51.760Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2017-10-21T16:17:51.337Z",
+		"updated": "2017-10-21T16:17:51.337Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-currency",
+		"values": [],
+		"created": "2017-10-21T16:17:51.837Z",
+		"updated": "2017-10-21T16:17:51.837Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-person",
+		"values": [],
+		"created": "2017-10-21T16:17:50.624Z",
+		"updated": "2017-10-21T16:17:50.624Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "movie",
+		"values": [{
+			"type": "synonyms",
+			"value": "movie",
+			"created": "2017-10-21T16:16:22.531Z",
+			"updated": "2017-10-21T16:17:36.898Z",
+			"metadata": null,
+			"synonyms": ["film", "cinema", "picture", "motion picture", "feature film", "entertainment"]
+		}],
+		"created": "2017-10-21T16:16:21.134Z",
+		"updated": "2017-10-21T16:17:36.898Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-date",
+		"values": [],
+		"created": "2017-10-21T16:17:51.833Z",
+		"updated": "2017-10-21T16:17:51.833Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "newyork-theater",
+		"values": [{
+			"type": "synonyms",
+			"value": "Sunshine Cinema",
+			"created": "2017-10-25T14:33:28.031Z",
+			"updated": "2017-10-25T14:33:32.100Z",
+			"metadata": null,
+			"synonyms": ["sunshine cinema"]
+		}, {
+			"type": "synonyms",
+			"value": "AMC 84th Street 6",
+			"created": "2017-10-25T14:33:04.240Z",
+			"updated": "2017-10-25T14:33:14.704Z",
+			"metadata": null,
+			"synonyms": ["AMC Theater"]
+		}],
+		"created": "2017-10-25T14:32:24.721Z",
+		"updated": "2017-10-25T14:33:32.100Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "losangeles-theater",
+		"values": [{
+			"type": "synonyms",
+			"value": "Regal Cinemas L.A. LIVE 14",
+			"created": "2017-10-25T14:34:21.118Z",
+			"updated": "2017-10-25T14:34:23.339Z",
+			"metadata": null,
+			"synonyms": ["Regal Cinemas"]
+		}, {
+			"type": "synonyms",
+			"value": "Eileen Norris Cinema Theatre",
+			"created": "2017-10-25T14:33:54.123Z",
+			"updated": "2017-10-25T14:34:07.742Z",
+			"metadata": null,
+			"synonyms": ["Eileen Norris"]
+		}],
+		"created": "2017-10-25T14:33:47.203Z",
+		"updated": "2017-10-25T14:34:23.339Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "india-theater",
+		"values": [{
+			"type": "synonyms",
+			"value": "INOX",
+			"created": "2017-10-25T14:35:11.203Z",
+			"updated": "2017-10-25T14:35:19.602Z",
+			"metadata": null,
+			"synonyms": ["inox"]
+		}, {
+			"type": "synonyms",
+			"value": "PVR cinemas",
+			"created": "2017-10-25T14:35:24.610Z",
+			"updated": "2017-10-25T14:35:27.498Z",
+			"metadata": null,
+			"synonyms": ["PVR"]
+		}],
+		"created": "2017-10-25T14:34:38.015Z",
+		"updated": "2017-10-25T14:35:27.498Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-location",
+		"values": [],
+		"created": "2017-10-21T16:17:51.830Z",
+		"updated": "2017-10-21T16:17:51.830Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-percentage",
+		"values": [],
+		"created": "2017-10-21T16:17:51.800Z",
+		"updated": "2017-10-21T16:17:51.800Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "movie-name",
+		"values": [{
+			"type": "synonyms",
+			"value": "Spider-Man: Homecoming",
+			"created": "2017-10-21T16:36:59.544Z",
+			"updated": "2017-10-21T16:41:21.718Z",
+			"metadata": null,
+			"synonyms": ["Spider-Man", "Spiderman", "SpiderMan2", "Spider-Man 3"]
+		}, {
+			"type": "synonyms",
+			"value": "Star Wars:The Last Jedi",
+			"created": "2017-10-21T16:41:38.527Z",
+			"updated": "2017-10-21T16:47:29.541Z",
+			"metadata": null,
+			"synonyms": ["Star Wars", "Star Wars:Force Awakens", "Star Wars:The Clone Wars"]
+		}, {
+			"type": "synonyms",
+			"value": "Geostorm",
+			"created": "2017-10-21T16:48:34.122Z",
+			"updated": "2017-10-21T16:48:43.898Z",
+			"metadata": null,
+			"synonyms": ["Geo storm"]
+		}],
+		"created": "2017-10-21T16:35:49.272Z",
+		"updated": "2017-10-21T16:48:43.898Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "A simple movie ticket booking bot",
+	"dialog_nodes": [{
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_50_1508942793120",
+		"context": {
+			"username": "@sys-person"
+		},
+		"created": "2017-10-25T14:46:32.896Z",
+		"updated": "2017-10-25T14:48:12.000Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-person",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_51_1508942793120",
+		"previous_sibling": "handler_52_1508942793120"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your name"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_50_1508942793120",
+		"context": null,
+		"created": "2017-10-25T14:48:12.727Z",
+		"updated": "2017-10-25T14:48:12.727Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_61_1508942887852",
+		"previous_sibling": "handler_51_1508942793120"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your name"
+		},
+		"parent": "slot_50_1508942793120",
+		"context": null,
+		"created": "2017-10-25T14:46:33.717Z",
+		"updated": "2017-10-25T14:48:11.224Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_52_1508942793120",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_36_1508942654371",
+		"context": {
+			"username": "@sys-person"
+		},
+		"created": "2017-10-25T14:44:14.335Z",
+		"updated": "2017-10-25T14:48:45.476Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-person",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_37_1508942654371",
+		"previous_sibling": "handler_38_1508942654371"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your name"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_36_1508942654371",
+		"context": null,
+		"created": "2017-10-25T14:44:47.880Z",
+		"updated": "2017-10-25T14:44:47.880Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_40_1508942682069",
+		"previous_sibling": "handler_37_1508942654371"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your name"
+		},
+		"parent": "slot_36_1508942654371",
+		"context": null,
+		"created": "2017-10-25T14:44:14.873Z",
+		"updated": "2017-10-25T14:44:46.904Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_38_1508942654371",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_34_1508605150998",
+		"context": {
+			"seats": "@sys-number"
+		},
+		"created": "2017-10-21T16:59:13.001Z",
+		"updated": "2017-10-21T16:59:43.027Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_35_1508605150998",
+		"previous_sibling": "handler_36_1508605150998"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["How many seats do you require?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_34_1508605150998",
+		"context": null,
+		"created": "2017-10-21T16:59:43.480Z",
+		"updated": "2017-10-21T16:59:43.480Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_38_1508605172756",
+		"previous_sibling": "handler_35_1508605150998"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "How many seats?"
+		},
+		"parent": "slot_34_1508605150998",
+		"context": null,
+		"created": "2017-10-21T16:59:13.477Z",
+		"updated": "2017-10-21T16:59:42.587Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_36_1508605150998",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter preferred date"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_5_1508603344632",
+		"context": null,
+		"created": "2017-10-21T16:35:03.407Z",
+		"updated": "2017-10-21T16:35:03.407Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_14_1508603697085",
+		"previous_sibling": "handler_6_1508603344632"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_5_1508603344632",
+		"context": {
+			"movieDate": "@sys-date"
+		},
+		"created": "2017-10-21T16:29:05.882Z",
+		"updated": "2017-10-21T17:09:22.911Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-date",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_6_1508603344632",
+		"previous_sibling": "handler_7_1508603344632"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter preferred date"
+		},
+		"parent": "slot_5_1508603344632",
+		"context": null,
+		"created": "2017-10-21T16:29:06.342Z",
+		"updated": "2017-10-21T16:35:02.508Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_7_1508603344632",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_25_1508942534695",
+		"context": {
+			"mobnumber": "@sys-number"
+		},
+		"created": "2017-10-25T14:42:13.802Z",
+		"updated": "2017-10-25T14:42:40.952Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_26_1508942534695",
+		"previous_sibling": "handler_27_1508942534695"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your mobile number"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_25_1508942534695",
+		"context": null,
+		"created": "2017-10-25T14:42:41.497Z",
+		"updated": "2017-10-25T14:42:41.497Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_29_1508942555687",
+		"previous_sibling": "handler_26_1508942534695"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your mobile number"
+		},
+		"parent": "slot_25_1508942534695",
+		"context": null,
+		"created": "2017-10-25T14:42:14.308Z",
+		"updated": "2017-10-25T14:42:40.188Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_27_1508942534695",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508941403234",
+		"context": null,
+		"created": "2017-10-25T14:44:49.651Z",
+		"updated": "2017-10-25T14:45:37.704Z",
+		"metadata": null,
+		"variable": "$mobnumber",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_41_1508942691186",
+		"previous_sibling": "slot_36_1508942654371"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508941403234",
+		"context": null,
+		"created": "2017-10-25T14:44:13.723Z",
+		"updated": "2017-10-25T14:48:44.983Z",
+		"metadata": null,
+		"variable": "$username",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_36_1508942654371",
+		"previous_sibling": "slot_13_1508941846569"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508941403234",
+		"context": null,
+		"created": "2017-10-25T14:30:45.454Z",
+		"updated": "2017-10-25T14:45:53.519Z",
+		"metadata": null,
+		"variable": "$movietime",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_13_1508941846569",
+		"previous_sibling": "slot_10_1508941836191"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508941403234",
+		"context": null,
+		"created": "2017-10-25T14:30:35.556Z",
+		"updated": "2017-10-25T14:51:25.626Z",
+		"metadata": null,
+		"variable": "$losangelestheater",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_10_1508941836191",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_41_1508942691186",
+		"context": {
+			"mobnumber": "@sys-number"
+		},
+		"created": "2017-10-25T14:44:50.183Z",
+		"updated": "2017-10-25T14:45:38.319Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_42_1508942691186",
+		"previous_sibling": "handler_43_1508942691186"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your mobile number"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_41_1508942691186",
+		"context": null,
+		"created": "2017-10-25T14:45:38.887Z",
+		"updated": "2017-10-25T14:45:38.887Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_45_1508942733845",
+		"previous_sibling": "handler_42_1508942691186"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your mobile number"
+		},
+		"parent": "slot_41_1508942691186",
+		"context": null,
+		"created": "2017-10-25T14:44:50.682Z",
+		"updated": "2017-10-25T14:45:37.831Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_43_1508942691186",
+		"previous_sibling": null
+	}, {
+		"type": "frame",
+		"title": "Location-Time-Theater",
+		"output": {
+			"text": {
+				"values": ["Thank You $username! Your request for booking $moviename $movieDate $movietime has been completed. Tickets will be send to your registered mobile number!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1508603144606",
+		"context": null,
+		"created": "2017-10-25T14:15:15.158Z",
+		"updated": "2017-10-25T15:02:12.220Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "@sys-location:(New York)",
+		"description": null,
+		"dialog_node": "node_1_1508940916652",
+		"previous_sibling": "slot_5_1508603344632"
+	}, {
+		"type": "frame",
+		"title": "Location-Time-Theater",
+		"output": {
+			"text": {
+				"values": ["Thank You $username! Your request for booking $moviename $movieDate $movietime has been completed. Tickets will be send to your registered mobile number!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1508603144606",
+		"context": null,
+		"created": "2017-10-25T14:23:28.159Z",
+		"updated": "2017-10-25T14:49:53.745Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "@sys-location:India",
+		"description": null,
+		"dialog_node": "node_3_1508941409637",
+		"previous_sibling": "node_2_1508941403234"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_4_1508603144606",
+		"context": null,
+		"created": "2017-10-21T16:29:05.385Z",
+		"updated": "2017-10-21T17:09:22.466Z",
+		"metadata": null,
+		"variable": "$movieDate",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_5_1508603344632",
+		"previous_sibling": "slot_67_1508943343700"
+	}, {
+		"type": "frame",
+		"title": "Location-Time-Theater",
+		"output": {
+			"text": {
+				"values": ["Thank You $username! Your request for booking $moviename $movieDate $movietime has been completed . Tickets will be send to your registered mobile number!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1508603144606",
+		"context": null,
+		"created": "2017-10-25T14:23:21.879Z",
+		"updated": "2017-10-25T15:02:19.858Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "@sys-location:(Los Angeles)",
+		"description": null,
+		"dialog_node": "node_2_1508941403234",
+		"previous_sibling": "node_1_1508940916652"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_4_1508603144606",
+		"context": null,
+		"created": "2017-10-21T16:59:12.550Z",
+		"updated": "2017-10-21T16:59:42.568Z",
+		"metadata": null,
+		"variable": "$seats",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_34_1508605150998",
+		"previous_sibling": "node_3_1508941409637"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_4_1508603144606",
+		"context": null,
+		"created": "2017-10-25T14:55:43.299Z",
+		"updated": "2017-10-25T14:56:02.448Z",
+		"metadata": null,
+		"variable": "$moviename",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_67_1508943343700",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_67_1508943343700",
+		"context": null,
+		"created": "2017-10-25T14:55:44.324Z",
+		"updated": "2017-10-25T14:55:44.324Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_69_1508943343700",
+		"previous_sibling": "handler_68_1508943343700"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_67_1508943343700",
+		"context": {
+			"moviename": "@movie-name"
+		},
+		"created": "2017-10-25T14:55:43.808Z",
+		"updated": "2017-10-25T14:56:02.965Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@movie-name",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_68_1508943343700",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_4_1508941733302",
+		"context": {
+			"movietime": "@sys-time"
+		},
+		"created": "2017-10-25T14:28:53.577Z",
+		"updated": "2017-10-25T14:47:56.485Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_5_1508941733302",
+		"previous_sibling": "handler_6_1508941733302"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please select movie time-09:00:00hours,13:00:00hours,22:00:00hours"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_4_1508941733302",
+		"context": null,
+		"created": "2017-10-25T14:47:57.603Z",
+		"updated": "2017-10-25T14:47:57.603Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_59_1508942873111",
+		"previous_sibling": "handler_5_1508941733302"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please select movie time-09:00:00hours,13:00:00hours,22:00:00hours"
+		},
+		"parent": "slot_4_1508941733302",
+		"context": null,
+		"created": "2017-10-25T14:28:54.121Z",
+		"updated": "2017-10-25T14:47:55.937Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_6_1508941733302",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_53_1508942797632",
+		"context": {
+			"mobnumber": "@sys-number"
+		},
+		"created": "2017-10-25T14:46:37.806Z",
+		"updated": "2017-10-25T14:48:29.073Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_54_1508942797632",
+		"previous_sibling": "handler_55_1508942797632"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your mobile number"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_53_1508942797632",
+		"context": null,
+		"created": "2017-10-25T14:48:30.622Z",
+		"updated": "2017-10-25T14:48:30.622Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_63_1508942903299",
+		"previous_sibling": "handler_54_1508942797632"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your mobile number"
+		},
+		"parent": "slot_53_1508942797632",
+		"context": null,
+		"created": "2017-10-25T14:46:38.701Z",
+		"updated": "2017-10-25T14:48:28.215Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_55_1508942797632",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please select movie time-09:00:00hours,15:00:00hours,21:00:00hours"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_13_1508941846569",
+		"context": null,
+		"created": "2017-10-25T14:45:54.728Z",
+		"updated": "2017-10-25T14:45:54.728Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_47_1508942750010",
+		"previous_sibling": "handler_14_1508941846569"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_13_1508941846569",
+		"context": {
+			"movietime": "@sys-time"
+		},
+		"created": "2017-10-25T14:30:46.440Z",
+		"updated": "2017-10-25T14:45:54.173Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_14_1508941846569",
+		"previous_sibling": "handler_15_1508941846569"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please select movie time-09:00:00hours,15:00:00hours,21:00:00hours"
+		},
+		"parent": "slot_13_1508941846569",
+		"context": null,
+		"created": "2017-10-25T14:30:47.011Z",
+		"updated": "2017-10-25T14:45:53.548Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_15_1508941846569",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1508940916652",
+		"context": null,
+		"created": "2017-10-25T14:42:13.133Z",
+		"updated": "2017-10-25T14:42:38.325Z",
+		"metadata": null,
+		"variable": "$mobnumber",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_25_1508942534695",
+		"previous_sibling": "slot_22_1508942385842"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1508940916652",
+		"context": null,
+		"created": "2017-10-25T14:31:20.943Z",
+		"updated": "2017-10-25T14:43:14.151Z",
+		"metadata": null,
+		"variable": "$movietime",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_19_1508941882428",
+		"previous_sibling": "slot_16_1508941879007"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1508940916652",
+		"context": null,
+		"created": "2017-10-25T14:39:45.229Z",
+		"updated": "2017-10-25T14:48:54.452Z",
+		"metadata": null,
+		"variable": "$username",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_22_1508942385842",
+		"previous_sibling": "slot_19_1508941882428"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1508940916652",
+		"context": null,
+		"created": "2017-10-25T14:31:17.565Z",
+		"updated": "2017-10-25T14:52:43.054Z",
+		"metadata": null,
+		"variable": "$newyorktheater",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_16_1508941879007",
+		"previous_sibling": null
+	}, {
+		"type": "frame",
+		"title": "Movie Name-Date-Seats",
+		"output": {
+			"text": {
+				"values": ["Please enter location of your preference Booking open only for Los Angeles,New York and Indian theaters currently!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1508603092392",
+		"context": null,
+		"created": "2017-10-21T16:25:44.141Z",
+		"updated": "2017-10-25T14:56:09.466Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "@movie-name",
+		"description": null,
+		"dialog_node": "node_4_1508603144606",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_22_1508942385842",
+		"context": {
+			"username": "@sys-person"
+		},
+		"created": "2017-10-25T14:39:45.772Z",
+		"updated": "2017-10-25T14:48:55.272Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-person",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_23_1508942385842",
+		"previous_sibling": "handler_24_1508942385842"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your name"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_22_1508942385842",
+		"context": null,
+		"created": "2017-10-25T14:42:54.596Z",
+		"updated": "2017-10-25T14:42:54.596Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_31_1508942570764",
+		"previous_sibling": "handler_23_1508942385842"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your name"
+		},
+		"parent": "slot_22_1508942385842",
+		"context": null,
+		"created": "2017-10-25T14:39:46.357Z",
+		"updated": "2017-10-25T14:42:53.443Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_24_1508942385842",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_7_1508941808251",
+		"context": {
+			"indiatheater": "@india-theater"
+		},
+		"created": "2017-10-25T14:30:08.641Z",
+		"updated": "2017-10-25T14:47:37.000Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@india-theater",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_8_1508941808251",
+		"previous_sibling": "handler_9_1508941808251"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter preferred movie theater-INOX or PVR cinemas"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_7_1508941808251",
+		"context": null,
+		"created": "2017-10-25T14:47:37.495Z",
+		"updated": "2017-10-25T14:47:37.495Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_57_1508942852370",
+		"previous_sibling": "handler_8_1508941808251"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter preferred movie theater-INOX or PVR cinemas"
+		},
+		"parent": "slot_7_1508941808251",
+		"context": null,
+		"created": "2017-10-25T14:30:09.224Z",
+		"updated": "2017-10-25T14:47:36.513Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_9_1508941808251",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508941409637",
+		"context": null,
+		"created": "2017-10-25T14:46:36.222Z",
+		"updated": "2017-10-25T14:48:28.251Z",
+		"metadata": null,
+		"variable": "$mobnumber",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_53_1508942797632",
+		"previous_sibling": "slot_50_1508942793120"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508941409637",
+		"context": null,
+		"created": "2017-10-25T14:46:32.106Z",
+		"updated": "2017-10-25T14:48:11.164Z",
+		"metadata": null,
+		"variable": "$username",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_50_1508942793120",
+		"previous_sibling": "slot_4_1508941733302"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508941409637",
+		"context": null,
+		"created": "2017-10-25T14:28:52.876Z",
+		"updated": "2017-10-25T14:47:56.384Z",
+		"metadata": null,
+		"variable": "$movietime",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_4_1508941733302",
+		"previous_sibling": "slot_7_1508941808251"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508941409637",
+		"context": null,
+		"created": "2017-10-25T14:30:07.929Z",
+		"updated": "2017-10-25T14:47:35.677Z",
+		"metadata": null,
+		"variable": "$indiatheater",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_7_1508941808251",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_10_1508941836191",
+		"context": {
+			"losangelestheater": "@losangeles-theater"
+		},
+		"created": "2017-10-25T14:30:36.941Z",
+		"updated": "2017-10-25T14:51:26.997Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@losangeles-theater",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_11_1508941836191",
+		"previous_sibling": "handler_12_1508941836191"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter preferred movie theater from the list- Regal Cinemas L.A. LIVE 14,Eileen Norris Cinema Theatre"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_10_1508941836191",
+		"context": null,
+		"created": "2017-10-25T14:46:10.636Z",
+		"updated": "2017-10-25T14:51:27.554Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_49_1508942764739",
+		"previous_sibling": "handler_11_1508941836191"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter preferred movie theater from the list- Regal Cinemas L.A. LIVE 14,Eileen Norris Cinema Theatre"
+		},
+		"parent": "slot_10_1508941836191",
+		"context": null,
+		"created": "2017-10-25T14:30:39.400Z",
+		"updated": "2017-10-25T14:51:26.474Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_12_1508941836191",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter preferred movie theater from the list-Sunshine Cinema,AMC 84th Street 6"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_16_1508941879007",
+		"context": null,
+		"created": "2017-10-25T14:43:42.432Z",
+		"updated": "2017-10-25T14:52:45.044Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_35_1508942617150",
+		"previous_sibling": "handler_17_1508941879007"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_16_1508941879007",
+		"context": {
+			"newyorktheater": "@newyork-theater"
+		},
+		"created": "2017-10-25T14:31:18.160Z",
+		"updated": "2017-10-25T14:52:44.389Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@newyork-theater",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_17_1508941879007",
+		"previous_sibling": "handler_18_1508941879007"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter preferred movie theater from the list-Sunshine Cinema,AMC 84th Street 6"
+		},
+		"parent": "slot_16_1508941879007",
+		"context": null,
+		"created": "2017-10-25T14:31:18.896Z",
+		"updated": "2017-10-25T14:52:43.905Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_18_1508941879007",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_19_1508941882428",
+		"context": {
+			"movietime": "@sys-time"
+		},
+		"created": "2017-10-25T14:31:21.440Z",
+		"updated": "2017-10-25T14:43:14.727Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_20_1508941882428",
+		"previous_sibling": "handler_21_1508941882428"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please select movie time-11:00:00hours,15:00:00hours,20:00:00hours"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_19_1508941882428",
+		"context": null,
+		"created": "2017-10-25T14:43:15.224Z",
+		"updated": "2017-10-25T14:43:15.224Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_33_1508942588178",
+		"previous_sibling": "handler_20_1508941882428"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please select preferred movie time-11:00:00hours,15:00:00hours,20:00:00hours"
+		},
+		"parent": "slot_19_1508941882428",
+		"context": null,
+		"created": "2017-10-25T14:31:21.934Z",
+		"updated": "2017-10-25T14:52:54.577Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_21_1508941882428",
+		"previous_sibling": null
+	}, {
+		"title": "Book Movie Ticket",
+		"output": {
+			"text": {
+				"values": ["For which movie?(Currently only 3 movies-Spider-Man: Homecoming,Star Wars:The Last Jedi,Geostorm)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-21T16:24:51.952Z",
+		"updated": "2017-10-25T14:20:41.008Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#book_ticket || @movie",
+		"description": null,
+		"dialog_node": "node_3_1508603092392",
+		"previous_sibling": "node_1_1508603039324"
+	}, {
+		"title": "Greetings",
+		"output": {
+			"text": {
+				"values": ["Hello. I can help you with booking movie tickets!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-21T16:23:58.860Z",
+		"updated": "2017-10-21T16:26:42.943Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "node_1_1508603039324",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "Thank You",
+		"output": {
+			"text": {
+				"values": ["My pleasure!", "Welcome!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-21T16:24:17.780Z",
+		"updated": "2017-10-21T16:26:58.372Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#thankyou",
+		"description": null,
+		"dialog_node": "node_2_1508603058235",
+		"previous_sibling": "node_3_1508603092392"
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-21T16:23:11.862Z",
+		"updated": "2017-10-21T16:23:11.862Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_2_1508603058235"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. I can help you with booking movie tickets!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-21T16:23:11.862Z",
+		"updated": "2017-10-21T16:24:10.804Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "dab719e4-c927-49f9-9fd7-5e571d77ec27",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

@@ -1,1 +1,2016 @@
-{"name":"Work Buddy","created":"2017-11-16T23:55:46.149Z","intents":[{"intent":"wellnessservice","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:04:58.223Z","examples":[{"text":"I want to do some exercise","created":"2017-11-17T19:04:35.734Z","updated":"2017-11-17T19:20:08.209Z"},{"text":"I want to schedule a massage session","created":"2017-11-17T19:04:35.734Z","updated":"2017-11-17T19:17:11.264Z"},{"text":"I want to book a pilates class","created":"2017-11-17T19:04:35.734Z","updated":"2017-11-17T19:16:02.924Z"},{"text":"i want to book a yoga class","created":"2017-11-17T19:04:35.734Z","updated":"2017-11-17T19:15:47.840Z"},{"text":"I want to see the wellness options","created":"2017-11-17T19:04:35.734Z","updated":"2017-11-19T04:04:58.223Z"},{"text":"I want to workout","created":"2017-11-19T04:04:37.785Z","updated":"2017-11-19T04:04:37.785Z"},{"text":"I want a wellness service","created":"2017-11-18T07:16:35.858Z","updated":"2017-11-18T07:16:35.858Z"},{"text":"I want to hit the gym","created":"2017-11-17T19:04:35.734Z","updated":"2017-11-17T19:20:47.461Z"}],"description":null},{"intent":"hello","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","examples":[{"text":"hello","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z"},{"text":"good morning","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z"},{"text":"howdy","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z"},{"text":"hi","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z"}],"description":null},{"intent":"goodbye","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T02:28:06.674Z","examples":[{"text":"good bye","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z"},{"text":"bye","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z"},{"text":"see you later","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z"},{"text":"I'm done","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z"},{"text":"bye bye","created":"2017-11-17T02:28:06.674Z","updated":"2017-11-17T02:28:06.674Z"}],"description":null},{"intent":"computerservice","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T19:29:06.915Z","examples":[{"text":"my laptop doesn't start","created":"2017-11-17T19:28:41.263Z","updated":"2017-11-17T19:28:41.263Z"},{"text":"i need to reset my password","created":"2017-11-17T19:29:06.915Z","updated":"2017-11-17T19:29:06.915Z"},{"text":"my workstation is not working","created":"2017-11-17T19:28:50.036Z","updated":"2017-11-17T19:28:50.036Z"},{"text":"my computer crashed","created":"2017-11-17T19:08:26.115Z","updated":"2017-11-17T19:26:09.364Z"},{"text":"i see blue screen on my laptop","created":"2017-11-17T19:08:26.115Z","updated":"2017-11-17T19:26:26.638Z"},{"text":"my password is expired","created":"2017-11-17T19:08:26.115Z","updated":"2017-11-17T19:26:58.283Z"},{"text":"my computer needs to be repaired","created":"2017-11-17T19:08:26.115Z","updated":"2017-11-17T19:28:17.496Z"}],"description":null},{"intent":"messagingservice","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T20:21:00.725Z","examples":[{"text":"I want to leave a note","created":"2017-11-17T20:14:07.790Z","updated":"2017-11-17T20:14:21.794Z"},{"text":"I want to message my manager","created":"2017-11-17T20:14:07.790Z","updated":"2017-11-17T20:14:37.801Z"},{"text":"I want to text my manager","created":"2017-11-17T20:14:07.790Z","updated":"2017-11-17T20:20:24.429Z"},{"text":"I want to leave a message","created":"2017-11-17T20:14:07.790Z","updated":"2017-11-17T20:21:00.725Z"}],"description":null},{"intent":"securityservice","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T00:00:39.650Z","examples":[{"text":"I forget to bring my badge","created":"2017-11-17T19:09:52.401Z","updated":"2017-11-17T19:10:20.408Z"},{"text":"I am locked out of my office","created":"2017-11-17T19:09:52.401Z","updated":"2017-11-17T19:11:53.289Z"},{"text":"I need security service","created":"2017-11-18T00:00:39.650Z","updated":"2017-11-18T00:00:39.650Z"},{"text":"I lost my office key","created":"2017-11-17T19:13:43.547Z","updated":"2017-11-17T19:13:43.547Z"},{"text":"l lost my badge","created":"2017-11-17T19:13:35.714Z","updated":"2017-11-17T19:13:35.714Z"},{"text":"I can't find my office key","created":"2017-11-17T19:13:25.530Z","updated":"2017-11-17T19:13:25.530Z"},{"text":"I can't my find my badge","created":"2017-11-17T19:12:47.923Z","updated":"2017-11-17T19:12:47.923Z"},{"text":"I forget to bring my office key","created":"2017-11-17T19:09:52.401Z","updated":"2017-11-17T19:12:13.245Z"}],"description":null}],"updated":"2017-11-19T04:55:05.765Z","entities":[{"entity":"sys-time","values":[],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","metadata":null,"description":null},{"entity":"yes","values":[{"type":"synonyms","value":"ok","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","metadata":null,"synonyms":["okay","sure","definitely","yes","yeah"]}],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"security","values":[{"type":"synonyms","value":"badge","created":"2017-11-17T19:59:14.827Z","updated":"2017-11-17T20:00:47.247Z","metadata":null,"synonyms":["ID card"]},{"type":"synonyms","value":"key","created":"2017-11-17T20:49:06.608Z","updated":"2017-11-17T20:49:06.608Z","metadata":null,"synonyms":["office key"]}],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T20:49:06.608Z","metadata":null,"description":null},{"entity":"message","values":[{"type":"synonyms","value":"text","created":"2017-11-17T20:21:15.095Z","updated":"2017-11-18T05:59:10.471Z","metadata":null,"synonyms":["note","notify","texting"]},{"type":"synonyms","value":"email","created":"2017-11-17T20:21:15.095Z","updated":"2017-11-17T20:31:32.832Z","metadata":null,"synonyms":["mail"]}],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T05:59:10.471Z","metadata":null,"description":null},{"entity":"no","values":[{"type":"synonyms","value":"no","created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:33:18.618Z","metadata":null,"synonyms":["none","nothing","zero","done","non","nay"]}],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:33:18.618Z","metadata":null,"description":null},{"entity":"sys-date","values":[],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","metadata":null,"description":null},{"entity":"wellness","values":[{"type":"synonyms","value":"gym","created":"2017-11-17T19:44:10.167Z","updated":"2017-11-18T07:11:13.774Z","metadata":null,"synonyms":["workout","weight training","weight lift","treadmill","weights"]},{"type":"synonyms","value":"pilates","created":"2017-11-17T19:44:10.167Z","updated":"2017-11-17T19:45:30.469Z","metadata":null,"synonyms":["stretch","core exercise"]},{"type":"synonyms","value":"massage","created":"2017-11-17T19:44:10.167Z","updated":"2017-11-17T19:50:04.611Z","metadata":null,"synonyms":["therapy"]},{"type":"synonyms","value":"yoga","created":"2017-11-17T19:44:10.167Z","updated":"2017-11-17T19:53:17.922Z","metadata":null,"synonyms":["spiritual practices","mental exercise"]}],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T07:11:13.774Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"workstation","values":[{"type":"synonyms","value":"password","created":"2017-11-18T06:13:52.701Z","updated":"2017-11-18T06:13:52.701Z","metadata":null,"synonyms":["secret code","passcode"]},{"type":"synonyms","value":"workstation","created":"2017-11-17T20:01:54.318Z","updated":"2017-11-17T20:02:16.411Z","metadata":null,"synonyms":["laptop","desktop","computer"]}],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T06:13:52.701Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"sys-number","values":[],"created":"2017-11-17T23:23:41.491Z","updated":"2017-11-17T23:23:41.491Z","metadata":null,"description":null},{"entity":"sys-person","values":[],"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"A simple enterprise workspace that answers common requests by employees ranging from security, workstation, to wellness services","dialog_nodes":[{"type":"event_handler","title":null,"output":{"text":"Please enter the time for the yoga class."},"parent":"slot_52_1510987203820","context":null,"created":"2017-11-18T06:40:00.129Z","updated":"2017-11-18T06:40:34.881Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_54_1510987203820","previous_sibling":"handler_53_1510987203820"},{"type":"event_handler","title":null,"output":null,"parent":"slot_52_1510987203820","context":{"yogatime":"@sys-time"},"created":"2017-11-18T06:39:59.811Z","updated":"2017-11-18T06:40:16.185Z","metadata":null,"next_step":null,"conditions":"@sys-time","event_name":"input","description":null,"dialog_node":"handler_53_1510987203820","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["\"42 Street\" is playing at the Alcazar Theatre. A brand new production!"]}},"parent":"node_18_1510796282705","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T20:50:56.851Z","disabled":true,"metadata":null,"next_step":null,"conditions":"$counter==2","description":null,"dialog_node":"node_20_1510796442556","previous_sibling":"node_19_1510796424306"},{"type":"response_condition","title":null,"output":{"text":{"values":["Okay, \"Aladdin\" is playing at the Orpheum Theatre. Excellent show!"]}},"parent":"node_18_1510796282705","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T20:50:56.649Z","disabled":true,"metadata":null,"next_step":null,"conditions":"$counter==1","description":null,"dialog_node":"node_19_1510796424306","previous_sibling":"slot_12_1510962047408"},{"type":"response_condition","title":null,"output":{"text":{"values":["\"Bright Star\" is playing at the Curran Theatre. A sweet bluegrass musical!"]}},"parent":"node_18_1510796282705","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T20:50:57.137Z","disabled":true,"metadata":null,"next_step":null,"conditions":"$counter>2","description":null,"dialog_node":"node_21_1510796451375","previous_sibling":"node_20_1510796442556"},{"type":"slot","title":null,"output":null,"parent":"node_18_1510796282705","context":null,"created":"2017-11-17T23:40:43.740Z","updated":"2017-11-17T23:41:38.029Z","metadata":null,"variable":"$officenumber","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_12_1510962047408","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"Please enter the date for the yoga class."},"parent":"slot_49_1510987141614","context":null,"created":"2017-11-18T06:39:00.925Z","updated":"2017-11-18T06:41:04.846Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_51_1510987141614","previous_sibling":"handler_50_1510987141614"},{"type":"event_handler","title":null,"output":null,"parent":"slot_49_1510987141614","context":{"yogadate":"@sys-date"},"created":"2017-11-18T06:38:58.531Z","updated":"2017-11-18T06:39:38.176Z","metadata":null,"next_step":null,"conditions":"@sys-date","event_name":"input","description":null,"dialog_node":"handler_50_1510987141614","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Please call 888-333-8888 to make a reservation for the on-site massage service."]}},"parent":"node_65_1510988566941","context":null,"created":"2017-11-18T07:07:21.811Z","updated":"2017-11-18T07:08:56.355Z","metadata":null,"next_step":null,"conditions":"@wellness:massage","description":null,"dialog_node":"node_67_1510988845955","previous_sibling":"node_66_1510988741813"},{"type":"response_condition","title":null,"output":{"text":{"values":["The gym opens 7 am to 7 pm. Enjoy the workout!"]}},"parent":"node_65_1510988566941","context":null,"created":"2017-11-18T07:05:36.987Z","updated":"2017-11-18T07:07:21.182Z","metadata":null,"next_step":null,"conditions":"@wellness:gym","description":null,"dialog_node":"node_66_1510988741813","previous_sibling":null},{"title":null,"output":{},"parent":"node_37_1510984304618","context":{"lastaction":"email"},"created":"2017-11-18T05:52:27.419Z","updated":"2017-11-18T06:18:42.066Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_39_1510984415295"},"conditions":null,"description":null,"dialog_node":"node_38_1510984351912","previous_sibling":null},{"title":null,"output":{"text":{"values":["Text is sent"],"selection_policy":"sequential"}},"parent":"node_20_1510965810119","context":null,"created":"2017-11-18T05:30:45.101Z","updated":"2017-11-18T05:55:47.618Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":"anything_else","description":null,"dialog_node":"node_35_1510983049582","previous_sibling":"node_34_1510981153747"},{"type":"slot","title":null,"output":null,"parent":"node_20_1510965810119","context":null,"created":"2017-11-18T04:55:56.945Z","updated":"2017-11-18T04:55:56.945Z","metadata":null,"variable":" ","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_29_1510980961507","previous_sibling":"node_35_1510983049582"},{"title":null,"output":{"text":{"values":["Something is wrong"],"selection_policy":"sequential"}},"parent":"node_20_1510965810119","context":null,"created":"2017-11-18T04:59:09.313Z","updated":"2017-11-18T05:44:47.009Z","metadata":null,"next_step":null,"conditions":"$name==null","description":null,"dialog_node":"node_34_1510981153747","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Sorry, I did not understand your message request."]}},"parent":"node_41_1510985045140","context":null,"created":"2017-11-19T04:28:34.942Z","updated":"2017-11-19T04:50:34.767Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_3_1511065720295","previous_sibling":"node_2_1511065705143"},{"type":"response_condition","title":null,"output":{"text":{"values":["Sure, you don't want to message your manager now."],"selection_policy":"sequential"}},"parent":"node_41_1510985045140","context":null,"created":"2017-11-19T04:28:19.876Z","updated":"2017-11-19T04:29:46.596Z","metadata":null,"next_step":null,"conditions":"@no","description":null,"dialog_node":"node_2_1511065705143","previous_sibling":null},{"title":null,"output":{},"parent":"node_47_1510986973099","context":null,"created":"2017-11-18T06:44:07.782Z","updated":"2017-11-18T06:47:48.106Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_47_1510986973099"},"conditions":"anything_else","description":null,"dialog_node":"node_55_1510987452346","previous_sibling":"node_48_1510987124098"},{"type":"frame","title":null,"output":{"text":{"values":["Great! Your Yoga class is booked at $yogatime $yogadate."],"selection_policy":"sequential"}},"parent":"node_47_1510986973099","context":null,"created":"2017-11-18T06:38:39.558Z","updated":"2017-11-18T07:27:44.043Z","metadata":{"fallback":"leave"},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":"@sys-date || @sys-time","description":null,"dialog_node":"node_48_1510987124098","previous_sibling":null},{"title":null,"output":{},"parent":"node_68_1510989315978","context":null,"created":"2017-11-18T07:23:15.053Z","updated":"2017-11-19T04:48:05.965Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510772352728"},"conditions":"anything_else","description":null,"dialog_node":"node_70_1510989799665","previous_sibling":"node_69_1510989431307"},{"title":null,"output":{},"parent":"node_68_1510989315978","context":null,"created":"2017-11-18T07:17:06.956Z","updated":"2017-11-18T07:19:55.092Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_47_1510986973099"},"conditions":"@wellness","description":null,"dialog_node":"node_69_1510989431307","previous_sibling":null},{"title":null,"output":{},"parent":"node_2_1510602817416","context":null,"created":"2017-11-17T22:16:23.997Z","updated":"2017-11-17T23:57:03.084Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_7_1510956987723","previous_sibling":"node_1_1510772352728"},{"type":"slot","title":null,"output":null,"parent":"node_2_1510602817416","context":null,"created":"2017-11-17T22:33:31.546Z","updated":"2017-11-17T22:34:02.205Z","metadata":null,"variable":"$name","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_9_1510958015132","previous_sibling":"node_7_1510956987723"},{"title":"Starting point","output":{"text":{"values":["I provide security, message, workstation, and wellness services. What would you like to request today, $name? You can simply describe the issue too."],"selection_policy":"sequential"}},"parent":"node_2_1510602817416","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:42:11.514Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_1_1510772352728","previous_sibling":null},{"title":null,"output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"node_71_1510991276902","context":{"lastaction":"text"},"created":"2017-11-18T00:43:26.148Z","updated":"2017-11-18T07:48:35.998Z","metadata":{"fallback":"leave"},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_34_1510981153747"},"conditions":"","description":null,"dialog_node":"node_20_1510965810119","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Sorry, I did not understand your security request."]}},"parent":"node_25_1510799607732","context":null,"created":"2017-11-19T04:31:17.800Z","updated":"2017-11-19T04:51:03.439Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_5_1511065883150","previous_sibling":"node_4_1511065870435"},{"type":"response_condition","title":null,"output":{"text":{"values":["Sure, you don't need a security service."],"selection_policy":"sequential"}},"parent":"node_25_1510799607732","context":null,"created":"2017-11-19T04:31:05.136Z","updated":"2017-11-19T04:31:54.239Z","metadata":null,"next_step":null,"conditions":"@no","description":null,"dialog_node":"node_4_1511065870435","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Sorry, I did not understand your wellness request."]}},"parent":"node_70_1510989799665","context":null,"created":"2017-11-19T04:44:59.078Z","updated":"2017-11-19T04:50:05.684Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_9_1511066704479","previous_sibling":"node_8_1511066699304"},{"type":"response_condition","title":null,"output":{"text":{"values":["Sure, you don't need a wellness service now."],"selection_policy":"sequential"}},"parent":"node_70_1510989799665","context":null,"created":"2017-11-19T04:44:53.914Z","updated":"2017-11-19T04:48:42.604Z","metadata":null,"next_step":null,"conditions":"@no","description":null,"dialog_node":"node_8_1511066699304","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_57_1510987981300","context":null,"created":"2017-11-18T06:57:25.958Z","updated":"2017-11-18T06:57:41.003Z","metadata":null,"variable":"$pilatestime","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_62_1510988249834","previous_sibling":"slot_59_1510988209868"},{"type":"slot","title":null,"output":null,"parent":"node_57_1510987981300","context":null,"created":"2017-11-18T06:56:45.186Z","updated":"2017-11-18T06:57:02.983Z","metadata":null,"variable":"$pilatesdate","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_59_1510988209868","previous_sibling":null},{"title":null,"output":{},"parent":"node_24_1510768966293","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:31:05.765Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510772352728"},"conditions":"anything_else","description":null,"dialog_node":"node_25_1510799607732","previous_sibling":"node_24_1510799355217"},{"title":null,"output":{},"parent":"node_24_1510768966293","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:51:18.665Z","metadata":{"fallback":"leave"},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_2_1510698028320"},"conditions":"@security","description":null,"dialog_node":"node_24_1510799355217","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"Please enter the time for your Pilates session."},"parent":"slot_62_1510988249834","context":null,"created":"2017-11-18T06:57:26.631Z","updated":"2017-11-18T06:58:04.574Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_64_1510988249834","previous_sibling":"handler_63_1510988249834"},{"type":"event_handler","title":null,"output":null,"parent":"slot_62_1510988249834","context":{"pilatestime":"@sys-time"},"created":"2017-11-18T06:57:26.321Z","updated":"2017-11-18T06:57:41.516Z","metadata":null,"next_step":null,"conditions":"@sys-time","event_name":"input","description":null,"dialog_node":"handler_63_1510988249834","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Please call 888-666-8888 to reset your password."]}},"parent":"node_42_1510985471224","context":null,"created":"2017-11-18T06:16:34.223Z","updated":"2017-11-18T06:17:50.577Z","metadata":null,"next_step":null,"conditions":"@workstation:password","description":null,"dialog_node":"node_44_1510985798189","previous_sibling":"node_43_1510985715667"},{"type":"response_condition","title":null,"output":{"text":{"values":["Please take your workstation to the desk side support at room 555."]}},"parent":"node_42_1510985471224","context":null,"created":"2017-11-18T06:15:10.957Z","updated":"2017-11-18T06:16:33.611Z","metadata":null,"next_step":null,"conditions":"@workstation:workstation","description":null,"dialog_node":"node_43_1510985715667","previous_sibling":null},{"title":"Wellness entry point","output":{"text":{"values":["Do you want to book a Yoga class, a Pilates session, an on-site massage, or just hit the gym?"],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-18T07:15:11.284Z","updated":"2017-11-19T04:46:02.053Z","metadata":null,"next_step":null,"conditions":"#wellnessservice && $name","description":null,"dialog_node":"node_68_1510989315978","previous_sibling":"node_65_1510988566941"},{"title":"Message entry point","output":{"text":{"values":["I can help you to text or email your manager right away. Please choose text or email."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:22:14.438Z","metadata":null,"next_step":null,"conditions":"#messagingservice && $name","description":null,"dialog_node":"node_17_1510713465934","previous_sibling":"node_37_1510984304618"},{"title":"Key service","output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T23:51:32.489Z","metadata":{"_customization":{"mcr":false}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_18_1510796282705"},"conditions":"@security:key && $name","description":null,"dialog_node":"node_5_1510700187397","previous_sibling":"node_2_1510698028320"},{"title":"Pilates appointment","output":{"text":{"values":["Okay, I will book an one-hour Pilates session for you. Please let me know the date and time."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-18T06:50:53.100Z","updated":"2017-11-18T07:29:23.013Z","metadata":null,"next_step":null,"conditions":"@wellness:pilates && $name","description":null,"dialog_node":"node_56_1510987857532","previous_sibling":"node_47_1510986973099"},{"title":null,"output":{"text":{"values":["I did not understand your request."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-17T22:23:58.935Z","updated":"2017-11-17T22:46:39.991Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510772352728"},"conditions":"anything_else","description":null,"dialog_node":"node_8_1510957442646","previous_sibling":"node_68_1510989315978"},{"title":"Email service","output":{"text":{"values":["Please enter the message you want to email to your manager."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-18T05:51:40.129Z","updated":"2017-11-18T05:57:47.900Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_38_1510984351912"},"conditions":"@message:email","description":null,"dialog_node":"node_37_1510984304618","previous_sibling":"node_71_1510991276902"},{"title":"Text service","output":{"text":{"values":["Please enter the message you want to text to your manager."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-18T07:47:52.419Z","updated":"2017-11-18T07:48:50.228Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_20_1510965810119"},"conditions":"@message:text","description":null,"dialog_node":"node_71_1510991276902","previous_sibling":"node_24_1510768966293"},{"title":"Workstation entry point","output":{"text":{"values":["I can help you with your workstation or a password issues. Please choose one."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:35:30.800Z","metadata":{"_customization":{"mcr":false}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_45_1510986018826"},"conditions":"#computerservice && $name","description":null,"dialog_node":"node_35_1510802712811","previous_sibling":"node_42_1510985471224"},{"title":"Yoga appointment","output":{"text":{"values":["Okay, I will book an on-site Yoga class for you. Please let me know the date and time."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-18T06:36:08.643Z","updated":"2017-11-18T07:02:55.965Z","metadata":null,"next_step":null,"conditions":"@wellness:yoga && $name","description":null,"dialog_node":"node_47_1510986973099","previous_sibling":"node_35_1510802712811"},{"title":"Gym and massage","output":{},"parent":"node_1_1510772352728","context":null,"created":"2017-11-18T07:02:42.431Z","updated":"2017-11-18T07:09:07.163Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":"@wellness:gym || @wellness:massage && $name","description":null,"dialog_node":"node_65_1510988566941","previous_sibling":"node_56_1510987857532"},{"title":"security entry point","output":{"text":{"values":["I can help you with your badge or office key issues. Please describe your issue."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:53:05.659Z","metadata":null,"next_step":null,"conditions":"#securityservice && $name","description":null,"dialog_node":"node_24_1510768966293","previous_sibling":"node_5_1510700187397"},{"title":"Workstation service","output":{},"parent":"node_1_1510772352728","context":null,"created":"2017-11-18T06:11:06.539Z","updated":"2017-11-18T06:18:03.826Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":"@workstation","description":null,"dialog_node":"node_42_1510985471224","previous_sibling":"node_17_1510713465934"},{"title":"Badge service","output":{"text":{"values":["Okay, please go to the security department. A temporary badge will be ready for you in 5 minutes."],"selection_policy":"sequential"}},"parent":"node_1_1510772352728","context":{"lastaction":"badge"},"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T04:32:49.693Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":"@security:badge && $name","description":null,"dialog_node":"node_2_1510698028320","previous_sibling":null},{"title":null,"output":{},"parent":"node_35_1510802712811","context":null,"created":"2017-11-18T06:23:11.456Z","updated":"2017-11-19T04:37:22.590Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510772352728"},"conditions":"anything_else","description":null,"dialog_node":"node_46_1510986196032","previous_sibling":"node_45_1510986018826"},{"type":"response_condition","title":null,"output":{"text":{"values":["Go check out the Fisherman's Wharf and have nice dinner!"]}},"parent":"node_35_1510802712811","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","disabled":true,"metadata":null,"next_step":null,"conditions":"$visittime >=  time(\"17:00:00\")","description":null,"dialog_node":"node_37_1510803061152","previous_sibling":"node_36_1510803024305"},{"type":"response_condition","title":null,"output":{"text":{"values":["Go walk on the beautiful Golden Gate Bridge when it's not too dark!"],"selection_policy":"sequential"}},"parent":"node_35_1510802712811","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","disabled":true,"metadata":null,"next_step":null,"conditions":"$visittime < time(\"17:00:00\")","description":null,"dialog_node":"node_36_1510803024305","previous_sibling":"node_46_1510986196032"},{"title":null,"output":{},"parent":"node_35_1510802712811","context":null,"created":"2017-11-18T06:20:14.025Z","updated":"2017-11-18T06:24:05.437Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_42_1510985471224"},"conditions":"@workstation","description":null,"dialog_node":"node_45_1510986018826","previous_sibling":null},{"title":null,"output":{},"parent":"node_56_1510987857532","context":null,"created":"2017-11-18T06:53:05.959Z","updated":"2017-11-18T06:53:23.677Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_56_1510987857532"},"conditions":"anything_else","description":null,"dialog_node":"node_58_1510987989941","previous_sibling":"node_57_1510987981300"},{"type":"frame","title":null,"output":{"text":{"values":["Excellent! Your one-hour Pilates session is booked at $pilatestime $pilatesdate."],"selection_policy":"sequential"}},"parent":"node_56_1510987857532","context":null,"created":"2017-11-18T06:52:57.390Z","updated":"2017-11-18T07:00:19.579Z","metadata":{"fallback":"leave"},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":"@sys-date || @sys-time","description":null,"dialog_node":"node_57_1510987981300","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"What is your name?"},"parent":"slot_9_1510958015132","context":null,"created":"2017-11-17T22:33:32.462Z","updated":"2017-11-19T04:46:38.784Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_11_1510958015132","previous_sibling":"handler_10_1510958015132"},{"type":"event_handler","title":null,"output":null,"parent":"slot_9_1510958015132","context":{"name":"@sys-person"},"created":"2017-11-17T22:33:32.154Z","updated":"2017-11-17T22:34:02.885Z","metadata":null,"next_step":null,"conditions":"@sys-person","event_name":"input","description":null,"dialog_node":"handler_10_1510958015132","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"Please enter the date for your Pilates session."},"parent":"slot_59_1510988209868","context":null,"created":"2017-11-18T06:56:46.398Z","updated":"2017-11-18T06:57:45.808Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_61_1510988209868","previous_sibling":"handler_60_1510988209868"},{"type":"event_handler","title":null,"output":null,"parent":"slot_59_1510988209868","context":{"pilatesdate":"@sys-date"},"created":"2017-11-18T06:56:46.027Z","updated":"2017-11-18T06:57:03.268Z","metadata":null,"next_step":null,"conditions":"@sys-date","event_name":"input","description":null,"dialog_node":"handler_60_1510988209868","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"Please enter your office number"},"parent":"slot_12_1510962047408","context":null,"created":"2017-11-17T23:40:44.770Z","updated":"2017-11-17T23:41:57.869Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_14_1510962047408","previous_sibling":"handler_13_1510962047408"},{"type":"event_handler","title":null,"output":null,"parent":"slot_12_1510962047408","context":{"officenumber":"@sys-number"},"created":"2017-11-17T23:40:44.451Z","updated":"2017-11-17T23:41:38.500Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_13_1510962047408","previous_sibling":null},{"type":"frame","title":null,"output":{"text":{"values":[]}},"parent":"node_5_1510700187397","context":{"lastaction":"key"},"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T04:32:17.910Z","metadata":{"fallback":"leave","_customization":{"mcr":false}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_15_1510962517401"},"conditions":"","description":null,"dialog_node":"node_18_1510796282705","previous_sibling":"node_15_1510795720144"},{"title":null,"output":{"text":{"values":["Someone from the security department will meet you at office $officenumber in 10 minutes."],"selection_policy":"sequential"}},"parent":"node_5_1510700187397","context":null,"created":"2017-11-17T23:48:33.466Z","updated":"2017-11-18T07:34:16.566Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":null,"description":null,"dialog_node":"node_15_1510962517401","previous_sibling":"node_18_1510796282705"},{"type":"response_condition","title":null,"output":{"text":{"values":["\"42 Street\" is playing at the Alcazar Theatre. A brand new production!"]}},"parent":"node_5_1510700187397","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","disabled":true,"metadata":null,"next_step":null,"conditions":"$default_counter>2","description":null,"dialog_node":"node_14_1510795470584","previous_sibling":"node_13_1510795298209"},{"type":"response_condition","title":null,"output":{"text":{"values":["\"Bright Star\" is playing at the Curran Theatre. A sweet bluegrass musical!"]}},"parent":"node_5_1510700187397","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","disabled":true,"metadata":null,"next_step":null,"conditions":"$default_counter>2","description":null,"dialog_node":"node_15_1510795720144","previous_sibling":"node_14_1510795470584"},{"type":"response_condition","title":null,"output":{"text":{"values":["Okay, \"Aladdin\" is playing at the Orpheum Theatre. Excellent show!"],"selection_policy":"sequential"}},"parent":"node_5_1510700187397","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-16T23:55:46.149Z","disabled":true,"metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_13_1510795298209","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_48_1510987124098","context":null,"created":"2017-11-18T06:39:59.457Z","updated":"2017-11-18T06:40:15.809Z","metadata":null,"variable":"$yogatime","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_52_1510987203820","previous_sibling":"slot_49_1510987141614"},{"type":"slot","title":null,"output":null,"parent":"node_48_1510987124098","context":null,"created":"2017-11-18T06:38:57.589Z","updated":"2017-11-18T06:39:37.730Z","metadata":null,"variable":"$yogadate","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_49_1510987141614","previous_sibling":null},{"title":null,"output":{"text":{"values":["Your email is sent"],"selection_policy":"sequential"}},"parent":"node_38_1510984351912","context":null,"created":"2017-11-18T05:55:27.843Z","updated":"2017-11-18T05:56:25.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":"anything_else","description":null,"dialog_node":"node_40_1510984531982","previous_sibling":"node_39_1510984415295"},{"title":null,"output":{"text":{"values":["Something is wrong"],"selection_policy":"sequential"}},"parent":"node_38_1510984351912","context":null,"created":"2017-11-18T05:53:30.755Z","updated":"2017-11-18T05:55:23.080Z","metadata":null,"next_step":null,"conditions":"$name==null","description":null,"dialog_node":"node_39_1510984415295","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Sorry, I did not understand your workstation request."]}},"parent":"node_46_1510986196032","context":null,"created":"2017-11-19T04:36:36.531Z","updated":"2017-11-19T04:50:19.652Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_7_1511066201948","previous_sibling":"node_6_1511066164693"},{"type":"response_condition","title":null,"output":{"text":{"values":["Sure, you don't have a workstation issue."]}},"parent":"node_46_1510986196032","context":null,"created":"2017-11-19T04:35:59.290Z","updated":"2017-11-19T04:36:35.382Z","metadata":null,"next_step":null,"conditions":"@no","description":null,"dialog_node":"node_6_1511066164693","previous_sibling":null},{"title":"Done","output":{},"parent":"node_9_1510774726202","context":null,"created":"2017-11-19T04:08:19.522Z","updated":"2017-11-19T04:09:29.661Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510348749404"},"conditions":"@no","description":null,"dialog_node":"node_1_1511064504236","previous_sibling":"node_10_1510777303359"},{"title":null,"output":{},"parent":"node_9_1510774726202","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:10:03.797Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510774726202"},"conditions":"anything_else","description":null,"dialog_node":"node_11_1510777337209","previous_sibling":"node_1_1511064504236"},{"title":"Request again","output":{},"parent":"node_9_1510774726202","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T07:38:32.622Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510772352728"},"conditions":"@yes","description":null,"dialog_node":"node_10_1510777303359","previous_sibling":null},{"title":null,"output":{},"parent":"node_17_1510713465934","context":null,"created":"2017-11-18T06:04:00.581Z","updated":"2017-11-19T04:28:20.617Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510772352728"},"conditions":"anything_else","description":null,"dialog_node":"node_41_1510985045140","previous_sibling":"node_20_1510713904012"},{"title":null,"output":{},"parent":"node_17_1510713465934","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:55:05.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_71_1510991276902"},"conditions":"@message","description":null,"dialog_node":"node_20_1510713904012","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["I didn't understand.","Can you reword your statement? I'm not understanding. I can help find activities in sports, museum, music events or parks.","I didn't get your meaning.  I can help find activities in sports, museum, music events or parks."],"selection_policy":"sequential"}},"parent":"Anything else","context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T07:39:17.788Z","disabled":true,"metadata":null,"next_step":null,"conditions":"$name!=null","description":null,"dialog_node":"node_38_1510868251698","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_29_1510980961507","context":null,"created":"2017-11-18T04:55:57.676Z","updated":"2017-11-18T04:55:57.676Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_31_1510980961507","previous_sibling":"handler_30_1510980961507"},{"type":"event_handler","title":null,"output":null,"parent":"slot_29_1510980961507","context":null,"created":"2017-11-18T04:55:57.404Z","updated":"2017-11-18T04:55:57.404Z","metadata":null,"next_step":null,"conditions":null,"event_name":"input","description":null,"dialog_node":"handler_30_1510980961507","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_16_1510963392134","context":null,"created":"2017-11-18T00:03:09.915Z","updated":"2017-11-18T00:03:09.915Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_18_1510963392134","previous_sibling":"handler_17_1510963392134"},{"type":"event_handler","title":null,"output":null,"parent":"slot_16_1510963392134","context":null,"created":"2017-11-18T00:03:09.640Z","updated":"2017-11-18T00:03:09.640Z","metadata":null,"next_step":null,"conditions":null,"event_name":"input","description":null,"dialog_node":"handler_17_1510963392134","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_24_1510799355217","context":null,"created":"2017-11-18T00:03:08.426Z","updated":"2017-11-18T00:03:08.426Z","metadata":null,"variable":" ","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_16_1510963392134","previous_sibling":null},{"type":"frame","title":"Collect name","output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":null,"context":{"lastaction":null},"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T07:42:47.164Z","metadata":{"fallback":"leave"},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510772352728"},"conditions":"","description":null,"dialog_node":"node_2_1510602817416","previous_sibling":"node_1_1510348643352"},{"title":"Anything else","output":{"text":{"values":["I didn't understand.","Can you reword your statement?","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T07:39:44.611Z","metadata":{"_customization":{"mcr":false}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510602817416"},"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_2_1510348749404"},{"title":"Another service or good bye","output":{"text":{"values":["Do you want to request another service?"],"selection_policy":"sequential"}},"parent":null,"context":{"officenumber":null},"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-18T00:11:22.566Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_9_1510774726202","previous_sibling":"node_2_1510602817416"},{"title":"Goodbye","output":{"text":{"values":["Okay, have a good day!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-19T04:07:41.143Z","metadata":null,"next_step":null,"conditions":"#goodbye","description":null,"dialog_node":"node_2_1510348749404","previous_sibling":"node_9_1510774726202"},{"title":"Welcome and hello","output":{"text":{"values":["Hi, I am your work buddy. Let's get started..."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T23:55:46.149Z","updated":"2017-11-17T19:32:08.947Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510602817416"},"conditions":"#hello || welcome","description":null,"dialog_node":"node_1_1510348643352","previous_sibling":null}],"workspace_id":"74a7e99e-070b-4f5d-b114-d9e0e5db4b0f","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Work Buddy",
+	"created": "2017-11-16T23:55:46.149Z",
+	"intents": [{
+		"intent": "wellnessservice",
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:04:58.223Z",
+		"examples": [{
+			"text": "I want to do some exercise",
+			"created": "2017-11-17T19:04:35.734Z",
+			"updated": "2017-11-17T19:20:08.209Z"
+		}, {
+			"text": "I want to schedule a massage session",
+			"created": "2017-11-17T19:04:35.734Z",
+			"updated": "2017-11-17T19:17:11.264Z"
+		}, {
+			"text": "I want to book a pilates class",
+			"created": "2017-11-17T19:04:35.734Z",
+			"updated": "2017-11-17T19:16:02.924Z"
+		}, {
+			"text": "i want to book a yoga class",
+			"created": "2017-11-17T19:04:35.734Z",
+			"updated": "2017-11-17T19:15:47.840Z"
+		}, {
+			"text": "I want to see the wellness options",
+			"created": "2017-11-17T19:04:35.734Z",
+			"updated": "2017-11-19T04:04:58.223Z"
+		}, {
+			"text": "I want to workout",
+			"created": "2017-11-19T04:04:37.785Z",
+			"updated": "2017-11-19T04:04:37.785Z"
+		}, {
+			"text": "I want a wellness service",
+			"created": "2017-11-18T07:16:35.858Z",
+			"updated": "2017-11-18T07:16:35.858Z"
+		}, {
+			"text": "I want to hit the gym",
+			"created": "2017-11-17T19:04:35.734Z",
+			"updated": "2017-11-17T19:20:47.461Z"
+		}],
+		"description": null
+	}, {
+		"intent": "hello",
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"examples": [{
+			"text": "hello",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z"
+		}, {
+			"text": "good morning",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z"
+		}, {
+			"text": "howdy",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z"
+		}, {
+			"text": "hi",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z"
+		}],
+		"description": null
+	}, {
+		"intent": "goodbye",
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T02:28:06.674Z",
+		"examples": [{
+			"text": "good bye",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z"
+		}, {
+			"text": "bye",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z"
+		}, {
+			"text": "see you later",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z"
+		}, {
+			"text": "I'm done",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z"
+		}, {
+			"text": "bye bye",
+			"created": "2017-11-17T02:28:06.674Z",
+			"updated": "2017-11-17T02:28:06.674Z"
+		}],
+		"description": null
+	}, {
+		"intent": "computerservice",
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T19:29:06.915Z",
+		"examples": [{
+			"text": "my laptop doesn't start",
+			"created": "2017-11-17T19:28:41.263Z",
+			"updated": "2017-11-17T19:28:41.263Z"
+		}, {
+			"text": "i need to reset my password",
+			"created": "2017-11-17T19:29:06.915Z",
+			"updated": "2017-11-17T19:29:06.915Z"
+		}, {
+			"text": "my workstation is not working",
+			"created": "2017-11-17T19:28:50.036Z",
+			"updated": "2017-11-17T19:28:50.036Z"
+		}, {
+			"text": "my computer crashed",
+			"created": "2017-11-17T19:08:26.115Z",
+			"updated": "2017-11-17T19:26:09.364Z"
+		}, {
+			"text": "i see blue screen on my laptop",
+			"created": "2017-11-17T19:08:26.115Z",
+			"updated": "2017-11-17T19:26:26.638Z"
+		}, {
+			"text": "my password is expired",
+			"created": "2017-11-17T19:08:26.115Z",
+			"updated": "2017-11-17T19:26:58.283Z"
+		}, {
+			"text": "my computer needs to be repaired",
+			"created": "2017-11-17T19:08:26.115Z",
+			"updated": "2017-11-17T19:28:17.496Z"
+		}],
+		"description": null
+	}, {
+		"intent": "messagingservice",
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T20:21:00.725Z",
+		"examples": [{
+			"text": "I want to leave a note",
+			"created": "2017-11-17T20:14:07.790Z",
+			"updated": "2017-11-17T20:14:21.794Z"
+		}, {
+			"text": "I want to message my manager",
+			"created": "2017-11-17T20:14:07.790Z",
+			"updated": "2017-11-17T20:14:37.801Z"
+		}, {
+			"text": "I want to text my manager",
+			"created": "2017-11-17T20:14:07.790Z",
+			"updated": "2017-11-17T20:20:24.429Z"
+		}, {
+			"text": "I want to leave a message",
+			"created": "2017-11-17T20:14:07.790Z",
+			"updated": "2017-11-17T20:21:00.725Z"
+		}],
+		"description": null
+	}, {
+		"intent": "securityservice",
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T00:00:39.650Z",
+		"examples": [{
+			"text": "I forget to bring my badge",
+			"created": "2017-11-17T19:09:52.401Z",
+			"updated": "2017-11-17T19:10:20.408Z"
+		}, {
+			"text": "I am locked out of my office",
+			"created": "2017-11-17T19:09:52.401Z",
+			"updated": "2017-11-17T19:11:53.289Z"
+		}, {
+			"text": "I need security service",
+			"created": "2017-11-18T00:00:39.650Z",
+			"updated": "2017-11-18T00:00:39.650Z"
+		}, {
+			"text": "I lost my office key",
+			"created": "2017-11-17T19:13:43.547Z",
+			"updated": "2017-11-17T19:13:43.547Z"
+		}, {
+			"text": "l lost my badge",
+			"created": "2017-11-17T19:13:35.714Z",
+			"updated": "2017-11-17T19:13:35.714Z"
+		}, {
+			"text": "I can't find my office key",
+			"created": "2017-11-17T19:13:25.530Z",
+			"updated": "2017-11-17T19:13:25.530Z"
+		}, {
+			"text": "I can't my find my badge",
+			"created": "2017-11-17T19:12:47.923Z",
+			"updated": "2017-11-17T19:12:47.923Z"
+		}, {
+			"text": "I forget to bring my office key",
+			"created": "2017-11-17T19:09:52.401Z",
+			"updated": "2017-11-17T19:12:13.245Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-19T04:55:05.765Z",
+	"entities": [{
+		"entity": "sys-time",
+		"values": [],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "yes",
+		"values": [{
+			"type": "synonyms",
+			"value": "ok",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-16T23:55:46.149Z",
+			"metadata": null,
+			"synonyms": ["okay", "sure", "definitely", "yes", "yeah"]
+		}],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "security",
+		"values": [{
+			"type": "synonyms",
+			"value": "badge",
+			"created": "2017-11-17T19:59:14.827Z",
+			"updated": "2017-11-17T20:00:47.247Z",
+			"metadata": null,
+			"synonyms": ["ID card"]
+		}, {
+			"type": "synonyms",
+			"value": "key",
+			"created": "2017-11-17T20:49:06.608Z",
+			"updated": "2017-11-17T20:49:06.608Z",
+			"metadata": null,
+			"synonyms": ["office key"]
+		}],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T20:49:06.608Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "message",
+		"values": [{
+			"type": "synonyms",
+			"value": "text",
+			"created": "2017-11-17T20:21:15.095Z",
+			"updated": "2017-11-18T05:59:10.471Z",
+			"metadata": null,
+			"synonyms": ["note", "notify", "texting"]
+		}, {
+			"type": "synonyms",
+			"value": "email",
+			"created": "2017-11-17T20:21:15.095Z",
+			"updated": "2017-11-17T20:31:32.832Z",
+			"metadata": null,
+			"synonyms": ["mail"]
+		}],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T05:59:10.471Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "no",
+		"values": [{
+			"type": "synonyms",
+			"value": "no",
+			"created": "2017-11-16T23:55:46.149Z",
+			"updated": "2017-11-19T04:33:18.618Z",
+			"metadata": null,
+			"synonyms": ["none", "nothing", "zero", "done", "non", "nay"]
+		}],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:33:18.618Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-date",
+		"values": [],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "wellness",
+		"values": [{
+			"type": "synonyms",
+			"value": "gym",
+			"created": "2017-11-17T19:44:10.167Z",
+			"updated": "2017-11-18T07:11:13.774Z",
+			"metadata": null,
+			"synonyms": ["workout", "weight training", "weight lift", "treadmill", "weights"]
+		}, {
+			"type": "synonyms",
+			"value": "pilates",
+			"created": "2017-11-17T19:44:10.167Z",
+			"updated": "2017-11-17T19:45:30.469Z",
+			"metadata": null,
+			"synonyms": ["stretch", "core exercise"]
+		}, {
+			"type": "synonyms",
+			"value": "massage",
+			"created": "2017-11-17T19:44:10.167Z",
+			"updated": "2017-11-17T19:50:04.611Z",
+			"metadata": null,
+			"synonyms": ["therapy"]
+		}, {
+			"type": "synonyms",
+			"value": "yoga",
+			"created": "2017-11-17T19:44:10.167Z",
+			"updated": "2017-11-17T19:53:17.922Z",
+			"metadata": null,
+			"synonyms": ["spiritual practices", "mental exercise"]
+		}],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T07:11:13.774Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "workstation",
+		"values": [{
+			"type": "synonyms",
+			"value": "password",
+			"created": "2017-11-18T06:13:52.701Z",
+			"updated": "2017-11-18T06:13:52.701Z",
+			"metadata": null,
+			"synonyms": ["secret code", "passcode"]
+		}, {
+			"type": "synonyms",
+			"value": "workstation",
+			"created": "2017-11-17T20:01:54.318Z",
+			"updated": "2017-11-17T20:02:16.411Z",
+			"metadata": null,
+			"synonyms": ["laptop", "desktop", "computer"]
+		}],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T06:13:52.701Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2017-11-17T23:23:41.491Z",
+		"updated": "2017-11-17T23:23:41.491Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-person",
+		"values": [],
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "A simple enterprise workspace that answers common requests by employees ranging from security, workstation, to wellness services",
+	"dialog_nodes": [{
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter the time for the yoga class."
+		},
+		"parent": "slot_52_1510987203820",
+		"context": null,
+		"created": "2017-11-18T06:40:00.129Z",
+		"updated": "2017-11-18T06:40:34.881Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_54_1510987203820",
+		"previous_sibling": "handler_53_1510987203820"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_52_1510987203820",
+		"context": {
+			"yogatime": "@sys-time"
+		},
+		"created": "2017-11-18T06:39:59.811Z",
+		"updated": "2017-11-18T06:40:16.185Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_53_1510987203820",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["\"42 Street\" is playing at the Alcazar Theatre. A brand new production!"]
+			}
+		},
+		"parent": "node_18_1510796282705",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T20:50:56.851Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$counter==2",
+		"description": null,
+		"dialog_node": "node_20_1510796442556",
+		"previous_sibling": "node_19_1510796424306"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay, \"Aladdin\" is playing at the Orpheum Theatre. Excellent show!"]
+			}
+		},
+		"parent": "node_18_1510796282705",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T20:50:56.649Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$counter==1",
+		"description": null,
+		"dialog_node": "node_19_1510796424306",
+		"previous_sibling": "slot_12_1510962047408"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["\"Bright Star\" is playing at the Curran Theatre. A sweet bluegrass musical!"]
+			}
+		},
+		"parent": "node_18_1510796282705",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T20:50:57.137Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$counter>2",
+		"description": null,
+		"dialog_node": "node_21_1510796451375",
+		"previous_sibling": "node_20_1510796442556"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_18_1510796282705",
+		"context": null,
+		"created": "2017-11-17T23:40:43.740Z",
+		"updated": "2017-11-17T23:41:38.029Z",
+		"metadata": null,
+		"variable": "$officenumber",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_12_1510962047408",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter the date for the yoga class."
+		},
+		"parent": "slot_49_1510987141614",
+		"context": null,
+		"created": "2017-11-18T06:39:00.925Z",
+		"updated": "2017-11-18T06:41:04.846Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_51_1510987141614",
+		"previous_sibling": "handler_50_1510987141614"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_49_1510987141614",
+		"context": {
+			"yogadate": "@sys-date"
+		},
+		"created": "2017-11-18T06:38:58.531Z",
+		"updated": "2017-11-18T06:39:38.176Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-date",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_50_1510987141614",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please call 888-333-8888 to make a reservation for the on-site massage service."]
+			}
+		},
+		"parent": "node_65_1510988566941",
+		"context": null,
+		"created": "2017-11-18T07:07:21.811Z",
+		"updated": "2017-11-18T07:08:56.355Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@wellness:massage",
+		"description": null,
+		"dialog_node": "node_67_1510988845955",
+		"previous_sibling": "node_66_1510988741813"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The gym opens 7 am to 7 pm. Enjoy the workout!"]
+			}
+		},
+		"parent": "node_65_1510988566941",
+		"context": null,
+		"created": "2017-11-18T07:05:36.987Z",
+		"updated": "2017-11-18T07:07:21.182Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@wellness:gym",
+		"description": null,
+		"dialog_node": "node_66_1510988741813",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_37_1510984304618",
+		"context": {
+			"lastaction": "email"
+		},
+		"created": "2017-11-18T05:52:27.419Z",
+		"updated": "2017-11-18T06:18:42.066Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_39_1510984415295"
+		},
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_38_1510984351912",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Text is sent"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_20_1510965810119",
+		"context": null,
+		"created": "2017-11-18T05:30:45.101Z",
+		"updated": "2017-11-18T05:55:47.618Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_35_1510983049582",
+		"previous_sibling": "node_34_1510981153747"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_20_1510965810119",
+		"context": null,
+		"created": "2017-11-18T04:55:56.945Z",
+		"updated": "2017-11-18T04:55:56.945Z",
+		"metadata": null,
+		"variable": " ",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_29_1510980961507",
+		"previous_sibling": "node_35_1510983049582"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Something is wrong"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_20_1510965810119",
+		"context": null,
+		"created": "2017-11-18T04:59:09.313Z",
+		"updated": "2017-11-18T05:44:47.009Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$name==null",
+		"description": null,
+		"dialog_node": "node_34_1510981153747",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorry, I did not understand your message request."]
+			}
+		},
+		"parent": "node_41_1510985045140",
+		"context": null,
+		"created": "2017-11-19T04:28:34.942Z",
+		"updated": "2017-11-19T04:50:34.767Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_3_1511065720295",
+		"previous_sibling": "node_2_1511065705143"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sure, you don't want to message your manager now."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_41_1510985045140",
+		"context": null,
+		"created": "2017-11-19T04:28:19.876Z",
+		"updated": "2017-11-19T04:29:46.596Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@no",
+		"description": null,
+		"dialog_node": "node_2_1511065705143",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_47_1510986973099",
+		"context": null,
+		"created": "2017-11-18T06:44:07.782Z",
+		"updated": "2017-11-18T06:47:48.106Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_47_1510986973099"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_55_1510987452346",
+		"previous_sibling": "node_48_1510987124098"
+	}, {
+		"type": "frame",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Great! Your Yoga class is booked at $yogatime $yogadate."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_47_1510986973099",
+		"context": null,
+		"created": "2017-11-18T06:38:39.558Z",
+		"updated": "2017-11-18T07:27:44.043Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": "@sys-date || @sys-time",
+		"description": null,
+		"dialog_node": "node_48_1510987124098",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_68_1510989315978",
+		"context": null,
+		"created": "2017-11-18T07:23:15.053Z",
+		"updated": "2017-11-19T04:48:05.965Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510772352728"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_70_1510989799665",
+		"previous_sibling": "node_69_1510989431307"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_68_1510989315978",
+		"context": null,
+		"created": "2017-11-18T07:17:06.956Z",
+		"updated": "2017-11-18T07:19:55.092Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_47_1510986973099"
+		},
+		"conditions": "@wellness",
+		"description": null,
+		"dialog_node": "node_69_1510989431307",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_2_1510602817416",
+		"context": null,
+		"created": "2017-11-17T22:16:23.997Z",
+		"updated": "2017-11-17T23:57:03.084Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_7_1510956987723",
+		"previous_sibling": "node_1_1510772352728"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1510602817416",
+		"context": null,
+		"created": "2017-11-17T22:33:31.546Z",
+		"updated": "2017-11-17T22:34:02.205Z",
+		"metadata": null,
+		"variable": "$name",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_9_1510958015132",
+		"previous_sibling": "node_7_1510956987723"
+	}, {
+		"title": "Starting point",
+		"output": {
+			"text": {
+				"values": ["I provide security, message, workstation, and wellness services. What would you like to request today, $name? You can simply describe the issue too."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510602817416",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:42:11.514Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_1_1510772352728",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_71_1510991276902",
+		"context": {
+			"lastaction": "text"
+		},
+		"created": "2017-11-18T00:43:26.148Z",
+		"updated": "2017-11-18T07:48:35.998Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_34_1510981153747"
+		},
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_20_1510965810119",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorry, I did not understand your security request."]
+			}
+		},
+		"parent": "node_25_1510799607732",
+		"context": null,
+		"created": "2017-11-19T04:31:17.800Z",
+		"updated": "2017-11-19T04:51:03.439Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_5_1511065883150",
+		"previous_sibling": "node_4_1511065870435"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sure, you don't need a security service."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_25_1510799607732",
+		"context": null,
+		"created": "2017-11-19T04:31:05.136Z",
+		"updated": "2017-11-19T04:31:54.239Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@no",
+		"description": null,
+		"dialog_node": "node_4_1511065870435",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorry, I did not understand your wellness request."]
+			}
+		},
+		"parent": "node_70_1510989799665",
+		"context": null,
+		"created": "2017-11-19T04:44:59.078Z",
+		"updated": "2017-11-19T04:50:05.684Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_9_1511066704479",
+		"previous_sibling": "node_8_1511066699304"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sure, you don't need a wellness service now."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_70_1510989799665",
+		"context": null,
+		"created": "2017-11-19T04:44:53.914Z",
+		"updated": "2017-11-19T04:48:42.604Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@no",
+		"description": null,
+		"dialog_node": "node_8_1511066699304",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_57_1510987981300",
+		"context": null,
+		"created": "2017-11-18T06:57:25.958Z",
+		"updated": "2017-11-18T06:57:41.003Z",
+		"metadata": null,
+		"variable": "$pilatestime",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_62_1510988249834",
+		"previous_sibling": "slot_59_1510988209868"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_57_1510987981300",
+		"context": null,
+		"created": "2017-11-18T06:56:45.186Z",
+		"updated": "2017-11-18T06:57:02.983Z",
+		"metadata": null,
+		"variable": "$pilatesdate",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_59_1510988209868",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_24_1510768966293",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:31:05.765Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510772352728"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_25_1510799607732",
+		"previous_sibling": "node_24_1510799355217"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_24_1510768966293",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:51:18.665Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_2_1510698028320"
+		},
+		"conditions": "@security",
+		"description": null,
+		"dialog_node": "node_24_1510799355217",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter the time for your Pilates session."
+		},
+		"parent": "slot_62_1510988249834",
+		"context": null,
+		"created": "2017-11-18T06:57:26.631Z",
+		"updated": "2017-11-18T06:58:04.574Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_64_1510988249834",
+		"previous_sibling": "handler_63_1510988249834"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_62_1510988249834",
+		"context": {
+			"pilatestime": "@sys-time"
+		},
+		"created": "2017-11-18T06:57:26.321Z",
+		"updated": "2017-11-18T06:57:41.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_63_1510988249834",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please call 888-666-8888 to reset your password."]
+			}
+		},
+		"parent": "node_42_1510985471224",
+		"context": null,
+		"created": "2017-11-18T06:16:34.223Z",
+		"updated": "2017-11-18T06:17:50.577Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@workstation:password",
+		"description": null,
+		"dialog_node": "node_44_1510985798189",
+		"previous_sibling": "node_43_1510985715667"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please take your workstation to the desk side support at room 555."]
+			}
+		},
+		"parent": "node_42_1510985471224",
+		"context": null,
+		"created": "2017-11-18T06:15:10.957Z",
+		"updated": "2017-11-18T06:16:33.611Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@workstation:workstation",
+		"description": null,
+		"dialog_node": "node_43_1510985715667",
+		"previous_sibling": null
+	}, {
+		"title": "Wellness entry point",
+		"output": {
+			"text": {
+				"values": ["Do you want to book a Yoga class, a Pilates session, an on-site massage, or just hit the gym?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-18T07:15:11.284Z",
+		"updated": "2017-11-19T04:46:02.053Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#wellnessservice && $name",
+		"description": null,
+		"dialog_node": "node_68_1510989315978",
+		"previous_sibling": "node_65_1510988566941"
+	}, {
+		"title": "Message entry point",
+		"output": {
+			"text": {
+				"values": ["I can help you to text or email your manager right away. Please choose text or email."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:22:14.438Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#messagingservice && $name",
+		"description": null,
+		"dialog_node": "node_17_1510713465934",
+		"previous_sibling": "node_37_1510984304618"
+	}, {
+		"title": "Key service",
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T23:51:32.489Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_18_1510796282705"
+		},
+		"conditions": "@security:key && $name",
+		"description": null,
+		"dialog_node": "node_5_1510700187397",
+		"previous_sibling": "node_2_1510698028320"
+	}, {
+		"title": "Pilates appointment",
+		"output": {
+			"text": {
+				"values": ["Okay, I will book an one-hour Pilates session for you. Please let me know the date and time."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-18T06:50:53.100Z",
+		"updated": "2017-11-18T07:29:23.013Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@wellness:pilates && $name",
+		"description": null,
+		"dialog_node": "node_56_1510987857532",
+		"previous_sibling": "node_47_1510986973099"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I did not understand your request."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-17T22:23:58.935Z",
+		"updated": "2017-11-17T22:46:39.991Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510772352728"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_8_1510957442646",
+		"previous_sibling": "node_68_1510989315978"
+	}, {
+		"title": "Email service",
+		"output": {
+			"text": {
+				"values": ["Please enter the message you want to email to your manager."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-18T05:51:40.129Z",
+		"updated": "2017-11-18T05:57:47.900Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_38_1510984351912"
+		},
+		"conditions": "@message:email",
+		"description": null,
+		"dialog_node": "node_37_1510984304618",
+		"previous_sibling": "node_71_1510991276902"
+	}, {
+		"title": "Text service",
+		"output": {
+			"text": {
+				"values": ["Please enter the message you want to text to your manager."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-18T07:47:52.419Z",
+		"updated": "2017-11-18T07:48:50.228Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_20_1510965810119"
+		},
+		"conditions": "@message:text",
+		"description": null,
+		"dialog_node": "node_71_1510991276902",
+		"previous_sibling": "node_24_1510768966293"
+	}, {
+		"title": "Workstation entry point",
+		"output": {
+			"text": {
+				"values": ["I can help you with your workstation or a password issues. Please choose one."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:35:30.800Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_45_1510986018826"
+		},
+		"conditions": "#computerservice && $name",
+		"description": null,
+		"dialog_node": "node_35_1510802712811",
+		"previous_sibling": "node_42_1510985471224"
+	}, {
+		"title": "Yoga appointment",
+		"output": {
+			"text": {
+				"values": ["Okay, I will book an on-site Yoga class for you. Please let me know the date and time."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-18T06:36:08.643Z",
+		"updated": "2017-11-18T07:02:55.965Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@wellness:yoga && $name",
+		"description": null,
+		"dialog_node": "node_47_1510986973099",
+		"previous_sibling": "node_35_1510802712811"
+	}, {
+		"title": "Gym and massage",
+		"output": {},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-18T07:02:42.431Z",
+		"updated": "2017-11-18T07:09:07.163Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": "@wellness:gym || @wellness:massage && $name",
+		"description": null,
+		"dialog_node": "node_65_1510988566941",
+		"previous_sibling": "node_56_1510987857532"
+	}, {
+		"title": "security entry point",
+		"output": {
+			"text": {
+				"values": ["I can help you with your badge or office key issues. Please describe your issue."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:53:05.659Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#securityservice && $name",
+		"description": null,
+		"dialog_node": "node_24_1510768966293",
+		"previous_sibling": "node_5_1510700187397"
+	}, {
+		"title": "Workstation service",
+		"output": {},
+		"parent": "node_1_1510772352728",
+		"context": null,
+		"created": "2017-11-18T06:11:06.539Z",
+		"updated": "2017-11-18T06:18:03.826Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": "@workstation",
+		"description": null,
+		"dialog_node": "node_42_1510985471224",
+		"previous_sibling": "node_17_1510713465934"
+	}, {
+		"title": "Badge service",
+		"output": {
+			"text": {
+				"values": ["Okay, please go to the security department. A temporary badge will be ready for you in 5 minutes."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510772352728",
+		"context": {
+			"lastaction": "badge"
+		},
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T04:32:49.693Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": "@security:badge && $name",
+		"description": null,
+		"dialog_node": "node_2_1510698028320",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_35_1510802712811",
+		"context": null,
+		"created": "2017-11-18T06:23:11.456Z",
+		"updated": "2017-11-19T04:37:22.590Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510772352728"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_46_1510986196032",
+		"previous_sibling": "node_45_1510986018826"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Go check out the Fisherman's Wharf and have nice dinner!"]
+			}
+		},
+		"parent": "node_35_1510802712811",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$visittime >=  time(\"17:00:00\")",
+		"description": null,
+		"dialog_node": "node_37_1510803061152",
+		"previous_sibling": "node_36_1510803024305"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Go walk on the beautiful Golden Gate Bridge when it's not too dark!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_35_1510802712811",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$visittime < time(\"17:00:00\")",
+		"description": null,
+		"dialog_node": "node_36_1510803024305",
+		"previous_sibling": "node_46_1510986196032"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_35_1510802712811",
+		"context": null,
+		"created": "2017-11-18T06:20:14.025Z",
+		"updated": "2017-11-18T06:24:05.437Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_42_1510985471224"
+		},
+		"conditions": "@workstation",
+		"description": null,
+		"dialog_node": "node_45_1510986018826",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_56_1510987857532",
+		"context": null,
+		"created": "2017-11-18T06:53:05.959Z",
+		"updated": "2017-11-18T06:53:23.677Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_56_1510987857532"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_58_1510987989941",
+		"previous_sibling": "node_57_1510987981300"
+	}, {
+		"type": "frame",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Excellent! Your one-hour Pilates session is booked at $pilatestime $pilatesdate."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_56_1510987857532",
+		"context": null,
+		"created": "2017-11-18T06:52:57.390Z",
+		"updated": "2017-11-18T07:00:19.579Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": "@sys-date || @sys-time",
+		"description": null,
+		"dialog_node": "node_57_1510987981300",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "What is your name?"
+		},
+		"parent": "slot_9_1510958015132",
+		"context": null,
+		"created": "2017-11-17T22:33:32.462Z",
+		"updated": "2017-11-19T04:46:38.784Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_11_1510958015132",
+		"previous_sibling": "handler_10_1510958015132"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_9_1510958015132",
+		"context": {
+			"name": "@sys-person"
+		},
+		"created": "2017-11-17T22:33:32.154Z",
+		"updated": "2017-11-17T22:34:02.885Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-person",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_10_1510958015132",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter the date for your Pilates session."
+		},
+		"parent": "slot_59_1510988209868",
+		"context": null,
+		"created": "2017-11-18T06:56:46.398Z",
+		"updated": "2017-11-18T06:57:45.808Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_61_1510988209868",
+		"previous_sibling": "handler_60_1510988209868"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_59_1510988209868",
+		"context": {
+			"pilatesdate": "@sys-date"
+		},
+		"created": "2017-11-18T06:56:46.027Z",
+		"updated": "2017-11-18T06:57:03.268Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-date",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_60_1510988209868",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your office number"
+		},
+		"parent": "slot_12_1510962047408",
+		"context": null,
+		"created": "2017-11-17T23:40:44.770Z",
+		"updated": "2017-11-17T23:41:57.869Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_14_1510962047408",
+		"previous_sibling": "handler_13_1510962047408"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_12_1510962047408",
+		"context": {
+			"officenumber": "@sys-number"
+		},
+		"created": "2017-11-17T23:40:44.451Z",
+		"updated": "2017-11-17T23:41:38.500Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_13_1510962047408",
+		"previous_sibling": null
+	}, {
+		"type": "frame",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_5_1510700187397",
+		"context": {
+			"lastaction": "key"
+		},
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T04:32:17.910Z",
+		"metadata": {
+			"fallback": "leave",
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_15_1510962517401"
+		},
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_18_1510796282705",
+		"previous_sibling": "node_15_1510795720144"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Someone from the security department will meet you at office $officenumber in 10 minutes."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510700187397",
+		"context": null,
+		"created": "2017-11-17T23:48:33.466Z",
+		"updated": "2017-11-18T07:34:16.566Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_15_1510962517401",
+		"previous_sibling": "node_18_1510796282705"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["\"42 Street\" is playing at the Alcazar Theatre. A brand new production!"]
+			}
+		},
+		"parent": "node_5_1510700187397",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$default_counter>2",
+		"description": null,
+		"dialog_node": "node_14_1510795470584",
+		"previous_sibling": "node_13_1510795298209"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["\"Bright Star\" is playing at the Curran Theatre. A sweet bluegrass musical!"]
+			}
+		},
+		"parent": "node_5_1510700187397",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$default_counter>2",
+		"description": null,
+		"dialog_node": "node_15_1510795720144",
+		"previous_sibling": "node_14_1510795470584"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay, \"Aladdin\" is playing at the Orpheum Theatre. Excellent show!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510700187397",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-16T23:55:46.149Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_13_1510795298209",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_48_1510987124098",
+		"context": null,
+		"created": "2017-11-18T06:39:59.457Z",
+		"updated": "2017-11-18T06:40:15.809Z",
+		"metadata": null,
+		"variable": "$yogatime",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_52_1510987203820",
+		"previous_sibling": "slot_49_1510987141614"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_48_1510987124098",
+		"context": null,
+		"created": "2017-11-18T06:38:57.589Z",
+		"updated": "2017-11-18T06:39:37.730Z",
+		"metadata": null,
+		"variable": "$yogadate",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_49_1510987141614",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Your email is sent"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_38_1510984351912",
+		"context": null,
+		"created": "2017-11-18T05:55:27.843Z",
+		"updated": "2017-11-18T05:56:25.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_40_1510984531982",
+		"previous_sibling": "node_39_1510984415295"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Something is wrong"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_38_1510984351912",
+		"context": null,
+		"created": "2017-11-18T05:53:30.755Z",
+		"updated": "2017-11-18T05:55:23.080Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$name==null",
+		"description": null,
+		"dialog_node": "node_39_1510984415295",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorry, I did not understand your workstation request."]
+			}
+		},
+		"parent": "node_46_1510986196032",
+		"context": null,
+		"created": "2017-11-19T04:36:36.531Z",
+		"updated": "2017-11-19T04:50:19.652Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_7_1511066201948",
+		"previous_sibling": "node_6_1511066164693"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sure, you don't have a workstation issue."]
+			}
+		},
+		"parent": "node_46_1510986196032",
+		"context": null,
+		"created": "2017-11-19T04:35:59.290Z",
+		"updated": "2017-11-19T04:36:35.382Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@no",
+		"description": null,
+		"dialog_node": "node_6_1511066164693",
+		"previous_sibling": null
+	}, {
+		"title": "Done",
+		"output": {},
+		"parent": "node_9_1510774726202",
+		"context": null,
+		"created": "2017-11-19T04:08:19.522Z",
+		"updated": "2017-11-19T04:09:29.661Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510348749404"
+		},
+		"conditions": "@no",
+		"description": null,
+		"dialog_node": "node_1_1511064504236",
+		"previous_sibling": "node_10_1510777303359"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_9_1510774726202",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:10:03.797Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510774726202"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_11_1510777337209",
+		"previous_sibling": "node_1_1511064504236"
+	}, {
+		"title": "Request again",
+		"output": {},
+		"parent": "node_9_1510774726202",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T07:38:32.622Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510772352728"
+		},
+		"conditions": "@yes",
+		"description": null,
+		"dialog_node": "node_10_1510777303359",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_17_1510713465934",
+		"context": null,
+		"created": "2017-11-18T06:04:00.581Z",
+		"updated": "2017-11-19T04:28:20.617Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510772352728"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_41_1510985045140",
+		"previous_sibling": "node_20_1510713904012"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_17_1510713465934",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:55:05.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_71_1510991276902"
+		},
+		"conditions": "@message",
+		"description": null,
+		"dialog_node": "node_20_1510713904012",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand.", "Can you reword your statement? I'm not understanding. I can help find activities in sports, museum, music events or parks.", "I didn't get your meaning.  I can help find activities in sports, museum, music events or parks."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Anything else",
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T07:39:17.788Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$name!=null",
+		"description": null,
+		"dialog_node": "node_38_1510868251698",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_29_1510980961507",
+		"context": null,
+		"created": "2017-11-18T04:55:57.676Z",
+		"updated": "2017-11-18T04:55:57.676Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_31_1510980961507",
+		"previous_sibling": "handler_30_1510980961507"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_29_1510980961507",
+		"context": null,
+		"created": "2017-11-18T04:55:57.404Z",
+		"updated": "2017-11-18T04:55:57.404Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_30_1510980961507",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_16_1510963392134",
+		"context": null,
+		"created": "2017-11-18T00:03:09.915Z",
+		"updated": "2017-11-18T00:03:09.915Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_18_1510963392134",
+		"previous_sibling": "handler_17_1510963392134"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_16_1510963392134",
+		"context": null,
+		"created": "2017-11-18T00:03:09.640Z",
+		"updated": "2017-11-18T00:03:09.640Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_17_1510963392134",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_24_1510799355217",
+		"context": null,
+		"created": "2017-11-18T00:03:08.426Z",
+		"updated": "2017-11-18T00:03:08.426Z",
+		"metadata": null,
+		"variable": " ",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_16_1510963392134",
+		"previous_sibling": null
+	}, {
+		"type": "frame",
+		"title": "Collect name",
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"lastaction": null
+		},
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T07:42:47.164Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510772352728"
+		},
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_2_1510602817416",
+		"previous_sibling": "node_1_1510348643352"
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand.", "Can you reword your statement?", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T07:39:44.611Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510602817416"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_2_1510348749404"
+	}, {
+		"title": "Another service or good bye",
+		"output": {
+			"text": {
+				"values": ["Do you want to request another service?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"officenumber": null
+		},
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-18T00:11:22.566Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_9_1510774726202",
+		"previous_sibling": "node_2_1510602817416"
+	}, {
+		"title": "Goodbye",
+		"output": {
+			"text": {
+				"values": ["Okay, have a good day!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-19T04:07:41.143Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#goodbye",
+		"description": null,
+		"dialog_node": "node_2_1510348749404",
+		"previous_sibling": "node_9_1510774726202"
+	}, {
+		"title": "Welcome and hello",
+		"output": {
+			"text": {
+				"values": ["Hi, I am your work buddy. Let's get started..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T23:55:46.149Z",
+		"updated": "2017-11-17T19:32:08.947Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510602817416"
+		},
+		"conditions": "#hello || welcome",
+		"description": null,
+		"dialog_node": "node_1_1510348643352",
+		"previous_sibling": null
+	}],
+	"workspace_id": "74a7e99e-070b-4f5d-b114-d9e0e5db4b0f",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

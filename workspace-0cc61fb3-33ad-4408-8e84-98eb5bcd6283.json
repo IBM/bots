@@ -1,1 +1,679 @@
-{"name":"ASEA Chatbot","created":"2017-11-28T12:46:02.385Z","intents":[{"intent":"MisionASEA","created":"2017-11-28T12:52:32.908Z","updated":"2017-11-28T12:52:52.822Z","examples":[{"text":"¿Cuál es la misión de ASEA?","created":"2017-11-28T12:52:52.822Z","updated":"2017-11-28T12:52:52.822Z"}],"description":null},{"intent":"Crowdfunding","created":"2017-11-28T13:14:59.985Z","updated":"2017-11-28T13:15:11.392Z","examples":[{"text":"¿Qué es Crowdfunding?","created":"2017-11-28T13:15:11.392Z","updated":"2017-11-28T13:15:11.392Z"}],"description":null},{"intent":"QueEsSASLey","created":"2017-11-28T13:10:58.899Z","updated":"2017-11-28T14:45:55.018Z","examples":[{"text":"¿Qué es una Sociedad por Acción Simplificada?","created":"2017-11-28T13:11:14.356Z","updated":"2017-11-28T13:11:14.356Z"},{"text":"¿Qué es SAS?","created":"2017-11-28T13:11:19.339Z","updated":"2017-11-28T13:11:19.339Z"},{"text":"¿que es una SAS?","created":"2017-11-28T14:45:55.018Z","updated":"2017-11-28T14:45:55.018Z"}],"description":null},{"intent":"SASRegistro","created":"2017-11-28T14:52:09.115Z","updated":"2017-11-28T14:52:26.600Z","examples":[{"text":"Como registro mi sas","created":"2017-11-28T14:52:14.381Z","updated":"2017-11-28T14:52:14.381Z"},{"text":"Como registro mi startup","created":"2017-11-28T14:52:18.653Z","updated":"2017-11-28T14:52:18.653Z"},{"text":"Como me inscribo a SAS","created":"2017-11-28T14:52:23.397Z","updated":"2017-11-28T14:52:23.397Z"},{"text":"Como registro mi empresa","created":"2017-11-28T14:52:26.600Z","updated":"2017-11-28T14:52:26.600Z"}],"description":null},{"intent":"HaceteSocio","created":"2017-11-28T13:31:16.503Z","updated":"2017-11-29T20:41:30.524Z","examples":[{"text":"¿Cómo me hago socio?","created":"2017-11-28T13:31:26.705Z","updated":"2017-11-28T13:31:26.705Z"},{"text":"Quiero hacerme socio","created":"2017-11-28T13:31:28.799Z","updated":"2017-11-28T13:31:28.799Z"},{"text":"que necesito para estar en asea?","created":"2017-11-29T20:41:30.524Z","updated":"2017-11-29T20:41:30.524Z"}],"description":null},{"intent":"RequisitosASEA","created":"2017-11-28T12:53:16.194Z","updated":"2017-11-28T12:53:34.458Z","examples":[{"text":"¿Cuáles son los requisitos para entrar en ASEA?","created":"2017-11-28T12:53:24.927Z","updated":"2017-11-28T12:53:24.927Z"},{"text":"Quiero ser miembro de ASEA","created":"2017-11-28T12:53:34.458Z","updated":"2017-11-28T12:53:34.458Z"}],"description":null},{"intent":"EmbajadoresASEA","created":"2017-11-28T14:18:33.331Z","updated":"2017-11-28T14:24:36.541Z","examples":[{"text":"¿Quiénes son embajadores de ASEA?","created":"2017-11-28T14:18:43.526Z","updated":"2017-11-28T14:18:43.526Z"},{"text":"quienes son los embajadores","created":"2017-11-28T14:24:36.541Z","updated":"2017-11-28T14:24:36.541Z"}],"description":null},{"intent":"QueEsASEA","created":"2017-11-28T13:01:34.198Z","updated":"2017-11-28T13:01:40.889Z","examples":[{"text":"¿Qué es ASEA?","created":"2017-11-28T13:01:40.889Z","updated":"2017-11-28T13:01:40.889Z"}],"description":null},{"intent":"Watson","created":"2017-11-28T15:05:49.097Z","updated":"2017-12-22T15:35:50.782Z","examples":[{"text":"¿Quién sos?","created":"2017-11-28T15:05:58.275Z","updated":"2017-11-28T15:05:58.275Z"},{"text":"¿Sos Watson?","created":"2017-11-28T15:06:05.662Z","updated":"2017-11-28T15:06:05.662Z"},{"text":"¿Para quién trabajas?","created":"2017-11-28T15:06:29.039Z","updated":"2017-11-28T15:06:29.039Z"},{"text":"como te llamas?","created":"2017-11-28T15:10:04.524Z","updated":"2017-11-28T15:10:04.524Z"},{"text":"fhgfhgfhg","created":"2017-12-22T15:35:50.782Z","updated":"2017-12-22T15:35:50.782Z"}],"description":null},{"intent":"Mentoria","created":"2017-11-29T19:39:51.650Z","updated":"2017-11-29T19:40:44.338Z","examples":[{"text":"¿Tienen algún tipo de mentoría?","created":"2017-11-29T19:40:02.412Z","updated":"2017-11-29T19:40:02.412Z"},{"text":"Necesito mentoría","created":"2017-11-29T19:40:44.338Z","updated":"2017-11-29T19:40:44.338Z"}],"description":null},{"intent":"PorQueASEA","created":"2017-11-28T13:08:37.327Z","updated":"2017-11-28T13:08:51.849Z","examples":[{"text":"¿Por qué debería inscribirme a ASEA?","created":"2017-11-28T13:08:47.255Z","updated":"2017-11-28T13:08:47.255Z"},{"text":"¿Qué ventajas tengo con ASEA?","created":"2017-11-28T13:08:51.849Z","updated":"2017-11-28T13:08:51.849Z"}],"description":null},{"intent":"Eventos","created":"2017-11-29T20:12:34.888Z","updated":"2017-11-29T20:42:35.075Z","examples":[{"text":"quiero particiapar de alguna evento","created":"2017-11-29T20:12:42.856Z","updated":"2017-11-29T20:12:42.856Z"},{"text":"Como puedo participar de un evento","created":"2017-11-29T20:12:48.431Z","updated":"2017-11-29T20:12:48.431Z"},{"text":"Hola como hago para participar de los eventos","created":"2017-11-29T20:12:49.753Z","updated":"2017-11-29T20:12:49.753Z"},{"text":"Necesito saber sobre sus próximos eventos","created":"2017-11-29T20:42:35.075Z","updated":"2017-11-29T20:42:35.075Z"}],"description":null},{"intent":"QueEsCapitalSemillaLey","created":"2017-11-28T13:13:12.173Z","updated":"2017-11-28T13:13:22.279Z","examples":[{"text":"¿Qué es el Capital Semilla?","created":"2017-11-28T13:13:22.279Z","updated":"2017-11-28T13:13:22.279Z"}],"description":null}],"updated":"2017-12-22T15:36:06.717Z","entities":[{"entity":"Entidades","values":[{"type":"synonyms","value":"Herramientas varias","created":"2017-11-28T13:15:48.357Z","updated":"2017-11-28T14:48:41.427Z","metadata":null,"synonyms":["Crowdfunding","SAS"]},{"type":"synonyms","value":"LEY DE EMPRENDEDORES","created":"2017-11-28T12:58:40.804Z","updated":"2017-11-28T14:44:50.617Z","metadata":null,"synonyms":["Ley de Emprendedores","ley de apoyo al capital emprendedor","252/2017","decreto 252/2017","ley asea"]},{"type":"synonyms","value":"ASEA","created":"2017-11-28T12:51:46.481Z","updated":"2017-11-29T19:51:29.430Z","metadata":null,"synonyms":["Asociación de Emprendedores de Argentina","Asociación de Emprendedores","Embajadores ASEA","embajadores","mentoria"]}],"created":"2017-11-28T12:51:46.481Z","updated":"2017-11-29T19:51:29.430Z","metadata":null,"description":null},{"entity":"Provincias","values":[{"type":"synonyms","value":"Mendoza","created":"2017-11-28T14:20:04.623Z","updated":"2017-11-28T14:20:04.623Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Buenos Aires","created":"2017-11-28T14:20:07.203Z","updated":"2017-11-28T14:20:14.935Z","metadata":null,"synonyms":["Capital","CABA"]},{"type":"synonyms","value":"Cordoba","created":"2017-11-28T14:20:01.331Z","updated":"2017-11-28T14:20:01.331Z","metadata":null,"synonyms":[]}],"created":"2017-11-28T14:19:59.630Z","updated":"2017-11-28T14:20:14.935Z","metadata":null,"description":null}],"language":"es","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"standard","title":null,"output":{"text":{"values":["Es un préstamo a tasa cero."],"selection_policy":"sequential"}},"parent":"node_3_1511873792585","context":null,"created":"2017-11-28T13:13:35.244Z","updated":"2017-11-28T13:14:17.973Z","metadata":null,"next_step":null,"conditions":"#QueEsCapitalSemillaLey","description":null,"dialog_node":"node_7_1511874815676","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Es una red de financiación colectiva a través de internet para invertir en un proyecto.\n\nEn relación a la Ley de Emprendedores, será supervisado por la Comisión Nacional de Valores (CNV)."],"selection_policy":"sequential"}},"parent":"node_8_1511874928524","context":null,"created":"2017-11-28T13:16:43.479Z","updated":"2017-11-28T13:28:19.473Z","metadata":null,"next_step":null,"conditions":"#Crowdfunding","description":null,"dialog_node":"node_2_1511875003908","previous_sibling":"node_4_1511874017923"},{"type":"standard","title":null,"output":{"text":{"values":["Es una figura jurídica que permitirá formar tu empresa vía online en 24 horas, incluyendo la apertura de una cuenta bancaria en el acto y el CUIT."],"selection_policy":"sequential"}},"parent":"node_8_1511874928524","context":null,"created":"2017-11-28T13:00:17.464Z","updated":"2017-11-28T14:49:00.011Z","metadata":null,"next_step":null,"conditions":"#QueEsSASLey","description":null,"dialog_node":"node_4_1511874017923","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Tenemos embajadores en todas las provincias. ¿En qué provincia te interesa?"],"selection_policy":"sequential"}},"parent":"node_4_1511878734593","context":null,"created":"2017-11-28T14:32:21.480Z","updated":"2017-11-29T20:20:12.464Z","metadata":{},"next_step":null,"conditions":"!@Provincias","description":null,"dialog_node":"node_9_1511879541438","previous_sibling":"node_5_1511878777937"},{"type":"response_condition","title":null,"output":{"text":{"values":[]}},"parent":"node_4_1511878734593","context":null,"created":"2017-11-28T14:33:29.043Z","updated":"2017-11-28T14:37:11.732Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_10_1511879608276","previous_sibling":"node_9_1511879541438"},{"type":"standard","title":null,"output":{},"parent":"node_4_1511878734593","context":null,"created":"2017-11-28T14:19:37.968Z","updated":"2017-11-29T20:20:47.137Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"@Provincias >","description":null,"dialog_node":"node_5_1511878777937","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["En Córdoba tenemos a Menganito"]}},"parent":"node_5_1511878777937","context":null,"created":"2017-11-28T14:21:44.492Z","updated":"2017-11-28T14:21:57.250Z","metadata":null,"next_step":null,"conditions":"@Provincias:Cordoba","description":null,"dialog_node":"node_7_1511878904498","previous_sibling":"node_6_1511878884741"},{"type":"response_condition","title":null,"output":{"text":{"values":["En Mendoza tenemos a Chirulito"]}},"parent":"node_5_1511878777937","context":null,"created":"2017-11-28T14:21:57.334Z","updated":"2017-11-28T14:22:56.646Z","metadata":null,"next_step":null,"conditions":"@Provincias:Mendoza","description":null,"dialog_node":"node_8_1511878917342","previous_sibling":"node_7_1511878904498"},{"type":"response_condition","title":null,"output":{"text":{"values":["En Buenos Aires tenemos a Pirulito"]}},"parent":"node_5_1511878777937","context":null,"created":"2017-11-28T14:21:24.747Z","updated":"2017-11-29T20:21:01.166Z","metadata":{},"next_step":null,"conditions":"@Provincias:(Buenos Aires)","description":null,"dialog_node":"node_6_1511878884741","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2017-11-28T12:56:32.123Z","updated":"2017-11-28T13:04:10.223Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"@Entidades:(LEY DE EMPRENDEDORES)","description":null,"dialog_node":"node_3_1511873792585","previous_sibling":"node_3_1511986460062"},{"type":"standard","title":"#Eventos","output":{"text":{"values":["Podés seguirnos en nuestras redes sociales en las cuales comunicamos las actividades, eventos, concursos y capacitaciones más relevantes del ecosistema emprendedor."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-29T20:14:21.144Z","updated":"2017-11-29T20:40:42.720Z","metadata":{},"next_step":null,"conditions":"#Eventos","digress_in":"does_not_return","description":null,"dialog_node":"node_3_1511986460062","previous_sibling":"node_2_1511984929846"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2017-11-28T13:15:28.086Z","updated":"2017-11-28T13:16:46.952Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"@Entidades:(Herramientas varias)","description":null,"dialog_node":"node_8_1511874928524","previous_sibling":"node_3_1511873792585"},{"type":"standard","title":"En otras cosas","output":{"text":{"values":["No le he entendido. Intente reformular la consulta.","¿Puede expresarse con otras palabras? No le he entendido.","No entendí el significado."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-11-28T12:49:58.582Z","updated":"2017-11-28T13:00:40.253Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"En otras cosas","previous_sibling":"node_1_1511984688909"},{"type":"standard","title":null,"output":{"text":{"values":["Soy una maquinita"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-29T19:44:49.241Z","updated":"2017-11-29T19:45:02.441Z","metadata":{},"next_step":null,"conditions":"#Watson","description":null,"dialog_node":"node_1_1511984688909","previous_sibling":"node_8_1511874928524"},{"type":"standard","title":null,"output":{"text":{"values":["Estate atento a nuestros eventos y/o webinars que publicamos en Facebook en donde vas a poder recibir diferentes mentorías."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-29T19:48:50.150Z","updated":"2017-11-29T20:40:30.939Z","metadata":{},"next_step":null,"conditions":"#Mentoria","digress_in":"does_not_return","description":null,"dialog_node":"node_2_1511984929846","previous_sibling":"node_4_1511878734593"},{"type":"standard","title":null,"output":{"text":{"values":["Para convertirte en miembro de ASEA no hace falta más que ser emprendedor que debe ser (o haber sido) fundador, cofundador o socio de un emprendimiento."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-28T12:54:30.576Z","updated":"2017-11-29T20:39:39.011Z","metadata":{},"next_step":null,"conditions":"#RequisitosASEA","digress_in":"does_not_return","description":null,"dialog_node":"node_2_1511873671079","previous_sibling":"Bienvenido"},{"type":"standard","title":null,"output":{"text":{"values":["Para hacerte socio, podes entrar al siguiente link: https://asea.typeform.com/to/uldKeO"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-28T13:31:36.284Z","updated":"2017-11-29T20:40:03.000Z","metadata":{},"next_step":null,"conditions":"#HaceteSocio","digress_in":"does_not_return","description":null,"dialog_node":"node_3_1511875896677","previous_sibling":"node_6_1511874548810"},{"type":"standard","title":null,"output":{"text":{"values":["Porque somos una organización inclusiva que cree que en el emprendedurismo se encuentra la clave para el crecimiento de un país y que por lo tanto, todas las personas pueden emprender, sin importar diferencias y que emprender es un derecho y no un privilegio. \n\nPorque únicamente siendo miles podremos continuar siendo el interlocutor válido de los emprendedores."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-28T13:09:08.344Z","updated":"2017-11-29T20:39:50.616Z","metadata":{},"next_step":null,"conditions":"#PorQueASEA","digress_in":"does_not_return","description":null,"dialog_node":"node_6_1511874548810","previous_sibling":"node_2_1511873671079"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2017-11-28T14:18:54.617Z","updated":"2017-11-29T20:40:22.576Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_5_1511878777937"},"conditions":"#EmbajadoresASEA","digress_in":"does_not_return","description":null,"dialog_node":"node_4_1511878734593","previous_sibling":"node_5_1511874181604"},{"type":"standard","title":null,"output":{"text":{"values":["ASEA es una organización sin fines de lucro, formada por emprendedores y para emprendedores. \n\nSu misión principal es lograr que Argentina sea un mejor lugar para emprender, que resulte más ágil y sencillo llevar adelante proyectos y nuevos negocios. \n\nPara ello focalizamos establecer vínculos entre emprendedores de todas las provincias y de todo el continente Latinoamericano, escuchando sus demandas y proponiendo soluciones para que emprender sea más facil. \n\nASEA no es una asociación sindical ni un gremio ni responde a un partido político. \n\nASEA es parte de un movimiento latinoamericano disruptivo que vincula a todos los jugadores del ecosistema emprendedor. \n\nEn ASEA participan emprendedores, inversores, facilitadores y organizaciones que creen que trabajando juntos pueden cambiar el contexto para emprender tanto en Argentina como en Latinoamérica."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-28T13:03:01.168Z","updated":"2017-11-29T20:40:12.820Z","metadata":{},"next_step":null,"conditions":"#QueEsASEA","digress_in":"does_not_return","description":null,"dialog_node":"node_5_1511874181604","previous_sibling":"node_3_1511875896677"},{"type":"standard","title":"Bienvenido","output":{"text":{"values":["Hola. ¿Cómo puedo ayudarle?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-28T12:49:58.582Z","updated":"2017-11-29T20:35:02.692Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Bienvenido","previous_sibling":null}],"workspace_id":"0cc61fb3-33ad-4408-8e84-98eb5bcd6283","counterexamples":[{"text":"fhgfhgfhg","created":"2017-12-22T15:36:06.717Z","updated":"2017-12-22T15:36:06.717Z"}],"learning_opt_out":false}
+{
+	"name": "ASEA Chatbot",
+	"created": "2017-11-28T12:46:02.385Z",
+	"intents": [{
+		"intent": "MisionASEA",
+		"created": "2017-11-28T12:52:32.908Z",
+		"updated": "2017-11-28T12:52:52.822Z",
+		"examples": [{
+			"text": "¿Cuál es la misión de ASEA?",
+			"created": "2017-11-28T12:52:52.822Z",
+			"updated": "2017-11-28T12:52:52.822Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Crowdfunding",
+		"created": "2017-11-28T13:14:59.985Z",
+		"updated": "2017-11-28T13:15:11.392Z",
+		"examples": [{
+			"text": "¿Qué es Crowdfunding?",
+			"created": "2017-11-28T13:15:11.392Z",
+			"updated": "2017-11-28T13:15:11.392Z"
+		}],
+		"description": null
+	}, {
+		"intent": "QueEsSASLey",
+		"created": "2017-11-28T13:10:58.899Z",
+		"updated": "2017-11-28T14:45:55.018Z",
+		"examples": [{
+			"text": "¿Qué es una Sociedad por Acción Simplificada?",
+			"created": "2017-11-28T13:11:14.356Z",
+			"updated": "2017-11-28T13:11:14.356Z"
+		}, {
+			"text": "¿Qué es SAS?",
+			"created": "2017-11-28T13:11:19.339Z",
+			"updated": "2017-11-28T13:11:19.339Z"
+		}, {
+			"text": "¿que es una SAS?",
+			"created": "2017-11-28T14:45:55.018Z",
+			"updated": "2017-11-28T14:45:55.018Z"
+		}],
+		"description": null
+	}, {
+		"intent": "SASRegistro",
+		"created": "2017-11-28T14:52:09.115Z",
+		"updated": "2017-11-28T14:52:26.600Z",
+		"examples": [{
+			"text": "Como registro mi sas",
+			"created": "2017-11-28T14:52:14.381Z",
+			"updated": "2017-11-28T14:52:14.381Z"
+		}, {
+			"text": "Como registro mi startup",
+			"created": "2017-11-28T14:52:18.653Z",
+			"updated": "2017-11-28T14:52:18.653Z"
+		}, {
+			"text": "Como me inscribo a SAS",
+			"created": "2017-11-28T14:52:23.397Z",
+			"updated": "2017-11-28T14:52:23.397Z"
+		}, {
+			"text": "Como registro mi empresa",
+			"created": "2017-11-28T14:52:26.600Z",
+			"updated": "2017-11-28T14:52:26.600Z"
+		}],
+		"description": null
+	}, {
+		"intent": "HaceteSocio",
+		"created": "2017-11-28T13:31:16.503Z",
+		"updated": "2017-11-29T20:41:30.524Z",
+		"examples": [{
+			"text": "¿Cómo me hago socio?",
+			"created": "2017-11-28T13:31:26.705Z",
+			"updated": "2017-11-28T13:31:26.705Z"
+		}, {
+			"text": "Quiero hacerme socio",
+			"created": "2017-11-28T13:31:28.799Z",
+			"updated": "2017-11-28T13:31:28.799Z"
+		}, {
+			"text": "que necesito para estar en asea?",
+			"created": "2017-11-29T20:41:30.524Z",
+			"updated": "2017-11-29T20:41:30.524Z"
+		}],
+		"description": null
+	}, {
+		"intent": "RequisitosASEA",
+		"created": "2017-11-28T12:53:16.194Z",
+		"updated": "2017-11-28T12:53:34.458Z",
+		"examples": [{
+			"text": "¿Cuáles son los requisitos para entrar en ASEA?",
+			"created": "2017-11-28T12:53:24.927Z",
+			"updated": "2017-11-28T12:53:24.927Z"
+		}, {
+			"text": "Quiero ser miembro de ASEA",
+			"created": "2017-11-28T12:53:34.458Z",
+			"updated": "2017-11-28T12:53:34.458Z"
+		}],
+		"description": null
+	}, {
+		"intent": "EmbajadoresASEA",
+		"created": "2017-11-28T14:18:33.331Z",
+		"updated": "2017-11-28T14:24:36.541Z",
+		"examples": [{
+			"text": "¿Quiénes son embajadores de ASEA?",
+			"created": "2017-11-28T14:18:43.526Z",
+			"updated": "2017-11-28T14:18:43.526Z"
+		}, {
+			"text": "quienes son los embajadores",
+			"created": "2017-11-28T14:24:36.541Z",
+			"updated": "2017-11-28T14:24:36.541Z"
+		}],
+		"description": null
+	}, {
+		"intent": "QueEsASEA",
+		"created": "2017-11-28T13:01:34.198Z",
+		"updated": "2017-11-28T13:01:40.889Z",
+		"examples": [{
+			"text": "¿Qué es ASEA?",
+			"created": "2017-11-28T13:01:40.889Z",
+			"updated": "2017-11-28T13:01:40.889Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Watson",
+		"created": "2017-11-28T15:05:49.097Z",
+		"updated": "2017-12-22T15:35:50.782Z",
+		"examples": [{
+			"text": "¿Quién sos?",
+			"created": "2017-11-28T15:05:58.275Z",
+			"updated": "2017-11-28T15:05:58.275Z"
+		}, {
+			"text": "¿Sos Watson?",
+			"created": "2017-11-28T15:06:05.662Z",
+			"updated": "2017-11-28T15:06:05.662Z"
+		}, {
+			"text": "¿Para quién trabajas?",
+			"created": "2017-11-28T15:06:29.039Z",
+			"updated": "2017-11-28T15:06:29.039Z"
+		}, {
+			"text": "como te llamas?",
+			"created": "2017-11-28T15:10:04.524Z",
+			"updated": "2017-11-28T15:10:04.524Z"
+		}, {
+			"text": "fhgfhgfhg",
+			"created": "2017-12-22T15:35:50.782Z",
+			"updated": "2017-12-22T15:35:50.782Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Mentoria",
+		"created": "2017-11-29T19:39:51.650Z",
+		"updated": "2017-11-29T19:40:44.338Z",
+		"examples": [{
+			"text": "¿Tienen algún tipo de mentoría?",
+			"created": "2017-11-29T19:40:02.412Z",
+			"updated": "2017-11-29T19:40:02.412Z"
+		}, {
+			"text": "Necesito mentoría",
+			"created": "2017-11-29T19:40:44.338Z",
+			"updated": "2017-11-29T19:40:44.338Z"
+		}],
+		"description": null
+	}, {
+		"intent": "PorQueASEA",
+		"created": "2017-11-28T13:08:37.327Z",
+		"updated": "2017-11-28T13:08:51.849Z",
+		"examples": [{
+			"text": "¿Por qué debería inscribirme a ASEA?",
+			"created": "2017-11-28T13:08:47.255Z",
+			"updated": "2017-11-28T13:08:47.255Z"
+		}, {
+			"text": "¿Qué ventajas tengo con ASEA?",
+			"created": "2017-11-28T13:08:51.849Z",
+			"updated": "2017-11-28T13:08:51.849Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Eventos",
+		"created": "2017-11-29T20:12:34.888Z",
+		"updated": "2017-11-29T20:42:35.075Z",
+		"examples": [{
+			"text": "quiero particiapar de alguna evento",
+			"created": "2017-11-29T20:12:42.856Z",
+			"updated": "2017-11-29T20:12:42.856Z"
+		}, {
+			"text": "Como puedo participar de un evento",
+			"created": "2017-11-29T20:12:48.431Z",
+			"updated": "2017-11-29T20:12:48.431Z"
+		}, {
+			"text": "Hola como hago para participar de los eventos",
+			"created": "2017-11-29T20:12:49.753Z",
+			"updated": "2017-11-29T20:12:49.753Z"
+		}, {
+			"text": "Necesito saber sobre sus próximos eventos",
+			"created": "2017-11-29T20:42:35.075Z",
+			"updated": "2017-11-29T20:42:35.075Z"
+		}],
+		"description": null
+	}, {
+		"intent": "QueEsCapitalSemillaLey",
+		"created": "2017-11-28T13:13:12.173Z",
+		"updated": "2017-11-28T13:13:22.279Z",
+		"examples": [{
+			"text": "¿Qué es el Capital Semilla?",
+			"created": "2017-11-28T13:13:22.279Z",
+			"updated": "2017-11-28T13:13:22.279Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-12-22T15:36:06.717Z",
+	"entities": [{
+		"entity": "Entidades",
+		"values": [{
+			"type": "synonyms",
+			"value": "Herramientas varias",
+			"created": "2017-11-28T13:15:48.357Z",
+			"updated": "2017-11-28T14:48:41.427Z",
+			"metadata": null,
+			"synonyms": ["Crowdfunding", "SAS"]
+		}, {
+			"type": "synonyms",
+			"value": "LEY DE EMPRENDEDORES",
+			"created": "2017-11-28T12:58:40.804Z",
+			"updated": "2017-11-28T14:44:50.617Z",
+			"metadata": null,
+			"synonyms": ["Ley de Emprendedores", "ley de apoyo al capital emprendedor", "252/2017", "decreto 252/2017", "ley asea"]
+		}, {
+			"type": "synonyms",
+			"value": "ASEA",
+			"created": "2017-11-28T12:51:46.481Z",
+			"updated": "2017-11-29T19:51:29.430Z",
+			"metadata": null,
+			"synonyms": ["Asociación de Emprendedores de Argentina", "Asociación de Emprendedores", "Embajadores ASEA", "embajadores", "mentoria"]
+		}],
+		"created": "2017-11-28T12:51:46.481Z",
+		"updated": "2017-11-29T19:51:29.430Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Provincias",
+		"values": [{
+			"type": "synonyms",
+			"value": "Mendoza",
+			"created": "2017-11-28T14:20:04.623Z",
+			"updated": "2017-11-28T14:20:04.623Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Buenos Aires",
+			"created": "2017-11-28T14:20:07.203Z",
+			"updated": "2017-11-28T14:20:14.935Z",
+			"metadata": null,
+			"synonyms": ["Capital", "CABA"]
+		}, {
+			"type": "synonyms",
+			"value": "Cordoba",
+			"created": "2017-11-28T14:20:01.331Z",
+			"updated": "2017-11-28T14:20:01.331Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-11-28T14:19:59.630Z",
+		"updated": "2017-11-28T14:20:14.935Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "es",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Es un préstamo a tasa cero."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1511873792585",
+		"context": null,
+		"created": "2017-11-28T13:13:35.244Z",
+		"updated": "2017-11-28T13:14:17.973Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#QueEsCapitalSemillaLey",
+		"description": null,
+		"dialog_node": "node_7_1511874815676",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Es una red de financiación colectiva a través de internet para invertir en un proyecto.\n\nEn relación a la Ley de Emprendedores, será supervisado por la Comisión Nacional de Valores (CNV)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1511874928524",
+		"context": null,
+		"created": "2017-11-28T13:16:43.479Z",
+		"updated": "2017-11-28T13:28:19.473Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Crowdfunding",
+		"description": null,
+		"dialog_node": "node_2_1511875003908",
+		"previous_sibling": "node_4_1511874017923"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Es una figura jurídica que permitirá formar tu empresa vía online en 24 horas, incluyendo la apertura de una cuenta bancaria en el acto y el CUIT."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1511874928524",
+		"context": null,
+		"created": "2017-11-28T13:00:17.464Z",
+		"updated": "2017-11-28T14:49:00.011Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#QueEsSASLey",
+		"description": null,
+		"dialog_node": "node_4_1511874017923",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Tenemos embajadores en todas las provincias. ¿En qué provincia te interesa?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1511878734593",
+		"context": null,
+		"created": "2017-11-28T14:32:21.480Z",
+		"updated": "2017-11-29T20:20:12.464Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "!@Provincias",
+		"description": null,
+		"dialog_node": "node_9_1511879541438",
+		"previous_sibling": "node_5_1511878777937"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_4_1511878734593",
+		"context": null,
+		"created": "2017-11-28T14:33:29.043Z",
+		"updated": "2017-11-28T14:37:11.732Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_10_1511879608276",
+		"previous_sibling": "node_9_1511879541438"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_4_1511878734593",
+		"context": null,
+		"created": "2017-11-28T14:19:37.968Z",
+		"updated": "2017-11-29T20:20:47.137Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "@Provincias >",
+		"description": null,
+		"dialog_node": "node_5_1511878777937",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["En Córdoba tenemos a Menganito"]
+			}
+		},
+		"parent": "node_5_1511878777937",
+		"context": null,
+		"created": "2017-11-28T14:21:44.492Z",
+		"updated": "2017-11-28T14:21:57.250Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Provincias:Cordoba",
+		"description": null,
+		"dialog_node": "node_7_1511878904498",
+		"previous_sibling": "node_6_1511878884741"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["En Mendoza tenemos a Chirulito"]
+			}
+		},
+		"parent": "node_5_1511878777937",
+		"context": null,
+		"created": "2017-11-28T14:21:57.334Z",
+		"updated": "2017-11-28T14:22:56.646Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Provincias:Mendoza",
+		"description": null,
+		"dialog_node": "node_8_1511878917342",
+		"previous_sibling": "node_7_1511878904498"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["En Buenos Aires tenemos a Pirulito"]
+			}
+		},
+		"parent": "node_5_1511878777937",
+		"context": null,
+		"created": "2017-11-28T14:21:24.747Z",
+		"updated": "2017-11-29T20:21:01.166Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Provincias:(Buenos Aires)",
+		"description": null,
+		"dialog_node": "node_6_1511878884741",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T12:56:32.123Z",
+		"updated": "2017-11-28T13:04:10.223Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "@Entidades:(LEY DE EMPRENDEDORES)",
+		"description": null,
+		"dialog_node": "node_3_1511873792585",
+		"previous_sibling": "node_3_1511986460062"
+	}, {
+		"type": "standard",
+		"title": "#Eventos",
+		"output": {
+			"text": {
+				"values": ["Podés seguirnos en nuestras redes sociales en las cuales comunicamos las actividades, eventos, concursos y capacitaciones más relevantes del ecosistema emprendedor."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-29T20:14:21.144Z",
+		"updated": "2017-11-29T20:40:42.720Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Eventos",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_3_1511986460062",
+		"previous_sibling": "node_2_1511984929846"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T13:15:28.086Z",
+		"updated": "2017-11-28T13:16:46.952Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "@Entidades:(Herramientas varias)",
+		"description": null,
+		"dialog_node": "node_8_1511874928524",
+		"previous_sibling": "node_3_1511873792585"
+	}, {
+		"type": "standard",
+		"title": "En otras cosas",
+		"output": {
+			"text": {
+				"values": ["No le he entendido. Intente reformular la consulta.", "¿Puede expresarse con otras palabras? No le he entendido.", "No entendí el significado."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T12:49:58.582Z",
+		"updated": "2017-11-28T13:00:40.253Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "En otras cosas",
+		"previous_sibling": "node_1_1511984688909"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Soy una maquinita"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-29T19:44:49.241Z",
+		"updated": "2017-11-29T19:45:02.441Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Watson",
+		"description": null,
+		"dialog_node": "node_1_1511984688909",
+		"previous_sibling": "node_8_1511874928524"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Estate atento a nuestros eventos y/o webinars que publicamos en Facebook en donde vas a poder recibir diferentes mentorías."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-29T19:48:50.150Z",
+		"updated": "2017-11-29T20:40:30.939Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Mentoria",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_2_1511984929846",
+		"previous_sibling": "node_4_1511878734593"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Para convertirte en miembro de ASEA no hace falta más que ser emprendedor que debe ser (o haber sido) fundador, cofundador o socio de un emprendimiento."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T12:54:30.576Z",
+		"updated": "2017-11-29T20:39:39.011Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#RequisitosASEA",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_2_1511873671079",
+		"previous_sibling": "Bienvenido"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Para hacerte socio, podes entrar al siguiente link: https://asea.typeform.com/to/uldKeO"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T13:31:36.284Z",
+		"updated": "2017-11-29T20:40:03.000Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#HaceteSocio",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_3_1511875896677",
+		"previous_sibling": "node_6_1511874548810"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Porque somos una organización inclusiva que cree que en el emprendedurismo se encuentra la clave para el crecimiento de un país y que por lo tanto, todas las personas pueden emprender, sin importar diferencias y que emprender es un derecho y no un privilegio. \n\nPorque únicamente siendo miles podremos continuar siendo el interlocutor válido de los emprendedores."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T13:09:08.344Z",
+		"updated": "2017-11-29T20:39:50.616Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#PorQueASEA",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_6_1511874548810",
+		"previous_sibling": "node_2_1511873671079"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T14:18:54.617Z",
+		"updated": "2017-11-29T20:40:22.576Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_5_1511878777937"
+		},
+		"conditions": "#EmbajadoresASEA",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_4_1511878734593",
+		"previous_sibling": "node_5_1511874181604"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["ASEA es una organización sin fines de lucro, formada por emprendedores y para emprendedores. \n\nSu misión principal es lograr que Argentina sea un mejor lugar para emprender, que resulte más ágil y sencillo llevar adelante proyectos y nuevos negocios. \n\nPara ello focalizamos establecer vínculos entre emprendedores de todas las provincias y de todo el continente Latinoamericano, escuchando sus demandas y proponiendo soluciones para que emprender sea más facil. \n\nASEA no es una asociación sindical ni un gremio ni responde a un partido político. \n\nASEA es parte de un movimiento latinoamericano disruptivo que vincula a todos los jugadores del ecosistema emprendedor. \n\nEn ASEA participan emprendedores, inversores, facilitadores y organizaciones que creen que trabajando juntos pueden cambiar el contexto para emprender tanto en Argentina como en Latinoamérica."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T13:03:01.168Z",
+		"updated": "2017-11-29T20:40:12.820Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#QueEsASEA",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_5_1511874181604",
+		"previous_sibling": "node_3_1511875896677"
+	}, {
+		"type": "standard",
+		"title": "Bienvenido",
+		"output": {
+			"text": {
+				"values": ["Hola. ¿Cómo puedo ayudarle?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-28T12:49:58.582Z",
+		"updated": "2017-11-29T20:35:02.692Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Bienvenido",
+		"previous_sibling": null
+	}],
+	"workspace_id": "0cc61fb3-33ad-4408-8e84-98eb5bcd6283",
+	"counterexamples": [{
+		"text": "fhgfhgfhg",
+		"created": "2017-12-22T15:36:06.717Z",
+		"updated": "2017-12-22T15:36:06.717Z"
+	}],
+	"learning_opt_out": false
+}

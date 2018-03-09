@@ -1,1 +1,612 @@
-{"name":"Mentor Bot for New Hire","created":"2017-11-14T15:11:32.850Z","intents":[{"intent":"Claim_queries","created":"2017-11-19T06:25:28.692Z","updated":"2017-11-19T06:29:12.835Z","examples":[{"text":"I need to submit claims","created":"2017-11-19T06:27:29.012Z","updated":"2017-11-19T06:27:29.012Z"},{"text":"Leave and travel allowance claims","created":"2017-11-19T06:28:42.033Z","updated":"2017-11-19T06:28:42.033Z"},{"text":"How can I submit medical claims","created":"2017-11-19T06:29:12.835Z","updated":"2017-11-19T06:29:12.835Z"},{"text":"How can I submit claims","created":"2017-11-19T06:29:03.313Z","updated":"2017-11-19T06:29:03.313Z"},{"text":"please help me with claim submission","created":"2017-11-19T06:28:52.013Z","updated":"2017-11-19T06:28:52.013Z"},{"text":"Medical claims","created":"2017-11-19T06:28:31.239Z","updated":"2017-11-19T06:28:31.239Z"},{"text":"Claims for mobile","created":"2017-11-19T06:28:26.407Z","updated":"2017-11-19T06:28:26.407Z"},{"text":"Claims for travel","created":"2017-11-19T06:28:08.181Z","updated":"2017-11-19T06:28:08.181Z"}],"description":null},{"intent":"Access_queries","created":"2017-11-19T06:01:58.283Z","updated":"2017-11-19T06:06:56.487Z","examples":[{"text":"How will I raise access request","created":"2017-11-19T06:02:41.749Z","updated":"2017-11-19T06:02:41.749Z"},{"text":"How will I get access to other block","created":"2017-11-19T06:02:32.149Z","updated":"2017-11-19T06:02:32.149Z"},{"text":"I dont have access to building","created":"2017-11-19T06:02:17.688Z","updated":"2017-11-19T06:02:17.688Z"},{"text":"don't have access to my building yet","created":"2017-11-19T06:02:04.664Z","updated":"2017-11-19T06:02:04.664Z"},{"text":"pls help me with access","created":"2017-11-19T06:06:15.424Z","updated":"2017-11-19T06:06:15.424Z"},{"text":"I need security details","created":"2017-11-19T06:04:20.115Z","updated":"2017-11-19T06:04:20.115Z"},{"text":"I need access to center","created":"2017-11-19T06:04:11.905Z","updated":"2017-11-19T06:04:11.905Z"},{"text":"I need to update my seat","created":"2017-11-19T06:03:38.192Z","updated":"2017-11-19T06:03:38.192Z"},{"text":"how will I do seat allocation","created":"2017-11-19T06:03:31.502Z","updated":"2017-11-19T06:03:31.502Z"},{"text":"I need to raise access request","created":"2017-11-19T06:06:56.487Z","updated":"2017-11-19T06:06:56.487Z"},{"text":"please help me with access","created":"2017-11-19T06:06:37.564Z","updated":"2017-11-19T06:06:37.564Z"}],"description":null},{"intent":"thankyou","created":"2017-11-14T15:12:36.710Z","updated":"2017-11-14T15:12:52.900Z","examples":[{"text":"Thanks","created":"2017-11-14T15:12:39.883Z","updated":"2017-11-14T15:12:39.883Z"},{"text":"Thanks a lot","created":"2017-11-14T15:12:43.273Z","updated":"2017-11-14T15:12:43.273Z"},{"text":"Thank you","created":"2017-11-14T15:12:46.070Z","updated":"2017-11-14T15:12:46.070Z"},{"text":"Thanks much","created":"2017-11-14T15:12:48.288Z","updated":"2017-11-14T15:12:48.288Z"},{"text":"Thank you very much","created":"2017-11-14T15:12:52.900Z","updated":"2017-11-14T15:12:52.900Z"}],"description":null},{"intent":"laptop_queries","created":"2017-11-19T05:09:04.083Z","updated":"2017-11-19T05:15:40.534Z","examples":[{"text":"my system is shutting down always","created":"2017-11-19T05:11:13.924Z","updated":"2017-11-19T05:11:13.924Z"},{"text":"My laptop isn't working","created":"2017-11-19T05:09:24.919Z","updated":"2017-11-19T05:09:24.919Z"},{"text":"There is some problem with my laptop","created":"2017-11-19T05:09:44.432Z","updated":"2017-11-19T05:09:44.432Z"},{"text":"My macbook isn't working","created":"2017-11-19T05:09:49.573Z","updated":"2017-11-19T05:09:49.573Z"},{"text":"macbook isn't working","created":"2017-11-19T05:09:55.307Z","updated":"2017-11-19T05:09:55.307Z"},{"text":"laptop isn't working","created":"2017-11-19T05:10:03.422Z","updated":"2017-11-19T05:10:03.422Z"},{"text":"please help,my laptop isn't working","created":"2017-11-19T05:10:11.999Z","updated":"2017-11-19T05:10:11.999Z"},{"text":"my system is not working","created":"2017-11-19T05:10:29.816Z","updated":"2017-11-19T05:10:29.816Z"},{"text":"problem with machine","created":"2017-11-19T05:11:27.559Z","updated":"2017-11-19T05:11:27.559Z"},{"text":"problem with macbook","created":"2017-11-19T05:11:32.689Z","updated":"2017-11-19T05:11:32.689Z"},{"text":"system isn't respoding","created":"2017-11-19T05:15:33.531Z","updated":"2017-11-19T05:15:33.531Z"},{"text":"system getting stuck","created":"2017-11-19T05:15:40.534Z","updated":"2017-11-19T05:15:40.534Z"}],"description":null},{"intent":"greetings","created":"2017-11-14T15:11:45.639Z","updated":"2017-11-14T15:12:26.958Z","examples":[{"text":"Hi","created":"2017-11-14T15:11:49.662Z","updated":"2017-11-14T15:11:49.662Z"},{"text":"Hello","created":"2017-11-14T15:11:51.208Z","updated":"2017-11-14T15:11:51.208Z"},{"text":"Heyya","created":"2017-11-14T15:11:53.513Z","updated":"2017-11-14T15:11:53.513Z"},{"text":"Hey","created":"2017-11-14T15:12:26.958Z","updated":"2017-11-14T15:12:26.958Z"}],"description":null},{"intent":"HR_queries","created":"2017-11-19T05:23:56.366Z","updated":"2017-11-19T05:28:37.546Z","examples":[{"text":"maternity leave details","created":"2017-11-19T05:26:24.510Z","updated":"2017-11-19T05:26:24.510Z"},{"text":"claim medicall bills","created":"2017-11-19T05:26:03.442Z","updated":"2017-11-19T05:26:03.442Z"},{"text":"view my salary statement","created":"2017-11-19T05:25:53.501Z","updated":"2017-11-19T05:25:53.501Z"},{"text":"my leave details","created":"2017-11-19T05:25:40.455Z","updated":"2017-11-19T05:25:40.455Z"},{"text":"view my bank details","created":"2017-11-19T05:25:34.550Z","updated":"2017-11-19T05:25:34.550Z"},{"text":"I need to update my bank details","created":"2017-11-19T05:25:21.621Z","updated":"2017-11-19T05:25:21.621Z"},{"text":"how will I update my bank details","created":"2017-11-19T05:25:13.867Z","updated":"2017-11-19T05:25:13.867Z"},{"text":"how will I check my salary statement","created":"2017-11-19T05:24:35.541Z","updated":"2017-11-19T05:24:35.541Z"},{"text":"how many sick leave in an year","created":"2017-11-19T05:24:28.099Z","updated":"2017-11-19T05:24:28.099Z"},{"text":"what is privilege leave","created":"2017-11-19T05:24:20.730Z","updated":"2017-11-19T05:24:20.730Z"},{"text":"How many leaves will be carry forwarded","created":"2017-11-19T05:24:15.194Z","updated":"2017-11-19T05:24:15.194Z"},{"text":"How many leaves can I take in a year?","created":"2017-11-19T05:24:07.458Z","updated":"2017-11-19T05:24:07.458Z"},{"text":"request for privilege leave","created":"2017-11-19T05:28:19.821Z","updated":"2017-11-19T05:28:19.821Z"},{"text":"request for address proof","created":"2017-11-19T05:26:41.523Z","updated":"2017-11-19T05:26:41.523Z"},{"text":"how to request for leave","created":"2017-11-19T05:26:33.661Z","updated":"2017-11-19T05:26:33.661Z"},{"text":"edit my personal details","created":"2017-11-19T05:28:37.546Z","updated":"2017-11-19T05:28:37.546Z"}],"description":null},{"intent":"Travel_queries","created":"2017-11-19T05:59:02.249Z","updated":"2017-11-19T06:00:55.125Z","examples":[{"text":"I need to book hotel","created":"2017-11-19T05:59:45.912Z","updated":"2017-11-19T05:59:45.912Z"},{"text":"I need to book cab for my travel","created":"2017-11-19T05:59:53.187Z","updated":"2017-11-19T05:59:53.187Z"},{"text":"Please help me with cab booking","created":"2017-11-19T05:59:59.463Z","updated":"2017-11-19T05:59:59.463Z"},{"text":"Help me with flight booking","created":"2017-11-19T06:00:11.373Z","updated":"2017-11-19T06:00:11.373Z"},{"text":"Help me with Visa processing","created":"2017-11-19T06:00:21.207Z","updated":"2017-11-19T06:00:21.207Z"},{"text":"Please help me with business visa processing for US","created":"2017-11-19T06:00:34.643Z","updated":"2017-11-19T06:00:34.643Z"},{"text":"I have to travel next week and I have to process my visa","created":"2017-11-19T06:00:55.125Z","updated":"2017-11-19T06:00:55.125Z"},{"text":"How can I book travel and stay","created":"2017-11-19T05:59:28.207Z","updated":"2017-11-19T05:59:28.207Z"},{"text":"How can I book travel","created":"2017-11-19T05:59:20.132Z","updated":"2017-11-19T05:59:20.132Z"},{"text":"I had to travel tomorrow. Please help me","created":"2017-11-19T05:59:14.262Z","updated":"2017-11-19T05:59:14.262Z"},{"text":"Please help me with travel booking","created":"2017-11-19T05:59:37.161Z","updated":"2017-11-19T05:59:37.161Z"}],"description":null}],"updated":"2017-11-19T06:33:33.418Z","entities":[{"entity":"sys-date","values":[],"created":"2017-11-14T15:17:58.722Z","updated":"2017-11-14T15:17:58.722Z","metadata":null,"description":null},{"entity":"sys-location","values":[],"created":"2017-11-14T15:17:58.290Z","updated":"2017-11-14T15:17:58.290Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2017-11-14T15:17:59.017Z","updated":"2017-11-14T15:17:59.017Z","metadata":null,"description":null},{"entity":"sys-currency","values":[],"created":"2017-11-14T15:17:59.401Z","updated":"2017-11-14T15:17:59.401Z","metadata":null,"description":null},{"entity":"sys-person","values":[],"created":"2017-11-14T15:17:58.227Z","updated":"2017-11-14T15:17:58.227Z","metadata":null,"description":null},{"entity":"sys-time","values":[],"created":"2017-11-14T15:17:58.517Z","updated":"2017-11-14T15:17:58.517Z","metadata":null,"description":null},{"entity":"sys-percentage","values":[],"created":"2017-11-14T15:17:59.338Z","updated":"2017-11-14T15:17:59.338Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"This chatbot can help new hires with frequently asked queries.","dialog_nodes":[{"type":"slot","title":null,"output":null,"parent":"node_3_1510674980755","context":null,"created":"2017-11-19T05:14:50.017Z","updated":"2017-11-19T05:14:50.017Z","metadata":null,"variable":" ","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_3_1511068487904","previous_sibling":"node_1_1511068318288"},{"type":"response_condition","title":null,"output":{"text":{"values":{"0":"For queries related to Laptop/MacBook,Please call xxx-xxx . You can also login to www.xyzsupport.com/laptop to chat with tech support executive"}}},"parent":"node_3_1510674980755","context":null,"created":"2017-11-19T05:11:58.606Z","updated":"2017-11-19T05:15:03.283Z","disabled":true,"metadata":null,"next_step":null,"conditions":"#laptop_queries","description":null,"dialog_node":"node_1_1511068318288","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_3_1511068487904","context":null,"created":"2017-11-19T05:14:51.573Z","updated":"2017-11-19T05:14:51.573Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_5_1511068487904","previous_sibling":"handler_4_1511068487904"},{"type":"event_handler","title":null,"output":null,"parent":"slot_3_1511068487904","context":null,"created":"2017-11-19T05:14:50.732Z","updated":"2017-11-19T05:14:50.732Z","metadata":null,"next_step":null,"conditions":null,"event_name":"input","description":null,"dialog_node":"handler_4_1511068487904","previous_sibling":null},{"title":"Laptop Related Queries","output":{"text":{"values":{"0":"For queries related to Laptop/MacBook,Please call xxx-xxx . You can also login to www.xyzsupport.com/laptop to chat with tech support executive"}}},"parent":null,"context":null,"created":"2017-11-14T15:56:21.454Z","updated":"2017-11-19T06:19:27.055Z","metadata":{"fallback":"leave","_customization":{"mcr":false}},"next_step":null,"conditions":"#laptop_queries","description":null,"dialog_node":"node_3_1510674980755","previous_sibling":"node_1_1510674918674"},{"title":"Thank You","output":{"text":{"values":["My pleasure!","Welcome!"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-11-14T15:55:35.825Z","updated":"2017-11-19T06:20:22.892Z","metadata":null,"next_step":null,"conditions":"#thankyou","description":null,"dialog_node":"node_2_1510674934833","previous_sibling":"node_3_1510674980755"},{"title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-14T15:54:20.999Z","updated":"2017-11-14T15:54:20.999Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_9_1511071685356"},{"title":"Greetings","output":{"text":{"values":["Hello newbie! Welcome to XYZ organization. How can I help you today?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-14T15:55:19.114Z","updated":"2017-11-19T06:19:18.536Z","metadata":null,"next_step":null,"conditions":"#greetings","description":null,"dialog_node":"node_1_1510674918674","previous_sibling":"Welcome"},{"title":"Travel related queries","output":{"text":{"values":["Please logon to www.abcCompany.com/travel to book your Travel and Stay! You will have to fill in your personal details before booking Travel and Hotel. Check out the list of approved cabs in your city here: www.abcCompany.com/travel/cabs"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-19T06:01:41.340Z","updated":"2017-11-19T06:22:23.277Z","metadata":null,"next_step":null,"conditions":"#Travel_queries","description":null,"dialog_node":"node_8_1511071301014","previous_sibling":"node_6_1511069358994"},{"title":"Access Badge/Control related queries","output":{"text":{"values":["Please connect with security control center(scclocations@abc.com) to know more about your access !  Check with your manager if you have been allocated a seat!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-19T05:58:41.857Z","updated":"2017-11-19T06:24:05.590Z","metadata":null,"next_step":null,"conditions":"#Access_queries","description":null,"dialog_node":"node_7_1511071121350","previous_sibling":"node_8_1511071301014"},{"title":"HR related queries","output":{"text":{"values":["For queries related to HR, please navigate to www.abcsupport/HR or dial in to xxx-xxx! You can also login with your credentials to www.xyzcompany.com/emplogin and check out necessary details."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-19T05:29:19.668Z","updated":"2017-11-19T06:19:38.399Z","metadata":null,"next_step":null,"conditions":"#HR_queries","description":null,"dialog_node":"node_6_1511069358994","previous_sibling":"node_2_1510674934833"},{"title":"Claim related queries","output":{"text":{"values":["Please logon to www.abccompany.com/travel/claims.php for submitting claims! Ensure you have prior approvals before submitting the claim!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-19T06:08:05.791Z","updated":"2017-11-19T06:25:10.157Z","metadata":null,"next_step":null,"conditions":"#Claim_queries","description":null,"dialog_node":"node_9_1511071685356","previous_sibling":"node_7_1511071121350"},{"title":"Welcome","output":{"text":{"values":["Hello newbie! Welcome to XYZ organization. How can I help you today?","Hey newbie!! Welcome to XYZ organization. How can I help you today?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-14T15:54:20.999Z","updated":"2017-11-14T15:55:16.163Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"92edce29-c437-4b04-aa1d-234bc350f307","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Mentor Bot for New Hire",
+	"created": "2017-11-14T15:11:32.850Z",
+	"intents": [{
+		"intent": "Claim_queries",
+		"created": "2017-11-19T06:25:28.692Z",
+		"updated": "2017-11-19T06:29:12.835Z",
+		"examples": [{
+			"text": "I need to submit claims",
+			"created": "2017-11-19T06:27:29.012Z",
+			"updated": "2017-11-19T06:27:29.012Z"
+		}, {
+			"text": "Leave and travel allowance claims",
+			"created": "2017-11-19T06:28:42.033Z",
+			"updated": "2017-11-19T06:28:42.033Z"
+		}, {
+			"text": "How can I submit medical claims",
+			"created": "2017-11-19T06:29:12.835Z",
+			"updated": "2017-11-19T06:29:12.835Z"
+		}, {
+			"text": "How can I submit claims",
+			"created": "2017-11-19T06:29:03.313Z",
+			"updated": "2017-11-19T06:29:03.313Z"
+		}, {
+			"text": "please help me with claim submission",
+			"created": "2017-11-19T06:28:52.013Z",
+			"updated": "2017-11-19T06:28:52.013Z"
+		}, {
+			"text": "Medical claims",
+			"created": "2017-11-19T06:28:31.239Z",
+			"updated": "2017-11-19T06:28:31.239Z"
+		}, {
+			"text": "Claims for mobile",
+			"created": "2017-11-19T06:28:26.407Z",
+			"updated": "2017-11-19T06:28:26.407Z"
+		}, {
+			"text": "Claims for travel",
+			"created": "2017-11-19T06:28:08.181Z",
+			"updated": "2017-11-19T06:28:08.181Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Access_queries",
+		"created": "2017-11-19T06:01:58.283Z",
+		"updated": "2017-11-19T06:06:56.487Z",
+		"examples": [{
+			"text": "How will I raise access request",
+			"created": "2017-11-19T06:02:41.749Z",
+			"updated": "2017-11-19T06:02:41.749Z"
+		}, {
+			"text": "How will I get access to other block",
+			"created": "2017-11-19T06:02:32.149Z",
+			"updated": "2017-11-19T06:02:32.149Z"
+		}, {
+			"text": "I dont have access to building",
+			"created": "2017-11-19T06:02:17.688Z",
+			"updated": "2017-11-19T06:02:17.688Z"
+		}, {
+			"text": "don't have access to my building yet",
+			"created": "2017-11-19T06:02:04.664Z",
+			"updated": "2017-11-19T06:02:04.664Z"
+		}, {
+			"text": "pls help me with access",
+			"created": "2017-11-19T06:06:15.424Z",
+			"updated": "2017-11-19T06:06:15.424Z"
+		}, {
+			"text": "I need security details",
+			"created": "2017-11-19T06:04:20.115Z",
+			"updated": "2017-11-19T06:04:20.115Z"
+		}, {
+			"text": "I need access to center",
+			"created": "2017-11-19T06:04:11.905Z",
+			"updated": "2017-11-19T06:04:11.905Z"
+		}, {
+			"text": "I need to update my seat",
+			"created": "2017-11-19T06:03:38.192Z",
+			"updated": "2017-11-19T06:03:38.192Z"
+		}, {
+			"text": "how will I do seat allocation",
+			"created": "2017-11-19T06:03:31.502Z",
+			"updated": "2017-11-19T06:03:31.502Z"
+		}, {
+			"text": "I need to raise access request",
+			"created": "2017-11-19T06:06:56.487Z",
+			"updated": "2017-11-19T06:06:56.487Z"
+		}, {
+			"text": "please help me with access",
+			"created": "2017-11-19T06:06:37.564Z",
+			"updated": "2017-11-19T06:06:37.564Z"
+		}],
+		"description": null
+	}, {
+		"intent": "thankyou",
+		"created": "2017-11-14T15:12:36.710Z",
+		"updated": "2017-11-14T15:12:52.900Z",
+		"examples": [{
+			"text": "Thanks",
+			"created": "2017-11-14T15:12:39.883Z",
+			"updated": "2017-11-14T15:12:39.883Z"
+		}, {
+			"text": "Thanks a lot",
+			"created": "2017-11-14T15:12:43.273Z",
+			"updated": "2017-11-14T15:12:43.273Z"
+		}, {
+			"text": "Thank you",
+			"created": "2017-11-14T15:12:46.070Z",
+			"updated": "2017-11-14T15:12:46.070Z"
+		}, {
+			"text": "Thanks much",
+			"created": "2017-11-14T15:12:48.288Z",
+			"updated": "2017-11-14T15:12:48.288Z"
+		}, {
+			"text": "Thank you very much",
+			"created": "2017-11-14T15:12:52.900Z",
+			"updated": "2017-11-14T15:12:52.900Z"
+		}],
+		"description": null
+	}, {
+		"intent": "laptop_queries",
+		"created": "2017-11-19T05:09:04.083Z",
+		"updated": "2017-11-19T05:15:40.534Z",
+		"examples": [{
+			"text": "my system is shutting down always",
+			"created": "2017-11-19T05:11:13.924Z",
+			"updated": "2017-11-19T05:11:13.924Z"
+		}, {
+			"text": "My laptop isn't working",
+			"created": "2017-11-19T05:09:24.919Z",
+			"updated": "2017-11-19T05:09:24.919Z"
+		}, {
+			"text": "There is some problem with my laptop",
+			"created": "2017-11-19T05:09:44.432Z",
+			"updated": "2017-11-19T05:09:44.432Z"
+		}, {
+			"text": "My macbook isn't working",
+			"created": "2017-11-19T05:09:49.573Z",
+			"updated": "2017-11-19T05:09:49.573Z"
+		}, {
+			"text": "macbook isn't working",
+			"created": "2017-11-19T05:09:55.307Z",
+			"updated": "2017-11-19T05:09:55.307Z"
+		}, {
+			"text": "laptop isn't working",
+			"created": "2017-11-19T05:10:03.422Z",
+			"updated": "2017-11-19T05:10:03.422Z"
+		}, {
+			"text": "please help,my laptop isn't working",
+			"created": "2017-11-19T05:10:11.999Z",
+			"updated": "2017-11-19T05:10:11.999Z"
+		}, {
+			"text": "my system is not working",
+			"created": "2017-11-19T05:10:29.816Z",
+			"updated": "2017-11-19T05:10:29.816Z"
+		}, {
+			"text": "problem with machine",
+			"created": "2017-11-19T05:11:27.559Z",
+			"updated": "2017-11-19T05:11:27.559Z"
+		}, {
+			"text": "problem with macbook",
+			"created": "2017-11-19T05:11:32.689Z",
+			"updated": "2017-11-19T05:11:32.689Z"
+		}, {
+			"text": "system isn't respoding",
+			"created": "2017-11-19T05:15:33.531Z",
+			"updated": "2017-11-19T05:15:33.531Z"
+		}, {
+			"text": "system getting stuck",
+			"created": "2017-11-19T05:15:40.534Z",
+			"updated": "2017-11-19T05:15:40.534Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greetings",
+		"created": "2017-11-14T15:11:45.639Z",
+		"updated": "2017-11-14T15:12:26.958Z",
+		"examples": [{
+			"text": "Hi",
+			"created": "2017-11-14T15:11:49.662Z",
+			"updated": "2017-11-14T15:11:49.662Z"
+		}, {
+			"text": "Hello",
+			"created": "2017-11-14T15:11:51.208Z",
+			"updated": "2017-11-14T15:11:51.208Z"
+		}, {
+			"text": "Heyya",
+			"created": "2017-11-14T15:11:53.513Z",
+			"updated": "2017-11-14T15:11:53.513Z"
+		}, {
+			"text": "Hey",
+			"created": "2017-11-14T15:12:26.958Z",
+			"updated": "2017-11-14T15:12:26.958Z"
+		}],
+		"description": null
+	}, {
+		"intent": "HR_queries",
+		"created": "2017-11-19T05:23:56.366Z",
+		"updated": "2017-11-19T05:28:37.546Z",
+		"examples": [{
+			"text": "maternity leave details",
+			"created": "2017-11-19T05:26:24.510Z",
+			"updated": "2017-11-19T05:26:24.510Z"
+		}, {
+			"text": "claim medicall bills",
+			"created": "2017-11-19T05:26:03.442Z",
+			"updated": "2017-11-19T05:26:03.442Z"
+		}, {
+			"text": "view my salary statement",
+			"created": "2017-11-19T05:25:53.501Z",
+			"updated": "2017-11-19T05:25:53.501Z"
+		}, {
+			"text": "my leave details",
+			"created": "2017-11-19T05:25:40.455Z",
+			"updated": "2017-11-19T05:25:40.455Z"
+		}, {
+			"text": "view my bank details",
+			"created": "2017-11-19T05:25:34.550Z",
+			"updated": "2017-11-19T05:25:34.550Z"
+		}, {
+			"text": "I need to update my bank details",
+			"created": "2017-11-19T05:25:21.621Z",
+			"updated": "2017-11-19T05:25:21.621Z"
+		}, {
+			"text": "how will I update my bank details",
+			"created": "2017-11-19T05:25:13.867Z",
+			"updated": "2017-11-19T05:25:13.867Z"
+		}, {
+			"text": "how will I check my salary statement",
+			"created": "2017-11-19T05:24:35.541Z",
+			"updated": "2017-11-19T05:24:35.541Z"
+		}, {
+			"text": "how many sick leave in an year",
+			"created": "2017-11-19T05:24:28.099Z",
+			"updated": "2017-11-19T05:24:28.099Z"
+		}, {
+			"text": "what is privilege leave",
+			"created": "2017-11-19T05:24:20.730Z",
+			"updated": "2017-11-19T05:24:20.730Z"
+		}, {
+			"text": "How many leaves will be carry forwarded",
+			"created": "2017-11-19T05:24:15.194Z",
+			"updated": "2017-11-19T05:24:15.194Z"
+		}, {
+			"text": "How many leaves can I take in a year?",
+			"created": "2017-11-19T05:24:07.458Z",
+			"updated": "2017-11-19T05:24:07.458Z"
+		}, {
+			"text": "request for privilege leave",
+			"created": "2017-11-19T05:28:19.821Z",
+			"updated": "2017-11-19T05:28:19.821Z"
+		}, {
+			"text": "request for address proof",
+			"created": "2017-11-19T05:26:41.523Z",
+			"updated": "2017-11-19T05:26:41.523Z"
+		}, {
+			"text": "how to request for leave",
+			"created": "2017-11-19T05:26:33.661Z",
+			"updated": "2017-11-19T05:26:33.661Z"
+		}, {
+			"text": "edit my personal details",
+			"created": "2017-11-19T05:28:37.546Z",
+			"updated": "2017-11-19T05:28:37.546Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Travel_queries",
+		"created": "2017-11-19T05:59:02.249Z",
+		"updated": "2017-11-19T06:00:55.125Z",
+		"examples": [{
+			"text": "I need to book hotel",
+			"created": "2017-11-19T05:59:45.912Z",
+			"updated": "2017-11-19T05:59:45.912Z"
+		}, {
+			"text": "I need to book cab for my travel",
+			"created": "2017-11-19T05:59:53.187Z",
+			"updated": "2017-11-19T05:59:53.187Z"
+		}, {
+			"text": "Please help me with cab booking",
+			"created": "2017-11-19T05:59:59.463Z",
+			"updated": "2017-11-19T05:59:59.463Z"
+		}, {
+			"text": "Help me with flight booking",
+			"created": "2017-11-19T06:00:11.373Z",
+			"updated": "2017-11-19T06:00:11.373Z"
+		}, {
+			"text": "Help me with Visa processing",
+			"created": "2017-11-19T06:00:21.207Z",
+			"updated": "2017-11-19T06:00:21.207Z"
+		}, {
+			"text": "Please help me with business visa processing for US",
+			"created": "2017-11-19T06:00:34.643Z",
+			"updated": "2017-11-19T06:00:34.643Z"
+		}, {
+			"text": "I have to travel next week and I have to process my visa",
+			"created": "2017-11-19T06:00:55.125Z",
+			"updated": "2017-11-19T06:00:55.125Z"
+		}, {
+			"text": "How can I book travel and stay",
+			"created": "2017-11-19T05:59:28.207Z",
+			"updated": "2017-11-19T05:59:28.207Z"
+		}, {
+			"text": "How can I book travel",
+			"created": "2017-11-19T05:59:20.132Z",
+			"updated": "2017-11-19T05:59:20.132Z"
+		}, {
+			"text": "I had to travel tomorrow. Please help me",
+			"created": "2017-11-19T05:59:14.262Z",
+			"updated": "2017-11-19T05:59:14.262Z"
+		}, {
+			"text": "Please help me with travel booking",
+			"created": "2017-11-19T05:59:37.161Z",
+			"updated": "2017-11-19T05:59:37.161Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-19T06:33:33.418Z",
+	"entities": [{
+		"entity": "sys-date",
+		"values": [],
+		"created": "2017-11-14T15:17:58.722Z",
+		"updated": "2017-11-14T15:17:58.722Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-location",
+		"values": [],
+		"created": "2017-11-14T15:17:58.290Z",
+		"updated": "2017-11-14T15:17:58.290Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2017-11-14T15:17:59.017Z",
+		"updated": "2017-11-14T15:17:59.017Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-currency",
+		"values": [],
+		"created": "2017-11-14T15:17:59.401Z",
+		"updated": "2017-11-14T15:17:59.401Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-person",
+		"values": [],
+		"created": "2017-11-14T15:17:58.227Z",
+		"updated": "2017-11-14T15:17:58.227Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-time",
+		"values": [],
+		"created": "2017-11-14T15:17:58.517Z",
+		"updated": "2017-11-14T15:17:58.517Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-percentage",
+		"values": [],
+		"created": "2017-11-14T15:17:59.338Z",
+		"updated": "2017-11-14T15:17:59.338Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "This chatbot can help new hires with frequently asked queries.",
+	"dialog_nodes": [{
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1510674980755",
+		"context": null,
+		"created": "2017-11-19T05:14:50.017Z",
+		"updated": "2017-11-19T05:14:50.017Z",
+		"metadata": null,
+		"variable": " ",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_3_1511068487904",
+		"previous_sibling": "node_1_1511068318288"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": {
+					"0": "For queries related to Laptop/MacBook,Please call xxx-xxx . You can also login to www.xyzsupport.com/laptop to chat with tech support executive"
+				}
+			}
+		},
+		"parent": "node_3_1510674980755",
+		"context": null,
+		"created": "2017-11-19T05:11:58.606Z",
+		"updated": "2017-11-19T05:15:03.283Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#laptop_queries",
+		"description": null,
+		"dialog_node": "node_1_1511068318288",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_3_1511068487904",
+		"context": null,
+		"created": "2017-11-19T05:14:51.573Z",
+		"updated": "2017-11-19T05:14:51.573Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_5_1511068487904",
+		"previous_sibling": "handler_4_1511068487904"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_3_1511068487904",
+		"context": null,
+		"created": "2017-11-19T05:14:50.732Z",
+		"updated": "2017-11-19T05:14:50.732Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_4_1511068487904",
+		"previous_sibling": null
+	}, {
+		"title": "Laptop Related Queries",
+		"output": {
+			"text": {
+				"values": {
+					"0": "For queries related to Laptop/MacBook,Please call xxx-xxx . You can also login to www.xyzsupport.com/laptop to chat with tech support executive"
+				}
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T15:56:21.454Z",
+		"updated": "2017-11-19T06:19:27.055Z",
+		"metadata": {
+			"fallback": "leave",
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": null,
+		"conditions": "#laptop_queries",
+		"description": null,
+		"dialog_node": "node_3_1510674980755",
+		"previous_sibling": "node_1_1510674918674"
+	}, {
+		"title": "Thank You",
+		"output": {
+			"text": {
+				"values": ["My pleasure!", "Welcome!"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T15:55:35.825Z",
+		"updated": "2017-11-19T06:20:22.892Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#thankyou",
+		"description": null,
+		"dialog_node": "node_2_1510674934833",
+		"previous_sibling": "node_3_1510674980755"
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T15:54:20.999Z",
+		"updated": "2017-11-14T15:54:20.999Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_9_1511071685356"
+	}, {
+		"title": "Greetings",
+		"output": {
+			"text": {
+				"values": ["Hello newbie! Welcome to XYZ organization. How can I help you today?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T15:55:19.114Z",
+		"updated": "2017-11-19T06:19:18.536Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "node_1_1510674918674",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "Travel related queries",
+		"output": {
+			"text": {
+				"values": ["Please logon to www.abcCompany.com/travel to book your Travel and Stay! You will have to fill in your personal details before booking Travel and Hotel. Check out the list of approved cabs in your city here: www.abcCompany.com/travel/cabs"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-19T06:01:41.340Z",
+		"updated": "2017-11-19T06:22:23.277Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Travel_queries",
+		"description": null,
+		"dialog_node": "node_8_1511071301014",
+		"previous_sibling": "node_6_1511069358994"
+	}, {
+		"title": "Access Badge/Control related queries",
+		"output": {
+			"text": {
+				"values": ["Please connect with security control center(scclocations@abc.com) to know more about your access !  Check with your manager if you have been allocated a seat!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-19T05:58:41.857Z",
+		"updated": "2017-11-19T06:24:05.590Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Access_queries",
+		"description": null,
+		"dialog_node": "node_7_1511071121350",
+		"previous_sibling": "node_8_1511071301014"
+	}, {
+		"title": "HR related queries",
+		"output": {
+			"text": {
+				"values": ["For queries related to HR, please navigate to www.abcsupport/HR or dial in to xxx-xxx! You can also login with your credentials to www.xyzcompany.com/emplogin and check out necessary details."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-19T05:29:19.668Z",
+		"updated": "2017-11-19T06:19:38.399Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#HR_queries",
+		"description": null,
+		"dialog_node": "node_6_1511069358994",
+		"previous_sibling": "node_2_1510674934833"
+	}, {
+		"title": "Claim related queries",
+		"output": {
+			"text": {
+				"values": ["Please logon to www.abccompany.com/travel/claims.php for submitting claims! Ensure you have prior approvals before submitting the claim!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-19T06:08:05.791Z",
+		"updated": "2017-11-19T06:25:10.157Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Claim_queries",
+		"description": null,
+		"dialog_node": "node_9_1511071685356",
+		"previous_sibling": "node_7_1511071121350"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello newbie! Welcome to XYZ organization. How can I help you today?", "Hey newbie!! Welcome to XYZ organization. How can I help you today?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T15:54:20.999Z",
+		"updated": "2017-11-14T15:55:16.163Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "92edce29-c437-4b04-aa1d-234bc350f307",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

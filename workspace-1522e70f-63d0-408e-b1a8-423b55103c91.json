@@ -1,1 +1,1198 @@
-{"name":"Travel Booking","created":"2017-10-19T14:59:22.677Z","intents":[{"intent":"greetings","created":"2017-10-19T15:22:46.463Z","updated":"2017-10-19T15:23:53.145Z","examples":[{"text":"Hello","created":"2017-10-19T15:22:49.173Z","updated":"2017-10-19T15:22:49.173Z"},{"text":"Hey","created":"2017-10-19T15:22:50.426Z","updated":"2017-10-19T15:22:50.426Z"},{"text":"Hi","created":"2017-10-19T15:22:52.994Z","updated":"2017-10-19T15:22:52.994Z"},{"text":"What's up?","created":"2017-10-19T15:22:59.122Z","updated":"2017-10-19T15:22:59.122Z"},{"text":"greetings","created":"2017-10-19T15:23:12.151Z","updated":"2017-10-19T15:23:12.151Z"},{"text":"Heyya","created":"2017-10-19T15:23:53.145Z","updated":"2017-10-19T15:23:53.145Z"}],"description":null},{"intent":"thankyou","created":"2017-10-19T15:24:03.191Z","updated":"2017-10-19T15:24:22.124Z","examples":[{"text":"Thanks","created":"2017-10-19T15:24:03.191Z","updated":"2017-10-19T15:24:03.191Z"},{"text":"Thank you","created":"2017-10-19T15:24:06.787Z","updated":"2017-10-19T15:24:06.787Z"},{"text":"Thanks a lot","created":"2017-10-19T15:24:16.861Z","updated":"2017-10-19T15:24:16.861Z"},{"text":"Thank you very much","created":"2017-10-19T15:24:22.124Z","updated":"2017-10-19T15:24:22.124Z"}],"description":null},{"intent":"reserve","created":"2017-10-19T15:00:50.794Z","updated":"2017-10-19T15:41:10.537Z","examples":[{"text":"please book","created":"2017-10-19T15:02:00.343Z","updated":"2017-10-19T15:22:32.508Z"},{"text":"please reserve","created":"2017-10-19T15:25:14.263Z","updated":"2017-10-19T15:25:14.263Z"},{"text":"please arrange","created":"2017-10-19T15:25:19.982Z","updated":"2017-10-19T15:25:19.982Z"},{"text":"make a reservation for","created":"2017-10-19T15:25:41.612Z","updated":"2017-10-19T15:25:41.612Z"},{"text":"please make a booking for","created":"2017-10-19T15:25:53.630Z","updated":"2017-10-19T15:25:53.630Z"},{"text":"book","created":"2017-10-19T15:39:58.300Z","updated":"2017-10-19T15:39:58.300Z"},{"text":"reserve","created":"2017-10-19T15:40:02.211Z","updated":"2017-10-19T15:40:02.211Z"},{"text":"arrange","created":"2017-10-19T15:40:07.590Z","updated":"2017-10-19T15:40:07.590Z"},{"text":"make a booking","created":"2017-10-19T15:40:20.324Z","updated":"2017-10-19T15:40:25.022Z"},{"text":"reservation for","created":"2017-10-19T15:40:35.552Z","updated":"2017-10-19T15:40:35.552Z"},{"text":"booking for","created":"2017-10-19T15:40:44.570Z","updated":"2017-10-19T15:40:44.570Z"},{"text":"kindly make reservation for","created":"2017-10-19T15:40:56.201Z","updated":"2017-10-19T15:40:56.201Z"},{"text":"kindly book","created":"2017-10-19T15:41:03.386Z","updated":"2017-10-19T15:41:03.386Z"},{"text":"kindly arrange","created":"2017-10-19T15:41:10.537Z","updated":"2017-10-19T15:41:10.537Z"}],"description":null},{"intent":"status","created":"2017-10-19T15:48:25.871Z","updated":"2017-10-19T15:48:54.414Z","examples":[{"text":"what is the status","created":"2017-10-19T15:48:34.001Z","updated":"2017-10-19T15:48:34.001Z"},{"text":"please let me know the status","created":"2017-10-19T15:48:39.357Z","updated":"2017-10-19T15:48:39.357Z"},{"text":"status of","created":"2017-10-19T15:48:42.905Z","updated":"2017-10-19T15:48:42.905Z"},{"text":"can you please help me with status of","created":"2017-10-19T15:48:50.106Z","updated":"2017-10-19T15:48:50.106Z"},{"text":"status please","created":"2017-10-19T15:48:54.414Z","updated":"2017-10-19T15:48:54.414Z"}],"description":null}],"updated":"2017-10-19T17:13:42.245Z","entities":[{"entity":"sys-person","values":[],"created":"2017-10-19T15:11:45.743Z","updated":"2017-10-19T15:11:45.743Z","metadata":null,"description":null},{"entity":"sys-location","values":[],"created":"2017-10-19T15:11:45.785Z","updated":"2017-10-19T15:11:45.785Z","metadata":null,"description":null},{"entity":"sys-percentage","values":[],"created":"2017-10-19T15:11:46.692Z","updated":"2017-10-19T15:11:46.692Z","metadata":null,"description":null},{"entity":"sys-currency","values":[],"created":"2017-10-19T15:11:46.722Z","updated":"2017-10-19T15:11:46.722Z","metadata":null,"description":null},{"entity":"mode_of_transportation","values":[{"type":"synonyms","value":"Cab","created":"2017-10-19T15:27:54.434Z","updated":"2017-10-19T15:29:29.307Z","metadata":null,"synonyms":["Taxi","taxi cab","mini cab"]},{"type":"synonyms","value":"flight","created":"2017-10-19T15:29:34.793Z","updated":"2017-10-19T15:30:12.575Z","metadata":null,"synonyms":["air journey","domestic flight","plane journey","plane trip","air trip"]}],"created":"2017-10-19T15:27:39.001Z","updated":"2017-10-19T15:30:12.575Z","metadata":null,"description":null},{"entity":"sys-time","values":[],"created":"2017-10-19T15:11:45.775Z","updated":"2017-10-19T15:11:45.775Z","metadata":null,"description":null},{"entity":"sys-date","values":[],"created":"2017-10-19T15:11:46.639Z","updated":"2017-10-19T15:11:46.639Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2017-10-19T15:11:46.434Z","updated":"2017-10-19T15:11:46.434Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Bot for booking flight,cab and knowing status of flight!","dialog_nodes":[{"type":"event_handler","title":null,"output":null,"parent":"slot_15_1508426098680","context":{"cabRequiredTime":"@sys-time"},"created":"2017-10-19T15:14:59.632Z","updated":"2017-10-19T15:20:15.892Z","metadata":null,"next_step":null,"conditions":"@sys-time","event_name":"input","description":null,"dialog_node":"handler_16_1508426098680","previous_sibling":"handler_17_1508426098680"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter the time you require cab!"],"selection_policy":"sequential"}},"parent":"slot_15_1508426098680","context":null,"created":"2017-10-19T15:16:43.788Z","updated":"2017-10-19T15:16:43.788Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_21_1508426194221","previous_sibling":"handler_16_1508426098680"},{"type":"event_handler","title":null,"output":{"text":"Please enter the time you require cab"},"parent":"slot_15_1508426098680","context":null,"created":"2017-10-19T15:15:00.104Z","updated":"2017-10-19T16:40:49.253Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_17_1508426098680","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your name"],"selection_policy":"sequential"}},"parent":"slot_50_1508429267668","context":null,"created":"2017-10-19T16:13:15.453Z","updated":"2017-10-19T16:13:15.453Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_72_1508429589554","previous_sibling":"handler_51_1508429267668"},{"type":"event_handler","title":null,"output":null,"parent":"slot_50_1508429267668","context":{"flightBookingName":"@sys-person"},"created":"2017-10-19T16:07:48.571Z","updated":"2017-10-19T16:25:50.058Z","metadata":null,"next_step":null,"conditions":"@sys-person","event_name":"input","description":null,"dialog_node":"handler_51_1508429267668","previous_sibling":"handler_52_1508429267668"},{"type":"event_handler","title":null,"output":{"text":"Please enter your name"},"parent":"slot_50_1508429267668","context":null,"created":"2017-10-19T16:07:49.049Z","updated":"2017-10-19T16:13:14.416Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_52_1508429267668","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"Please enter your mobile number for chauffeur to contact you"},"parent":"slot_27_1508426263671","context":null,"created":"2017-10-19T15:17:45.070Z","updated":"2017-10-19T16:40:43.182Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_29_1508426263671","previous_sibling":"handler_28_1508426263671"},{"type":"event_handler","title":null,"output":null,"parent":"slot_27_1508426263671","context":{"cabPersonNumber":"@sys-number"},"created":"2017-10-19T15:17:44.579Z","updated":"2017-10-19T15:18:08.017Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_28_1508426263671","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_36_1508429028588","context":{"flightTime":"@sys-time"},"created":"2017-10-19T16:03:49.576Z","updated":"2017-10-19T16:17:03.108Z","metadata":null,"next_step":null,"conditions":"@sys-time","event_name":"input","description":null,"dialog_node":"handler_37_1508429028588","previous_sibling":"handler_38_1508429028588"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter preferred departure time"],"selection_policy":"sequential"}},"parent":"slot_36_1508429028588","context":null,"created":"2017-10-19T16:12:15.159Z","updated":"2017-10-19T16:12:15.159Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_62_1508429529447","previous_sibling":"handler_37_1508429028588"},{"type":"event_handler","title":null,"output":{"text":"Please enter preferred departure time"},"parent":"slot_36_1508429028588","context":null,"created":"2017-10-19T16:03:50.123Z","updated":"2017-10-19T16:12:14.204Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_38_1508429028588","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter  your mobile number"],"selection_policy":"sequential"}},"parent":"slot_56_1508429400268","context":null,"created":"2017-10-19T16:13:28.050Z","updated":"2017-10-19T16:13:28.050Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_74_1508429602401","previous_sibling":"handler_57_1508429400268"},{"type":"event_handler","title":null,"output":null,"parent":"slot_56_1508429400268","context":{"flightBookingNumber":"@sys-number"},"created":"2017-10-19T16:10:01.222Z","updated":"2017-10-19T16:29:56.646Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_57_1508429400268","previous_sibling":"handler_58_1508429400268"},{"type":"event_handler","title":null,"output":{"text":"Please enter  your mobile number"},"parent":"slot_56_1508429400268","context":null,"created":"2017-10-19T16:10:01.713Z","updated":"2017-10-19T16:13:27.115Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_58_1508429400268","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_12_1508426016722","context":{"cabRequiredDate":"@sys-date"},"created":"2017-10-19T15:13:37.623Z","updated":"2017-10-19T15:20:06.745Z","metadata":null,"next_step":null,"conditions":"@sys-date","event_name":"input","description":null,"dialog_node":"handler_13_1508426016722","previous_sibling":"handler_14_1508426016722"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter the date you require cab!"],"selection_policy":"sequential"}},"parent":"slot_12_1508426016722","context":null,"created":"2017-10-19T15:16:26.415Z","updated":"2017-10-19T15:16:26.415Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_19_1508426178176","previous_sibling":"handler_13_1508426016722"},{"type":"event_handler","title":null,"output":{"text":"Please enter the date you require cab"},"parent":"slot_12_1508426016722","context":null,"created":"2017-10-19T15:13:38.111Z","updated":"2017-10-19T16:40:50.675Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_14_1508426016722","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter preferred departure date"],"selection_policy":"sequential"}},"parent":"slot_33_1508429022332","context":null,"created":"2017-10-19T16:12:02.110Z","updated":"2017-10-19T16:12:02.110Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_60_1508429515345","previous_sibling":"handler_34_1508429022332"},{"type":"event_handler","title":null,"output":null,"parent":"slot_33_1508429022332","context":{"flightDate":"@sys-date"},"created":"2017-10-19T16:03:44.089Z","updated":"2017-10-19T16:16:45.735Z","metadata":null,"next_step":null,"conditions":"@sys-date","event_name":"input","description":null,"dialog_node":"handler_34_1508429022332","previous_sibling":"handler_35_1508429022332"},{"type":"event_handler","title":null,"output":{"text":"Please enter preferred departure date"},"parent":"slot_33_1508429022332","context":null,"created":"2017-10-19T16:03:44.616Z","updated":"2017-10-19T16:12:00.928Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_35_1508429022332","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_3_1508425828948","context":null,"created":"2017-10-19T15:16:49.502Z","updated":"2017-10-19T17:00:52.813Z","metadata":null,"variable":"$cabPickuplocation","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_22_1508426208407","previous_sibling":"slot_15_1508426098680"},{"type":"slot","title":null,"output":null,"parent":"node_3_1508425828948","context":null,"created":"2017-10-19T15:13:37.165Z","updated":"2017-10-19T15:20:06.271Z","metadata":null,"variable":"$cabRequiredDate","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_12_1508426016722","previous_sibling":"handler_6_1508425932620"},{"type":"slot","title":null,"output":null,"parent":"node_3_1508425828948","context":null,"created":"2017-10-19T15:14:59.137Z","updated":"2017-10-19T15:20:15.406Z","metadata":null,"variable":"$cabRequiredTime","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_15_1508426098680","previous_sibling":"slot_12_1508426016722"},{"type":"slot","title":null,"output":null,"parent":"node_3_1508425828948","context":null,"created":"2017-10-19T15:12:13.917Z","updated":"2017-10-19T16:06:03.128Z","metadata":null,"variable":"$cabPersonName","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_7_1508425932671","previous_sibling":"slot_39_1508429066297"},{"type":"slot","title":null,"output":null,"parent":"node_3_1508425828948","context":null,"created":"2017-10-19T16:04:26.806Z","updated":"2017-10-19T16:05:32.516Z","metadata":null,"variable":"$cabPaxCount","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_39_1508429066297","previous_sibling":"slot_22_1508426208407"},{"type":"slot","title":null,"output":null,"parent":"node_3_1508425828948","context":null,"created":"2017-10-19T15:17:44.092Z","updated":"2017-10-19T16:04:30.554Z","metadata":null,"variable":"$cabPersonNumber","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_27_1508426263671","previous_sibling":"slot_7_1508425932671"},{"type":"event_handler","title":null,"output":{},"parent":"node_3_1508425828948","context":null,"created":"2017-10-19T15:12:13.041Z","updated":"2017-10-19T15:42:09.959Z","disabled":true,"metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_6_1508425932620","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_2_1508425439793","context":null,"created":"2017-10-19T16:07:26.325Z","updated":"2017-10-19T16:15:45.569Z","metadata":null,"variable":"$flightFromLocation","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_44_1508429245897","previous_sibling":"slot_36_1508429028588"},{"type":"slot","title":null,"output":null,"parent":"node_2_1508425439793","context":null,"created":"2017-10-19T16:07:48.109Z","updated":"2017-10-19T16:25:49.531Z","metadata":null,"variable":"$flightBookingName","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_50_1508429267668","previous_sibling":"slot_56_1508429400268"},{"type":"slot","title":null,"output":null,"parent":"node_2_1508425439793","context":null,"created":"2017-10-19T16:03:49.036Z","updated":"2017-10-19T16:17:02.652Z","metadata":null,"variable":"$flightTime","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_36_1508429028588","previous_sibling":"slot_33_1508429022332"},{"type":"slot","title":null,"output":null,"parent":"node_2_1508425439793","context":null,"created":"2017-10-19T16:10:00.746Z","updated":"2017-10-19T16:29:56.165Z","metadata":null,"variable":"$flightBookingNumber","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_56_1508429400268","previous_sibling":"slot_47_1508429257153"},{"type":"slot","title":null,"output":null,"parent":"node_2_1508425439793","context":null,"created":"2017-10-19T16:07:37.580Z","updated":"2017-10-19T16:15:56.233Z","metadata":null,"variable":"$flightToLocation","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_47_1508429257153","previous_sibling":"slot_44_1508429245897"},{"type":"slot","title":null,"output":null,"parent":"node_2_1508425439793","context":null,"created":"2017-10-19T16:03:43.584Z","updated":"2017-10-19T16:16:45.296Z","metadata":null,"variable":"$flightDate","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_33_1508429022332","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_47_1508429257153","context":{"flightToLocation":"@sys-location"},"created":"2017-10-19T16:07:38.021Z","updated":"2017-10-19T16:15:56.669Z","metadata":null,"next_step":null,"conditions":"@sys-location","event_name":"input","description":null,"dialog_node":"handler_48_1508429257153","previous_sibling":"handler_49_1508429257153"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter arrival location"],"selection_policy":"sequential"}},"parent":"slot_47_1508429257153","context":null,"created":"2017-10-19T16:12:49.558Z","updated":"2017-10-19T16:12:49.558Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_68_1508429563537","previous_sibling":"handler_48_1508429257153"},{"type":"event_handler","title":null,"output":{"text":"Please enter arrival location"},"parent":"slot_47_1508429257153","context":null,"created":"2017-10-19T16:07:38.458Z","updated":"2017-10-19T16:12:48.398Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_49_1508429257153","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter departure location"],"selection_policy":"sequential"}},"parent":"slot_44_1508429245897","context":null,"created":"2017-10-19T16:12:35.190Z","updated":"2017-10-19T16:12:35.190Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_66_1508429549267","previous_sibling":"handler_45_1508429245897"},{"type":"event_handler","title":null,"output":null,"parent":"slot_44_1508429245897","context":{"flightFromLocation":"@sys-location"},"created":"2017-10-19T16:07:26.776Z","updated":"2017-10-19T16:15:46.086Z","metadata":null,"next_step":null,"conditions":"@sys-location","event_name":"input","description":null,"dialog_node":"handler_45_1508429245897","previous_sibling":"handler_46_1508429245897"},{"type":"event_handler","title":null,"output":{"text":"Please enter departure location"},"parent":"slot_44_1508429245897","context":null,"created":"2017-10-19T16:07:27.255Z","updated":"2017-10-19T16:12:34.171Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_46_1508429245897","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter passenger count"],"selection_policy":"sequential"}},"parent":"slot_39_1508429066297","context":null,"created":"2017-10-19T16:05:28.307Z","updated":"2017-10-19T16:05:28.307Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_43_1508429115076","previous_sibling":"handler_40_1508429066297"},{"type":"event_handler","title":null,"output":null,"parent":"slot_39_1508429066297","context":{"cabPaxCount":"@sys-number"},"created":"2017-10-19T16:04:27.344Z","updated":"2017-10-19T16:05:32.992Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_40_1508429066297","previous_sibling":"handler_41_1508429066297"},{"type":"event_handler","title":null,"output":{"text":"Please enter passenger count"},"parent":"slot_39_1508429066297","context":null,"created":"2017-10-19T16:04:27.940Z","updated":"2017-10-19T16:05:36.480Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_41_1508429066297","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter the pickup location!"],"selection_policy":"sequential"}},"parent":"slot_22_1508426208407","context":null,"created":"2017-10-19T15:17:41.480Z","updated":"2017-10-19T16:42:59.300Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_26_1508426253885","previous_sibling":"handler_23_1508426208407"},{"type":"event_handler","title":null,"output":null,"parent":"slot_22_1508426208407","context":{"cabPickuplocation":"@sys-location"},"created":"2017-10-19T15:16:51.498Z","updated":"2017-10-19T17:00:53.301Z","metadata":null,"next_step":null,"conditions":"@sys-location","event_name":"input","description":null,"dialog_node":"handler_23_1508426208407","previous_sibling":"handler_24_1508426208407"},{"type":"event_handler","title":null,"output":{"text":"Please enter the pickup location"},"parent":"slot_22_1508426208407","context":null,"created":"2017-10-19T15:16:53.148Z","updated":"2017-10-19T16:42:58.252Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_24_1508426208407","previous_sibling":null},{"title":null,"output":{"text":{"values":["You flight is ON TIME!"],"selection_policy":"sequential"}},"parent":"node_4_1508425839563","context":null,"created":"2017-10-19T15:50:14.284Z","updated":"2017-10-19T16:22:49.735Z","metadata":null,"next_step":null,"conditions":"input.text.matches('[a-zA-Z0-9 -]+$')","description":null,"dialog_node":"node_32_1508428213854","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_7_1508425932671","context":{"cabPersonName":"@sys-person"},"created":"2017-10-19T15:12:14.402Z","updated":"2017-10-19T16:06:03.604Z","metadata":null,"next_step":null,"conditions":"@sys-person","event_name":"input","description":null,"dialog_node":"handler_8_1508425932671","previous_sibling":"handler_9_1508425932671"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your name!"],"selection_policy":"sequential"}},"parent":"slot_7_1508425932671","context":null,"created":"2017-10-19T15:13:34.927Z","updated":"2017-10-19T15:13:34.927Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_11_1508425997145","previous_sibling":"handler_8_1508425932671"},{"type":"event_handler","title":null,"output":{"text":"Please enter your name"},"parent":"slot_7_1508425932671","context":null,"created":"2017-10-19T15:12:14.892Z","updated":"2017-10-19T15:13:33.639Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_9_1508425932671","previous_sibling":null},{"title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-19T15:02:22.675Z","updated":"2017-10-19T15:02:22.675Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_5_1508425880755"},{"title":"Status of Flight","output":{"text":{"values":["Can you please tell me flight number?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-19T15:10:40.873Z","updated":"2017-10-19T15:52:17.104Z","metadata":null,"next_step":null,"conditions":"#status && @mode_of_transportation:flight","description":null,"dialog_node":"node_4_1508425839563","previous_sibling":"node_3_1508425828948"},{"type":"frame","title":"Book Cab","output":{"text":{"values":["Sure thing $cabPersonName, your cab has been booked for $cabRequiredDate and you will be picked up from $cabPickuplocation at $cabRequiredTime"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-19T15:10:29.393Z","updated":"2017-10-19T16:06:55.258Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"#reserve && @mode_of_transportation:Cab","description":null,"dialog_node":"node_3_1508425828948","previous_sibling":"node_2_1508425439793"},{"title":"Greetings","output":{"text":{"values":["Hi, I can help you with domestic flight booking,cab booking and status of flights!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-19T15:02:33.478Z","updated":"2017-10-19T15:11:16.799Z","metadata":null,"next_step":null,"conditions":"#greetings","description":null,"dialog_node":"node_1_1508425352942","previous_sibling":"Welcome"},{"title":"Thank You","output":{},"parent":null,"context":null,"created":"2017-10-19T15:11:21.190Z","updated":"2017-10-19T15:31:08.556Z","metadata":null,"next_step":null,"conditions":"#thankyou","description":null,"dialog_node":"node_5_1508425880755","previous_sibling":"node_4_1508425839563"},{"type":"frame","title":"Book Flight","output":{"text":{"values":["Thanks $flightBookingName for the details. We are searching for flights from $flightFromLocation to $flightToLocation for $flightDate at $flightTime. Our agent will connect with you on $flightBookingMobNumber soon!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-19T15:04:00.247Z","updated":"2017-10-19T16:40:04.667Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"#reserve && @mode_of_transportation:flight","description":null,"dialog_node":"node_2_1508425439793","previous_sibling":"node_1_1508425352942"},{"title":"Welcome","output":{"text":{"values":["Hi, I can help you with domestic flight booking,cab booking and status of flights!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-19T15:02:22.675Z","updated":"2017-10-19T15:09:42.692Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"1522e70f-63d0-408e-b1a8-423b55103c91","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Travel Booking",
+	"created": "2017-10-19T14:59:22.677Z",
+	"intents": [{
+		"intent": "greetings",
+		"created": "2017-10-19T15:22:46.463Z",
+		"updated": "2017-10-19T15:23:53.145Z",
+		"examples": [{
+			"text": "Hello",
+			"created": "2017-10-19T15:22:49.173Z",
+			"updated": "2017-10-19T15:22:49.173Z"
+		}, {
+			"text": "Hey",
+			"created": "2017-10-19T15:22:50.426Z",
+			"updated": "2017-10-19T15:22:50.426Z"
+		}, {
+			"text": "Hi",
+			"created": "2017-10-19T15:22:52.994Z",
+			"updated": "2017-10-19T15:22:52.994Z"
+		}, {
+			"text": "What's up?",
+			"created": "2017-10-19T15:22:59.122Z",
+			"updated": "2017-10-19T15:22:59.122Z"
+		}, {
+			"text": "greetings",
+			"created": "2017-10-19T15:23:12.151Z",
+			"updated": "2017-10-19T15:23:12.151Z"
+		}, {
+			"text": "Heyya",
+			"created": "2017-10-19T15:23:53.145Z",
+			"updated": "2017-10-19T15:23:53.145Z"
+		}],
+		"description": null
+	}, {
+		"intent": "thankyou",
+		"created": "2017-10-19T15:24:03.191Z",
+		"updated": "2017-10-19T15:24:22.124Z",
+		"examples": [{
+			"text": "Thanks",
+			"created": "2017-10-19T15:24:03.191Z",
+			"updated": "2017-10-19T15:24:03.191Z"
+		}, {
+			"text": "Thank you",
+			"created": "2017-10-19T15:24:06.787Z",
+			"updated": "2017-10-19T15:24:06.787Z"
+		}, {
+			"text": "Thanks a lot",
+			"created": "2017-10-19T15:24:16.861Z",
+			"updated": "2017-10-19T15:24:16.861Z"
+		}, {
+			"text": "Thank you very much",
+			"created": "2017-10-19T15:24:22.124Z",
+			"updated": "2017-10-19T15:24:22.124Z"
+		}],
+		"description": null
+	}, {
+		"intent": "reserve",
+		"created": "2017-10-19T15:00:50.794Z",
+		"updated": "2017-10-19T15:41:10.537Z",
+		"examples": [{
+			"text": "please book",
+			"created": "2017-10-19T15:02:00.343Z",
+			"updated": "2017-10-19T15:22:32.508Z"
+		}, {
+			"text": "please reserve",
+			"created": "2017-10-19T15:25:14.263Z",
+			"updated": "2017-10-19T15:25:14.263Z"
+		}, {
+			"text": "please arrange",
+			"created": "2017-10-19T15:25:19.982Z",
+			"updated": "2017-10-19T15:25:19.982Z"
+		}, {
+			"text": "make a reservation for",
+			"created": "2017-10-19T15:25:41.612Z",
+			"updated": "2017-10-19T15:25:41.612Z"
+		}, {
+			"text": "please make a booking for",
+			"created": "2017-10-19T15:25:53.630Z",
+			"updated": "2017-10-19T15:25:53.630Z"
+		}, {
+			"text": "book",
+			"created": "2017-10-19T15:39:58.300Z",
+			"updated": "2017-10-19T15:39:58.300Z"
+		}, {
+			"text": "reserve",
+			"created": "2017-10-19T15:40:02.211Z",
+			"updated": "2017-10-19T15:40:02.211Z"
+		}, {
+			"text": "arrange",
+			"created": "2017-10-19T15:40:07.590Z",
+			"updated": "2017-10-19T15:40:07.590Z"
+		}, {
+			"text": "make a booking",
+			"created": "2017-10-19T15:40:20.324Z",
+			"updated": "2017-10-19T15:40:25.022Z"
+		}, {
+			"text": "reservation for",
+			"created": "2017-10-19T15:40:35.552Z",
+			"updated": "2017-10-19T15:40:35.552Z"
+		}, {
+			"text": "booking for",
+			"created": "2017-10-19T15:40:44.570Z",
+			"updated": "2017-10-19T15:40:44.570Z"
+		}, {
+			"text": "kindly make reservation for",
+			"created": "2017-10-19T15:40:56.201Z",
+			"updated": "2017-10-19T15:40:56.201Z"
+		}, {
+			"text": "kindly book",
+			"created": "2017-10-19T15:41:03.386Z",
+			"updated": "2017-10-19T15:41:03.386Z"
+		}, {
+			"text": "kindly arrange",
+			"created": "2017-10-19T15:41:10.537Z",
+			"updated": "2017-10-19T15:41:10.537Z"
+		}],
+		"description": null
+	}, {
+		"intent": "status",
+		"created": "2017-10-19T15:48:25.871Z",
+		"updated": "2017-10-19T15:48:54.414Z",
+		"examples": [{
+			"text": "what is the status",
+			"created": "2017-10-19T15:48:34.001Z",
+			"updated": "2017-10-19T15:48:34.001Z"
+		}, {
+			"text": "please let me know the status",
+			"created": "2017-10-19T15:48:39.357Z",
+			"updated": "2017-10-19T15:48:39.357Z"
+		}, {
+			"text": "status of",
+			"created": "2017-10-19T15:48:42.905Z",
+			"updated": "2017-10-19T15:48:42.905Z"
+		}, {
+			"text": "can you please help me with status of",
+			"created": "2017-10-19T15:48:50.106Z",
+			"updated": "2017-10-19T15:48:50.106Z"
+		}, {
+			"text": "status please",
+			"created": "2017-10-19T15:48:54.414Z",
+			"updated": "2017-10-19T15:48:54.414Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-10-19T17:13:42.245Z",
+	"entities": [{
+		"entity": "sys-person",
+		"values": [],
+		"created": "2017-10-19T15:11:45.743Z",
+		"updated": "2017-10-19T15:11:45.743Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-location",
+		"values": [],
+		"created": "2017-10-19T15:11:45.785Z",
+		"updated": "2017-10-19T15:11:45.785Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-percentage",
+		"values": [],
+		"created": "2017-10-19T15:11:46.692Z",
+		"updated": "2017-10-19T15:11:46.692Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-currency",
+		"values": [],
+		"created": "2017-10-19T15:11:46.722Z",
+		"updated": "2017-10-19T15:11:46.722Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "mode_of_transportation",
+		"values": [{
+			"type": "synonyms",
+			"value": "Cab",
+			"created": "2017-10-19T15:27:54.434Z",
+			"updated": "2017-10-19T15:29:29.307Z",
+			"metadata": null,
+			"synonyms": ["Taxi", "taxi cab", "mini cab"]
+		}, {
+			"type": "synonyms",
+			"value": "flight",
+			"created": "2017-10-19T15:29:34.793Z",
+			"updated": "2017-10-19T15:30:12.575Z",
+			"metadata": null,
+			"synonyms": ["air journey", "domestic flight", "plane journey", "plane trip", "air trip"]
+		}],
+		"created": "2017-10-19T15:27:39.001Z",
+		"updated": "2017-10-19T15:30:12.575Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-time",
+		"values": [],
+		"created": "2017-10-19T15:11:45.775Z",
+		"updated": "2017-10-19T15:11:45.775Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-date",
+		"values": [],
+		"created": "2017-10-19T15:11:46.639Z",
+		"updated": "2017-10-19T15:11:46.639Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2017-10-19T15:11:46.434Z",
+		"updated": "2017-10-19T15:11:46.434Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Bot for booking flight,cab and knowing status of flight!",
+	"dialog_nodes": [{
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_15_1508426098680",
+		"context": {
+			"cabRequiredTime": "@sys-time"
+		},
+		"created": "2017-10-19T15:14:59.632Z",
+		"updated": "2017-10-19T15:20:15.892Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_16_1508426098680",
+		"previous_sibling": "handler_17_1508426098680"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter the time you require cab!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_15_1508426098680",
+		"context": null,
+		"created": "2017-10-19T15:16:43.788Z",
+		"updated": "2017-10-19T15:16:43.788Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_21_1508426194221",
+		"previous_sibling": "handler_16_1508426098680"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter the time you require cab"
+		},
+		"parent": "slot_15_1508426098680",
+		"context": null,
+		"created": "2017-10-19T15:15:00.104Z",
+		"updated": "2017-10-19T16:40:49.253Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_17_1508426098680",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your name"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_50_1508429267668",
+		"context": null,
+		"created": "2017-10-19T16:13:15.453Z",
+		"updated": "2017-10-19T16:13:15.453Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_72_1508429589554",
+		"previous_sibling": "handler_51_1508429267668"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_50_1508429267668",
+		"context": {
+			"flightBookingName": "@sys-person"
+		},
+		"created": "2017-10-19T16:07:48.571Z",
+		"updated": "2017-10-19T16:25:50.058Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-person",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_51_1508429267668",
+		"previous_sibling": "handler_52_1508429267668"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your name"
+		},
+		"parent": "slot_50_1508429267668",
+		"context": null,
+		"created": "2017-10-19T16:07:49.049Z",
+		"updated": "2017-10-19T16:13:14.416Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_52_1508429267668",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your mobile number for chauffeur to contact you"
+		},
+		"parent": "slot_27_1508426263671",
+		"context": null,
+		"created": "2017-10-19T15:17:45.070Z",
+		"updated": "2017-10-19T16:40:43.182Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_29_1508426263671",
+		"previous_sibling": "handler_28_1508426263671"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_27_1508426263671",
+		"context": {
+			"cabPersonNumber": "@sys-number"
+		},
+		"created": "2017-10-19T15:17:44.579Z",
+		"updated": "2017-10-19T15:18:08.017Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_28_1508426263671",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_36_1508429028588",
+		"context": {
+			"flightTime": "@sys-time"
+		},
+		"created": "2017-10-19T16:03:49.576Z",
+		"updated": "2017-10-19T16:17:03.108Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_37_1508429028588",
+		"previous_sibling": "handler_38_1508429028588"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter preferred departure time"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_36_1508429028588",
+		"context": null,
+		"created": "2017-10-19T16:12:15.159Z",
+		"updated": "2017-10-19T16:12:15.159Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_62_1508429529447",
+		"previous_sibling": "handler_37_1508429028588"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter preferred departure time"
+		},
+		"parent": "slot_36_1508429028588",
+		"context": null,
+		"created": "2017-10-19T16:03:50.123Z",
+		"updated": "2017-10-19T16:12:14.204Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_38_1508429028588",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter  your mobile number"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_56_1508429400268",
+		"context": null,
+		"created": "2017-10-19T16:13:28.050Z",
+		"updated": "2017-10-19T16:13:28.050Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_74_1508429602401",
+		"previous_sibling": "handler_57_1508429400268"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_56_1508429400268",
+		"context": {
+			"flightBookingNumber": "@sys-number"
+		},
+		"created": "2017-10-19T16:10:01.222Z",
+		"updated": "2017-10-19T16:29:56.646Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_57_1508429400268",
+		"previous_sibling": "handler_58_1508429400268"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter  your mobile number"
+		},
+		"parent": "slot_56_1508429400268",
+		"context": null,
+		"created": "2017-10-19T16:10:01.713Z",
+		"updated": "2017-10-19T16:13:27.115Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_58_1508429400268",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_12_1508426016722",
+		"context": {
+			"cabRequiredDate": "@sys-date"
+		},
+		"created": "2017-10-19T15:13:37.623Z",
+		"updated": "2017-10-19T15:20:06.745Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-date",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_13_1508426016722",
+		"previous_sibling": "handler_14_1508426016722"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter the date you require cab!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_12_1508426016722",
+		"context": null,
+		"created": "2017-10-19T15:16:26.415Z",
+		"updated": "2017-10-19T15:16:26.415Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_19_1508426178176",
+		"previous_sibling": "handler_13_1508426016722"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter the date you require cab"
+		},
+		"parent": "slot_12_1508426016722",
+		"context": null,
+		"created": "2017-10-19T15:13:38.111Z",
+		"updated": "2017-10-19T16:40:50.675Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_14_1508426016722",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter preferred departure date"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_33_1508429022332",
+		"context": null,
+		"created": "2017-10-19T16:12:02.110Z",
+		"updated": "2017-10-19T16:12:02.110Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_60_1508429515345",
+		"previous_sibling": "handler_34_1508429022332"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_33_1508429022332",
+		"context": {
+			"flightDate": "@sys-date"
+		},
+		"created": "2017-10-19T16:03:44.089Z",
+		"updated": "2017-10-19T16:16:45.735Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-date",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_34_1508429022332",
+		"previous_sibling": "handler_35_1508429022332"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter preferred departure date"
+		},
+		"parent": "slot_33_1508429022332",
+		"context": null,
+		"created": "2017-10-19T16:03:44.616Z",
+		"updated": "2017-10-19T16:12:00.928Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_35_1508429022332",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508425828948",
+		"context": null,
+		"created": "2017-10-19T15:16:49.502Z",
+		"updated": "2017-10-19T17:00:52.813Z",
+		"metadata": null,
+		"variable": "$cabPickuplocation",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_22_1508426208407",
+		"previous_sibling": "slot_15_1508426098680"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508425828948",
+		"context": null,
+		"created": "2017-10-19T15:13:37.165Z",
+		"updated": "2017-10-19T15:20:06.271Z",
+		"metadata": null,
+		"variable": "$cabRequiredDate",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_12_1508426016722",
+		"previous_sibling": "handler_6_1508425932620"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508425828948",
+		"context": null,
+		"created": "2017-10-19T15:14:59.137Z",
+		"updated": "2017-10-19T15:20:15.406Z",
+		"metadata": null,
+		"variable": "$cabRequiredTime",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_15_1508426098680",
+		"previous_sibling": "slot_12_1508426016722"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508425828948",
+		"context": null,
+		"created": "2017-10-19T15:12:13.917Z",
+		"updated": "2017-10-19T16:06:03.128Z",
+		"metadata": null,
+		"variable": "$cabPersonName",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_7_1508425932671",
+		"previous_sibling": "slot_39_1508429066297"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508425828948",
+		"context": null,
+		"created": "2017-10-19T16:04:26.806Z",
+		"updated": "2017-10-19T16:05:32.516Z",
+		"metadata": null,
+		"variable": "$cabPaxCount",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_39_1508429066297",
+		"previous_sibling": "slot_22_1508426208407"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1508425828948",
+		"context": null,
+		"created": "2017-10-19T15:17:44.092Z",
+		"updated": "2017-10-19T16:04:30.554Z",
+		"metadata": null,
+		"variable": "$cabPersonNumber",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_27_1508426263671",
+		"previous_sibling": "slot_7_1508425932671"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "node_3_1508425828948",
+		"context": null,
+		"created": "2017-10-19T15:12:13.041Z",
+		"updated": "2017-10-19T15:42:09.959Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_6_1508425932620",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508425439793",
+		"context": null,
+		"created": "2017-10-19T16:07:26.325Z",
+		"updated": "2017-10-19T16:15:45.569Z",
+		"metadata": null,
+		"variable": "$flightFromLocation",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_44_1508429245897",
+		"previous_sibling": "slot_36_1508429028588"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508425439793",
+		"context": null,
+		"created": "2017-10-19T16:07:48.109Z",
+		"updated": "2017-10-19T16:25:49.531Z",
+		"metadata": null,
+		"variable": "$flightBookingName",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_50_1508429267668",
+		"previous_sibling": "slot_56_1508429400268"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508425439793",
+		"context": null,
+		"created": "2017-10-19T16:03:49.036Z",
+		"updated": "2017-10-19T16:17:02.652Z",
+		"metadata": null,
+		"variable": "$flightTime",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_36_1508429028588",
+		"previous_sibling": "slot_33_1508429022332"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508425439793",
+		"context": null,
+		"created": "2017-10-19T16:10:00.746Z",
+		"updated": "2017-10-19T16:29:56.165Z",
+		"metadata": null,
+		"variable": "$flightBookingNumber",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_56_1508429400268",
+		"previous_sibling": "slot_47_1508429257153"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508425439793",
+		"context": null,
+		"created": "2017-10-19T16:07:37.580Z",
+		"updated": "2017-10-19T16:15:56.233Z",
+		"metadata": null,
+		"variable": "$flightToLocation",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_47_1508429257153",
+		"previous_sibling": "slot_44_1508429245897"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1508425439793",
+		"context": null,
+		"created": "2017-10-19T16:03:43.584Z",
+		"updated": "2017-10-19T16:16:45.296Z",
+		"metadata": null,
+		"variable": "$flightDate",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_33_1508429022332",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_47_1508429257153",
+		"context": {
+			"flightToLocation": "@sys-location"
+		},
+		"created": "2017-10-19T16:07:38.021Z",
+		"updated": "2017-10-19T16:15:56.669Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-location",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_48_1508429257153",
+		"previous_sibling": "handler_49_1508429257153"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter arrival location"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_47_1508429257153",
+		"context": null,
+		"created": "2017-10-19T16:12:49.558Z",
+		"updated": "2017-10-19T16:12:49.558Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_68_1508429563537",
+		"previous_sibling": "handler_48_1508429257153"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter arrival location"
+		},
+		"parent": "slot_47_1508429257153",
+		"context": null,
+		"created": "2017-10-19T16:07:38.458Z",
+		"updated": "2017-10-19T16:12:48.398Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_49_1508429257153",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter departure location"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_44_1508429245897",
+		"context": null,
+		"created": "2017-10-19T16:12:35.190Z",
+		"updated": "2017-10-19T16:12:35.190Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_66_1508429549267",
+		"previous_sibling": "handler_45_1508429245897"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_44_1508429245897",
+		"context": {
+			"flightFromLocation": "@sys-location"
+		},
+		"created": "2017-10-19T16:07:26.776Z",
+		"updated": "2017-10-19T16:15:46.086Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-location",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_45_1508429245897",
+		"previous_sibling": "handler_46_1508429245897"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter departure location"
+		},
+		"parent": "slot_44_1508429245897",
+		"context": null,
+		"created": "2017-10-19T16:07:27.255Z",
+		"updated": "2017-10-19T16:12:34.171Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_46_1508429245897",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter passenger count"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_39_1508429066297",
+		"context": null,
+		"created": "2017-10-19T16:05:28.307Z",
+		"updated": "2017-10-19T16:05:28.307Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_43_1508429115076",
+		"previous_sibling": "handler_40_1508429066297"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_39_1508429066297",
+		"context": {
+			"cabPaxCount": "@sys-number"
+		},
+		"created": "2017-10-19T16:04:27.344Z",
+		"updated": "2017-10-19T16:05:32.992Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_40_1508429066297",
+		"previous_sibling": "handler_41_1508429066297"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter passenger count"
+		},
+		"parent": "slot_39_1508429066297",
+		"context": null,
+		"created": "2017-10-19T16:04:27.940Z",
+		"updated": "2017-10-19T16:05:36.480Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_41_1508429066297",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter the pickup location!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_22_1508426208407",
+		"context": null,
+		"created": "2017-10-19T15:17:41.480Z",
+		"updated": "2017-10-19T16:42:59.300Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_26_1508426253885",
+		"previous_sibling": "handler_23_1508426208407"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_22_1508426208407",
+		"context": {
+			"cabPickuplocation": "@sys-location"
+		},
+		"created": "2017-10-19T15:16:51.498Z",
+		"updated": "2017-10-19T17:00:53.301Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-location",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_23_1508426208407",
+		"previous_sibling": "handler_24_1508426208407"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter the pickup location"
+		},
+		"parent": "slot_22_1508426208407",
+		"context": null,
+		"created": "2017-10-19T15:16:53.148Z",
+		"updated": "2017-10-19T16:42:58.252Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_24_1508426208407",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You flight is ON TIME!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1508425839563",
+		"context": null,
+		"created": "2017-10-19T15:50:14.284Z",
+		"updated": "2017-10-19T16:22:49.735Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "input.text.matches('[a-zA-Z0-9 -]+$')",
+		"description": null,
+		"dialog_node": "node_32_1508428213854",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_7_1508425932671",
+		"context": {
+			"cabPersonName": "@sys-person"
+		},
+		"created": "2017-10-19T15:12:14.402Z",
+		"updated": "2017-10-19T16:06:03.604Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-person",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_8_1508425932671",
+		"previous_sibling": "handler_9_1508425932671"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your name!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_7_1508425932671",
+		"context": null,
+		"created": "2017-10-19T15:13:34.927Z",
+		"updated": "2017-10-19T15:13:34.927Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_11_1508425997145",
+		"previous_sibling": "handler_8_1508425932671"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your name"
+		},
+		"parent": "slot_7_1508425932671",
+		"context": null,
+		"created": "2017-10-19T15:12:14.892Z",
+		"updated": "2017-10-19T15:13:33.639Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_9_1508425932671",
+		"previous_sibling": null
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-19T15:02:22.675Z",
+		"updated": "2017-10-19T15:02:22.675Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_5_1508425880755"
+	}, {
+		"title": "Status of Flight",
+		"output": {
+			"text": {
+				"values": ["Can you please tell me flight number?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-19T15:10:40.873Z",
+		"updated": "2017-10-19T15:52:17.104Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#status && @mode_of_transportation:flight",
+		"description": null,
+		"dialog_node": "node_4_1508425839563",
+		"previous_sibling": "node_3_1508425828948"
+	}, {
+		"type": "frame",
+		"title": "Book Cab",
+		"output": {
+			"text": {
+				"values": ["Sure thing $cabPersonName, your cab has been booked for $cabRequiredDate and you will be picked up from $cabPickuplocation at $cabRequiredTime"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-19T15:10:29.393Z",
+		"updated": "2017-10-19T16:06:55.258Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#reserve && @mode_of_transportation:Cab",
+		"description": null,
+		"dialog_node": "node_3_1508425828948",
+		"previous_sibling": "node_2_1508425439793"
+	}, {
+		"title": "Greetings",
+		"output": {
+			"text": {
+				"values": ["Hi, I can help you with domestic flight booking,cab booking and status of flights!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-19T15:02:33.478Z",
+		"updated": "2017-10-19T15:11:16.799Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "node_1_1508425352942",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "Thank You",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-19T15:11:21.190Z",
+		"updated": "2017-10-19T15:31:08.556Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#thankyou",
+		"description": null,
+		"dialog_node": "node_5_1508425880755",
+		"previous_sibling": "node_4_1508425839563"
+	}, {
+		"type": "frame",
+		"title": "Book Flight",
+		"output": {
+			"text": {
+				"values": ["Thanks $flightBookingName for the details. We are searching for flights from $flightFromLocation to $flightToLocation for $flightDate at $flightTime. Our agent will connect with you on $flightBookingMobNumber soon!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-19T15:04:00.247Z",
+		"updated": "2017-10-19T16:40:04.667Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#reserve && @mode_of_transportation:flight",
+		"description": null,
+		"dialog_node": "node_2_1508425439793",
+		"previous_sibling": "node_1_1508425352942"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hi, I can help you with domestic flight booking,cab booking and status of flights!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-19T15:02:22.675Z",
+		"updated": "2017-10-19T15:09:42.692Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "1522e70f-63d0-408e-b1a8-423b55103c91",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

@@ -1,1 +1,668 @@
-{"name":"Eugene Bot","created":"2018-01-09T21:33:58.825Z","intents":[{"intent":"risktypes","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","examples":[{"text":"can you list the types of risk","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"Can me show what risk means","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"display the different risks","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"are there different risks?","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"what types of risk exist?","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"}],"description":null},{"intent":"positive","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","examples":[{"text":"New Samsung looks great","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I like the Galaxy phones","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I prefer Android","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I love Apple","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I need a good battery life","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I want a great battery","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I want a good looking phone","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I care about the looks","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I care about style","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"}],"description":null},{"intent":"topinvestments","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","examples":[{"text":"what are the most relevant topics","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"what things are moving the world","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"what are the top financial areas","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"what are the key topics for investments","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"give me the key headlines","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"}],"description":null},{"intent":"riskdefinition","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","examples":[{"text":"give me a definition for risk","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"define financial risk","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"what do you understand on risk","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"tell me about risk","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"inform me about financial risk","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"what is risky","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"}],"description":null},{"intent":"negative","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","examples":[{"text":"I don't care about the battery","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I don't care about the looks","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"Android sucks","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"HTC is the worst","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I don't like iPhones","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I hate Samsing","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I do not care about the style","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"}],"description":null},{"intent":"greeting","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","examples":[{"text":"Good morning","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"Good evening","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"Good afternoon","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"Hi","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"Hello","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"}],"description":null},{"intent":"phone","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","examples":[{"text":"I am interested in buying new phone","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I want to replace my phone","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I want advice regarding phones","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"What is the best phone available","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I am looking for a new phone","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"My old phone is garbage","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"},{"text":"I need a new phone","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z"}],"description":null}],"updated":"2018-01-09T21:33:58.825Z","entities":[{"entity":"brand","values":[{"type":"synonyms","value":"HTC","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Apple","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"synonyms":["iPhone"]},{"type":"synonyms","value":"Samsung","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"synonyms":["Galaxy"]}],"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"parameter","values":[{"type":"synonyms","value":"style","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"synonyms":["stylish","looks"]},{"type":"synonyms","value":"battery","created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"synonyms":["battery life"]}],"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"response_condition","title":null,"output":{"text":{"values":["Really? In that case I cannot help you."],"selection_policy":"sequential"}},"parent":"Brand positive","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":" @brand:HTC","description":null,"dialog_node":"node_27_1497520883431","previous_sibling":"node_26_1497520823366"},{"type":"response_condition","title":null,"output":{"text":{"values":["If you like Samsung get a new Samsung Galaxy S8."],"selection_policy":"sequential"}},"parent":"Brand positive","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":" @brand:Samsung","description":null,"dialog_node":"node_26_1497520823366","previous_sibling":"node_25_1497520732655"},{"type":"response_condition","title":null,"output":{"text":{"values":["If you like Apple wait for a new iPhone. It will be released soon."],"selection_policy":"sequential"}},"parent":"Brand positive","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":" @brand:Apple","description":null,"dialog_node":"node_25_1497520732655","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["A beauty is in the eye of the beholder..."],"selection_policy":"sequential"}},"parent":"Parameter positive","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":" @parameter:style","description":null,"dialog_node":"node_34_1497521127810","previous_sibling":"node_33_1497521061914"},{"type":"response_condition","title":null,"output":{"text":{"values":["If you need a long battery life I would suggest Nokia 3310."],"selection_policy":"sequential"}},"parent":"Parameter positive","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":" @parameter:battery","description":null,"dialog_node":"node_33_1497521061914","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["There are many types of financial risks. The most common ones include credit risk, liquidity risk, asset backed risk, foreign investment risk, equity risk and currency risk. Credit risk is also referred to as default risk. This type of risk is associated with people who borrowed money and who are unable to pay for the money they borrowed. As such, these people go into default. Investors affected by credit risk suffer from decreased income and lost principal and interest, or they deal with a rise in costs for collection. Liquidity risk involves securities and assets that cannot be purchased or sold fast enough to cut losses in a volatile market. Asset-backed risk is the risk that asset-backed securities may become volatile if the underlying securities also change in value. The risks under asset-backed risk include prepayment risk and interest rate risk. Changes in prices because of market differences, political changes, natural calamities, diplomatic changes or economic conflicts may cause volatile foreign investment conditions that may expose businesses and individuals to foreign investment risk. Equity risk covers the risk involved in the volatile price changes of shares of stock. Investors holding foreign currencies are exposed to currency risk because different factors, such as interest rate changes and monetary policy changes, can alter the value of the asset that investors are holding."],"selection_policy":"sequential"}},"parent":"Talk about risk","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":"#risktypes","description":null,"dialog_node":"Risk types","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"Select","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Help"},"conditions":"#negative && @brand","description":null,"dialog_node":"Brand negative","previous_sibling":"Brand positive"},{"type":"standard","title":null,"output":{"text":{"values":["I do not understand."],"selection_policy":"sequential"}},"parent":"Select","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_35_1497521285661","previous_sibling":"Parameter positive"},{"type":"standard","title":null,"output":{},"parent":"Select","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Help"},"conditions":"#positive && @parameter","description":null,"dialog_node":"Parameter positive","previous_sibling":"Brand negative"},{"type":"standard","title":null,"output":{},"parent":"Select","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Help"},"conditions":"#positive && @brand","description":null,"dialog_node":"Brand positive","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["If you don't like HTC get a Samsung."],"selection_policy":"sequential"}},"parent":"Brand negative","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":" @brand:HTC","description":null,"dialog_node":"node_30_1497520977219","previous_sibling":"node_29_1497520946488"},{"type":"response_condition","title":null,"output":{"text":{"values":["If you don't like Apple get a Samsung phone."],"selection_policy":"sequential"}},"parent":"Brand negative","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":" @brand:Apple","description":null,"dialog_node":"node_31_1497520994437","previous_sibling":"node_30_1497520977219"},{"type":"response_condition","title":null,"output":{"text":{"values":["If you don't like Samsung get a HTC phone."],"selection_policy":"sequential"}},"parent":"Brand negative","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":" @brand:Samsung","description":null,"dialog_node":"node_29_1497520946488","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Do you have any preference for brand, parameters or price?"],"selection_policy":"sequential"}},"parent":"Phone","context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Select","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["I understand that you want to choose a new phone."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Select"},"conditions":"#phone","description":null,"dialog_node":"Phone","previous_sibling":"Welcome"},{"type":"standard","title":null,"output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"Help"},{"type":"standard","title":null,"output":{"text":{"values":["Can I help you with something else?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Help","previous_sibling":"Provide Key topics"},{"type":"standard","title":null,"output":{"text":{"values":["Artificial intelligence, Smart automation, demographic developments, robotics, ongoing industrial revolution and innovation capabilities."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":"#topinvestments","description":null,"dialog_node":"Provide Key topics","previous_sibling":"Talk about risk"},{"type":"standard","title":null,"output":{"text":{"values":["Financial risk is the general term for many different types of risks related to the finance industry. These include risks involving financial transactions such us company loans, and its exposure to loan default. The term is typically used to reflect an investor's uncertainty of collecting returns and the potential for monetary loss. Investors can use a number of financial risk ratios to assess an investment's prospects. For example, the debt-to-capital ratio measures the proportion of debt used, given the total capital structure of the company. A high proportion of debt indicates a risky investment. Another ratio, the capital expenditure ratio, divides cash flow from operations by capital expenditures to see how much money a company will have left to keep the business running after it services its debt."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":"#riskdefinition","description":null,"dialog_node":"Talk about risk","previous_sibling":"Phone"},{"type":"standard","title":null,"output":{"text":{"values":["Hello. I will provide you insight about the views of Chief Investment Officers around the globe. What are you interested in?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:33:58.825Z","updated":"2018-01-09T21:33:58.825Z","metadata":null,"next_step":null,"conditions":"input.text == 'init' || #greeting || welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"33a60e65-7d88-4d85-bef2-e6bd319492f7","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Eugene Bot",
+	"created": "2018-01-09T21:33:58.825Z",
+	"intents": [{
+		"intent": "risktypes",
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"examples": [{
+			"text": "can you list the types of risk",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "Can me show what risk means",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "display the different risks",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "are there different risks?",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "what types of risk exist?",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}],
+		"description": null
+	}, {
+		"intent": "positive",
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"examples": [{
+			"text": "New Samsung looks great",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I like the Galaxy phones",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I prefer Android",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I love Apple",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I need a good battery life",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I want a great battery",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I want a good looking phone",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I care about the looks",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I care about style",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}],
+		"description": null
+	}, {
+		"intent": "topinvestments",
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"examples": [{
+			"text": "what are the most relevant topics",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "what things are moving the world",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "what are the top financial areas",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "what are the key topics for investments",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "give me the key headlines",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}],
+		"description": null
+	}, {
+		"intent": "riskdefinition",
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"examples": [{
+			"text": "give me a definition for risk",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "define financial risk",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "what do you understand on risk",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "tell me about risk",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "inform me about financial risk",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "what is risky",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}],
+		"description": null
+	}, {
+		"intent": "negative",
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"examples": [{
+			"text": "I don't care about the battery",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I don't care about the looks",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "Android sucks",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "HTC is the worst",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I don't like iPhones",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I hate Samsing",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I do not care about the style",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greeting",
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"examples": [{
+			"text": "Good morning",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "Good evening",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "Good afternoon",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "Hi",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "Hello",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}],
+		"description": null
+	}, {
+		"intent": "phone",
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"examples": [{
+			"text": "I am interested in buying new phone",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I want to replace my phone",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I want advice regarding phones",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "What is the best phone available",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I am looking for a new phone",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "My old phone is garbage",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}, {
+			"text": "I need a new phone",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-01-09T21:33:58.825Z",
+	"entities": [{
+		"entity": "brand",
+		"values": [{
+			"type": "synonyms",
+			"value": "HTC",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Apple",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z",
+			"metadata": null,
+			"synonyms": ["iPhone"]
+		}, {
+			"type": "synonyms",
+			"value": "Samsung",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z",
+			"metadata": null,
+			"synonyms": ["Galaxy"]
+		}],
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "parameter",
+		"values": [{
+			"type": "synonyms",
+			"value": "style",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z",
+			"metadata": null,
+			"synonyms": ["stylish", "looks"]
+		}, {
+			"type": "synonyms",
+			"value": "battery",
+			"created": "2018-01-09T21:33:58.825Z",
+			"updated": "2018-01-09T21:33:58.825Z",
+			"metadata": null,
+			"synonyms": ["battery life"]
+		}],
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Really? In that case I cannot help you."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Brand positive",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @brand:HTC",
+		"description": null,
+		"dialog_node": "node_27_1497520883431",
+		"previous_sibling": "node_26_1497520823366"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["If you like Samsung get a new Samsung Galaxy S8."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Brand positive",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @brand:Samsung",
+		"description": null,
+		"dialog_node": "node_26_1497520823366",
+		"previous_sibling": "node_25_1497520732655"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["If you like Apple wait for a new iPhone. It will be released soon."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Brand positive",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @brand:Apple",
+		"description": null,
+		"dialog_node": "node_25_1497520732655",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["A beauty is in the eye of the beholder..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Parameter positive",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @parameter:style",
+		"description": null,
+		"dialog_node": "node_34_1497521127810",
+		"previous_sibling": "node_33_1497521061914"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["If you need a long battery life I would suggest Nokia 3310."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Parameter positive",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @parameter:battery",
+		"description": null,
+		"dialog_node": "node_33_1497521061914",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["There are many types of financial risks. The most common ones include credit risk, liquidity risk, asset backed risk, foreign investment risk, equity risk and currency risk. Credit risk is also referred to as default risk. This type of risk is associated with people who borrowed money and who are unable to pay for the money they borrowed. As such, these people go into default. Investors affected by credit risk suffer from decreased income and lost principal and interest, or they deal with a rise in costs for collection. Liquidity risk involves securities and assets that cannot be purchased or sold fast enough to cut losses in a volatile market. Asset-backed risk is the risk that asset-backed securities may become volatile if the underlying securities also change in value. The risks under asset-backed risk include prepayment risk and interest rate risk. Changes in prices because of market differences, political changes, natural calamities, diplomatic changes or economic conflicts may cause volatile foreign investment conditions that may expose businesses and individuals to foreign investment risk. Equity risk covers the risk involved in the volatile price changes of shares of stock. Investors holding foreign currencies are exposed to currency risk because different factors, such as interest rate changes and monetary policy changes, can alter the value of the asset that investors are holding."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Talk about risk",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#risktypes",
+		"description": null,
+		"dialog_node": "Risk types",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Select",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Help"
+		},
+		"conditions": "#negative && @brand",
+		"description": null,
+		"dialog_node": "Brand negative",
+		"previous_sibling": "Brand positive"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I do not understand."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Select",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_35_1497521285661",
+		"previous_sibling": "Parameter positive"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Select",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Help"
+		},
+		"conditions": "#positive && @parameter",
+		"description": null,
+		"dialog_node": "Parameter positive",
+		"previous_sibling": "Brand negative"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Select",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Help"
+		},
+		"conditions": "#positive && @brand",
+		"description": null,
+		"dialog_node": "Brand positive",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["If you don't like HTC get a Samsung."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Brand negative",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @brand:HTC",
+		"description": null,
+		"dialog_node": "node_30_1497520977219",
+		"previous_sibling": "node_29_1497520946488"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["If you don't like Apple get a Samsung phone."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Brand negative",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @brand:Apple",
+		"description": null,
+		"dialog_node": "node_31_1497520994437",
+		"previous_sibling": "node_30_1497520977219"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["If you don't like Samsung get a HTC phone."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Brand negative",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @brand:Samsung",
+		"description": null,
+		"dialog_node": "node_29_1497520946488",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Do you have any preference for brand, parameters or price?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Phone",
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Select",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I understand that you want to choose a new phone."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Select"
+		},
+		"conditions": "#phone",
+		"description": null,
+		"dialog_node": "Phone",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Help"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Can I help you with something else?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Help",
+		"previous_sibling": "Provide Key topics"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Artificial intelligence, Smart automation, demographic developments, robotics, ongoing industrial revolution and innovation capabilities."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#topinvestments",
+		"description": null,
+		"dialog_node": "Provide Key topics",
+		"previous_sibling": "Talk about risk"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Financial risk is the general term for many different types of risks related to the finance industry. These include risks involving financial transactions such us company loans, and its exposure to loan default. The term is typically used to reflect an investor's uncertainty of collecting returns and the potential for monetary loss. Investors can use a number of financial risk ratios to assess an investment's prospects. For example, the debt-to-capital ratio measures the proportion of debt used, given the total capital structure of the company. A high proportion of debt indicates a risky investment. Another ratio, the capital expenditure ratio, divides cash flow from operations by capital expenditures to see how much money a company will have left to keep the business running after it services its debt."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#riskdefinition",
+		"description": null,
+		"dialog_node": "Talk about risk",
+		"previous_sibling": "Phone"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hello. I will provide you insight about the views of Chief Investment Officers around the globe. What are you interested in?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:33:58.825Z",
+		"updated": "2018-01-09T21:33:58.825Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "input.text == 'init' || #greeting || welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "33a60e65-7d88-4d85-bef2-e6bd319492f7",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

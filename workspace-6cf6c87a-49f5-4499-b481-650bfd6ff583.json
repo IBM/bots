@@ -1,1 +1,1986 @@
-{"name":"IBM_ChatBot","created":"2018-02-02T11:35:42.387Z","intents":[{"intent":"superheros","created":"2018-02-02T12:04:46.250Z","updated":"2018-02-04T12:42:59.535Z","examples":[{"text":"How many Superhero you know?","created":"2018-02-02T12:05:16.088Z","updated":"2018-02-02T12:05:16.088Z"},{"text":"do you know any super hero?","created":"2018-02-02T12:05:31.316Z","updated":"2018-02-02T12:05:31.316Z"},{"text":"How many super hero do you know?","created":"2018-02-02T12:06:18.050Z","updated":"2018-02-02T12:06:18.050Z"},{"text":"Give me the the options","created":"2018-02-02T12:06:31.298Z","updated":"2018-02-02T12:06:31.298Z"},{"text":"Any option?","created":"2018-02-04T10:37:32.680Z","updated":"2018-02-04T10:37:32.680Z"},{"text":"d","created":"2018-02-04T12:42:59.535Z","updated":"2018-02-04T12:42:59.535Z"}],"description":"All Super Heros"},{"intent":"Applauds","created":"2018-02-04T16:35:12.788Z","updated":"2018-02-04T16:36:09.124Z","examples":[{"text":"Good One","created":"2018-02-04T16:35:27.199Z","updated":"2018-02-04T16:35:27.199Z"},{"text":"nice","created":"2018-02-04T16:35:33.053Z","updated":"2018-02-04T16:35:33.053Z"},{"text":"cool","created":"2018-02-04T16:35:39.159Z","updated":"2018-02-04T16:35:39.159Z"},{"text":"great","created":"2018-02-04T16:35:46.767Z","updated":"2018-02-04T16:35:46.767Z"},{"text":"fine","created":"2018-02-04T16:35:52.615Z","updated":"2018-02-04T16:35:52.615Z"},{"text":"wonderful","created":"2018-02-04T16:36:00.911Z","updated":"2018-02-04T16:36:00.911Z"},{"text":"fantastic","created":"2018-02-04T16:36:09.124Z","updated":"2018-02-04T16:36:09.124Z"}],"description":""},{"intent":"what_do","created":"2018-02-02T11:37:51.355Z","updated":"2018-02-02T11:38:58.396Z","examples":[{"text":"help me?","created":"2018-02-02T11:38:09.389Z","updated":"2018-02-02T11:38:09.389Z"},{"text":"what services you provide me?","created":"2018-02-02T11:38:24.464Z","updated":"2018-02-02T11:38:24.464Z"},{"text":"What do you do?","created":"2018-02-02T11:38:01.447Z","updated":"2018-02-02T11:38:58.396Z"}],"description":"What do You do?"},{"intent":"introductionofbatman","created":"2018-02-03T11:18:01.435Z","updated":"2018-02-04T11:00:37.240Z","examples":[{"text":"Introduction","created":"2018-02-03T11:18:24.109Z","updated":"2018-02-03T11:18:24.109Z"},{"text":"introduce","created":"2018-02-03T11:18:30.371Z","updated":"2018-02-03T11:18:30.371Z"},{"text":"About","created":"2018-02-03T11:18:36.700Z","updated":"2018-02-03T11:18:36.700Z"},{"text":"About him","created":"2018-02-03T11:18:43.961Z","updated":"2018-02-03T11:24:34.773Z"},{"text":"Inroduction","created":"2018-02-03T11:42:30.051Z","updated":"2018-02-03T11:42:30.051Z"},{"text":"a","created":"2018-02-04T11:00:37.240Z","updated":"2018-02-04T11:00:37.240Z"}],"description":"Introduction of Batman"},{"intent":"appreciation_you","created":"2018-02-02T11:55:54.032Z","updated":"2018-02-02T11:57:35.807Z","examples":[{"text":"You are amazing.!","created":"2018-02-02T11:56:10.369Z","updated":"2018-02-02T11:56:10.369Z"},{"text":"you are lovely.","created":"2018-02-02T11:56:20.605Z","updated":"2018-02-02T11:56:20.605Z"},{"text":"You are awesome.","created":"2018-02-02T11:57:01.597Z","updated":"2018-02-02T11:57:01.597Z"}],"description":"Appreciation"},{"intent":"Thor","created":"2018-02-04T11:13:20.914Z","updated":"2018-02-04T11:22:46.568Z","examples":[{"text":"thor","created":"2018-02-04T11:13:24.433Z","updated":"2018-02-04T11:13:24.433Z"},{"text":"5","created":"2018-02-04T11:22:46.568Z","updated":"2018-02-04T11:22:46.568Z"}],"description":"Thor"},{"intent":"Batman","created":"2018-02-03T10:58:44.392Z","updated":"2018-02-04T11:27:19.669Z","examples":[{"text":"Tell me about batman","created":"2018-02-03T10:58:57.583Z","updated":"2018-02-03T10:58:57.583Z"},{"text":"Batman","created":"2018-02-03T10:59:02.137Z","updated":"2018-02-03T10:59:02.137Z"},{"text":"Bat man","created":"2018-02-03T10:59:12.960Z","updated":"2018-02-03T10:59:12.960Z"},{"text":"1","created":"2018-02-04T11:27:19.669Z","updated":"2018-02-04T11:27:19.669Z"}],"description":"Tell me about Batman"},{"intent":"none","created":"2018-02-02T11:54:33.216Z","updated":"2018-02-02T11:54:37.798Z","examples":[{"text":"dsfgsgsr","created":"2018-02-02T11:54:37.798Z","updated":"2018-02-02T11:54:37.798Z"}],"description":null},{"intent":"deadpool","created":"2018-02-03T11:20:23.662Z","updated":"2018-02-04T10:59:06.815Z","examples":[{"text":"Deadpool","created":"2018-02-03T11:20:33.103Z","updated":"2018-02-03T11:20:33.103Z"},{"text":"About Deadpool","created":"2018-02-03T11:20:40.067Z","updated":"2018-02-03T11:20:40.067Z"},{"text":"4","created":"2018-02-04T10:59:06.815Z","updated":"2018-02-04T10:59:06.815Z"}],"description":"About Deadpool"},{"intent":"ending.","created":"2018-02-02T11:58:54.529Z","updated":"2018-02-04T11:04:08.866Z","examples":[{"text":"Bye.","created":"2018-02-02T11:58:59.149Z","updated":"2018-02-02T11:58:59.149Z"},{"text":"See you.","created":"2018-02-02T11:59:17.614Z","updated":"2018-02-02T11:59:17.614Z"},{"text":"exit.","created":"2018-02-02T11:59:23.214Z","updated":"2018-02-02T11:59:23.214Z"},{"text":"close.","created":"2018-02-02T11:59:28.220Z","updated":"2018-02-02T11:59:28.220Z"},{"text":"tata.","created":"2018-02-02T11:59:33.337Z","updated":"2018-02-02T11:59:33.337Z"},{"text":"good bye.","created":"2018-02-02T11:59:39.023Z","updated":"2018-02-02T11:59:39.023Z"},{"text":"bbye","created":"2018-02-04T11:04:08.866Z","updated":"2018-02-04T11:04:08.866Z"}],"description":"bbye texts"},{"intent":"Who","created":"2018-02-02T11:36:10.100Z","updated":"2018-02-02T11:37:18.996Z","examples":[{"text":"Who are you?","created":"2018-02-02T11:36:22.786Z","updated":"2018-02-02T11:36:22.786Z"},{"text":"what is Your Name?","created":"2018-02-02T11:36:33.627Z","updated":"2018-02-02T11:36:33.627Z"},{"text":"Introduce yourself","created":"2018-02-02T11:36:59.133Z","updated":"2018-02-02T11:36:59.133Z"},{"text":"tell me your name","created":"2018-02-02T11:37:07.937Z","updated":"2018-02-02T11:37:07.937Z"},{"text":"what's your name?","created":"2018-02-02T11:37:18.996Z","updated":"2018-02-02T11:37:18.996Z"}],"description":"Who are you"},{"intent":"acknowledgement","created":"2018-02-04T10:19:22.984Z","updated":"2018-02-04T10:19:39.911Z","examples":[{"text":"yes","created":"2018-02-04T10:19:32.194Z","updated":"2018-02-04T10:19:32.194Z"},{"text":"Okay","created":"2018-02-04T10:19:35.852Z","updated":"2018-02-04T10:19:35.852Z"},{"text":"More","created":"2018-02-04T10:19:39.911Z","updated":"2018-02-04T10:19:39.911Z"}],"description":null},{"intent":"how_are_you","created":"2018-02-02T11:39:17.560Z","updated":"2018-02-02T11:40:11.724Z","examples":[{"text":"how are you?","created":"2018-02-02T11:39:49.289Z","updated":"2018-02-02T11:39:49.289Z"},{"text":"hows you?","created":"2018-02-02T11:39:57.509Z","updated":"2018-02-02T11:39:57.509Z"},{"text":"You okay?","created":"2018-02-02T11:40:11.724Z","updated":"2018-02-02T11:40:11.724Z"}],"description":"How are you?"},{"intent":"spiderman","created":"2018-02-04T11:12:22.073Z","updated":"2018-02-04T11:21:00.975Z","examples":[{"text":"spider man","created":"2018-02-04T11:12:27.339Z","updated":"2018-02-04T11:12:27.339Z"},{"text":"spiderman","created":"2018-02-04T11:12:32.057Z","updated":"2018-02-04T11:12:32.057Z"},{"text":"3","created":"2018-02-04T11:21:00.975Z","updated":"2018-02-04T11:21:00.975Z"}],"description":""},{"intent":"InitialGreeting","created":"2018-02-03T11:29:38.859Z","updated":"2018-02-03T11:30:19.157Z","examples":[{"text":"Hello","created":"2018-02-03T11:29:44.074Z","updated":"2018-02-03T11:29:44.074Z"},{"text":"Hey","created":"2018-02-03T11:29:48.340Z","updated":"2018-02-03T11:29:48.340Z"},{"text":"Hy","created":"2018-02-03T11:29:56.028Z","updated":"2018-02-03T11:29:56.028Z"},{"text":"Hi","created":"2018-02-03T11:30:02.864Z","updated":"2018-02-03T11:30:02.864Z"},{"text":"Hiii","created":"2018-02-03T11:30:07.673Z","updated":"2018-02-03T11:30:07.673Z"},{"text":"Hola","created":"2018-02-03T11:30:14.418Z","updated":"2018-02-03T11:30:14.418Z"},{"text":"Namaste","created":"2018-02-03T11:30:19.157Z","updated":"2018-02-03T11:30:19.157Z"}],"description":"Initial Greetings."},{"intent":"love_you","created":"2018-02-02T11:57:59.223Z","updated":"2018-02-02T11:58:32.414Z","examples":[{"text":"I love you.","created":"2018-02-02T11:58:09.394Z","updated":"2018-02-02T11:58:09.394Z"},{"text":"love you.","created":"2018-02-02T11:58:16.563Z","updated":"2018-02-02T11:58:16.563Z"},{"text":"like you.","created":"2018-02-02T11:58:25.407Z","updated":"2018-02-02T11:58:25.407Z"},{"text":"i like you.","created":"2018-02-02T11:58:32.414Z","updated":"2018-02-02T11:58:32.414Z"}],"description":"I love you response"},{"intent":"Superman","created":"2018-02-04T11:12:58.709Z","updated":"2018-02-04T11:20:08.073Z","examples":[{"text":"superman","created":"2018-02-04T11:13:03.383Z","updated":"2018-02-04T11:13:03.383Z"},{"text":"super man","created":"2018-02-04T11:13:07.497Z","updated":"2018-02-04T11:13:07.497Z"},{"text":"2","created":"2018-02-04T11:20:08.073Z","updated":"2018-02-04T11:20:08.073Z"}],"description":"Suoerman"},{"intent":"Anythingelse","created":"2018-02-04T12:19:30.375Z","updated":"2018-02-04T12:45:56.531Z","examples":[{"text":"Anything else","created":"2018-02-04T12:20:31.593Z","updated":"2018-02-04T12:20:31.593Z"},{"text":"else","created":"2018-02-04T12:20:34.591Z","updated":"2018-02-04T12:20:34.591Z"},{"text":"other","created":"2018-02-04T12:20:41.872Z","updated":"2018-02-04T12:20:41.872Z"},{"text":"other things","created":"2018-02-04T12:20:37.744Z","updated":"2018-02-04T12:20:53.923Z"},{"text":"no","created":"2018-02-04T12:40:34.534Z","updated":"2018-02-04T12:40:34.534Z"},{"text":"none","created":"2018-02-04T12:45:56.531Z","updated":"2018-02-04T12:45:56.531Z"}],"description":null},{"intent":"OtherSuperHero","created":"2018-02-04T11:32:17.732Z","updated":"2018-02-04T12:41:18.849Z","examples":[{"text":"else","created":"2018-02-04T11:32:31.029Z","updated":"2018-02-04T11:32:31.029Z"},{"text":"other superhero","created":"2018-02-04T11:32:22.535Z","updated":"2018-02-04T12:40:59.545Z"},{"text":"others superhero","created":"2018-02-04T11:32:35.765Z","updated":"2018-02-04T12:41:18.849Z"}],"description":"Other Superhero"},{"intent":"more","created":"2018-02-04T10:21:10.490Z","updated":"2018-02-04T10:21:10.490Z","examples":[],"description":null},{"intent":"latestmovie","created":"2018-02-04T11:31:04.919Z","updated":"2018-02-04T16:28:24.932Z","examples":[{"text":"latest movie","created":"2018-02-04T11:31:11.131Z","updated":"2018-02-04T11:31:11.131Z"},{"text":"movie","created":"2018-02-04T11:31:14.410Z","updated":"2018-02-04T11:31:14.410Z"},{"text":"latest","created":"2018-02-04T11:31:21.401Z","updated":"2018-02-04T11:31:21.401Z"},{"text":"b","created":"2018-02-04T16:28:24.932Z","updated":"2018-02-04T16:28:24.932Z"}],"description":"Latest Movie"},{"intent":"Approval","created":"2018-02-03T11:38:25.207Z","updated":"2018-02-03T11:39:18.978Z","examples":[{"text":"yes","created":"2018-02-03T11:39:00.842Z","updated":"2018-02-03T11:39:00.842Z"},{"text":"Yup","created":"2018-02-03T11:39:09.797Z","updated":"2018-02-03T11:39:09.797Z"},{"text":"Tell me","created":"2018-02-03T11:39:18.978Z","updated":"2018-02-03T11:39:18.978Z"}],"description":null},{"intent":"Intrestingfacts","created":"2018-02-04T11:31:44.848Z","updated":"2018-02-04T12:33:09.501Z","examples":[{"text":"Intresting facts","created":"2018-02-04T11:31:51.088Z","updated":"2018-02-04T11:31:51.088Z"},{"text":"facts","created":"2018-02-04T11:31:53.993Z","updated":"2018-02-04T11:31:53.993Z"},{"text":"fact","created":"2018-02-04T11:31:58.636Z","updated":"2018-02-04T11:31:58.636Z"},{"text":"c","created":"2018-02-04T12:33:09.501Z","updated":"2018-02-04T12:33:09.501Z"}],"description":"Intresting Facts"},{"intent":"greeting_response","created":"2018-02-02T11:49:24.502Z","updated":"2018-02-02T11:51:16.191Z","examples":[{"text":"Greeting Response.","created":"2018-02-02T11:50:27.965Z","updated":"2018-02-02T11:50:27.965Z"},{"text":"I'm fine.","created":"2018-02-02T11:50:36.057Z","updated":"2018-02-02T11:50:36.057Z"},{"text":"I'm good.","created":"2018-02-02T11:50:42.151Z","updated":"2018-02-02T11:50:42.151Z"},{"text":"fantastic.","created":"2018-02-02T11:50:49.177Z","updated":"2018-02-02T11:50:49.177Z"},{"text":"That's Great.","created":"2018-02-02T11:50:58.507Z","updated":"2018-02-02T11:50:58.507Z"},{"text":"I'm great.","created":"2018-02-02T11:51:09.456Z","updated":"2018-02-02T11:51:09.456Z"},{"text":"I'm okay.","created":"2018-02-02T11:51:16.191Z","updated":"2018-02-02T11:51:16.191Z"}],"description":"Response to greeting."},{"intent":"otherSuperheros","created":"2018-02-04T10:22:28.063Z","updated":"2018-02-04T10:24:52.019Z","examples":[{"text":"other","created":"2018-02-04T10:24:37.310Z","updated":"2018-02-04T10:24:37.310Z"},{"text":"else","created":"2018-02-04T10:24:47.484Z","updated":"2018-02-04T10:24:47.484Z"},{"text":"Anyother","created":"2018-02-04T10:24:52.019Z","updated":"2018-02-04T10:24:52.019Z"}],"description":"Othersuper Heros"}],"updated":"2018-02-13T10:17:24.870Z","entities":[{"entity":"superheroDetail","values":[{"type":"synonyms","value":"a","created":"2018-02-03T11:09:33.580Z","updated":"2018-02-04T10:50:54.582Z","metadata":null,"synonyms":["Introduction","Introduce","introdu"]},{"type":"synonyms","value":"b","created":"2018-02-03T11:10:15.734Z","updated":"2018-02-04T10:43:40.498Z","metadata":null,"synonyms":["Latest Movie","Movie"]},{"type":"synonyms","value":"c","created":"2018-02-03T11:10:29.127Z","updated":"2018-02-04T10:44:15.853Z","metadata":null,"synonyms":["facts","intresting facts"]},{"type":"synonyms","value":"d","created":"2018-02-03T11:11:14.228Z","updated":"2018-02-04T10:44:23.474Z","metadata":null,"synonyms":["other","none","else"]}],"created":"2018-02-03T11:09:07.621Z","updated":"2018-02-04T10:50:54.582Z","metadata":null,"description":null},{"entity":"numberofSuperhero","values":[{"type":"synonyms","value":"1","created":"2018-02-04T10:29:29.999Z","updated":"2018-02-04T10:29:29.999Z","metadata":null,"synonyms":["batman","bat man"]},{"type":"synonyms","value":"2","created":"2018-02-04T10:29:43.792Z","updated":"2018-02-04T10:30:18.325Z","metadata":null,"synonyms":["superman","super man"]},{"type":"synonyms","value":"3","created":"2018-02-04T10:30:27.744Z","updated":"2018-02-04T10:30:27.744Z","metadata":null,"synonyms":["Spider man"]},{"type":"synonyms","value":"4","created":"2018-02-04T10:30:35.774Z","updated":"2018-02-04T10:30:35.774Z","metadata":null,"synonyms":["Dealpool"]},{"type":"synonyms","value":"5","created":"2018-02-04T10:30:42.526Z","updated":"2018-02-04T10:30:42.526Z","metadata":null,"synonyms":["Thor"]}],"created":"2018-02-04T10:29:13.515Z","updated":"2018-02-04T10:30:42.526Z","metadata":null,"description":null,"fuzzy_match":false}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"A ChatBot for Children.","dialog_nodes":[{"type":"standard","title":null,"output":{"text":{"values":["Okay. Select Any of the below option."],"selection_policy":"sequential"}},"parent":"node_5_1517742963435","context":null,"created":"2018-02-04T11:16:05.273Z","updated":"2018-02-04T11:16:05.273Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#otherSuperheros","description":null,"dialog_node":"node_7_1517742963435","previous_sibling":"node_6_1517742963435"},{"type":"standard","title":null,"output":{},"parent":"node_5_1517742963435","context":null,"created":"2018-02-04T11:16:05.273Z","updated":"2018-02-04T11:16:05.273Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1517655636465"},"conditions":"#acknowledgement","description":null,"dialog_node":"node_6_1517742963435","previous_sibling":null},{"type":"standard","title":"Anyother SuperHero - copy1 - copy1","output":{"text":{"values":["Okay. Please select Any of the Following:"],"selection_policy":"sequential"}},"parent":"node_8_1517655636234","context":null,"created":"2018-02-04T12:01:05.150Z","updated":"2018-02-04T12:01:16.129Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#OtherSuperHero","description":null,"dialog_node":"node_11_1517745661287","previous_sibling":"node_1_1517747134790"},{"type":"standard","title":"Latest Movies","output":{"text":{"values":["Deadpool 2017"],"selection_policy":"sequential"}},"parent":"node_8_1517655636234","context":null,"created":"2018-02-04T11:29:23.763Z","updated":"2018-02-04T12:24:08.846Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_8_1517655636234"},"conditions":"@superheroDetail:b","description":null,"dialog_node":"node_1_1517743762064","previous_sibling":"node_12_1517657027452"},{"type":"standard","title":null,"output":{"text":{"values":["Deadpool (Wade Winston Wilson) is a fictional character appearing in American comic books published by Marvel Comics."],"selection_policy":"sequential"}},"parent":"node_8_1517655636234","context":null,"created":"2018-02-03T11:23:51.746Z","updated":"2018-02-04T12:24:23.390Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_8_1517655636234"},"conditions":"#introductionofbatman || @superheroDetail:a","description":null,"dialog_node":"node_12_1517657027452","previous_sibling":"node_11_1517745661287"},{"type":"standard","title":"Intresting facts - copy1 - copy1","output":{"text":{"values":["Wade Wilson was named as an homage/parody to Slade Wilson, aka the mercenary Deathstroke from DC Comics.","In the original comic books, Deadpool gets his healing factor from an experiment involving a sample of Wolverine’s blood (Wolverine is a mutant with super healing powers). This allows Deadpool to survive further experimentation, but he cannot heal any wounds sustained before his experiment. Neither can he cure his cancer, in fact, the cancer progresses as fast as he can heal.","Deadpool made on a $58 million budget and shot in just 48 days became the first R-rated movie to open above $100 million at the U.S. Box office.","This film had a lower budget than any of the other superhero movies such as  X-Men, Iron Man, Avengers, or Captain America movies.","The Deadpool costume originally had a muscle layer underneath but it had to be removed: Ryan Reynolds was so muscular, the costume was not only too tight for him, but it made him look overlarge.","During a talk at Google, Ryan Reynolds revealed that the taxi driver character “Dopinder” was named after “a really cool guy” he knew in elementary school, who died when he was hit by lightning. It was meant to be a tribute to him.","In May of 2015, Ryan Reynolds worked with the Make-A-Wish foundation to ensure that several sick kids could come visit him on set during the filming of Deadpool. One of them was Tony Acevedo, suffering from Hodgkin’s Disease.","The film was released in February 2016, exactly twenty-five years after Deadpool’s first appearance in the pages of The New Mutants #98 cover dated 1991. Incidentally, Ryan Reynolds began his acting career in 1991.","A three-minute test reel was shot in January 2012 in an attempt to convince the heads of the studio to move forward with the movie. On August 1, 2014, the footage was released to the public, and based on the overwhelmingly positive response from fans, the film finally began production. The footage was so popular that part of it was recreated for the actual film.","In an interview, writer Rhett Reese stated that Negasonic Teenage Warhead wasn’t part of original draft, but the director wanted a superhero with traditional superpowers. Other X-men such as Cannonball were considered, but they eventually used Negasonic Teenage Warhead because they “liked her outlandish name better.”","In the opening credits, there is a People Magazine floating around with the headline “Ryan Reynolds: Sexiest Man Alive!” It is an actual issue of the magazine that featured Reynolds as the “Sexiest Man Alive” (2010).","Ryan Reynolds’ full body makeup took eight hours to apply. Once it was on, he was not able to sit or lie down.","When Gina Carano who plays Angel Dust, did the junkyard fight scene, she was more worried about spiders than anything else, even her stunts.","In the comics, Negasonic Teenage Warhead is actually a telepath and precognitive mutant. Her abilities were changed for the film due to the fact that the writers felt that having explosive powers would fit more with her name.","On April Fool’s Day 2015, Ryan Reynolds posted on Twitter that the film would be rated PG-13, which prompted fan backlash as the Deadpool character often swears and commits acts of graphic violence. Later that day, Reynolds confirmed that it was a prank and the film would be R rated.","In the scenes where he is dealing with the stalker pizza delivery guy, Wade is wearing a T-shirt with a portrait of Bea Arthur on the front. This is a reference to the fact that in the comics, Deadpool has an affection for Bea Arthur and the Golden Girls TV show.","Ryan Reynolds describes Deadpool’s “breaking the fourth wall” ability as a reflection of current times. When a character in the movie or a book becomes self-aware and knows he is inside a movie or a comic panel and speaks directly to the audience, it is said to be “breaking the fourth wall.”","To prepare for the film Ryan Reynolds (Wade Wilson/Deadpool) hired a swords master to train him."],"selection_policy":"sequential"}},"parent":"node_8_1517655636234","context":null,"created":"2018-02-04T12:25:37.104Z","updated":"2018-02-04T12:34:16.499Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1517747134794"},"conditions":"@superheroDetail:c || #Intrestingfacts","description":null,"dialog_node":"node_1_1517747134790","previous_sibling":null},{"type":"standard","title":"anything else.","output":{"text":{"values":["Okay Please Select Any Other Option."],"selection_policy":"sequential"}},"parent":"node_2_1517747134794","context":null,"created":"2018-02-04T12:25:37.104Z","updated":"2018-02-04T12:26:33.809Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_8_1517655636234"},"conditions":"#Anythingelse","description":null,"dialog_node":"node_4_1517747134794","previous_sibling":"node_3_1517747134794"},{"type":"standard","title":null,"output":{"text":{"values":["As You Wish my Lord..!"],"selection_policy":"sequential"}},"parent":"node_2_1517747134794","context":null,"created":"2018-02-04T12:25:37.104Z","updated":"2018-02-04T12:25:37.104Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1517747134790"},"conditions":"#acknowledgement || #Approval","description":null,"dialog_node":"node_3_1517747134794","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Do you want to know more? or Anything else."],"selection_policy":"sequential"}},"parent":"node_12_1517743080163","context":null,"created":"2018-02-04T11:18:01.855Z","updated":"2018-02-04T11:18:01.855Z","metadata":{},"next_step":null,"conditions":"#acknowledgement","description":null,"dialog_node":"node_13_1517743080164","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Wanna Know more facts or Anything else."],"selection_policy":"sequential"}},"parent":"node_1_1517747134790","context":null,"created":"2018-02-04T12:25:37.104Z","updated":"2018-02-04T12:25:37.104Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_2_1517747134794","previous_sibling":null},{"type":"standard","title":"anything else.","output":{"text":{"values":["Okay Please Select Any Other Option."],"selection_policy":"sequential"}},"parent":"node_18_1517746446327","context":null,"created":"2018-02-04T12:18:21.327Z","updated":"2018-02-04T12:20:17.837Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1517742671589"},"conditions":"#Anythingelse","description":null,"dialog_node":"node_20_1517746699543","previous_sibling":"node_19_1517746446327"},{"type":"standard","title":null,"output":{"text":{"values":["As You Wish my Lord..!"],"selection_policy":"sequential"}},"parent":"node_18_1517746446327","context":null,"created":"2018-02-04T12:14:09.072Z","updated":"2018-02-04T12:14:09.072Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_17_1517746446326"},"conditions":"#acknowledgement || #Approval","description":null,"dialog_node":"node_19_1517746446327","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Wanna Know more facts or Anything else."],"selection_policy":"sequential"}},"parent":"node_12_1517745699779","context":null,"created":"2018-02-04T12:01:41.944Z","updated":"2018-02-04T12:01:41.944Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_13_1517745699780","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Wanna Know more facts or Anything else."],"selection_policy":"sequential"}},"parent":"node_5_1517745078168","context":null,"created":"2018-02-04T11:51:19.896Z","updated":"2018-02-04T11:51:19.896Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_6_1517745078169","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Wanna Know more facts or Anything else."],"selection_policy":"sequential"}},"parent":"node_3_1517744187794","context":null,"created":"2018-02-04T11:43:32.407Z","updated":"2018-02-04T11:44:15.826Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_1_1517744610712","previous_sibling":null},{"type":"standard","title":"Anyother SuperHero - copy1","output":{"text":{"values":["Okay. Please select Any of the Following:"],"selection_policy":"sequential"}},"parent":"node_2_1517742687273","context":null,"created":"2018-02-04T12:00:21.531Z","updated":"2018-02-04T12:00:30.552Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#OtherSuperHero","description":null,"dialog_node":"node_9_1517745618394","previous_sibling":"node_12_1517745699779"},{"type":"standard","title":"Intresting facts - copy1","output":{"text":{"values":["His original name on the planet Krypton was Kal-El.","Superman was actually killed by the villain Doomsday in a 1993 comic. He was later brought back to life.","The original concept of Superman would have him be featured as a bald telepathic villain bent on world domination.","According to Joe Shuster, Superman is inspired by heroes such as Hercules and Flash Gordan.","Many of Superman’s supporting cast did not debut with the Man of Steel.  Jimmy Olsen debuted in 1938’s Action Comics #6 and Perry White debuted in Superman in 1940.","Superman is strong enough to carry a book of infinite pages.  Meaning that he literally has no limit to his strength.","Despite the fact that Superman can fly millions of times faster than the speed of light, Superman still isn’t faster then the Flash.","Superman actually doesn’t need to eat or breathe air as he can live off of solar energy alone.","On the same radio show, Superman fought the Klu Klux Klan","Superman also got to wield Captain America’s shield at the same time as the hammer.","Superman was able to temporarily wield the hammer when Odin lifted the enchantment for a brief moment so he could deal a killing blow to the near-omnipotent Krona.","Superman’s original arch-enemy wouldn’t be Lex Luthor but the telepathic primate: Ultra-Humanite.","Lois Lane temporarily had Superman’s powers in the graphic novel All-Star Superman.","Superman is currently dating Wonder Woman.","Speaking of Nazis, the Nazis hated Superman during WWII due to the American propaganda Superman comics were full of at the time.","There has been six different Supergirls throughout Superman’s history.","Superman does not drink alcohol","Superman was once a vegetarian"],"selection_policy":"sequential"}},"parent":"node_2_1517742687273","context":null,"created":"2018-02-04T12:01:41.944Z","updated":"2018-02-04T12:33:54.524Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_13_1517745699780"},"conditions":"@superheroDetail:c || #Intrestingfacts","description":null,"dialog_node":"node_12_1517745699779","previous_sibling":"node_15_1517745761677"},{"type":"standard","title":"introduceSuperman","output":{"text":{"values":["Superman is a fictional superhero appearing in American comic books published by DC Comics."],"selection_policy":"sequential"}},"parent":"node_2_1517742687273","context":null,"created":"2018-02-04T11:17:16.907Z","updated":"2018-02-04T11:17:56.060Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_10_1517743035204"},"conditions":"#introductionofbatman || @superheroDetail:a","description":null,"dialog_node":"node_8_1517743035203","previous_sibling":"node_9_1517745618394"},{"type":"standard","title":"Latest Movie - copy1","output":{"text":{"values":["Superman: The Movie (1978)                                                                                              \nSuperman II (1980)                                                                                                               \nSuperman III (1983)                                                                                                             \nSuperman IV: The Quest for Peace (1987)                                                                      \nSuperman Returns (2006)"],"selection_policy":"sequential"}},"parent":"node_2_1517742687273","context":null,"created":"2018-02-04T12:02:47.384Z","updated":"2018-02-04T12:04:26.774Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1517742687273"},"conditions":"@superheroDetail:b || #latestmovie","description":null,"dialog_node":"node_15_1517745761677","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Select Any of the Option."],"selection_policy":"sequential"}},"parent":"node_7_1517655636133","context":null,"created":"2018-02-03T11:38:14.148Z","updated":"2018-02-03T11:44:09.568Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#Approval","description":null,"dialog_node":"node_1_1517657891832","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Do you want to know more? or Anything else."],"selection_policy":"sequential"}},"parent":"node_8_1517743035203","context":null,"created":"2018-02-04T11:17:16.907Z","updated":"2018-02-04T11:17:16.907Z","metadata":{},"next_step":null,"conditions":"#acknowledgement","description":null,"dialog_node":"node_9_1517743035204","previous_sibling":null},{"type":"standard","title":"Spiderman follows","output":{"text":{"values":["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],"selection_policy":"sequential"}},"parent":"node_5_1517573198002","context":null,"created":"2018-02-04T11:11:13.287Z","updated":"2018-02-04T11:15:43.515Z","metadata":{},"next_step":null,"conditions":"#spiderman || @numberofSuperhero:3","description":null,"dialog_node":"node_1_1517742671589","previous_sibling":"node_8_1517655636234"},{"type":"standard","title":"thor follows","output":{"text":{"values":["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],"selection_policy":"sequential"}},"parent":"node_5_1517573198002","context":null,"created":"2018-02-04T11:11:47.810Z","updated":"2018-02-04T11:15:55.280Z","metadata":{},"next_step":null,"conditions":"#Thor && @numberofSuperhero:5","description":null,"dialog_node":"node_3_1517742706157","previous_sibling":"node_2_1517742687273"},{"type":"standard","title":null,"output":{"text":{"values":["Okay. Incase you want to know anything else about Superheros.! do let me know."],"selection_policy":"sequential"}},"parent":"node_5_1517573198002","context":null,"created":"2018-02-04T12:44:15.134Z","updated":"2018-02-04T12:45:27.340Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_7_1517655636133"},"conditions":"#Anythingelse","description":null,"dialog_node":"node_1_1517748253202","previous_sibling":"node_9_1517655636465"},{"type":"standard","title":"Batman follows","output":{"text":{"values":["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],"selection_policy":"sequential"}},"parent":"node_5_1517573198002","context":null,"created":"2018-02-03T11:00:38.937Z","updated":"2018-02-04T11:25:12.499Z","metadata":{},"next_step":null,"conditions":"#Batman || @numberofSuperhero:1 || @numberofSuperhero:1","description":null,"dialog_node":"node_9_1517655636465","previous_sibling":"node_3_1517742706157"},{"type":"standard","title":"Superman follows","output":{"text":{"values":["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],"selection_policy":"sequential"}},"parent":"node_5_1517573198002","context":null,"created":"2018-02-04T11:11:28.988Z","updated":"2018-02-04T11:15:47.402Z","metadata":{},"next_step":null,"conditions":"#Superman || @numberofSuperhero:2","description":null,"dialog_node":"node_2_1517742687273","previous_sibling":"node_1_1517742671589"},{"type":"standard","title":"Deadpool Follow","output":{"text":{"values":["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],"selection_policy":"sequential"}},"parent":"node_5_1517573198002","context":null,"created":"2018-02-03T11:00:38.682Z","updated":"2018-02-04T11:10:24.015Z","metadata":{},"next_step":null,"conditions":"#deadpool || @numberofSuperhero:4","description":null,"dialog_node":"node_8_1517655636234","previous_sibling":null},{"type":"standard","title":"Anything else","output":{"text":{"values":["Okay Please Select Any Other Option."],"selection_policy":"sequential"}},"parent":"node_13_1517745699780","context":null,"created":"2018-02-04T12:22:48.460Z","updated":"2018-02-04T12:23:15.496Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1517742687273"},"conditions":"#Anythingelse","description":null,"dialog_node":"node_23_1517746966637","previous_sibling":"node_14_1517745699780"},{"type":"standard","title":null,"output":{"text":{"values":["As You Wish my Lord..!"],"selection_policy":"sequential"}},"parent":"node_13_1517745699780","context":null,"created":"2018-02-04T12:01:41.944Z","updated":"2018-02-04T12:01:41.944Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_12_1517745699779"},"conditions":"#acknowledgement || #Approval","description":null,"dialog_node":"node_14_1517745699780","previous_sibling":null},{"type":"standard","title":"Anything else","output":{"text":{"values":["Okay Please Select Any Other Option."],"selection_policy":"sequential"}},"parent":"node_1_1517744610712","context":null,"created":"2018-02-04T12:21:21.742Z","updated":"2018-02-04T12:21:48.674Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1517655636465"},"conditions":"#Anythingelse","description":null,"dialog_node":"node_21_1517746879956","previous_sibling":"node_2_1517744747318"},{"type":"standard","title":null,"output":{"text":{"values":["As You Wish my Lord..!"],"selection_policy":"sequential"}},"parent":"node_1_1517744610712","context":null,"created":"2018-02-04T11:45:50.782Z","updated":"2018-02-04T11:46:46.426Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1517744187794"},"conditions":"#acknowledgement || #Approval","description":null,"dialog_node":"node_2_1517744747318","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Okay. Select Any of the below option."],"selection_policy":"sequential"}},"parent":"node_9_1517743035204","context":null,"created":"2018-02-04T11:17:16.907Z","updated":"2018-02-04T11:17:16.907Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#otherSuperheros","description":null,"dialog_node":"node_11_1517743035204","previous_sibling":"node_10_1517743035204"},{"type":"standard","title":null,"output":{},"parent":"node_9_1517743035204","context":null,"created":"2018-02-04T11:17:16.907Z","updated":"2018-02-04T11:17:16.907Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1517655636465"},"conditions":"#acknowledgement","description":null,"dialog_node":"node_10_1517743035204","previous_sibling":null},{"type":"standard","title":"Anthing else","output":{"text":{"values":["Okay Please Select Any Other Option."],"selection_policy":"sequential"}},"parent":"node_6_1517745078169","context":null,"created":"2018-02-04T12:22:05.535Z","updated":"2018-02-04T12:22:28.505Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1517742706157"},"conditions":"#Anythingelse","description":null,"dialog_node":"node_22_1517746923731","previous_sibling":"node_7_1517745078169"},{"type":"standard","title":null,"output":{"text":{"values":["As You Wish my Lord..!"],"selection_policy":"sequential"}},"parent":"node_6_1517745078169","context":null,"created":"2018-02-04T11:51:19.896Z","updated":"2018-02-04T11:59:02.106Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517745078168"},"conditions":"#acknowledgement || #Approval","description":null,"dialog_node":"node_7_1517745078169","previous_sibling":null},{"type":"standard","title":"introducebatman","output":{"text":{"values":["Batman is a fictional superhero appearing in American comic books published by DC Comics."],"selection_policy":"sequential"}},"parent":"node_9_1517655636465","context":null,"created":"2018-02-03T11:18:58.505Z","updated":"2018-02-04T11:34:55.861Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1517655636465"},"conditions":"#introductionofbatman || @superheroDetail:a","description":null,"dialog_node":"node_10_1517656736312","previous_sibling":"node_3_1517744187794"},{"type":"standard","title":"Anyother SuperHero","output":{"text":{"values":["Okay. Please select Any of the Following:"],"selection_policy":"sequential"}},"parent":"node_9_1517655636465","context":null,"created":"2018-02-04T11:47:05.061Z","updated":"2018-02-04T11:47:50.971Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#OtherSuperHero","description":null,"dialog_node":"node_3_1517744823295","previous_sibling":"node_10_1517656736312"},{"type":"standard","title":"Intresting facts","output":{"text":{"values":["Bruce Wayne's Name Comes from Two Real Heroes.","Batman’s online screen name is JonDoe297.","A 1943 TV serial called The Batman introduced the concept of the Batcave, not to mention a skinny Alfred Pennyworth.","Batman Beat Darkseid… Twice!","There’s a real course called The Science of Batman at the University of Victoria in Canada. The course description reads: “The extreme range of adaptability of the human body explored through the life of the Caped Crusader.”","The Yellow Lanterns of the Sinestro Corps are powered by fear, so when a ring attempted to choose the best person on Earth when it comes to instilling fear, it chose Batman. Yup, criminals are that scared of Batman.","Batman was originally a gun-toting vigilante who would not only shoot his enemies but throw them in vats of acid.","Andy Warhol Made the First Batman Movie.","Gotham City Got Its Name from the Phone Book","10. Kevin Conroy Has Played Batman More Than Anyone","Batman’s Ears Are Hidden Projectiles","Ben Affleck Is Both Batman and Superman","Batman’s Creative Inspiration","The Fans Killed Robin","Bob Kane Didn’t Create Batman as We Know Him","Bruce Wayne Is Worth $7 Billion","Batman Merged with Wolverine"],"selection_policy":"sequential"}},"parent":"node_9_1517655636465","context":null,"created":"2018-02-04T11:36:29.475Z","updated":"2018-02-04T12:36:01.383Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1517744610712"},"conditions":"@superheroDetail:c || #Intrestingfacts","description":null,"dialog_node":"node_3_1517744187794","previous_sibling":"node_2_1517743995840"},{"type":"standard","title":"Latest Movie","output":{"text":{"values":["The Dark Knight (2008)\nThe Dark Knight Rises (2012)\nBatman v Superman: Dawn of Justice (2016)\nSuicide Squad (2016)\nJustice League (2017)"],"selection_policy":"sequential"}},"parent":"node_9_1517655636465","context":null,"created":"2018-02-04T11:33:17.573Z","updated":"2018-02-04T11:34:18.706Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1517655636465"},"conditions":"@superheroDetail:b || #latestmovie","description":null,"dialog_node":"node_2_1517743995840","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Wanna Know more facts or Anything else."],"selection_policy":"sequential"}},"parent":"node_17_1517746446326","context":null,"created":"2018-02-04T12:14:09.072Z","updated":"2018-02-04T12:14:09.072Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_18_1517746446327","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Okay. Select Any of the below option."],"selection_policy":"sequential"}},"parent":"node_13_1517743080164","context":null,"created":"2018-02-04T11:18:01.855Z","updated":"2018-02-04T11:18:01.855Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#otherSuperheros","description":null,"dialog_node":"node_15_1517743080164","previous_sibling":"node_14_1517743080164"},{"type":"standard","title":null,"output":{},"parent":"node_13_1517743080164","context":null,"created":"2018-02-04T11:18:01.855Z","updated":"2018-02-04T11:18:01.855Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1517655636465"},"conditions":"#acknowledgement","description":null,"dialog_node":"node_14_1517743080164","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Do you want to know more? or Anything else."],"selection_policy":"sequential"}},"parent":"node_4_1517742963432","context":null,"created":"2018-02-04T11:16:05.273Z","updated":"2018-02-04T11:16:05.273Z","metadata":{},"next_step":null,"conditions":"#acknowledgement","description":null,"dialog_node":"node_5_1517742963435","previous_sibling":null},{"type":"standard","title":"Latest Movie","output":{"text":{"values":["Thor: Ragnarok (2017)\nThor: The Dark World. (2013)"],"selection_policy":"sequential"}},"parent":"node_3_1517742706157","context":null,"created":"2018-02-04T11:48:03.621Z","updated":"2018-02-04T11:51:03.714Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1517742706157"},"conditions":"@superheroDetail:b || #latestmovie","description":null,"dialog_node":"node_4_1517744881894","previous_sibling":"node_5_1517745078168"},{"type":"standard","title":"Intresting facts","output":{"text":{"values":["In fact, most of Thor’s powers (controlling the weather, the God Blast) originate from the hammer. Depending on the needs of the writers, new powers are often added to the hammer’s repertoire, including teleportation and vampire slaying.","Thor doesn’t actually have the power to fly. When Thor “flies”, all he’s doing is throwing his hammer with super strength and then holding onto it until he reaches his destination.","Thor once worked with Hitler, helping the Nazis on their mission to kill Joseph Stalin. Why did Thor become a hitman in the employ of the murderous Nazi regime? Because Hitler asked nicely.","Thor has a half-brother named Atum who every now and then becomes Demogorge, the god-eater who would kill Gods and then consume them and gain their powers.","There’s a real course called The Science of Batman at the University of Victoria in Canada. The course description reads: “The extreme range of adaptability of the human body explored through the life of the Caped Crusader.”","The Yellow Lanterns of the Sinestro Corps are powered by fear, so when a ring attempted to choose the best person on Earth when it comes to instilling fear, it chose Batman. Yup, criminals are that scared of Batman.","Batman was originally a gun-toting vigilante who would not only shoot his enemies but throw them in vats of acid.","Tony Stark used some strands of Thor’s hair, which we had… for reasons, to create a clone of Thor named Ragnarok.","For the film, thirty hammers were made of various weights and materials. The main hammer was made from aluminum, but a “soft” version was also made for stunts.","Superman also got to wield Captain America’s shield at the same time as the hammer.","Superman was able to temporarily wield the hammer when Odin lifted the enchantment for a brief moment so he could deal a killing blow to the near-omnipotent Krona.","A sliver of Mjolnir was actually wielded by Throg (formerly known as Puddlegulp), a football player who had been turned into a frog and assisted Thor during his time as an amphibian.","The hammer of Thor can only be wielded by those who are worthy. However, in the comics, there are a long line of those who qualify, including an alien named Beta Ray Bill. During a fight, Bill managed to grab Mjolnir, which deemed him worthy.","Loki once transformed Thor into a frog. An actual frog. Thor subsequently participated in a rats vs. frogs war in New York’s Central Park.","According to Norse mythology, Thor and his fellow Gods are granted immortality by eating magic apples that only grow in Asgard. In keeping with the mythology, in the comics, Thor would return to Asgard periodically for some of those sweet apples, proving that apples aren’t all that bad.","Thor became so popular that Marvel had the character’s full title trademarked as “The Mighty Thor.” Fortunately, “The Sexually Inadequate Thor” is still up for grabs.","Thor made his first appearance in an August 1962 issue of “Journey into Mystery.” That same month, Spider-Man was also introduced to the world."],"selection_policy":"sequential"}},"parent":"node_3_1517742706157","context":null,"created":"2018-02-04T11:51:19.896Z","updated":"2018-02-04T12:35:40.797Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_6_1517745078169"},"conditions":"@superheroDetail:c || #Intrestingfacts","description":null,"dialog_node":"node_5_1517745078168","previous_sibling":"node_8_1517745564578"},{"type":"standard","title":"introduceThor","output":{"text":{"values":["In Norse mythology, Thor is the hammer-wielding Æsir god of thunder, lightning, storms, oak trees, strength, hallowing, fertility, the protection of mankind and of the fortress of Asgard."],"selection_policy":"sequential"}},"parent":"node_3_1517742706157","context":null,"created":"2018-02-04T11:18:01.855Z","updated":"2018-02-04T11:19:02.258Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_14_1517743080164"},"conditions":"#introductionofbatman || @superheroDetail:a","description":null,"dialog_node":"node_12_1517743080163","previous_sibling":"node_4_1517744881894"},{"type":"standard","title":"Anyother SuperHero","output":{"text":{"values":["Okay. Please select Any of the Following:"],"selection_policy":"sequential"}},"parent":"node_3_1517742706157","context":null,"created":"2018-02-04T11:59:26.496Z","updated":"2018-02-04T11:59:52.893Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#OtherSuperHero","description":null,"dialog_node":"node_8_1517745564578","previous_sibling":null},{"type":"standard","title":"Anyother SuperHero - copy1","output":{"text":{"values":["Okay. Please select Any of the Following:"],"selection_policy":"sequential"}},"parent":"node_1_1517742671589","context":null,"created":"2018-02-04T12:00:42.554Z","updated":"2018-02-04T12:00:54.372Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1517573198002"},"conditions":"#OtherSuperHero","description":null,"dialog_node":"node_10_1517745640512","previous_sibling":"node_16_1517746211122"},{"type":"standard","title":"Latest Movie - copy1 - copy1","output":{"text":{"values":["SpiderMan: Home Coming.                                                                                           \nThe Amazing SpiderMan 2                                                                                                            \nThe Amazing SpiderMan                                                                                                             \nCaption America Civil War."],"selection_policy":"sequential"}},"parent":"node_1_1517742671589","context":null,"created":"2018-02-04T12:10:15.005Z","updated":"2018-02-04T12:13:37.073Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1517742671589"},"conditions":"@superheroDetail:b || #latestmovie","description":null,"dialog_node":"node_16_1517746211122","previous_sibling":"node_17_1517746446326"},{"type":"standard","title":"introduceSpiderman","output":{"text":{"values":["Spider-Man is a fictional superhero appearing in American comic books published by Marvel Comics."],"selection_policy":"sequential"}},"parent":"node_1_1517742671589","context":null,"created":"2018-02-04T11:16:05.273Z","updated":"2018-02-04T11:17:11.197Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_6_1517742963435"},"conditions":"#introductionofbatman || @superheroDetail:a","description":null,"dialog_node":"node_4_1517742963432","previous_sibling":"node_10_1517745640512"},{"type":"standard","title":"Intresting facts - copy1","output":{"text":{"values":["Spider-man was created by Stan Lee and Steve Ditko and debuted in Amazing Fantasy #15 in August of 1962.","Martin Goodman, then head of Marvel, actually disproved of Spider-man’s concept due to the fact that people hates spiders","Stan Lee actually originally was going to go with a fly or insect before finally picking a spider to base the character on.","Spider-man is the first teenage superhero to not be a sidekick of an adult hero.","Spider-man’s quips that he makes in battle is used for him to distract his villains as well as make it easier for him to relax and not get scared.","Spider-man’s first solo title The Amazing Spider-man (Vol. 1) first appeared on shelves in March of 1963.","Rhino was the first villain that Steve Ditko was not responsible for as he was made by Stan Lee and John Romita Sr.","Superman actually doesn’t need to eat or breathe air as he can live off of solar energy alone.","Spider-man’s webs dissolves after 1 hour and is strong enough to restrain the Hulk","Spider-man is weak to the pesticide ethyl chloride.","Spider-man can actually use both his spider-sense and reflexes to dodge automatic fire.","Spider-man can bench press 10 tons and has a top speed of 200 mph.","Gwen Stacy’s one of the few dead comic book characters to remain dead.","Spider-man’s parents where spies and died in a plane crash before Peter went to live with his Aunt May and Uncle Ben","In 2007, Marvel released a four issue miniseries called Spider-man: Reign where a possible future for Peter Parker reveals that Mary Jane dies from cancer caused by Peter’s radioactive sperm","In the Ultimate Marvel Universe, Peter Parker took a bullet without hesitation and Captain America told him that he’ll be the greatest hero of them all.","Unfortunately, the Ultimate Universe Peter Parker died.  Fortunately, that allowed Miles Morales to take the role of the Ultimate Spider-man.","During a event where the Human Torch died, Spider-man became part of the Fantastic Four (at the time called the Future Foundation)."],"selection_policy":"sequential"}},"parent":"node_1_1517742671589","context":null,"created":"2018-02-04T12:14:09.072Z","updated":"2018-02-04T12:34:56.833Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_18_1517746446327"},"conditions":"@superheroDetail:c || #Intrestingfacts","description":null,"dialog_node":"node_17_1517746446326","previous_sibling":null},{"type":"standard","title":"Applause","output":{"text":{"values":["Thanks. :)"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-04T16:37:07.764Z","updated":"2018-02-04T16:37:29.805Z","metadata":{},"next_step":null,"conditions":"#Applauds","description":null,"dialog_node":"node_4_1517762225893","previous_sibling":"node_5_1517742264935"},{"type":"standard","title":"Who are you?","output":{"text":{"values":["I'm Superbot. The Superhero of Robbots.","People Like to call me Superbot. The Superhero of Robbots."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-02T11:42:20.023Z","updated":"2018-02-02T11:49:42.027Z","metadata":{},"next_step":null,"conditions":"#Who","description":null,"dialog_node":"node_1_1517571738146","previous_sibling":"Anything else"},{"type":"standard","title":"Welcome Greetings","output":{"text":{"values":["Hello. Who are you? Do you need Any Help?","Hii..! Do you need anyhelp?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-02-03T11:30:28.584Z","updated":"2018-02-03T11:32:50.674Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_7_1517655636133"},"conditions":"#InitialGreeting","description":null,"dialog_node":"node_13_1517657426360","previous_sibling":"node_2_1517761931099"},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-02-02T11:40:25.855Z","updated":"2018-02-02T11:54:31.356Z","metadata":{},"next_step":null,"conditions":"#none","description":null,"dialog_node":"Anything else","previous_sibling":"Welcome"},{"type":"standard","title":"How are you?","output":{"text":{"values":["I'm Smarter than ever. Thanks to you..! and You?","I was feeling dull untill your Message arrived.","Thanks for asking. I'm feeling very good and You?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-02T11:44:13.994Z","updated":"2018-02-02T11:47:51.166Z","metadata":{},"next_step":null,"conditions":"#how_are_you","description":null,"dialog_node":"node_2_1517571852178","previous_sibling":"node_1_1517571738146"},{"type":"standard","title":null,"output":{"text":{"values":["What a co-incidence..! Even I feel the same.. :)"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-04T16:32:36.083Z","updated":"2018-02-04T16:34:47.756Z","metadata":{},"next_step":null,"conditions":"#love_you || #appreciation_you","description":null,"dialog_node":"node_3_1517761954905","previous_sibling":"node_7_1517655636133"},{"type":"standard","title":"Super Heros","output":{"text":{"values":["1) Batman. 2)SuperMan 3)Spiderman 4)Deadpool 5)Thor"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-02T12:06:39.901Z","updated":"2018-02-04T10:54:22.901Z","metadata":{},"next_step":null,"conditions":"#superheros","description":null,"dialog_node":"node_5_1517573198002","previous_sibling":"node_3_1517572281887"},{"type":"standard","title":"Helping Definition.!","output":{"text":{"values":["I know Superheros and I like to share Infromation. Would you like to know about them?","I can tell you intresting thing about Superhero. Wanna Know?","Are you a fan of SuperHeros. Wanna know about them?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-02-03T11:00:38.217Z","updated":"2018-02-13T10:17:24.870Z","metadata":{},"next_step":null,"conditions":"#what_do","description":null,"dialog_node":"node_7_1517655636133","previous_sibling":"node_5_1517573198002"},{"type":"standard","title":"Greetings Response positive.","output":{"text":{"values":["Sound's Good. So How can I help You?","Great.! Let's get back to work. How can I help you?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-02-02T11:51:23.875Z","updated":"2018-02-02T11:53:29.291Z","metadata":{},"next_step":null,"conditions":"#greeting_response","description":null,"dialog_node":"node_3_1517572281887","previous_sibling":"node_2_1517571852178"},{"type":"standard","title":"Ending Note","output":{"text":{"values":["Good Bbye. Let the Power be with you. Hope to see you soon. :)","Are you leaving. :( Comeback soon untill then Good Bye..! Take Care. :)","Good Bye. Take Care. :)"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-02-04T11:04:26.582Z","updated":"2018-02-04T11:07:19.150Z","metadata":{},"next_step":null,"conditions":"#ending.","digress_in":"does_not_return","description":null,"dialog_node":"node_5_1517742264935","previous_sibling":"node_13_1517657426360"},{"type":"standard","title":null,"output":{"text":{"values":["Fine.! Anything else.?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-04T16:32:12.643Z","updated":"2018-02-04T16:33:11.590Z","metadata":{},"next_step":null,"conditions":"#acknowledgement","description":null,"dialog_node":"node_2_1517761931099","previous_sibling":"node_3_1517761954905"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hello. I'm Superbot.","Hey..! Superbot here."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-02-02T11:40:25.855Z","updated":"2018-02-13T10:15:57.782Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"6cf6c87a-49f5-4499-b481-650bfd6ff583","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "IBM_ChatBot",
+	"created": "2018-02-02T11:35:42.387Z",
+	"intents": [{
+		"intent": "superheros",
+		"created": "2018-02-02T12:04:46.250Z",
+		"updated": "2018-02-04T12:42:59.535Z",
+		"examples": [{
+			"text": "How many Superhero you know?",
+			"created": "2018-02-02T12:05:16.088Z",
+			"updated": "2018-02-02T12:05:16.088Z"
+		}, {
+			"text": "do you know any super hero?",
+			"created": "2018-02-02T12:05:31.316Z",
+			"updated": "2018-02-02T12:05:31.316Z"
+		}, {
+			"text": "How many super hero do you know?",
+			"created": "2018-02-02T12:06:18.050Z",
+			"updated": "2018-02-02T12:06:18.050Z"
+		}, {
+			"text": "Give me the the options",
+			"created": "2018-02-02T12:06:31.298Z",
+			"updated": "2018-02-02T12:06:31.298Z"
+		}, {
+			"text": "Any option?",
+			"created": "2018-02-04T10:37:32.680Z",
+			"updated": "2018-02-04T10:37:32.680Z"
+		}, {
+			"text": "d",
+			"created": "2018-02-04T12:42:59.535Z",
+			"updated": "2018-02-04T12:42:59.535Z"
+		}],
+		"description": "All Super Heros"
+	}, {
+		"intent": "Applauds",
+		"created": "2018-02-04T16:35:12.788Z",
+		"updated": "2018-02-04T16:36:09.124Z",
+		"examples": [{
+			"text": "Good One",
+			"created": "2018-02-04T16:35:27.199Z",
+			"updated": "2018-02-04T16:35:27.199Z"
+		}, {
+			"text": "nice",
+			"created": "2018-02-04T16:35:33.053Z",
+			"updated": "2018-02-04T16:35:33.053Z"
+		}, {
+			"text": "cool",
+			"created": "2018-02-04T16:35:39.159Z",
+			"updated": "2018-02-04T16:35:39.159Z"
+		}, {
+			"text": "great",
+			"created": "2018-02-04T16:35:46.767Z",
+			"updated": "2018-02-04T16:35:46.767Z"
+		}, {
+			"text": "fine",
+			"created": "2018-02-04T16:35:52.615Z",
+			"updated": "2018-02-04T16:35:52.615Z"
+		}, {
+			"text": "wonderful",
+			"created": "2018-02-04T16:36:00.911Z",
+			"updated": "2018-02-04T16:36:00.911Z"
+		}, {
+			"text": "fantastic",
+			"created": "2018-02-04T16:36:09.124Z",
+			"updated": "2018-02-04T16:36:09.124Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "what_do",
+		"created": "2018-02-02T11:37:51.355Z",
+		"updated": "2018-02-02T11:38:58.396Z",
+		"examples": [{
+			"text": "help me?",
+			"created": "2018-02-02T11:38:09.389Z",
+			"updated": "2018-02-02T11:38:09.389Z"
+		}, {
+			"text": "what services you provide me?",
+			"created": "2018-02-02T11:38:24.464Z",
+			"updated": "2018-02-02T11:38:24.464Z"
+		}, {
+			"text": "What do you do?",
+			"created": "2018-02-02T11:38:01.447Z",
+			"updated": "2018-02-02T11:38:58.396Z"
+		}],
+		"description": "What do You do?"
+	}, {
+		"intent": "introductionofbatman",
+		"created": "2018-02-03T11:18:01.435Z",
+		"updated": "2018-02-04T11:00:37.240Z",
+		"examples": [{
+			"text": "Introduction",
+			"created": "2018-02-03T11:18:24.109Z",
+			"updated": "2018-02-03T11:18:24.109Z"
+		}, {
+			"text": "introduce",
+			"created": "2018-02-03T11:18:30.371Z",
+			"updated": "2018-02-03T11:18:30.371Z"
+		}, {
+			"text": "About",
+			"created": "2018-02-03T11:18:36.700Z",
+			"updated": "2018-02-03T11:18:36.700Z"
+		}, {
+			"text": "About him",
+			"created": "2018-02-03T11:18:43.961Z",
+			"updated": "2018-02-03T11:24:34.773Z"
+		}, {
+			"text": "Inroduction",
+			"created": "2018-02-03T11:42:30.051Z",
+			"updated": "2018-02-03T11:42:30.051Z"
+		}, {
+			"text": "a",
+			"created": "2018-02-04T11:00:37.240Z",
+			"updated": "2018-02-04T11:00:37.240Z"
+		}],
+		"description": "Introduction of Batman"
+	}, {
+		"intent": "appreciation_you",
+		"created": "2018-02-02T11:55:54.032Z",
+		"updated": "2018-02-02T11:57:35.807Z",
+		"examples": [{
+			"text": "You are amazing.!",
+			"created": "2018-02-02T11:56:10.369Z",
+			"updated": "2018-02-02T11:56:10.369Z"
+		}, {
+			"text": "you are lovely.",
+			"created": "2018-02-02T11:56:20.605Z",
+			"updated": "2018-02-02T11:56:20.605Z"
+		}, {
+			"text": "You are awesome.",
+			"created": "2018-02-02T11:57:01.597Z",
+			"updated": "2018-02-02T11:57:01.597Z"
+		}],
+		"description": "Appreciation"
+	}, {
+		"intent": "Thor",
+		"created": "2018-02-04T11:13:20.914Z",
+		"updated": "2018-02-04T11:22:46.568Z",
+		"examples": [{
+			"text": "thor",
+			"created": "2018-02-04T11:13:24.433Z",
+			"updated": "2018-02-04T11:13:24.433Z"
+		}, {
+			"text": "5",
+			"created": "2018-02-04T11:22:46.568Z",
+			"updated": "2018-02-04T11:22:46.568Z"
+		}],
+		"description": "Thor"
+	}, {
+		"intent": "Batman",
+		"created": "2018-02-03T10:58:44.392Z",
+		"updated": "2018-02-04T11:27:19.669Z",
+		"examples": [{
+			"text": "Tell me about batman",
+			"created": "2018-02-03T10:58:57.583Z",
+			"updated": "2018-02-03T10:58:57.583Z"
+		}, {
+			"text": "Batman",
+			"created": "2018-02-03T10:59:02.137Z",
+			"updated": "2018-02-03T10:59:02.137Z"
+		}, {
+			"text": "Bat man",
+			"created": "2018-02-03T10:59:12.960Z",
+			"updated": "2018-02-03T10:59:12.960Z"
+		}, {
+			"text": "1",
+			"created": "2018-02-04T11:27:19.669Z",
+			"updated": "2018-02-04T11:27:19.669Z"
+		}],
+		"description": "Tell me about Batman"
+	}, {
+		"intent": "none",
+		"created": "2018-02-02T11:54:33.216Z",
+		"updated": "2018-02-02T11:54:37.798Z",
+		"examples": [{
+			"text": "dsfgsgsr",
+			"created": "2018-02-02T11:54:37.798Z",
+			"updated": "2018-02-02T11:54:37.798Z"
+		}],
+		"description": null
+	}, {
+		"intent": "deadpool",
+		"created": "2018-02-03T11:20:23.662Z",
+		"updated": "2018-02-04T10:59:06.815Z",
+		"examples": [{
+			"text": "Deadpool",
+			"created": "2018-02-03T11:20:33.103Z",
+			"updated": "2018-02-03T11:20:33.103Z"
+		}, {
+			"text": "About Deadpool",
+			"created": "2018-02-03T11:20:40.067Z",
+			"updated": "2018-02-03T11:20:40.067Z"
+		}, {
+			"text": "4",
+			"created": "2018-02-04T10:59:06.815Z",
+			"updated": "2018-02-04T10:59:06.815Z"
+		}],
+		"description": "About Deadpool"
+	}, {
+		"intent": "ending.",
+		"created": "2018-02-02T11:58:54.529Z",
+		"updated": "2018-02-04T11:04:08.866Z",
+		"examples": [{
+			"text": "Bye.",
+			"created": "2018-02-02T11:58:59.149Z",
+			"updated": "2018-02-02T11:58:59.149Z"
+		}, {
+			"text": "See you.",
+			"created": "2018-02-02T11:59:17.614Z",
+			"updated": "2018-02-02T11:59:17.614Z"
+		}, {
+			"text": "exit.",
+			"created": "2018-02-02T11:59:23.214Z",
+			"updated": "2018-02-02T11:59:23.214Z"
+		}, {
+			"text": "close.",
+			"created": "2018-02-02T11:59:28.220Z",
+			"updated": "2018-02-02T11:59:28.220Z"
+		}, {
+			"text": "tata.",
+			"created": "2018-02-02T11:59:33.337Z",
+			"updated": "2018-02-02T11:59:33.337Z"
+		}, {
+			"text": "good bye.",
+			"created": "2018-02-02T11:59:39.023Z",
+			"updated": "2018-02-02T11:59:39.023Z"
+		}, {
+			"text": "bbye",
+			"created": "2018-02-04T11:04:08.866Z",
+			"updated": "2018-02-04T11:04:08.866Z"
+		}],
+		"description": "bbye texts"
+	}, {
+		"intent": "Who",
+		"created": "2018-02-02T11:36:10.100Z",
+		"updated": "2018-02-02T11:37:18.996Z",
+		"examples": [{
+			"text": "Who are you?",
+			"created": "2018-02-02T11:36:22.786Z",
+			"updated": "2018-02-02T11:36:22.786Z"
+		}, {
+			"text": "what is Your Name?",
+			"created": "2018-02-02T11:36:33.627Z",
+			"updated": "2018-02-02T11:36:33.627Z"
+		}, {
+			"text": "Introduce yourself",
+			"created": "2018-02-02T11:36:59.133Z",
+			"updated": "2018-02-02T11:36:59.133Z"
+		}, {
+			"text": "tell me your name",
+			"created": "2018-02-02T11:37:07.937Z",
+			"updated": "2018-02-02T11:37:07.937Z"
+		}, {
+			"text": "what's your name?",
+			"created": "2018-02-02T11:37:18.996Z",
+			"updated": "2018-02-02T11:37:18.996Z"
+		}],
+		"description": "Who are you"
+	}, {
+		"intent": "acknowledgement",
+		"created": "2018-02-04T10:19:22.984Z",
+		"updated": "2018-02-04T10:19:39.911Z",
+		"examples": [{
+			"text": "yes",
+			"created": "2018-02-04T10:19:32.194Z",
+			"updated": "2018-02-04T10:19:32.194Z"
+		}, {
+			"text": "Okay",
+			"created": "2018-02-04T10:19:35.852Z",
+			"updated": "2018-02-04T10:19:35.852Z"
+		}, {
+			"text": "More",
+			"created": "2018-02-04T10:19:39.911Z",
+			"updated": "2018-02-04T10:19:39.911Z"
+		}],
+		"description": null
+	}, {
+		"intent": "how_are_you",
+		"created": "2018-02-02T11:39:17.560Z",
+		"updated": "2018-02-02T11:40:11.724Z",
+		"examples": [{
+			"text": "how are you?",
+			"created": "2018-02-02T11:39:49.289Z",
+			"updated": "2018-02-02T11:39:49.289Z"
+		}, {
+			"text": "hows you?",
+			"created": "2018-02-02T11:39:57.509Z",
+			"updated": "2018-02-02T11:39:57.509Z"
+		}, {
+			"text": "You okay?",
+			"created": "2018-02-02T11:40:11.724Z",
+			"updated": "2018-02-02T11:40:11.724Z"
+		}],
+		"description": "How are you?"
+	}, {
+		"intent": "spiderman",
+		"created": "2018-02-04T11:12:22.073Z",
+		"updated": "2018-02-04T11:21:00.975Z",
+		"examples": [{
+			"text": "spider man",
+			"created": "2018-02-04T11:12:27.339Z",
+			"updated": "2018-02-04T11:12:27.339Z"
+		}, {
+			"text": "spiderman",
+			"created": "2018-02-04T11:12:32.057Z",
+			"updated": "2018-02-04T11:12:32.057Z"
+		}, {
+			"text": "3",
+			"created": "2018-02-04T11:21:00.975Z",
+			"updated": "2018-02-04T11:21:00.975Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "InitialGreeting",
+		"created": "2018-02-03T11:29:38.859Z",
+		"updated": "2018-02-03T11:30:19.157Z",
+		"examples": [{
+			"text": "Hello",
+			"created": "2018-02-03T11:29:44.074Z",
+			"updated": "2018-02-03T11:29:44.074Z"
+		}, {
+			"text": "Hey",
+			"created": "2018-02-03T11:29:48.340Z",
+			"updated": "2018-02-03T11:29:48.340Z"
+		}, {
+			"text": "Hy",
+			"created": "2018-02-03T11:29:56.028Z",
+			"updated": "2018-02-03T11:29:56.028Z"
+		}, {
+			"text": "Hi",
+			"created": "2018-02-03T11:30:02.864Z",
+			"updated": "2018-02-03T11:30:02.864Z"
+		}, {
+			"text": "Hiii",
+			"created": "2018-02-03T11:30:07.673Z",
+			"updated": "2018-02-03T11:30:07.673Z"
+		}, {
+			"text": "Hola",
+			"created": "2018-02-03T11:30:14.418Z",
+			"updated": "2018-02-03T11:30:14.418Z"
+		}, {
+			"text": "Namaste",
+			"created": "2018-02-03T11:30:19.157Z",
+			"updated": "2018-02-03T11:30:19.157Z"
+		}],
+		"description": "Initial Greetings."
+	}, {
+		"intent": "love_you",
+		"created": "2018-02-02T11:57:59.223Z",
+		"updated": "2018-02-02T11:58:32.414Z",
+		"examples": [{
+			"text": "I love you.",
+			"created": "2018-02-02T11:58:09.394Z",
+			"updated": "2018-02-02T11:58:09.394Z"
+		}, {
+			"text": "love you.",
+			"created": "2018-02-02T11:58:16.563Z",
+			"updated": "2018-02-02T11:58:16.563Z"
+		}, {
+			"text": "like you.",
+			"created": "2018-02-02T11:58:25.407Z",
+			"updated": "2018-02-02T11:58:25.407Z"
+		}, {
+			"text": "i like you.",
+			"created": "2018-02-02T11:58:32.414Z",
+			"updated": "2018-02-02T11:58:32.414Z"
+		}],
+		"description": "I love you response"
+	}, {
+		"intent": "Superman",
+		"created": "2018-02-04T11:12:58.709Z",
+		"updated": "2018-02-04T11:20:08.073Z",
+		"examples": [{
+			"text": "superman",
+			"created": "2018-02-04T11:13:03.383Z",
+			"updated": "2018-02-04T11:13:03.383Z"
+		}, {
+			"text": "super man",
+			"created": "2018-02-04T11:13:07.497Z",
+			"updated": "2018-02-04T11:13:07.497Z"
+		}, {
+			"text": "2",
+			"created": "2018-02-04T11:20:08.073Z",
+			"updated": "2018-02-04T11:20:08.073Z"
+		}],
+		"description": "Suoerman"
+	}, {
+		"intent": "Anythingelse",
+		"created": "2018-02-04T12:19:30.375Z",
+		"updated": "2018-02-04T12:45:56.531Z",
+		"examples": [{
+			"text": "Anything else",
+			"created": "2018-02-04T12:20:31.593Z",
+			"updated": "2018-02-04T12:20:31.593Z"
+		}, {
+			"text": "else",
+			"created": "2018-02-04T12:20:34.591Z",
+			"updated": "2018-02-04T12:20:34.591Z"
+		}, {
+			"text": "other",
+			"created": "2018-02-04T12:20:41.872Z",
+			"updated": "2018-02-04T12:20:41.872Z"
+		}, {
+			"text": "other things",
+			"created": "2018-02-04T12:20:37.744Z",
+			"updated": "2018-02-04T12:20:53.923Z"
+		}, {
+			"text": "no",
+			"created": "2018-02-04T12:40:34.534Z",
+			"updated": "2018-02-04T12:40:34.534Z"
+		}, {
+			"text": "none",
+			"created": "2018-02-04T12:45:56.531Z",
+			"updated": "2018-02-04T12:45:56.531Z"
+		}],
+		"description": null
+	}, {
+		"intent": "OtherSuperHero",
+		"created": "2018-02-04T11:32:17.732Z",
+		"updated": "2018-02-04T12:41:18.849Z",
+		"examples": [{
+			"text": "else",
+			"created": "2018-02-04T11:32:31.029Z",
+			"updated": "2018-02-04T11:32:31.029Z"
+		}, {
+			"text": "other superhero",
+			"created": "2018-02-04T11:32:22.535Z",
+			"updated": "2018-02-04T12:40:59.545Z"
+		}, {
+			"text": "others superhero",
+			"created": "2018-02-04T11:32:35.765Z",
+			"updated": "2018-02-04T12:41:18.849Z"
+		}],
+		"description": "Other Superhero"
+	}, {
+		"intent": "more",
+		"created": "2018-02-04T10:21:10.490Z",
+		"updated": "2018-02-04T10:21:10.490Z",
+		"examples": [],
+		"description": null
+	}, {
+		"intent": "latestmovie",
+		"created": "2018-02-04T11:31:04.919Z",
+		"updated": "2018-02-04T16:28:24.932Z",
+		"examples": [{
+			"text": "latest movie",
+			"created": "2018-02-04T11:31:11.131Z",
+			"updated": "2018-02-04T11:31:11.131Z"
+		}, {
+			"text": "movie",
+			"created": "2018-02-04T11:31:14.410Z",
+			"updated": "2018-02-04T11:31:14.410Z"
+		}, {
+			"text": "latest",
+			"created": "2018-02-04T11:31:21.401Z",
+			"updated": "2018-02-04T11:31:21.401Z"
+		}, {
+			"text": "b",
+			"created": "2018-02-04T16:28:24.932Z",
+			"updated": "2018-02-04T16:28:24.932Z"
+		}],
+		"description": "Latest Movie"
+	}, {
+		"intent": "Approval",
+		"created": "2018-02-03T11:38:25.207Z",
+		"updated": "2018-02-03T11:39:18.978Z",
+		"examples": [{
+			"text": "yes",
+			"created": "2018-02-03T11:39:00.842Z",
+			"updated": "2018-02-03T11:39:00.842Z"
+		}, {
+			"text": "Yup",
+			"created": "2018-02-03T11:39:09.797Z",
+			"updated": "2018-02-03T11:39:09.797Z"
+		}, {
+			"text": "Tell me",
+			"created": "2018-02-03T11:39:18.978Z",
+			"updated": "2018-02-03T11:39:18.978Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Intrestingfacts",
+		"created": "2018-02-04T11:31:44.848Z",
+		"updated": "2018-02-04T12:33:09.501Z",
+		"examples": [{
+			"text": "Intresting facts",
+			"created": "2018-02-04T11:31:51.088Z",
+			"updated": "2018-02-04T11:31:51.088Z"
+		}, {
+			"text": "facts",
+			"created": "2018-02-04T11:31:53.993Z",
+			"updated": "2018-02-04T11:31:53.993Z"
+		}, {
+			"text": "fact",
+			"created": "2018-02-04T11:31:58.636Z",
+			"updated": "2018-02-04T11:31:58.636Z"
+		}, {
+			"text": "c",
+			"created": "2018-02-04T12:33:09.501Z",
+			"updated": "2018-02-04T12:33:09.501Z"
+		}],
+		"description": "Intresting Facts"
+	}, {
+		"intent": "greeting_response",
+		"created": "2018-02-02T11:49:24.502Z",
+		"updated": "2018-02-02T11:51:16.191Z",
+		"examples": [{
+			"text": "Greeting Response.",
+			"created": "2018-02-02T11:50:27.965Z",
+			"updated": "2018-02-02T11:50:27.965Z"
+		}, {
+			"text": "I'm fine.",
+			"created": "2018-02-02T11:50:36.057Z",
+			"updated": "2018-02-02T11:50:36.057Z"
+		}, {
+			"text": "I'm good.",
+			"created": "2018-02-02T11:50:42.151Z",
+			"updated": "2018-02-02T11:50:42.151Z"
+		}, {
+			"text": "fantastic.",
+			"created": "2018-02-02T11:50:49.177Z",
+			"updated": "2018-02-02T11:50:49.177Z"
+		}, {
+			"text": "That's Great.",
+			"created": "2018-02-02T11:50:58.507Z",
+			"updated": "2018-02-02T11:50:58.507Z"
+		}, {
+			"text": "I'm great.",
+			"created": "2018-02-02T11:51:09.456Z",
+			"updated": "2018-02-02T11:51:09.456Z"
+		}, {
+			"text": "I'm okay.",
+			"created": "2018-02-02T11:51:16.191Z",
+			"updated": "2018-02-02T11:51:16.191Z"
+		}],
+		"description": "Response to greeting."
+	}, {
+		"intent": "otherSuperheros",
+		"created": "2018-02-04T10:22:28.063Z",
+		"updated": "2018-02-04T10:24:52.019Z",
+		"examples": [{
+			"text": "other",
+			"created": "2018-02-04T10:24:37.310Z",
+			"updated": "2018-02-04T10:24:37.310Z"
+		}, {
+			"text": "else",
+			"created": "2018-02-04T10:24:47.484Z",
+			"updated": "2018-02-04T10:24:47.484Z"
+		}, {
+			"text": "Anyother",
+			"created": "2018-02-04T10:24:52.019Z",
+			"updated": "2018-02-04T10:24:52.019Z"
+		}],
+		"description": "Othersuper Heros"
+	}],
+	"updated": "2018-02-13T10:17:24.870Z",
+	"entities": [{
+		"entity": "superheroDetail",
+		"values": [{
+			"type": "synonyms",
+			"value": "a",
+			"created": "2018-02-03T11:09:33.580Z",
+			"updated": "2018-02-04T10:50:54.582Z",
+			"metadata": null,
+			"synonyms": ["Introduction", "Introduce", "introdu"]
+		}, {
+			"type": "synonyms",
+			"value": "b",
+			"created": "2018-02-03T11:10:15.734Z",
+			"updated": "2018-02-04T10:43:40.498Z",
+			"metadata": null,
+			"synonyms": ["Latest Movie", "Movie"]
+		}, {
+			"type": "synonyms",
+			"value": "c",
+			"created": "2018-02-03T11:10:29.127Z",
+			"updated": "2018-02-04T10:44:15.853Z",
+			"metadata": null,
+			"synonyms": ["facts", "intresting facts"]
+		}, {
+			"type": "synonyms",
+			"value": "d",
+			"created": "2018-02-03T11:11:14.228Z",
+			"updated": "2018-02-04T10:44:23.474Z",
+			"metadata": null,
+			"synonyms": ["other", "none", "else"]
+		}],
+		"created": "2018-02-03T11:09:07.621Z",
+		"updated": "2018-02-04T10:50:54.582Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "numberofSuperhero",
+		"values": [{
+			"type": "synonyms",
+			"value": "1",
+			"created": "2018-02-04T10:29:29.999Z",
+			"updated": "2018-02-04T10:29:29.999Z",
+			"metadata": null,
+			"synonyms": ["batman", "bat man"]
+		}, {
+			"type": "synonyms",
+			"value": "2",
+			"created": "2018-02-04T10:29:43.792Z",
+			"updated": "2018-02-04T10:30:18.325Z",
+			"metadata": null,
+			"synonyms": ["superman", "super man"]
+		}, {
+			"type": "synonyms",
+			"value": "3",
+			"created": "2018-02-04T10:30:27.744Z",
+			"updated": "2018-02-04T10:30:27.744Z",
+			"metadata": null,
+			"synonyms": ["Spider man"]
+		}, {
+			"type": "synonyms",
+			"value": "4",
+			"created": "2018-02-04T10:30:35.774Z",
+			"updated": "2018-02-04T10:30:35.774Z",
+			"metadata": null,
+			"synonyms": ["Dealpool"]
+		}, {
+			"type": "synonyms",
+			"value": "5",
+			"created": "2018-02-04T10:30:42.526Z",
+			"updated": "2018-02-04T10:30:42.526Z",
+			"metadata": null,
+			"synonyms": ["Thor"]
+		}],
+		"created": "2018-02-04T10:29:13.515Z",
+		"updated": "2018-02-04T10:30:42.526Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "A ChatBot for Children.",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay. Select Any of the below option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1517742963435",
+		"context": null,
+		"created": "2018-02-04T11:16:05.273Z",
+		"updated": "2018-02-04T11:16:05.273Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#otherSuperheros",
+		"description": null,
+		"dialog_node": "node_7_1517742963435",
+		"previous_sibling": "node_6_1517742963435"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_5_1517742963435",
+		"context": null,
+		"created": "2018-02-04T11:16:05.273Z",
+		"updated": "2018-02-04T11:16:05.273Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1517655636465"
+		},
+		"conditions": "#acknowledgement",
+		"description": null,
+		"dialog_node": "node_6_1517742963435",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anyother SuperHero - copy1 - copy1",
+		"output": {
+			"text": {
+				"values": ["Okay. Please select Any of the Following:"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1517655636234",
+		"context": null,
+		"created": "2018-02-04T12:01:05.150Z",
+		"updated": "2018-02-04T12:01:16.129Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#OtherSuperHero",
+		"description": null,
+		"dialog_node": "node_11_1517745661287",
+		"previous_sibling": "node_1_1517747134790"
+	}, {
+		"type": "standard",
+		"title": "Latest Movies",
+		"output": {
+			"text": {
+				"values": ["Deadpool 2017"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1517655636234",
+		"context": null,
+		"created": "2018-02-04T11:29:23.763Z",
+		"updated": "2018-02-04T12:24:08.846Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_8_1517655636234"
+		},
+		"conditions": "@superheroDetail:b",
+		"description": null,
+		"dialog_node": "node_1_1517743762064",
+		"previous_sibling": "node_12_1517657027452"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Deadpool (Wade Winston Wilson) is a fictional character appearing in American comic books published by Marvel Comics."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1517655636234",
+		"context": null,
+		"created": "2018-02-03T11:23:51.746Z",
+		"updated": "2018-02-04T12:24:23.390Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_8_1517655636234"
+		},
+		"conditions": "#introductionofbatman || @superheroDetail:a",
+		"description": null,
+		"dialog_node": "node_12_1517657027452",
+		"previous_sibling": "node_11_1517745661287"
+	}, {
+		"type": "standard",
+		"title": "Intresting facts - copy1 - copy1",
+		"output": {
+			"text": {
+				"values": ["Wade Wilson was named as an homage/parody to Slade Wilson, aka the mercenary Deathstroke from DC Comics.", "In the original comic books, Deadpool gets his healing factor from an experiment involving a sample of Wolverine’s blood (Wolverine is a mutant with super healing powers). This allows Deadpool to survive further experimentation, but he cannot heal any wounds sustained before his experiment. Neither can he cure his cancer, in fact, the cancer progresses as fast as he can heal.", "Deadpool made on a $58 million budget and shot in just 48 days became the first R-rated movie to open above $100 million at the U.S. Box office.", "This film had a lower budget than any of the other superhero movies such as  X-Men, Iron Man, Avengers, or Captain America movies.", "The Deadpool costume originally had a muscle layer underneath but it had to be removed: Ryan Reynolds was so muscular, the costume was not only too tight for him, but it made him look overlarge.", "During a talk at Google, Ryan Reynolds revealed that the taxi driver character “Dopinder” was named after “a really cool guy” he knew in elementary school, who died when he was hit by lightning. It was meant to be a tribute to him.", "In May of 2015, Ryan Reynolds worked with the Make-A-Wish foundation to ensure that several sick kids could come visit him on set during the filming of Deadpool. One of them was Tony Acevedo, suffering from Hodgkin’s Disease.", "The film was released in February 2016, exactly twenty-five years after Deadpool’s first appearance in the pages of The New Mutants #98 cover dated 1991. Incidentally, Ryan Reynolds began his acting career in 1991.", "A three-minute test reel was shot in January 2012 in an attempt to convince the heads of the studio to move forward with the movie. On August 1, 2014, the footage was released to the public, and based on the overwhelmingly positive response from fans, the film finally began production. The footage was so popular that part of it was recreated for the actual film.", "In an interview, writer Rhett Reese stated that Negasonic Teenage Warhead wasn’t part of original draft, but the director wanted a superhero with traditional superpowers. Other X-men such as Cannonball were considered, but they eventually used Negasonic Teenage Warhead because they “liked her outlandish name better.”", "In the opening credits, there is a People Magazine floating around with the headline “Ryan Reynolds: Sexiest Man Alive!” It is an actual issue of the magazine that featured Reynolds as the “Sexiest Man Alive” (2010).", "Ryan Reynolds’ full body makeup took eight hours to apply. Once it was on, he was not able to sit or lie down.", "When Gina Carano who plays Angel Dust, did the junkyard fight scene, she was more worried about spiders than anything else, even her stunts.", "In the comics, Negasonic Teenage Warhead is actually a telepath and precognitive mutant. Her abilities were changed for the film due to the fact that the writers felt that having explosive powers would fit more with her name.", "On April Fool’s Day 2015, Ryan Reynolds posted on Twitter that the film would be rated PG-13, which prompted fan backlash as the Deadpool character often swears and commits acts of graphic violence. Later that day, Reynolds confirmed that it was a prank and the film would be R rated.", "In the scenes where he is dealing with the stalker pizza delivery guy, Wade is wearing a T-shirt with a portrait of Bea Arthur on the front. This is a reference to the fact that in the comics, Deadpool has an affection for Bea Arthur and the Golden Girls TV show.", "Ryan Reynolds describes Deadpool’s “breaking the fourth wall” ability as a reflection of current times. When a character in the movie or a book becomes self-aware and knows he is inside a movie or a comic panel and speaks directly to the audience, it is said to be “breaking the fourth wall.”", "To prepare for the film Ryan Reynolds (Wade Wilson/Deadpool) hired a swords master to train him."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1517655636234",
+		"context": null,
+		"created": "2018-02-04T12:25:37.104Z",
+		"updated": "2018-02-04T12:34:16.499Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1517747134794"
+		},
+		"conditions": "@superheroDetail:c || #Intrestingfacts",
+		"description": null,
+		"dialog_node": "node_1_1517747134790",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "anything else.",
+		"output": {
+			"text": {
+				"values": ["Okay Please Select Any Other Option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1517747134794",
+		"context": null,
+		"created": "2018-02-04T12:25:37.104Z",
+		"updated": "2018-02-04T12:26:33.809Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_8_1517655636234"
+		},
+		"conditions": "#Anythingelse",
+		"description": null,
+		"dialog_node": "node_4_1517747134794",
+		"previous_sibling": "node_3_1517747134794"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["As You Wish my Lord..!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1517747134794",
+		"context": null,
+		"created": "2018-02-04T12:25:37.104Z",
+		"updated": "2018-02-04T12:25:37.104Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1517747134790"
+		},
+		"conditions": "#acknowledgement || #Approval",
+		"description": null,
+		"dialog_node": "node_3_1517747134794",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Do you want to know more? or Anything else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_12_1517743080163",
+		"context": null,
+		"created": "2018-02-04T11:18:01.855Z",
+		"updated": "2018-02-04T11:18:01.855Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#acknowledgement",
+		"description": null,
+		"dialog_node": "node_13_1517743080164",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Wanna Know more facts or Anything else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1517747134790",
+		"context": null,
+		"created": "2018-02-04T12:25:37.104Z",
+		"updated": "2018-02-04T12:25:37.104Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_2_1517747134794",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "anything else.",
+		"output": {
+			"text": {
+				"values": ["Okay Please Select Any Other Option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_18_1517746446327",
+		"context": null,
+		"created": "2018-02-04T12:18:21.327Z",
+		"updated": "2018-02-04T12:20:17.837Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1517742671589"
+		},
+		"conditions": "#Anythingelse",
+		"description": null,
+		"dialog_node": "node_20_1517746699543",
+		"previous_sibling": "node_19_1517746446327"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["As You Wish my Lord..!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_18_1517746446327",
+		"context": null,
+		"created": "2018-02-04T12:14:09.072Z",
+		"updated": "2018-02-04T12:14:09.072Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_17_1517746446326"
+		},
+		"conditions": "#acknowledgement || #Approval",
+		"description": null,
+		"dialog_node": "node_19_1517746446327",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Wanna Know more facts or Anything else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_12_1517745699779",
+		"context": null,
+		"created": "2018-02-04T12:01:41.944Z",
+		"updated": "2018-02-04T12:01:41.944Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_13_1517745699780",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Wanna Know more facts or Anything else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1517745078168",
+		"context": null,
+		"created": "2018-02-04T11:51:19.896Z",
+		"updated": "2018-02-04T11:51:19.896Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_6_1517745078169",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Wanna Know more facts or Anything else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1517744187794",
+		"context": null,
+		"created": "2018-02-04T11:43:32.407Z",
+		"updated": "2018-02-04T11:44:15.826Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_1_1517744610712",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anyother SuperHero - copy1",
+		"output": {
+			"text": {
+				"values": ["Okay. Please select Any of the Following:"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1517742687273",
+		"context": null,
+		"created": "2018-02-04T12:00:21.531Z",
+		"updated": "2018-02-04T12:00:30.552Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#OtherSuperHero",
+		"description": null,
+		"dialog_node": "node_9_1517745618394",
+		"previous_sibling": "node_12_1517745699779"
+	}, {
+		"type": "standard",
+		"title": "Intresting facts - copy1",
+		"output": {
+			"text": {
+				"values": ["His original name on the planet Krypton was Kal-El.", "Superman was actually killed by the villain Doomsday in a 1993 comic. He was later brought back to life.", "The original concept of Superman would have him be featured as a bald telepathic villain bent on world domination.", "According to Joe Shuster, Superman is inspired by heroes such as Hercules and Flash Gordan.", "Many of Superman’s supporting cast did not debut with the Man of Steel.  Jimmy Olsen debuted in 1938’s Action Comics #6 and Perry White debuted in Superman in 1940.", "Superman is strong enough to carry a book of infinite pages.  Meaning that he literally has no limit to his strength.", "Despite the fact that Superman can fly millions of times faster than the speed of light, Superman still isn’t faster then the Flash.", "Superman actually doesn’t need to eat or breathe air as he can live off of solar energy alone.", "On the same radio show, Superman fought the Klu Klux Klan", "Superman also got to wield Captain America’s shield at the same time as the hammer.", "Superman was able to temporarily wield the hammer when Odin lifted the enchantment for a brief moment so he could deal a killing blow to the near-omnipotent Krona.", "Superman’s original arch-enemy wouldn’t be Lex Luthor but the telepathic primate: Ultra-Humanite.", "Lois Lane temporarily had Superman’s powers in the graphic novel All-Star Superman.", "Superman is currently dating Wonder Woman.", "Speaking of Nazis, the Nazis hated Superman during WWII due to the American propaganda Superman comics were full of at the time.", "There has been six different Supergirls throughout Superman’s history.", "Superman does not drink alcohol", "Superman was once a vegetarian"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1517742687273",
+		"context": null,
+		"created": "2018-02-04T12:01:41.944Z",
+		"updated": "2018-02-04T12:33:54.524Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_13_1517745699780"
+		},
+		"conditions": "@superheroDetail:c || #Intrestingfacts",
+		"description": null,
+		"dialog_node": "node_12_1517745699779",
+		"previous_sibling": "node_15_1517745761677"
+	}, {
+		"type": "standard",
+		"title": "introduceSuperman",
+		"output": {
+			"text": {
+				"values": ["Superman is a fictional superhero appearing in American comic books published by DC Comics."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1517742687273",
+		"context": null,
+		"created": "2018-02-04T11:17:16.907Z",
+		"updated": "2018-02-04T11:17:56.060Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_10_1517743035204"
+		},
+		"conditions": "#introductionofbatman || @superheroDetail:a",
+		"description": null,
+		"dialog_node": "node_8_1517743035203",
+		"previous_sibling": "node_9_1517745618394"
+	}, {
+		"type": "standard",
+		"title": "Latest Movie - copy1",
+		"output": {
+			"text": {
+				"values": ["Superman: The Movie (1978)                                                                                              \nSuperman II (1980)                                                                                                               \nSuperman III (1983)                                                                                                             \nSuperman IV: The Quest for Peace (1987)                                                                      \nSuperman Returns (2006)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1517742687273",
+		"context": null,
+		"created": "2018-02-04T12:02:47.384Z",
+		"updated": "2018-02-04T12:04:26.774Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1517742687273"
+		},
+		"conditions": "@superheroDetail:b || #latestmovie",
+		"description": null,
+		"dialog_node": "node_15_1517745761677",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Select Any of the Option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1517655636133",
+		"context": null,
+		"created": "2018-02-03T11:38:14.148Z",
+		"updated": "2018-02-03T11:44:09.568Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#Approval",
+		"description": null,
+		"dialog_node": "node_1_1517657891832",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Do you want to know more? or Anything else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1517743035203",
+		"context": null,
+		"created": "2018-02-04T11:17:16.907Z",
+		"updated": "2018-02-04T11:17:16.907Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#acknowledgement",
+		"description": null,
+		"dialog_node": "node_9_1517743035204",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Spiderman follows",
+		"output": {
+			"text": {
+				"values": ["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1517573198002",
+		"context": null,
+		"created": "2018-02-04T11:11:13.287Z",
+		"updated": "2018-02-04T11:15:43.515Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#spiderman || @numberofSuperhero:3",
+		"description": null,
+		"dialog_node": "node_1_1517742671589",
+		"previous_sibling": "node_8_1517655636234"
+	}, {
+		"type": "standard",
+		"title": "thor follows",
+		"output": {
+			"text": {
+				"values": ["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1517573198002",
+		"context": null,
+		"created": "2018-02-04T11:11:47.810Z",
+		"updated": "2018-02-04T11:15:55.280Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Thor && @numberofSuperhero:5",
+		"description": null,
+		"dialog_node": "node_3_1517742706157",
+		"previous_sibling": "node_2_1517742687273"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay. Incase you want to know anything else about Superheros.! do let me know."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1517573198002",
+		"context": null,
+		"created": "2018-02-04T12:44:15.134Z",
+		"updated": "2018-02-04T12:45:27.340Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_7_1517655636133"
+		},
+		"conditions": "#Anythingelse",
+		"description": null,
+		"dialog_node": "node_1_1517748253202",
+		"previous_sibling": "node_9_1517655636465"
+	}, {
+		"type": "standard",
+		"title": "Batman follows",
+		"output": {
+			"text": {
+				"values": ["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1517573198002",
+		"context": null,
+		"created": "2018-02-03T11:00:38.937Z",
+		"updated": "2018-02-04T11:25:12.499Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Batman || @numberofSuperhero:1 || @numberofSuperhero:1",
+		"description": null,
+		"dialog_node": "node_9_1517655636465",
+		"previous_sibling": "node_3_1517742706157"
+	}, {
+		"type": "standard",
+		"title": "Superman follows",
+		"output": {
+			"text": {
+				"values": ["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1517573198002",
+		"context": null,
+		"created": "2018-02-04T11:11:28.988Z",
+		"updated": "2018-02-04T11:15:47.402Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Superman || @numberofSuperhero:2",
+		"description": null,
+		"dialog_node": "node_2_1517742687273",
+		"previous_sibling": "node_1_1517742671589"
+	}, {
+		"type": "standard",
+		"title": "Deadpool Follow",
+		"output": {
+			"text": {
+				"values": ["a) Introduction b)Latest Movie c)Intresting Facts d)Select Other Superhero."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1517573198002",
+		"context": null,
+		"created": "2018-02-03T11:00:38.682Z",
+		"updated": "2018-02-04T11:10:24.015Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#deadpool || @numberofSuperhero:4",
+		"description": null,
+		"dialog_node": "node_8_1517655636234",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["Okay Please Select Any Other Option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_13_1517745699780",
+		"context": null,
+		"created": "2018-02-04T12:22:48.460Z",
+		"updated": "2018-02-04T12:23:15.496Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1517742687273"
+		},
+		"conditions": "#Anythingelse",
+		"description": null,
+		"dialog_node": "node_23_1517746966637",
+		"previous_sibling": "node_14_1517745699780"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["As You Wish my Lord..!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_13_1517745699780",
+		"context": null,
+		"created": "2018-02-04T12:01:41.944Z",
+		"updated": "2018-02-04T12:01:41.944Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_12_1517745699779"
+		},
+		"conditions": "#acknowledgement || #Approval",
+		"description": null,
+		"dialog_node": "node_14_1517745699780",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["Okay Please Select Any Other Option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1517744610712",
+		"context": null,
+		"created": "2018-02-04T12:21:21.742Z",
+		"updated": "2018-02-04T12:21:48.674Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1517655636465"
+		},
+		"conditions": "#Anythingelse",
+		"description": null,
+		"dialog_node": "node_21_1517746879956",
+		"previous_sibling": "node_2_1517744747318"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["As You Wish my Lord..!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1517744610712",
+		"context": null,
+		"created": "2018-02-04T11:45:50.782Z",
+		"updated": "2018-02-04T11:46:46.426Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1517744187794"
+		},
+		"conditions": "#acknowledgement || #Approval",
+		"description": null,
+		"dialog_node": "node_2_1517744747318",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay. Select Any of the below option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1517743035204",
+		"context": null,
+		"created": "2018-02-04T11:17:16.907Z",
+		"updated": "2018-02-04T11:17:16.907Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#otherSuperheros",
+		"description": null,
+		"dialog_node": "node_11_1517743035204",
+		"previous_sibling": "node_10_1517743035204"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_9_1517743035204",
+		"context": null,
+		"created": "2018-02-04T11:17:16.907Z",
+		"updated": "2018-02-04T11:17:16.907Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1517655636465"
+		},
+		"conditions": "#acknowledgement",
+		"description": null,
+		"dialog_node": "node_10_1517743035204",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anthing else",
+		"output": {
+			"text": {
+				"values": ["Okay Please Select Any Other Option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_6_1517745078169",
+		"context": null,
+		"created": "2018-02-04T12:22:05.535Z",
+		"updated": "2018-02-04T12:22:28.505Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1517742706157"
+		},
+		"conditions": "#Anythingelse",
+		"description": null,
+		"dialog_node": "node_22_1517746923731",
+		"previous_sibling": "node_7_1517745078169"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["As You Wish my Lord..!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_6_1517745078169",
+		"context": null,
+		"created": "2018-02-04T11:51:19.896Z",
+		"updated": "2018-02-04T11:59:02.106Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517745078168"
+		},
+		"conditions": "#acknowledgement || #Approval",
+		"description": null,
+		"dialog_node": "node_7_1517745078169",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "introducebatman",
+		"output": {
+			"text": {
+				"values": ["Batman is a fictional superhero appearing in American comic books published by DC Comics."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1517655636465",
+		"context": null,
+		"created": "2018-02-03T11:18:58.505Z",
+		"updated": "2018-02-04T11:34:55.861Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1517655636465"
+		},
+		"conditions": "#introductionofbatman || @superheroDetail:a",
+		"description": null,
+		"dialog_node": "node_10_1517656736312",
+		"previous_sibling": "node_3_1517744187794"
+	}, {
+		"type": "standard",
+		"title": "Anyother SuperHero",
+		"output": {
+			"text": {
+				"values": ["Okay. Please select Any of the Following:"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1517655636465",
+		"context": null,
+		"created": "2018-02-04T11:47:05.061Z",
+		"updated": "2018-02-04T11:47:50.971Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#OtherSuperHero",
+		"description": null,
+		"dialog_node": "node_3_1517744823295",
+		"previous_sibling": "node_10_1517656736312"
+	}, {
+		"type": "standard",
+		"title": "Intresting facts",
+		"output": {
+			"text": {
+				"values": ["Bruce Wayne's Name Comes from Two Real Heroes.", "Batman’s online screen name is JonDoe297.", "A 1943 TV serial called The Batman introduced the concept of the Batcave, not to mention a skinny Alfred Pennyworth.", "Batman Beat Darkseid… Twice!", "There’s a real course called The Science of Batman at the University of Victoria in Canada. The course description reads: “The extreme range of adaptability of the human body explored through the life of the Caped Crusader.”", "The Yellow Lanterns of the Sinestro Corps are powered by fear, so when a ring attempted to choose the best person on Earth when it comes to instilling fear, it chose Batman. Yup, criminals are that scared of Batman.", "Batman was originally a gun-toting vigilante who would not only shoot his enemies but throw them in vats of acid.", "Andy Warhol Made the First Batman Movie.", "Gotham City Got Its Name from the Phone Book", "10. Kevin Conroy Has Played Batman More Than Anyone", "Batman’s Ears Are Hidden Projectiles", "Ben Affleck Is Both Batman and Superman", "Batman’s Creative Inspiration", "The Fans Killed Robin", "Bob Kane Didn’t Create Batman as We Know Him", "Bruce Wayne Is Worth $7 Billion", "Batman Merged with Wolverine"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1517655636465",
+		"context": null,
+		"created": "2018-02-04T11:36:29.475Z",
+		"updated": "2018-02-04T12:36:01.383Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1517744610712"
+		},
+		"conditions": "@superheroDetail:c || #Intrestingfacts",
+		"description": null,
+		"dialog_node": "node_3_1517744187794",
+		"previous_sibling": "node_2_1517743995840"
+	}, {
+		"type": "standard",
+		"title": "Latest Movie",
+		"output": {
+			"text": {
+				"values": ["The Dark Knight (2008)\nThe Dark Knight Rises (2012)\nBatman v Superman: Dawn of Justice (2016)\nSuicide Squad (2016)\nJustice League (2017)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1517655636465",
+		"context": null,
+		"created": "2018-02-04T11:33:17.573Z",
+		"updated": "2018-02-04T11:34:18.706Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1517655636465"
+		},
+		"conditions": "@superheroDetail:b || #latestmovie",
+		"description": null,
+		"dialog_node": "node_2_1517743995840",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Wanna Know more facts or Anything else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_17_1517746446326",
+		"context": null,
+		"created": "2018-02-04T12:14:09.072Z",
+		"updated": "2018-02-04T12:14:09.072Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_18_1517746446327",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay. Select Any of the below option."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_13_1517743080164",
+		"context": null,
+		"created": "2018-02-04T11:18:01.855Z",
+		"updated": "2018-02-04T11:18:01.855Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#otherSuperheros",
+		"description": null,
+		"dialog_node": "node_15_1517743080164",
+		"previous_sibling": "node_14_1517743080164"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_13_1517743080164",
+		"context": null,
+		"created": "2018-02-04T11:18:01.855Z",
+		"updated": "2018-02-04T11:18:01.855Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1517655636465"
+		},
+		"conditions": "#acknowledgement",
+		"description": null,
+		"dialog_node": "node_14_1517743080164",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Do you want to know more? or Anything else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1517742963432",
+		"context": null,
+		"created": "2018-02-04T11:16:05.273Z",
+		"updated": "2018-02-04T11:16:05.273Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#acknowledgement",
+		"description": null,
+		"dialog_node": "node_5_1517742963435",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Latest Movie",
+		"output": {
+			"text": {
+				"values": ["Thor: Ragnarok (2017)\nThor: The Dark World. (2013)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1517742706157",
+		"context": null,
+		"created": "2018-02-04T11:48:03.621Z",
+		"updated": "2018-02-04T11:51:03.714Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1517742706157"
+		},
+		"conditions": "@superheroDetail:b || #latestmovie",
+		"description": null,
+		"dialog_node": "node_4_1517744881894",
+		"previous_sibling": "node_5_1517745078168"
+	}, {
+		"type": "standard",
+		"title": "Intresting facts",
+		"output": {
+			"text": {
+				"values": ["In fact, most of Thor’s powers (controlling the weather, the God Blast) originate from the hammer. Depending on the needs of the writers, new powers are often added to the hammer’s repertoire, including teleportation and vampire slaying.", "Thor doesn’t actually have the power to fly. When Thor “flies”, all he’s doing is throwing his hammer with super strength and then holding onto it until he reaches his destination.", "Thor once worked with Hitler, helping the Nazis on their mission to kill Joseph Stalin. Why did Thor become a hitman in the employ of the murderous Nazi regime? Because Hitler asked nicely.", "Thor has a half-brother named Atum who every now and then becomes Demogorge, the god-eater who would kill Gods and then consume them and gain their powers.", "There’s a real course called The Science of Batman at the University of Victoria in Canada. The course description reads: “The extreme range of adaptability of the human body explored through the life of the Caped Crusader.”", "The Yellow Lanterns of the Sinestro Corps are powered by fear, so when a ring attempted to choose the best person on Earth when it comes to instilling fear, it chose Batman. Yup, criminals are that scared of Batman.", "Batman was originally a gun-toting vigilante who would not only shoot his enemies but throw them in vats of acid.", "Tony Stark used some strands of Thor’s hair, which we had… for reasons, to create a clone of Thor named Ragnarok.", "For the film, thirty hammers were made of various weights and materials. The main hammer was made from aluminum, but a “soft” version was also made for stunts.", "Superman also got to wield Captain America’s shield at the same time as the hammer.", "Superman was able to temporarily wield the hammer when Odin lifted the enchantment for a brief moment so he could deal a killing blow to the near-omnipotent Krona.", "A sliver of Mjolnir was actually wielded by Throg (formerly known as Puddlegulp), a football player who had been turned into a frog and assisted Thor during his time as an amphibian.", "The hammer of Thor can only be wielded by those who are worthy. However, in the comics, there are a long line of those who qualify, including an alien named Beta Ray Bill. During a fight, Bill managed to grab Mjolnir, which deemed him worthy.", "Loki once transformed Thor into a frog. An actual frog. Thor subsequently participated in a rats vs. frogs war in New York’s Central Park.", "According to Norse mythology, Thor and his fellow Gods are granted immortality by eating magic apples that only grow in Asgard. In keeping with the mythology, in the comics, Thor would return to Asgard periodically for some of those sweet apples, proving that apples aren’t all that bad.", "Thor became so popular that Marvel had the character’s full title trademarked as “The Mighty Thor.” Fortunately, “The Sexually Inadequate Thor” is still up for grabs.", "Thor made his first appearance in an August 1962 issue of “Journey into Mystery.” That same month, Spider-Man was also introduced to the world."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1517742706157",
+		"context": null,
+		"created": "2018-02-04T11:51:19.896Z",
+		"updated": "2018-02-04T12:35:40.797Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_6_1517745078169"
+		},
+		"conditions": "@superheroDetail:c || #Intrestingfacts",
+		"description": null,
+		"dialog_node": "node_5_1517745078168",
+		"previous_sibling": "node_8_1517745564578"
+	}, {
+		"type": "standard",
+		"title": "introduceThor",
+		"output": {
+			"text": {
+				"values": ["In Norse mythology, Thor is the hammer-wielding Æsir god of thunder, lightning, storms, oak trees, strength, hallowing, fertility, the protection of mankind and of the fortress of Asgard."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1517742706157",
+		"context": null,
+		"created": "2018-02-04T11:18:01.855Z",
+		"updated": "2018-02-04T11:19:02.258Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_14_1517743080164"
+		},
+		"conditions": "#introductionofbatman || @superheroDetail:a",
+		"description": null,
+		"dialog_node": "node_12_1517743080163",
+		"previous_sibling": "node_4_1517744881894"
+	}, {
+		"type": "standard",
+		"title": "Anyother SuperHero",
+		"output": {
+			"text": {
+				"values": ["Okay. Please select Any of the Following:"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1517742706157",
+		"context": null,
+		"created": "2018-02-04T11:59:26.496Z",
+		"updated": "2018-02-04T11:59:52.893Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#OtherSuperHero",
+		"description": null,
+		"dialog_node": "node_8_1517745564578",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anyother SuperHero - copy1",
+		"output": {
+			"text": {
+				"values": ["Okay. Please select Any of the Following:"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1517742671589",
+		"context": null,
+		"created": "2018-02-04T12:00:42.554Z",
+		"updated": "2018-02-04T12:00:54.372Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1517573198002"
+		},
+		"conditions": "#OtherSuperHero",
+		"description": null,
+		"dialog_node": "node_10_1517745640512",
+		"previous_sibling": "node_16_1517746211122"
+	}, {
+		"type": "standard",
+		"title": "Latest Movie - copy1 - copy1",
+		"output": {
+			"text": {
+				"values": ["SpiderMan: Home Coming.                                                                                           \nThe Amazing SpiderMan 2                                                                                                            \nThe Amazing SpiderMan                                                                                                             \nCaption America Civil War."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1517742671589",
+		"context": null,
+		"created": "2018-02-04T12:10:15.005Z",
+		"updated": "2018-02-04T12:13:37.073Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1517742671589"
+		},
+		"conditions": "@superheroDetail:b || #latestmovie",
+		"description": null,
+		"dialog_node": "node_16_1517746211122",
+		"previous_sibling": "node_17_1517746446326"
+	}, {
+		"type": "standard",
+		"title": "introduceSpiderman",
+		"output": {
+			"text": {
+				"values": ["Spider-Man is a fictional superhero appearing in American comic books published by Marvel Comics."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1517742671589",
+		"context": null,
+		"created": "2018-02-04T11:16:05.273Z",
+		"updated": "2018-02-04T11:17:11.197Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_6_1517742963435"
+		},
+		"conditions": "#introductionofbatman || @superheroDetail:a",
+		"description": null,
+		"dialog_node": "node_4_1517742963432",
+		"previous_sibling": "node_10_1517745640512"
+	}, {
+		"type": "standard",
+		"title": "Intresting facts - copy1",
+		"output": {
+			"text": {
+				"values": ["Spider-man was created by Stan Lee and Steve Ditko and debuted in Amazing Fantasy #15 in August of 1962.", "Martin Goodman, then head of Marvel, actually disproved of Spider-man’s concept due to the fact that people hates spiders", "Stan Lee actually originally was going to go with a fly or insect before finally picking a spider to base the character on.", "Spider-man is the first teenage superhero to not be a sidekick of an adult hero.", "Spider-man’s quips that he makes in battle is used for him to distract his villains as well as make it easier for him to relax and not get scared.", "Spider-man’s first solo title The Amazing Spider-man (Vol. 1) first appeared on shelves in March of 1963.", "Rhino was the first villain that Steve Ditko was not responsible for as he was made by Stan Lee and John Romita Sr.", "Superman actually doesn’t need to eat or breathe air as he can live off of solar energy alone.", "Spider-man’s webs dissolves after 1 hour and is strong enough to restrain the Hulk", "Spider-man is weak to the pesticide ethyl chloride.", "Spider-man can actually use both his spider-sense and reflexes to dodge automatic fire.", "Spider-man can bench press 10 tons and has a top speed of 200 mph.", "Gwen Stacy’s one of the few dead comic book characters to remain dead.", "Spider-man’s parents where spies and died in a plane crash before Peter went to live with his Aunt May and Uncle Ben", "In 2007, Marvel released a four issue miniseries called Spider-man: Reign where a possible future for Peter Parker reveals that Mary Jane dies from cancer caused by Peter’s radioactive sperm", "In the Ultimate Marvel Universe, Peter Parker took a bullet without hesitation and Captain America told him that he’ll be the greatest hero of them all.", "Unfortunately, the Ultimate Universe Peter Parker died.  Fortunately, that allowed Miles Morales to take the role of the Ultimate Spider-man.", "During a event where the Human Torch died, Spider-man became part of the Fantastic Four (at the time called the Future Foundation)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1517742671589",
+		"context": null,
+		"created": "2018-02-04T12:14:09.072Z",
+		"updated": "2018-02-04T12:34:56.833Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_18_1517746446327"
+		},
+		"conditions": "@superheroDetail:c || #Intrestingfacts",
+		"description": null,
+		"dialog_node": "node_17_1517746446326",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Applause",
+		"output": {
+			"text": {
+				"values": ["Thanks. :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-04T16:37:07.764Z",
+		"updated": "2018-02-04T16:37:29.805Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Applauds",
+		"description": null,
+		"dialog_node": "node_4_1517762225893",
+		"previous_sibling": "node_5_1517742264935"
+	}, {
+		"type": "standard",
+		"title": "Who are you?",
+		"output": {
+			"text": {
+				"values": ["I'm Superbot. The Superhero of Robbots.", "People Like to call me Superbot. The Superhero of Robbots."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-02T11:42:20.023Z",
+		"updated": "2018-02-02T11:49:42.027Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Who",
+		"description": null,
+		"dialog_node": "node_1_1517571738146",
+		"previous_sibling": "Anything else"
+	}, {
+		"type": "standard",
+		"title": "Welcome Greetings",
+		"output": {
+			"text": {
+				"values": ["Hello. Who are you? Do you need Any Help?", "Hii..! Do you need anyhelp?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-03T11:30:28.584Z",
+		"updated": "2018-02-03T11:32:50.674Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_7_1517655636133"
+		},
+		"conditions": "#InitialGreeting",
+		"description": null,
+		"dialog_node": "node_13_1517657426360",
+		"previous_sibling": "node_2_1517761931099"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-02T11:40:25.855Z",
+		"updated": "2018-02-02T11:54:31.356Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#none",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "How are you?",
+		"output": {
+			"text": {
+				"values": ["I'm Smarter than ever. Thanks to you..! and You?", "I was feeling dull untill your Message arrived.", "Thanks for asking. I'm feeling very good and You?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-02T11:44:13.994Z",
+		"updated": "2018-02-02T11:47:51.166Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#how_are_you",
+		"description": null,
+		"dialog_node": "node_2_1517571852178",
+		"previous_sibling": "node_1_1517571738146"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["What a co-incidence..! Even I feel the same.. :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-04T16:32:36.083Z",
+		"updated": "2018-02-04T16:34:47.756Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#love_you || #appreciation_you",
+		"description": null,
+		"dialog_node": "node_3_1517761954905",
+		"previous_sibling": "node_7_1517655636133"
+	}, {
+		"type": "standard",
+		"title": "Super Heros",
+		"output": {
+			"text": {
+				"values": ["1) Batman. 2)SuperMan 3)Spiderman 4)Deadpool 5)Thor"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-02T12:06:39.901Z",
+		"updated": "2018-02-04T10:54:22.901Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#superheros",
+		"description": null,
+		"dialog_node": "node_5_1517573198002",
+		"previous_sibling": "node_3_1517572281887"
+	}, {
+		"type": "standard",
+		"title": "Helping Definition.!",
+		"output": {
+			"text": {
+				"values": ["I know Superheros and I like to share Infromation. Would you like to know about them?", "I can tell you intresting thing about Superhero. Wanna Know?", "Are you a fan of SuperHeros. Wanna know about them?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-03T11:00:38.217Z",
+		"updated": "2018-02-13T10:17:24.870Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#what_do",
+		"description": null,
+		"dialog_node": "node_7_1517655636133",
+		"previous_sibling": "node_5_1517573198002"
+	}, {
+		"type": "standard",
+		"title": "Greetings Response positive.",
+		"output": {
+			"text": {
+				"values": ["Sound's Good. So How can I help You?", "Great.! Let's get back to work. How can I help you?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-02T11:51:23.875Z",
+		"updated": "2018-02-02T11:53:29.291Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#greeting_response",
+		"description": null,
+		"dialog_node": "node_3_1517572281887",
+		"previous_sibling": "node_2_1517571852178"
+	}, {
+		"type": "standard",
+		"title": "Ending Note",
+		"output": {
+			"text": {
+				"values": ["Good Bbye. Let the Power be with you. Hope to see you soon. :)", "Are you leaving. :( Comeback soon untill then Good Bye..! Take Care. :)", "Good Bye. Take Care. :)"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-04T11:04:26.582Z",
+		"updated": "2018-02-04T11:07:19.150Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#ending.",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_5_1517742264935",
+		"previous_sibling": "node_13_1517657426360"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Fine.! Anything else.?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-04T16:32:12.643Z",
+		"updated": "2018-02-04T16:33:11.590Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#acknowledgement",
+		"description": null,
+		"dialog_node": "node_2_1517761931099",
+		"previous_sibling": "node_3_1517761954905"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. I'm Superbot.", "Hey..! Superbot here."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-02T11:40:25.855Z",
+		"updated": "2018-02-13T10:15:57.782Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "6cf6c87a-49f5-4499-b481-650bfd6ff583",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

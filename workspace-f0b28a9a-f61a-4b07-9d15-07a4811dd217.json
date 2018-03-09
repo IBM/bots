@@ -1,1 +1,631 @@
-{"name":"PasswordChat","created":"2017-11-11T15:26:37.586Z","intents":[{"intent":"letmein","created":"2017-11-11T16:21:15.249Z","updated":"2017-11-11T16:21:39.377Z","examples":[{"text":"Open sesame","created":"2017-11-11T16:21:23.266Z","updated":"2017-11-11T16:21:23.266Z"},{"text":"I want in","created":"2017-11-11T16:21:39.377Z","updated":"2017-11-11T16:21:39.377Z"},{"text":"Let me in","created":"2017-11-11T16:21:17.416Z","updated":"2017-11-11T16:21:17.416Z"}],"description":null},{"intent":"CreateAccount","created":"2017-11-11T17:12:12.869Z","updated":"2017-11-11T17:13:22.869Z","examples":[{"text":"Add another account","created":"2017-11-11T17:12:58.543Z","updated":"2017-11-11T17:12:58.543Z"},{"text":"Populate account","created":"2017-11-11T17:13:10.800Z","updated":"2017-11-11T17:13:10.800Z"},{"text":"Create new account","created":"2017-11-11T17:12:52.838Z","updated":"2017-11-11T17:12:52.838Z"},{"text":"Add","created":"2017-11-11T17:13:22.869Z","updated":"2017-11-11T17:13:22.869Z"}],"description":null},{"intent":"Showpassword","created":"2017-11-11T16:47:01.663Z","updated":"2017-11-11T16:47:52.976Z","examples":[{"text":"Password","created":"2017-11-11T16:47:34.781Z","updated":"2017-11-11T16:47:34.781Z"},{"text":"Show password","created":"2017-11-11T16:47:26.729Z","updated":"2017-11-11T16:47:26.729Z"},{"text":"Show me secret","created":"2017-11-11T16:47:52.976Z","updated":"2017-11-11T16:47:52.976Z"},{"text":"Display password","created":"2017-11-11T16:47:30.549Z","updated":"2017-11-11T16:47:30.549Z"}],"description":null},{"intent":"Hello","created":"2017-11-11T15:39:28.295Z","updated":"2017-11-11T16:51:31.813Z","examples":[{"text":"Hello there","created":"2017-11-11T15:39:41.128Z","updated":"2017-11-11T15:39:41.128Z"},{"text":"Hi","created":"2017-11-11T15:39:49.720Z","updated":"2017-11-11T15:39:49.720Z"},{"text":"Hello","created":"2017-11-11T15:39:52.733Z","updated":"2017-11-11T15:39:52.733Z"},{"text":"Good morning","created":"2017-11-11T15:42:23.723Z","updated":"2017-11-11T15:42:23.723Z"},{"text":"Howdy","created":"2017-11-11T15:42:26.834Z","updated":"2017-11-11T15:42:26.834Z"}],"description":null},{"intent":"GoodBye","created":"2017-11-11T15:42:41.171Z","updated":"2017-11-11T15:43:02.441Z","examples":[{"text":"Bye","created":"2017-11-11T15:42:44.491Z","updated":"2017-11-11T15:42:44.491Z"},{"text":"See you later","created":"2017-11-11T15:43:02.441Z","updated":"2017-11-11T15:43:02.441Z"},{"text":"Goodbye","created":"2017-11-11T15:42:51.500Z","updated":"2017-11-11T15:42:51.500Z"},{"text":"Ciao","created":"2017-11-11T15:42:46.426Z","updated":"2017-11-11T15:42:46.426Z"}],"description":null},{"intent":"answer1","created":"2017-11-11T16:22:11.658Z","updated":"2017-11-11T16:26:01.020Z","examples":[{"text":"You mean the chap?","created":"2017-11-11T16:22:20.818Z","updated":"2017-11-11T16:26:01.020Z"}],"description":null},{"intent":"listaccounts","created":"2017-11-11T16:19:45.338Z","updated":"2017-11-11T16:43:24.807Z","examples":[{"text":"List all","created":"2017-11-11T16:43:00.954Z","updated":"2017-11-11T16:43:00.954Z"},{"text":"List all accounts","created":"2017-11-11T16:20:06.515Z","updated":"2017-11-11T16:20:06.515Z"},{"text":"Show all accounts","created":"2017-11-11T16:20:01.839Z","updated":"2017-11-11T16:20:01.839Z"},{"text":"display","created":"2017-11-11T16:43:24.807Z","updated":"2017-11-11T16:43:24.807Z"},{"text":"display all accounts","created":"2017-11-11T16:43:22.820Z","updated":"2017-11-11T16:43:22.820Z"},{"text":"All accouns","created":"2017-11-11T16:43:14.875Z","updated":"2017-11-11T16:43:14.875Z"},{"text":"List","created":"2017-11-11T16:43:08.501Z","updated":"2017-11-11T16:43:08.501Z"},{"text":"Show me accounts","created":"2017-11-11T16:43:04.870Z","updated":"2017-11-11T16:43:04.870Z"}],"description":null},{"intent":"Help","created":"2017-11-11T17:21:38.725Z","updated":"2017-11-11T17:22:11.730Z","examples":[{"text":"Help me","created":"2017-11-11T17:21:41.139Z","updated":"2017-11-11T17:21:41.139Z"},{"text":"information","created":"2017-11-11T17:21:49.878Z","updated":"2017-11-11T17:21:49.878Z"},{"text":"give me assistance","created":"2017-11-11T17:22:04.057Z","updated":"2017-11-11T17:22:04.057Z"},{"text":"commands","created":"2017-11-11T17:22:09.353Z","updated":"2017-11-11T17:22:09.353Z"},{"text":"aid","created":"2017-11-11T17:22:11.730Z","updated":"2017-11-11T17:22:11.730Z"}],"description":null},{"intent":"answer2","created":"2017-11-11T16:22:30.018Z","updated":"2017-11-11T16:22:38.115Z","examples":[{"text":"He's in London meeting a girl","created":"2017-11-11T16:22:38.115Z","updated":"2017-11-11T16:22:38.115Z"}],"description":null}],"updated":"2017-11-12T22:59:27.894Z","entities":[{"entity":"Accounts","values":[{"type":"patterns","value":"gmail","created":"2017-11-12T21:18:24.209Z","updated":"2017-11-12T21:18:24.209Z","metadata":null,"patterns":["gmail","Gmail","google","Google Mail"]},{"type":"patterns","value":"slack","created":"2017-11-12T21:18:24.209Z","updated":"2017-11-12T21:18:24.209Z","metadata":null,"patterns":["slack"]},{"type":"patterns","value":"facebook","created":"2017-11-12T21:18:24.209Z","updated":"2017-11-12T21:18:24.209Z","metadata":null,"patterns":["fb","facebook","Facebook"]},{"type":"patterns","value":"github","created":"2017-11-12T21:18:24.209Z","updated":"2017-11-12T21:18:24.209Z","metadata":null,"patterns":["github","git"]}],"created":"2017-11-11T16:49:25.490Z","updated":"2017-11-12T21:18:24.209Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Chat with a bot to store and retrieve your passwords. #mindsumochallenge","dialog_nodes":[{"title":"Get user name","output":{"text":{"values":["What's your password for $newAccountName?","Password please."]}},"parent":"node_17_1510421426563","context":{"allNewAccountNames":"<? $allNewAccountNames + ', ' + $newAccountName ?>","newAccountUserName":"<?input_text?>"},"created":"2017-11-11T17:42:28.950Z","updated":"2017-11-12T21:21:03.787Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_18_1510422147808","previous_sibling":null},{"title":"Start questioning","output":{"text":{"values":["Where is Bobby?"],"selection_policy":"sequential"}},"parent":"node_1_1510415250372","context":null,"created":"2017-11-11T16:24:24.334Z","updated":"2017-11-11T16:25:17.514Z","metadata":null,"next_step":null,"conditions":"#letmein","description":null,"dialog_node":"node_3_1510417463163","previous_sibling":null},{"title":"Follow up question","output":{"text":{"values":["Yes. Where is he?","Yes. What's he doing?"],"selection_policy":"sequential"}},"parent":"node_3_1510417463163","context":null,"created":"2017-11-11T16:25:23.733Z","updated":"2017-11-11T16:26:30.464Z","metadata":null,"next_step":null,"conditions":"#answer1","description":null,"dialog_node":"node_4_1510417522575","previous_sibling":null},{"title":"Command request","output":{"text":{"values":["What would you like me to do?","What shall we do?","Give me a command.","Your wish is my command"],"selection_policy":"sequential"}},"parent":"node_4_1510417522575","context":null,"created":"2017-11-11T16:26:41.514Z","updated":"2017-11-11T18:02:37.483Z","metadata":null,"next_step":null,"conditions":"#answer2","description":null,"dialog_node":"node_5_1510417600354","previous_sibling":null},{"title":"Get password","output":{"text":{"values":["Give your password","What's your password?"],"selection_policy":"sequential"}},"parent":"node_18_1510422147808","context":null,"created":"2017-11-11T17:48:37.143Z","updated":"2017-11-11T17:49:53.016Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510417600354"},"conditions":"anything_else","description":null,"dialog_node":"node_19_1510422515841","previous_sibling":null},{"title":"New account name","output":{"text":{"values":["What's your username?","Username please.","Give username please."]}},"parent":"node_16_1510421205991","context":{"newAccountName":"<?input_text?>"},"created":"2017-11-11T17:30:27.732Z","updated":"2017-11-11T17:57:06.345Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_17_1510421426563","previous_sibling":null},{"title":"Help","output":{"text":{"values":["Commands are: list accounts, create account, show <Account> password, good bye","Commands: list accounts, create account, show <Account> password, good bye"],"selection_policy":"sequential"}},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T17:21:23.299Z","updated":"2017-11-12T21:38:15.322Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510417600354"},"conditions":"#Help","description":null,"dialog_node":"node_15_1510420882102","previous_sibling":"node_6_1510417660167"},{"title":"Goodbye","output":{},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T17:20:32.444Z","updated":"2017-11-11T17:20:48.118Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510415280533"},"conditions":"#GoodBye","description":null,"dialog_node":"node_14_1510420831274","previous_sibling":"node_15_1510420882102"},{"title":"Not a valid command","output":{"text":{"values":["Not a valid command. Ask for help."],"selection_policy":"sequential"}},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T17:14:08.890Z","updated":"2017-11-11T17:18:58.010Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510417600354"},"conditions":"anything_else","description":null,"dialog_node":"node_12_1510420447674","previous_sibling":"node_14_1510420831274"},{"title":"Show Facebook password","output":{"text":{"values":["Your facebook password is \"facey123\""],"selection_policy":"sequential"}},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T17:01:18.180Z","updated":"2017-11-11T17:02:56.431Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510417600354"},"conditions":"#Showpassword && @Accounts:facebook","description":null,"dialog_node":"node_8_1510419676827","previous_sibling":"node_7_1510419120528"},{"title":"Show Gmail password","output":{"text":{"values":["Your gmail password is \"123abc\""],"selection_policy":"sequential"}},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T16:52:01.672Z","updated":"2017-11-11T17:29:44.550Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510417600354"},"conditions":"#Showpassword && @Accounts:gmail","description":null,"dialog_node":"node_7_1510419120528","previous_sibling":"node_16_1510421205991"},{"title":"List all accounts","output":{"text":{"values":["Your accounts are as follows: Gmail, Facebook, Slack, Github$allNewAccountNames","Here are your accounts: Gmail, Facebook, Slack, Github$allNewAccountNames","Gmail, Facebook, Slack, Github$allNewAccountNames"],"selection_policy":"sequential"}},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T16:27:41.314Z","updated":"2017-11-11T18:02:00.271Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510417600354"},"conditions":"#listaccounts","description":null,"dialog_node":"node_6_1510417660167","previous_sibling":"node_10_1510420008847"},{"title":"Show GitHub password","output":{"text":{"values":["Your github password is \"GitKrakin123321\""],"selection_policy":"sequential"}},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T17:06:50.097Z","updated":"2017-11-11T17:08:01.859Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510417600354"},"conditions":"#Showpassword && @Accounts:github","description":null,"dialog_node":"node_10_1510420008847","previous_sibling":"node_9_1510419854542"},{"title":"Show Slack password","output":{"text":{"values":["Your slack password is \"GiveMeSomeSlackMan!\""],"selection_policy":"sequential"}},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T17:04:15.772Z","updated":"2017-11-11T17:06:25.856Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510417600354"},"conditions":"#Showpassword && @Accounts:slack","description":null,"dialog_node":"node_9_1510419854542","previous_sibling":"node_8_1510419676827"},{"title":"Create account","output":{"text":{"values":["What is the name for this new account?","Name this new account.","New account name?","Account name?"],"selection_policy":"sequential"}},"parent":"node_5_1510417600354","context":null,"created":"2017-11-11T17:26:47.365Z","updated":"2017-11-11T17:30:13.426Z","metadata":null,"next_step":null,"conditions":"#CreateAccount","description":null,"dialog_node":"node_16_1510421205991","previous_sibling":null},{"title":null,"output":{"text":{"values":["Goodbye!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-11T15:48:01.700Z","updated":"2017-11-11T15:48:14.492Z","metadata":null,"next_step":null,"conditions":"#GoodBye","description":null,"dialog_node":"node_2_1510415280533","previous_sibling":"node_1_1510415250372"},{"title":"Anything else","output":{"text":{"values":["Hope you're having a good day..."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-11T15:44:14.489Z","updated":"2017-11-11T16:31:42.598Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_2_1510415280533"},{"title":"Hello","output":{"text":{"values":["What do you want?","What can I help you with?","What's up?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-11-11T15:47:31.682Z","updated":"2017-11-11T18:04:56.598Z","metadata":null,"next_step":null,"conditions":"#Hello","description":null,"dialog_node":"node_1_1510415250372","previous_sibling":"Welcome"},{"title":"Welcome","output":{"text":{"values":["Hello. Welcome!"],"selection_policy":"sequential"}},"parent":null,"context":{"allNewAccountNames":""},"created":"2017-11-11T15:44:14.489Z","updated":"2017-11-12T21:22:24.664Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"f0b28a9a-f61a-4b07-9d15-07a4811dd217","counterexamples":[{"text":"Where's bobby?","created":"2017-11-11T16:32:04.370Z","updated":"2017-11-11T16:32:04.370Z"}],"learning_opt_out":false}
+{
+	"name": "PasswordChat",
+	"created": "2017-11-11T15:26:37.586Z",
+	"intents": [{
+		"intent": "letmein",
+		"created": "2017-11-11T16:21:15.249Z",
+		"updated": "2017-11-11T16:21:39.377Z",
+		"examples": [{
+			"text": "Open sesame",
+			"created": "2017-11-11T16:21:23.266Z",
+			"updated": "2017-11-11T16:21:23.266Z"
+		}, {
+			"text": "I want in",
+			"created": "2017-11-11T16:21:39.377Z",
+			"updated": "2017-11-11T16:21:39.377Z"
+		}, {
+			"text": "Let me in",
+			"created": "2017-11-11T16:21:17.416Z",
+			"updated": "2017-11-11T16:21:17.416Z"
+		}],
+		"description": null
+	}, {
+		"intent": "CreateAccount",
+		"created": "2017-11-11T17:12:12.869Z",
+		"updated": "2017-11-11T17:13:22.869Z",
+		"examples": [{
+			"text": "Add another account",
+			"created": "2017-11-11T17:12:58.543Z",
+			"updated": "2017-11-11T17:12:58.543Z"
+		}, {
+			"text": "Populate account",
+			"created": "2017-11-11T17:13:10.800Z",
+			"updated": "2017-11-11T17:13:10.800Z"
+		}, {
+			"text": "Create new account",
+			"created": "2017-11-11T17:12:52.838Z",
+			"updated": "2017-11-11T17:12:52.838Z"
+		}, {
+			"text": "Add",
+			"created": "2017-11-11T17:13:22.869Z",
+			"updated": "2017-11-11T17:13:22.869Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Showpassword",
+		"created": "2017-11-11T16:47:01.663Z",
+		"updated": "2017-11-11T16:47:52.976Z",
+		"examples": [{
+			"text": "Password",
+			"created": "2017-11-11T16:47:34.781Z",
+			"updated": "2017-11-11T16:47:34.781Z"
+		}, {
+			"text": "Show password",
+			"created": "2017-11-11T16:47:26.729Z",
+			"updated": "2017-11-11T16:47:26.729Z"
+		}, {
+			"text": "Show me secret",
+			"created": "2017-11-11T16:47:52.976Z",
+			"updated": "2017-11-11T16:47:52.976Z"
+		}, {
+			"text": "Display password",
+			"created": "2017-11-11T16:47:30.549Z",
+			"updated": "2017-11-11T16:47:30.549Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Hello",
+		"created": "2017-11-11T15:39:28.295Z",
+		"updated": "2017-11-11T16:51:31.813Z",
+		"examples": [{
+			"text": "Hello there",
+			"created": "2017-11-11T15:39:41.128Z",
+			"updated": "2017-11-11T15:39:41.128Z"
+		}, {
+			"text": "Hi",
+			"created": "2017-11-11T15:39:49.720Z",
+			"updated": "2017-11-11T15:39:49.720Z"
+		}, {
+			"text": "Hello",
+			"created": "2017-11-11T15:39:52.733Z",
+			"updated": "2017-11-11T15:39:52.733Z"
+		}, {
+			"text": "Good morning",
+			"created": "2017-11-11T15:42:23.723Z",
+			"updated": "2017-11-11T15:42:23.723Z"
+		}, {
+			"text": "Howdy",
+			"created": "2017-11-11T15:42:26.834Z",
+			"updated": "2017-11-11T15:42:26.834Z"
+		}],
+		"description": null
+	}, {
+		"intent": "GoodBye",
+		"created": "2017-11-11T15:42:41.171Z",
+		"updated": "2017-11-11T15:43:02.441Z",
+		"examples": [{
+			"text": "Bye",
+			"created": "2017-11-11T15:42:44.491Z",
+			"updated": "2017-11-11T15:42:44.491Z"
+		}, {
+			"text": "See you later",
+			"created": "2017-11-11T15:43:02.441Z",
+			"updated": "2017-11-11T15:43:02.441Z"
+		}, {
+			"text": "Goodbye",
+			"created": "2017-11-11T15:42:51.500Z",
+			"updated": "2017-11-11T15:42:51.500Z"
+		}, {
+			"text": "Ciao",
+			"created": "2017-11-11T15:42:46.426Z",
+			"updated": "2017-11-11T15:42:46.426Z"
+		}],
+		"description": null
+	}, {
+		"intent": "answer1",
+		"created": "2017-11-11T16:22:11.658Z",
+		"updated": "2017-11-11T16:26:01.020Z",
+		"examples": [{
+			"text": "You mean the chap?",
+			"created": "2017-11-11T16:22:20.818Z",
+			"updated": "2017-11-11T16:26:01.020Z"
+		}],
+		"description": null
+	}, {
+		"intent": "listaccounts",
+		"created": "2017-11-11T16:19:45.338Z",
+		"updated": "2017-11-11T16:43:24.807Z",
+		"examples": [{
+			"text": "List all",
+			"created": "2017-11-11T16:43:00.954Z",
+			"updated": "2017-11-11T16:43:00.954Z"
+		}, {
+			"text": "List all accounts",
+			"created": "2017-11-11T16:20:06.515Z",
+			"updated": "2017-11-11T16:20:06.515Z"
+		}, {
+			"text": "Show all accounts",
+			"created": "2017-11-11T16:20:01.839Z",
+			"updated": "2017-11-11T16:20:01.839Z"
+		}, {
+			"text": "display",
+			"created": "2017-11-11T16:43:24.807Z",
+			"updated": "2017-11-11T16:43:24.807Z"
+		}, {
+			"text": "display all accounts",
+			"created": "2017-11-11T16:43:22.820Z",
+			"updated": "2017-11-11T16:43:22.820Z"
+		}, {
+			"text": "All accouns",
+			"created": "2017-11-11T16:43:14.875Z",
+			"updated": "2017-11-11T16:43:14.875Z"
+		}, {
+			"text": "List",
+			"created": "2017-11-11T16:43:08.501Z",
+			"updated": "2017-11-11T16:43:08.501Z"
+		}, {
+			"text": "Show me accounts",
+			"created": "2017-11-11T16:43:04.870Z",
+			"updated": "2017-11-11T16:43:04.870Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Help",
+		"created": "2017-11-11T17:21:38.725Z",
+		"updated": "2017-11-11T17:22:11.730Z",
+		"examples": [{
+			"text": "Help me",
+			"created": "2017-11-11T17:21:41.139Z",
+			"updated": "2017-11-11T17:21:41.139Z"
+		}, {
+			"text": "information",
+			"created": "2017-11-11T17:21:49.878Z",
+			"updated": "2017-11-11T17:21:49.878Z"
+		}, {
+			"text": "give me assistance",
+			"created": "2017-11-11T17:22:04.057Z",
+			"updated": "2017-11-11T17:22:04.057Z"
+		}, {
+			"text": "commands",
+			"created": "2017-11-11T17:22:09.353Z",
+			"updated": "2017-11-11T17:22:09.353Z"
+		}, {
+			"text": "aid",
+			"created": "2017-11-11T17:22:11.730Z",
+			"updated": "2017-11-11T17:22:11.730Z"
+		}],
+		"description": null
+	}, {
+		"intent": "answer2",
+		"created": "2017-11-11T16:22:30.018Z",
+		"updated": "2017-11-11T16:22:38.115Z",
+		"examples": [{
+			"text": "He's in London meeting a girl",
+			"created": "2017-11-11T16:22:38.115Z",
+			"updated": "2017-11-11T16:22:38.115Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-12T22:59:27.894Z",
+	"entities": [{
+		"entity": "Accounts",
+		"values": [{
+			"type": "patterns",
+			"value": "gmail",
+			"created": "2017-11-12T21:18:24.209Z",
+			"updated": "2017-11-12T21:18:24.209Z",
+			"metadata": null,
+			"patterns": ["gmail", "Gmail", "google", "Google Mail"]
+		}, {
+			"type": "patterns",
+			"value": "slack",
+			"created": "2017-11-12T21:18:24.209Z",
+			"updated": "2017-11-12T21:18:24.209Z",
+			"metadata": null,
+			"patterns": ["slack"]
+		}, {
+			"type": "patterns",
+			"value": "facebook",
+			"created": "2017-11-12T21:18:24.209Z",
+			"updated": "2017-11-12T21:18:24.209Z",
+			"metadata": null,
+			"patterns": ["fb", "facebook", "Facebook"]
+		}, {
+			"type": "patterns",
+			"value": "github",
+			"created": "2017-11-12T21:18:24.209Z",
+			"updated": "2017-11-12T21:18:24.209Z",
+			"metadata": null,
+			"patterns": ["github", "git"]
+		}],
+		"created": "2017-11-11T16:49:25.490Z",
+		"updated": "2017-11-12T21:18:24.209Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Chat with a bot to store and retrieve your passwords. #mindsumochallenge",
+	"dialog_nodes": [{
+		"title": "Get user name",
+		"output": {
+			"text": {
+				"values": ["What's your password for $newAccountName?", "Password please."]
+			}
+		},
+		"parent": "node_17_1510421426563",
+		"context": {
+			"allNewAccountNames": "<? $allNewAccountNames + ', ' + $newAccountName ?>",
+			"newAccountUserName": "<?input_text?>"
+		},
+		"created": "2017-11-11T17:42:28.950Z",
+		"updated": "2017-11-12T21:21:03.787Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_18_1510422147808",
+		"previous_sibling": null
+	}, {
+		"title": "Start questioning",
+		"output": {
+			"text": {
+				"values": ["Where is Bobby?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510415250372",
+		"context": null,
+		"created": "2017-11-11T16:24:24.334Z",
+		"updated": "2017-11-11T16:25:17.514Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#letmein",
+		"description": null,
+		"dialog_node": "node_3_1510417463163",
+		"previous_sibling": null
+	}, {
+		"title": "Follow up question",
+		"output": {
+			"text": {
+				"values": ["Yes. Where is he?", "Yes. What's he doing?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510417463163",
+		"context": null,
+		"created": "2017-11-11T16:25:23.733Z",
+		"updated": "2017-11-11T16:26:30.464Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#answer1",
+		"description": null,
+		"dialog_node": "node_4_1510417522575",
+		"previous_sibling": null
+	}, {
+		"title": "Command request",
+		"output": {
+			"text": {
+				"values": ["What would you like me to do?", "What shall we do?", "Give me a command.", "Your wish is my command"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1510417522575",
+		"context": null,
+		"created": "2017-11-11T16:26:41.514Z",
+		"updated": "2017-11-11T18:02:37.483Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#answer2",
+		"description": null,
+		"dialog_node": "node_5_1510417600354",
+		"previous_sibling": null
+	}, {
+		"title": "Get password",
+		"output": {
+			"text": {
+				"values": ["Give your password", "What's your password?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_18_1510422147808",
+		"context": null,
+		"created": "2017-11-11T17:48:37.143Z",
+		"updated": "2017-11-11T17:49:53.016Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510417600354"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_19_1510422515841",
+		"previous_sibling": null
+	}, {
+		"title": "New account name",
+		"output": {
+			"text": {
+				"values": ["What's your username?", "Username please.", "Give username please."]
+			}
+		},
+		"parent": "node_16_1510421205991",
+		"context": {
+			"newAccountName": "<?input_text?>"
+		},
+		"created": "2017-11-11T17:30:27.732Z",
+		"updated": "2017-11-11T17:57:06.345Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_17_1510421426563",
+		"previous_sibling": null
+	}, {
+		"title": "Help",
+		"output": {
+			"text": {
+				"values": ["Commands are: list accounts, create account, show <Account> password, good bye", "Commands: list accounts, create account, show <Account> password, good bye"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T17:21:23.299Z",
+		"updated": "2017-11-12T21:38:15.322Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510417600354"
+		},
+		"conditions": "#Help",
+		"description": null,
+		"dialog_node": "node_15_1510420882102",
+		"previous_sibling": "node_6_1510417660167"
+	}, {
+		"title": "Goodbye",
+		"output": {},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T17:20:32.444Z",
+		"updated": "2017-11-11T17:20:48.118Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510415280533"
+		},
+		"conditions": "#GoodBye",
+		"description": null,
+		"dialog_node": "node_14_1510420831274",
+		"previous_sibling": "node_15_1510420882102"
+	}, {
+		"title": "Not a valid command",
+		"output": {
+			"text": {
+				"values": ["Not a valid command. Ask for help."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T17:14:08.890Z",
+		"updated": "2017-11-11T17:18:58.010Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510417600354"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_12_1510420447674",
+		"previous_sibling": "node_14_1510420831274"
+	}, {
+		"title": "Show Facebook password",
+		"output": {
+			"text": {
+				"values": ["Your facebook password is \"facey123\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T17:01:18.180Z",
+		"updated": "2017-11-11T17:02:56.431Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510417600354"
+		},
+		"conditions": "#Showpassword && @Accounts:facebook",
+		"description": null,
+		"dialog_node": "node_8_1510419676827",
+		"previous_sibling": "node_7_1510419120528"
+	}, {
+		"title": "Show Gmail password",
+		"output": {
+			"text": {
+				"values": ["Your gmail password is \"123abc\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T16:52:01.672Z",
+		"updated": "2017-11-11T17:29:44.550Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510417600354"
+		},
+		"conditions": "#Showpassword && @Accounts:gmail",
+		"description": null,
+		"dialog_node": "node_7_1510419120528",
+		"previous_sibling": "node_16_1510421205991"
+	}, {
+		"title": "List all accounts",
+		"output": {
+			"text": {
+				"values": ["Your accounts are as follows: Gmail, Facebook, Slack, Github$allNewAccountNames", "Here are your accounts: Gmail, Facebook, Slack, Github$allNewAccountNames", "Gmail, Facebook, Slack, Github$allNewAccountNames"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T16:27:41.314Z",
+		"updated": "2017-11-11T18:02:00.271Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510417600354"
+		},
+		"conditions": "#listaccounts",
+		"description": null,
+		"dialog_node": "node_6_1510417660167",
+		"previous_sibling": "node_10_1510420008847"
+	}, {
+		"title": "Show GitHub password",
+		"output": {
+			"text": {
+				"values": ["Your github password is \"GitKrakin123321\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T17:06:50.097Z",
+		"updated": "2017-11-11T17:08:01.859Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510417600354"
+		},
+		"conditions": "#Showpassword && @Accounts:github",
+		"description": null,
+		"dialog_node": "node_10_1510420008847",
+		"previous_sibling": "node_9_1510419854542"
+	}, {
+		"title": "Show Slack password",
+		"output": {
+			"text": {
+				"values": ["Your slack password is \"GiveMeSomeSlackMan!\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T17:04:15.772Z",
+		"updated": "2017-11-11T17:06:25.856Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510417600354"
+		},
+		"conditions": "#Showpassword && @Accounts:slack",
+		"description": null,
+		"dialog_node": "node_9_1510419854542",
+		"previous_sibling": "node_8_1510419676827"
+	}, {
+		"title": "Create account",
+		"output": {
+			"text": {
+				"values": ["What is the name for this new account?", "Name this new account.", "New account name?", "Account name?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510417600354",
+		"context": null,
+		"created": "2017-11-11T17:26:47.365Z",
+		"updated": "2017-11-11T17:30:13.426Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#CreateAccount",
+		"description": null,
+		"dialog_node": "node_16_1510421205991",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Goodbye!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-11T15:48:01.700Z",
+		"updated": "2017-11-11T15:48:14.492Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#GoodBye",
+		"description": null,
+		"dialog_node": "node_2_1510415280533",
+		"previous_sibling": "node_1_1510415250372"
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["Hope you're having a good day..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-11T15:44:14.489Z",
+		"updated": "2017-11-11T16:31:42.598Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_2_1510415280533"
+	}, {
+		"title": "Hello",
+		"output": {
+			"text": {
+				"values": ["What do you want?", "What can I help you with?", "What's up?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-11T15:47:31.682Z",
+		"updated": "2017-11-11T18:04:56.598Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Hello",
+		"description": null,
+		"dialog_node": "node_1_1510415250372",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. Welcome!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"allNewAccountNames": ""
+		},
+		"created": "2017-11-11T15:44:14.489Z",
+		"updated": "2017-11-12T21:22:24.664Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "f0b28a9a-f61a-4b07-9d15-07a4811dd217",
+	"counterexamples": [{
+		"text": "Where's bobby?",
+		"created": "2017-11-11T16:32:04.370Z",
+		"updated": "2017-11-11T16:32:04.370Z"
+	}],
+	"learning_opt_out": false
+}

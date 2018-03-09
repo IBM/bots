@@ -1,1 +1,615 @@
-{"name":"Book Recommender Bot","created":"2017-11-20T21:14:01.088Z","intents":[{"intent":"purchase","created":"2017-11-20T22:27:18.135Z","updated":"2017-11-20T22:27:24.148Z","examples":[{"text":"buy","created":"2017-11-20T22:27:20.932Z","updated":"2017-11-20T22:27:20.932Z"},{"text":"purchase","created":"2017-11-20T22:27:24.148Z","updated":"2017-11-20T22:27:24.148Z"}],"description":null},{"intent":"greeting","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z","examples":[{"text":"good day","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"what's up","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"whats up","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"hi how are u","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"hi there","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"hey there","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"How are you doing","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"what r u doing","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"how are you","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"how are u","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"hru","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"yo","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"hello","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"hey","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"sup","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"hi","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"heya","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"}],"description":null},{"intent":"request","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:40:58.610Z","examples":[{"text":"option","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"options","created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z"},{"text":"list","created":"2017-11-20T22:55:42.349Z","updated":"2017-11-20T22:55:42.349Z"},{"text":"what are the latest fiction novels","created":"2017-11-27T23:16:24.940Z","updated":"2017-11-27T23:17:20.954Z"},{"text":"give me the list of recent Mystery & Thriller novels","created":"2017-11-27T23:17:26.688Z","updated":"2017-11-27T23:17:26.688Z"},{"text":"show","created":"2017-11-27T23:17:32.840Z","updated":"2017-11-27T23:17:32.840Z"},{"text":"get","created":"2017-11-27T23:17:34.972Z","updated":"2017-11-27T23:17:34.972Z"},{"text":"talk","created":"2017-11-27T23:37:29.518Z","updated":"2017-11-27T23:37:29.518Z"},{"text":"speak","created":"2017-11-27T23:37:32.117Z","updated":"2017-11-27T23:37:32.117Z"},{"text":"chat","created":"2017-11-27T23:37:34.112Z","updated":"2017-11-27T23:37:34.112Z"},{"text":"complain","created":"2017-11-27T23:37:41.873Z","updated":"2017-11-27T23:37:41.873Z"},{"text":"recommend","created":"2017-11-27T23:40:55.213Z","updated":"2017-11-27T23:40:55.213Z"},{"text":"suggest","created":"2017-11-27T23:40:58.610Z","updated":"2017-11-27T23:40:58.610Z"}],"description":null}],"updated":"2017-11-27T23:44:02.531Z","entities":[{"entity":"customer","values":[{"type":"synonyms","value":"customer","created":"2017-11-20T21:22:57.151Z","updated":"2017-11-20T21:22:57.151Z","metadata":null,"synonyms":["customer care","support","agent","representative"]}],"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:22:57.151Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"payment","values":[{"type":"synonyms","value":"payment","created":"2017-11-20T21:23:12.735Z","updated":"2017-11-27T23:25:11.263Z","metadata":null,"synonyms":["billing","pricing","price","cost"]}],"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:25:11.263Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"novels","values":[{"type":"synonyms","value":"novel","created":"2017-11-27T23:22:21.248Z","updated":"2017-11-27T23:22:21.248Z","metadata":null,"synonyms":["books","book"]},{"type":"synonyms","value":"fantasy","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"romance","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"science","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":["Science Fiction"]},{"type":"synonyms","value":"humor","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"horror","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"nonfiction","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"poetry","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"mystery","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":["mystery & thriller","mystery and thriller","thriller"]},{"type":"synonyms","value":"fiction","created":"2017-11-27T23:21:54.838Z","updated":"2017-11-27T23:21:54.838Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"autobiography","created":"2017-11-27T23:28:06.675Z","updated":"2017-11-27T23:28:06.675Z","metadata":null,"synonyms":["Memoir & Autobiography","Memoir","Memoir and Autobiography"]}],"created":"2017-11-27T23:18:31.401Z","updated":"2017-11-27T23:28:06.675Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"A sample book recommender bot that suggests the list of latest fiction, nonfiction, thriller novels etc.","dialog_nodes":[{"type":"slot","title":null,"output":{},"parent":"node_2_1510952795102","context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:30:24.232Z","metadata":null,"variable":"$customer","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_23_1510953344164","previous_sibling":"slot_8_1510952956381"},{"type":"slot","title":null,"output":null,"parent":"node_2_1510952795102","context":null,"created":"2017-11-27T23:35:04.757Z","updated":"2017-11-27T23:36:15.576Z","metadata":null,"variable":"$novels","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_11_1511825704354","previous_sibling":"slot_23_1510953344164"},{"type":"slot","title":null,"output":{},"parent":"node_2_1510952795102","context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:30:08.204Z","metadata":null,"variable":"$payment","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_8_1510952956381","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_3_1511825357657","context":null,"created":"2017-11-27T23:29:18.228Z","updated":"2017-11-27T23:29:18.228Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_5_1511825357657","previous_sibling":"handler_4_1511825357657"},{"type":"event_handler","title":null,"output":null,"parent":"slot_3_1511825357657","context":null,"created":"2017-11-27T23:29:18.035Z","updated":"2017-11-27T23:29:18.035Z","metadata":null,"next_step":null,"conditions":null,"event_name":"input","description":null,"dialog_node":"handler_4_1511825357657","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["For latest list of $novels novels visit: https://bookrecommender.com/novels/$novels"],"selection_policy":"sequential"}},"parent":"slot_11_1511825704354","context":null,"created":"2017-11-27T23:36:16.200Z","updated":"2017-11-27T23:36:16.200Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_14_1511825715865","previous_sibling":"handler_12_1511825704354"},{"type":"event_handler","title":null,"output":null,"parent":"slot_11_1511825704354","context":{"novels":"@novels"},"created":"2017-11-27T23:35:05.146Z","updated":"2017-11-27T23:36:15.976Z","metadata":null,"next_step":null,"conditions":"@novels","event_name":"input","description":null,"dialog_node":"handler_12_1511825704354","previous_sibling":"handler_13_1511825704354"},{"type":"event_handler","title":null,"output":{},"parent":"slot_11_1511825704354","context":null,"created":"2017-11-27T23:35:05.352Z","updated":"2017-11-27T23:36:15.778Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_13_1511825704354","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_8_1510952956381","context":{"payment":"@payment"},"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:30:08.626Z","metadata":null,"next_step":null,"conditions":"@payment","event_name":"input","description":null,"dialog_node":"handler_9_1510952956381","previous_sibling":"handler_10_1510952956381"},{"type":"event_handler","title":null,"output":{"text":{"values":["We accept all major credit and debit cards. If you are facing issues with payment please contact customer care.",""],"selection_policy":"sequential"}},"parent":"slot_8_1510952956381","context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:30:08.870Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_11_1510952971375","previous_sibling":"handler_9_1510952956381"},{"type":"event_handler","title":null,"output":{},"parent":"slot_8_1510952956381","context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:30:08.426Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_10_1510952956381","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_30_1511216971910","context":null,"created":"2017-11-27T23:29:17.801Z","updated":"2017-11-27T23:29:17.801Z","metadata":null,"variable":" ","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_3_1511825357657","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_23_1510953344164","context":{"customer":"@customer"},"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:30:24.614Z","metadata":null,"next_step":null,"conditions":"@customer","event_name":"input","description":null,"dialog_node":"handler_24_1510953344164","previous_sibling":"handler_25_1510953344164"},{"type":"event_handler","title":null,"output":{"text":{"values":["For the fastest response, reach out to us via email (support@ bookrecommender.com) or via chat."],"selection_policy":"sequential"}},"parent":"slot_23_1510953344164","context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:30:24.820Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_26_1510953365330","previous_sibling":"handler_24_1510953344164"},{"type":"event_handler","title":null,"output":{},"parent":"slot_23_1510953344164","context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:30:24.420Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_25_1510953344164","previous_sibling":null},{"type":"frame","title":"Buy","output":{"text":{"values":["Please make the payment using you credit or debit card."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-20T22:29:32.095Z","updated":"2017-11-27T23:29:40.027Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"#purchase","description":null,"dialog_node":"node_30_1511216971910","previous_sibling":"node_2_1510952795102"},{"type":"frame","title":"Request","output":{},"parent":null,"context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z","metadata":null,"next_step":null,"conditions":"#request","description":null,"dialog_node":"node_2_1510952795102","previous_sibling":"node_1_1510952660186"},{"title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-20T21:14:01.088Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_30_1511216971910"},{"title":"Greeting","output":{"text":{"values":["Hi, I’m your book recommender bot. You can ask me to show the latest list of fiction, thriller, nonfiction, autobiography novels etc, what are the options for payment, speak with customer care etc."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:28:41.922Z","metadata":null,"next_step":null,"conditions":"#greeting","description":null,"dialog_node":"node_1_1510952660186","previous_sibling":"Welcome"},{"title":"Welcome","output":{"text":{"values":["Hello. I’m your Book Recommender Bot. How can I help you?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-20T21:14:01.088Z","updated":"2017-11-27T23:26:10.431Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"da47123e-dad2-437e-9f94-26f0271a9d36","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Book Recommender Bot",
+	"created": "2017-11-20T21:14:01.088Z",
+	"intents": [{
+		"intent": "purchase",
+		"created": "2017-11-20T22:27:18.135Z",
+		"updated": "2017-11-20T22:27:24.148Z",
+		"examples": [{
+			"text": "buy",
+			"created": "2017-11-20T22:27:20.932Z",
+			"updated": "2017-11-20T22:27:20.932Z"
+		}, {
+			"text": "purchase",
+			"created": "2017-11-20T22:27:24.148Z",
+			"updated": "2017-11-20T22:27:24.148Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greeting",
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-20T21:14:01.088Z",
+		"examples": [{
+			"text": "good day",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "what's up",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "whats up",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "hi how are u",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "hi there",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "hey there",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "How are you doing",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "what r u doing",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "how are you",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "how are u",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "hru",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "yo",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "hello",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "hey",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "sup",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "hi",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "heya",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}],
+		"description": null
+	}, {
+		"intent": "request",
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:40:58.610Z",
+		"examples": [{
+			"text": "option",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "options",
+			"created": "2017-11-20T21:14:01.088Z",
+			"updated": "2017-11-20T21:14:01.088Z"
+		}, {
+			"text": "list",
+			"created": "2017-11-20T22:55:42.349Z",
+			"updated": "2017-11-20T22:55:42.349Z"
+		}, {
+			"text": "what are the latest fiction novels",
+			"created": "2017-11-27T23:16:24.940Z",
+			"updated": "2017-11-27T23:17:20.954Z"
+		}, {
+			"text": "give me the list of recent Mystery & Thriller novels",
+			"created": "2017-11-27T23:17:26.688Z",
+			"updated": "2017-11-27T23:17:26.688Z"
+		}, {
+			"text": "show",
+			"created": "2017-11-27T23:17:32.840Z",
+			"updated": "2017-11-27T23:17:32.840Z"
+		}, {
+			"text": "get",
+			"created": "2017-11-27T23:17:34.972Z",
+			"updated": "2017-11-27T23:17:34.972Z"
+		}, {
+			"text": "talk",
+			"created": "2017-11-27T23:37:29.518Z",
+			"updated": "2017-11-27T23:37:29.518Z"
+		}, {
+			"text": "speak",
+			"created": "2017-11-27T23:37:32.117Z",
+			"updated": "2017-11-27T23:37:32.117Z"
+		}, {
+			"text": "chat",
+			"created": "2017-11-27T23:37:34.112Z",
+			"updated": "2017-11-27T23:37:34.112Z"
+		}, {
+			"text": "complain",
+			"created": "2017-11-27T23:37:41.873Z",
+			"updated": "2017-11-27T23:37:41.873Z"
+		}, {
+			"text": "recommend",
+			"created": "2017-11-27T23:40:55.213Z",
+			"updated": "2017-11-27T23:40:55.213Z"
+		}, {
+			"text": "suggest",
+			"created": "2017-11-27T23:40:58.610Z",
+			"updated": "2017-11-27T23:40:58.610Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-27T23:44:02.531Z",
+	"entities": [{
+		"entity": "customer",
+		"values": [{
+			"type": "synonyms",
+			"value": "customer",
+			"created": "2017-11-20T21:22:57.151Z",
+			"updated": "2017-11-20T21:22:57.151Z",
+			"metadata": null,
+			"synonyms": ["customer care", "support", "agent", "representative"]
+		}],
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-20T21:22:57.151Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "payment",
+		"values": [{
+			"type": "synonyms",
+			"value": "payment",
+			"created": "2017-11-20T21:23:12.735Z",
+			"updated": "2017-11-27T23:25:11.263Z",
+			"metadata": null,
+			"synonyms": ["billing", "pricing", "price", "cost"]
+		}],
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:25:11.263Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "novels",
+		"values": [{
+			"type": "synonyms",
+			"value": "novel",
+			"created": "2017-11-27T23:22:21.248Z",
+			"updated": "2017-11-27T23:22:21.248Z",
+			"metadata": null,
+			"synonyms": ["books", "book"]
+		}, {
+			"type": "synonyms",
+			"value": "fantasy",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "romance",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "science",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": ["Science Fiction"]
+		}, {
+			"type": "synonyms",
+			"value": "humor",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "horror",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "nonfiction",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "poetry",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "mystery",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": ["mystery & thriller", "mystery and thriller", "thriller"]
+		}, {
+			"type": "synonyms",
+			"value": "fiction",
+			"created": "2017-11-27T23:21:54.838Z",
+			"updated": "2017-11-27T23:21:54.838Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "autobiography",
+			"created": "2017-11-27T23:28:06.675Z",
+			"updated": "2017-11-27T23:28:06.675Z",
+			"metadata": null,
+			"synonyms": ["Memoir & Autobiography", "Memoir", "Memoir and Autobiography"]
+		}],
+		"created": "2017-11-27T23:18:31.401Z",
+		"updated": "2017-11-27T23:28:06.675Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "A sample book recommender bot that suggests the list of latest fiction, nonfiction, thriller novels etc.",
+	"dialog_nodes": [{
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_2_1510952795102",
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:30:24.232Z",
+		"metadata": null,
+		"variable": "$customer",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_23_1510953344164",
+		"previous_sibling": "slot_8_1510952956381"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_2_1510952795102",
+		"context": null,
+		"created": "2017-11-27T23:35:04.757Z",
+		"updated": "2017-11-27T23:36:15.576Z",
+		"metadata": null,
+		"variable": "$novels",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_11_1511825704354",
+		"previous_sibling": "slot_23_1510953344164"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_2_1510952795102",
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:30:08.204Z",
+		"metadata": null,
+		"variable": "$payment",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_8_1510952956381",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_3_1511825357657",
+		"context": null,
+		"created": "2017-11-27T23:29:18.228Z",
+		"updated": "2017-11-27T23:29:18.228Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_5_1511825357657",
+		"previous_sibling": "handler_4_1511825357657"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_3_1511825357657",
+		"context": null,
+		"created": "2017-11-27T23:29:18.035Z",
+		"updated": "2017-11-27T23:29:18.035Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_4_1511825357657",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["For latest list of $novels novels visit: https://bookrecommender.com/novels/$novels"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_11_1511825704354",
+		"context": null,
+		"created": "2017-11-27T23:36:16.200Z",
+		"updated": "2017-11-27T23:36:16.200Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_14_1511825715865",
+		"previous_sibling": "handler_12_1511825704354"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_11_1511825704354",
+		"context": {
+			"novels": "@novels"
+		},
+		"created": "2017-11-27T23:35:05.146Z",
+		"updated": "2017-11-27T23:36:15.976Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@novels",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_12_1511825704354",
+		"previous_sibling": "handler_13_1511825704354"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_11_1511825704354",
+		"context": null,
+		"created": "2017-11-27T23:35:05.352Z",
+		"updated": "2017-11-27T23:36:15.778Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_13_1511825704354",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_8_1510952956381",
+		"context": {
+			"payment": "@payment"
+		},
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:30:08.626Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@payment",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_9_1510952956381",
+		"previous_sibling": "handler_10_1510952956381"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We accept all major credit and debit cards. If you are facing issues with payment please contact customer care.", ""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_8_1510952956381",
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:30:08.870Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_11_1510952971375",
+		"previous_sibling": "handler_9_1510952956381"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_8_1510952956381",
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:30:08.426Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_10_1510952956381",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_30_1511216971910",
+		"context": null,
+		"created": "2017-11-27T23:29:17.801Z",
+		"updated": "2017-11-27T23:29:17.801Z",
+		"metadata": null,
+		"variable": " ",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_3_1511825357657",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_23_1510953344164",
+		"context": {
+			"customer": "@customer"
+		},
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:30:24.614Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@customer",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_24_1510953344164",
+		"previous_sibling": "handler_25_1510953344164"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["For the fastest response, reach out to us via email (support@ bookrecommender.com) or via chat."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_23_1510953344164",
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:30:24.820Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_26_1510953365330",
+		"previous_sibling": "handler_24_1510953344164"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_23_1510953344164",
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:30:24.420Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_25_1510953344164",
+		"previous_sibling": null
+	}, {
+		"type": "frame",
+		"title": "Buy",
+		"output": {
+			"text": {
+				"values": ["Please make the payment using you credit or debit card."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-20T22:29:32.095Z",
+		"updated": "2017-11-27T23:29:40.027Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#purchase",
+		"description": null,
+		"dialog_node": "node_30_1511216971910",
+		"previous_sibling": "node_2_1510952795102"
+	}, {
+		"type": "frame",
+		"title": "Request",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-20T21:14:01.088Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#request",
+		"description": null,
+		"dialog_node": "node_2_1510952795102",
+		"previous_sibling": "node_1_1510952660186"
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-20T21:14:01.088Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_30_1511216971910"
+	}, {
+		"title": "Greeting",
+		"output": {
+			"text": {
+				"values": ["Hi, I’m your book recommender bot. You can ask me to show the latest list of fiction, thriller, nonfiction, autobiography novels etc, what are the options for payment, speak with customer care etc."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:28:41.922Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greeting",
+		"description": null,
+		"dialog_node": "node_1_1510952660186",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. I’m your Book Recommender Bot. How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-20T21:14:01.088Z",
+		"updated": "2017-11-27T23:26:10.431Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "da47123e-dad2-437e-9f94-26f0271a9d36",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

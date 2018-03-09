@@ -1,1 +1,3247 @@
-{"name":"Amanda.EN","created":"2017-10-17T16:13:01.765Z","intents":[{"intent":"not_accept","created":"2017-10-17T16:14:24.994Z","updated":"2017-10-17T16:14:24.994Z","examples":[{"text":"disgusting","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"disgust","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"cruel","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"awful","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not tasty","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"sad","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not nice","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"uncool","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not cool","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"dont give a damn","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I dont give a damn","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"don't give a amn","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I don't give a damn","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not worth it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"worthless","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"fatally","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"fatal","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"ble","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I dont know","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I don't know","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"dont know","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"don't know","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not agreed","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"dont agree","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"don't agree","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not right","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"wrong","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"bad","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I dont have","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I don't have","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"dont have","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"don't have","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"no idea","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"no way","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not really","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"nah","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"nope","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"no","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not here","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not now","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"}],"description":null},{"intent":"abuse","created":"2017-10-17T16:14:24.994Z","updated":"2017-10-17T16:14:24.994Z","examples":[{"text":"fuck you","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"go to hell","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"no more","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"stop talking","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"ending","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"never again","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"finish","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"end","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"turn off","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"don't write to me","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"bullshit","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"don't talk","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"don't write","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"stop writing to me","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"unsubscribe","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"stop writing","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"leave me alone","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"fuck off","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"quit","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"stop","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"get lost","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I resign","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I want to resign","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"}],"description":null},{"intent":"maybe","created":"2017-10-17T16:14:24.994Z","updated":"2017-10-17T16:14:24.994Z","examples":[{"text":"may be","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"could be","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"might be","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"perhaps","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"not sure","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"depends","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"shrug","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"maybe","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"}],"description":null},{"intent":"meow","created":"2017-10-17T16:14:24.994Z","updated":"2017-10-17T16:14:24.994Z","examples":[{"text":"meowmeow","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"meow meow","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"meow","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"}],"description":null},{"intent":"greetings","created":"2017-10-17T16:14:24.994Z","updated":"2017-10-17T16:14:24.994Z","examples":[{"text":"hi show","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hi look","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hi find","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hi talk","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hi send","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hi you","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hi yes","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"what ya doin","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"what ya doing","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Amanda?","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"amanda","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"welcome","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"good day","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"good afternoon","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"good morning","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"greetings","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"helo","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hello","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hi there","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hey there","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hey you","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hiya","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"heya","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hey","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"hi","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"whats up","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"what's up","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"start","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Get_Started","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"}],"description":null},{"intent":"time","created":"2017-10-17T16:14:24.994Z","updated":"2017-10-17T16:14:24.994Z","examples":[{"text":"need to talk","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"wanna talk","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I want to talk","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"say more","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"tell me more","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"more","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"lets talk","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"let's talk","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"talk later","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"leting you know","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"let you know","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"letting you know","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"right now","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill have time","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll have time","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I have time","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"}],"description":null},{"intent":"accept","created":"2017-10-17T16:14:24.994Z","updated":"2017-10-17T16:14:24.994Z","examples":[{"text":"positive","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"genial","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"very well","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"well","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"genius","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"genious","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"proper","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"nice of you","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"nice","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"give me tips","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"gimme tips","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"got tips","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"superb","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"super","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"yo","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"(y)","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"waitin","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"waiting","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill wait","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll wait","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"nor do I","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"delicious","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"yummy","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Neither do I","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Lets look","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Lets look for it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Let's look","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Let's look for it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill look for","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll look for","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill look","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"send it to me","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"send me","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"show me","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"show","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"<3","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"love it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I love it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"like it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I wait","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"yum","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Me neither","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I know","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll look","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"send","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"give me","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"give","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"please do it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"please do","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"pretty please","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"please","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I like it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"agreed","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"agree","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I agree","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"always","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"one moment","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"in a moment","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"suggest","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill do it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll do it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I will do it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I can do","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"lets go","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"let's go","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"this I can do","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"good suggestion","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"great idea","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"good sugestion","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"lets start","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"let's start","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I can do it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill make sure","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll make sure","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"si","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"ya","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"truth","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"TRUE","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll try","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill try","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill consider","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill consider it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll think about it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill think about it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll consider","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll consider it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"course","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"of course","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"go on","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"come on","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"lets do it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"do it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"let's do it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"let it be","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I want to","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I want it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"you are right","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"youre right","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"your right","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"right","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"You're right","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I have","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"kk","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"k","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I want","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Im for it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Im in","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Im ok with it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Im ok","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'm ok","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'm for it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'm in","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'm ok with it","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"good idea","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"good","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill manage","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I do","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I will","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I could","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I can","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll manage","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"Ill have time","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"now","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I'll have time","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"I have time","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"pleasure","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"my pleasure","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"with pleasure","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"sure do","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"sure","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"oki","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"okey","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"o.k","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"ok","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"yup","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"yay","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"yeah","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"yes","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"}],"description":null},{"intent":"goodbyes","created":"2017-10-17T16:14:24.994Z","updated":"2017-10-17T16:14:24.994Z","examples":[{"text":"farewell","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"goodbye","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"lets talk later","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"let's talk later","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"talk later","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"l8r","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"see ya","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"goodnight","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"good noght","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"night night","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"nightnight","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"night","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"later","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"see you later","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"cul8r","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"c u","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"cu","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"ciao","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"},{"text":"bye","created":"2017-10-17T16:14:25.009Z","updated":"2017-10-17T16:14:25.009Z"}],"description":null}],"updated":"2017-10-17T16:42:12.307Z","entities":[{"entity":"carbs","values":[{"type":"synonyms","value":"fiber","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["fiber"]},{"type":"synonyms","value":"starch","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["starch"]},{"type":"synonyms","value":"glycogen","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["glycogen"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null},{"entity":"language","values":[{"type":"synonyms","value":"polish","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["polski","po polsku"]},{"type":"synonyms","value":"english","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["english"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null},{"entity":"idea","values":[{"type":"synonyms","value":"idea","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["idea"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null},{"entity":"sports_drink","values":[{"type":"synonyms","value":"isotonic","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["isotonic","isotonic drink","izotonik","oshee","4move","powerade","gatorade"]},{"type":"synonyms","value":"energy","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["energy","energy drink","red bull","tiger"]},{"type":"synonyms","value":"protein","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["protein","protein drink","protein shake"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null},{"entity":"holiday","values":[{"type":"synonyms","value":"holiday","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["holiday","travel","vacation"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null},{"entity":"sweetening","values":[{"type":"synonyms","value":"sugar","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["Agave nectar","Barbados sugar","Barley malt","Barley malt syrup","Beet sugar","Brown sugar","Buttered syrup","Cane juice","Cane juice crystals","Cane sugar","Caramel","Carob syrup","Castor sugar","Coconut palm sugar","Coconut sugar","Confectioner's sugar","Corn sweetener","Corn syrup","Corn syrup solids","Date sugar","Dehydrated cane juice","Demerara sugar","Dextrin","Dextrose","Evaporated cane juice","Free-flowing brown sugars","Fructose","Fruit juice","Fruit juice concentrate","Glucose","Glucose solids","Golden sugar","Golden syrup","Grape sugar","HFCS (High-Fructose Corn Syrup)","Icing sugar","Invert sugar","Malt syrup","Maltodextrin","Maltol","Maltose","Mannose","Maple syrup","Molasses","Muscovado","Palm sugar","Panocha","Powdered sugar","Raw sugar","Refiner's syrup","Rice syrup","Saccharose","Sorghum Syrup","Sucrose","granulated sugar","Sweet Sorghum","Syrup","Treacle","Turbinado sugar","Yellow sugar"]},{"type":"synonyms","value":"honey","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["bee honey","honey"]},{"type":"synonyms","value":"stevia","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["stevia"]},{"type":"synonyms","value":"xylitol","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["xylitol"]},{"type":"synonyms","value":"spices","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["cardamon","cardamom","cinnamon","cinamon"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null},{"entity":"thousand","values":[{"type":"synonyms","value":"thousand","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["thousand"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null},{"entity":"juice","values":[{"type":"synonyms","value":"juice","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["juice"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null},{"entity":"fruit","values":[{"type":"synonyms","value":"dried","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["dried","first"]},{"type":"synonyms","value":"lyophilized","created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"synonyms":["lyophilized","second","last"]}],"created":"2017-10-17T16:15:58.172Z","updated":"2017-10-17T16:15:58.172Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Production","dialog_nodes":[{"type":"standard","title":null,"output":{"text":{"values":["I'm sorry, I didn't get it - I'm still learning ;)"],"selection_policy":"sequential"}},"parent":"E1S1T7","context":{"episode":1,"scenario":1,"dialog_turn":8},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T9"},"conditions":"True","description":null,"dialog_node":"node_19_1498651951563","previous_sibling":"node_8_1508136679996"},{"type":"standard","title":null,"output":{"text":{"values":["My favorite one is orange juice."],"selection_policy":"sequential"}},"parent":"E1S1T7","context":{"episode":1,"counter1":1,"scenario":1,"dialog_turn":8},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T9"},"conditions":"@juice","description":null,"dialog_node":"node_12_1507119564748","previous_sibling":"node_43_1498731558360"},{"type":"standard","title":null,"output":{"text":{"values":["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],"selection_policy":"sequential"}},"parent":"E1S1T7","context":{"episode":1,"scenario":1,"dialog_turn":8},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T9"},"conditions":"#meow","description":null,"dialog_node":"node_8_1508136679996","previous_sibling":"node_12_1507119564748"},{"type":"standard","title":null,"output":{"text":{"values":["Bye then."],"selection_policy":"sequential"}},"parent":"E1S1T7","context":{"dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#abuse || #goodbyes","description":null,"dialog_node":"node_43_1498731558360","previous_sibling":"E1S1T8"},{"type":"standard","title":"E1S1T8","output":{"text":{"values":["Unfortunately not - they don't contain fiber :("],"selection_policy":"sequential"}},"parent":"E1S1T7","context":{"episode":1,"counter1":1,"scenario":1,"dialog_turn":8},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#accept || #not_accept || #maybe","description":null,"dialog_node":"E1S1T8","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"E1S2T3","context":{"dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"True","description":null,"dialog_node":"node_105_1498853138229","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Please write hi if you would like to continue our conversation."],"selection_policy":"sequential"}},"parent":"node_68_1498826396257","context":{"dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"True","description":null,"dialog_node":"node_101_1498852234008","previous_sibling":"node_102_1498852569593"},{"type":"standard","title":null,"output":{},"parent":"node_68_1498826396257","context":null,"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#greetings","description":null,"dialog_node":"node_102_1498852569593","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],"selection_policy":"sequential"}},"parent":"E1S1T4","context":{"episode":1,"scenario":1,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T6"},"conditions":"#meow","description":null,"dialog_node":"node_5_1508136601669","previous_sibling":"node_6_1507118634903"},{"type":"standard","title":null,"output":{"text":{"values":["Don't worry, it's good news. When the first three are in natural products (fruits, milk) and we don't overeat, they shouldn't have any negative effects on healthy people."],"selection_policy":"sequential"}},"parent":"E1S1T4","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T6"},"conditions":"#maybe","description":null,"dialog_node":"node_6_1507118634903","previous_sibling":"node_36_1498730793314"},{"type":"standard","title":null,"output":{"text":{"values":["I'm sorry, I didn't get it - I'm still learning ;)"],"selection_policy":"sequential"}},"parent":"E1S1T4","context":{"wait":"none","episode":1,"scenario":1,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T6"},"conditions":"True","description":null,"dialog_node":"node_16_1498651829430","previous_sibling":"node_5_1508136601669"},{"type":"standard","title":null,"output":{"text":{"values":["That's a shame. Talk soon?"],"selection_policy":"sequential"}},"parent":"E1S1T4","context":{"dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#not_accept || #abuse || #goodbyes","description":null,"dialog_node":"node_36_1498730793314","previous_sibling":"E1S1T5"},{"type":"standard","title":"E1S1T5","output":{"text":{"values":["When the first three are in natural products (fruits, milk) and we don't overeat, they shouldn't have any negative effects on healthy people."],"selection_policy":"sequential"}},"parent":"E1S1T4","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#accept","description":null,"dialog_node":"E1S1T5","previous_sibling":null},{"type":"standard","title":"E1S2T3","output":{"text":{"values":["It was fun, wasn�t it? We�ve completed this challenge. High five!"],"selection_policy":"sequential"}},"parent":"E1S2T2","context":{"wait":"none","episode":1,"counter1":1,"scenario":2,"dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"True","description":null,"dialog_node":"E1S2T3","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"E1S1T9","context":null,"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"E1S2T2"},"conditions":"True","description":null,"dialog_node":"node_17_1507121536469","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["The suspense is killing me !"],"selection_policy":"sequential"}},"parent":"node_4_1507118471612","context":{"wait":"none","answer1":"maybe","episode":1,"counter1":1,"scenario":1,"dialog_turn":4},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_5_1507118482337","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Give me a second."],"selection_policy":"sequential"}},"parent":"E1S1T3","context":{"wait":"none","answer1":"not_accept","episode":1,"scenario":1,"dialog_turn":4},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T5"},"conditions":"#not_accept","description":null,"dialog_node":"node_34_1498730651159","previous_sibling":"E1S1T4"},{"type":"standard","title":null,"output":{"text":{"values":["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],"selection_policy":"sequential"}},"parent":"E1S1T3","context":{"episode":1,"scenario":1,"dialog_turn":2},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T5"},"conditions":"#meow","description":null,"dialog_node":"node_4_1508136580227","previous_sibling":"node_4_1507118471612"},{"type":"standard","title":null,"output":{"text":{"values":["Hmmm... I'm not giving up - I don't want to wake up one day with a diabetes diagnosis. Bye!"],"selection_policy":"sequential"}},"parent":"E1S1T3","context":{"answer1":"abuse","dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#abuse || #goodbyes","description":null,"dialog_node":"node_35_1498730732696","previous_sibling":"node_34_1498730651159"},{"type":"standard","title":null,"output":{},"parent":"E1S1T3","context":null,"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T5"},"conditions":"#maybe","description":null,"dialog_node":"node_4_1507118471612","previous_sibling":"node_35_1498730732696"},{"type":"standard","title":null,"output":{"text":{"values":["I'm sorry, I didn't get it - I'm still learning :)"],"selection_policy":"sequential"}},"parent":"E1S1T3","context":{"wait":"none","answer1":"other","episode":1,"scenario":1,"dialog_turn":4},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T5"},"conditions":"True","description":null,"dialog_node":"node_15_1498651785459","previous_sibling":"node_4_1508136580227"},{"type":"standard","title":"E1S1T4","output":{"text":{"values":["Smarty-pants :)"],"selection_policy":"sequential"}},"parent":"E1S1T3","context":{"wait":"none","answer1":"accept","episode":1,"counter1":1,"scenario":1,"dialog_turn":4},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#accept","description":null,"dialog_node":"E1S1T4","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Bye then."],"selection_policy":"sequential"}},"parent":"E1S1T5","context":{"dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#abuse || #goodbyes","description":null,"dialog_node":"node_41_1498731309757","previous_sibling":"node_40_1498731263405"},{"type":"standard","title":null,"output":{"text":{"values":["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],"selection_policy":"sequential"}},"parent":"E1S1T5","context":{"episode":1,"scenario":1,"dialog_turn":6},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T7"},"conditions":"#meow","description":null,"dialog_node":"node_6_1508136620928","previous_sibling":"node_8_1507119135325"},{"type":"standard","title":null,"output":{"text":{"values":["That's right!"],"selection_policy":"sequential"}},"parent":"E1S1T5","context":{"wait":15,"episode":1,"counter1":1,"scenario":1,"dialog_turn":6},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T7"},"conditions":"@thousand","description":null,"dialog_node":"node_8_1507119135325","previous_sibling":"node_7_1507119047673"},{"type":"standard","title":null,"output":{"text":{"values":["1000 %, scary..."],"selection_policy":"sequential"}},"parent":"E1S1T5","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":6},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T7"},"conditions":"#maybe","description":null,"dialog_node":"node_7_1507119047673","previous_sibling":"node_41_1498731309757"},{"type":"standard","title":null,"output":{"text":{"values":["1000%!"],"selection_policy":"sequential"}},"parent":"E1S1T5","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":6},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T7"},"conditions":"#not_accept","description":null,"dialog_node":"node_40_1498731263405","previous_sibling":"E1S1T6"},{"type":"standard","title":null,"output":{"text":{"values":["I'm sorry, I didn't get it - I'm still learning..."],"selection_policy":"sequential"}},"parent":"E1S1T5","context":{"wait":9,"episode":1,"scenario":1,"dialog_turn":6},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T7"},"conditions":"True","description":null,"dialog_node":"node_17_1498651873872","previous_sibling":"node_6_1508136620928"},{"type":"standard","title":"E1S1T6","output":{"text":{"values":["1000 %, scary..."],"selection_policy":"sequential"}},"parent":"E1S1T5","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":6},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#accept","description":null,"dialog_node":"E1S1T6","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["I'm counting on you :)"],"selection_policy":"sequential"}},"parent":"E1S1T2","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":3},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T4"},"conditions":"#maybe","description":null,"dialog_node":"node_3_1507118317068","previous_sibling":"node_33_1498730529773"},{"type":"standard","title":null,"output":{},"parent":"E1S1T2","context":{"locale":"en_US","switch2":"on","dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"@language:english","description":null,"dialog_node":"node_1_1499201499360","previous_sibling":"E1S1T3"},{"type":"standard","title":null,"output":{"text":{"values":["I'm sorry, I didn't get it - I'm still learning..."],"selection_policy":"sequential"}},"parent":"E1S1T2","context":{"wait":"none","episode":1,"scenario":1,"dialog_turn":3},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T4"},"conditions":"True","description":null,"dialog_node":"node_14_1498651736400","previous_sibling":"node_3_1508136540788"},{"type":"standard","title":null,"output":{"text":{"values":["Bye then."],"selection_policy":"sequential"}},"parent":"E1S1T2","context":{"dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#abuse || #not_accept || #goodbyes","description":null,"dialog_node":"node_33_1498730529773","previous_sibling":"node_1_1499201499360"},{"type":"standard","title":null,"output":{"text":{"values":["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],"selection_policy":"sequential"}},"parent":"E1S1T2","context":{"episode":1,"scenario":1,"dialog_turn":3},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T4"},"conditions":"#meow","description":null,"dialog_node":"node_3_1508136540788","previous_sibling":"node_3_1507118317068"},{"type":"standard","title":"E1S1T3","output":{"text":{"values":["Cool :)"],"selection_policy":"sequential"}},"parent":"E1S1T2","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":3},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#accept","description":null,"dialog_node":"E1S1T3","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Starch provides us with energy, glycogen is the fuel for our muscles and dietary fiber is responsible for proper digestion and neutralizes the negative effects of free sugars (that's why fruits are healthy)."],"selection_policy":"sequential"}},"parent":"E1S1T6","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":7},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T8"},"conditions":"#not_accept || #maybe","description":null,"dialog_node":"node_39_1498730934668","previous_sibling":"E1S1T7"},{"type":"standard","title":null,"output":{"text":{"values":["Provides us with energy."],"selection_policy":"sequential"}},"parent":"E1S1T6","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":7},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"@carbs:starch","description":null,"dialog_node":"node_9_1507119297108","previous_sibling":"node_42_1498731451055"},{"type":"standard","title":null,"output":{"text":{"values":["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],"selection_policy":"sequential"}},"parent":"E1S1T6","context":{"episode":1,"scenario":1,"dialog_turn":7},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T8"},"conditions":"#meow","description":null,"dialog_node":"node_7_1508136661660","previous_sibling":"node_11_1507119406958"},{"type":"standard","title":null,"output":{"text":{"values":["Bye then."],"selection_policy":"sequential"}},"parent":"E1S1T6","context":{"dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#abuse || #goodbyes","description":null,"dialog_node":"node_42_1498731451055","previous_sibling":"node_39_1498730934668"},{"type":"standard","title":null,"output":{"text":{"values":["It's the fuel for our muscles."],"selection_policy":"sequential"}},"parent":"E1S1T6","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":7},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"@carbs:glycogen","description":null,"dialog_node":"node_10_1507119365486","previous_sibling":"node_9_1507119297108"},{"type":"standard","title":null,"output":{"text":{"values":[" I'm sorry, I didn't get it - I'm still learning :)"],"selection_policy":"sequential"}},"parent":"E1S1T6","context":{"wait":"none","episode":1,"scenario":1,"dialog_turn":7},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T8"},"conditions":"True","description":null,"dialog_node":"node_18_1498651912962","previous_sibling":"node_7_1508136661660"},{"type":"standard","title":null,"output":{"text":{"values":[" It's responsible for proper digestion and neutralizes the negative effects of free sugars (that's why fruits are healthy)."],"selection_policy":"sequential"}},"parent":"E1S1T6","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":7},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"@carbs:fiber","description":null,"dialog_node":"node_11_1507119406958","previous_sibling":"node_10_1507119365486"},{"type":"standard","title":"E1S1T7","output":{"text":{"values":["Smarty-pants :)"],"selection_policy":"sequential"}},"parent":"E1S1T6","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":7},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#accept","description":null,"dialog_node":"E1S1T7","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"E1S1T8","context":{"episode":1,"scenario":1,"dialog_turn":10},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#meow","description":null,"dialog_node":"node_9_1508136698895","previous_sibling":"node_14_1507119782046"},{"type":"standard","title":null,"output":{"text":{"values":["I heard they're the best choice for long trips - you can even buy lyophilisated pasta with sauce!"],"selection_policy":"sequential"}},"parent":"E1S1T8","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":9},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_17_1507121536469"},"conditions":"@fruit:lyophilized","description":null,"dialog_node":"node_14_1507119782046","previous_sibling":"node_13_1507119732278"},{"type":"standard","title":null,"output":{"text":{"values":["Bye then."],"selection_policy":"sequential"}},"parent":"E1S1T8","context":{"dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#abuse || #goodbyes","description":null,"dialog_node":"node_45_1498731659940","previous_sibling":"E1S1T9"},{"type":"standard","title":null,"output":{"text":{"values":["They contain lots of minerals... but also three times more sugar and calories than the fresh ones :("],"selection_policy":"sequential"}},"parent":"E1S1T8","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":9},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_17_1507121536469"},"conditions":"@fruit:dried","description":null,"dialog_node":"node_13_1507119732278","previous_sibling":"node_45_1498731659940"},{"type":"standard","title":null,"output":{"text":{"values":[" I'm sorry, I didn't get it - I'm still learning..."],"selection_policy":"sequential"}},"parent":"E1S1T8","context":{"wait":"none","episode":1,"scenario":1,"dialog_turn":9},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_17_1507121536469"},"conditions":"True","description":null,"dialog_node":"node_20_1498651992923","previous_sibling":"node_9_1508136698895"},{"type":"standard","title":"E1S1T9","output":{"text":{"values":[" So maybe the lyophilisated? They contain the same amounts of elements as the fresh fruits and are a hit among professional sportsmen."],"selection_policy":"sequential"}},"parent":"E1S1T8","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":9},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#accept || #not_accept || #maybe","description":null,"dialog_node":"E1S1T9","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Cool, how's it called? :)"],"selection_policy":"sequential"}},"parent":"E1S2","context":{"wait":"none","episode":1,"counter1":1,"scenario":3,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S2T2"},"conditions":"#accept","description":null,"dialog_node":"node_67_1498826237815","previous_sibling":"node_74_1498826731669"},{"type":"standard","title":null,"output":{"text":{"values":["Spices are always a safe choice, the best are cardamon and cinnamon."],"selection_policy":"sequential"}},"parent":"E1S2","context":{"e1s2":"completed","wait":"none","answer2":"other","episode":1,"counter1":1,"scenario":3,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S2T3"},"conditions":"True","description":null,"dialog_node":"node_69_1498826415128","previous_sibling":"node_68_1498826396257"},{"type":"standard","title":null,"output":{"text":{"values":["It has half the calories of sugar :) But when overdosed it acts like a laxative ;)"],"selection_policy":"sequential"}},"parent":"E1S2","context":{"e1s2":"completed","wait":"none","answer2":"xylitol","episode":1,"counter1":1,"scenario":3,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S2T3"},"conditions":"@sweetening:xylitol","description":null,"dialog_node":"node_73_1498826702811","previous_sibling":"node_72_1498826669024"},{"type":"standard","title":null,"output":{"text":{"values":[" Oh no, it's same thing as sacharoze - the ultimate evil :( Any other idea?"],"selection_policy":"sequential"}},"parent":"E1S2","context":{"wait":"none","answer2":"sugar","episode":1,"counter1":1,"scenario":2,"dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S2T2"},"conditions":"@sweetening:sugar","description":null,"dialog_node":"node_70_1498826497999","previous_sibling":"E1S2T2"},{"type":"standard","title":null,"output":{"text":{"values":["It's very healthy (lots of Vitamin C and minerals) but some say it changes the taste - everything becomes bland :("],"selection_policy":"sequential"}},"parent":"E1S2","context":{"e1s2":"completed","wait":"none","answer2":"stevia","episode":1,"counter1":1,"scenario":3,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S2T3"},"conditions":"@sweetening:stevia","description":null,"dialog_node":"node_72_1498826669024","previous_sibling":"node_70_1498826497999"},{"type":"standard","title":null,"output":{"text":{"values":["Bye then."],"selection_policy":"sequential"}},"parent":"E1S2","context":{"wait":"none","answer2":"abuse","episode":1,"counter1":1,"scenario":3,"dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#abuse || #goodbyes","description":null,"dialog_node":"node_68_1498826396257","previous_sibling":"node_8_1499244820910"},{"type":"standard","title":null,"output":{"text":{"values":["Spices are always a safe choice, the best are cardamon and cinnamon."],"selection_policy":"sequential"}},"parent":"E1S2","context":{"e1s2":"completed","wait":"none","answer2":"not_accept","episode":1,"counter1":1,"scenario":3,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S2T3"},"conditions":"#not_accept","description":null,"dialog_node":"node_8_1499244820910","previous_sibling":"node_67_1498826237815"},{"type":"standard","title":null,"output":{"text":{"values":["Safe choice :)"],"selection_policy":"sequential"}},"parent":"E1S2","context":{"e1s2":"completed","wait":"none","answer2":"spices","episode":1,"counter1":1,"scenario":3,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S2T3"},"conditions":"@sweetening:spices","description":null,"dialog_node":"node_74_1498826731669","previous_sibling":"node_73_1498826702811"},{"type":"standard","title":"E1S2T2","output":{"text":{"values":["It loses all its health benefits in high temperatures :("],"selection_policy":"sequential"}},"parent":"E1S2","context":{"e1s2":"completed","wait":"none","answer2":"honey","episode":1,"counter1":1,"scenario":3,"dialog_turn":5},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"@sweetening:honey","description":null,"dialog_node":"E1S2T2","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["I think I should go depacito ;)"],"selection_policy":"sequential"}},"parent":"E1S1T1","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":2},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T3"},"conditions":"#maybe","description":null,"dialog_node":"node_2_1507118108505","previous_sibling":"node_1_1507117959222"},{"type":"standard","title":null,"output":{"text":{"values":["Two weeks by the sea, it was amazing!"],"selection_policy":"sequential"}},"parent":"E1S1T1","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":2},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T3"},"conditions":"@holiday","description":null,"dialog_node":"node_1_1507117959222","previous_sibling":"node_30_1498730310111"},{"type":"standard","title":null,"output":{},"parent":"E1S1T1","context":{"locale":"pl_PL","switch2":"on","dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:28:22.483Z","metadata":null,"next_step":null,"conditions":"@language:polish","description":null,"dialog_node":"node_114_1499078137956","previous_sibling":"node_2_1498642534678"},{"type":"standard","title":"E1S1T2","output":{"text":{"values":["You're right - I need to watch my diet!"],"selection_policy":"sequential"}},"parent":"E1S1T1","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":2},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#accept","description":null,"dialog_node":"E1S1T2","previous_sibling":"node_114_1499078137956"},{"type":"standard","title":null,"output":{"text":{"values":["I like your thinking ;) But it's high time to stop lying to myself..."],"selection_policy":"sequential"}},"parent":"E1S1T1","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":2},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T3"},"conditions":"#not_accept","description":null,"dialog_node":"node_29_1498730181542","previous_sibling":"E1S1T2"},{"type":"standard","title":null,"output":{"text":{"values":["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],"selection_policy":"sequential"}},"parent":"E1S1T1","context":{"episode":1,"scenario":1,"dialog_turn":2},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T3"},"conditions":"#meow","description":null,"dialog_node":"node_2_1508136494793","previous_sibling":"node_2_1507118108505"},{"type":"standard","title":null,"output":{"text":{"values":["Bye then."],"selection_policy":"sequential"}},"parent":"E1S1T1","context":{"dialog_turn":0},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#abuse || #goodbyes","description":null,"dialog_node":"node_30_1498730310111","previous_sibling":"node_29_1498730181542"},{"type":"standard","title":null,"output":{"text":{"values":["I'm sorry, I didn't get it - I'm still learning ;)"],"selection_policy":"sequential"}},"parent":"E1S1T1","context":{"wait":"none","episode":1,"scenario":1,"dialog_turn":2},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"E1S1T3"},"conditions":"True","description":null,"dialog_node":"node_13_1498651623846","previous_sibling":"node_2_1508136494793"},{"type":"standard","title":null,"output":{"text":{"values":["Good to hear you have some time :)"],"selection_policy":"sequential"}},"parent":"E1S1T1","context":{"wait":"none","episode":1,"counter1":1,"scenario":1,"dialog_turn":2},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#greetings","description":null,"dialog_node":"node_2_1498642534678","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":null,"context":{"locale":"en_US","switch2":"on","dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:42:12.307Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"E1S1T1"},"conditions":"@language:english","description":null,"dialog_node":"node_16_1499242526885","previous_sibling":"node_4_1499203005477"},{"type":"standard","title":"Anything else","output":{"text":{"values":["Please write \"restart\" to start from the beginning :)"],"selection_policy":"sequential"}},"parent":null,"context":{"e1s1":"","wait":"none","dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"E1S2"},{"type":"standard","title":"E1S1T1","output":{"text":{"values":["Hi $first_name, I've just noticed that I gained 3 kg after holidays :( "],"selection_policy":"sequential"}},"parent":null,"context":{"e1s1":"","e1s2":"","e1s3":"","wait":"none","answer1":"","answer2":"","answer3":"","episode":1,"trigger":"user","scenario":1,"dialog_turn":1},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"$new_user==true || input.text.contains('GET_STARTED') || input.text.contains('restart')","description":null,"dialog_node":"E1S1T1","previous_sibling":"node_16_1499242526885"},{"type":"standard","title":null,"output":{},"parent":null,"context":{"locale":"pl_PL","switch2":"on","dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:28:06.190Z","metadata":null,"next_step":null,"conditions":"@language:polish","description":null,"dialog_node":"node_4_1499203005477","previous_sibling":"node_1_1508136130736"},{"type":"standard","title":"E1S2","output":{},"parent":null,"context":{"wait":0,"episode":1,"counter1":1,"scenario":2,"dialog_turn":1},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"E1S2","previous_sibling":"E1S1T1"},{"type":"standard","title":null,"output":{"text":{"values":["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],"selection_policy":"sequential"}},"parent":null,"context":{"episode":1,"scenario":1,"dialog_turn":10},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"#meow","description":null,"dialog_node":"node_1_1508136130736","previous_sibling":"node_117_1499087396526"},{"type":"standard","title":null,"output":{},"parent":null,"context":{"wait":"none","dialog_turn":"none"},"created":"2017-10-17T16:13:01.765Z","updated":"2017-10-17T16:13:01.765Z","metadata":null,"next_step":null,"conditions":"input.text.contains('referral555')","description":null,"dialog_node":"node_117_1499087396526","previous_sibling":null}],"workspace_id":"dd58466d-22dd-4c6e-8926-9bb341295550","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Amanda.EN",
+	"created": "2017-10-17T16:13:01.765Z",
+	"intents": [{
+		"intent": "not_accept",
+		"created": "2017-10-17T16:14:24.994Z",
+		"updated": "2017-10-17T16:14:24.994Z",
+		"examples": [{
+			"text": "disgusting",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "disgust",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "cruel",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "awful",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not tasty",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "sad",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not nice",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "uncool",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not cool",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "dont give a damn",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I dont give a damn",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "don't give a amn",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I don't give a damn",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not worth it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "worthless",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "fatally",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "fatal",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "ble",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I dont know",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I don't know",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "dont know",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "don't know",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not agreed",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "dont agree",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "don't agree",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not right",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "wrong",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "bad",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I dont have",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I don't have",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "dont have",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "don't have",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "no idea",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "no way",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not really",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "nah",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "nope",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "no",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not here",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not now",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}],
+		"description": null
+	}, {
+		"intent": "abuse",
+		"created": "2017-10-17T16:14:24.994Z",
+		"updated": "2017-10-17T16:14:24.994Z",
+		"examples": [{
+			"text": "fuck you",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "go to hell",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "no more",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "stop talking",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "ending",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "never again",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "finish",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "end",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "turn off",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "don't write to me",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "bullshit",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "don't talk",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "don't write",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "stop writing to me",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "unsubscribe",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "stop writing",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "leave me alone",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "fuck off",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "quit",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "stop",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "get lost",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I resign",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I want to resign",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}],
+		"description": null
+	}, {
+		"intent": "maybe",
+		"created": "2017-10-17T16:14:24.994Z",
+		"updated": "2017-10-17T16:14:24.994Z",
+		"examples": [{
+			"text": "may be",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "could be",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "might be",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "perhaps",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "not sure",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "depends",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "shrug",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "maybe",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}],
+		"description": null
+	}, {
+		"intent": "meow",
+		"created": "2017-10-17T16:14:24.994Z",
+		"updated": "2017-10-17T16:14:24.994Z",
+		"examples": [{
+			"text": "meowmeow",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "meow meow",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "meow",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greetings",
+		"created": "2017-10-17T16:14:24.994Z",
+		"updated": "2017-10-17T16:14:24.994Z",
+		"examples": [{
+			"text": "hi show",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hi look",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hi find",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hi talk",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hi send",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hi you",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hi yes",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "what ya doin",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "what ya doing",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Amanda?",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "amanda",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "welcome",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "good day",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "good afternoon",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "good morning",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "greetings",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "helo",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hello",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hi there",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hey there",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hey you",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hiya",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "heya",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hey",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "hi",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "whats up",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "what's up",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "start",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Get_Started",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}],
+		"description": null
+	}, {
+		"intent": "time",
+		"created": "2017-10-17T16:14:24.994Z",
+		"updated": "2017-10-17T16:14:24.994Z",
+		"examples": [{
+			"text": "need to talk",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "wanna talk",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I want to talk",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "say more",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "tell me more",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "more",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "lets talk",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "let's talk",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "talk later",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "leting you know",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "let you know",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "letting you know",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "right now",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill have time",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll have time",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I have time",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}],
+		"description": null
+	}, {
+		"intent": "accept",
+		"created": "2017-10-17T16:14:24.994Z",
+		"updated": "2017-10-17T16:14:24.994Z",
+		"examples": [{
+			"text": "positive",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "genial",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "very well",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "well",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "genius",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "genious",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "proper",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "nice of you",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "nice",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "give me tips",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "gimme tips",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "got tips",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "superb",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "super",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "yo",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "(y)",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "waitin",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "waiting",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill wait",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll wait",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "nor do I",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "delicious",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "yummy",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Neither do I",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Lets look",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Lets look for it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Let's look",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Let's look for it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill look for",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll look for",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill look",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "send it to me",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "send me",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "show me",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "show",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "<3",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "love it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I love it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "like it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I wait",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "yum",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Me neither",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I know",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll look",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "send",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "give me",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "give",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "please do it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "please do",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "pretty please",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "please",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I like it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "agreed",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "agree",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I agree",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "always",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "one moment",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "in a moment",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "suggest",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill do it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll do it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I will do it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I can do",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "lets go",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "let's go",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "this I can do",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "good suggestion",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "great idea",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "good sugestion",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "lets start",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "let's start",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I can do it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill make sure",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll make sure",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "si",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "ya",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "truth",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "TRUE",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll try",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill try",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill consider",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill consider it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll think about it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill think about it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll consider",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll consider it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "course",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "of course",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "go on",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "come on",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "lets do it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "do it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "let's do it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "let it be",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I want to",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I want it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "you are right",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "youre right",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "your right",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "right",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "You're right",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I have",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "kk",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "k",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I want",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Im for it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Im in",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Im ok with it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Im ok",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'm ok",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'm for it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'm in",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'm ok with it",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "good idea",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "good",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill manage",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I do",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I will",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I could",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I can",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll manage",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "Ill have time",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "now",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I'll have time",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "I have time",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "pleasure",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "my pleasure",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "with pleasure",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "sure do",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "sure",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "oki",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "okey",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "o.k",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "ok",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "yup",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "yay",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "yeah",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "yes",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}],
+		"description": null
+	}, {
+		"intent": "goodbyes",
+		"created": "2017-10-17T16:14:24.994Z",
+		"updated": "2017-10-17T16:14:24.994Z",
+		"examples": [{
+			"text": "farewell",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "goodbye",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "lets talk later",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "let's talk later",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "talk later",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "l8r",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "see ya",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "goodnight",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "good noght",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "night night",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "nightnight",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "night",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "later",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "see you later",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "cul8r",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "c u",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "cu",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "ciao",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}, {
+			"text": "bye",
+			"created": "2017-10-17T16:14:25.009Z",
+			"updated": "2017-10-17T16:14:25.009Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-10-17T16:42:12.307Z",
+	"entities": [{
+		"entity": "carbs",
+		"values": [{
+			"type": "synonyms",
+			"value": "fiber",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["fiber"]
+		}, {
+			"type": "synonyms",
+			"value": "starch",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["starch"]
+		}, {
+			"type": "synonyms",
+			"value": "glycogen",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["glycogen"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "language",
+		"values": [{
+			"type": "synonyms",
+			"value": "polish",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["polski", "po polsku"]
+		}, {
+			"type": "synonyms",
+			"value": "english",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["english"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "idea",
+		"values": [{
+			"type": "synonyms",
+			"value": "idea",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["idea"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sports_drink",
+		"values": [{
+			"type": "synonyms",
+			"value": "isotonic",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["isotonic", "isotonic drink", "izotonik", "oshee", "4move", "powerade", "gatorade"]
+		}, {
+			"type": "synonyms",
+			"value": "energy",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["energy", "energy drink", "red bull", "tiger"]
+		}, {
+			"type": "synonyms",
+			"value": "protein",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["protein", "protein drink", "protein shake"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "holiday",
+		"values": [{
+			"type": "synonyms",
+			"value": "holiday",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["holiday", "travel", "vacation"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sweetening",
+		"values": [{
+			"type": "synonyms",
+			"value": "sugar",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["Agave nectar", "Barbados sugar", "Barley malt", "Barley malt syrup", "Beet sugar", "Brown sugar", "Buttered syrup", "Cane juice", "Cane juice crystals", "Cane sugar", "Caramel", "Carob syrup", "Castor sugar", "Coconut palm sugar", "Coconut sugar", "Confectioner's sugar", "Corn sweetener", "Corn syrup", "Corn syrup solids", "Date sugar", "Dehydrated cane juice", "Demerara sugar", "Dextrin", "Dextrose", "Evaporated cane juice", "Free-flowing brown sugars", "Fructose", "Fruit juice", "Fruit juice concentrate", "Glucose", "Glucose solids", "Golden sugar", "Golden syrup", "Grape sugar", "HFCS (High-Fructose Corn Syrup)", "Icing sugar", "Invert sugar", "Malt syrup", "Maltodextrin", "Maltol", "Maltose", "Mannose", "Maple syrup", "Molasses", "Muscovado", "Palm sugar", "Panocha", "Powdered sugar", "Raw sugar", "Refiner's syrup", "Rice syrup", "Saccharose", "Sorghum Syrup", "Sucrose", "granulated sugar", "Sweet Sorghum", "Syrup", "Treacle", "Turbinado sugar", "Yellow sugar"]
+		}, {
+			"type": "synonyms",
+			"value": "honey",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["bee honey", "honey"]
+		}, {
+			"type": "synonyms",
+			"value": "stevia",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["stevia"]
+		}, {
+			"type": "synonyms",
+			"value": "xylitol",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["xylitol"]
+		}, {
+			"type": "synonyms",
+			"value": "spices",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["cardamon", "cardamom", "cinnamon", "cinamon"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "thousand",
+		"values": [{
+			"type": "synonyms",
+			"value": "thousand",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["thousand"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "juice",
+		"values": [{
+			"type": "synonyms",
+			"value": "juice",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["juice"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "fruit",
+		"values": [{
+			"type": "synonyms",
+			"value": "dried",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["dried", "first"]
+		}, {
+			"type": "synonyms",
+			"value": "lyophilized",
+			"created": "2017-10-17T16:15:58.172Z",
+			"updated": "2017-10-17T16:15:58.172Z",
+			"metadata": null,
+			"synonyms": ["lyophilized", "second", "last"]
+		}],
+		"created": "2017-10-17T16:15:58.172Z",
+		"updated": "2017-10-17T16:15:58.172Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Production",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm sorry, I didn't get it - I'm still learning ;)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T7",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 8
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T9"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_19_1498651951563",
+		"previous_sibling": "node_8_1508136679996"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["My favorite one is orange juice."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T7",
+		"context": {
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 8
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T9"
+		},
+		"conditions": "@juice",
+		"description": null,
+		"dialog_node": "node_12_1507119564748",
+		"previous_sibling": "node_43_1498731558360"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T7",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 8
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T9"
+		},
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_8_1508136679996",
+		"previous_sibling": "node_12_1507119564748"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Bye then."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T7",
+		"context": {
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#abuse || #goodbyes",
+		"description": null,
+		"dialog_node": "node_43_1498731558360",
+		"previous_sibling": "E1S1T8"
+	}, {
+		"type": "standard",
+		"title": "E1S1T8",
+		"output": {
+			"text": {
+				"values": ["Unfortunately not - they don't contain fiber :("],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T7",
+		"context": {
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 8
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#accept || #not_accept || #maybe",
+		"description": null,
+		"dialog_node": "E1S1T8",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2T3",
+		"context": {
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_105_1498853138229",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please write hi if you would like to continue our conversation."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_68_1498826396257",
+		"context": {
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_101_1498852234008",
+		"previous_sibling": "node_102_1498852569593"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_68_1498826396257",
+		"context": null,
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "node_102_1498852569593",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T4",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T6"
+		},
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_5_1508136601669",
+		"previous_sibling": "node_6_1507118634903"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Don't worry, it's good news. When the first three are in natural products (fruits, milk) and we don't overeat, they shouldn't have any negative effects on healthy people."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T4",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T6"
+		},
+		"conditions": "#maybe",
+		"description": null,
+		"dialog_node": "node_6_1507118634903",
+		"previous_sibling": "node_36_1498730793314"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm sorry, I didn't get it - I'm still learning ;)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T4",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T6"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_16_1498651829430",
+		"previous_sibling": "node_5_1508136601669"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["That's a shame. Talk soon?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T4",
+		"context": {
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#not_accept || #abuse || #goodbyes",
+		"description": null,
+		"dialog_node": "node_36_1498730793314",
+		"previous_sibling": "E1S1T5"
+	}, {
+		"type": "standard",
+		"title": "E1S1T5",
+		"output": {
+			"text": {
+				"values": ["When the first three are in natural products (fruits, milk) and we don't overeat, they shouldn't have any negative effects on healthy people."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T4",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#accept",
+		"description": null,
+		"dialog_node": "E1S1T5",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "E1S2T3",
+		"output": {
+			"text": {
+				"values": ["It was fun, wasn�t it? We�ve completed this challenge. High five!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2T2",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 2,
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "E1S2T3",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "E1S1T9",
+		"context": null,
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "E1S2T2"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_17_1507121536469",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The suspense is killing me !"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1507118471612",
+		"context": {
+			"wait": "none",
+			"answer1": "maybe",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 4
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_5_1507118482337",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Give me a second."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T3",
+		"context": {
+			"wait": "none",
+			"answer1": "not_accept",
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 4
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T5"
+		},
+		"conditions": "#not_accept",
+		"description": null,
+		"dialog_node": "node_34_1498730651159",
+		"previous_sibling": "E1S1T4"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T3",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 2
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T5"
+		},
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_4_1508136580227",
+		"previous_sibling": "node_4_1507118471612"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hmmm... I'm not giving up - I don't want to wake up one day with a diabetes diagnosis. Bye!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T3",
+		"context": {
+			"answer1": "abuse",
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#abuse || #goodbyes",
+		"description": null,
+		"dialog_node": "node_35_1498730732696",
+		"previous_sibling": "node_34_1498730651159"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "E1S1T3",
+		"context": null,
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T5"
+		},
+		"conditions": "#maybe",
+		"description": null,
+		"dialog_node": "node_4_1507118471612",
+		"previous_sibling": "node_35_1498730732696"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm sorry, I didn't get it - I'm still learning :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T3",
+		"context": {
+			"wait": "none",
+			"answer1": "other",
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 4
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T5"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_15_1498651785459",
+		"previous_sibling": "node_4_1508136580227"
+	}, {
+		"type": "standard",
+		"title": "E1S1T4",
+		"output": {
+			"text": {
+				"values": ["Smarty-pants :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T3",
+		"context": {
+			"wait": "none",
+			"answer1": "accept",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 4
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#accept",
+		"description": null,
+		"dialog_node": "E1S1T4",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Bye then."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T5",
+		"context": {
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#abuse || #goodbyes",
+		"description": null,
+		"dialog_node": "node_41_1498731309757",
+		"previous_sibling": "node_40_1498731263405"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T5",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 6
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T7"
+		},
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_6_1508136620928",
+		"previous_sibling": "node_8_1507119135325"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["That's right!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T5",
+		"context": {
+			"wait": 15,
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 6
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T7"
+		},
+		"conditions": "@thousand",
+		"description": null,
+		"dialog_node": "node_8_1507119135325",
+		"previous_sibling": "node_7_1507119047673"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["1000 %, scary..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T5",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 6
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T7"
+		},
+		"conditions": "#maybe",
+		"description": null,
+		"dialog_node": "node_7_1507119047673",
+		"previous_sibling": "node_41_1498731309757"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["1000%!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T5",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 6
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T7"
+		},
+		"conditions": "#not_accept",
+		"description": null,
+		"dialog_node": "node_40_1498731263405",
+		"previous_sibling": "E1S1T6"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm sorry, I didn't get it - I'm still learning..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T5",
+		"context": {
+			"wait": 9,
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 6
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T7"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_17_1498651873872",
+		"previous_sibling": "node_6_1508136620928"
+	}, {
+		"type": "standard",
+		"title": "E1S1T6",
+		"output": {
+			"text": {
+				"values": ["1000 %, scary..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T5",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 6
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#accept",
+		"description": null,
+		"dialog_node": "E1S1T6",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm counting on you :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T2",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 3
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T4"
+		},
+		"conditions": "#maybe",
+		"description": null,
+		"dialog_node": "node_3_1507118317068",
+		"previous_sibling": "node_33_1498730529773"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "E1S1T2",
+		"context": {
+			"locale": "en_US",
+			"switch2": "on",
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@language:english",
+		"description": null,
+		"dialog_node": "node_1_1499201499360",
+		"previous_sibling": "E1S1T3"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm sorry, I didn't get it - I'm still learning..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T2",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 3
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T4"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_14_1498651736400",
+		"previous_sibling": "node_3_1508136540788"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Bye then."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T2",
+		"context": {
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#abuse || #not_accept || #goodbyes",
+		"description": null,
+		"dialog_node": "node_33_1498730529773",
+		"previous_sibling": "node_1_1499201499360"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T2",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 3
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T4"
+		},
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_3_1508136540788",
+		"previous_sibling": "node_3_1507118317068"
+	}, {
+		"type": "standard",
+		"title": "E1S1T3",
+		"output": {
+			"text": {
+				"values": ["Cool :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T2",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 3
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#accept",
+		"description": null,
+		"dialog_node": "E1S1T3",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Starch provides us with energy, glycogen is the fuel for our muscles and dietary fiber is responsible for proper digestion and neutralizes the negative effects of free sugars (that's why fruits are healthy)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T6",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 7
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T8"
+		},
+		"conditions": "#not_accept || #maybe",
+		"description": null,
+		"dialog_node": "node_39_1498730934668",
+		"previous_sibling": "E1S1T7"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Provides us with energy."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T6",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 7
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@carbs:starch",
+		"description": null,
+		"dialog_node": "node_9_1507119297108",
+		"previous_sibling": "node_42_1498731451055"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T6",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 7
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T8"
+		},
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_7_1508136661660",
+		"previous_sibling": "node_11_1507119406958"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Bye then."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T6",
+		"context": {
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#abuse || #goodbyes",
+		"description": null,
+		"dialog_node": "node_42_1498731451055",
+		"previous_sibling": "node_39_1498730934668"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["It's the fuel for our muscles."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T6",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 7
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@carbs:glycogen",
+		"description": null,
+		"dialog_node": "node_10_1507119365486",
+		"previous_sibling": "node_9_1507119297108"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [" I'm sorry, I didn't get it - I'm still learning :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T6",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 7
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T8"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_18_1498651912962",
+		"previous_sibling": "node_7_1508136661660"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [" It's responsible for proper digestion and neutralizes the negative effects of free sugars (that's why fruits are healthy)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T6",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 7
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@carbs:fiber",
+		"description": null,
+		"dialog_node": "node_11_1507119406958",
+		"previous_sibling": "node_10_1507119365486"
+	}, {
+		"type": "standard",
+		"title": "E1S1T7",
+		"output": {
+			"text": {
+				"values": ["Smarty-pants :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T6",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 7
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#accept",
+		"description": null,
+		"dialog_node": "E1S1T7",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "E1S1T8",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 10
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_9_1508136698895",
+		"previous_sibling": "node_14_1507119782046"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I heard they're the best choice for long trips - you can even buy lyophilisated pasta with sauce!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T8",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 9
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_17_1507121536469"
+		},
+		"conditions": "@fruit:lyophilized",
+		"description": null,
+		"dialog_node": "node_14_1507119782046",
+		"previous_sibling": "node_13_1507119732278"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Bye then."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T8",
+		"context": {
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#abuse || #goodbyes",
+		"description": null,
+		"dialog_node": "node_45_1498731659940",
+		"previous_sibling": "E1S1T9"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["They contain lots of minerals... but also three times more sugar and calories than the fresh ones :("],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T8",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 9
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_17_1507121536469"
+		},
+		"conditions": "@fruit:dried",
+		"description": null,
+		"dialog_node": "node_13_1507119732278",
+		"previous_sibling": "node_45_1498731659940"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [" I'm sorry, I didn't get it - I'm still learning..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T8",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 9
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_17_1507121536469"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_20_1498651992923",
+		"previous_sibling": "node_9_1508136698895"
+	}, {
+		"type": "standard",
+		"title": "E1S1T9",
+		"output": {
+			"text": {
+				"values": [" So maybe the lyophilisated? They contain the same amounts of elements as the fresh fruits and are a hit among professional sportsmen."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T8",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 9
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#accept || #not_accept || #maybe",
+		"description": null,
+		"dialog_node": "E1S1T9",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Cool, how's it called? :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 3,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S2T2"
+		},
+		"conditions": "#accept",
+		"description": null,
+		"dialog_node": "node_67_1498826237815",
+		"previous_sibling": "node_74_1498826731669"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Spices are always a safe choice, the best are cardamon and cinnamon."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"e1s2": "completed",
+			"wait": "none",
+			"answer2": "other",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 3,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S2T3"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_69_1498826415128",
+		"previous_sibling": "node_68_1498826396257"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["It has half the calories of sugar :) But when overdosed it acts like a laxative ;)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"e1s2": "completed",
+			"wait": "none",
+			"answer2": "xylitol",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 3,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S2T3"
+		},
+		"conditions": "@sweetening:xylitol",
+		"description": null,
+		"dialog_node": "node_73_1498826702811",
+		"previous_sibling": "node_72_1498826669024"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [" Oh no, it's same thing as sacharoze - the ultimate evil :( Any other idea?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"wait": "none",
+			"answer2": "sugar",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 2,
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S2T2"
+		},
+		"conditions": "@sweetening:sugar",
+		"description": null,
+		"dialog_node": "node_70_1498826497999",
+		"previous_sibling": "E1S2T2"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["It's very healthy (lots of Vitamin C and minerals) but some say it changes the taste - everything becomes bland :("],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"e1s2": "completed",
+			"wait": "none",
+			"answer2": "stevia",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 3,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S2T3"
+		},
+		"conditions": "@sweetening:stevia",
+		"description": null,
+		"dialog_node": "node_72_1498826669024",
+		"previous_sibling": "node_70_1498826497999"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Bye then."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"wait": "none",
+			"answer2": "abuse",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 3,
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#abuse || #goodbyes",
+		"description": null,
+		"dialog_node": "node_68_1498826396257",
+		"previous_sibling": "node_8_1499244820910"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Spices are always a safe choice, the best are cardamon and cinnamon."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"e1s2": "completed",
+			"wait": "none",
+			"answer2": "not_accept",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 3,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S2T3"
+		},
+		"conditions": "#not_accept",
+		"description": null,
+		"dialog_node": "node_8_1499244820910",
+		"previous_sibling": "node_67_1498826237815"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Safe choice :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"e1s2": "completed",
+			"wait": "none",
+			"answer2": "spices",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 3,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S2T3"
+		},
+		"conditions": "@sweetening:spices",
+		"description": null,
+		"dialog_node": "node_74_1498826731669",
+		"previous_sibling": "node_73_1498826702811"
+	}, {
+		"type": "standard",
+		"title": "E1S2T2",
+		"output": {
+			"text": {
+				"values": ["It loses all its health benefits in high temperatures :("],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S2",
+		"context": {
+			"e1s2": "completed",
+			"wait": "none",
+			"answer2": "honey",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 3,
+			"dialog_turn": 5
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sweetening:honey",
+		"description": null,
+		"dialog_node": "E1S2T2",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I think I should go depacito ;)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T1",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 2
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T3"
+		},
+		"conditions": "#maybe",
+		"description": null,
+		"dialog_node": "node_2_1507118108505",
+		"previous_sibling": "node_1_1507117959222"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Two weeks by the sea, it was amazing!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T1",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 2
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T3"
+		},
+		"conditions": "@holiday",
+		"description": null,
+		"dialog_node": "node_1_1507117959222",
+		"previous_sibling": "node_30_1498730310111"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "E1S1T1",
+		"context": {
+			"locale": "pl_PL",
+			"switch2": "on",
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:28:22.483Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@language:polish",
+		"description": null,
+		"dialog_node": "node_114_1499078137956",
+		"previous_sibling": "node_2_1498642534678"
+	}, {
+		"type": "standard",
+		"title": "E1S1T2",
+		"output": {
+			"text": {
+				"values": ["You're right - I need to watch my diet!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T1",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 2
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#accept",
+		"description": null,
+		"dialog_node": "E1S1T2",
+		"previous_sibling": "node_114_1499078137956"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I like your thinking ;) But it's high time to stop lying to myself..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T1",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 2
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T3"
+		},
+		"conditions": "#not_accept",
+		"description": null,
+		"dialog_node": "node_29_1498730181542",
+		"previous_sibling": "E1S1T2"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T1",
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 2
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T3"
+		},
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_2_1508136494793",
+		"previous_sibling": "node_2_1507118108505"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Bye then."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T1",
+		"context": {
+			"dialog_turn": 0
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#abuse || #goodbyes",
+		"description": null,
+		"dialog_node": "node_30_1498730310111",
+		"previous_sibling": "node_29_1498730181542"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm sorry, I didn't get it - I'm still learning ;)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T1",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 2
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "E1S1T3"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_13_1498651623846",
+		"previous_sibling": "node_2_1508136494793"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good to hear you have some time :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "E1S1T1",
+		"context": {
+			"wait": "none",
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 1,
+			"dialog_turn": 2
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "node_2_1498642534678",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": {
+			"locale": "en_US",
+			"switch2": "on",
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:42:12.307Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "E1S1T1"
+		},
+		"conditions": "@language:english",
+		"description": null,
+		"dialog_node": "node_16_1499242526885",
+		"previous_sibling": "node_4_1499203005477"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["Please write \"restart\" to start from the beginning :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"e1s1": "",
+			"wait": "none",
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "E1S2"
+	}, {
+		"type": "standard",
+		"title": "E1S1T1",
+		"output": {
+			"text": {
+				"values": ["Hi $first_name, I've just noticed that I gained 3 kg after holidays :( "],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"e1s1": "",
+			"e1s2": "",
+			"e1s3": "",
+			"wait": "none",
+			"answer1": "",
+			"answer2": "",
+			"answer3": "",
+			"episode": 1,
+			"trigger": "user",
+			"scenario": 1,
+			"dialog_turn": 1
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$new_user==true || input.text.contains('GET_STARTED') || input.text.contains('restart')",
+		"description": null,
+		"dialog_node": "E1S1T1",
+		"previous_sibling": "node_16_1499242526885"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": {
+			"locale": "pl_PL",
+			"switch2": "on",
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:28:06.190Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@language:polish",
+		"description": null,
+		"dialog_node": "node_4_1499203005477",
+		"previous_sibling": "node_1_1508136130736"
+	}, {
+		"type": "standard",
+		"title": "E1S2",
+		"output": {},
+		"parent": null,
+		"context": {
+			"wait": 0,
+			"episode": 1,
+			"counter1": 1,
+			"scenario": 2,
+			"dialog_turn": 1
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "E1S2",
+		"previous_sibling": "E1S1T1"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"episode": 1,
+			"scenario": 1,
+			"dialog_turn": 10
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#meow",
+		"description": null,
+		"dialog_node": "node_1_1508136130736",
+		"previous_sibling": "node_117_1499087396526"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": {
+			"wait": "none",
+			"dialog_turn": "none"
+		},
+		"created": "2017-10-17T16:13:01.765Z",
+		"updated": "2017-10-17T16:13:01.765Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "input.text.contains('referral555')",
+		"description": null,
+		"dialog_node": "node_117_1499087396526",
+		"previous_sibling": null
+	}],
+	"workspace_id": "dd58466d-22dd-4c6e-8926-9bb341295550",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

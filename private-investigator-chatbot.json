@@ -1,1 +1,2914 @@
-{"name":"crime-scene-PI","created":"2017-11-10T10:36:20.870Z","intents":[{"intent":"restart","created":"2017-11-12T04:03:44.221Z","updated":"2017-11-12T04:03:55.225Z","examples":[{"text":"start over","created":"2017-11-12T04:03:55.225Z","updated":"2017-11-12T04:03:55.225Z"},{"text":"quit","created":"2017-11-12T04:03:52.285Z","updated":"2017-11-12T04:03:52.285Z"},{"text":"restart","created":"2017-11-12T04:03:45.852Z","updated":"2017-11-12T04:03:45.852Z"},{"text":"reset","created":"2017-11-12T04:03:50.682Z","updated":"2017-11-12T04:03:50.682Z"}],"description":null},{"intent":"2_HowLongBeenTogether","created":"2017-11-15T00:55:08.674Z","updated":"2017-11-15T00:55:37.988Z","examples":[{"text":"How long have you and vanessa been together?","created":"2017-11-15T00:55:32.787Z","updated":"2017-11-15T00:55:32.787Z"},{"text":"How long have you been dating vanessa?","created":"2017-11-15T00:55:37.988Z","updated":"2017-11-15T00:55:37.988Z"},{"text":"How long have you been together?","created":"2017-11-15T00:55:21.296Z","updated":"2017-11-15T00:55:21.296Z"},{"text":"Been dating long?","created":"2017-11-15T00:55:25.104Z","updated":"2017-11-15T00:55:25.104Z"}],"description":null},{"intent":"8_LastTimeSawSuspect","created":"2017-11-15T00:41:36.613Z","updated":"2017-11-15T00:42:47.183Z","examples":[{"text":"when was the last time you saw vanessa","created":"2017-11-15T00:42:37.631Z","updated":"2017-11-15T00:42:37.631Z"},{"text":"have you seen vanessa recently","created":"2017-11-15T00:42:47.183Z","updated":"2017-11-15T00:42:47.183Z"},{"text":"did you see vanessa","created":"2017-11-15T00:42:39.978Z","updated":"2017-11-15T00:42:39.978Z"}],"description":null},{"intent":"shoot_breeze","created":"2017-11-12T06:52:51.190Z","updated":"2017-11-14T23:12:37.066Z","examples":[{"text":"how are you doing?","created":"2017-11-12T06:54:16.806Z","updated":"2017-11-12T06:54:16.806Z"},{"text":"what's up with you?","created":"2017-11-12T06:54:24.866Z","updated":"2017-11-12T06:54:24.866Z"},{"text":"good evening","created":"2017-11-12T06:54:31.098Z","updated":"2017-11-12T06:54:31.098Z"},{"text":"hello","created":"2017-11-12T06:54:35.203Z","updated":"2017-11-12T06:54:56.145Z"},{"text":"hi","created":"2017-11-12T07:32:37.469Z","updated":"2017-11-12T07:32:37.469Z"},{"text":"how are you","created":"2017-11-12T11:57:16.163Z","updated":"2017-11-12T11:57:16.163Z"},{"text":"how are you feeling?","created":"2017-11-12T06:54:19.929Z","updated":"2017-11-12T06:54:19.929Z"}],"description":null},{"intent":"welcome","created":"2017-11-10T12:18:29.958Z","updated":"2017-11-14T23:24:15.078Z","examples":[{"text":"how are you","created":"2017-11-10T12:18:29.958Z","updated":"2017-11-10T12:18:29.958Z"},{"text":"hey","created":"2017-11-10T12:18:29.958Z","updated":"2017-11-10T12:18:29.958Z"},{"text":"hello","created":"2017-11-10T12:18:29.958Z","updated":"2017-11-10T12:18:29.958Z"},{"text":"hi","created":"2017-11-10T12:18:29.958Z","updated":"2017-11-10T12:18:29.958Z"},{"text":"sure","created":"2017-11-10T12:32:46.550Z","updated":"2017-11-10T12:32:46.550Z"},{"text":"yes","created":"2017-11-10T13:20:04.421Z","updated":"2017-11-10T13:20:04.421Z"},{"text":"welcome","created":"2017-11-10T12:18:29.958Z","updated":"2017-11-10T12:18:29.958Z"}],"description":null},{"intent":"8_HowKnowSuspect","created":"2017-11-15T00:41:10.969Z","updated":"2017-11-15T00:43:21.363Z","examples":[{"text":"what do you know about the victim","created":"2017-11-15T00:43:10.606Z","updated":"2017-11-15T00:43:10.606Z"},{"text":"how do you know vanessa","created":"2017-11-15T00:42:59.244Z","updated":"2017-11-15T00:42:59.244Z"},{"text":"what do you know about vanessa","created":"2017-11-15T00:43:04.773Z","updated":"2017-11-15T00:43:04.773Z"},{"text":"how do you know the victim","created":"2017-11-15T00:43:15.476Z","updated":"2017-11-15T00:43:15.476Z"},{"text":"do you know the victim","created":"2017-11-15T00:43:18.806Z","updated":"2017-11-15T00:43:18.806Z"},{"text":"do you know vanessa","created":"2017-11-15T00:43:21.363Z","updated":"2017-11-15T00:43:21.363Z"}],"description":null},{"intent":"4_SpeakToSomeoneElse","created":"2017-11-12T10:29:01.849Z","updated":"2017-11-14T23:17:00.105Z","examples":[{"text":"I think we're done here.","created":"2017-11-12T10:29:09.016Z","updated":"2017-11-12T10:29:09.016Z"},{"text":"I'd like to talk to someone else","created":"2017-11-12T10:29:13.711Z","updated":"2017-11-12T10:29:13.711Z"},{"text":"Can I talk to someone else","created":"2017-11-12T10:29:17.168Z","updated":"2017-11-12T10:29:17.168Z"},{"text":"Talk to suspect 1","created":"2017-11-12T10:29:27.798Z","updated":"2017-11-12T10:29:27.798Z"},{"text":"Quit","created":"2017-11-12T10:29:33.431Z","updated":"2017-11-12T10:29:33.431Z"},{"text":"Leave","created":"2017-11-12T10:29:39.877Z","updated":"2017-11-12T10:29:39.877Z"},{"text":"Switch","created":"2017-11-12T10:29:41.381Z","updated":"2017-11-12T10:29:41.381Z"},{"text":"Talk to suspect 2","created":"2017-11-12T10:29:47.515Z","updated":"2017-11-12T10:29:47.515Z"},{"text":"Talk to suspect 3","created":"2017-11-12T10:29:50.586Z","updated":"2017-11-12T10:29:50.586Z"},{"text":"change subject","created":"2017-11-14T23:16:57.691Z","updated":"2017-11-14T23:16:57.691Z"},{"text":"subject","created":"2017-11-14T23:17:00.105Z","updated":"2017-11-14T23:17:00.105Z"}],"description":null},{"intent":"8_Accuse","created":"2017-11-15T00:41:49.315Z","updated":"2017-11-15T00:43:32.120Z","examples":[{"text":"You did it","created":"2017-11-15T00:42:08.566Z","updated":"2017-11-15T00:42:08.566Z"},{"text":"why did you kill her?","created":"2017-11-15T00:43:32.120Z","updated":"2017-11-15T00:43:32.120Z"},{"text":"why did you do it","created":"2017-11-15T00:42:13.057Z","updated":"2017-11-15T00:42:13.057Z"},{"text":"I know you did it","created":"2017-11-15T00:42:11.024Z","updated":"2017-11-15T00:42:11.024Z"}],"description":null},{"intent":"need_help","created":"2017-11-12T06:30:15.703Z","updated":"2017-11-12T06:30:33.629Z","examples":[{"text":"I need help","created":"2017-11-12T06:30:20.309Z","updated":"2017-11-12T06:30:20.309Z"},{"text":"help me","created":"2017-11-12T06:30:22.477Z","updated":"2017-11-12T06:30:22.477Z"},{"text":"help","created":"2017-11-12T06:30:23.522Z","updated":"2017-11-12T06:30:23.522Z"},{"text":"can I have a hint?","created":"2017-11-12T06:30:31.282Z","updated":"2017-11-12T06:30:31.282Z"},{"text":"hint","created":"2017-11-12T06:30:33.629Z","updated":"2017-11-12T06:30:33.629Z"}],"description":null}],"updated":"2017-11-15T12:16:37.122Z","entities":[{"entity":"2_Suspects","values":[{"type":"synonyms","value":"suspects","created":"2017-11-10T13:27:44.716Z","updated":"2017-11-10T13:27:44.716Z","metadata":null,"synonyms":["the suspects","possible perpetrators"]}],"created":"2017-11-10T12:38:31.634Z","updated":"2017-11-10T13:27:44.716Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"3_BrentWhite","values":[{"type":"synonyms","value":"brent white","created":"2017-11-12T10:11:57.520Z","updated":"2017-11-15T01:40:04.100Z","metadata":null,"synonyms":["brent","white","ex"]}],"created":"2017-11-12T10:11:45.412Z","updated":"2017-11-15T01:40:04.100Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"9_Blood","values":[{"type":"synonyms","value":"blood","created":"2017-11-15T00:24:23.828Z","updated":"2017-11-15T00:24:37.071Z","metadata":null,"synonyms":["blood type","bleeding","matches you"]}],"created":"2017-11-15T00:24:10.244Z","updated":"2017-11-15T00:24:37.071Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"2_VictimName","values":[{"type":"synonyms","value":"name","created":"2017-11-12T06:09:45.683Z","updated":"2017-11-12T06:09:45.683Z","metadata":null,"synonyms":["what was she called","her name","any identification?"]}],"created":"2017-11-12T06:09:36.403Z","updated":"2017-11-12T06:09:45.683Z","metadata":null,"description":null},{"entity":"3_NateBrockheimer","values":[{"type":"synonyms","value":"nate brockheimer","created":"2017-11-12T10:10:27.066Z","updated":"2017-11-15T01:39:45.316Z","metadata":null,"synonyms":["nate","brockheimer","neighbor"]}],"created":"2017-11-12T10:09:44.793Z","updated":"2017-11-15T01:39:45.316Z","metadata":null,"description":null},{"entity":"2_Glass","values":[{"type":"synonyms","value":"glass","created":"2017-11-12T06:27:56.441Z","updated":"2017-11-12T06:27:56.441Z","metadata":null,"synonyms":["broken glass","wineglass","murder weapon","stabby stabby"]}],"created":"2017-11-12T06:27:20.855Z","updated":"2017-11-12T06:27:56.441Z","metadata":null,"description":null},{"entity":"4_Motive","values":[{"type":"synonyms","value":"motive","created":"2017-11-12T10:49:32.141Z","updated":"2017-11-15T01:27:15.068Z","metadata":null,"synonyms":["reason","cause"]}],"created":"2017-11-12T10:27:18.275Z","updated":"2017-11-15T01:27:15.068Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"2_CrimeScene","values":[{"type":"synonyms","value":"crime scene","created":"2017-11-10T13:27:55.103Z","updated":"2017-11-10T13:27:55.103Z","metadata":null,"synonyms":["room","surroundings","scene"]}],"created":"2017-11-10T12:35:44.789Z","updated":"2017-11-10T13:27:55.103Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"yesno","values":[{"type":"synonyms","value":"yes","created":"2017-11-10T12:21:25.746Z","updated":"2017-11-12T05:41:03.961Z","metadata":null,"synonyms":["okay","sure","fine","ok","sounds good","yeah","all right","yep"]},{"type":"synonyms","value":"no","created":"2017-11-10T12:21:45.551Z","updated":"2017-11-10T12:24:04.200Z","metadata":null,"synonyms":["nah","no thank you"]}],"created":"2017-11-10T12:20:15.790Z","updated":"2017-11-12T05:41:03.961Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"2_Footprints","values":[{"type":"synonyms","value":"footprints","created":"2017-11-12T06:35:06.944Z","updated":"2017-11-12T06:35:06.944Z","metadata":null,"synonyms":["foot prints","shoes","feet"]}],"created":"2017-11-12T06:33:38.977Z","updated":"2017-11-12T06:35:06.944Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"2_Age","values":[{"type":"synonyms","value":"age","created":"2017-11-15T01:19:02.633Z","updated":"2017-11-15T01:19:09.828Z","metadata":null,"synonyms":["how old was she"]}],"created":"2017-11-15T01:18:59.901Z","updated":"2017-11-15T01:19:09.828Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"4_Alibi","values":[{"type":"synonyms","value":"alibi","created":"2017-11-12T10:50:07.994Z","updated":"2017-11-12T10:50:07.994Z","metadata":null,"synonyms":["where were you","where","explanation"]}],"created":"2017-11-12T10:27:07.204Z","updated":"2017-11-12T10:50:07.994Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"2_Victim","values":[{"type":"synonyms","value":"Victim","created":"2017-11-10T13:27:49.606Z","updated":"2017-11-10T13:27:49.606Z","metadata":null,"synonyms":["the woman","her"]}],"created":"2017-11-10T12:37:16.954Z","updated":"2017-11-10T13:27:49.606Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"2_Crime","values":[{"type":"synonyms","value":"crime","created":"2017-11-12T05:47:46.837Z","updated":"2017-11-12T05:47:46.837Z","metadata":null,"synonyms":["what happened","what's going on"]}],"created":"2017-11-12T05:46:58.300Z","updated":"2017-11-12T05:47:46.837Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"2_Evidence","values":[{"type":"synonyms","value":"evidence","created":"2017-11-12T06:24:02.047Z","updated":"2017-11-14T21:54:50.039Z","metadata":null,"synonyms":["physical evidence","anything stick out to you","look around","did you find anything?","find anything?"]}],"created":"2017-11-12T06:23:56.433Z","updated":"2017-11-14T21:54:50.039Z","metadata":null,"description":null},{"entity":"UserAllCaps","values":[{"type":"patterns","value":"AllCaps","created":"2017-11-10T12:47:32.505Z","updated":"2017-11-10T12:47:32.688Z","metadata":null,"patterns":["^[^a-z]*$"]}],"created":"2017-11-10T12:45:36.213Z","updated":"2017-11-10T12:47:32.688Z","metadata":null,"description":null},{"entity":"2_VictimInjuries","values":[{"type":"synonyms","value":"injuries","created":"2017-11-12T07:40:52.116Z","updated":"2017-11-12T07:41:10.731Z","metadata":null,"synonyms":["injured","examine","inspect"]}],"created":"2017-11-12T07:40:08.377Z","updated":"2017-11-12T07:41:10.731Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"4_MoveOn","values":[{"type":"synonyms","value":"move on","created":"2017-11-12T11:51:00.917Z","updated":"2017-11-12T11:51:00.917Z","metadata":null,"synonyms":["finish","quit","done","finished"]}],"created":"2017-11-12T11:50:37.794Z","updated":"2017-11-12T11:51:00.917Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"2_Witnesses","values":[{"type":"synonyms","value":"witnesses","created":"2017-11-15T00:49:05.665Z","updated":"2017-11-15T00:49:05.665Z","metadata":null,"synonyms":["see the crime","witness","hear the crime"]}],"created":"2017-11-15T00:46:53.468Z","updated":"2017-11-15T00:49:05.665Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"4_ShoeSize","values":[{"type":"synonyms","value":"shoe size","created":"2017-11-12T10:47:55.485Z","updated":"2017-11-12T10:50:24.078Z","metadata":null,"synonyms":["shoe","size","shoes","are you a size 10"]}],"created":"2017-11-12T10:26:56.555Z","updated":"2017-11-12T10:50:24.078Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"3_EdVoris","values":[{"type":"synonyms","value":"ed voris","created":"2017-11-12T10:10:03.963Z","updated":"2017-11-15T01:39:35.674Z","metadata":null,"synonyms":["ed","voris","one","boyfriend"]}],"created":"2017-11-12T10:07:54.151Z","updated":"2017-11-15T01:39:35.674Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"9_CutHand","values":[{"type":"synonyms","value":"cut","created":"2017-11-15T00:28:57.883Z","updated":"2017-11-15T00:28:57.883Z","metadata":null,"synonyms":["cut hand","hand","bandage","arm","your hand"]}],"created":"2017-11-15T00:26:25.469Z","updated":"2017-11-15T00:28:57.883Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"#mindsumochallenge Investigate a murder, but watch your back! This crime scene isn't as safe as we'd all like to think.","dialog_nodes":[{"title":"Finished game, congratulate player!","output":{"text":{"values":["Congratulations Detective! Solving this case will definitely propel your career onwards and upwards. Good Job!"],"selection_policy":"sequential"}},"parent":"node_27_1510699795255","context":{"img_ico":1},"created":"2017-11-15T00:01:44.363Z","updated":"2017-11-15T08:17:39.296Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"anything_else","description":null,"dialog_node":"node_1_1510704103931","previous_sibling":null},{"title":"Accusation","output":{"text":{"values":["Now that you've seen all the evidence and heard all the stories, is there anyone you'd like to accuse?"],"selection_policy":"sequential"}},"parent":"node_1_1510487572990","context":null,"created":"2017-11-12T11:50:17.090Z","updated":"2017-11-12T13:02:29.194Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_4_1510487806405","previous_sibling":null},{"title":"(2) Hint","output":{"text":{"values":["Maybe if you asked me more about the Crime Scene or Victim I would be able to assist you better?"],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-12T06:30:48.013Z","updated":"2017-11-12T06:31:45.958Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"#need_help","description":null,"dialog_node":"node_13_1510468637717","previous_sibling":"node_6_1510469929941"},{"title":"(2) How are you doing?","output":{"text":{"values":["I'm doing okay, thanks. It's freezing cold out here so get to work solving this crime, chief!"],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-12T06:52:20.242Z","updated":"2017-11-15T00:51:23.442Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"#shoot_breeze","description":null,"dialog_node":"node_6_1510469929941","previous_sibling":"node_7_1510317613394"},{"title":"Angry Response!","output":{"text":{"values":["Hey, calm down there. Now, what can I help you with?"],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":{"anger":0},"created":"2017-11-15T11:28:33.225Z","updated":"2017-11-15T12:16:37.122Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"$anger:1","description":null,"dialog_node":"node_1_1510745704440","previous_sibling":"node_8_1510470160677"},{"type":"response_condition","title":null,"output":{"text":{"values":[]}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-12T06:00:34.582Z","updated":"2017-11-12T06:00:42.110Z","disabled":true,"metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_8_1510466824381","previous_sibling":"node_7_1510466799444"},{"type":"response_condition","title":null,"output":{"text":{"values":[]}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-12T06:00:09.665Z","updated":"2017-11-12T06:00:41.894Z","disabled":true,"metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_7_1510466799444","previous_sibling":"node_13_1510468637717"},{"title":"(2) Talk about Victim","output":{"text":{"values":["I can't let you get close to the victim right now, but is there any information you'd like to hear about her?","Anything you'd like to hear about the victim?"],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":{"met_victim":1},"created":"2017-11-10T12:33:45.955Z","updated":"2017-11-15T05:11:53.540Z","metadata":null,"next_step":null,"conditions":"@2_Victim","description":null,"dialog_node":"node_7_1510317613394","previous_sibling":"node_8_1510317617843"},{"type":"response_condition","title":null,"output":{"text":{"values":[]}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-12T06:00:35.724Z","updated":"2017-11-12T06:00:42.304Z","disabled":true,"metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_9_1510466825517","previous_sibling":"node_8_1510466824381"},{"title":"(2) Ask about witnesses","output":{"text":{"values":["There were no witnesses to the crime, and no reports were made until her body was discovered the next day."],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-15T00:46:28.981Z","updated":"2017-11-15T00:48:01.187Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"@2_Witnesses","description":null,"dialog_node":"node_1_1510706788589","previous_sibling":"node_1_1510745704440"},{"title":"(2) Hear about the Crime (Place under Crime Scene)","output":{"text":{"values":["Here's what I know right now. We have a female here who is dead, stabbed several times in the stomach. Looks like the perp did it with a broken wine glass left at the scene. No witnesses, but I bet I'd be able to help you get a better understanding of what happened here. Ask away!",""],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":{"met_victim":1},"created":"2017-11-12T05:44:49.177Z","updated":"2017-11-12T07:13:51.100Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"@2_Crime","description":null,"dialog_node":"node_3_1510465878997","previous_sibling":"node_2_1510311267714"},{"title":"(2) Talk about Crime Scene or Evidence","output":{"text":{"values":["Not much to see in the crime scene. We do have two pieces of evidence though, the broken wineglass (which was used as the murder weapon) and some footprints outside. If you would like to hear about the \"wineglass\" or \"footprints\" let me know.","Not much to see in the crime scene. We do have two pieces of evidence though, the broken wineglass (which was used as the murder weapon) and some footprints outside. (Hint: Try asking about the wineglass or the footprints)"],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-10T10:48:00.462Z","updated":"2017-11-15T01:18:07.133Z","metadata":null,"next_step":null,"conditions":"@2_CrimeScene || @2_Evidence","description":null,"dialog_node":"node_2_1510311267714","previous_sibling":"node_1_1510706788589"},{"title":"(2) Talk about Possible Suspects","output":{"text":{"values":["We have three suspects right now, a young man by the name of Ed Voris, another by the name Nate Brockheimer, and one Brent White. All three have possible motives for killing our victim, but its up to you to decipher who did it. And hopefully tonight, I'm hoping to get home pretty soon.",""],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-10T12:33:50.379Z","updated":"2017-11-14T22:55:23.458Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"@2_Suspects","description":null,"dialog_node":"node_8_1510317617843","previous_sibling":"node_3_1510465878997"},{"title":"(2) Conclusion of Crime Scene","output":{"text":{"values":["Looks like you've gotten everything you need out of the crime scene, chief. We're headed down to the Station to interrogate the subjects. Just remember the two main things we've learned: the killer was wearing size 10M shoes and that we're going to be hearing about the blood work on the wineglass soon. Want a ride?"],"selection_policy":"sequential"}},"parent":"node_5_1510466382644","context":null,"created":"2017-11-12T06:56:10.955Z","updated":"2017-11-12T17:32:40.737Z","metadata":null,"next_step":null,"conditions":"$met_victim:1 && $evid_1:1 && $evid_2:1 && anything_else","description":null,"dialog_node":"node_8_1510470160677","previous_sibling":null},{"title":"(4) Ask to speak to someone else","output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"node_23_1510480611357","context":null,"created":"2017-11-12T09:49:16.199Z","updated":"2017-11-15T01:23:34.744Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"#4_SpeakToSomeoneElse","description":null,"dialog_node":"node_21_1510480545662","previous_sibling":"node_20_1510480520069"},{"title":"(4) Ask about Alibi","output":{},"parent":"node_23_1510480611357","context":null,"created":"2017-11-12T09:48:25.698Z","updated":"2017-11-12T11:28:13.143Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"@4_Alibi","description":null,"dialog_node":"node_18_1510480495150","previous_sibling":"node_3_1510707197909"},{"title":"(4) Move on","output":{"text":{"values":["You are set to move onto end of program."],"selection_policy":"sequential"}},"parent":"node_23_1510480611357","context":{"nomoveon":0},"created":"2017-11-12T11:48:47.685Z","updated":"2017-11-14T23:19:10.080Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"@4_MoveOn","description":null,"dialog_node":"node_3_1510487717007","previous_sibling":"node_5_1510483133822"},{"title":"(4) Ask Shoe Size","output":{"text":{"values":[]}},"parent":"node_23_1510480611357","context":{"has_size":1},"created":"2017-11-12T09:48:50.584Z","updated":"2017-11-15T01:15:34.683Z","metadata":{"_customization":{"mcr":false}},"next_step":{"behavior":"skip_user_input","dialog_node":"node_23_1510480611357"},"conditions":"@4_ShoeSize","description":null,"dialog_node":"node_20_1510480520069","previous_sibling":"node_20_1510487349166"},{"title":"(4) Accuse","output":{},"parent":"node_23_1510480611357","context":null,"created":"2017-11-15T00:56:29.206Z","updated":"2017-11-15T00:58:24.142Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"#8_Accuse","description":null,"dialog_node":"node_4_1510707388934","previous_sibling":"node_21_1510480545662"},{"title":"Ask for Help","output":{"text":{"values":["Try asking the suspects about their shoe size, motive, or alibis for starters. Remember, you can change the subject you are interviewing at any time. And once we've gotten everyone's shoe sizes we can move onto building a stronger case and make an accusation.","Try asking the suspects about their shoe size, motive, or alibis for starters. Remember, you can change the subject you are interviewing at any time. And once we've gotten everyone's shoe sizes we can move onto building a stronger case and make an accusation. Another hint: Try asking each witness about their shoe sizes, directly."],"selection_policy":"sequential"}},"parent":"node_23_1510480611357","context":null,"created":"2017-11-12T10:32:24.406Z","updated":"2017-11-14T22:22:52.015Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"#need_help","description":null,"dialog_node":"node_5_1510483133822","previous_sibling":"node_19_1510480507590"},{"title":"(4) How long been with Vanessa","output":{"text":{"values":["A few years now. We have been very happy with each other.. I don't know why anyone would do this."],"selection_policy":"sequential"}},"parent":"node_23_1510480611357","context":null,"created":"2017-11-15T00:53:18.256Z","updated":"2017-11-15T00:55:08.484Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"$suspect == \"Ed\" && #2_HowLongBeenTogether","description":null,"dialog_node":"node_3_1510707197909","previous_sibling":"node_4_1510707388934"},{"title":"(4) Ask about how suspect is doing","output":{},"parent":"node_23_1510480611357","context":null,"created":"2017-11-12T09:48:38.126Z","updated":"2017-11-14T23:27:18.097Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"#shoot_breeze","description":null,"dialog_node":"node_19_1510480507590","previous_sibling":"node_17_1510480461149"},{"title":"(4) Ask about motive","output":{},"parent":"node_23_1510480611357","context":null,"created":"2017-11-12T09:47:51.672Z","updated":"2017-11-12T11:13:02.215Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"@4_Motive","description":null,"dialog_node":"node_17_1510480461149","previous_sibling":"node_18_1510480495150"},{"title":"(4) Finished Interrogation, progress?","output":{"text":{"values":["You've spoken with all suspects now. Would you like to move on, yes or no? If not, just tell me when you'd like to \"move on\"."],"selection_policy":"sequential"}},"parent":"node_23_1510480611357","context":{"img_ico":1},"created":"2017-11-12T11:42:39.841Z","updated":"2017-11-15T08:16:14.498Z","metadata":null,"next_step":null,"conditions":"$ed:1 && $nate:1 && $brent:1 && $nomoveon:0","description":null,"dialog_node":"node_20_1510487349166","previous_sibling":null},{"title":"(2) Victim's Age","output":{"text":{"values":["The victim's age is 25.. too young to die like this."],"selection_policy":"sequential"}},"parent":"node_7_1510317613394","context":null,"created":"2017-11-15T00:50:09.128Z","updated":"2017-11-15T01:20:22.569Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_7_1510317613394"},"conditions":"@2_Age","description":null,"dialog_node":"node_2_1510707008758","previous_sibling":"node_12_1510472618540"},{"title":"(2) Asking for Victim's Name","output":{"text":{"values":["The victim's name was Vanessa Winchester.","Her name was Vanessa Winchester."],"selection_policy":"sequential"}},"parent":"node_7_1510317613394","context":null,"created":"2017-11-12T06:09:55.741Z","updated":"2017-11-12T06:13:54.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_7_1510317613394"},"conditions":"@2_VictimName","description":null,"dialog_node":"node_11_1510467385509","previous_sibling":"node_10_1510467251372"},{"title":"(2) Asking about injuries/what happened","output":{"text":{"values":["We know that she has 10 stab wounds in her abdomen. No other injuries to her body, although judging by the blood splatters in the room the Victim was very agitated as she was dying. Unfortunately it doesn't look like she was able to scratch him, otherwise there would be some of the perp's skin under her fingernails."],"selection_policy":"sequential"}},"parent":"node_7_1510317613394","context":null,"created":"2017-11-12T07:37:08.869Z","updated":"2017-11-15T00:50:05.467Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_7_1510317613394"},"conditions":"@2_VictimInjuries","description":null,"dialog_node":"node_12_1510472618540","previous_sibling":"node_11_1510467385509"},{"title":null,"output":{"text":{"values":["No problem, lets talk about something else."],"selection_policy":"sequential"}},"parent":"node_7_1510317613394","context":null,"created":"2017-11-12T06:07:41.588Z","updated":"2017-11-12T06:08:11.414Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"@yesno:no","description":null,"dialog_node":"node_10_1510467251372","previous_sibling":null},{"title":null,"output":{"text":{"values":["Okay, you probably brought your own car anyways. See you there."],"selection_policy":"sequential"}},"parent":"node_8_1510470160677","context":null,"created":"2017-11-12T07:22:44.882Z","updated":"2017-11-12T07:30:49.629Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_11_1510471803693"},"conditions":"@yesno:no","description":null,"dialog_node":"node_10_1510471754534","previous_sibling":"node_9_1510471689214"},{"title":null,"output":{"text":{"values":["I didn't understand that. See you at the station though."],"selection_policy":"sequential"}},"parent":"node_8_1510470160677","context":null,"created":"2017-11-12T10:01:08.126Z","updated":"2017-11-12T10:02:04.594Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_11_1510471803693"},"conditions":"anything_else","description":null,"dialog_node":"node_27_1510481257573","previous_sibling":"node_10_1510471754534"},{"title":null,"output":{"text":{"values":["Okay, let's go!"],"selection_policy":"sequential"}},"parent":"node_8_1510470160677","context":null,"created":"2017-11-12T07:21:39.568Z","updated":"2017-11-12T07:30:37.411Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"@yesno:yes","description":null,"dialog_node":"node_9_1510471689214","previous_sibling":null},{"title":"(9) Moving to confession...","output":{"text":{"values":["Okay well what proof do you have anyways to be accusing me?!","Now, do you have any actual proof?"],"selection_policy":"sequential"}},"parent":"node_12_1510698924858","context":null,"created":"2017-11-14T22:41:45.115Z","updated":"2017-11-15T01:28:22.755Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_22_1510699304990","previous_sibling":null},{"title":"Confession","output":{"text":{"values":["All right.. you got me. Yeah I did murder her, I'm so sorry... I just couldn't stand seeing her with that Ed guy. I think I was justified all along."],"selection_policy":"sequential"}},"parent":"node_23_1510699356821","context":null,"created":"2017-11-14T22:49:55.639Z","updated":"2017-11-15T00:02:47.256Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"anything_else","description":null,"dialog_node":"node_27_1510699795255","previous_sibling":null},{"title":"Developer","output":{"text":{"values":["Thank you for playing! I know it was a little rough around the edges sometimes but as a first try with AI this project definitely shows the possibilities for video games and AI that Conversations by IBM can achieve with just a little bit of elbow grease.  \n \nThe developer can be contacted at http://github.com/joshuajolly.\n \nThanks again!"],"selection_policy":"sequential"}},"parent":"node_1_1510704103931","context":null,"created":"2017-11-15T00:02:19.343Z","updated":"2017-11-15T01:28:58.839Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"anything_else","description":null,"dialog_node":"node_2_1510704138899","previous_sibling":null},{"title":"(5) Decide who to interrogate now","output":{"text":{"values":["Who would you like to interrogate now? You may interrogate her Ex (Brent), or her neighbor (Nate)."],"selection_policy":"sequential"}},"parent":"node_10_1510492931374","context":null,"created":"2017-11-14T21:49:44.240Z","updated":"2017-11-14T23:41:45.781Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_1_1510696184106","previous_sibling":null},{"title":null,"output":{"text":{"values":["My shoe size is 6M."],"selection_policy":"sequential"}},"parent":"node_20_1510480520069","context":{"brent":1},"created":"2017-11-12T11:36:24.995Z","updated":"2017-11-12T12:06:18.384Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"$suspect == 'Brent'","description":null,"dialog_node":"node_16_1510486974318","previous_sibling":"node_15_1510486960982"},{"title":null,"output":{"text":{"values":["I think my shoe size is like 5M."],"selection_policy":"sequential"}},"parent":"node_20_1510480520069","context":{"nate":1},"created":"2017-11-12T11:36:11.686Z","updated":"2017-11-12T12:06:14.032Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"$suspect == 'Nate'","description":null,"dialog_node":"node_15_1510486960982","previous_sibling":"node_14_1510486924711"},{"type":"response_condition","title":null,"output":{"text":{"values":[]}},"parent":"node_20_1510480520069","context":null,"created":"2017-11-12T11:37:09.621Z","updated":"2017-11-15T01:14:51.491Z","disabled":true,"metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_17_1510487018952","previous_sibling":"node_16_1510486974318"},{"title":null,"output":{"text":{"values":["I'm a size 10M. What does this have to do with the investigation? Actually.. don't answer that."],"selection_policy":"sequential"}},"parent":"node_20_1510480520069","context":{"ed":1},"created":"2017-11-12T11:35:35.402Z","updated":"2017-11-12T12:06:09.825Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"$suspect == 'Ed'","description":null,"dialog_node":"node_14_1510486924711","previous_sibling":null},{"title":null,"output":{},"parent":"node_6_1510704311387","context":null,"created":"2017-11-15T00:05:55.862Z","updated":"2017-11-15T00:06:04.408Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_4_1510704241903"},"conditions":"anything_else","description":null,"dialog_node":"node_7_1510704355410","previous_sibling":null},{"title":"Play again?","output":{"text":{"values":["Would you like to play again?"],"selection_policy":"sequential"}},"parent":"node_2_1510704138899","context":null,"created":"2017-11-15T00:04:02.344Z","updated":"2017-11-15T01:29:16.503Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_4_1510704241903","previous_sibling":null},{"title":"(1) Investigation of Crime Scene (Second Stage)","output":{"text":{"values":["Sounds good. What would you like to hear about the murder?","Anything you'd like to hear about the murder?","What would you like to ask about what happened? (Hint: try asking about evidence or the victim)"],"selection_policy":"sequential"}},"parent":"node_1_1510310867946","context":null,"created":"2017-11-12T05:53:12.914Z","updated":"2017-11-15T12:16:20.933Z","metadata":{"_customization":{"mcr":false}},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_5_1510466382644","previous_sibling":null},{"title":null,"output":{},"parent":"node_12_1510468343942","context":null,"created":"2017-11-12T06:41:57.625Z","updated":"2017-11-12T06:42:20.501Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"@yesno:no","description":null,"dialog_node":"node_3_1510469307358","previous_sibling":"node_2_1510469284221"},{"title":null,"output":{},"parent":"node_12_1510468343942","context":null,"created":"2017-11-12T06:41:35.156Z","updated":"2017-11-12T06:41:51.671Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_6_1510317607379"},"conditions":"@yesno:yes","description":null,"dialog_node":"node_2_1510469284221","previous_sibling":null},{"title":"(8) How do you know the suspect?","output":{"text":{"values":["I know her by her type. That sort of woman just infuriates me. They all deserve to die."],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:35:44.473Z","updated":"2017-11-15T00:41:10.924Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_22_1510699304990"},"conditions":"#8_HowKnowSuspect","description":null,"dialog_node":"node_13_1510698944395","previous_sibling":"node_12_1510698924858"},{"title":"(8) Ask about cuts on hands","output":{"text":{"values":["W-what are you talking about? ~puts hand under table~ I don't know what you are talking about!"],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:36:43.493Z","updated":"2017-11-15T00:37:12.709Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_22_1510699304990"},"conditions":"@9_CutHand","description":null,"dialog_node":"node_18_1510699003412","previous_sibling":"node_16_1510698972108"},{"title":"(8) Hello","output":{"text":{"values":["Hello."],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:35:10.480Z","updated":"2017-11-15T00:39:26.462Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1510696335056"},"conditions":"#welcome","description":null,"dialog_node":"node_11_1510698910418","previous_sibling":"node_19_1510699022229"},{"title":"(8) Motive","output":{"text":{"values":["I just think she was way out of line dating that horrible guy and she definitely deserves what was coming to her.."],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:35:54.252Z","updated":"2017-11-15T00:35:22.030Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1510696335056"},"conditions":"@4_Motive","description":null,"dialog_node":"node_14_1510698954092","previous_sibling":"node_13_1510698944395"},{"title":"(8) Change Suspect","output":{"text":{"values":["Yes, you can interview another suspect."],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:38:43.359Z","updated":"2017-11-15T00:11:09.820Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510696184106"},"conditions":"#4_SpeakToSomeoneElse","description":null,"dialog_node":"node_21_1510699123246","previous_sibling":"node_11_1510698910418"},{"title":"(8) Anything Else","output":{},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:37:12.888Z","updated":"2017-11-15T00:10:02.013Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1510696335056"},"conditions":"anything_else","description":null,"dialog_node":"node_20_1510699032708","previous_sibling":"node_21_1510699123246"},{"title":"(8) Why did you frame the boyfriend/did you do it/you did it?","output":{"text":{"values":["I didn't! It was an accident! This whole conversation is way out of line.."],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:36:12.197Z","updated":"2017-11-15T00:41:45.559Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_22_1510699304990"},"conditions":"#8_Accuse","description":null,"dialog_node":"node_16_1510698972108","previous_sibling":"node_15_1510698964348"},{"title":"(8) Alibi","output":{"text":{"values":["I was at home with my wife. Just go ask her, if she'll even talk to you. Why did Vanessa get to have all the happiness in her relationship?"],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:36:04.424Z","updated":"2017-11-15T00:36:12.231Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1510696335056"},"conditions":"@4_Alibi","description":null,"dialog_node":"node_15_1510698964348","previous_sibling":"node_14_1510698954092"},{"title":"(8) Help","output":{"text":{"values":["Try asking about motive, alibi, the last time the suspect saw the victim, etc."],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:37:02.303Z","updated":"2017-11-15T00:10:43.430Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1510696335056"},"conditions":"#need_help","description":null,"dialog_node":"node_19_1510699022229","previous_sibling":"node_18_1510699003412"},{"title":"(8) Last time you saw the suspect","output":{"text":{"values":["I guess the last time I saw her was.. just before she died, I guess. She was laying there in my arms like a perfect angel."],"selection_policy":"sequential"}},"parent":"node_3_1510696335056","context":null,"created":"2017-11-14T22:35:25.119Z","updated":"2017-11-15T00:41:36.580Z","metadata":null,"next_step":null,"conditions":"#8_LastTimeSawSuspect","description":null,"dialog_node":"node_12_1510698924858","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["That's a yes or no question, sorry.."]}},"parent":"node_1_1510320983380","context":null,"created":"2017-11-12T05:39:20.764Z","updated":"2017-11-14T22:13:52.026Z","metadata":null,"next_step":null,"conditions":"$curr_level:0","description":null,"dialog_node":"node_2_1510465550236","previous_sibling":"node_1_1510465505424"},{"type":"response_condition","title":null,"output":{"text":{"values":["Session ended because you requested a restart. Restarting now!"],"selection_policy":"sequential"}},"parent":"node_1_1510320983380","context":null,"created":"2017-11-12T05:38:35.663Z","updated":"2017-11-12T05:39:11.809Z","metadata":null,"next_step":null,"conditions":"#restart","description":null,"dialog_node":"node_1_1510465505424","previous_sibling":null},{"title":null,"output":{},"parent":"node_20_1510487349166","context":{"nomoveon":1},"created":"2017-11-12T11:47:02.043Z","updated":"2017-11-12T11:48:17.059Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"@yesno:no","description":null,"dialog_node":"node_2_1510487611359","previous_sibling":"node_1_1510487572990"},{"title":null,"output":{},"parent":"node_20_1510487349166","context":null,"created":"2017-11-12T11:46:23.687Z","updated":"2017-11-15T01:25:30.624Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"@yesno:yes || @4_MoveOn","description":null,"dialog_node":"node_1_1510487572990","previous_sibling":null},{"title":"anything_else","output":{"text":{"values":["Maybe ask me about the wineglass or footprints?"],"selection_policy":"sequential"}},"parent":"node_2_1510311267714","context":null,"created":"2017-11-14T22:59:19.265Z","updated":"2017-11-14T23:00:14.894Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510311267714"},"conditions":"anything_else","description":null,"dialog_node":"node_28_1510700359091","previous_sibling":"node_12_1510468343942"},{"title":"(2) Ask about Footprints left outside","output":{"text":{"values":["We found some footprints in the snow outside leading to the scene of the crime only. They have been positively identified as size 10M. It is a bit strange, because our Victim wears size 2F size shoes so it couldn't be her. And yet they don't leave the scene of the crime. Would you like to hear about the other piece of the physical evidence, yes or no?"],"selection_policy":"sequential"}},"parent":"node_2_1510311267714","context":{"evid_1":1},"created":"2017-11-12T06:25:54.171Z","updated":"2017-11-14T23:03:43.997Z","metadata":null,"next_step":null,"conditions":"@2_Footprints","description":null,"dialog_node":"node_12_1510468343942","previous_sibling":"node_6_1510317607379"},{"title":"(2) Ask about Wine Glass","output":{"text":{"values":["The wineglass used to stab the Victim is broken at the stem. It's covered in blood. Our techs at the lab are currently taking a look at at the blood on it, and will keep you posted. No fingerprints other than the Victims, though. Would you like to hear about the other piece of the physical evidence, yes or no?"],"selection_policy":"sequential"}},"parent":"node_2_1510311267714","context":{"evid_2":1},"created":"2017-11-10T12:33:39.940Z","updated":"2017-11-14T23:04:42.653Z","metadata":null,"next_step":null,"conditions":"@2_Glass","description":null,"dialog_node":"node_6_1510317607379","previous_sibling":null},{"title":"(3) Select Suspect to Interrogate","output":{"text":{"values":["Which suspect would you like to speak with now? Remember, we have Ed Voris, her neighbor Nate Brockheimer, and her ex-boyfriend Brent White here."],"selection_policy":"sequential"}},"parent":"node_11_1510471803693","context":{"has_size":0,"img_back":2,"nomoveon":0,"curr_level":3},"created":"2017-11-12T09:43:46.588Z","updated":"2017-11-15T08:27:44.621Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_13_1510480216077","previous_sibling":null},{"title":"Return to Level 3","output":{"text":{"values":["I don't understand what you mean. Can you try again?","What?","What do you mean? If you're feeling stuck, ask me for help?"],"selection_policy":"random"}},"parent":"node_1_1510319925356","context":null,"created":"2017-11-12T09:56:33.022Z","updated":"2017-11-14T22:13:27.382Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_13_1510480216077"},"conditions":"$curr_level:3","description":null,"dialog_node":"node_25_1510480981941","previous_sibling":"node_2_1510319979211"},{"title":"Return to Level 4","output":{"text":{"values":["What?","I don't understand what you mean. Can you try again?","What do you mean? If you're feeling stuck, ask me for help?"],"selection_policy":"random"}},"parent":"node_1_1510319925356","context":null,"created":"2017-11-12T09:56:41.832Z","updated":"2017-11-14T22:13:40.622Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"$curr_level:4","description":null,"dialog_node":"node_26_1510480991302","previous_sibling":"node_25_1510480981941"},{"title":"Return to Level 2","output":{"text":{"values":["I don't understand what you mean. Can you try again?","What?","What do you mean? If you're feeling stuck, ask me for help?"],"selection_policy":"sequential"}},"parent":"node_1_1510319925356","context":null,"created":"2017-11-10T13:13:11.827Z","updated":"2017-11-15T05:12:45.373Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"$curr_level:2","description":null,"dialog_node":"node_2_1510319979211","previous_sibling":"node_1_1510320983380"},{"title":"Restart Bot","output":{},"parent":"node_1_1510319925356","context":null,"created":"2017-11-10T13:29:55.976Z","updated":"2017-11-12T07:30:16.389Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"$curr_level:1 || #restart","description":null,"dialog_node":"node_1_1510320983380","previous_sibling":null},{"title":"Has not asked for shoe size","output":{"text":{"values":["Before you go, I am required to tell you my shoe size. Try asking for it?"],"selection_policy":"sequential"}},"parent":"node_21_1510480545662","context":null,"created":"2017-11-15T01:10:05.796Z","updated":"2017-11-15T01:14:42.553Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"$has_size:0","description":null,"dialog_node":"node_10_1510708205596","previous_sibling":"node_9_1510708204068"},{"title":"Has asked for shoe size","output":{"text":{"values":["Absolutely, you can speak to someone else."],"selection_policy":"sequential"}},"parent":"node_21_1510480545662","context":null,"created":"2017-11-15T01:10:04.272Z","updated":"2017-11-15T01:23:51.604Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_13_1510480216077"},"conditions":"$has_size:1","description":null,"dialog_node":"node_9_1510708204068","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["I'm really not doing okay. Poor girl. I wish I had been there to stop the killer. She really was a nice lady."]}},"parent":"node_19_1510480507590","context":null,"created":"2017-11-12T10:16:23.621Z","updated":"2017-11-12T12:05:55.415Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Nate'","description":null,"dialog_node":"node_2_1510482173014","previous_sibling":"node_1_1510482139023"},{"type":"response_condition","title":null,"output":{"text":{"values":["Good. Just want to get out of here as soon as possible. She's dead to me. Oh wait! Ha."]}},"parent":"node_19_1510480507590","context":null,"created":"2017-11-12T10:16:31.276Z","updated":"2017-11-12T12:05:57.562Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Brent'","description":null,"dialog_node":"node_3_1510482180494","previous_sibling":"node_2_1510482173014"},{"type":"response_condition","title":null,"output":{"text":{"values":["I'm doing okay, all things considered. I'm just really shook up about this whole thing with my girlfriend. And they think I did it!"]}},"parent":"node_19_1510480507590","context":null,"created":"2017-11-12T10:15:49.575Z","updated":"2017-11-12T12:05:31.266Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Ed'","description":null,"dialog_node":"node_1_1510482139023","previous_sibling":null},{"title":"Arrival at Police Station","output":{"text":{"values":["~Some time later~ Welcome to the police station! There are some suspects waiting for you in the interrogation cells. We have her current boyfriend Ed Voris, her neighbor Nate Brockheimer, and her ex-boyfriend Brent White. All three of them were in town at the time of the murders. Remember, you can change who you are interrogating at any time."],"selection_policy":"sequential"}},"parent":"node_9_1510471689214","context":{"ed":0,"nate":0,"brent":0,"img_back":2},"created":"2017-11-12T07:23:34.014Z","updated":"2017-11-15T08:27:40.167Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"anything_else","description":null,"dialog_node":"node_11_1510471803693","previous_sibling":null},{"title":"(6) Interrogate Brent (Ex)","output":{"text":{"values":["~You walk to Brent's Interrogation Cell and ask him about the unknown blood at the scene~ Brent: Wait! Before you ask me anything else, I saw the neighbor had cut marks on his hands when I saw him in the bathroom when he was taking his jacket off to wash his hands. You should ask him about it! Now, do you have anything you want to ask me?","Brent: I don't know anything further. Ask Nate about the cuts on his hands! Now, do you have anything else you'd like to ask me? (to switch suspect, say \"switch suspect\")"],"selection_policy":"sequential"}},"parent":"node_1_1510696184106","context":{"img_ico":4},"created":"2017-11-14T21:51:39.378Z","updated":"2017-11-15T08:17:10.935Z","metadata":null,"next_step":null,"conditions":"@3_BrentWhite","description":null,"dialog_node":"node_2_1510696299224","previous_sibling":"node_3_1510696335056"},{"title":"(5) Restart function due to lack of input","output":{"text":{"values":["I'm sorry, I don't understand you. Try again?"],"selection_policy":"sequential"}},"parent":"node_1_1510696184106","context":null,"created":"2017-11-14T22:01:15.692Z","updated":"2017-11-14T22:03:51.752Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510696184106"},"conditions":"anything_else","description":null,"dialog_node":"node_4_1510696875587","previous_sibling":"node_2_1510696299224"},{"title":"(6) Interrogate Nate (Neighbor)","output":{"text":{"values":["Nate: Here we go again. Anything you'd like to ask me?","Nate: Anything else you'd like to ask me?"],"selection_policy":"sequential"}},"parent":"node_1_1510696184106","context":{"img_ico":3},"created":"2017-11-14T21:52:15.251Z","updated":"2017-11-15T08:17:00.524Z","metadata":null,"next_step":null,"conditions":"@3_NateBrockheimer","description":null,"dialog_node":"node_3_1510696335056","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["You can't prove I killed her!"]}},"parent":"node_4_1510707388934","context":null,"created":"2017-11-15T00:57:19.364Z","updated":"2017-11-15T00:57:31.975Z","metadata":null,"next_step":null,"conditions":"$suspect == \"Nate\"","description":null,"dialog_node":"node_6_1510707438926","previous_sibling":"node_5_1510707420224"},{"type":"response_condition","title":null,"output":{},"parent":"node_4_1510707388934","context":null,"created":"2017-11-15T00:58:15.535Z","updated":"2017-11-15T00:58:15.535Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_8_1510707495108","previous_sibling":"node_7_1510707451781"},{"type":"response_condition","title":null,"output":{"text":{"values":["I would never kill her, not in a million years. Although I must say she definitely deserved it."]}},"parent":"node_4_1510707388934","context":null,"created":"2017-11-15T00:57:32.148Z","updated":"2017-11-15T00:58:15.323Z","metadata":null,"next_step":null,"conditions":"$suspect == \"Brent\"","description":null,"dialog_node":"node_7_1510707451781","previous_sibling":"node_6_1510707438926"},{"type":"response_condition","title":null,"output":{"text":{"values":["No I didn't kill her! I would never!"]}},"parent":"node_4_1510707388934","context":null,"created":"2017-11-15T00:57:00.486Z","updated":"2017-11-15T00:57:19.141Z","metadata":null,"next_step":null,"conditions":"$suspect == \"Ed\"","description":null,"dialog_node":"node_5_1510707420224","previous_sibling":null},{"title":null,"output":{},"parent":"node_6_1510317607379","context":null,"created":"2017-11-12T06:43:22.662Z","updated":"2017-11-12T06:43:45.300Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_5_1510466382644"},"conditions":"@yesno:no","description":null,"dialog_node":"node_5_1510469392396","previous_sibling":"node_4_1510469367092"},{"title":null,"output":{},"parent":"node_6_1510317607379","context":null,"created":"2017-11-12T06:42:57.385Z","updated":"2017-11-12T06:43:15.507Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_12_1510468343942"},"conditions":"@yesno:yes","description":null,"dialog_node":"node_4_1510469367092","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["I barely knew her, why on earth would I want to kill her. I'm just the neighbor!"]}},"parent":"node_17_1510480461149","context":null,"created":"2017-11-12T10:54:55.266Z","updated":"2017-11-12T12:06:40.680Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Nate'","description":null,"dialog_node":"node_8_1510484484572","previous_sibling":"node_4_1510483058349"},{"type":"response_condition","title":null,"output":{"text":{"values":["I have no desire to kill her. Although it seems fitting that she should experience this karmic justice given how badly she treated me by breaking up with me."]}},"parent":"node_17_1510480461149","context":null,"created":"2017-11-12T10:54:56.065Z","updated":"2017-11-12T12:06:43.385Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Brent'","description":null,"dialog_node":"node_9_1510484485428","previous_sibling":"node_8_1510484484572"},{"type":"response_condition","title":null,"output":{"text":{"values":["I had no motive to kill her. I'm in love with her!"]}},"parent":"node_17_1510480461149","context":null,"created":"2017-11-12T10:31:08.949Z","updated":"2017-11-12T12:06:36.385Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Ed'","description":null,"dialog_node":"node_4_1510483058349","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["I was at home with my wife the whole night. Just ask her! Or my kid. Although I would prefer it if you didn't drag him all the way out here!"]}},"parent":"node_18_1510480495150","context":null,"created":"2017-11-12T10:54:47.137Z","updated":"2017-11-12T12:06:30.966Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Nate'","description":null,"dialog_node":"node_7_1510484476514","previous_sibling":"node_11_1510484497589"},{"type":"response_condition","title":null,"output":{"text":{"values":["I was working on an experimental new chatbot all night. Deadline is coming up. I could't possibly be out murdering. Or could I? Mwahaha"]}},"parent":"node_18_1510480495150","context":null,"created":"2017-11-12T10:55:08.215Z","updated":"2017-11-12T12:06:27.995Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Brent'","description":null,"dialog_node":"node_11_1510484497589","previous_sibling":"node_10_1510484491653"},{"type":"response_condition","title":null,"output":{"text":{"values":["I was out all night with a friend drinking. We had just crashed at her place when the police came calling. This is strictly speaking confidential! Although I guess there's no-one to tell it to now..."]}},"parent":"node_18_1510480495150","context":null,"created":"2017-11-12T10:55:02.405Z","updated":"2017-11-12T12:06:25.191Z","metadata":null,"next_step":null,"conditions":"$suspect == 'Ed'","description":null,"dialog_node":"node_10_1510484491653","previous_sibling":null},{"title":"(3) Interrogate Brent White","output":{},"parent":"node_13_1510480216077","context":{"img_ico":4,"suspect":"Brent"},"created":"2017-11-12T09:47:22.965Z","updated":"2017-11-15T08:15:12.705Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"@3_BrentWhite","description":null,"dialog_node":"node_16_1510480432429","previous_sibling":"node_15_1510480411447"},{"title":"(3) Interrogate Nate Brockheimer","output":{},"parent":"node_13_1510480216077","context":{"img_ico":3,"suspect":"Nate"},"created":"2017-11-12T09:47:02.011Z","updated":"2017-11-15T08:15:32.002Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_23_1510480611357"},"conditions":"@3_NateBrockheimer","description":null,"dialog_node":"node_15_1510480411447","previous_sibling":"node_14_1510480377311"},{"title":"(3) Interrogate Ed Voris","output":{},"parent":"node_13_1510480216077","context":{"img_ico":2,"suspect":"Ed"},"created":"2017-11-12T09:46:27.851Z","updated":"2017-11-15T08:14:54.038Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"@3_EdVoris","description":null,"dialog_node":"node_14_1510480377311","previous_sibling":null},{"title":"Detective makes claim","output":{"text":{"values":["~Some time later~ \n \nAs I thought! We found a pair of size 10M shoes at the crime scene. They are the same type as the boyfriend's and stuffed with newspaper. The perp must have messed them up and left them behind. Then they must have walked out backwards making it look like the footprints were just leading into the house. It must have been a frame! So now it's your job to get back in there and find out who did this!"],"selection_policy":"sequential"}},"parent":"node_9_1510492868703","context":null,"created":"2017-11-12T13:15:42.454Z","updated":"2017-11-14T21:51:00.999Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"anything_else","description":null,"dialog_node":"node_10_1510492931374","previous_sibling":null},{"title":"Detective Returns","output":{"text":{"values":["We just got the bloodwork back and the unknown blood is type A. That can't be right.. The boyfriend is type AB and the girlfriend is type B. And, as it turns out, Nate and Brent are both type A! We'll know for sure who did it later, but we'd have a much stronger case if you got a confession out of one of them. \n \nAnd I have an idea about who did the killing.. <press enter>"],"selection_policy":"sequential"}},"parent":"node_6_1510492202319","context":null,"created":"2017-11-12T13:14:39.539Z","updated":"2017-11-15T01:26:05.448Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_9_1510492868703","previous_sibling":null},{"title":"No","output":{"text":{"values":["Thanks for playing!"],"selection_policy":"sequential"}},"parent":"node_4_1510704241903","context":null,"created":"2017-11-15T00:05:11.836Z","updated":"2017-11-15T00:06:26.310Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_6_1510704311387","previous_sibling":"node_5_1510704268030"},{"title":"Yes","output":{"text":{"values":["Restarting~~"],"selection_policy":"sequential"}},"parent":"node_4_1510704241903","context":null,"created":"2017-11-15T00:04:28.464Z","updated":"2017-11-15T00:05:03.890Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"@yesno:yes","description":null,"dialog_node":"node_5_1510704268030","previous_sibling":null},{"title":"(9) Footprints/Shoe Size","output":{},"parent":"node_22_1510699304990","context":null,"created":"2017-11-14T22:43:07.287Z","updated":"2017-11-15T00:23:46.803Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_27_1510699795255"},"conditions":"@2_Footprints || @4_ShoeSize","description":null,"dialog_node":"node_24_1510699387177","previous_sibling":"node_23_1510699356821"},{"title":"(9) Cuts on hand","output":{},"parent":"node_22_1510699304990","context":null,"created":"2017-11-14T22:43:20.059Z","updated":"2017-11-15T00:26:25.360Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_27_1510699795255"},"conditions":"@9_CutHand","description":null,"dialog_node":"node_25_1510699399953","previous_sibling":"node_24_1510699387177"},{"title":"(9) Invalid entry","output":{"text":{"values":["What? I don't understand what you're saying.","What? I don't understand what you're saying. (Try asking about blood, footprints, or cuts on hand)"],"selection_policy":"sequential"}},"parent":"node_22_1510699304990","context":null,"created":"2017-11-14T22:44:36.379Z","updated":"2017-11-15T01:28:06.432Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_22_1510699304990"},"conditions":"anything_else","description":null,"dialog_node":"node_26_1510699476252","previous_sibling":"node_25_1510699399953"},{"title":"(9) Wineglass/blood","output":{},"parent":"node_22_1510699304990","context":null,"created":"2017-11-14T22:42:36.905Z","updated":"2017-11-15T00:25:35.873Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"@2_Glass || @2_VictimInjuries || @9_Blood","description":null,"dialog_node":"node_23_1510699356821","previous_sibling":null},{"title":"(4) Interrogation Begin","output":{"text":{"values":["<?$suspect?>: What do you have to ask?","<?$suspect?>: Anything you'd like to ask me?","<?$suspect?>: Ask me anything. (Hint: to change suspect just say \"change suspect\" to me)"],"selection_policy":"random"}},"parent":"node_14_1510480377311","context":{"curr_level":4},"created":"2017-11-12T09:50:21.910Z","updated":"2017-11-14T22:24:04.117Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_23_1510480611357","previous_sibling":null},{"title":"N/A or none","output":{"text":{"values":["Sounds good. Let's move on."],"selection_policy":"sequential"}},"parent":"node_4_1510487806405","context":null,"created":"2017-11-12T13:02:40.333Z","updated":"2017-11-12T13:15:01.833Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510492868703"},"conditions":"@yesno:no && anything_else","description":null,"dialog_node":"node_5_1510492149526","previous_sibling":"node_8_1510492256280"},{"title":"Accuse Nate","output":{"text":{"values":["Nate is a strange decision to accuse. Then again, he did seem a little bit too innocent."],"selection_policy":"sequential"}},"parent":"node_4_1510487806405","context":null,"created":"2017-11-12T13:04:27.124Z","updated":"2017-11-12T13:15:08.083Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510492868703"},"conditions":"@3_NateBrockheimer","description":null,"dialog_node":"node_8_1510492256280","previous_sibling":"node_7_1510492251624"},{"title":"Accuse Brent","output":{"text":{"values":["Brent certainly seems very suspicious. And very upset. Good choice! Although the shoe doesn't fit.. let's investigate that a bit further."],"selection_policy":"sequential"}},"parent":"node_4_1510487806405","context":null,"created":"2017-11-12T13:04:22.470Z","updated":"2017-11-12T13:15:13.181Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_9_1510492868703"},"conditions":"@3_BrentWhite","description":null,"dialog_node":"node_7_1510492251624","previous_sibling":"node_6_1510492202319"},{"title":"Accuse Ed","output":{"text":{"values":["Well, I can see why you picked Ed. The shoe does fit, after all."],"selection_policy":"sequential"}},"parent":"node_4_1510487806405","context":null,"created":"2017-11-12T13:03:33.115Z","updated":"2017-11-12T13:15:16.387Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"@3_EdVoris","description":null,"dialog_node":"node_6_1510492202319","previous_sibling":null},{"title":"(1) No","output":{"text":{"values":["Well thanks for nothing. Guess we'll have to call in our on-call investigator.","Okay, if you say so. Have a nice night.","I'm sorry to hear that. Guess we're packing up tonight."],"selection_policy":"random"}},"parent":"Welcome","context":null,"created":"2017-11-10T12:22:25.569Z","updated":"2017-11-10T13:25:04.282Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"@yesno:no","description":null,"dialog_node":"node_3_1510316932955","previous_sibling":"node_1_1510310867946"},{"title":"(1) Yes","output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"Welcome","context":{"evid_1":0,"evid_2":0,"curr_level":2,"met_victim":0,"progression":0},"created":"2017-11-10T10:41:20.448Z","updated":"2017-11-14T23:04:25.290Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"@yesno:yes","description":null,"dialog_node":"node_1_1510310867946","previous_sibling":null},{"title":"(7) Interview another suspect","output":{},"parent":"node_2_1510696299224","context":null,"created":"2017-11-14T22:06:16.091Z","updated":"2017-11-14T23:43:53.872Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1510696184106"},"conditions":"#4_SpeakToSomeoneElse","description":null,"dialog_node":"node_8_1510697175980","previous_sibling":"node_7_1510697158563"},{"title":"(7) Hello","output":{"text":{"values":["So it turned out not to be the boyfriend? That's too bad, I always thought it was him. Maybe you should try asking Nate something..."],"selection_policy":"sequential"}},"parent":"node_2_1510696299224","context":null,"created":"2017-11-14T22:05:20.640Z","updated":"2017-11-14T23:37:36.126Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510696299224"},"conditions":"#welcome","description":null,"dialog_node":"node_5_1510697120538","previous_sibling":"node_10_1510698417782"},{"title":"(7) Anything else","output":{"text":{"values":["What?","I don't understand you. Hint: To change suspect, ask me to \"change suspect\"."],"selection_policy":"sequential"}},"parent":"node_2_1510696299224","context":null,"created":"2017-11-14T22:15:13.126Z","updated":"2017-11-14T22:38:29.794Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510696299224"},"conditions":"anything_else","description":null,"dialog_node":"node_9_1510697712917","previous_sibling":"node_5_1510697120538"},{"title":"(7) Motive","output":{"text":{"values":["I had absolutely no motive to kill her. I mean she did break up with me but I never wanted to murder her!"],"selection_policy":"sequential"}},"parent":"node_2_1510696299224","context":null,"created":"2017-11-14T22:05:58.699Z","updated":"2017-11-14T22:48:02.292Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510696299224"},"conditions":"@4_Motive","description":null,"dialog_node":"node_7_1510697158563","previous_sibling":"node_6_1510697151506"},{"title":"(7) Help","output":{"text":{"values":["To change suspect, ask me to \"change suspect\"."],"selection_policy":"sequential"}},"parent":"node_2_1510696299224","context":null,"created":"2017-11-14T22:26:57.884Z","updated":"2017-11-14T22:47:11.594Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510696299224"},"conditions":"#need_help","description":null,"dialog_node":"node_10_1510698417782","previous_sibling":"node_8_1510697175980"},{"title":"(7) Alibi","output":{"text":{"values":["I already told you my alibi! If you don't have any further questions, lets just end this here, okay?"],"selection_policy":"sequential"}},"parent":"node_2_1510696299224","context":null,"created":"2017-11-14T22:05:51.619Z","updated":"2017-11-14T23:38:38.070Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1510696299224"},"conditions":"@4_Alibi","description":null,"dialog_node":"node_6_1510697151506","previous_sibling":null},{"title":"Conversation-holding function","output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-10T13:12:18.014Z","updated":"2017-11-12T03:05:05.371Z","metadata":null,"next_step":{"behavior":"skip_user_input"},"conditions":"anything_else","description":null,"dialog_node":"node_1_1510319925356","previous_sibling":"Welcome"},{"title":"Would you like to investigate?","output":{"text":{"values":["Welcome to the scene, chief. It's a bad one tonight. Can you help, yes or no?"],"selection_policy":"sequential"}},"parent":null,"context":{"anger":0,"img_ico":1,"img_back":1,"curr_level":1},"created":"2017-11-10T10:38:23.781Z","updated":"2017-11-15T11:27:09.592Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"6155caff-6942-43db-b75a-48984370dc4e","counterexamples":[{"text":"I'd like to hear about the crime scene","created":"2017-11-10T13:35:25.127Z","updated":"2017-11-10T13:35:25.127Z"},{"text":"no","created":"2017-11-14T22:26:33.669Z","updated":"2017-11-14T22:26:33.669Z"}],"learning_opt_out":false}
+{
+	"name": "crime-scene-PI",
+	"created": "2017-11-10T10:36:20.870Z",
+	"intents": [{
+		"intent": "restart",
+		"created": "2017-11-12T04:03:44.221Z",
+		"updated": "2017-11-12T04:03:55.225Z",
+		"examples": [{
+			"text": "start over",
+			"created": "2017-11-12T04:03:55.225Z",
+			"updated": "2017-11-12T04:03:55.225Z"
+		}, {
+			"text": "quit",
+			"created": "2017-11-12T04:03:52.285Z",
+			"updated": "2017-11-12T04:03:52.285Z"
+		}, {
+			"text": "restart",
+			"created": "2017-11-12T04:03:45.852Z",
+			"updated": "2017-11-12T04:03:45.852Z"
+		}, {
+			"text": "reset",
+			"created": "2017-11-12T04:03:50.682Z",
+			"updated": "2017-11-12T04:03:50.682Z"
+		}],
+		"description": null
+	}, {
+		"intent": "2_HowLongBeenTogether",
+		"created": "2017-11-15T00:55:08.674Z",
+		"updated": "2017-11-15T00:55:37.988Z",
+		"examples": [{
+			"text": "How long have you and vanessa been together?",
+			"created": "2017-11-15T00:55:32.787Z",
+			"updated": "2017-11-15T00:55:32.787Z"
+		}, {
+			"text": "How long have you been dating vanessa?",
+			"created": "2017-11-15T00:55:37.988Z",
+			"updated": "2017-11-15T00:55:37.988Z"
+		}, {
+			"text": "How long have you been together?",
+			"created": "2017-11-15T00:55:21.296Z",
+			"updated": "2017-11-15T00:55:21.296Z"
+		}, {
+			"text": "Been dating long?",
+			"created": "2017-11-15T00:55:25.104Z",
+			"updated": "2017-11-15T00:55:25.104Z"
+		}],
+		"description": null
+	}, {
+		"intent": "8_LastTimeSawSuspect",
+		"created": "2017-11-15T00:41:36.613Z",
+		"updated": "2017-11-15T00:42:47.183Z",
+		"examples": [{
+			"text": "when was the last time you saw vanessa",
+			"created": "2017-11-15T00:42:37.631Z",
+			"updated": "2017-11-15T00:42:37.631Z"
+		}, {
+			"text": "have you seen vanessa recently",
+			"created": "2017-11-15T00:42:47.183Z",
+			"updated": "2017-11-15T00:42:47.183Z"
+		}, {
+			"text": "did you see vanessa",
+			"created": "2017-11-15T00:42:39.978Z",
+			"updated": "2017-11-15T00:42:39.978Z"
+		}],
+		"description": null
+	}, {
+		"intent": "shoot_breeze",
+		"created": "2017-11-12T06:52:51.190Z",
+		"updated": "2017-11-14T23:12:37.066Z",
+		"examples": [{
+			"text": "how are you doing?",
+			"created": "2017-11-12T06:54:16.806Z",
+			"updated": "2017-11-12T06:54:16.806Z"
+		}, {
+			"text": "what's up with you?",
+			"created": "2017-11-12T06:54:24.866Z",
+			"updated": "2017-11-12T06:54:24.866Z"
+		}, {
+			"text": "good evening",
+			"created": "2017-11-12T06:54:31.098Z",
+			"updated": "2017-11-12T06:54:31.098Z"
+		}, {
+			"text": "hello",
+			"created": "2017-11-12T06:54:35.203Z",
+			"updated": "2017-11-12T06:54:56.145Z"
+		}, {
+			"text": "hi",
+			"created": "2017-11-12T07:32:37.469Z",
+			"updated": "2017-11-12T07:32:37.469Z"
+		}, {
+			"text": "how are you",
+			"created": "2017-11-12T11:57:16.163Z",
+			"updated": "2017-11-12T11:57:16.163Z"
+		}, {
+			"text": "how are you feeling?",
+			"created": "2017-11-12T06:54:19.929Z",
+			"updated": "2017-11-12T06:54:19.929Z"
+		}],
+		"description": null
+	}, {
+		"intent": "welcome",
+		"created": "2017-11-10T12:18:29.958Z",
+		"updated": "2017-11-14T23:24:15.078Z",
+		"examples": [{
+			"text": "how are you",
+			"created": "2017-11-10T12:18:29.958Z",
+			"updated": "2017-11-10T12:18:29.958Z"
+		}, {
+			"text": "hey",
+			"created": "2017-11-10T12:18:29.958Z",
+			"updated": "2017-11-10T12:18:29.958Z"
+		}, {
+			"text": "hello",
+			"created": "2017-11-10T12:18:29.958Z",
+			"updated": "2017-11-10T12:18:29.958Z"
+		}, {
+			"text": "hi",
+			"created": "2017-11-10T12:18:29.958Z",
+			"updated": "2017-11-10T12:18:29.958Z"
+		}, {
+			"text": "sure",
+			"created": "2017-11-10T12:32:46.550Z",
+			"updated": "2017-11-10T12:32:46.550Z"
+		}, {
+			"text": "yes",
+			"created": "2017-11-10T13:20:04.421Z",
+			"updated": "2017-11-10T13:20:04.421Z"
+		}, {
+			"text": "welcome",
+			"created": "2017-11-10T12:18:29.958Z",
+			"updated": "2017-11-10T12:18:29.958Z"
+		}],
+		"description": null
+	}, {
+		"intent": "8_HowKnowSuspect",
+		"created": "2017-11-15T00:41:10.969Z",
+		"updated": "2017-11-15T00:43:21.363Z",
+		"examples": [{
+			"text": "what do you know about the victim",
+			"created": "2017-11-15T00:43:10.606Z",
+			"updated": "2017-11-15T00:43:10.606Z"
+		}, {
+			"text": "how do you know vanessa",
+			"created": "2017-11-15T00:42:59.244Z",
+			"updated": "2017-11-15T00:42:59.244Z"
+		}, {
+			"text": "what do you know about vanessa",
+			"created": "2017-11-15T00:43:04.773Z",
+			"updated": "2017-11-15T00:43:04.773Z"
+		}, {
+			"text": "how do you know the victim",
+			"created": "2017-11-15T00:43:15.476Z",
+			"updated": "2017-11-15T00:43:15.476Z"
+		}, {
+			"text": "do you know the victim",
+			"created": "2017-11-15T00:43:18.806Z",
+			"updated": "2017-11-15T00:43:18.806Z"
+		}, {
+			"text": "do you know vanessa",
+			"created": "2017-11-15T00:43:21.363Z",
+			"updated": "2017-11-15T00:43:21.363Z"
+		}],
+		"description": null
+	}, {
+		"intent": "4_SpeakToSomeoneElse",
+		"created": "2017-11-12T10:29:01.849Z",
+		"updated": "2017-11-14T23:17:00.105Z",
+		"examples": [{
+			"text": "I think we're done here.",
+			"created": "2017-11-12T10:29:09.016Z",
+			"updated": "2017-11-12T10:29:09.016Z"
+		}, {
+			"text": "I'd like to talk to someone else",
+			"created": "2017-11-12T10:29:13.711Z",
+			"updated": "2017-11-12T10:29:13.711Z"
+		}, {
+			"text": "Can I talk to someone else",
+			"created": "2017-11-12T10:29:17.168Z",
+			"updated": "2017-11-12T10:29:17.168Z"
+		}, {
+			"text": "Talk to suspect 1",
+			"created": "2017-11-12T10:29:27.798Z",
+			"updated": "2017-11-12T10:29:27.798Z"
+		}, {
+			"text": "Quit",
+			"created": "2017-11-12T10:29:33.431Z",
+			"updated": "2017-11-12T10:29:33.431Z"
+		}, {
+			"text": "Leave",
+			"created": "2017-11-12T10:29:39.877Z",
+			"updated": "2017-11-12T10:29:39.877Z"
+		}, {
+			"text": "Switch",
+			"created": "2017-11-12T10:29:41.381Z",
+			"updated": "2017-11-12T10:29:41.381Z"
+		}, {
+			"text": "Talk to suspect 2",
+			"created": "2017-11-12T10:29:47.515Z",
+			"updated": "2017-11-12T10:29:47.515Z"
+		}, {
+			"text": "Talk to suspect 3",
+			"created": "2017-11-12T10:29:50.586Z",
+			"updated": "2017-11-12T10:29:50.586Z"
+		}, {
+			"text": "change subject",
+			"created": "2017-11-14T23:16:57.691Z",
+			"updated": "2017-11-14T23:16:57.691Z"
+		}, {
+			"text": "subject",
+			"created": "2017-11-14T23:17:00.105Z",
+			"updated": "2017-11-14T23:17:00.105Z"
+		}],
+		"description": null
+	}, {
+		"intent": "8_Accuse",
+		"created": "2017-11-15T00:41:49.315Z",
+		"updated": "2017-11-15T00:43:32.120Z",
+		"examples": [{
+			"text": "You did it",
+			"created": "2017-11-15T00:42:08.566Z",
+			"updated": "2017-11-15T00:42:08.566Z"
+		}, {
+			"text": "why did you kill her?",
+			"created": "2017-11-15T00:43:32.120Z",
+			"updated": "2017-11-15T00:43:32.120Z"
+		}, {
+			"text": "why did you do it",
+			"created": "2017-11-15T00:42:13.057Z",
+			"updated": "2017-11-15T00:42:13.057Z"
+		}, {
+			"text": "I know you did it",
+			"created": "2017-11-15T00:42:11.024Z",
+			"updated": "2017-11-15T00:42:11.024Z"
+		}],
+		"description": null
+	}, {
+		"intent": "need_help",
+		"created": "2017-11-12T06:30:15.703Z",
+		"updated": "2017-11-12T06:30:33.629Z",
+		"examples": [{
+			"text": "I need help",
+			"created": "2017-11-12T06:30:20.309Z",
+			"updated": "2017-11-12T06:30:20.309Z"
+		}, {
+			"text": "help me",
+			"created": "2017-11-12T06:30:22.477Z",
+			"updated": "2017-11-12T06:30:22.477Z"
+		}, {
+			"text": "help",
+			"created": "2017-11-12T06:30:23.522Z",
+			"updated": "2017-11-12T06:30:23.522Z"
+		}, {
+			"text": "can I have a hint?",
+			"created": "2017-11-12T06:30:31.282Z",
+			"updated": "2017-11-12T06:30:31.282Z"
+		}, {
+			"text": "hint",
+			"created": "2017-11-12T06:30:33.629Z",
+			"updated": "2017-11-12T06:30:33.629Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-15T12:16:37.122Z",
+	"entities": [{
+		"entity": "2_Suspects",
+		"values": [{
+			"type": "synonyms",
+			"value": "suspects",
+			"created": "2017-11-10T13:27:44.716Z",
+			"updated": "2017-11-10T13:27:44.716Z",
+			"metadata": null,
+			"synonyms": ["the suspects", "possible perpetrators"]
+		}],
+		"created": "2017-11-10T12:38:31.634Z",
+		"updated": "2017-11-10T13:27:44.716Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "3_BrentWhite",
+		"values": [{
+			"type": "synonyms",
+			"value": "brent white",
+			"created": "2017-11-12T10:11:57.520Z",
+			"updated": "2017-11-15T01:40:04.100Z",
+			"metadata": null,
+			"synonyms": ["brent", "white", "ex"]
+		}],
+		"created": "2017-11-12T10:11:45.412Z",
+		"updated": "2017-11-15T01:40:04.100Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "9_Blood",
+		"values": [{
+			"type": "synonyms",
+			"value": "blood",
+			"created": "2017-11-15T00:24:23.828Z",
+			"updated": "2017-11-15T00:24:37.071Z",
+			"metadata": null,
+			"synonyms": ["blood type", "bleeding", "matches you"]
+		}],
+		"created": "2017-11-15T00:24:10.244Z",
+		"updated": "2017-11-15T00:24:37.071Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "2_VictimName",
+		"values": [{
+			"type": "synonyms",
+			"value": "name",
+			"created": "2017-11-12T06:09:45.683Z",
+			"updated": "2017-11-12T06:09:45.683Z",
+			"metadata": null,
+			"synonyms": ["what was she called", "her name", "any identification?"]
+		}],
+		"created": "2017-11-12T06:09:36.403Z",
+		"updated": "2017-11-12T06:09:45.683Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "3_NateBrockheimer",
+		"values": [{
+			"type": "synonyms",
+			"value": "nate brockheimer",
+			"created": "2017-11-12T10:10:27.066Z",
+			"updated": "2017-11-15T01:39:45.316Z",
+			"metadata": null,
+			"synonyms": ["nate", "brockheimer", "neighbor"]
+		}],
+		"created": "2017-11-12T10:09:44.793Z",
+		"updated": "2017-11-15T01:39:45.316Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "2_Glass",
+		"values": [{
+			"type": "synonyms",
+			"value": "glass",
+			"created": "2017-11-12T06:27:56.441Z",
+			"updated": "2017-11-12T06:27:56.441Z",
+			"metadata": null,
+			"synonyms": ["broken glass", "wineglass", "murder weapon", "stabby stabby"]
+		}],
+		"created": "2017-11-12T06:27:20.855Z",
+		"updated": "2017-11-12T06:27:56.441Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "4_Motive",
+		"values": [{
+			"type": "synonyms",
+			"value": "motive",
+			"created": "2017-11-12T10:49:32.141Z",
+			"updated": "2017-11-15T01:27:15.068Z",
+			"metadata": null,
+			"synonyms": ["reason", "cause"]
+		}],
+		"created": "2017-11-12T10:27:18.275Z",
+		"updated": "2017-11-15T01:27:15.068Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "2_CrimeScene",
+		"values": [{
+			"type": "synonyms",
+			"value": "crime scene",
+			"created": "2017-11-10T13:27:55.103Z",
+			"updated": "2017-11-10T13:27:55.103Z",
+			"metadata": null,
+			"synonyms": ["room", "surroundings", "scene"]
+		}],
+		"created": "2017-11-10T12:35:44.789Z",
+		"updated": "2017-11-10T13:27:55.103Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "yesno",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2017-11-10T12:21:25.746Z",
+			"updated": "2017-11-12T05:41:03.961Z",
+			"metadata": null,
+			"synonyms": ["okay", "sure", "fine", "ok", "sounds good", "yeah", "all right", "yep"]
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2017-11-10T12:21:45.551Z",
+			"updated": "2017-11-10T12:24:04.200Z",
+			"metadata": null,
+			"synonyms": ["nah", "no thank you"]
+		}],
+		"created": "2017-11-10T12:20:15.790Z",
+		"updated": "2017-11-12T05:41:03.961Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "2_Footprints",
+		"values": [{
+			"type": "synonyms",
+			"value": "footprints",
+			"created": "2017-11-12T06:35:06.944Z",
+			"updated": "2017-11-12T06:35:06.944Z",
+			"metadata": null,
+			"synonyms": ["foot prints", "shoes", "feet"]
+		}],
+		"created": "2017-11-12T06:33:38.977Z",
+		"updated": "2017-11-12T06:35:06.944Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "2_Age",
+		"values": [{
+			"type": "synonyms",
+			"value": "age",
+			"created": "2017-11-15T01:19:02.633Z",
+			"updated": "2017-11-15T01:19:09.828Z",
+			"metadata": null,
+			"synonyms": ["how old was she"]
+		}],
+		"created": "2017-11-15T01:18:59.901Z",
+		"updated": "2017-11-15T01:19:09.828Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "4_Alibi",
+		"values": [{
+			"type": "synonyms",
+			"value": "alibi",
+			"created": "2017-11-12T10:50:07.994Z",
+			"updated": "2017-11-12T10:50:07.994Z",
+			"metadata": null,
+			"synonyms": ["where were you", "where", "explanation"]
+		}],
+		"created": "2017-11-12T10:27:07.204Z",
+		"updated": "2017-11-12T10:50:07.994Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "2_Victim",
+		"values": [{
+			"type": "synonyms",
+			"value": "Victim",
+			"created": "2017-11-10T13:27:49.606Z",
+			"updated": "2017-11-10T13:27:49.606Z",
+			"metadata": null,
+			"synonyms": ["the woman", "her"]
+		}],
+		"created": "2017-11-10T12:37:16.954Z",
+		"updated": "2017-11-10T13:27:49.606Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "2_Crime",
+		"values": [{
+			"type": "synonyms",
+			"value": "crime",
+			"created": "2017-11-12T05:47:46.837Z",
+			"updated": "2017-11-12T05:47:46.837Z",
+			"metadata": null,
+			"synonyms": ["what happened", "what's going on"]
+		}],
+		"created": "2017-11-12T05:46:58.300Z",
+		"updated": "2017-11-12T05:47:46.837Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "2_Evidence",
+		"values": [{
+			"type": "synonyms",
+			"value": "evidence",
+			"created": "2017-11-12T06:24:02.047Z",
+			"updated": "2017-11-14T21:54:50.039Z",
+			"metadata": null,
+			"synonyms": ["physical evidence", "anything stick out to you", "look around", "did you find anything?", "find anything?"]
+		}],
+		"created": "2017-11-12T06:23:56.433Z",
+		"updated": "2017-11-14T21:54:50.039Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "UserAllCaps",
+		"values": [{
+			"type": "patterns",
+			"value": "AllCaps",
+			"created": "2017-11-10T12:47:32.505Z",
+			"updated": "2017-11-10T12:47:32.688Z",
+			"metadata": null,
+			"patterns": ["^[^a-z]*$"]
+		}],
+		"created": "2017-11-10T12:45:36.213Z",
+		"updated": "2017-11-10T12:47:32.688Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "2_VictimInjuries",
+		"values": [{
+			"type": "synonyms",
+			"value": "injuries",
+			"created": "2017-11-12T07:40:52.116Z",
+			"updated": "2017-11-12T07:41:10.731Z",
+			"metadata": null,
+			"synonyms": ["injured", "examine", "inspect"]
+		}],
+		"created": "2017-11-12T07:40:08.377Z",
+		"updated": "2017-11-12T07:41:10.731Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "4_MoveOn",
+		"values": [{
+			"type": "synonyms",
+			"value": "move on",
+			"created": "2017-11-12T11:51:00.917Z",
+			"updated": "2017-11-12T11:51:00.917Z",
+			"metadata": null,
+			"synonyms": ["finish", "quit", "done", "finished"]
+		}],
+		"created": "2017-11-12T11:50:37.794Z",
+		"updated": "2017-11-12T11:51:00.917Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "2_Witnesses",
+		"values": [{
+			"type": "synonyms",
+			"value": "witnesses",
+			"created": "2017-11-15T00:49:05.665Z",
+			"updated": "2017-11-15T00:49:05.665Z",
+			"metadata": null,
+			"synonyms": ["see the crime", "witness", "hear the crime"]
+		}],
+		"created": "2017-11-15T00:46:53.468Z",
+		"updated": "2017-11-15T00:49:05.665Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "4_ShoeSize",
+		"values": [{
+			"type": "synonyms",
+			"value": "shoe size",
+			"created": "2017-11-12T10:47:55.485Z",
+			"updated": "2017-11-12T10:50:24.078Z",
+			"metadata": null,
+			"synonyms": ["shoe", "size", "shoes", "are you a size 10"]
+		}],
+		"created": "2017-11-12T10:26:56.555Z",
+		"updated": "2017-11-12T10:50:24.078Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "3_EdVoris",
+		"values": [{
+			"type": "synonyms",
+			"value": "ed voris",
+			"created": "2017-11-12T10:10:03.963Z",
+			"updated": "2017-11-15T01:39:35.674Z",
+			"metadata": null,
+			"synonyms": ["ed", "voris", "one", "boyfriend"]
+		}],
+		"created": "2017-11-12T10:07:54.151Z",
+		"updated": "2017-11-15T01:39:35.674Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "9_CutHand",
+		"values": [{
+			"type": "synonyms",
+			"value": "cut",
+			"created": "2017-11-15T00:28:57.883Z",
+			"updated": "2017-11-15T00:28:57.883Z",
+			"metadata": null,
+			"synonyms": ["cut hand", "hand", "bandage", "arm", "your hand"]
+		}],
+		"created": "2017-11-15T00:26:25.469Z",
+		"updated": "2017-11-15T00:28:57.883Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "#mindsumochallenge Investigate a murder, but watch your back! This crime scene isn't as safe as we'd all like to think.",
+	"dialog_nodes": [{
+		"title": "Finished game, congratulate player!",
+		"output": {
+			"text": {
+				"values": ["Congratulations Detective! Solving this case will definitely propel your career onwards and upwards. Good Job!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_27_1510699795255",
+		"context": {
+			"img_ico": 1
+		},
+		"created": "2017-11-15T00:01:44.363Z",
+		"updated": "2017-11-15T08:17:39.296Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_1_1510704103931",
+		"previous_sibling": null
+	}, {
+		"title": "Accusation",
+		"output": {
+			"text": {
+				"values": ["Now that you've seen all the evidence and heard all the stories, is there anyone you'd like to accuse?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510487572990",
+		"context": null,
+		"created": "2017-11-12T11:50:17.090Z",
+		"updated": "2017-11-12T13:02:29.194Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_4_1510487806405",
+		"previous_sibling": null
+	}, {
+		"title": "(2) Hint",
+		"output": {
+			"text": {
+				"values": ["Maybe if you asked me more about the Crime Scene or Victim I would be able to assist you better?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-12T06:30:48.013Z",
+		"updated": "2017-11-12T06:31:45.958Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "#need_help",
+		"description": null,
+		"dialog_node": "node_13_1510468637717",
+		"previous_sibling": "node_6_1510469929941"
+	}, {
+		"title": "(2) How are you doing?",
+		"output": {
+			"text": {
+				"values": ["I'm doing okay, thanks. It's freezing cold out here so get to work solving this crime, chief!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-12T06:52:20.242Z",
+		"updated": "2017-11-15T00:51:23.442Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "#shoot_breeze",
+		"description": null,
+		"dialog_node": "node_6_1510469929941",
+		"previous_sibling": "node_7_1510317613394"
+	}, {
+		"title": "Angry Response!",
+		"output": {
+			"text": {
+				"values": ["Hey, calm down there. Now, what can I help you with?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": {
+			"anger": 0
+		},
+		"created": "2017-11-15T11:28:33.225Z",
+		"updated": "2017-11-15T12:16:37.122Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "$anger:1",
+		"description": null,
+		"dialog_node": "node_1_1510745704440",
+		"previous_sibling": "node_8_1510470160677"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-12T06:00:34.582Z",
+		"updated": "2017-11-12T06:00:42.110Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_8_1510466824381",
+		"previous_sibling": "node_7_1510466799444"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-12T06:00:09.665Z",
+		"updated": "2017-11-12T06:00:41.894Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_7_1510466799444",
+		"previous_sibling": "node_13_1510468637717"
+	}, {
+		"title": "(2) Talk about Victim",
+		"output": {
+			"text": {
+				"values": ["I can't let you get close to the victim right now, but is there any information you'd like to hear about her?", "Anything you'd like to hear about the victim?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": {
+			"met_victim": 1
+		},
+		"created": "2017-11-10T12:33:45.955Z",
+		"updated": "2017-11-15T05:11:53.540Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@2_Victim",
+		"description": null,
+		"dialog_node": "node_7_1510317613394",
+		"previous_sibling": "node_8_1510317617843"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-12T06:00:35.724Z",
+		"updated": "2017-11-12T06:00:42.304Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_9_1510466825517",
+		"previous_sibling": "node_8_1510466824381"
+	}, {
+		"title": "(2) Ask about witnesses",
+		"output": {
+			"text": {
+				"values": ["There were no witnesses to the crime, and no reports were made until her body was discovered the next day."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-15T00:46:28.981Z",
+		"updated": "2017-11-15T00:48:01.187Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "@2_Witnesses",
+		"description": null,
+		"dialog_node": "node_1_1510706788589",
+		"previous_sibling": "node_1_1510745704440"
+	}, {
+		"title": "(2) Hear about the Crime (Place under Crime Scene)",
+		"output": {
+			"text": {
+				"values": ["Here's what I know right now. We have a female here who is dead, stabbed several times in the stomach. Looks like the perp did it with a broken wine glass left at the scene. No witnesses, but I bet I'd be able to help you get a better understanding of what happened here. Ask away!", ""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": {
+			"met_victim": 1
+		},
+		"created": "2017-11-12T05:44:49.177Z",
+		"updated": "2017-11-12T07:13:51.100Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "@2_Crime",
+		"description": null,
+		"dialog_node": "node_3_1510465878997",
+		"previous_sibling": "node_2_1510311267714"
+	}, {
+		"title": "(2) Talk about Crime Scene or Evidence",
+		"output": {
+			"text": {
+				"values": ["Not much to see in the crime scene. We do have two pieces of evidence though, the broken wineglass (which was used as the murder weapon) and some footprints outside. If you would like to hear about the \"wineglass\" or \"footprints\" let me know.", "Not much to see in the crime scene. We do have two pieces of evidence though, the broken wineglass (which was used as the murder weapon) and some footprints outside. (Hint: Try asking about the wineglass or the footprints)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-10T10:48:00.462Z",
+		"updated": "2017-11-15T01:18:07.133Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@2_CrimeScene || @2_Evidence",
+		"description": null,
+		"dialog_node": "node_2_1510311267714",
+		"previous_sibling": "node_1_1510706788589"
+	}, {
+		"title": "(2) Talk about Possible Suspects",
+		"output": {
+			"text": {
+				"values": ["We have three suspects right now, a young man by the name of Ed Voris, another by the name Nate Brockheimer, and one Brent White. All three have possible motives for killing our victim, but its up to you to decipher who did it. And hopefully tonight, I'm hoping to get home pretty soon.", ""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-10T12:33:50.379Z",
+		"updated": "2017-11-14T22:55:23.458Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "@2_Suspects",
+		"description": null,
+		"dialog_node": "node_8_1510317617843",
+		"previous_sibling": "node_3_1510465878997"
+	}, {
+		"title": "(2) Conclusion of Crime Scene",
+		"output": {
+			"text": {
+				"values": ["Looks like you've gotten everything you need out of the crime scene, chief. We're headed down to the Station to interrogate the subjects. Just remember the two main things we've learned: the killer was wearing size 10M shoes and that we're going to be hearing about the blood work on the wineglass soon. Want a ride?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1510466382644",
+		"context": null,
+		"created": "2017-11-12T06:56:10.955Z",
+		"updated": "2017-11-12T17:32:40.737Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$met_victim:1 && $evid_1:1 && $evid_2:1 && anything_else",
+		"description": null,
+		"dialog_node": "node_8_1510470160677",
+		"previous_sibling": null
+	}, {
+		"title": "(4) Ask to speak to someone else",
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1510480611357",
+		"context": null,
+		"created": "2017-11-12T09:49:16.199Z",
+		"updated": "2017-11-15T01:23:34.744Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "#4_SpeakToSomeoneElse",
+		"description": null,
+		"dialog_node": "node_21_1510480545662",
+		"previous_sibling": "node_20_1510480520069"
+	}, {
+		"title": "(4) Ask about Alibi",
+		"output": {},
+		"parent": "node_23_1510480611357",
+		"context": null,
+		"created": "2017-11-12T09:48:25.698Z",
+		"updated": "2017-11-12T11:28:13.143Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "@4_Alibi",
+		"description": null,
+		"dialog_node": "node_18_1510480495150",
+		"previous_sibling": "node_3_1510707197909"
+	}, {
+		"title": "(4) Move on",
+		"output": {
+			"text": {
+				"values": ["You are set to move onto end of program."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1510480611357",
+		"context": {
+			"nomoveon": 0
+		},
+		"created": "2017-11-12T11:48:47.685Z",
+		"updated": "2017-11-14T23:19:10.080Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "@4_MoveOn",
+		"description": null,
+		"dialog_node": "node_3_1510487717007",
+		"previous_sibling": "node_5_1510483133822"
+	}, {
+		"title": "(4) Ask Shoe Size",
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_23_1510480611357",
+		"context": {
+			"has_size": 1
+		},
+		"created": "2017-11-12T09:48:50.584Z",
+		"updated": "2017-11-15T01:15:34.683Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": {
+			"behavior": "skip_user_input",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "@4_ShoeSize",
+		"description": null,
+		"dialog_node": "node_20_1510480520069",
+		"previous_sibling": "node_20_1510487349166"
+	}, {
+		"title": "(4) Accuse",
+		"output": {},
+		"parent": "node_23_1510480611357",
+		"context": null,
+		"created": "2017-11-15T00:56:29.206Z",
+		"updated": "2017-11-15T00:58:24.142Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "#8_Accuse",
+		"description": null,
+		"dialog_node": "node_4_1510707388934",
+		"previous_sibling": "node_21_1510480545662"
+	}, {
+		"title": "Ask for Help",
+		"output": {
+			"text": {
+				"values": ["Try asking the suspects about their shoe size, motive, or alibis for starters. Remember, you can change the subject you are interviewing at any time. And once we've gotten everyone's shoe sizes we can move onto building a stronger case and make an accusation.", "Try asking the suspects about their shoe size, motive, or alibis for starters. Remember, you can change the subject you are interviewing at any time. And once we've gotten everyone's shoe sizes we can move onto building a stronger case and make an accusation. Another hint: Try asking each witness about their shoe sizes, directly."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1510480611357",
+		"context": null,
+		"created": "2017-11-12T10:32:24.406Z",
+		"updated": "2017-11-14T22:22:52.015Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "#need_help",
+		"description": null,
+		"dialog_node": "node_5_1510483133822",
+		"previous_sibling": "node_19_1510480507590"
+	}, {
+		"title": "(4) How long been with Vanessa",
+		"output": {
+			"text": {
+				"values": ["A few years now. We have been very happy with each other.. I don't know why anyone would do this."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1510480611357",
+		"context": null,
+		"created": "2017-11-15T00:53:18.256Z",
+		"updated": "2017-11-15T00:55:08.484Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "$suspect == \"Ed\" && #2_HowLongBeenTogether",
+		"description": null,
+		"dialog_node": "node_3_1510707197909",
+		"previous_sibling": "node_4_1510707388934"
+	}, {
+		"title": "(4) Ask about how suspect is doing",
+		"output": {},
+		"parent": "node_23_1510480611357",
+		"context": null,
+		"created": "2017-11-12T09:48:38.126Z",
+		"updated": "2017-11-14T23:27:18.097Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "#shoot_breeze",
+		"description": null,
+		"dialog_node": "node_19_1510480507590",
+		"previous_sibling": "node_17_1510480461149"
+	}, {
+		"title": "(4) Ask about motive",
+		"output": {},
+		"parent": "node_23_1510480611357",
+		"context": null,
+		"created": "2017-11-12T09:47:51.672Z",
+		"updated": "2017-11-12T11:13:02.215Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "@4_Motive",
+		"description": null,
+		"dialog_node": "node_17_1510480461149",
+		"previous_sibling": "node_18_1510480495150"
+	}, {
+		"title": "(4) Finished Interrogation, progress?",
+		"output": {
+			"text": {
+				"values": ["You've spoken with all suspects now. Would you like to move on, yes or no? If not, just tell me when you'd like to \"move on\"."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1510480611357",
+		"context": {
+			"img_ico": 1
+		},
+		"created": "2017-11-12T11:42:39.841Z",
+		"updated": "2017-11-15T08:16:14.498Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$ed:1 && $nate:1 && $brent:1 && $nomoveon:0",
+		"description": null,
+		"dialog_node": "node_20_1510487349166",
+		"previous_sibling": null
+	}, {
+		"title": "(2) Victim's Age",
+		"output": {
+			"text": {
+				"values": ["The victim's age is 25.. too young to die like this."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1510317613394",
+		"context": null,
+		"created": "2017-11-15T00:50:09.128Z",
+		"updated": "2017-11-15T01:20:22.569Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_7_1510317613394"
+		},
+		"conditions": "@2_Age",
+		"description": null,
+		"dialog_node": "node_2_1510707008758",
+		"previous_sibling": "node_12_1510472618540"
+	}, {
+		"title": "(2) Asking for Victim's Name",
+		"output": {
+			"text": {
+				"values": ["The victim's name was Vanessa Winchester.", "Her name was Vanessa Winchester."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1510317613394",
+		"context": null,
+		"created": "2017-11-12T06:09:55.741Z",
+		"updated": "2017-11-12T06:13:54.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_7_1510317613394"
+		},
+		"conditions": "@2_VictimName",
+		"description": null,
+		"dialog_node": "node_11_1510467385509",
+		"previous_sibling": "node_10_1510467251372"
+	}, {
+		"title": "(2) Asking about injuries/what happened",
+		"output": {
+			"text": {
+				"values": ["We know that she has 10 stab wounds in her abdomen. No other injuries to her body, although judging by the blood splatters in the room the Victim was very agitated as she was dying. Unfortunately it doesn't look like she was able to scratch him, otherwise there would be some of the perp's skin under her fingernails."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1510317613394",
+		"context": null,
+		"created": "2017-11-12T07:37:08.869Z",
+		"updated": "2017-11-15T00:50:05.467Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_7_1510317613394"
+		},
+		"conditions": "@2_VictimInjuries",
+		"description": null,
+		"dialog_node": "node_12_1510472618540",
+		"previous_sibling": "node_11_1510467385509"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["No problem, lets talk about something else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1510317613394",
+		"context": null,
+		"created": "2017-11-12T06:07:41.588Z",
+		"updated": "2017-11-12T06:08:11.414Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "@yesno:no",
+		"description": null,
+		"dialog_node": "node_10_1510467251372",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay, you probably brought your own car anyways. See you there."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1510470160677",
+		"context": null,
+		"created": "2017-11-12T07:22:44.882Z",
+		"updated": "2017-11-12T07:30:49.629Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_11_1510471803693"
+		},
+		"conditions": "@yesno:no",
+		"description": null,
+		"dialog_node": "node_10_1510471754534",
+		"previous_sibling": "node_9_1510471689214"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand that. See you at the station though."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1510470160677",
+		"context": null,
+		"created": "2017-11-12T10:01:08.126Z",
+		"updated": "2017-11-12T10:02:04.594Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_11_1510471803693"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_27_1510481257573",
+		"previous_sibling": "node_10_1510471754534"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay, let's go!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1510470160677",
+		"context": null,
+		"created": "2017-11-12T07:21:39.568Z",
+		"updated": "2017-11-12T07:30:37.411Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "@yesno:yes",
+		"description": null,
+		"dialog_node": "node_9_1510471689214",
+		"previous_sibling": null
+	}, {
+		"title": "(9) Moving to confession...",
+		"output": {
+			"text": {
+				"values": ["Okay well what proof do you have anyways to be accusing me?!", "Now, do you have any actual proof?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_12_1510698924858",
+		"context": null,
+		"created": "2017-11-14T22:41:45.115Z",
+		"updated": "2017-11-15T01:28:22.755Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_22_1510699304990",
+		"previous_sibling": null
+	}, {
+		"title": "Confession",
+		"output": {
+			"text": {
+				"values": ["All right.. you got me. Yeah I did murder her, I'm so sorry... I just couldn't stand seeing her with that Ed guy. I think I was justified all along."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1510699356821",
+		"context": null,
+		"created": "2017-11-14T22:49:55.639Z",
+		"updated": "2017-11-15T00:02:47.256Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_27_1510699795255",
+		"previous_sibling": null
+	}, {
+		"title": "Developer",
+		"output": {
+			"text": {
+				"values": ["Thank you for playing! I know it was a little rough around the edges sometimes but as a first try with AI this project definitely shows the possibilities for video games and AI that Conversations by IBM can achieve with just a little bit of elbow grease.  \n \nThe developer can be contacted at http://github.com/joshuajolly.\n \nThanks again!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510704103931",
+		"context": null,
+		"created": "2017-11-15T00:02:19.343Z",
+		"updated": "2017-11-15T01:28:58.839Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1510704138899",
+		"previous_sibling": null
+	}, {
+		"title": "(5) Decide who to interrogate now",
+		"output": {
+			"text": {
+				"values": ["Who would you like to interrogate now? You may interrogate her Ex (Brent), or her neighbor (Nate)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_10_1510492931374",
+		"context": null,
+		"created": "2017-11-14T21:49:44.240Z",
+		"updated": "2017-11-14T23:41:45.781Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_1_1510696184106",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["My shoe size is 6M."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_20_1510480520069",
+		"context": {
+			"brent": 1
+		},
+		"created": "2017-11-12T11:36:24.995Z",
+		"updated": "2017-11-12T12:06:18.384Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "$suspect == 'Brent'",
+		"description": null,
+		"dialog_node": "node_16_1510486974318",
+		"previous_sibling": "node_15_1510486960982"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I think my shoe size is like 5M."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_20_1510480520069",
+		"context": {
+			"nate": 1
+		},
+		"created": "2017-11-12T11:36:11.686Z",
+		"updated": "2017-11-12T12:06:14.032Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "$suspect == 'Nate'",
+		"description": null,
+		"dialog_node": "node_15_1510486960982",
+		"previous_sibling": "node_14_1510486924711"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_20_1510480520069",
+		"context": null,
+		"created": "2017-11-12T11:37:09.621Z",
+		"updated": "2017-11-15T01:14:51.491Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_17_1510487018952",
+		"previous_sibling": "node_16_1510486974318"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm a size 10M. What does this have to do with the investigation? Actually.. don't answer that."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_20_1510480520069",
+		"context": {
+			"ed": 1
+		},
+		"created": "2017-11-12T11:35:35.402Z",
+		"updated": "2017-11-12T12:06:09.825Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "$suspect == 'Ed'",
+		"description": null,
+		"dialog_node": "node_14_1510486924711",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_6_1510704311387",
+		"context": null,
+		"created": "2017-11-15T00:05:55.862Z",
+		"updated": "2017-11-15T00:06:04.408Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_4_1510704241903"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_7_1510704355410",
+		"previous_sibling": null
+	}, {
+		"title": "Play again?",
+		"output": {
+			"text": {
+				"values": ["Would you like to play again?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510704138899",
+		"context": null,
+		"created": "2017-11-15T00:04:02.344Z",
+		"updated": "2017-11-15T01:29:16.503Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_4_1510704241903",
+		"previous_sibling": null
+	}, {
+		"title": "(1) Investigation of Crime Scene (Second Stage)",
+		"output": {
+			"text": {
+				"values": ["Sounds good. What would you like to hear about the murder?", "Anything you'd like to hear about the murder?", "What would you like to ask about what happened? (Hint: try asking about evidence or the victim)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510310867946",
+		"context": null,
+		"created": "2017-11-12T05:53:12.914Z",
+		"updated": "2017-11-15T12:16:20.933Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_5_1510466382644",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_12_1510468343942",
+		"context": null,
+		"created": "2017-11-12T06:41:57.625Z",
+		"updated": "2017-11-12T06:42:20.501Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "@yesno:no",
+		"description": null,
+		"dialog_node": "node_3_1510469307358",
+		"previous_sibling": "node_2_1510469284221"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_12_1510468343942",
+		"context": null,
+		"created": "2017-11-12T06:41:35.156Z",
+		"updated": "2017-11-12T06:41:51.671Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_6_1510317607379"
+		},
+		"conditions": "@yesno:yes",
+		"description": null,
+		"dialog_node": "node_2_1510469284221",
+		"previous_sibling": null
+	}, {
+		"title": "(8) How do you know the suspect?",
+		"output": {
+			"text": {
+				"values": ["I know her by her type. That sort of woman just infuriates me. They all deserve to die."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:35:44.473Z",
+		"updated": "2017-11-15T00:41:10.924Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_22_1510699304990"
+		},
+		"conditions": "#8_HowKnowSuspect",
+		"description": null,
+		"dialog_node": "node_13_1510698944395",
+		"previous_sibling": "node_12_1510698924858"
+	}, {
+		"title": "(8) Ask about cuts on hands",
+		"output": {
+			"text": {
+				"values": ["W-what are you talking about? ~puts hand under table~ I don't know what you are talking about!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:36:43.493Z",
+		"updated": "2017-11-15T00:37:12.709Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_22_1510699304990"
+		},
+		"conditions": "@9_CutHand",
+		"description": null,
+		"dialog_node": "node_18_1510699003412",
+		"previous_sibling": "node_16_1510698972108"
+	}, {
+		"title": "(8) Hello",
+		"output": {
+			"text": {
+				"values": ["Hello."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:35:10.480Z",
+		"updated": "2017-11-15T00:39:26.462Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1510696335056"
+		},
+		"conditions": "#welcome",
+		"description": null,
+		"dialog_node": "node_11_1510698910418",
+		"previous_sibling": "node_19_1510699022229"
+	}, {
+		"title": "(8) Motive",
+		"output": {
+			"text": {
+				"values": ["I just think she was way out of line dating that horrible guy and she definitely deserves what was coming to her.."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:35:54.252Z",
+		"updated": "2017-11-15T00:35:22.030Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1510696335056"
+		},
+		"conditions": "@4_Motive",
+		"description": null,
+		"dialog_node": "node_14_1510698954092",
+		"previous_sibling": "node_13_1510698944395"
+	}, {
+		"title": "(8) Change Suspect",
+		"output": {
+			"text": {
+				"values": ["Yes, you can interview another suspect."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:38:43.359Z",
+		"updated": "2017-11-15T00:11:09.820Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510696184106"
+		},
+		"conditions": "#4_SpeakToSomeoneElse",
+		"description": null,
+		"dialog_node": "node_21_1510699123246",
+		"previous_sibling": "node_11_1510698910418"
+	}, {
+		"title": "(8) Anything Else",
+		"output": {},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:37:12.888Z",
+		"updated": "2017-11-15T00:10:02.013Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1510696335056"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_20_1510699032708",
+		"previous_sibling": "node_21_1510699123246"
+	}, {
+		"title": "(8) Why did you frame the boyfriend/did you do it/you did it?",
+		"output": {
+			"text": {
+				"values": ["I didn't! It was an accident! This whole conversation is way out of line.."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:36:12.197Z",
+		"updated": "2017-11-15T00:41:45.559Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_22_1510699304990"
+		},
+		"conditions": "#8_Accuse",
+		"description": null,
+		"dialog_node": "node_16_1510698972108",
+		"previous_sibling": "node_15_1510698964348"
+	}, {
+		"title": "(8) Alibi",
+		"output": {
+			"text": {
+				"values": ["I was at home with my wife. Just go ask her, if she'll even talk to you. Why did Vanessa get to have all the happiness in her relationship?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:36:04.424Z",
+		"updated": "2017-11-15T00:36:12.231Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1510696335056"
+		},
+		"conditions": "@4_Alibi",
+		"description": null,
+		"dialog_node": "node_15_1510698964348",
+		"previous_sibling": "node_14_1510698954092"
+	}, {
+		"title": "(8) Help",
+		"output": {
+			"text": {
+				"values": ["Try asking about motive, alibi, the last time the suspect saw the victim, etc."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:37:02.303Z",
+		"updated": "2017-11-15T00:10:43.430Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1510696335056"
+		},
+		"conditions": "#need_help",
+		"description": null,
+		"dialog_node": "node_19_1510699022229",
+		"previous_sibling": "node_18_1510699003412"
+	}, {
+		"title": "(8) Last time you saw the suspect",
+		"output": {
+			"text": {
+				"values": ["I guess the last time I saw her was.. just before she died, I guess. She was laying there in my arms like a perfect angel."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1510696335056",
+		"context": null,
+		"created": "2017-11-14T22:35:25.119Z",
+		"updated": "2017-11-15T00:41:36.580Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#8_LastTimeSawSuspect",
+		"description": null,
+		"dialog_node": "node_12_1510698924858",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["That's a yes or no question, sorry.."]
+			}
+		},
+		"parent": "node_1_1510320983380",
+		"context": null,
+		"created": "2017-11-12T05:39:20.764Z",
+		"updated": "2017-11-14T22:13:52.026Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$curr_level:0",
+		"description": null,
+		"dialog_node": "node_2_1510465550236",
+		"previous_sibling": "node_1_1510465505424"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Session ended because you requested a restart. Restarting now!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510320983380",
+		"context": null,
+		"created": "2017-11-12T05:38:35.663Z",
+		"updated": "2017-11-12T05:39:11.809Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#restart",
+		"description": null,
+		"dialog_node": "node_1_1510465505424",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_20_1510487349166",
+		"context": {
+			"nomoveon": 1
+		},
+		"created": "2017-11-12T11:47:02.043Z",
+		"updated": "2017-11-12T11:48:17.059Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "@yesno:no",
+		"description": null,
+		"dialog_node": "node_2_1510487611359",
+		"previous_sibling": "node_1_1510487572990"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_20_1510487349166",
+		"context": null,
+		"created": "2017-11-12T11:46:23.687Z",
+		"updated": "2017-11-15T01:25:30.624Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "@yesno:yes || @4_MoveOn",
+		"description": null,
+		"dialog_node": "node_1_1510487572990",
+		"previous_sibling": null
+	}, {
+		"title": "anything_else",
+		"output": {
+			"text": {
+				"values": ["Maybe ask me about the wineglass or footprints?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510311267714",
+		"context": null,
+		"created": "2017-11-14T22:59:19.265Z",
+		"updated": "2017-11-14T23:00:14.894Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510311267714"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_28_1510700359091",
+		"previous_sibling": "node_12_1510468343942"
+	}, {
+		"title": "(2) Ask about Footprints left outside",
+		"output": {
+			"text": {
+				"values": ["We found some footprints in the snow outside leading to the scene of the crime only. They have been positively identified as size 10M. It is a bit strange, because our Victim wears size 2F size shoes so it couldn't be her. And yet they don't leave the scene of the crime. Would you like to hear about the other piece of the physical evidence, yes or no?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510311267714",
+		"context": {
+			"evid_1": 1
+		},
+		"created": "2017-11-12T06:25:54.171Z",
+		"updated": "2017-11-14T23:03:43.997Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@2_Footprints",
+		"description": null,
+		"dialog_node": "node_12_1510468343942",
+		"previous_sibling": "node_6_1510317607379"
+	}, {
+		"title": "(2) Ask about Wine Glass",
+		"output": {
+			"text": {
+				"values": ["The wineglass used to stab the Victim is broken at the stem. It's covered in blood. Our techs at the lab are currently taking a look at at the blood on it, and will keep you posted. No fingerprints other than the Victims, though. Would you like to hear about the other piece of the physical evidence, yes or no?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510311267714",
+		"context": {
+			"evid_2": 1
+		},
+		"created": "2017-11-10T12:33:39.940Z",
+		"updated": "2017-11-14T23:04:42.653Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@2_Glass",
+		"description": null,
+		"dialog_node": "node_6_1510317607379",
+		"previous_sibling": null
+	}, {
+		"title": "(3) Select Suspect to Interrogate",
+		"output": {
+			"text": {
+				"values": ["Which suspect would you like to speak with now? Remember, we have Ed Voris, her neighbor Nate Brockheimer, and her ex-boyfriend Brent White here."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_11_1510471803693",
+		"context": {
+			"has_size": 0,
+			"img_back": 2,
+			"nomoveon": 0,
+			"curr_level": 3
+		},
+		"created": "2017-11-12T09:43:46.588Z",
+		"updated": "2017-11-15T08:27:44.621Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_13_1510480216077",
+		"previous_sibling": null
+	}, {
+		"title": "Return to Level 3",
+		"output": {
+			"text": {
+				"values": ["I don't understand what you mean. Can you try again?", "What?", "What do you mean? If you're feeling stuck, ask me for help?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_1_1510319925356",
+		"context": null,
+		"created": "2017-11-12T09:56:33.022Z",
+		"updated": "2017-11-14T22:13:27.382Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_13_1510480216077"
+		},
+		"conditions": "$curr_level:3",
+		"description": null,
+		"dialog_node": "node_25_1510480981941",
+		"previous_sibling": "node_2_1510319979211"
+	}, {
+		"title": "Return to Level 4",
+		"output": {
+			"text": {
+				"values": ["What?", "I don't understand what you mean. Can you try again?", "What do you mean? If you're feeling stuck, ask me for help?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_1_1510319925356",
+		"context": null,
+		"created": "2017-11-12T09:56:41.832Z",
+		"updated": "2017-11-14T22:13:40.622Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "$curr_level:4",
+		"description": null,
+		"dialog_node": "node_26_1510480991302",
+		"previous_sibling": "node_25_1510480981941"
+	}, {
+		"title": "Return to Level 2",
+		"output": {
+			"text": {
+				"values": ["I don't understand what you mean. Can you try again?", "What?", "What do you mean? If you're feeling stuck, ask me for help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510319925356",
+		"context": null,
+		"created": "2017-11-10T13:13:11.827Z",
+		"updated": "2017-11-15T05:12:45.373Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "$curr_level:2",
+		"description": null,
+		"dialog_node": "node_2_1510319979211",
+		"previous_sibling": "node_1_1510320983380"
+	}, {
+		"title": "Restart Bot",
+		"output": {},
+		"parent": "node_1_1510319925356",
+		"context": null,
+		"created": "2017-11-10T13:29:55.976Z",
+		"updated": "2017-11-12T07:30:16.389Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "$curr_level:1 || #restart",
+		"description": null,
+		"dialog_node": "node_1_1510320983380",
+		"previous_sibling": null
+	}, {
+		"title": "Has not asked for shoe size",
+		"output": {
+			"text": {
+				"values": ["Before you go, I am required to tell you my shoe size. Try asking for it?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_21_1510480545662",
+		"context": null,
+		"created": "2017-11-15T01:10:05.796Z",
+		"updated": "2017-11-15T01:14:42.553Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "$has_size:0",
+		"description": null,
+		"dialog_node": "node_10_1510708205596",
+		"previous_sibling": "node_9_1510708204068"
+	}, {
+		"title": "Has asked for shoe size",
+		"output": {
+			"text": {
+				"values": ["Absolutely, you can speak to someone else."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_21_1510480545662",
+		"context": null,
+		"created": "2017-11-15T01:10:04.272Z",
+		"updated": "2017-11-15T01:23:51.604Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_13_1510480216077"
+		},
+		"conditions": "$has_size:1",
+		"description": null,
+		"dialog_node": "node_9_1510708204068",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm really not doing okay. Poor girl. I wish I had been there to stop the killer. She really was a nice lady."]
+			}
+		},
+		"parent": "node_19_1510480507590",
+		"context": null,
+		"created": "2017-11-12T10:16:23.621Z",
+		"updated": "2017-11-12T12:05:55.415Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Nate'",
+		"description": null,
+		"dialog_node": "node_2_1510482173014",
+		"previous_sibling": "node_1_1510482139023"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good. Just want to get out of here as soon as possible. She's dead to me. Oh wait! Ha."]
+			}
+		},
+		"parent": "node_19_1510480507590",
+		"context": null,
+		"created": "2017-11-12T10:16:31.276Z",
+		"updated": "2017-11-12T12:05:57.562Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Brent'",
+		"description": null,
+		"dialog_node": "node_3_1510482180494",
+		"previous_sibling": "node_2_1510482173014"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm doing okay, all things considered. I'm just really shook up about this whole thing with my girlfriend. And they think I did it!"]
+			}
+		},
+		"parent": "node_19_1510480507590",
+		"context": null,
+		"created": "2017-11-12T10:15:49.575Z",
+		"updated": "2017-11-12T12:05:31.266Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Ed'",
+		"description": null,
+		"dialog_node": "node_1_1510482139023",
+		"previous_sibling": null
+	}, {
+		"title": "Arrival at Police Station",
+		"output": {
+			"text": {
+				"values": ["~Some time later~ Welcome to the police station! There are some suspects waiting for you in the interrogation cells. We have her current boyfriend Ed Voris, her neighbor Nate Brockheimer, and her ex-boyfriend Brent White. All three of them were in town at the time of the murders. Remember, you can change who you are interrogating at any time."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1510471689214",
+		"context": {
+			"ed": 0,
+			"nate": 0,
+			"brent": 0,
+			"img_back": 2
+		},
+		"created": "2017-11-12T07:23:34.014Z",
+		"updated": "2017-11-15T08:27:40.167Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_11_1510471803693",
+		"previous_sibling": null
+	}, {
+		"title": "(6) Interrogate Brent (Ex)",
+		"output": {
+			"text": {
+				"values": ["~You walk to Brent's Interrogation Cell and ask him about the unknown blood at the scene~ Brent: Wait! Before you ask me anything else, I saw the neighbor had cut marks on his hands when I saw him in the bathroom when he was taking his jacket off to wash his hands. You should ask him about it! Now, do you have anything you want to ask me?", "Brent: I don't know anything further. Ask Nate about the cuts on his hands! Now, do you have anything else you'd like to ask me? (to switch suspect, say \"switch suspect\")"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510696184106",
+		"context": {
+			"img_ico": 4
+		},
+		"created": "2017-11-14T21:51:39.378Z",
+		"updated": "2017-11-15T08:17:10.935Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@3_BrentWhite",
+		"description": null,
+		"dialog_node": "node_2_1510696299224",
+		"previous_sibling": "node_3_1510696335056"
+	}, {
+		"title": "(5) Restart function due to lack of input",
+		"output": {
+			"text": {
+				"values": ["I'm sorry, I don't understand you. Try again?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510696184106",
+		"context": null,
+		"created": "2017-11-14T22:01:15.692Z",
+		"updated": "2017-11-14T22:03:51.752Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510696184106"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_4_1510696875587",
+		"previous_sibling": "node_2_1510696299224"
+	}, {
+		"title": "(6) Interrogate Nate (Neighbor)",
+		"output": {
+			"text": {
+				"values": ["Nate: Here we go again. Anything you'd like to ask me?", "Nate: Anything else you'd like to ask me?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1510696184106",
+		"context": {
+			"img_ico": 3
+		},
+		"created": "2017-11-14T21:52:15.251Z",
+		"updated": "2017-11-15T08:17:00.524Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@3_NateBrockheimer",
+		"description": null,
+		"dialog_node": "node_3_1510696335056",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You can't prove I killed her!"]
+			}
+		},
+		"parent": "node_4_1510707388934",
+		"context": null,
+		"created": "2017-11-15T00:57:19.364Z",
+		"updated": "2017-11-15T00:57:31.975Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == \"Nate\"",
+		"description": null,
+		"dialog_node": "node_6_1510707438926",
+		"previous_sibling": "node_5_1510707420224"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {},
+		"parent": "node_4_1510707388934",
+		"context": null,
+		"created": "2017-11-15T00:58:15.535Z",
+		"updated": "2017-11-15T00:58:15.535Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_8_1510707495108",
+		"previous_sibling": "node_7_1510707451781"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I would never kill her, not in a million years. Although I must say she definitely deserved it."]
+			}
+		},
+		"parent": "node_4_1510707388934",
+		"context": null,
+		"created": "2017-11-15T00:57:32.148Z",
+		"updated": "2017-11-15T00:58:15.323Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == \"Brent\"",
+		"description": null,
+		"dialog_node": "node_7_1510707451781",
+		"previous_sibling": "node_6_1510707438926"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["No I didn't kill her! I would never!"]
+			}
+		},
+		"parent": "node_4_1510707388934",
+		"context": null,
+		"created": "2017-11-15T00:57:00.486Z",
+		"updated": "2017-11-15T00:57:19.141Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == \"Ed\"",
+		"description": null,
+		"dialog_node": "node_5_1510707420224",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_6_1510317607379",
+		"context": null,
+		"created": "2017-11-12T06:43:22.662Z",
+		"updated": "2017-11-12T06:43:45.300Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_5_1510466382644"
+		},
+		"conditions": "@yesno:no",
+		"description": null,
+		"dialog_node": "node_5_1510469392396",
+		"previous_sibling": "node_4_1510469367092"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_6_1510317607379",
+		"context": null,
+		"created": "2017-11-12T06:42:57.385Z",
+		"updated": "2017-11-12T06:43:15.507Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_12_1510468343942"
+		},
+		"conditions": "@yesno:yes",
+		"description": null,
+		"dialog_node": "node_4_1510469367092",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I barely knew her, why on earth would I want to kill her. I'm just the neighbor!"]
+			}
+		},
+		"parent": "node_17_1510480461149",
+		"context": null,
+		"created": "2017-11-12T10:54:55.266Z",
+		"updated": "2017-11-12T12:06:40.680Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Nate'",
+		"description": null,
+		"dialog_node": "node_8_1510484484572",
+		"previous_sibling": "node_4_1510483058349"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I have no desire to kill her. Although it seems fitting that she should experience this karmic justice given how badly she treated me by breaking up with me."]
+			}
+		},
+		"parent": "node_17_1510480461149",
+		"context": null,
+		"created": "2017-11-12T10:54:56.065Z",
+		"updated": "2017-11-12T12:06:43.385Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Brent'",
+		"description": null,
+		"dialog_node": "node_9_1510484485428",
+		"previous_sibling": "node_8_1510484484572"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I had no motive to kill her. I'm in love with her!"]
+			}
+		},
+		"parent": "node_17_1510480461149",
+		"context": null,
+		"created": "2017-11-12T10:31:08.949Z",
+		"updated": "2017-11-12T12:06:36.385Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Ed'",
+		"description": null,
+		"dialog_node": "node_4_1510483058349",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I was at home with my wife the whole night. Just ask her! Or my kid. Although I would prefer it if you didn't drag him all the way out here!"]
+			}
+		},
+		"parent": "node_18_1510480495150",
+		"context": null,
+		"created": "2017-11-12T10:54:47.137Z",
+		"updated": "2017-11-12T12:06:30.966Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Nate'",
+		"description": null,
+		"dialog_node": "node_7_1510484476514",
+		"previous_sibling": "node_11_1510484497589"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I was working on an experimental new chatbot all night. Deadline is coming up. I could't possibly be out murdering. Or could I? Mwahaha"]
+			}
+		},
+		"parent": "node_18_1510480495150",
+		"context": null,
+		"created": "2017-11-12T10:55:08.215Z",
+		"updated": "2017-11-12T12:06:27.995Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Brent'",
+		"description": null,
+		"dialog_node": "node_11_1510484497589",
+		"previous_sibling": "node_10_1510484491653"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I was out all night with a friend drinking. We had just crashed at her place when the police came calling. This is strictly speaking confidential! Although I guess there's no-one to tell it to now..."]
+			}
+		},
+		"parent": "node_18_1510480495150",
+		"context": null,
+		"created": "2017-11-12T10:55:02.405Z",
+		"updated": "2017-11-12T12:06:25.191Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$suspect == 'Ed'",
+		"description": null,
+		"dialog_node": "node_10_1510484491653",
+		"previous_sibling": null
+	}, {
+		"title": "(3) Interrogate Brent White",
+		"output": {},
+		"parent": "node_13_1510480216077",
+		"context": {
+			"img_ico": 4,
+			"suspect": "Brent"
+		},
+		"created": "2017-11-12T09:47:22.965Z",
+		"updated": "2017-11-15T08:15:12.705Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "@3_BrentWhite",
+		"description": null,
+		"dialog_node": "node_16_1510480432429",
+		"previous_sibling": "node_15_1510480411447"
+	}, {
+		"title": "(3) Interrogate Nate Brockheimer",
+		"output": {},
+		"parent": "node_13_1510480216077",
+		"context": {
+			"img_ico": 3,
+			"suspect": "Nate"
+		},
+		"created": "2017-11-12T09:47:02.011Z",
+		"updated": "2017-11-15T08:15:32.002Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_23_1510480611357"
+		},
+		"conditions": "@3_NateBrockheimer",
+		"description": null,
+		"dialog_node": "node_15_1510480411447",
+		"previous_sibling": "node_14_1510480377311"
+	}, {
+		"title": "(3) Interrogate Ed Voris",
+		"output": {},
+		"parent": "node_13_1510480216077",
+		"context": {
+			"img_ico": 2,
+			"suspect": "Ed"
+		},
+		"created": "2017-11-12T09:46:27.851Z",
+		"updated": "2017-11-15T08:14:54.038Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "@3_EdVoris",
+		"description": null,
+		"dialog_node": "node_14_1510480377311",
+		"previous_sibling": null
+	}, {
+		"title": "Detective makes claim",
+		"output": {
+			"text": {
+				"values": ["~Some time later~ \n \nAs I thought! We found a pair of size 10M shoes at the crime scene. They are the same type as the boyfriend's and stuffed with newspaper. The perp must have messed them up and left them behind. Then they must have walked out backwards making it look like the footprints were just leading into the house. It must have been a frame! So now it's your job to get back in there and find out who did this!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1510492868703",
+		"context": null,
+		"created": "2017-11-12T13:15:42.454Z",
+		"updated": "2017-11-14T21:51:00.999Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_10_1510492931374",
+		"previous_sibling": null
+	}, {
+		"title": "Detective Returns",
+		"output": {
+			"text": {
+				"values": ["We just got the bloodwork back and the unknown blood is type A. That can't be right.. The boyfriend is type AB and the girlfriend is type B. And, as it turns out, Nate and Brent are both type A! We'll know for sure who did it later, but we'd have a much stronger case if you got a confession out of one of them. \n \nAnd I have an idea about who did the killing.. <press enter>"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_6_1510492202319",
+		"context": null,
+		"created": "2017-11-12T13:14:39.539Z",
+		"updated": "2017-11-15T01:26:05.448Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_9_1510492868703",
+		"previous_sibling": null
+	}, {
+		"title": "No",
+		"output": {
+			"text": {
+				"values": ["Thanks for playing!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1510704241903",
+		"context": null,
+		"created": "2017-11-15T00:05:11.836Z",
+		"updated": "2017-11-15T00:06:26.310Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_6_1510704311387",
+		"previous_sibling": "node_5_1510704268030"
+	}, {
+		"title": "Yes",
+		"output": {
+			"text": {
+				"values": ["Restarting~~"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1510704241903",
+		"context": null,
+		"created": "2017-11-15T00:04:28.464Z",
+		"updated": "2017-11-15T00:05:03.890Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "@yesno:yes",
+		"description": null,
+		"dialog_node": "node_5_1510704268030",
+		"previous_sibling": null
+	}, {
+		"title": "(9) Footprints/Shoe Size",
+		"output": {},
+		"parent": "node_22_1510699304990",
+		"context": null,
+		"created": "2017-11-14T22:43:07.287Z",
+		"updated": "2017-11-15T00:23:46.803Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_27_1510699795255"
+		},
+		"conditions": "@2_Footprints || @4_ShoeSize",
+		"description": null,
+		"dialog_node": "node_24_1510699387177",
+		"previous_sibling": "node_23_1510699356821"
+	}, {
+		"title": "(9) Cuts on hand",
+		"output": {},
+		"parent": "node_22_1510699304990",
+		"context": null,
+		"created": "2017-11-14T22:43:20.059Z",
+		"updated": "2017-11-15T00:26:25.360Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_27_1510699795255"
+		},
+		"conditions": "@9_CutHand",
+		"description": null,
+		"dialog_node": "node_25_1510699399953",
+		"previous_sibling": "node_24_1510699387177"
+	}, {
+		"title": "(9) Invalid entry",
+		"output": {
+			"text": {
+				"values": ["What? I don't understand what you're saying.", "What? I don't understand what you're saying. (Try asking about blood, footprints, or cuts on hand)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_22_1510699304990",
+		"context": null,
+		"created": "2017-11-14T22:44:36.379Z",
+		"updated": "2017-11-15T01:28:06.432Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_22_1510699304990"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_26_1510699476252",
+		"previous_sibling": "node_25_1510699399953"
+	}, {
+		"title": "(9) Wineglass/blood",
+		"output": {},
+		"parent": "node_22_1510699304990",
+		"context": null,
+		"created": "2017-11-14T22:42:36.905Z",
+		"updated": "2017-11-15T00:25:35.873Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "@2_Glass || @2_VictimInjuries || @9_Blood",
+		"description": null,
+		"dialog_node": "node_23_1510699356821",
+		"previous_sibling": null
+	}, {
+		"title": "(4) Interrogation Begin",
+		"output": {
+			"text": {
+				"values": ["<?$suspect?>: What do you have to ask?", "<?$suspect?>: Anything you'd like to ask me?", "<?$suspect?>: Ask me anything. (Hint: to change suspect just say \"change suspect\" to me)"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_14_1510480377311",
+		"context": {
+			"curr_level": 4
+		},
+		"created": "2017-11-12T09:50:21.910Z",
+		"updated": "2017-11-14T22:24:04.117Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_23_1510480611357",
+		"previous_sibling": null
+	}, {
+		"title": "N/A or none",
+		"output": {
+			"text": {
+				"values": ["Sounds good. Let's move on."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1510487806405",
+		"context": null,
+		"created": "2017-11-12T13:02:40.333Z",
+		"updated": "2017-11-12T13:15:01.833Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510492868703"
+		},
+		"conditions": "@yesno:no && anything_else",
+		"description": null,
+		"dialog_node": "node_5_1510492149526",
+		"previous_sibling": "node_8_1510492256280"
+	}, {
+		"title": "Accuse Nate",
+		"output": {
+			"text": {
+				"values": ["Nate is a strange decision to accuse. Then again, he did seem a little bit too innocent."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1510487806405",
+		"context": null,
+		"created": "2017-11-12T13:04:27.124Z",
+		"updated": "2017-11-12T13:15:08.083Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510492868703"
+		},
+		"conditions": "@3_NateBrockheimer",
+		"description": null,
+		"dialog_node": "node_8_1510492256280",
+		"previous_sibling": "node_7_1510492251624"
+	}, {
+		"title": "Accuse Brent",
+		"output": {
+			"text": {
+				"values": ["Brent certainly seems very suspicious. And very upset. Good choice! Although the shoe doesn't fit.. let's investigate that a bit further."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1510487806405",
+		"context": null,
+		"created": "2017-11-12T13:04:22.470Z",
+		"updated": "2017-11-12T13:15:13.181Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_9_1510492868703"
+		},
+		"conditions": "@3_BrentWhite",
+		"description": null,
+		"dialog_node": "node_7_1510492251624",
+		"previous_sibling": "node_6_1510492202319"
+	}, {
+		"title": "Accuse Ed",
+		"output": {
+			"text": {
+				"values": ["Well, I can see why you picked Ed. The shoe does fit, after all."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1510487806405",
+		"context": null,
+		"created": "2017-11-12T13:03:33.115Z",
+		"updated": "2017-11-12T13:15:16.387Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "@3_EdVoris",
+		"description": null,
+		"dialog_node": "node_6_1510492202319",
+		"previous_sibling": null
+	}, {
+		"title": "(1) No",
+		"output": {
+			"text": {
+				"values": ["Well thanks for nothing. Guess we'll have to call in our on-call investigator.", "Okay, if you say so. Have a nice night.", "I'm sorry to hear that. Guess we're packing up tonight."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "Welcome",
+		"context": null,
+		"created": "2017-11-10T12:22:25.569Z",
+		"updated": "2017-11-10T13:25:04.282Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "@yesno:no",
+		"description": null,
+		"dialog_node": "node_3_1510316932955",
+		"previous_sibling": "node_1_1510310867946"
+	}, {
+		"title": "(1) Yes",
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Welcome",
+		"context": {
+			"evid_1": 0,
+			"evid_2": 0,
+			"curr_level": 2,
+			"met_victim": 0,
+			"progression": 0
+		},
+		"created": "2017-11-10T10:41:20.448Z",
+		"updated": "2017-11-14T23:04:25.290Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "@yesno:yes",
+		"description": null,
+		"dialog_node": "node_1_1510310867946",
+		"previous_sibling": null
+	}, {
+		"title": "(7) Interview another suspect",
+		"output": {},
+		"parent": "node_2_1510696299224",
+		"context": null,
+		"created": "2017-11-14T22:06:16.091Z",
+		"updated": "2017-11-14T23:43:53.872Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1510696184106"
+		},
+		"conditions": "#4_SpeakToSomeoneElse",
+		"description": null,
+		"dialog_node": "node_8_1510697175980",
+		"previous_sibling": "node_7_1510697158563"
+	}, {
+		"title": "(7) Hello",
+		"output": {
+			"text": {
+				"values": ["So it turned out not to be the boyfriend? That's too bad, I always thought it was him. Maybe you should try asking Nate something..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510696299224",
+		"context": null,
+		"created": "2017-11-14T22:05:20.640Z",
+		"updated": "2017-11-14T23:37:36.126Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510696299224"
+		},
+		"conditions": "#welcome",
+		"description": null,
+		"dialog_node": "node_5_1510697120538",
+		"previous_sibling": "node_10_1510698417782"
+	}, {
+		"title": "(7) Anything else",
+		"output": {
+			"text": {
+				"values": ["What?", "I don't understand you. Hint: To change suspect, ask me to \"change suspect\"."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510696299224",
+		"context": null,
+		"created": "2017-11-14T22:15:13.126Z",
+		"updated": "2017-11-14T22:38:29.794Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510696299224"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_9_1510697712917",
+		"previous_sibling": "node_5_1510697120538"
+	}, {
+		"title": "(7) Motive",
+		"output": {
+			"text": {
+				"values": ["I had absolutely no motive to kill her. I mean she did break up with me but I never wanted to murder her!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510696299224",
+		"context": null,
+		"created": "2017-11-14T22:05:58.699Z",
+		"updated": "2017-11-14T22:48:02.292Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510696299224"
+		},
+		"conditions": "@4_Motive",
+		"description": null,
+		"dialog_node": "node_7_1510697158563",
+		"previous_sibling": "node_6_1510697151506"
+	}, {
+		"title": "(7) Help",
+		"output": {
+			"text": {
+				"values": ["To change suspect, ask me to \"change suspect\"."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510696299224",
+		"context": null,
+		"created": "2017-11-14T22:26:57.884Z",
+		"updated": "2017-11-14T22:47:11.594Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510696299224"
+		},
+		"conditions": "#need_help",
+		"description": null,
+		"dialog_node": "node_10_1510698417782",
+		"previous_sibling": "node_8_1510697175980"
+	}, {
+		"title": "(7) Alibi",
+		"output": {
+			"text": {
+				"values": ["I already told you my alibi! If you don't have any further questions, lets just end this here, okay?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1510696299224",
+		"context": null,
+		"created": "2017-11-14T22:05:51.619Z",
+		"updated": "2017-11-14T23:38:38.070Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1510696299224"
+		},
+		"conditions": "@4_Alibi",
+		"description": null,
+		"dialog_node": "node_6_1510697151506",
+		"previous_sibling": null
+	}, {
+		"title": "Conversation-holding function",
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-10T13:12:18.014Z",
+		"updated": "2017-11-12T03:05:05.371Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_1_1510319925356",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "Would you like to investigate?",
+		"output": {
+			"text": {
+				"values": ["Welcome to the scene, chief. It's a bad one tonight. Can you help, yes or no?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"anger": 0,
+			"img_ico": 1,
+			"img_back": 1,
+			"curr_level": 1
+		},
+		"created": "2017-11-10T10:38:23.781Z",
+		"updated": "2017-11-15T11:27:09.592Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "6155caff-6942-43db-b75a-48984370dc4e",
+	"counterexamples": [{
+		"text": "I'd like to hear about the crime scene",
+		"created": "2017-11-10T13:35:25.127Z",
+		"updated": "2017-11-10T13:35:25.127Z"
+	}, {
+		"text": "no",
+		"created": "2017-11-14T22:26:33.669Z",
+		"updated": "2017-11-14T22:26:33.669Z"
+	}],
+	"learning_opt_out": false
+}

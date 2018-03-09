@@ -1,1 +1,617 @@
-{"name":"Basic-Doctor-Office","created":"2018-01-15T19:44:27.524Z","intents":[{"intent":"hour_of_operation","created":"2018-01-15T19:46:59.554Z","updated":"2018-01-15T19:54:30.180Z","examples":[{"text":"what time can I come in","created":"2018-01-15T19:47:04.298Z","updated":"2018-01-15T19:47:04.298Z"},{"text":"when do you close","created":"2018-01-15T19:47:20.190Z","updated":"2018-01-15T19:47:20.190Z"},{"text":"when do you open","created":"2018-01-15T19:47:26.221Z","updated":"2018-01-15T19:47:26.221Z"},{"text":"when is doctor Laura available","created":"2018-01-15T19:48:01.797Z","updated":"2018-01-15T19:48:01.797Z"},{"text":"what is your office hour","created":"2018-01-15T19:48:44.626Z","updated":"2018-01-15T19:48:44.626Z"},{"text":"open in the morning","created":"2018-01-15T19:54:21.125Z","updated":"2018-01-15T19:54:21.125Z"},{"text":"close in the afternoon","created":"2018-01-15T19:54:30.180Z","updated":"2018-01-15T19:54:30.180Z"}],"description":""},{"intent":"greeting","created":"2018-01-15T19:45:11.457Z","updated":"2018-01-15T19:46:00.637Z","examples":[{"text":"Hello","created":"2018-01-15T19:45:24.610Z","updated":"2018-01-15T19:45:24.610Z"},{"text":"Hi","created":"2018-01-15T19:45:30.155Z","updated":"2018-01-15T19:45:30.155Z"},{"text":"Hi there","created":"2018-01-15T19:45:33.963Z","updated":"2018-01-15T19:45:33.963Z"},{"text":"Howdy","created":"2018-01-15T19:45:41.751Z","updated":"2018-01-15T19:45:41.751Z"},{"text":"what's up","created":"2018-01-15T19:46:00.637Z","updated":"2018-01-15T19:46:00.637Z"}],"description":""},{"intent":"office_email","created":"2018-01-15T19:54:50.976Z","updated":"2018-01-15T19:57:31.498Z","examples":[{"text":"email","created":"2018-01-15T19:54:55.023Z","updated":"2018-01-15T19:54:55.023Z"},{"text":"email address","created":"2018-01-15T19:54:58.625Z","updated":"2018-01-15T19:54:58.625Z"},{"text":"what is office email address","created":"2018-01-15T19:55:23.886Z","updated":"2018-01-15T19:55:23.886Z"},{"text":"where to send email","created":"2018-01-15T19:57:13.575Z","updated":"2018-01-15T19:57:13.575Z"},{"text":"how do I reach you by email","created":"2018-01-15T19:57:31.498Z","updated":"2018-01-15T19:57:31.498Z"}],"description":""},{"intent":"contact_info","created":"2018-01-15T20:12:35.683Z","updated":"2018-01-15T20:13:27.709Z","examples":[{"text":"contact information","created":"2018-01-15T20:12:46.671Z","updated":"2018-01-15T20:12:46.671Z"},{"text":"contact info","created":"2018-01-15T20:12:50.050Z","updated":"2018-01-15T20:12:50.050Z"},{"text":"general info","created":"2018-01-15T20:12:59.398Z","updated":"2018-01-15T20:12:59.398Z"},{"text":"general information","created":"2018-01-15T20:13:08.474Z","updated":"2018-01-15T20:13:08.474Z"},{"text":"complete contact information","created":"2018-01-15T20:13:27.709Z","updated":"2018-01-15T20:13:27.709Z"}],"description":""},{"intent":"office_fax","created":"2018-01-15T19:51:36.342Z","updated":"2018-01-15T19:56:21.934Z","examples":[{"text":"fax number","created":"2018-01-15T19:51:52.544Z","updated":"2018-01-15T19:51:52.544Z"},{"text":"fax#","created":"2018-01-15T19:51:56.647Z","updated":"2018-01-15T19:51:56.647Z"},{"text":"do you have fax number","created":"2018-01-15T19:52:49.068Z","updated":"2018-01-15T19:52:49.068Z"},{"text":"what is office fax number","created":"2018-01-15T19:53:08.144Z","updated":"2018-01-15T19:56:14.467Z"},{"text":"what is office fax#","created":"2018-01-15T19:52:12.356Z","updated":"2018-01-15T19:56:21.934Z"}],"description":""},{"intent":"address","created":"2018-01-15T22:41:09.166Z","updated":"2018-01-15T22:43:36.488Z","examples":[{"text":"address","created":"2018-01-15T22:41:18.391Z","updated":"2018-01-15T22:41:18.391Z"},{"text":"physical address","created":"2018-01-15T22:41:29.179Z","updated":"2018-01-15T22:41:29.179Z"},{"text":"street address","created":"2018-01-15T22:41:34.073Z","updated":"2018-01-15T22:41:34.073Z"},{"text":"where is your office","created":"2018-01-15T22:41:47.253Z","updated":"2018-01-15T22:41:47.253Z"},{"text":"where are you","created":"2018-01-15T22:43:36.488Z","updated":"2018-01-15T22:43:36.488Z"}],"description":""},{"intent":"office_phone","created":"2018-01-15T19:49:08.946Z","updated":"2018-01-15T19:56:46.702Z","examples":[{"text":"what number can I reach you","created":"2018-01-15T19:49:58.727Z","updated":"2018-01-15T19:49:58.727Z"},{"text":"what number can I call you","created":"2018-01-15T19:50:13.553Z","updated":"2018-01-15T19:50:13.553Z"},{"text":"what number to call to make appointment","created":"2018-01-15T19:51:00.475Z","updated":"2018-01-15T19:51:00.475Z"},{"text":"office number","created":"2018-01-15T19:53:39.068Z","updated":"2018-01-15T19:53:39.068Z"},{"text":"phone number","created":"2018-01-15T19:53:43.972Z","updated":"2018-01-15T19:53:43.972Z"},{"text":"what is office phone number","created":"2018-01-15T19:49:28.178Z","updated":"2018-01-15T19:56:34.442Z"},{"text":"what is office phone#","created":"2018-01-15T19:49:37.124Z","updated":"2018-01-15T19:56:46.702Z"}],"description":""},{"intent":"direction","created":"2018-01-15T19:57:47.669Z","updated":"2018-01-15T19:59:34.263Z","examples":[{"text":"direction to your office","created":"2018-01-15T19:58:09.744Z","updated":"2018-01-15T19:58:09.744Z"},{"text":"how do I get there","created":"2018-01-15T19:58:18.565Z","updated":"2018-01-15T19:58:18.565Z"},{"text":"how do I get to your office","created":"2018-01-15T19:58:37.424Z","updated":"2018-01-15T19:58:37.424Z"},{"text":"need direction to your office","created":"2018-01-15T19:59:15.564Z","updated":"2018-01-15T19:59:15.564Z"},{"text":"driving direction","created":"2018-01-15T19:59:34.263Z","updated":"2018-01-15T19:59:34.263Z"}],"description":""}],"updated":"2018-01-15T22:44:56.688Z","entities":[{"entity":"west","values":[{"type":"synonyms","value":"west","created":"2018-01-15T21:37:45.584Z","updated":"2018-01-15T21:37:45.584Z","metadata":null,"synonyms":["western"]}],"created":"2018-01-15T21:37:36.342Z","updated":"2018-01-15T21:37:45.584Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"north","values":[{"type":"synonyms","value":"north","created":"2018-01-15T21:35:30.404Z","updated":"2018-01-15T21:37:18.481Z","metadata":null,"synonyms":["northern"]}],"created":"2018-01-15T21:35:23.517Z","updated":"2018-01-15T21:37:18.481Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"east","values":[{"type":"synonyms","value":"east","created":"2018-01-15T21:35:58.395Z","updated":"2018-01-15T21:37:01.506Z","metadata":null,"synonyms":["eastern"]}],"created":"2018-01-15T21:35:54.103Z","updated":"2018-01-15T21:37:01.506Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"south","values":[{"type":"synonyms","value":"south","created":"2018-01-15T21:36:26.166Z","updated":"2018-01-15T21:36:43.130Z","metadata":null,"synonyms":["southern"]}],"created":"2018-01-15T21:36:13.268Z","updated":"2018-01-15T21:36:43.130Z","metadata":null,"description":null,"fuzzy_match":false}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Basic information for a doctor office","dialog_nodes":[{"type":"standard","title":"Where from","output":{"text":{"values":["@east","@south","@west","@north"],"selection_policy":"sequential"}},"parent":"node_8_1516047623442","context":null,"created":"2018-01-15T21:40:22.027Z","updated":"2018-01-15T21:53:46.188Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_10_1516052630226"},"conditions":"true","description":null,"dialog_node":"node_9_1516052432770","previous_sibling":null},{"type":"standard","title":"north","output":{"text":{"values":["When you come from North of Dr. Laura office, Merge onto I-635 W via Exit 440C on the left toward DFW Airport, Take the Bass Pro Drive/TX-121 N Exit 36B, Take the Bass Pro Drive exit, Turn Left onto Bass Pro Drive (Bass Pro Drive becomes Bass Pro Court), 2200 Bass Pro Court is on the right behind Bass Pro Shop."],"selection_policy":"sequential"}},"parent":"node_9_1516052432770","context":null,"created":"2018-01-15T22:02:58.939Z","updated":"2018-01-15T22:04:26.334Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Welcome"},"conditions":"@north:north","description":null,"dialog_node":"node_13_1516053789699","previous_sibling":"node_12_1516053702970"},{"type":"standard","title":"south","output":{"text":{"values":["When you come from South of Dr. Laura office, Merge onto I-635 W via Exit 440C on the left toward DFW Airport, Take the Bass Pro Drive/TX-121 N Exit 36B, Take the Bass Pro Drive exit, Turn Left onto Bass Pro Drive (Bass Pro Drive becomes Bass Pro Court), 2200 Bass Pro Court is on the right behind Bass Pro Shop."],"selection_policy":"sequential"}},"parent":"node_9_1516052432770","context":null,"created":"2018-01-15T21:54:56.963Z","updated":"2018-01-15T22:04:06.600Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Welcome"},"conditions":"@south","description":null,"dialog_node":"node_11_1516053307758","previous_sibling":"node_10_1516052630226"},{"type":"standard","title":"west","output":{"text":{"values":["When you come from West of Dr. Laura office, Merge onto TX-121 North toward DFW Airport, Take the Bass Pro Drive Exit, Turn Left onto Bass Pro Drive (Bass Pro Drive becomes Bass Pro Court), 2200 Bass Pro Court is on the right behind Bass Pro Shop."],"selection_policy":"sequential"}},"parent":"node_9_1516052432770","context":null,"created":"2018-01-15T22:01:32.164Z","updated":"2018-01-15T22:02:39.444Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Welcome"},"conditions":"@west:west","description":null,"dialog_node":"node_12_1516053702970","previous_sibling":"node_11_1516053307758"},{"type":"standard","title":"east","output":{"text":{"values":["When you come from East of Dr. Laura office, Merge onto TX-121 North toward DFW Airport, Take the Bass Pro Drive Exit, Turn Left onto Bass Pro Drive (Bass Pro Drive becomes Bass Pro Court), 2200 Bass Pro Court is on the right behind Bass Pro Shop."],"selection_policy":"sequential"}},"parent":"node_9_1516052432770","context":null,"created":"2018-01-15T21:43:39.423Z","updated":"2018-01-15T21:59:40.188Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Welcome"},"conditions":"@east:east","description":null,"dialog_node":"node_10_1516052630226","previous_sibling":null},{"type":"standard","title":"office_email","output":{"text":{"values":["Dr. Laura office email address is email\\@drlaura.com."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:11:09.730Z","updated":"2018-01-15T21:09:11.226Z","metadata":{},"next_step":null,"conditions":"#office_email","description":null,"dialog_node":"node_5_1516047080348","previous_sibling":"node_4_1516047023069"},{"type":"standard","title":"direction","output":{"text":{"values":["Where do you come from (East, South, West or North)?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:20:12.670Z","updated":"2018-01-15T21:43:19.177Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_9_1516052432770"},"conditions":"#direction","description":null,"dialog_node":"node_8_1516047623442","previous_sibling":"node_5_1516047080348"},{"type":"standard","title":"greeting","output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:05:24.611Z","updated":"2018-01-15T21:06:52.139Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"#greeting","description":null,"dialog_node":"node_1_1516046735326","previous_sibling":"Welcome"},{"type":"standard","title":"office_fax","output":{"text":{"values":["Dr. Laura office fax number is 972-000-0001."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:10:12.483Z","updated":"2018-01-15T20:11:09.498Z","metadata":{},"next_step":null,"conditions":"#office_fax","description":null,"dialog_node":"node_4_1516047023069","previous_sibling":"node_3_1516046957929"},{"type":"standard","title":"hour_of_operation","output":{"text":{"values":["Dr. Laura office opens from 9:00am to 4:30pm Monday through Friday, 9:00am to 12:00pm Saturday."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:07:08.004Z","updated":"2018-01-15T20:09:07.163Z","metadata":{},"next_step":null,"conditions":"#hour_of_operation","description":null,"dialog_node":"node_2_1516046838796","previous_sibling":"node_1_1516056245266"},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:03:47.906Z","updated":"2018-01-15T20:03:47.906Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_8_1516047623442"},{"type":"standard","title":"contact_info","output":{"text":{"values":["Thank you for contacting Dr. Laura office which locates at 123 Main Street, Plano, TX 75093. Office phone# is 972-000-0000. Office fax# is 972-000-0001. Office email address is email\\@drlaura.com. The office is open from 9:00am to 4:30 pm Monday through Friday, 9:00am to 12:00pm Saturday."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:13:48.459Z","updated":"2018-01-15T22:44:31.659Z","metadata":{},"next_step":null,"conditions":"#contact_info","digress_in":"does_not_return","description":null,"dialog_node":"node_6_1516047239238","previous_sibling":"node_1_1516046735326"},{"type":"standard","title":"office_phone","output":{"text":{"values":["Dr. Laura office phone is 972-000-0000."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:09:07.260Z","updated":"2018-01-15T20:10:12.473Z","metadata":{},"next_step":null,"conditions":"#office_phone","description":null,"dialog_node":"node_3_1516046957929","previous_sibling":"node_2_1516046838796"},{"type":"standard","title":"address","output":{"text":{"values":["Dr. Laura office locates at 123 Main Street, Plano, TX 75093."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T22:43:54.548Z","updated":"2018-01-15T22:44:56.688Z","metadata":{},"next_step":null,"conditions":"#address","description":null,"dialog_node":"node_1_1516056245266","previous_sibling":"node_6_1516047239238"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hello. Thank you for visiting Dr. Laura office. How can I help you?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-15T20:03:47.906Z","updated":"2018-01-15T21:04:41.467Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"45b1d676-fa2b-4dd0-b307-c34f85bcedbb","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Basic-Doctor-Office",
+	"created": "2018-01-15T19:44:27.524Z",
+	"intents": [{
+		"intent": "hour_of_operation",
+		"created": "2018-01-15T19:46:59.554Z",
+		"updated": "2018-01-15T19:54:30.180Z",
+		"examples": [{
+			"text": "what time can I come in",
+			"created": "2018-01-15T19:47:04.298Z",
+			"updated": "2018-01-15T19:47:04.298Z"
+		}, {
+			"text": "when do you close",
+			"created": "2018-01-15T19:47:20.190Z",
+			"updated": "2018-01-15T19:47:20.190Z"
+		}, {
+			"text": "when do you open",
+			"created": "2018-01-15T19:47:26.221Z",
+			"updated": "2018-01-15T19:47:26.221Z"
+		}, {
+			"text": "when is doctor Laura available",
+			"created": "2018-01-15T19:48:01.797Z",
+			"updated": "2018-01-15T19:48:01.797Z"
+		}, {
+			"text": "what is your office hour",
+			"created": "2018-01-15T19:48:44.626Z",
+			"updated": "2018-01-15T19:48:44.626Z"
+		}, {
+			"text": "open in the morning",
+			"created": "2018-01-15T19:54:21.125Z",
+			"updated": "2018-01-15T19:54:21.125Z"
+		}, {
+			"text": "close in the afternoon",
+			"created": "2018-01-15T19:54:30.180Z",
+			"updated": "2018-01-15T19:54:30.180Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "greeting",
+		"created": "2018-01-15T19:45:11.457Z",
+		"updated": "2018-01-15T19:46:00.637Z",
+		"examples": [{
+			"text": "Hello",
+			"created": "2018-01-15T19:45:24.610Z",
+			"updated": "2018-01-15T19:45:24.610Z"
+		}, {
+			"text": "Hi",
+			"created": "2018-01-15T19:45:30.155Z",
+			"updated": "2018-01-15T19:45:30.155Z"
+		}, {
+			"text": "Hi there",
+			"created": "2018-01-15T19:45:33.963Z",
+			"updated": "2018-01-15T19:45:33.963Z"
+		}, {
+			"text": "Howdy",
+			"created": "2018-01-15T19:45:41.751Z",
+			"updated": "2018-01-15T19:45:41.751Z"
+		}, {
+			"text": "what's up",
+			"created": "2018-01-15T19:46:00.637Z",
+			"updated": "2018-01-15T19:46:00.637Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "office_email",
+		"created": "2018-01-15T19:54:50.976Z",
+		"updated": "2018-01-15T19:57:31.498Z",
+		"examples": [{
+			"text": "email",
+			"created": "2018-01-15T19:54:55.023Z",
+			"updated": "2018-01-15T19:54:55.023Z"
+		}, {
+			"text": "email address",
+			"created": "2018-01-15T19:54:58.625Z",
+			"updated": "2018-01-15T19:54:58.625Z"
+		}, {
+			"text": "what is office email address",
+			"created": "2018-01-15T19:55:23.886Z",
+			"updated": "2018-01-15T19:55:23.886Z"
+		}, {
+			"text": "where to send email",
+			"created": "2018-01-15T19:57:13.575Z",
+			"updated": "2018-01-15T19:57:13.575Z"
+		}, {
+			"text": "how do I reach you by email",
+			"created": "2018-01-15T19:57:31.498Z",
+			"updated": "2018-01-15T19:57:31.498Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "contact_info",
+		"created": "2018-01-15T20:12:35.683Z",
+		"updated": "2018-01-15T20:13:27.709Z",
+		"examples": [{
+			"text": "contact information",
+			"created": "2018-01-15T20:12:46.671Z",
+			"updated": "2018-01-15T20:12:46.671Z"
+		}, {
+			"text": "contact info",
+			"created": "2018-01-15T20:12:50.050Z",
+			"updated": "2018-01-15T20:12:50.050Z"
+		}, {
+			"text": "general info",
+			"created": "2018-01-15T20:12:59.398Z",
+			"updated": "2018-01-15T20:12:59.398Z"
+		}, {
+			"text": "general information",
+			"created": "2018-01-15T20:13:08.474Z",
+			"updated": "2018-01-15T20:13:08.474Z"
+		}, {
+			"text": "complete contact information",
+			"created": "2018-01-15T20:13:27.709Z",
+			"updated": "2018-01-15T20:13:27.709Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "office_fax",
+		"created": "2018-01-15T19:51:36.342Z",
+		"updated": "2018-01-15T19:56:21.934Z",
+		"examples": [{
+			"text": "fax number",
+			"created": "2018-01-15T19:51:52.544Z",
+			"updated": "2018-01-15T19:51:52.544Z"
+		}, {
+			"text": "fax#",
+			"created": "2018-01-15T19:51:56.647Z",
+			"updated": "2018-01-15T19:51:56.647Z"
+		}, {
+			"text": "do you have fax number",
+			"created": "2018-01-15T19:52:49.068Z",
+			"updated": "2018-01-15T19:52:49.068Z"
+		}, {
+			"text": "what is office fax number",
+			"created": "2018-01-15T19:53:08.144Z",
+			"updated": "2018-01-15T19:56:14.467Z"
+		}, {
+			"text": "what is office fax#",
+			"created": "2018-01-15T19:52:12.356Z",
+			"updated": "2018-01-15T19:56:21.934Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "address",
+		"created": "2018-01-15T22:41:09.166Z",
+		"updated": "2018-01-15T22:43:36.488Z",
+		"examples": [{
+			"text": "address",
+			"created": "2018-01-15T22:41:18.391Z",
+			"updated": "2018-01-15T22:41:18.391Z"
+		}, {
+			"text": "physical address",
+			"created": "2018-01-15T22:41:29.179Z",
+			"updated": "2018-01-15T22:41:29.179Z"
+		}, {
+			"text": "street address",
+			"created": "2018-01-15T22:41:34.073Z",
+			"updated": "2018-01-15T22:41:34.073Z"
+		}, {
+			"text": "where is your office",
+			"created": "2018-01-15T22:41:47.253Z",
+			"updated": "2018-01-15T22:41:47.253Z"
+		}, {
+			"text": "where are you",
+			"created": "2018-01-15T22:43:36.488Z",
+			"updated": "2018-01-15T22:43:36.488Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "office_phone",
+		"created": "2018-01-15T19:49:08.946Z",
+		"updated": "2018-01-15T19:56:46.702Z",
+		"examples": [{
+			"text": "what number can I reach you",
+			"created": "2018-01-15T19:49:58.727Z",
+			"updated": "2018-01-15T19:49:58.727Z"
+		}, {
+			"text": "what number can I call you",
+			"created": "2018-01-15T19:50:13.553Z",
+			"updated": "2018-01-15T19:50:13.553Z"
+		}, {
+			"text": "what number to call to make appointment",
+			"created": "2018-01-15T19:51:00.475Z",
+			"updated": "2018-01-15T19:51:00.475Z"
+		}, {
+			"text": "office number",
+			"created": "2018-01-15T19:53:39.068Z",
+			"updated": "2018-01-15T19:53:39.068Z"
+		}, {
+			"text": "phone number",
+			"created": "2018-01-15T19:53:43.972Z",
+			"updated": "2018-01-15T19:53:43.972Z"
+		}, {
+			"text": "what is office phone number",
+			"created": "2018-01-15T19:49:28.178Z",
+			"updated": "2018-01-15T19:56:34.442Z"
+		}, {
+			"text": "what is office phone#",
+			"created": "2018-01-15T19:49:37.124Z",
+			"updated": "2018-01-15T19:56:46.702Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "direction",
+		"created": "2018-01-15T19:57:47.669Z",
+		"updated": "2018-01-15T19:59:34.263Z",
+		"examples": [{
+			"text": "direction to your office",
+			"created": "2018-01-15T19:58:09.744Z",
+			"updated": "2018-01-15T19:58:09.744Z"
+		}, {
+			"text": "how do I get there",
+			"created": "2018-01-15T19:58:18.565Z",
+			"updated": "2018-01-15T19:58:18.565Z"
+		}, {
+			"text": "how do I get to your office",
+			"created": "2018-01-15T19:58:37.424Z",
+			"updated": "2018-01-15T19:58:37.424Z"
+		}, {
+			"text": "need direction to your office",
+			"created": "2018-01-15T19:59:15.564Z",
+			"updated": "2018-01-15T19:59:15.564Z"
+		}, {
+			"text": "driving direction",
+			"created": "2018-01-15T19:59:34.263Z",
+			"updated": "2018-01-15T19:59:34.263Z"
+		}],
+		"description": ""
+	}],
+	"updated": "2018-01-15T22:44:56.688Z",
+	"entities": [{
+		"entity": "west",
+		"values": [{
+			"type": "synonyms",
+			"value": "west",
+			"created": "2018-01-15T21:37:45.584Z",
+			"updated": "2018-01-15T21:37:45.584Z",
+			"metadata": null,
+			"synonyms": ["western"]
+		}],
+		"created": "2018-01-15T21:37:36.342Z",
+		"updated": "2018-01-15T21:37:45.584Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "north",
+		"values": [{
+			"type": "synonyms",
+			"value": "north",
+			"created": "2018-01-15T21:35:30.404Z",
+			"updated": "2018-01-15T21:37:18.481Z",
+			"metadata": null,
+			"synonyms": ["northern"]
+		}],
+		"created": "2018-01-15T21:35:23.517Z",
+		"updated": "2018-01-15T21:37:18.481Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "east",
+		"values": [{
+			"type": "synonyms",
+			"value": "east",
+			"created": "2018-01-15T21:35:58.395Z",
+			"updated": "2018-01-15T21:37:01.506Z",
+			"metadata": null,
+			"synonyms": ["eastern"]
+		}],
+		"created": "2018-01-15T21:35:54.103Z",
+		"updated": "2018-01-15T21:37:01.506Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "south",
+		"values": [{
+			"type": "synonyms",
+			"value": "south",
+			"created": "2018-01-15T21:36:26.166Z",
+			"updated": "2018-01-15T21:36:43.130Z",
+			"metadata": null,
+			"synonyms": ["southern"]
+		}],
+		"created": "2018-01-15T21:36:13.268Z",
+		"updated": "2018-01-15T21:36:43.130Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Basic information for a doctor office",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": "Where from",
+		"output": {
+			"text": {
+				"values": ["@east", "@south", "@west", "@north"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1516047623442",
+		"context": null,
+		"created": "2018-01-15T21:40:22.027Z",
+		"updated": "2018-01-15T21:53:46.188Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_10_1516052630226"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_9_1516052432770",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "north",
+		"output": {
+			"text": {
+				"values": ["When you come from North of Dr. Laura office, Merge onto I-635 W via Exit 440C on the left toward DFW Airport, Take the Bass Pro Drive/TX-121 N Exit 36B, Take the Bass Pro Drive exit, Turn Left onto Bass Pro Drive (Bass Pro Drive becomes Bass Pro Court), 2200 Bass Pro Court is on the right behind Bass Pro Shop."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1516052432770",
+		"context": null,
+		"created": "2018-01-15T22:02:58.939Z",
+		"updated": "2018-01-15T22:04:26.334Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "@north:north",
+		"description": null,
+		"dialog_node": "node_13_1516053789699",
+		"previous_sibling": "node_12_1516053702970"
+	}, {
+		"type": "standard",
+		"title": "south",
+		"output": {
+			"text": {
+				"values": ["When you come from South of Dr. Laura office, Merge onto I-635 W via Exit 440C on the left toward DFW Airport, Take the Bass Pro Drive/TX-121 N Exit 36B, Take the Bass Pro Drive exit, Turn Left onto Bass Pro Drive (Bass Pro Drive becomes Bass Pro Court), 2200 Bass Pro Court is on the right behind Bass Pro Shop."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1516052432770",
+		"context": null,
+		"created": "2018-01-15T21:54:56.963Z",
+		"updated": "2018-01-15T22:04:06.600Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "@south",
+		"description": null,
+		"dialog_node": "node_11_1516053307758",
+		"previous_sibling": "node_10_1516052630226"
+	}, {
+		"type": "standard",
+		"title": "west",
+		"output": {
+			"text": {
+				"values": ["When you come from West of Dr. Laura office, Merge onto TX-121 North toward DFW Airport, Take the Bass Pro Drive Exit, Turn Left onto Bass Pro Drive (Bass Pro Drive becomes Bass Pro Court), 2200 Bass Pro Court is on the right behind Bass Pro Shop."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1516052432770",
+		"context": null,
+		"created": "2018-01-15T22:01:32.164Z",
+		"updated": "2018-01-15T22:02:39.444Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "@west:west",
+		"description": null,
+		"dialog_node": "node_12_1516053702970",
+		"previous_sibling": "node_11_1516053307758"
+	}, {
+		"type": "standard",
+		"title": "east",
+		"output": {
+			"text": {
+				"values": ["When you come from East of Dr. Laura office, Merge onto TX-121 North toward DFW Airport, Take the Bass Pro Drive Exit, Turn Left onto Bass Pro Drive (Bass Pro Drive becomes Bass Pro Court), 2200 Bass Pro Court is on the right behind Bass Pro Shop."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1516052432770",
+		"context": null,
+		"created": "2018-01-15T21:43:39.423Z",
+		"updated": "2018-01-15T21:59:40.188Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "@east:east",
+		"description": null,
+		"dialog_node": "node_10_1516052630226",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "office_email",
+		"output": {
+			"text": {
+				"values": ["Dr. Laura office email address is email\\@drlaura.com."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:11:09.730Z",
+		"updated": "2018-01-15T21:09:11.226Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#office_email",
+		"description": null,
+		"dialog_node": "node_5_1516047080348",
+		"previous_sibling": "node_4_1516047023069"
+	}, {
+		"type": "standard",
+		"title": "direction",
+		"output": {
+			"text": {
+				"values": ["Where do you come from (East, South, West or North)?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:20:12.670Z",
+		"updated": "2018-01-15T21:43:19.177Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_9_1516052432770"
+		},
+		"conditions": "#direction",
+		"description": null,
+		"dialog_node": "node_8_1516047623442",
+		"previous_sibling": "node_5_1516047080348"
+	}, {
+		"type": "standard",
+		"title": "greeting",
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:05:24.611Z",
+		"updated": "2018-01-15T21:06:52.139Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "#greeting",
+		"description": null,
+		"dialog_node": "node_1_1516046735326",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "office_fax",
+		"output": {
+			"text": {
+				"values": ["Dr. Laura office fax number is 972-000-0001."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:10:12.483Z",
+		"updated": "2018-01-15T20:11:09.498Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#office_fax",
+		"description": null,
+		"dialog_node": "node_4_1516047023069",
+		"previous_sibling": "node_3_1516046957929"
+	}, {
+		"type": "standard",
+		"title": "hour_of_operation",
+		"output": {
+			"text": {
+				"values": ["Dr. Laura office opens from 9:00am to 4:30pm Monday through Friday, 9:00am to 12:00pm Saturday."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:07:08.004Z",
+		"updated": "2018-01-15T20:09:07.163Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#hour_of_operation",
+		"description": null,
+		"dialog_node": "node_2_1516046838796",
+		"previous_sibling": "node_1_1516056245266"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:03:47.906Z",
+		"updated": "2018-01-15T20:03:47.906Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_8_1516047623442"
+	}, {
+		"type": "standard",
+		"title": "contact_info",
+		"output": {
+			"text": {
+				"values": ["Thank you for contacting Dr. Laura office which locates at 123 Main Street, Plano, TX 75093. Office phone# is 972-000-0000. Office fax# is 972-000-0001. Office email address is email\\@drlaura.com. The office is open from 9:00am to 4:30 pm Monday through Friday, 9:00am to 12:00pm Saturday."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:13:48.459Z",
+		"updated": "2018-01-15T22:44:31.659Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#contact_info",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_6_1516047239238",
+		"previous_sibling": "node_1_1516046735326"
+	}, {
+		"type": "standard",
+		"title": "office_phone",
+		"output": {
+			"text": {
+				"values": ["Dr. Laura office phone is 972-000-0000."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:09:07.260Z",
+		"updated": "2018-01-15T20:10:12.473Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#office_phone",
+		"description": null,
+		"dialog_node": "node_3_1516046957929",
+		"previous_sibling": "node_2_1516046838796"
+	}, {
+		"type": "standard",
+		"title": "address",
+		"output": {
+			"text": {
+				"values": ["Dr. Laura office locates at 123 Main Street, Plano, TX 75093."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T22:43:54.548Z",
+		"updated": "2018-01-15T22:44:56.688Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#address",
+		"description": null,
+		"dialog_node": "node_1_1516056245266",
+		"previous_sibling": "node_6_1516047239238"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. Thank you for visiting Dr. Laura office. How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T20:03:47.906Z",
+		"updated": "2018-01-15T21:04:41.467Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "45b1d676-fa2b-4dd0-b307-c34f85bcedbb",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

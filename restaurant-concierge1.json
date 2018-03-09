@@ -1,1 +1,2150 @@
-{"name":"Restaurant Concierge v2.5","created":"2016-08-25T20:24:53.829Z","intents":[{"intent":"Directions","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","examples":[{"text":"how do i get to your restaurant","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"how do i get to your place","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"give me directions","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"can you give me directions","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"location please","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"how do i find you","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"what is the address","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"what's your location","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"which cross streets are you on","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"where are you","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"where are you located","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"}],"description":null},{"intent":"Hours_of_operation","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","examples":[{"text":"how late are you there","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"how early do you open on Saturdays","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"Are you closed new Year's eve","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"Are you closing early today","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"how late are you open","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"Are you open on Sunday","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"how late are you open tonight","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"Hours of operation","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"will you open on christmas","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"What time do you close today","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"what time do you close on Sunday","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"What time do you open on Saturdays","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"What time do you close","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"when do you close","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"will you be open Memorial day","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"will you open for christmas","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"what are your hours","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"}],"description":null},{"intent":"Specials_of_the_day","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","examples":[{"text":"what's good today","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"what will be the specials on friday","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"what do you have for special of the day","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"what are the specials","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"tell me about the specials","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"what are the specials of the day","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"specials of the day please","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"can you tell me the specials of the day","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"do you have any specials tonight","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"do you have special entrees","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"do you have specials","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"any specials today","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"specials for tomorrow","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"}],"description":null},{"intent":"Reservations","created":"2016-08-25T20:24:53.829Z","updated":"2017-02-03T16:38:34.303Z","examples":[{"text":"i need a table for two people for wednesday","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"reservation for 5 please","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"reserve a table four of us","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"table for 2 tonight","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"will you be open for christmas","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"reservation for six","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"reservation for tonight","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"i want to make a reservation","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"i want a table for two for tonight","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"i want to make a reservation for four","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"i want a table for four at 7","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"special day booking","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"i would like a booking for four people","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"can i book a table for tonight","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"i'd like to book a table","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"can i make a reservation","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"can you reserve a table for me","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"can you accommodate 6 people","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"are you open for reservations on tuesday","created":"2016-11-15T14:35:29.446Z","updated":"2016-11-29T18:22:28.712Z"},{"text":"book reservation","created":"2016-08-25T20:24:53.829Z","updated":"2017-01-05T14:47:48.984Z"}],"description":null},{"intent":"Dietary_considerations","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","examples":[{"text":"I'm vegan","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"gluten free entrees","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"tell me about low calorie options","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"do you offer gluten free","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"do you offer halal options","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"do you have a kosher menu","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"do you have vegan desserts","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"do you have vegetarian options","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"}],"description":null},{"intent":"greeting","created":"2017-02-28T15:24:11.142Z","updated":"2017-05-17T11:57:41.120Z","examples":[{"text":"hello","created":"2017-05-17T11:57:30.554Z","updated":"2017-05-17T11:57:30.554Z"},{"text":"hi","created":"2017-05-17T11:57:32.132Z","updated":"2017-05-17T11:57:32.132Z"},{"text":"hiya","created":"2017-05-17T11:57:34.752Z","updated":"2017-05-17T11:57:34.752Z"},{"text":"hi there","created":"2017-05-17T11:57:38.271Z","updated":"2017-05-17T11:57:38.271Z"},{"text":"yo","created":"2017-05-17T11:57:41.120Z","updated":"2017-05-17T11:57:41.120Z"}],"description":null},{"intent":"Maitre_D","created":"2016-08-25T20:24:53.829Z","updated":"2016-10-11T16:24:04.953Z","examples":[{"text":"talk to a human","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"I want to talk to the manager","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"maitre d","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"maitre d'hotel","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"representative","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"I want to speak to a person","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"I don't want to speak with a robot","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"I dont want to talk to a computer","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"get me a person","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"call the manager","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"I want to speak to a human","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"}],"description":null},{"intent":"Goodbye","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-26T17:17:13.410Z","examples":[{"text":"see ya","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"good bye","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"so long","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"bye","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"ciao","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"arrivederci","created":"2016-08-26T17:17:13.410Z","updated":"2016-11-29T18:22:07.502Z"}],"description":null},{"intent":"Thanks","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","examples":[{"text":"i appreciate it","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"many thanks","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"much appreciated","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"thanks","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"thank you","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"thank you very much","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"},{"text":"that's nice of you","created":"2016-08-25T20:24:53.829Z","updated":"2016-11-29T18:20:17.633Z"}],"description":null}],"updated":"2017-06-08T19:10:34.805Z","entities":[{"entity":"days_of_the_week","values":[{"value":"Friday","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["fri","fridays"]},{"value":"Monday","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["mon","mondays"]},{"value":"Saturday","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["sat","saturdays"]},{"value":"Sunday","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["sun","sundays"]},{"value":"Tuesday","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["tue","tues","tuesdays"]},{"value":"Wednesday","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["wed","wednesdays","weds","wendsday","wensday"]},{"value":"Thursday","created":"2016-08-25T20:24:53.829Z","updated":"2017-02-28T15:46:49.948Z","metadata":null,"synonyms":["thrusday","thursdays","thurs","thur"]}],"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"description":null},{"entity":"sys-time","values":[],"created":"2016-11-30T16:36:18.369Z","updated":"2016-11-30T16:36:18.369Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2016-11-04T18:42:51.353Z","updated":"2016-11-04T18:42:51.353Z","metadata":null,"description":null},{"entity":"landmarks","values":[{"value":"empire state building","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["empire state"]},{"value":"times square","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["time sqaure","time square","times sqaure"]},{"value":"world trade center","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["freedom tower","ground zero","trade center","world trade center"]}],"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"description":null},{"entity":"diets","values":[{"value":"gluten free","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["gluten-free"]},{"value":"halal","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["hallal"]},{"value":"kosher","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":[]},{"value":"vegan","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":[]},{"value":"vegetarian","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":[]}],"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"description":null},{"entity":"reply","values":[{"value":"no","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["definitely not","don't think so","dont think so","i think not","nope","not at this time","not now"]},{"value":"yes","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["definitely","go for it","let's do it","ok","please","sure","why not","yeah","yes","you bet","you betcha"]}],"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"description":null},{"entity":"holidays","values":[{"value":"christmas","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["christmas day","x man day","xmas","x mas","x-mas","x-mas day","xmas day"]},{"value":"christmas eve","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["x mas eve","x-mas eve","xmas eve"]},{"value":"halloween","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":[]},{"value":"independence day","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["7/4","fourth of july","july 4","july 4th","july fourth"]},{"value":"labor day","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":[]},{"value":"memorial day","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":[]},{"value":"new years","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["1/1","jan 1","jan 1st","jan first","january 1","january 1st","january first","new year","new year day","new years day"]},{"value":"new years eve","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["12-31","12/31","dec 31","dec 31st","new year's eve"]},{"value":"thanksgiving","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["turkey day"]},{"value":"valentine's day","created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"synonyms":["valentine day","valentines day"]}],"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"description":null}],"language":"en","metadata":{"runtime_version":"2016-09-20"},"description":"This is a bot for reservations, hours, directions, specials, diets.","dialog_nodes":[{"go_to":null,"title":null,"output":{},"parent":null,"context":null,"created":"2017-02-28T15:24:03.915Z","updated":"2017-05-19T18:14:19.748Z","metadata":null,"conditions":"#greeting","description":null,"dialog_node":"node_14_1488295443524","previous_sibling":"Opening"},{"go_to":null,"title":null,"output":{},"parent":"Hours of Operation","context":null,"created":"2016-12-22T23:10:28.559Z","updated":"2017-01-11T14:59:24.464Z","metadata":null,"conditions":"$resprompt && $daypick","description":null,"dialog_node":"node_1_1482448228340","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"Calling him over. Stand by."},"parent":"Transfer large parties","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_31_1470390882505","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"For @days_of_the_week got it. What time?"},"parent":"Need day and time","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"node_52_1470392164789","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"Got you down for @sys-number people. See you then."},"parent":"node_48_1470391986060","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-11T13:37:45.157Z","metadata":null,"conditions":"@sys-number && @sys-number<=4","description":null,"dialog_node":"node_50_1470392026987","previous_sibling":"node_49_1470392010255"},{"go_to":null,"title":null,"output":{"text":"Great! See you then."},"parent":"All data supplied","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-17T21:22:09.484Z","metadata":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_34_1470391153633","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"I didn't understand. Please enter the day of the week for your reservation."},"parent":"Need day and size of party","context":null,"created":"2016-11-11T13:36:35.928Z","updated":"2016-11-11T13:37:01.793Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_10_1478871395729","previous_sibling":"node_48_1470391986060"},{"go_to":null,"title":null,"output":{"text":"I have a party of @sys-number. What time?"},"parent":"Need time and size of party","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-11T13:35:10.685Z","metadata":null,"conditions":"@sys-number && @sys-number<=4","description":null,"dialog_node":"node_44_1470391785316","previous_sibling":"node_43_1470391756844"},{"go_to":null,"title":null,"output":{"text":"OK @days_of_the_week it is. What time?"},"parent":"node_56_1470392261102","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"node_57_1470392318293","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK for @days_of_the_week. How many people in your party?"},"parent":"Need day and size of party","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"node_48_1470391986060","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK. Have a nice day."},"parent":"node_2_1468243505617","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@reply:no","description":null,"dialog_node":"node_4_1468243575457","previous_sibling":"node_3_1468243530574"},{"go_to":null,"title":null,"output":{"text":"OK. How can I help?"},"parent":"node_2_1468243505617","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_3_1468243530574","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK. I have you down for @sys-time and we have availability. We'll see you then."},"parent":"node_57_1470392318293","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-30T16:38:45.480Z","metadata":null,"conditions":"@sys-time","description":null,"dialog_node":"node_58_1470392382868","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK. I have you down. See you on @days_of_the_week."},"parent":"Need day","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"node_77_1470543740008","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK. Let me know how I can help."},"parent":"node_22_1467833484410","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@reply:no","description":null,"dialog_node":"node_21_1468350173406","previous_sibling":"node_19_1468350024009"},{"go_to":null,"title":null,"output":{"text":"OK. Reservation for @sys-number people. What day will you join us?"},"parent":"No data supplied","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-11T13:40:35.127Z","metadata":null,"conditions":"@sys-number && @sys-number<=4","description":null,"dialog_node":"node_56_1470392261102","previous_sibling":"node_55_1470392249063"},{"go_to":null,"title":null,"output":{"text":"OK. See you at @sys-time then."},"parent":"node_44_1470391785316","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-30T16:39:11.575Z","metadata":null,"conditions":"@sys-time","description":null,"dialog_node":"node_45_1470391818604","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK. Transferring."},"parent":"node_22_1467833484410","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_19_1468350024009","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK. We have you down for @sys-time. See you then."},"parent":"node_52_1470392164789","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-30T16:37:59.515Z","metadata":null,"conditions":"@sys-time","description":null,"dialog_node":"node_53_1470392186217","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK we'll see you at @sys-time then."},"parent":"Need time","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-30T16:39:36.770Z","metadata":null,"conditions":"@sys-time","description":null,"dialog_node":"node_40_1470391576406","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":"OK. You can close this window or just let me know what else I can help you with."},"parent":"Transfer large parties","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-08-25T20:24:53.829Z","metadata":null,"conditions":"@reply:no","description":null,"dialog_node":"node_32_1470390891429","previous_sibling":"node_31_1470390882505"},{"go_to":null,"title":null,"output":{"text":"@sys-number people. We have you confirmed."},"parent":"Need size of party","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-11T13:30:11.790Z","metadata":null,"conditions":"@sys-number && @sys-number<=4","description":null,"dialog_node":"node_38_1470391360097","previous_sibling":"node_37_1470391335172"},{"go_to":null,"title":null,"output":{"text":{"values":["I am a restaurant bot. I can help you make a reservation, answer questions about our hours of operation, dietary concerns, specials of the day and I can give you directions to visit us."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-01-04T14:33:25.925Z","metadata":null,"conditions":"anything_else","description":null,"dialog_node":"node_2_1467831978407","previous_sibling":"node_12_1468329566917"},{"go_to":null,"title":null,"output":{"text":{"values":["Ok. Just let me know if I can help with something else"],"selection_policy":"sequential"}},"parent":"node_1_1482448228340","context":null,"created":"2016-12-23T02:00:01.610Z","updated":"2016-12-23T02:05:26.749Z","metadata":null,"conditions":"@reply:no","description":null,"dialog_node":"node_2_1482458401441","previous_sibling":"node_1_1482458391355"},{"go_to":null,"title":null,"output":{"text":{"values":["Ok. Just let me know if I can help with something else"],"selection_policy":"sequential"}},"parent":"node_3_1482448369140","context":null,"created":"2016-12-23T02:04:30.611Z","updated":"2016-12-23T02:05:45.477Z","metadata":null,"conditions":"@reply:no","description":null,"dialog_node":"node_4_1482458670434","previous_sibling":"node_3_1482458659457"},{"go_to":null,"title":null,"output":{"text":{"values":["We're on 13th and Broadway. One block south of Union Square."],"selection_policy":"sequential"}},"parent":"Directions","context":null,"created":"2016-12-23T02:16:37.086Z","updated":"2016-12-23T02:16:55.835Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_10_1482459396865","previous_sibling":null},{"go_to":null,"title":null,"output":{"text":{"values":["Would you like to make a reservation?"],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":null,"created":"2016-12-22T23:12:49.362Z","updated":"2017-01-11T14:59:31.985Z","metadata":null,"conditions":"$resprompt","description":null,"dialog_node":"node_3_1482448369140","previous_sibling":"node_1_1482448228340"},{"go_to":null,"title":null,"output":{"text":{"values":["Would you like me to transfer you to our Maitre D.","Do you wish to speak to our host?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-01-05T18:43:58.369Z","metadata":null,"conditions":"#Maitre_D","description":null,"dialog_node":"node_22_1467833484410","previous_sibling":"Reservation"},{"go_to":null,"title":null,"output":{"text":{"values":["You're welcome. Need anything else?","You got it. Just let me know if you need anything else?","No problemo. How else can I help?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-12-14T15:52:25.714Z","metadata":null,"conditions":"#Thanks","description":null,"dialog_node":"node_2_1468243505617","previous_sibling":"node_22_1467833484410"},{"go_to":null,"title":null,"output":{"text":{"values":["So long :)","See ya","Bye bye","Happy trails","OK, I said good bye already","Really? We're doing this?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-15T14:30:34.876Z","metadata":null,"conditions":"#Goodbye","description":null,"dialog_node":"node_12_1468329566917","previous_sibling":"node_2_1468243505617"},{"go_to":null,"title":"All data supplied","output":{"text":"Alright, let me confirm: you want a table for @sys-number people at @sys-time on @days_of_the_week. Is that right?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:18:27.553Z","metadata":null,"conditions":"@sys-number && @days_of_the_week && @sys-time","description":null,"dialog_node":"All data supplied","previous_sibling":"Transfer large parties"},{"go_to":null,"title":"Dietary Issues","output":{},"parent":null,"context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-12-23T02:19:39.070Z","metadata":null,"conditions":"#Dietary_considerations","description":null,"dialog_node":"Dietary Issues","previous_sibling":"Directions"},{"go_to":null,"title":"Need day","output":{"text":"OK. Reservation for @sys-time for @sys-number people. What day?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:18:59.344Z","metadata":null,"conditions":"@sys-time && @sys-number","description":null,"dialog_node":"Need day","previous_sibling":"Need time"},{"go_to":null,"title":"Need day and size of party","output":{"text":"Reservation for @sys-time. What day will you join us?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:19:23.339Z","metadata":null,"conditions":"@sys-time","description":null,"dialog_node":"Need day and size of party","previous_sibling":"Need time and size of party"},{"go_to":null,"title":"Need day and time","output":{"text":"Great. Reservation for @sys-number people. What day?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:19:39.158Z","metadata":null,"conditions":"@sys-number","description":null,"dialog_node":"Need day and time","previous_sibling":"Need day and size of party"},{"go_to":null,"title":"Need size of party","output":{"text":"OK. Reservation for @days_of_the_week at @sys-time. How many people in your party?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-05-19T21:15:12.825Z","metadata":null,"conditions":"@days_of_the_week && @sys-time","description":null,"dialog_node":"Need size of party","previous_sibling":"All data supplied"},{"go_to":null,"title":"Need time","output":{"text":"OK. Reservation for @days_of_the_week for @sys-number people. What time will you join us?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:18:49.754Z","metadata":null,"conditions":"@days_of_the_week && @sys-number","description":null,"dialog_node":"Need time","previous_sibling":"Need size of party"},{"go_to":null,"title":"Need time and size of party","output":{"text":"OK. Reservation for @days_of_the_week. How many people in your party?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:19:11.857Z","metadata":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"Need time and size of party","previous_sibling":"Need day"},{"go_to":null,"title":"No data supplied","output":{"text":"Reservation for how many people?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-06-08T19:10:34.805Z","metadata":null,"conditions":"true","description":null,"dialog_node":"No data supplied","previous_sibling":"Need day and time"},{"go_to":null,"title":"Opening","output":{"text":{"values":["Hello. I can help you make reservations, tell you about our hours, specials, directions."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-05-19T18:13:16.861Z","updated":"2017-05-19T18:14:09.916Z","metadata":null,"conditions":"welcome","description":null,"dialog_node":"Opening","previous_sibling":null},{"go_to":null,"title":"Specials","output":{"text":"Our specials today are Tofurkey dinner with garlic mashed potatoes and a Faux Steak Tartar"},"parent":null,"context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-06-02T14:43:36.892Z","metadata":null,"conditions":"#Specials_of_the_day","description":null,"dialog_node":"Specials","previous_sibling":"Dietary Issues"},{"go_to":null,"title":"Transfer large parties","output":{"text":"For parties larger than 4, we require additional information. Would you like to speak to our Maitre D?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:17:32.826Z","metadata":null,"conditions":"@sys-number && @sys-number>4","description":null,"dialog_node":"Transfer large parties","previous_sibling":"node_1_1482256152616"},{"go_to":{"return":null,"selector":"body","dialog_node":"Jump from hours of operation request"},"title":null,"output":{},"parent":"node_1_1482448228340","context":null,"created":"2016-12-23T01:59:51.671Z","updated":"2016-12-23T02:00:44.186Z","metadata":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_1_1482458391355","previous_sibling":null},{"go_to":{"return":null,"selector":"body","dialog_node":"No data supplied"},"title":null,"output":{},"parent":"node_3_1482448369140","context":null,"created":"2016-12-23T02:04:19.699Z","updated":"2016-12-23T02:05:01.385Z","metadata":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_3_1482458659457","previous_sibling":null},{"go_to":{"return":null,"selector":"body","dialog_node":"node_10_1482459396865"},"title":"Directions","output":{},"parent":null,"context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-12-23T02:16:51.843Z","metadata":null,"conditions":"#Directions","description":null,"dialog_node":"Directions","previous_sibling":"Hours of Operation"},{"go_to":{"return":null,"selector":"body","dialog_node":"Transfer large parties"},"title":null,"output":{},"parent":"Need size of party","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-11T13:29:43.442Z","metadata":null,"conditions":"@sys-number > 4","description":null,"dialog_node":"node_37_1470391335172","previous_sibling":null},{"go_to":{"return":null,"selector":"body","dialog_node":"Transfer large parties"},"title":null,"output":{},"parent":"Need time and size of party","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-11T13:34:25.540Z","metadata":null,"conditions":"@sys-number > 4","description":null,"dialog_node":"node_43_1470391756844","previous_sibling":null},{"go_to":{"return":null,"selector":"body","dialog_node":"Transfer large parties"},"title":null,"output":{},"parent":"No data supplied","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-05T18:20:40.927Z","metadata":null,"conditions":"@sys-number > 4","description":null,"dialog_node":"node_55_1470392249063","previous_sibling":null},{"go_to":{"return":null,"selector":"body","dialog_node":"Transfer large parties"},"title":null,"output":{},"parent":"node_48_1470391986060","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-11T13:37:13.191Z","metadata":null,"conditions":"@sys-number > 4","description":null,"dialog_node":"node_49_1470392010255","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"node_1_1482448228340"},"title":"Hours of Operation","output":{},"parent":null,"context":null,"created":"2016-12-22T16:29:25.084Z","updated":"2017-05-19T18:12:51.365Z","metadata":null,"conditions":"#Hours_of_operation","description":null,"dialog_node":"Hours of Operation","previous_sibling":"node_14_1488295443524"},{"go_to":{"return":null,"selector":"condition","dialog_node":"Transfer large parties"},"title":"Reservation","output":{},"parent":null,"context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:20:51.575Z","metadata":null,"conditions":"#Reservations","description":null,"dialog_node":"Reservation","previous_sibling":"Specials"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_1_1482458391355"},"title":null,"output":{"text":{"values":["Didn't understand. Say Yes or No"],"selection_policy":"sequential"}},"parent":"node_1_1482448228340","context":null,"created":"2017-01-11T14:59:37.864Z","updated":"2017-01-11T15:00:13.357Z","metadata":null,"conditions":"anything_else","description":null,"dialog_node":"node_1_1484146777643","previous_sibling":"node_2_1482458401441"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_3_1482458659457"},"title":null,"output":{"text":{"values":["I didn't understand you. Would you like to make a reservation? Respond Yes or No"],"selection_policy":"sequential"}},"parent":"node_3_1482448369140","context":null,"created":"2016-12-23T02:08:50.221Z","updated":"2016-12-23T02:10:37.518Z","metadata":null,"conditions":"anything_else","description":null,"dialog_node":"node_6_1482458930026","previous_sibling":"node_4_1482458670434"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_34_1470391153633"},"title":null,"output":{"text":"I didn't understand. Did I get it right? Yes or no."},"parent":"All data supplied","context":null,"created":"2016-11-17T21:22:13.691Z","updated":"2016-11-17T21:23:55.324Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_5_1479417733642","previous_sibling":"node_35_1470391178573"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_37_1470391335172"},"title":null,"output":{"text":"I didn't understand. how many people in your party?"},"parent":"Need size of party","context":null,"created":"2016-11-05T18:25:29.276Z","updated":"2016-11-05T18:26:54.581Z","metadata":null,"conditions":"@true","description":null,"dialog_node":"node_1_1478370328588","previous_sibling":"node_38_1470391360097"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_40_1470391576406"},"title":null,"output":{"text":"I didn't understand. Please enter the time of your reservation."},"parent":"Need time","context":null,"created":"2016-11-11T13:31:38.331Z","updated":"2016-11-11T13:32:04.899Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_6_1478871097895","previous_sibling":"node_40_1470391576406"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_43_1470391756844"},"title":null,"output":{"text":"I didn't understand. Please enter the number of people in your party."},"parent":"Need time and size of party","context":null,"created":"2016-11-11T13:35:10.898Z","updated":"2016-11-11T13:35:40.278Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_8_1478871310532","previous_sibling":"node_44_1470391785316"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_43_1470391756844"},"title":"Jump from hours of operation request","output":{"text":"Ok. I can help you make a reservation for $daypick. How many people in your party?"},"parent":"Reservation","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2017-02-17T14:20:22.791Z","metadata":null,"conditions":"$daypick","description":null,"dialog_node":"Jump from hours of operation request","previous_sibling":"No data supplied"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_45_1470391818604"},"title":null,"output":{"text":"I didn't understand. Please enter the time you want for your reservation."},"parent":"node_44_1470391785316","context":null,"created":"2016-11-11T13:35:48.025Z","updated":"2016-11-11T13:36:15.721Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_9_1478871347808","previous_sibling":"node_45_1470391818604"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_49_1470392010255"},"title":null,"output":{"text":"I didn't understand. How many people in your party?"},"parent":"node_48_1470391986060","context":null,"created":"2016-11-11T13:37:45.589Z","updated":"2016-11-11T13:38:11.020Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_11_1478871464609","previous_sibling":"node_50_1470392026987"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_52_1470392164789"},"title":null,"output":{"text":"I didn't understand. What day of the week are you interested in visiting us?"},"parent":"Need day and time","context":null,"created":"2016-11-11T13:38:28.829Z","updated":"2016-11-11T13:39:09.503Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_12_1478871508515","previous_sibling":"node_52_1470392164789"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_53_1470392186217"},"title":null,"output":{"text":"I didn't understand. What time are you joining us?"},"parent":"node_52_1470392164789","context":null,"created":"2016-11-11T13:39:15.650Z","updated":"2016-11-11T13:39:34.725Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_13_1478871555452","previous_sibling":"node_53_1470392186217"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_55_1470392249063"},"title":null,"output":{"text":"I didn't understand. How many people in your party?"},"parent":"No data supplied","context":null,"created":"2016-11-11T13:40:37.533Z","updated":"2016-11-11T13:41:01.427Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_14_1478871636885","previous_sibling":"node_56_1470392261102"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_57_1470392318293"},"title":null,"output":{"text":"I didn't understand. What day of the week are you joining us?"},"parent":"node_56_1470392261102","context":null,"created":"2016-11-11T13:41:06.386Z","updated":"2016-11-11T13:41:46.925Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_15_1478871666174","previous_sibling":"node_57_1470392318293"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_58_1470392382868"},"title":null,"output":{"text":"I didn't understand. What time are you visiting us?"},"parent":"node_57_1470392318293","context":null,"created":"2016-11-11T13:41:34.908Z","updated":"2016-11-11T13:42:07.272Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_16_1478871694446","previous_sibling":"node_58_1470392382868"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"node_77_1470543740008"},"title":null,"output":{"text":"I didn't understand. Please tell me what day you want to make a reservation."},"parent":"Need day","context":null,"created":"2016-11-11T13:33:17.685Z","updated":"2016-11-17T21:33:23.049Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_7_1478871196928","previous_sibling":"node_77_1470543740008"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"Transfer large parties"},"title":null,"output":{"text":"OK Let's start over. How many people in your party?"},"parent":"All data supplied","context":null,"created":"2016-08-25T20:24:53.829Z","updated":"2016-11-17T21:22:12.740Z","metadata":null,"conditions":"@reply:no","description":null,"dialog_node":"node_35_1470391178573","previous_sibling":"node_34_1470391153633"},{"type":"response_condition","go_to":null,"title":null,"output":{},"parent":"Reservation","context":null,"created":"2016-12-20T17:49:13.306Z","updated":"2017-06-02T12:46:45.345Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_1_1482256152616","previous_sibling":null},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Good afternoon. How can I help?"],"selection_policy":"sequential"}},"parent":"node_14_1488295443524","context":null,"created":"2017-02-28T15:25:17.884Z","updated":"2017-05-17T11:58:20.197Z","metadata":null,"conditions":"$daypart:afternoon","description":null,"dialog_node":"node_16_1488295517679","previous_sibling":"node_15_1488295465298"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Good evening. How can I help?"],"selection_policy":"sequential"}},"parent":"node_14_1488295443524","context":null,"created":"2017-05-17T11:58:22.873Z","updated":"2017-05-17T11:58:41.547Z","metadata":null,"conditions":" $daypart:evening","description":null,"dialog_node":"node_1_1495022305143","previous_sibling":"node_16_1488295517679"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Good morning. How can I help?"],"selection_policy":"sequential"}},"parent":"node_14_1488295443524","context":null,"created":"2017-02-28T15:24:25.499Z","updated":"2017-05-17T11:58:10.558Z","metadata":null,"conditions":"$daypart:morning","description":null,"dialog_node":"node_15_1488295465298","previous_sibling":null},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Hi there. How can I help?"],"selection_policy":"sequential"}},"parent":"node_14_1488295443524","context":null,"created":"2017-06-02T11:59:30.817Z","updated":"2017-06-02T11:59:41.626Z","metadata":null,"conditions":null,"description":null,"dialog_node":"node_1_1496404774962","previous_sibling":"node_1_1495022305143"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Our hours are Sunday to Thursday 10-Midnight and Friday and Saturday 11Am to 2am."],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":{"resprompt":1},"created":"2016-12-22T17:08:41.431Z","updated":"2016-12-22T23:10:12.064Z","metadata":null,"conditions":" true","description":null,"dialog_node":"node_6_1482426521282","previous_sibling":"node_5_1482426503106"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Our hours on @days_of_the_week are 10am to midnight."],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":{"daypick":"@days_of_the_week","resprompt":1},"created":"2016-12-22T16:30:05.362Z","updated":"2017-02-28T15:17:23.885Z","metadata":null,"conditions":"@days_of_the_week:Sunday || @days_of_the_week:Monday || @days_of_the_week:Tuesday || @days_of_the_week:Wednesday || @days_of_the_week:Thursday","description":null,"dialog_node":"node_2_1482424204936","previous_sibling":"node_3_1482448369140"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Our hours on @days_of_the_week are 11am until 2am."],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":{"daypick":"@days_of_the_week","resprompt":1},"created":"2016-12-22T16:54:21.056Z","updated":"2017-03-07T15:26:09.209Z","metadata":null,"conditions":"@days_of_the_week:Friday || @days_of_the_week:Saturday","description":null,"dialog_node":"node_3_1482425660639","previous_sibling":"node_2_1482424204936"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Our restaurant is 100% vegetarian and we also offer some vegan options."],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2016-12-23T02:18:02.770Z","updated":"2016-12-23T02:18:22.612Z","metadata":null,"conditions":" @diets:vegetarian","description":null,"dialog_node":"node_12_1482459482216","previous_sibling":"node_11_1482459476120"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["To get to our restaurant from the Empire State Building, walk to Herald Square and take the N train to Union Square."],"selection_policy":"sequential"}},"parent":"Directions","context":null,"created":"2016-12-23T02:13:21.107Z","updated":"2017-01-04T15:21:53.197Z","metadata":null,"conditions":" @landmarks:(empire state building)","description":null,"dialog_node":"node_7_1482459200886","previous_sibling":"node_10_1482459396865"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["To get to our restaurant from the World Trade Center, take the R train at Cortland station uptown to Union Square."],"selection_policy":"sequential"}},"parent":"Directions","context":null,"created":"2016-12-23T02:15:35.825Z","updated":"2016-12-23T02:15:42.508Z","metadata":null,"conditions":" @landmarks:(world trade center)","description":null,"dialog_node":"node_9_1482459335607","previous_sibling":"node_8_1482459217052"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["To get to our restaurant from Times Square, take the N train downtown to Union Square."],"selection_policy":"sequential"}},"parent":"Directions","context":null,"created":"2016-12-23T02:13:37.264Z","updated":"2017-01-04T14:33:18.112Z","metadata":null,"conditions":" @landmarks:(times square)","description":null,"dialog_node":"node_8_1482459217052","previous_sibling":"node_7_1482459200886"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["We are closed on @holidays. We will reopen regular hours the following day."],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":null,"created":"2016-12-22T16:57:14.769Z","updated":"2016-12-22T17:16:21.351Z","metadata":null,"conditions":"@holidays:christmas || @holidays:thanksgiving || @holidays:(new years)","description":null,"dialog_node":"node_4_1482425833988","previous_sibling":"node_3_1482425660639"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["We are open on @holidays regular hours"],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":null,"created":"2016-12-22T17:08:23.257Z","updated":"2016-12-22T17:08:37.519Z","metadata":null,"conditions":" @holidays","description":null,"dialog_node":"node_5_1482426503106","previous_sibling":"node_4_1482425833988"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["We have lots of vegan options. Try one of our favorites: the quinoa-lentil plate."],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2016-12-23T02:17:56.336Z","updated":"2016-12-23T02:18:00.400Z","metadata":null,"conditions":" @diets:vegan","description":null,"dialog_node":"node_11_1482459476120","previous_sibling":null},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["We have one gluten-free entree. That's it. You'll take it."],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2016-12-23T02:18:25.339Z","updated":"2016-12-23T02:18:45.859Z","metadata":null,"conditions":" @diets:(gluten free)","description":null,"dialog_node":"node_13_1482459505126","previous_sibling":"node_12_1482459482216"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["We have various menu options for vegetarians, vegans and those on a gluten free diet. If you have specific dietary needs, just let your waiter know and we will substitute any ingredient."],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2016-12-23T02:19:09.214Z","updated":"2016-12-23T02:19:28.066Z","metadata":null,"conditions":" anything_else","description":null,"dialog_node":"node_15_1482459549015","previous_sibling":"node_14_1482459530014"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Would you like to make a reservation for $daypick?"],"selection_policy":"sequential"}},"parent":"node_1_1482448228340","context":null,"created":"2016-12-22T23:10:57.132Z","updated":"2017-01-11T14:59:37.864Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_2_1482448256701","previous_sibling":"node_1_1484146777643"},{"type":"response_condition","go_to":null,"title":null,"output":{"text":{"values":["Yes we do have three kosher menu items and they are very tasty."],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2016-12-23T02:18:50.224Z","updated":"2016-12-23T02:19:08.078Z","metadata":null,"conditions":" @diets:kosher","description":null,"dialog_node":"node_14_1482459530014","previous_sibling":"node_13_1482459505126"}],"workspace_id":"b73ef3f9-44d5-469b-80da-09c15e99ed3a","counterexamples":[]}
+{
+	"name": "Restaurant Concierge v2.5",
+	"created": "2016-08-25T20:24:53.829Z",
+	"intents": [{
+		"intent": "Directions",
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"examples": [{
+			"text": "how do i get to your restaurant",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "how do i get to your place",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "give me directions",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "can you give me directions",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "location please",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "how do i find you",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "what is the address",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "what's your location",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "which cross streets are you on",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "where are you",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "where are you located",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Hours_of_operation",
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"examples": [{
+			"text": "how late are you there",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "how early do you open on Saturdays",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "Are you closed new Year's eve",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "Are you closing early today",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "how late are you open",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "Are you open on Sunday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "how late are you open tonight",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "Hours of operation",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "will you open on christmas",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "What time do you close today",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "what time do you close on Sunday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "What time do you open on Saturdays",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "What time do you close",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "when do you close",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "will you be open Memorial day",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "will you open for christmas",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "what are your hours",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Specials_of_the_day",
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"examples": [{
+			"text": "what's good today",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "what will be the specials on friday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "what do you have for special of the day",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "what are the specials",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "tell me about the specials",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "what are the specials of the day",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "specials of the day please",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "can you tell me the specials of the day",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "do you have any specials tonight",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "do you have special entrees",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "do you have specials",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "any specials today",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "specials for tomorrow",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Reservations",
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-03T16:38:34.303Z",
+		"examples": [{
+			"text": "i need a table for two people for wednesday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "reservation for 5 please",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "reserve a table four of us",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "table for 2 tonight",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "will you be open for christmas",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "reservation for six",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "reservation for tonight",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "i want to make a reservation",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "i want a table for two for tonight",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "i want to make a reservation for four",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "i want a table for four at 7",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "special day booking",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "i would like a booking for four people",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "can i book a table for tonight",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "i'd like to book a table",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "can i make a reservation",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "can you reserve a table for me",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "can you accommodate 6 people",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "are you open for reservations on tuesday",
+			"created": "2016-11-15T14:35:29.446Z",
+			"updated": "2016-11-29T18:22:28.712Z"
+		}, {
+			"text": "book reservation",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2017-01-05T14:47:48.984Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Dietary_considerations",
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"examples": [{
+			"text": "I'm vegan",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "gluten free entrees",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "tell me about low calorie options",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "do you offer gluten free",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "do you offer halal options",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "do you have a kosher menu",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "do you have vegan desserts",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "do you have vegetarian options",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greeting",
+		"created": "2017-02-28T15:24:11.142Z",
+		"updated": "2017-05-17T11:57:41.120Z",
+		"examples": [{
+			"text": "hello",
+			"created": "2017-05-17T11:57:30.554Z",
+			"updated": "2017-05-17T11:57:30.554Z"
+		}, {
+			"text": "hi",
+			"created": "2017-05-17T11:57:32.132Z",
+			"updated": "2017-05-17T11:57:32.132Z"
+		}, {
+			"text": "hiya",
+			"created": "2017-05-17T11:57:34.752Z",
+			"updated": "2017-05-17T11:57:34.752Z"
+		}, {
+			"text": "hi there",
+			"created": "2017-05-17T11:57:38.271Z",
+			"updated": "2017-05-17T11:57:38.271Z"
+		}, {
+			"text": "yo",
+			"created": "2017-05-17T11:57:41.120Z",
+			"updated": "2017-05-17T11:57:41.120Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Maitre_D",
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-10-11T16:24:04.953Z",
+		"examples": [{
+			"text": "talk to a human",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "I want to talk to the manager",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "maitre d",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "maitre d'hotel",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "representative",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "I want to speak to a person",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "I don't want to speak with a robot",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "I dont want to talk to a computer",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "get me a person",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "call the manager",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "I want to speak to a human",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Goodbye",
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-26T17:17:13.410Z",
+		"examples": [{
+			"text": "see ya",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "good bye",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "so long",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "bye",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "ciao",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "arrivederci",
+			"created": "2016-08-26T17:17:13.410Z",
+			"updated": "2016-11-29T18:22:07.502Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Thanks",
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"examples": [{
+			"text": "i appreciate it",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "many thanks",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "much appreciated",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "thanks",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "thank you",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "thank you very much",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}, {
+			"text": "that's nice of you",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-11-29T18:20:17.633Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-06-08T19:10:34.805Z",
+	"entities": [{
+		"entity": "days_of_the_week",
+		"values": [{
+			"value": "Friday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["fri", "fridays"]
+		}, {
+			"value": "Monday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["mon", "mondays"]
+		}, {
+			"value": "Saturday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["sat", "saturdays"]
+		}, {
+			"value": "Sunday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["sun", "sundays"]
+		}, {
+			"value": "Tuesday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["tue", "tues", "tuesdays"]
+		}, {
+			"value": "Wednesday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["wed", "wednesdays", "weds", "wendsday", "wensday"]
+		}, {
+			"value": "Thursday",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2017-02-28T15:46:49.948Z",
+			"metadata": null,
+			"synonyms": ["thrusday", "thursdays", "thurs", "thur"]
+		}],
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-time",
+		"values": [],
+		"created": "2016-11-30T16:36:18.369Z",
+		"updated": "2016-11-30T16:36:18.369Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2016-11-04T18:42:51.353Z",
+		"updated": "2016-11-04T18:42:51.353Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "landmarks",
+		"values": [{
+			"value": "empire state building",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["empire state"]
+		}, {
+			"value": "times square",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["time sqaure", "time square", "times sqaure"]
+		}, {
+			"value": "world trade center",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["freedom tower", "ground zero", "trade center", "world trade center"]
+		}],
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "diets",
+		"values": [{
+			"value": "gluten free",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["gluten-free"]
+		}, {
+			"value": "halal",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["hallal"]
+		}, {
+			"value": "kosher",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "vegan",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "vegetarian",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "reply",
+		"values": [{
+			"value": "no",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["definitely not", "don't think so", "dont think so", "i think not", "nope", "not at this time", "not now"]
+		}, {
+			"value": "yes",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["definitely", "go for it", "let's do it", "ok", "please", "sure", "why not", "yeah", "yes", "you bet", "you betcha"]
+		}],
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "holidays",
+		"values": [{
+			"value": "christmas",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["christmas day", "x man day", "xmas", "x mas", "x-mas", "x-mas day", "xmas day"]
+		}, {
+			"value": "christmas eve",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["x mas eve", "x-mas eve", "xmas eve"]
+		}, {
+			"value": "halloween",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "independence day",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["7/4", "fourth of july", "july 4", "july 4th", "july fourth"]
+		}, {
+			"value": "labor day",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "memorial day",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"value": "new years",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["1/1", "jan 1", "jan 1st", "jan first", "january 1", "january 1st", "january first", "new year", "new year day", "new years day"]
+		}, {
+			"value": "new years eve",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["12-31", "12/31", "dec 31", "dec 31st", "new year's eve"]
+		}, {
+			"value": "thanksgiving",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["turkey day"]
+		}, {
+			"value": "valentine's day",
+			"created": "2016-08-25T20:24:53.829Z",
+			"updated": "2016-08-25T20:24:53.829Z",
+			"metadata": null,
+			"synonyms": ["valentine day", "valentines day"]
+		}],
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"runtime_version": "2016-09-20"
+	},
+	"description": "This is a bot for reservations, hours, directions, specials, diets.",
+	"dialog_nodes": [{
+		"go_to": null,
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-02-28T15:24:03.915Z",
+		"updated": "2017-05-19T18:14:19.748Z",
+		"metadata": null,
+		"conditions": "#greeting",
+		"description": null,
+		"dialog_node": "node_14_1488295443524",
+		"previous_sibling": "Opening"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {},
+		"parent": "Hours of Operation",
+		"context": null,
+		"created": "2016-12-22T23:10:28.559Z",
+		"updated": "2017-01-11T14:59:24.464Z",
+		"metadata": null,
+		"conditions": "$resprompt && $daypick",
+		"description": null,
+		"dialog_node": "node_1_1482448228340",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "Calling him over. Stand by."
+		},
+		"parent": "Transfer large parties",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_31_1470390882505",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "For @days_of_the_week got it. What time?"
+		},
+		"parent": "Need day and time",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "node_52_1470392164789",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "Got you down for @sys-number people. See you then."
+		},
+		"parent": "node_48_1470391986060",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-11T13:37:45.157Z",
+		"metadata": null,
+		"conditions": "@sys-number && @sys-number<=4",
+		"description": null,
+		"dialog_node": "node_50_1470392026987",
+		"previous_sibling": "node_49_1470392010255"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "Great! See you then."
+		},
+		"parent": "All data supplied",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-17T21:22:09.484Z",
+		"metadata": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_34_1470391153633",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please enter the day of the week for your reservation."
+		},
+		"parent": "Need day and size of party",
+		"context": null,
+		"created": "2016-11-11T13:36:35.928Z",
+		"updated": "2016-11-11T13:37:01.793Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_10_1478871395729",
+		"previous_sibling": "node_48_1470391986060"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "I have a party of @sys-number. What time?"
+		},
+		"parent": "Need time and size of party",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-11T13:35:10.685Z",
+		"metadata": null,
+		"conditions": "@sys-number && @sys-number<=4",
+		"description": null,
+		"dialog_node": "node_44_1470391785316",
+		"previous_sibling": "node_43_1470391756844"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK @days_of_the_week it is. What time?"
+		},
+		"parent": "node_56_1470392261102",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "node_57_1470392318293",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK for @days_of_the_week. How many people in your party?"
+		},
+		"parent": "Need day and size of party",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "node_48_1470391986060",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. Have a nice day."
+		},
+		"parent": "node_2_1468243505617",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_4_1468243575457",
+		"previous_sibling": "node_3_1468243530574"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. How can I help?"
+		},
+		"parent": "node_2_1468243505617",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_3_1468243530574",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. I have you down for @sys-time and we have availability. We'll see you then."
+		},
+		"parent": "node_57_1470392318293",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-30T16:38:45.480Z",
+		"metadata": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "node_58_1470392382868",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. I have you down. See you on @days_of_the_week."
+		},
+		"parent": "Need day",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "node_77_1470543740008",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. Let me know how I can help."
+		},
+		"parent": "node_22_1467833484410",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_21_1468350173406",
+		"previous_sibling": "node_19_1468350024009"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. Reservation for @sys-number people. What day will you join us?"
+		},
+		"parent": "No data supplied",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-11T13:40:35.127Z",
+		"metadata": null,
+		"conditions": "@sys-number && @sys-number<=4",
+		"description": null,
+		"dialog_node": "node_56_1470392261102",
+		"previous_sibling": "node_55_1470392249063"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. See you at @sys-time then."
+		},
+		"parent": "node_44_1470391785316",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-30T16:39:11.575Z",
+		"metadata": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "node_45_1470391818604",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. Transferring."
+		},
+		"parent": "node_22_1467833484410",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_19_1468350024009",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. We have you down for @sys-time. See you then."
+		},
+		"parent": "node_52_1470392164789",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-30T16:37:59.515Z",
+		"metadata": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "node_53_1470392186217",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK we'll see you at @sys-time then."
+		},
+		"parent": "Need time",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-30T16:39:36.770Z",
+		"metadata": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "node_40_1470391576406",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "OK. You can close this window or just let me know what else I can help you with."
+		},
+		"parent": "Transfer large parties",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-08-25T20:24:53.829Z",
+		"metadata": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_32_1470390891429",
+		"previous_sibling": "node_31_1470390882505"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": "@sys-number people. We have you confirmed."
+		},
+		"parent": "Need size of party",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-11T13:30:11.790Z",
+		"metadata": null,
+		"conditions": "@sys-number && @sys-number<=4",
+		"description": null,
+		"dialog_node": "node_38_1470391360097",
+		"previous_sibling": "node_37_1470391335172"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I am a restaurant bot. I can help you make a reservation, answer questions about our hours of operation, dietary concerns, specials of the day and I can give you directions to visit us."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-01-04T14:33:25.925Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1467831978407",
+		"previous_sibling": "node_12_1468329566917"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok. Just let me know if I can help with something else"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1482448228340",
+		"context": null,
+		"created": "2016-12-23T02:00:01.610Z",
+		"updated": "2016-12-23T02:05:26.749Z",
+		"metadata": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_2_1482458401441",
+		"previous_sibling": "node_1_1482458391355"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok. Just let me know if I can help with something else"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1482448369140",
+		"context": null,
+		"created": "2016-12-23T02:04:30.611Z",
+		"updated": "2016-12-23T02:05:45.477Z",
+		"metadata": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_4_1482458670434",
+		"previous_sibling": "node_3_1482458659457"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We're on 13th and Broadway. One block south of Union Square."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Directions",
+		"context": null,
+		"created": "2016-12-23T02:16:37.086Z",
+		"updated": "2016-12-23T02:16:55.835Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_10_1482459396865",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Would you like to make a reservation?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": null,
+		"created": "2016-12-22T23:12:49.362Z",
+		"updated": "2017-01-11T14:59:31.985Z",
+		"metadata": null,
+		"conditions": "$resprompt",
+		"description": null,
+		"dialog_node": "node_3_1482448369140",
+		"previous_sibling": "node_1_1482448228340"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Would you like me to transfer you to our Maitre D.", "Do you wish to speak to our host?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-01-05T18:43:58.369Z",
+		"metadata": null,
+		"conditions": "#Maitre_D",
+		"description": null,
+		"dialog_node": "node_22_1467833484410",
+		"previous_sibling": "Reservation"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You're welcome. Need anything else?", "You got it. Just let me know if you need anything else?", "No problemo. How else can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-12-14T15:52:25.714Z",
+		"metadata": null,
+		"conditions": "#Thanks",
+		"description": null,
+		"dialog_node": "node_2_1468243505617",
+		"previous_sibling": "node_22_1467833484410"
+	}, {
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["So long :)", "See ya", "Bye bye", "Happy trails", "OK, I said good bye already", "Really? We're doing this?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-15T14:30:34.876Z",
+		"metadata": null,
+		"conditions": "#Goodbye",
+		"description": null,
+		"dialog_node": "node_12_1468329566917",
+		"previous_sibling": "node_2_1468243505617"
+	}, {
+		"go_to": null,
+		"title": "All data supplied",
+		"output": {
+			"text": "Alright, let me confirm: you want a table for @sys-number people at @sys-time on @days_of_the_week. Is that right?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:18:27.553Z",
+		"metadata": null,
+		"conditions": "@sys-number && @days_of_the_week && @sys-time",
+		"description": null,
+		"dialog_node": "All data supplied",
+		"previous_sibling": "Transfer large parties"
+	}, {
+		"go_to": null,
+		"title": "Dietary Issues",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-12-23T02:19:39.070Z",
+		"metadata": null,
+		"conditions": "#Dietary_considerations",
+		"description": null,
+		"dialog_node": "Dietary Issues",
+		"previous_sibling": "Directions"
+	}, {
+		"go_to": null,
+		"title": "Need day",
+		"output": {
+			"text": "OK. Reservation for @sys-time for @sys-number people. What day?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:18:59.344Z",
+		"metadata": null,
+		"conditions": "@sys-time && @sys-number",
+		"description": null,
+		"dialog_node": "Need day",
+		"previous_sibling": "Need time"
+	}, {
+		"go_to": null,
+		"title": "Need day and size of party",
+		"output": {
+			"text": "Reservation for @sys-time. What day will you join us?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:19:23.339Z",
+		"metadata": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "Need day and size of party",
+		"previous_sibling": "Need time and size of party"
+	}, {
+		"go_to": null,
+		"title": "Need day and time",
+		"output": {
+			"text": "Great. Reservation for @sys-number people. What day?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:19:39.158Z",
+		"metadata": null,
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "Need day and time",
+		"previous_sibling": "Need day and size of party"
+	}, {
+		"go_to": null,
+		"title": "Need size of party",
+		"output": {
+			"text": "OK. Reservation for @days_of_the_week at @sys-time. How many people in your party?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-05-19T21:15:12.825Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week && @sys-time",
+		"description": null,
+		"dialog_node": "Need size of party",
+		"previous_sibling": "All data supplied"
+	}, {
+		"go_to": null,
+		"title": "Need time",
+		"output": {
+			"text": "OK. Reservation for @days_of_the_week for @sys-number people. What time will you join us?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:18:49.754Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week && @sys-number",
+		"description": null,
+		"dialog_node": "Need time",
+		"previous_sibling": "Need size of party"
+	}, {
+		"go_to": null,
+		"title": "Need time and size of party",
+		"output": {
+			"text": "OK. Reservation for @days_of_the_week. How many people in your party?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:19:11.857Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "Need time and size of party",
+		"previous_sibling": "Need day"
+	}, {
+		"go_to": null,
+		"title": "No data supplied",
+		"output": {
+			"text": "Reservation for how many people?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-06-08T19:10:34.805Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "No data supplied",
+		"previous_sibling": "Need day and time"
+	}, {
+		"go_to": null,
+		"title": "Opening",
+		"output": {
+			"text": {
+				"values": ["Hello. I can help you make reservations, tell you about our hours, specials, directions."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-05-19T18:13:16.861Z",
+		"updated": "2017-05-19T18:14:09.916Z",
+		"metadata": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Opening",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"title": "Specials",
+		"output": {
+			"text": "Our specials today are Tofurkey dinner with garlic mashed potatoes and a Faux Steak Tartar"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-06-02T14:43:36.892Z",
+		"metadata": null,
+		"conditions": "#Specials_of_the_day",
+		"description": null,
+		"dialog_node": "Specials",
+		"previous_sibling": "Dietary Issues"
+	}, {
+		"go_to": null,
+		"title": "Transfer large parties",
+		"output": {
+			"text": "For parties larger than 4, we require additional information. Would you like to speak to our Maitre D?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:17:32.826Z",
+		"metadata": null,
+		"conditions": "@sys-number && @sys-number>4",
+		"description": null,
+		"dialog_node": "Transfer large parties",
+		"previous_sibling": "node_1_1482256152616"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "body",
+			"dialog_node": "Jump from hours of operation request"
+		},
+		"title": null,
+		"output": {},
+		"parent": "node_1_1482448228340",
+		"context": null,
+		"created": "2016-12-23T01:59:51.671Z",
+		"updated": "2016-12-23T02:00:44.186Z",
+		"metadata": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_1_1482458391355",
+		"previous_sibling": null
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "body",
+			"dialog_node": "No data supplied"
+		},
+		"title": null,
+		"output": {},
+		"parent": "node_3_1482448369140",
+		"context": null,
+		"created": "2016-12-23T02:04:19.699Z",
+		"updated": "2016-12-23T02:05:01.385Z",
+		"metadata": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_3_1482458659457",
+		"previous_sibling": null
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "body",
+			"dialog_node": "node_10_1482459396865"
+		},
+		"title": "Directions",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-12-23T02:16:51.843Z",
+		"metadata": null,
+		"conditions": "#Directions",
+		"description": null,
+		"dialog_node": "Directions",
+		"previous_sibling": "Hours of Operation"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "body",
+			"dialog_node": "Transfer large parties"
+		},
+		"title": null,
+		"output": {},
+		"parent": "Need size of party",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-11T13:29:43.442Z",
+		"metadata": null,
+		"conditions": "@sys-number > 4",
+		"description": null,
+		"dialog_node": "node_37_1470391335172",
+		"previous_sibling": null
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "body",
+			"dialog_node": "Transfer large parties"
+		},
+		"title": null,
+		"output": {},
+		"parent": "Need time and size of party",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-11T13:34:25.540Z",
+		"metadata": null,
+		"conditions": "@sys-number > 4",
+		"description": null,
+		"dialog_node": "node_43_1470391756844",
+		"previous_sibling": null
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "body",
+			"dialog_node": "Transfer large parties"
+		},
+		"title": null,
+		"output": {},
+		"parent": "No data supplied",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-05T18:20:40.927Z",
+		"metadata": null,
+		"conditions": "@sys-number > 4",
+		"description": null,
+		"dialog_node": "node_55_1470392249063",
+		"previous_sibling": null
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "body",
+			"dialog_node": "Transfer large parties"
+		},
+		"title": null,
+		"output": {},
+		"parent": "node_48_1470391986060",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-11T13:37:13.191Z",
+		"metadata": null,
+		"conditions": "@sys-number > 4",
+		"description": null,
+		"dialog_node": "node_49_1470392010255",
+		"previous_sibling": null
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "condition",
+			"dialog_node": "node_1_1482448228340"
+		},
+		"title": "Hours of Operation",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2016-12-22T16:29:25.084Z",
+		"updated": "2017-05-19T18:12:51.365Z",
+		"metadata": null,
+		"conditions": "#Hours_of_operation",
+		"description": null,
+		"dialog_node": "Hours of Operation",
+		"previous_sibling": "node_14_1488295443524"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "condition",
+			"dialog_node": "Transfer large parties"
+		},
+		"title": "Reservation",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:20:51.575Z",
+		"metadata": null,
+		"conditions": "#Reservations",
+		"description": null,
+		"dialog_node": "Reservation",
+		"previous_sibling": "Specials"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_1_1482458391355"
+		},
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Didn't understand. Say Yes or No"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1482448228340",
+		"context": null,
+		"created": "2017-01-11T14:59:37.864Z",
+		"updated": "2017-01-11T15:00:13.357Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_1_1484146777643",
+		"previous_sibling": "node_2_1482458401441"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_3_1482458659457"
+		},
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand you. Would you like to make a reservation? Respond Yes or No"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1482448369140",
+		"context": null,
+		"created": "2016-12-23T02:08:50.221Z",
+		"updated": "2016-12-23T02:10:37.518Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_6_1482458930026",
+		"previous_sibling": "node_4_1482458670434"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_34_1470391153633"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Did I get it right? Yes or no."
+		},
+		"parent": "All data supplied",
+		"context": null,
+		"created": "2016-11-17T21:22:13.691Z",
+		"updated": "2016-11-17T21:23:55.324Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_5_1479417733642",
+		"previous_sibling": "node_35_1470391178573"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_37_1470391335172"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. how many people in your party?"
+		},
+		"parent": "Need size of party",
+		"context": null,
+		"created": "2016-11-05T18:25:29.276Z",
+		"updated": "2016-11-05T18:26:54.581Z",
+		"metadata": null,
+		"conditions": "@true",
+		"description": null,
+		"dialog_node": "node_1_1478370328588",
+		"previous_sibling": "node_38_1470391360097"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_40_1470391576406"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please enter the time of your reservation."
+		},
+		"parent": "Need time",
+		"context": null,
+		"created": "2016-11-11T13:31:38.331Z",
+		"updated": "2016-11-11T13:32:04.899Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_6_1478871097895",
+		"previous_sibling": "node_40_1470391576406"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_43_1470391756844"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please enter the number of people in your party."
+		},
+		"parent": "Need time and size of party",
+		"context": null,
+		"created": "2016-11-11T13:35:10.898Z",
+		"updated": "2016-11-11T13:35:40.278Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_8_1478871310532",
+		"previous_sibling": "node_44_1470391785316"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_43_1470391756844"
+		},
+		"title": "Jump from hours of operation request",
+		"output": {
+			"text": "Ok. I can help you make a reservation for $daypick. How many people in your party?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2017-02-17T14:20:22.791Z",
+		"metadata": null,
+		"conditions": "$daypick",
+		"description": null,
+		"dialog_node": "Jump from hours of operation request",
+		"previous_sibling": "No data supplied"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_45_1470391818604"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please enter the time you want for your reservation."
+		},
+		"parent": "node_44_1470391785316",
+		"context": null,
+		"created": "2016-11-11T13:35:48.025Z",
+		"updated": "2016-11-11T13:36:15.721Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_9_1478871347808",
+		"previous_sibling": "node_45_1470391818604"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_49_1470392010255"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. How many people in your party?"
+		},
+		"parent": "node_48_1470391986060",
+		"context": null,
+		"created": "2016-11-11T13:37:45.589Z",
+		"updated": "2016-11-11T13:38:11.020Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_11_1478871464609",
+		"previous_sibling": "node_50_1470392026987"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_52_1470392164789"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. What day of the week are you interested in visiting us?"
+		},
+		"parent": "Need day and time",
+		"context": null,
+		"created": "2016-11-11T13:38:28.829Z",
+		"updated": "2016-11-11T13:39:09.503Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_12_1478871508515",
+		"previous_sibling": "node_52_1470392164789"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_53_1470392186217"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. What time are you joining us?"
+		},
+		"parent": "node_52_1470392164789",
+		"context": null,
+		"created": "2016-11-11T13:39:15.650Z",
+		"updated": "2016-11-11T13:39:34.725Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_13_1478871555452",
+		"previous_sibling": "node_53_1470392186217"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_55_1470392249063"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. How many people in your party?"
+		},
+		"parent": "No data supplied",
+		"context": null,
+		"created": "2016-11-11T13:40:37.533Z",
+		"updated": "2016-11-11T13:41:01.427Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_14_1478871636885",
+		"previous_sibling": "node_56_1470392261102"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_57_1470392318293"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. What day of the week are you joining us?"
+		},
+		"parent": "node_56_1470392261102",
+		"context": null,
+		"created": "2016-11-11T13:41:06.386Z",
+		"updated": "2016-11-11T13:41:46.925Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_15_1478871666174",
+		"previous_sibling": "node_57_1470392318293"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_58_1470392382868"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. What time are you visiting us?"
+		},
+		"parent": "node_57_1470392318293",
+		"context": null,
+		"created": "2016-11-11T13:41:34.908Z",
+		"updated": "2016-11-11T13:42:07.272Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_16_1478871694446",
+		"previous_sibling": "node_58_1470392382868"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "node_77_1470543740008"
+		},
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please tell me what day you want to make a reservation."
+		},
+		"parent": "Need day",
+		"context": null,
+		"created": "2016-11-11T13:33:17.685Z",
+		"updated": "2016-11-17T21:33:23.049Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_7_1478871196928",
+		"previous_sibling": "node_77_1470543740008"
+	}, {
+		"go_to": {
+			"return": null,
+			"selector": "user_input",
+			"dialog_node": "Transfer large parties"
+		},
+		"title": null,
+		"output": {
+			"text": "OK Let's start over. How many people in your party?"
+		},
+		"parent": "All data supplied",
+		"context": null,
+		"created": "2016-08-25T20:24:53.829Z",
+		"updated": "2016-11-17T21:22:12.740Z",
+		"metadata": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_35_1470391178573",
+		"previous_sibling": "node_34_1470391153633"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2016-12-20T17:49:13.306Z",
+		"updated": "2017-06-02T12:46:45.345Z",
+		"metadata": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_1_1482256152616",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good afternoon. How can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1488295443524",
+		"context": null,
+		"created": "2017-02-28T15:25:17.884Z",
+		"updated": "2017-05-17T11:58:20.197Z",
+		"metadata": null,
+		"conditions": "$daypart:afternoon",
+		"description": null,
+		"dialog_node": "node_16_1488295517679",
+		"previous_sibling": "node_15_1488295465298"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good evening. How can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1488295443524",
+		"context": null,
+		"created": "2017-05-17T11:58:22.873Z",
+		"updated": "2017-05-17T11:58:41.547Z",
+		"metadata": null,
+		"conditions": " $daypart:evening",
+		"description": null,
+		"dialog_node": "node_1_1495022305143",
+		"previous_sibling": "node_16_1488295517679"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good morning. How can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1488295443524",
+		"context": null,
+		"created": "2017-02-28T15:24:25.499Z",
+		"updated": "2017-05-17T11:58:10.558Z",
+		"metadata": null,
+		"conditions": "$daypart:morning",
+		"description": null,
+		"dialog_node": "node_15_1488295465298",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hi there. How can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1488295443524",
+		"context": null,
+		"created": "2017-06-02T11:59:30.817Z",
+		"updated": "2017-06-02T11:59:41.626Z",
+		"metadata": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_1_1496404774962",
+		"previous_sibling": "node_1_1495022305143"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our hours are Sunday to Thursday 10-Midnight and Friday and Saturday 11Am to 2am."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": {
+			"resprompt": 1
+		},
+		"created": "2016-12-22T17:08:41.431Z",
+		"updated": "2016-12-22T23:10:12.064Z",
+		"metadata": null,
+		"conditions": " true",
+		"description": null,
+		"dialog_node": "node_6_1482426521282",
+		"previous_sibling": "node_5_1482426503106"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our hours on @days_of_the_week are 10am to midnight."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": {
+			"daypick": "@days_of_the_week",
+			"resprompt": 1
+		},
+		"created": "2016-12-22T16:30:05.362Z",
+		"updated": "2017-02-28T15:17:23.885Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week:Sunday || @days_of_the_week:Monday || @days_of_the_week:Tuesday || @days_of_the_week:Wednesday || @days_of_the_week:Thursday",
+		"description": null,
+		"dialog_node": "node_2_1482424204936",
+		"previous_sibling": "node_3_1482448369140"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our hours on @days_of_the_week are 11am until 2am."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": {
+			"daypick": "@days_of_the_week",
+			"resprompt": 1
+		},
+		"created": "2016-12-22T16:54:21.056Z",
+		"updated": "2017-03-07T15:26:09.209Z",
+		"metadata": null,
+		"conditions": "@days_of_the_week:Friday || @days_of_the_week:Saturday",
+		"description": null,
+		"dialog_node": "node_3_1482425660639",
+		"previous_sibling": "node_2_1482424204936"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our restaurant is 100% vegetarian and we also offer some vegan options."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2016-12-23T02:18:02.770Z",
+		"updated": "2016-12-23T02:18:22.612Z",
+		"metadata": null,
+		"conditions": " @diets:vegetarian",
+		"description": null,
+		"dialog_node": "node_12_1482459482216",
+		"previous_sibling": "node_11_1482459476120"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To get to our restaurant from the Empire State Building, walk to Herald Square and take the N train to Union Square."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Directions",
+		"context": null,
+		"created": "2016-12-23T02:13:21.107Z",
+		"updated": "2017-01-04T15:21:53.197Z",
+		"metadata": null,
+		"conditions": " @landmarks:(empire state building)",
+		"description": null,
+		"dialog_node": "node_7_1482459200886",
+		"previous_sibling": "node_10_1482459396865"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To get to our restaurant from the World Trade Center, take the R train at Cortland station uptown to Union Square."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Directions",
+		"context": null,
+		"created": "2016-12-23T02:15:35.825Z",
+		"updated": "2016-12-23T02:15:42.508Z",
+		"metadata": null,
+		"conditions": " @landmarks:(world trade center)",
+		"description": null,
+		"dialog_node": "node_9_1482459335607",
+		"previous_sibling": "node_8_1482459217052"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To get to our restaurant from Times Square, take the N train downtown to Union Square."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Directions",
+		"context": null,
+		"created": "2016-12-23T02:13:37.264Z",
+		"updated": "2017-01-04T14:33:18.112Z",
+		"metadata": null,
+		"conditions": " @landmarks:(times square)",
+		"description": null,
+		"dialog_node": "node_8_1482459217052",
+		"previous_sibling": "node_7_1482459200886"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We are closed on @holidays. We will reopen regular hours the following day."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": null,
+		"created": "2016-12-22T16:57:14.769Z",
+		"updated": "2016-12-22T17:16:21.351Z",
+		"metadata": null,
+		"conditions": "@holidays:christmas || @holidays:thanksgiving || @holidays:(new years)",
+		"description": null,
+		"dialog_node": "node_4_1482425833988",
+		"previous_sibling": "node_3_1482425660639"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We are open on @holidays regular hours"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": null,
+		"created": "2016-12-22T17:08:23.257Z",
+		"updated": "2016-12-22T17:08:37.519Z",
+		"metadata": null,
+		"conditions": " @holidays",
+		"description": null,
+		"dialog_node": "node_5_1482426503106",
+		"previous_sibling": "node_4_1482425833988"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We have lots of vegan options. Try one of our favorites: the quinoa-lentil plate."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2016-12-23T02:17:56.336Z",
+		"updated": "2016-12-23T02:18:00.400Z",
+		"metadata": null,
+		"conditions": " @diets:vegan",
+		"description": null,
+		"dialog_node": "node_11_1482459476120",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We have one gluten-free entree. That's it. You'll take it."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2016-12-23T02:18:25.339Z",
+		"updated": "2016-12-23T02:18:45.859Z",
+		"metadata": null,
+		"conditions": " @diets:(gluten free)",
+		"description": null,
+		"dialog_node": "node_13_1482459505126",
+		"previous_sibling": "node_12_1482459482216"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We have various menu options for vegetarians, vegans and those on a gluten free diet. If you have specific dietary needs, just let your waiter know and we will substitute any ingredient."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2016-12-23T02:19:09.214Z",
+		"updated": "2016-12-23T02:19:28.066Z",
+		"metadata": null,
+		"conditions": " anything_else",
+		"description": null,
+		"dialog_node": "node_15_1482459549015",
+		"previous_sibling": "node_14_1482459530014"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Would you like to make a reservation for $daypick?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1482448228340",
+		"context": null,
+		"created": "2016-12-22T23:10:57.132Z",
+		"updated": "2017-01-11T14:59:37.864Z",
+		"metadata": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_2_1482448256701",
+		"previous_sibling": "node_1_1484146777643"
+	}, {
+		"type": "response_condition",
+		"go_to": null,
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Yes we do have three kosher menu items and they are very tasty."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2016-12-23T02:18:50.224Z",
+		"updated": "2016-12-23T02:19:08.078Z",
+		"metadata": null,
+		"conditions": " @diets:kosher",
+		"description": null,
+		"dialog_node": "node_14_1482459530014",
+		"previous_sibling": "node_13_1482459505126"
+	}],
+	"workspace_id": "b73ef3f9-44d5-469b-80da-09c15e99ed3a",
+	"counterexamples": []
+}

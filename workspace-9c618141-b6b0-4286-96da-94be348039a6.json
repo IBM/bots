@@ -1,1 +1,504 @@
-{"name":"Personal Dietician Bot","created":"2017-12-14T10:06:38.036Z","intents":[{"intent":"goodbye","created":"2017-12-14T10:10:52.170Z","updated":"2017-12-14T12:08:47.271Z","examples":[{"text":"bye","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"adios","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"ttyl","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"take care","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"see you","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"goodbye","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"see you then","created":"2017-12-14T10:12:27.619Z","updated":"2017-12-14T10:12:27.619Z"},{"text":"bb","created":"2017-12-14T10:12:30.026Z","updated":"2017-12-14T10:12:30.026Z"},{"text":"see you later","created":"2017-12-14T10:12:35.967Z","updated":"2017-12-14T10:12:35.967Z"},{"text":"later","created":"2017-12-14T10:12:38.295Z","updated":"2017-12-14T10:12:38.295Z"},{"text":"ok","created":"2017-12-14T12:08:40.066Z","updated":"2017-12-14T12:08:40.066Z"},{"text":"ty","created":"2017-12-14T12:08:42.030Z","updated":"2017-12-14T12:08:42.030Z"},{"text":"thanks","created":"2017-12-14T12:08:44.301Z","updated":"2017-12-14T12:08:44.301Z"},{"text":"thank you","created":"2017-12-14T12:08:47.271Z","updated":"2017-12-14T12:08:47.271Z"}],"description":null},{"intent":"hello","created":"2017-12-14T10:10:52.170Z","updated":"2017-12-14T10:12:06.937Z","examples":[{"text":"Howdy","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"good evening","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"good morning","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"good afternoon","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"hello","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"hi","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"aloha","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"hola","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"salam","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"hey","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"yo","created":"2017-12-14T10:12:03.422Z","updated":"2017-12-14T10:12:03.422Z"},{"text":"yo!","created":"2017-12-14T10:12:06.937Z","updated":"2017-12-14T10:12:06.937Z"}],"description":null},{"intent":"none","created":"2017-12-14T12:17:26.402Z","updated":"2017-12-14T12:17:53.205Z","examples":[{"text":"none of them","created":"2017-12-14T12:17:31.441Z","updated":"2017-12-14T12:17:31.441Z"},{"text":"nothing","created":"2017-12-14T12:17:33.772Z","updated":"2017-12-14T12:17:33.772Z"},{"text":"I do not know","created":"2017-12-14T12:17:48.963Z","updated":"2017-12-14T12:17:48.963Z"},{"text":"I don't know","created":"2017-12-14T12:17:53.205Z","updated":"2017-12-14T12:17:53.205Z"}],"description":""},{"intent":"offer","created":"2017-12-14T10:41:29.099Z","updated":"2017-12-14T10:43:31.298Z","examples":[{"text":"What else can you offer?","created":"2017-12-14T10:41:40.930Z","updated":"2017-12-14T10:41:40.930Z"},{"text":"What else?","created":"2017-12-14T10:41:45.012Z","updated":"2017-12-14T10:41:45.012Z"},{"text":"Is that it?","created":"2017-12-14T10:41:49.923Z","updated":"2017-12-14T10:41:49.923Z"},{"text":"What do I need to do extra?","created":"2017-12-14T10:42:06.004Z","updated":"2017-12-14T10:42:06.004Z"},{"text":"What can I do alternatively?","created":"2017-12-14T10:43:02.449Z","updated":"2017-12-14T10:43:02.449Z"},{"text":"What else can I do alternatively?","created":"2017-12-14T10:43:15.891Z","updated":"2017-12-14T10:43:15.891Z"},{"text":"Can you offer me alternatives?","created":"2017-12-14T10:43:31.298Z","updated":"2017-12-14T10:43:31.298Z"}],"description":""},{"intent":"about","created":"2017-12-14T10:10:52.170Z","updated":"2017-12-14T10:10:52.170Z","examples":[{"text":"how are you?","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"hows it going?","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"whats your name?","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"whats up?","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"how are you doing?","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"},{"text":"what are you up to?","created":"2017-12-14T10:10:52.178Z","updated":"2017-12-14T10:10:52.178Z"}],"description":null}],"updated":"2017-12-14T12:21:43.887Z","entities":[{"entity":"weight","values":[{"type":"synonyms","value":"give","created":"2017-12-14T10:35:17.833Z","updated":"2017-12-14T10:35:17.833Z","metadata":null,"synonyms":["lose","reduce"]},{"type":"synonyms","value":"gain","created":"2017-12-14T10:35:02.012Z","updated":"2017-12-14T12:15:52.133Z","metadata":null,"synonyms":["take"]}],"created":"2017-12-14T10:34:14.167Z","updated":"2017-12-14T12:16:03.331Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Your personal dietician bot tries to give some additional tips about your nutrition plan.","dialog_nodes":[{"type":"standard","title":"end","output":{"text":{"values":["That's all I have. Try to do what I told you for a while."],"selection_policy":"sequential"}},"parent":"node_3_1513250048231","context":null,"created":"2017-12-14T12:07:01.786Z","updated":"2017-12-14T12:08:08.776Z","metadata":{},"next_step":null,"conditions":"#offer","description":null,"dialog_node":"node_5_1513253224908","previous_sibling":null},{"type":"standard","title":"Lose Alternatives","output":{"text":{"values":["You can try black sesame, legumes or you can eat plenty of vegetables in the evenings."],"selection_policy":"sequential"}},"parent":"node_2_1513248807587","context":null,"created":"2017-12-14T11:14:05.539Z","updated":"2017-12-14T11:19:22.888Z","metadata":{},"next_step":null,"conditions":"#offer","description":null,"dialog_node":"node_3_1513250048231","previous_sibling":null},{"type":"standard","title":"Gain Alternatives","output":{"text":{"values":["You can try animal fat, vegetable fat, peanut butter, dried nuts and fruits and cheese(before you go to bed)."],"selection_policy":"random"}},"parent":"node_2_1513247841805","context":null,"created":"2017-12-14T10:43:52.746Z","updated":"2017-12-14T11:10:37.150Z","metadata":{"_customization":{"mcr":false}},"next_step":null,"conditions":"#offer","description":null,"dialog_node":"node_3_1513248235898","digress_out":"allow_all","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["You can try animal fat.","You can try vegetable fat.","You can try peanut butter.","You can try dried nuts and fruits.","You can try cheese before you go to bed."],"selection_policy":"random"}},"parent":"node_3_1513248235898","context":null,"created":"2017-12-14T10:50:33.148Z","updated":"2017-12-14T10:51:38.478Z","disabled":true,"metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_1_1513248636311","previous_sibling":"node_6_1513253296870"},{"type":"standard","title":"end - copy1","output":{"text":{"values":["That's all I have. Try to do what I told you for a while."],"selection_policy":"sequential"}},"parent":"node_3_1513248235898","context":null,"created":"2017-12-14T12:08:13.710Z","updated":"2017-12-14T12:08:25.615Z","metadata":{},"next_step":null,"conditions":"#offer","description":null,"dialog_node":"node_6_1513253296870","previous_sibling":null},{"type":"standard","title":"gain","output":{"text":{"values":["You can start adding 100 calories more each week for one month. You need to add slowly because you don't want to lose the control of gaining weight. Trust me :)"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-14T10:37:18.638Z","updated":"2017-12-14T10:52:00.399Z","metadata":{},"next_step":null,"conditions":"@weight:gain","digress_in":"does_not_return","description":null,"dialog_node":"node_2_1513247841805","previous_sibling":"node_8_1513253825076"},{"type":"standard","title":null,"output":{"text":{"values":["I hope I could help you well. See you later!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-14T12:05:37.459Z","updated":"2017-12-14T12:06:32.482Z","metadata":{},"next_step":null,"conditions":"#goodbye","description":null,"dialog_node":"node_4_1513253140631","previous_sibling":"node_2_1513248807587"},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't get your meaning. Should we try from the beginning?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-14T10:15:44.098Z","updated":"2017-12-14T11:21:19.162Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1513246821195"},"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_4_1513253140631"},{"type":"standard","title":"lose","output":{"text":{"values":["You need to stay away from drinks containing sugar and of course from the junk food, especially in the evenings."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-14T10:53:24.842Z","updated":"2017-12-14T11:00:37.288Z","metadata":{},"next_step":null,"conditions":"@weight:give","description":null,"dialog_node":"node_2_1513248807587","previous_sibling":"node_2_1513247841805"},{"type":"standard","title":null,"output":{"text":{"values":["Hi there! Let's begin."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-14T12:10:27.065Z","updated":"2017-12-14T12:13:49.536Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1513246821195"},"conditions":"#hello || #about","description":null,"dialog_node":"node_7_1513253430252","previous_sibling":"Welcome"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2017-12-14T12:17:01.957Z","updated":"2017-12-14T12:17:01.957Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_8_1513253825076","previous_sibling":"node_1_1513246821195"},{"type":"standard","title":"Q1","output":{"text":{"values":["Do you want to gain or lose weight?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-14T10:20:18.441Z","updated":"2017-12-14T10:34:04.707Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_1_1513246821195","previous_sibling":"node_7_1513253430252"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hello. I am your personal dietician. I'd like to know your physical characteristics before helping."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-14T10:15:44.098Z","updated":"2017-12-14T10:36:00.096Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1513246821195"},"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"9c618141-b6b0-4286-96da-94be348039a6","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Personal Dietician Bot",
+	"created": "2017-12-14T10:06:38.036Z",
+	"intents": [{
+		"intent": "goodbye",
+		"created": "2017-12-14T10:10:52.170Z",
+		"updated": "2017-12-14T12:08:47.271Z",
+		"examples": [{
+			"text": "bye",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "adios",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "ttyl",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "take care",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "see you",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "goodbye",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "see you then",
+			"created": "2017-12-14T10:12:27.619Z",
+			"updated": "2017-12-14T10:12:27.619Z"
+		}, {
+			"text": "bb",
+			"created": "2017-12-14T10:12:30.026Z",
+			"updated": "2017-12-14T10:12:30.026Z"
+		}, {
+			"text": "see you later",
+			"created": "2017-12-14T10:12:35.967Z",
+			"updated": "2017-12-14T10:12:35.967Z"
+		}, {
+			"text": "later",
+			"created": "2017-12-14T10:12:38.295Z",
+			"updated": "2017-12-14T10:12:38.295Z"
+		}, {
+			"text": "ok",
+			"created": "2017-12-14T12:08:40.066Z",
+			"updated": "2017-12-14T12:08:40.066Z"
+		}, {
+			"text": "ty",
+			"created": "2017-12-14T12:08:42.030Z",
+			"updated": "2017-12-14T12:08:42.030Z"
+		}, {
+			"text": "thanks",
+			"created": "2017-12-14T12:08:44.301Z",
+			"updated": "2017-12-14T12:08:44.301Z"
+		}, {
+			"text": "thank you",
+			"created": "2017-12-14T12:08:47.271Z",
+			"updated": "2017-12-14T12:08:47.271Z"
+		}],
+		"description": null
+	}, {
+		"intent": "hello",
+		"created": "2017-12-14T10:10:52.170Z",
+		"updated": "2017-12-14T10:12:06.937Z",
+		"examples": [{
+			"text": "Howdy",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "good evening",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "good morning",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "good afternoon",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "hello",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "hi",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "aloha",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "hola",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "salam",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "hey",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "yo",
+			"created": "2017-12-14T10:12:03.422Z",
+			"updated": "2017-12-14T10:12:03.422Z"
+		}, {
+			"text": "yo!",
+			"created": "2017-12-14T10:12:06.937Z",
+			"updated": "2017-12-14T10:12:06.937Z"
+		}],
+		"description": null
+	}, {
+		"intent": "none",
+		"created": "2017-12-14T12:17:26.402Z",
+		"updated": "2017-12-14T12:17:53.205Z",
+		"examples": [{
+			"text": "none of them",
+			"created": "2017-12-14T12:17:31.441Z",
+			"updated": "2017-12-14T12:17:31.441Z"
+		}, {
+			"text": "nothing",
+			"created": "2017-12-14T12:17:33.772Z",
+			"updated": "2017-12-14T12:17:33.772Z"
+		}, {
+			"text": "I do not know",
+			"created": "2017-12-14T12:17:48.963Z",
+			"updated": "2017-12-14T12:17:48.963Z"
+		}, {
+			"text": "I don't know",
+			"created": "2017-12-14T12:17:53.205Z",
+			"updated": "2017-12-14T12:17:53.205Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "offer",
+		"created": "2017-12-14T10:41:29.099Z",
+		"updated": "2017-12-14T10:43:31.298Z",
+		"examples": [{
+			"text": "What else can you offer?",
+			"created": "2017-12-14T10:41:40.930Z",
+			"updated": "2017-12-14T10:41:40.930Z"
+		}, {
+			"text": "What else?",
+			"created": "2017-12-14T10:41:45.012Z",
+			"updated": "2017-12-14T10:41:45.012Z"
+		}, {
+			"text": "Is that it?",
+			"created": "2017-12-14T10:41:49.923Z",
+			"updated": "2017-12-14T10:41:49.923Z"
+		}, {
+			"text": "What do I need to do extra?",
+			"created": "2017-12-14T10:42:06.004Z",
+			"updated": "2017-12-14T10:42:06.004Z"
+		}, {
+			"text": "What can I do alternatively?",
+			"created": "2017-12-14T10:43:02.449Z",
+			"updated": "2017-12-14T10:43:02.449Z"
+		}, {
+			"text": "What else can I do alternatively?",
+			"created": "2017-12-14T10:43:15.891Z",
+			"updated": "2017-12-14T10:43:15.891Z"
+		}, {
+			"text": "Can you offer me alternatives?",
+			"created": "2017-12-14T10:43:31.298Z",
+			"updated": "2017-12-14T10:43:31.298Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "about",
+		"created": "2017-12-14T10:10:52.170Z",
+		"updated": "2017-12-14T10:10:52.170Z",
+		"examples": [{
+			"text": "how are you?",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "hows it going?",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "whats your name?",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "whats up?",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "how are you doing?",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}, {
+			"text": "what are you up to?",
+			"created": "2017-12-14T10:10:52.178Z",
+			"updated": "2017-12-14T10:10:52.178Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-12-14T12:21:43.887Z",
+	"entities": [{
+		"entity": "weight",
+		"values": [{
+			"type": "synonyms",
+			"value": "give",
+			"created": "2017-12-14T10:35:17.833Z",
+			"updated": "2017-12-14T10:35:17.833Z",
+			"metadata": null,
+			"synonyms": ["lose", "reduce"]
+		}, {
+			"type": "synonyms",
+			"value": "gain",
+			"created": "2017-12-14T10:35:02.012Z",
+			"updated": "2017-12-14T12:15:52.133Z",
+			"metadata": null,
+			"synonyms": ["take"]
+		}],
+		"created": "2017-12-14T10:34:14.167Z",
+		"updated": "2017-12-14T12:16:03.331Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Your personal dietician bot tries to give some additional tips about your nutrition plan.",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": "end",
+		"output": {
+			"text": {
+				"values": ["That's all I have. Try to do what I told you for a while."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1513250048231",
+		"context": null,
+		"created": "2017-12-14T12:07:01.786Z",
+		"updated": "2017-12-14T12:08:08.776Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#offer",
+		"description": null,
+		"dialog_node": "node_5_1513253224908",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Lose Alternatives",
+		"output": {
+			"text": {
+				"values": ["You can try black sesame, legumes or you can eat plenty of vegetables in the evenings."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1513248807587",
+		"context": null,
+		"created": "2017-12-14T11:14:05.539Z",
+		"updated": "2017-12-14T11:19:22.888Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#offer",
+		"description": null,
+		"dialog_node": "node_3_1513250048231",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Gain Alternatives",
+		"output": {
+			"text": {
+				"values": ["You can try animal fat, vegetable fat, peanut butter, dried nuts and fruits and cheese(before you go to bed)."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_2_1513247841805",
+		"context": null,
+		"created": "2017-12-14T10:43:52.746Z",
+		"updated": "2017-12-14T11:10:37.150Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": null,
+		"conditions": "#offer",
+		"description": null,
+		"dialog_node": "node_3_1513248235898",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You can try animal fat.", "You can try vegetable fat.", "You can try peanut butter.", "You can try dried nuts and fruits.", "You can try cheese before you go to bed."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_3_1513248235898",
+		"context": null,
+		"created": "2017-12-14T10:50:33.148Z",
+		"updated": "2017-12-14T10:51:38.478Z",
+		"disabled": true,
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_1_1513248636311",
+		"previous_sibling": "node_6_1513253296870"
+	}, {
+		"type": "standard",
+		"title": "end - copy1",
+		"output": {
+			"text": {
+				"values": ["That's all I have. Try to do what I told you for a while."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1513248235898",
+		"context": null,
+		"created": "2017-12-14T12:08:13.710Z",
+		"updated": "2017-12-14T12:08:25.615Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#offer",
+		"description": null,
+		"dialog_node": "node_6_1513253296870",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "gain",
+		"output": {
+			"text": {
+				"values": ["You can start adding 100 calories more each week for one month. You need to add slowly because you don't want to lose the control of gaining weight. Trust me :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T10:37:18.638Z",
+		"updated": "2017-12-14T10:52:00.399Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@weight:gain",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_2_1513247841805",
+		"previous_sibling": "node_8_1513253825076"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I hope I could help you well. See you later!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T12:05:37.459Z",
+		"updated": "2017-12-14T12:06:32.482Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#goodbye",
+		"description": null,
+		"dialog_node": "node_4_1513253140631",
+		"previous_sibling": "node_2_1513248807587"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't get your meaning. Should we try from the beginning?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T10:15:44.098Z",
+		"updated": "2017-12-14T11:21:19.162Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1513246821195"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_4_1513253140631"
+	}, {
+		"type": "standard",
+		"title": "lose",
+		"output": {
+			"text": {
+				"values": ["You need to stay away from drinks containing sugar and of course from the junk food, especially in the evenings."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T10:53:24.842Z",
+		"updated": "2017-12-14T11:00:37.288Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@weight:give",
+		"description": null,
+		"dialog_node": "node_2_1513248807587",
+		"previous_sibling": "node_2_1513247841805"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hi there! Let's begin."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T12:10:27.065Z",
+		"updated": "2017-12-14T12:13:49.536Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1513246821195"
+		},
+		"conditions": "#hello || #about",
+		"description": null,
+		"dialog_node": "node_7_1513253430252",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T12:17:01.957Z",
+		"updated": "2017-12-14T12:17:01.957Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_8_1513253825076",
+		"previous_sibling": "node_1_1513246821195"
+	}, {
+		"type": "standard",
+		"title": "Q1",
+		"output": {
+			"text": {
+				"values": ["Do you want to gain or lose weight?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T10:20:18.441Z",
+		"updated": "2017-12-14T10:34:04.707Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_1_1513246821195",
+		"previous_sibling": "node_7_1513253430252"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. I am your personal dietician. I'd like to know your physical characteristics before helping."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T10:15:44.098Z",
+		"updated": "2017-12-14T10:36:00.096Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1513246821195"
+		},
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "9c618141-b6b0-4286-96da-94be348039a6",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

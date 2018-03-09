@@ -1,1 +1,726 @@
-{"name":"NoaBodyStyle","created":"2018-01-01T02:44:44.023Z","intents":[{"intent":"question","created":"2018-01-01T03:01:12.529Z","updated":"2018-01-01T09:43:36.269Z","examples":[{"text":"What to wear?","created":"2018-01-01T09:43:13.921Z","updated":"2018-01-01T09:43:13.921Z"},{"text":"what best fit for me","created":"2018-01-01T09:43:13.921Z","updated":"2018-01-01T09:43:13.921Z"},{"text":"dont know","created":"2018-01-01T09:43:13.921Z","updated":"2018-01-01T09:43:13.921Z"},{"text":"Don’t know","created":"2018-01-01T09:43:13.921Z","updated":"2018-01-01T09:43:13.921Z"},{"text":"apple","created":"2018-01-01T09:43:13.921Z","updated":"2018-01-01T09:43:13.921Z"},{"text":"please advise","created":"2018-01-01T09:43:24.918Z","updated":"2018-01-01T09:43:24.918Z"},{"text":"suggest what to wear","created":"2018-01-01T09:43:36.269Z","updated":"2018-01-01T09:43:36.269Z"}],"description":""},{"intent":"Greetings","created":"2018-01-01T03:01:12.529Z","updated":"2018-01-01T03:01:12.529Z","examples":[{"text":"hi","created":"2018-01-01T03:01:12.529Z","updated":"2018-01-01T03:01:12.529Z"},{"text":"Hello","created":"2018-01-01T03:01:12.529Z","updated":"2018-01-01T03:01:12.529Z"}],"description":""},{"intent":"Response","created":"2018-01-01T03:02:05.639Z","updated":"2018-01-01T05:24:24.422Z","examples":[{"text":"Yes","created":"2018-01-01T05:24:07.431Z","updated":"2018-01-01T05:24:07.431Z"}],"description":"Yes Please"}],"updated":"2018-01-01T10:07:05.420Z","entities":[{"entity":"AppleHeelPumps","values":[{"type":"synonyms","value":"heels","created":"2018-01-01T08:01:40.069Z","updated":"2018-01-01T09:35:58.034Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Heel pumps","created":"2018-01-01T06:05:23.910Z","updated":"2018-01-01T09:35:53.602Z","metadata":null,"synonyms":["hills","pumps"]}],"created":"2018-01-01T06:05:13.782Z","updated":"2018-01-01T09:35:58.034Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"hourglass","values":[{"type":"synonyms","value":"hourglass","created":"2018-01-01T03:13:19.840Z","updated":"2018-01-01T03:13:19.840Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T03:13:17.265Z","updated":"2018-01-01T03:13:19.840Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"Pear","values":[{"type":"synonyms","value":"pear","created":"2018-01-01T03:17:16.302Z","updated":"2018-01-01T03:17:16.302Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T02:59:24.211Z","updated":"2018-01-01T03:17:16.302Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"DontKnow","values":[{"type":"synonyms","value":"Dont know","created":"2018-01-01T04:30:05.811Z","updated":"2018-01-01T04:30:40.753Z","metadata":null,"synonyms":["are there body shapes?","dont have idea","please help","don’t know","don’t have a clue"]}],"created":"2018-01-01T03:39:14.163Z","updated":"2018-01-01T04:30:40.753Z","metadata":null,"description":null},{"entity":"invertedtriangle","values":[{"type":"synonyms","value":"inverted triangle","created":"2018-01-01T03:13:53.272Z","updated":"2018-01-01T03:13:53.272Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T03:13:49.756Z","updated":"2018-01-01T03:13:53.272Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"Apple","values":[{"type":"synonyms","value":"apple","created":"2018-01-01T03:12:36.134Z","updated":"2018-01-01T03:12:36.134Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T03:12:29.481Z","updated":"2018-01-01T03:12:36.134Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"PearYes","values":[{"type":"synonyms","value":"Yes","created":"2018-01-01T05:25:09.827Z","updated":"2018-01-01T05:25:09.827Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T05:25:04.229Z","updated":"2018-01-01T05:25:09.827Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"AppleSheathDress","values":[{"type":"synonyms","value":"Sheath dress","created":"2018-01-01T06:06:42.487Z","updated":"2018-01-01T06:06:42.487Z","metadata":null,"synonyms":["Dress"]},{"type":"synonyms","value":"dress","created":"2018-01-01T09:53:54.806Z","updated":"2018-01-01T09:53:54.806Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T06:06:35.113Z","updated":"2018-01-01T09:53:54.806Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"rectangle","values":[{"type":"synonyms","value":"rectangle","created":"2018-01-01T03:13:01.440Z","updated":"2018-01-01T03:13:01.440Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T03:12:58.544Z","updated":"2018-01-01T03:13:01.440Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"AppleVShapeJacket","values":[{"type":"synonyms","value":"Jacket","created":"2018-01-01T06:05:57.347Z","updated":"2018-01-01T06:05:57.347Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T06:05:49.041Z","updated":"2018-01-01T06:05:57.347Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"ApplePencilSkirt","values":[{"type":"synonyms","value":"Pencil skirt","created":"2018-01-01T06:07:29.196Z","updated":"2018-01-01T06:07:29.196Z","metadata":null,"synonyms":["skirt","pencil"]},{"type":"synonyms","value":"pencil","created":"2018-01-01T09:55:30.560Z","updated":"2018-01-01T09:55:30.560Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"skirt","created":"2018-01-01T09:55:11.473Z","updated":"2018-01-01T09:55:11.473Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T06:07:06.121Z","updated":"2018-01-01T09:55:30.560Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"AppleYesTrousers","values":[{"type":"synonyms","value":"Trousers","created":"2018-01-01T06:04:53.567Z","updated":"2018-01-01T06:04:53.567Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"jeans","created":"2018-01-01T09:47:45.025Z","updated":"2018-01-01T09:47:45.025Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T06:04:43.719Z","updated":"2018-01-01T09:47:45.025Z","metadata":null,"description":null},{"entity":"AppleStraightLegPants","values":[{"type":"synonyms","value":"straight leg pants","created":"2018-01-01T06:08:12.552Z","updated":"2018-01-01T06:08:12.552Z","metadata":null,"synonyms":["pens"]}],"created":"2018-01-01T06:08:02.208Z","updated":"2018-01-01T06:08:12.552Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"AppleYes","values":[{"type":"synonyms","value":"YestoAppleTrouserjeans","created":"2018-01-01T05:52:38.004Z","updated":"2018-01-01T05:52:38.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Yes","created":"2018-01-01T05:24:50.790Z","updated":"2018-01-01T05:24:50.790Z","metadata":null,"synonyms":[]}],"created":"2018-01-01T05:24:46.691Z","updated":"2018-01-01T05:52:38.004Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Women body shape type style re-commander","dialog_nodes":[{"type":"response_condition","title":null,"output":{"text":{"values":["I have some relevant Woman Trouser jeans examples from AliExpress"],"selection_policy":"sequential"}},"parent":"node_7_1514784594122","context":null,"created":"2018-01-01T05:45:58.173Z","updated":"2018-01-01T05:59:17.751Z","disabled":true,"metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_9_1514785555955","previous_sibling":"node_18_1514786604274"},{"type":"standard","title":"AppleDress","output":{"text":{"values":["https://www.ebay.com/sch/i.html?_odkw=V-shaped+jacket&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XSheath+dress.TRS0&_nkw=Sheath+dress&_sacat=0"],"selection_policy":"sequential"}},"parent":"node_7_1514784594122","context":null,"created":"2018-01-01T06:03:18.582Z","updated":"2018-01-01T09:53:54.416Z","metadata":{},"next_step":null,"conditions":"@AppleSheathDress:(Sheath dress) || @AppleSheathDress:dress","description":null,"dialog_node":"node_16_1514786596503","previous_sibling":"node_15_1514786589872"},{"type":"response_condition","title":null,"output":{"text":{"values":[]}},"parent":"node_7_1514784594122","context":null,"created":"2018-01-01T05:51:57.915Z","updated":"2018-01-01T05:59:18.114Z","disabled":true,"metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_10_1514785915498","previous_sibling":"node_9_1514785555955"},{"type":"standard","title":"AppleSkirt","output":{"text":{"values":["https://www.ebay.com/sch/i.html?_odkw=Sheath+dress&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.Xpencil+skirt.TRS0&_nkw=pencil+skirt&_sacat=0"],"selection_policy":"sequential"}},"parent":"node_7_1514784594122","context":null,"created":"2018-01-01T06:03:20.346Z","updated":"2018-01-01T09:55:30.480Z","metadata":{},"next_step":null,"conditions":"@ApplePencilSkirt:(Pencil skirt) || @ApplePencilSkirt:skirt && @ApplePencilSkirt:pencil","description":null,"dialog_node":"node_17_1514786598278","previous_sibling":"node_16_1514786596503"},{"type":"standard","title":"AppleLegPens","output":{"text":{"values":["https://www.ebay.com/sch/i.html?_sacat=0&_nkw=straight+leg+pants+8&_frs=1"],"selection_policy":"sequential"}},"parent":"node_7_1514784594122","context":null,"created":"2018-01-01T06:03:26.343Z","updated":"2018-01-01T09:56:35.597Z","metadata":{},"next_step":null,"conditions":"@AppleStraightLegPants:(straight leg pants) || @AppleStraightLegPants:pants || @AppleStraightLegPants:leg","description":null,"dialog_node":"node_18_1514786604274","previous_sibling":"node_17_1514786598278"},{"type":"standard","title":"AppleTrousers","output":{"text":{"values":["Please link to https://www.ebay.com/sch/i.html?_odkw=Trouser+jeans&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XTrouser+jeans+woman.TRS0&_nkw=Trouser+jeans+woman&_sacat=0"],"selection_policy":"sequential"}},"parent":"node_7_1514784594122","context":null,"created":"2018-01-01T06:02:10.201Z","updated":"2018-01-01T09:52:11.729Z","metadata":{},"next_step":null,"conditions":"@AppleYesTrousers:Trousers || @AppleYesTrousers:jeans","description":null,"dialog_node":"node_11_1514786528088","previous_sibling":"node_14_1514786584063"},{"type":"standard","title":"AppleVshape","output":{"text":{"values":["https://www.ebay.com/sch/i.html?_odkw=V-shaped+jacket&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XV-shaped+jacket+woman.TRS0&_nkw=V-shaped+jacket+woman&_sacat=0"],"selection_policy":"sequential"}},"parent":"node_7_1514784594122","context":null,"created":"2018-01-01T06:03:11.930Z","updated":"2018-01-01T06:18:30.515Z","metadata":{},"next_step":null,"conditions":"@AppleVShapeJacket:Jacket","description":null,"dialog_node":"node_15_1514786589872","previous_sibling":"node_11_1514786528088"},{"type":"standard","title":"AppleHeelPumps","output":{"text":{"values":["https://www.ebay.com/sch/i.html?_odkw=Trouser+jeans+woman&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.Xmedium+heel+pumps.TRS0&_nkw=medium+heel+pumps&_sacat=0"],"selection_policy":"sequential"}},"parent":"node_7_1514784594122","context":null,"created":"2018-01-01T06:03:06.327Z","updated":"2018-01-01T09:41:49.684Z","metadata":{},"next_step":null,"conditions":"@AppleHeelPumps:heels || @AppleHeelPumps:(Heel pumps)","description":null,"dialog_node":"node_14_1514786584063","previous_sibling":null},{"type":"standard","title":"YesAppleExample","output":{"text":{"values":["link to pear web"],"selection_policy":"sequential"}},"parent":"node_4_1514776724130","context":null,"created":"2018-01-01T05:31:24.345Z","updated":"2018-01-01T05:32:31.613Z","metadata":{},"next_step":null,"conditions":"@PearYes:Yes","description":null,"dialog_node":"node_8_1514784681928","previous_sibling":null},{"type":"standard","title":"question","output":{"text":{"values":["what body shape do you have?"],"selection_policy":"random"}},"parent":"Welcome","context":null,"created":"2018-01-01T02:50:00.614Z","updated":"2018-01-01T03:05:42.849Z","metadata":{},"next_step":null,"conditions":"#question","description":null,"dialog_node":"node_2_1514774999243","previous_sibling":null},{"type":"standard","title":"RecctangleShape","output":{"text":{"values":["Button down shirt\nMid-size belt\nBallerina flats\nSkirt with box pleats\nMid-rise pants with pleats\nBlouson-style blouse\nCamisole to layer underneath\nPair of shorts with pleats, ruffles or embellishments\nKnit-tube or dropped waist dress\nDouble breasted jacket"],"selection_policy":"sequential"}},"parent":"node_2_1514774999243","context":null,"created":"2018-01-01T03:19:43.503Z","updated":"2018-01-01T04:46:50.894Z","metadata":{},"next_step":null,"conditions":"@rectangle:rectangle","description":null,"dialog_node":"node_5_1514776782142","previous_sibling":"node_4_1514776724130"},{"type":"standard","title":"invertedtriangleShape","output":{"text":{"values":["Light or bright pair of trousers with front pleats\nDistressed jacket in a dark color\nKimono shirt in a dark color\nSuper comfortable slouch knee boots\nPeplum skirt\nSoft and drapey wrap cardigan in a dark color\nShort one-shoulder or tunic dress to show killer legs\nWaterfall color shirt in a dark color\nPair of straight jeans in light or bright color\nPair of chunky heel shoes"],"selection_policy":"sequential"}},"parent":"node_2_1514774999243","context":null,"created":"2018-01-01T03:27:54.832Z","updated":"2018-01-01T04:47:02.977Z","metadata":{},"next_step":null,"conditions":"@invertedtriangle:(inverted triangle)","description":null,"dialog_node":"node_6_1514777273474","previous_sibling":"node_5_1514776782142"},{"type":"standard","title":"AppleShape","output":{"text":{"values":["Bra that supports and lifts Trouser jeans (wide-leg or boot-cut dark denim with a trouser look and design)Colorful medium heel pumpsSingle-breasted structured and tailored jacket with one or two buttons  and V-shaped lapels that ends above your hipsSheath dress in a firm fabricSwing topKnee-length structured pencil skirtForm-fitting top in a stiff fabricStraight leg pants with a flat frontBelted trench-coat with epaulets. Would you like to see some examples please?"],"selection_policy":"sequential"}},"parent":"node_2_1514774999243","context":null,"created":"2018-01-01T05:20:51.813Z","updated":"2018-01-01T05:59:10.758Z","metadata":{"_customization":{"mcr":false}},"next_step":null,"conditions":"@Apple:apple","description":null,"dialog_node":"node_2_1514784049789","digress_out":"allow_all","previous_sibling":"node_6_1514777273474"},{"type":"standard","title":"PearShape","output":{"text":{"values":["Bright scarf that goes with most colors in your wardrobe\nKnee length A-line skirt in a dark color\nForm-fitting blouse with ruffles in a light or bright color\nLong A-line coat that ends below the widest parts of the hips\nClassic or open toe pumps in nude\nShort fitted jacket with a puffed sleeve that ends at the waist in a light or bright color\nEmpire-line dress that flares out with details around the bust\nForm-fitting shirt with a boat neck and big sleeves in a light or bright color\nBoot-cut stretch jeans in dark denim (make sure they are as long as possible.. without wiping the floor)\nFigure-hugging off-the-shoulder top in a light or bright color"],"selection_policy":"sequential"}},"parent":"node_2_1514774999243","context":null,"created":"2018-01-01T03:18:45.506Z","updated":"2018-01-01T04:46:36.796Z","metadata":{},"next_step":null,"conditions":"@Pear:pear","description":null,"dialog_node":"node_4_1514776724130","previous_sibling":"node_9_1514778045998"},{"type":"standard","title":"DontKnow","output":{"text":{"values":["if your Shoulders wider than waistline and hip line so you are an inverted triangle! \nif Hips wider than shoulders and waistline so you must be a pear!\nin case your Hips and shoulders same width, waistline a lot smaller I guess  you are an hourglass!\nShoulders, waistline and hip line about same size. If you gain weight, you gain it evenly in all areas: Congratulations, you are a rectangle!\nShoulders and hip line are about same size. Waistline is same size or wider than shoulders and hips, you are a apple!"],"selection_policy":"sequential"}},"parent":"node_2_1514774999243","context":null,"created":"2018-01-01T03:40:47.368Z","updated":"2018-01-01T05:19:33.424Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_2_1514774999243"},"conditions":"@DontKnow:(Dont know)","description":null,"dialog_node":"node_9_1514778045998","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Bra that supports and lifts Trouser jeans (wide-leg or boot-cut dark denim with a trouser look and design)Colorful medium heel pumpsSingle-breasted structured and tailored jacket with one or two buttons  and V-shaped lapels that ends above your hipsSheath dress in a firm fabricSwing topKnee-length structured pencil skirtForm-fitting top in a stiff fabricStraight leg pants with a flat frontBelted trench-coat with epaulets. Would you like to see some examples?"],"selection_policy":"sequential"}},"parent":"node_2_1514784049789","context":null,"created":"2018-01-01T05:28:51.277Z","updated":"2018-01-01T05:57:13.150Z","disabled":true,"metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_5_1514784529219","previous_sibling":"node_7_1514784594122"},{"type":"standard","title":"YesAppleExample","output":{"text":{"values":["I can show you some relevant  examples from Ebay Web site for: jeans, heel pumps, V-shaped jacket, Sheath dress, pencil skirts or some straight leg pants. what would you like to see?"],"selection_policy":"sequential"}},"parent":"node_2_1514784049789","context":null,"created":"2018-01-01T05:29:56.219Z","updated":"2018-01-01T06:16:57.533Z","metadata":{"_customization":{"mcr":false}},"next_step":null,"conditions":"@AppleYes:Yes","description":null,"dialog_node":"node_7_1514784594122","digress_out":"allow_all","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Hi"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-01T08:53:41.389Z","updated":"2018-01-01T08:54:42.689Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"#Greetings","description":null,"dialog_node":"node_2_1514796819496","previous_sibling":"Welcome"},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-01T02:48:11.566Z","updated":"2018-01-01T02:48:11.566Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_2_1514796819496"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hello. How can I help you?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-01T02:48:11.566Z","updated":"2018-01-01T03:04:32.838Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"b3785886-9ca6-4f48-af5e-532f8b20a646","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "NoaBodyStyle",
+	"created": "2018-01-01T02:44:44.023Z",
+	"intents": [{
+		"intent": "question",
+		"created": "2018-01-01T03:01:12.529Z",
+		"updated": "2018-01-01T09:43:36.269Z",
+		"examples": [{
+			"text": "What to wear?",
+			"created": "2018-01-01T09:43:13.921Z",
+			"updated": "2018-01-01T09:43:13.921Z"
+		}, {
+			"text": "what best fit for me",
+			"created": "2018-01-01T09:43:13.921Z",
+			"updated": "2018-01-01T09:43:13.921Z"
+		}, {
+			"text": "dont know",
+			"created": "2018-01-01T09:43:13.921Z",
+			"updated": "2018-01-01T09:43:13.921Z"
+		}, {
+			"text": "Don’t know",
+			"created": "2018-01-01T09:43:13.921Z",
+			"updated": "2018-01-01T09:43:13.921Z"
+		}, {
+			"text": "apple",
+			"created": "2018-01-01T09:43:13.921Z",
+			"updated": "2018-01-01T09:43:13.921Z"
+		}, {
+			"text": "please advise",
+			"created": "2018-01-01T09:43:24.918Z",
+			"updated": "2018-01-01T09:43:24.918Z"
+		}, {
+			"text": "suggest what to wear",
+			"created": "2018-01-01T09:43:36.269Z",
+			"updated": "2018-01-01T09:43:36.269Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "Greetings",
+		"created": "2018-01-01T03:01:12.529Z",
+		"updated": "2018-01-01T03:01:12.529Z",
+		"examples": [{
+			"text": "hi",
+			"created": "2018-01-01T03:01:12.529Z",
+			"updated": "2018-01-01T03:01:12.529Z"
+		}, {
+			"text": "Hello",
+			"created": "2018-01-01T03:01:12.529Z",
+			"updated": "2018-01-01T03:01:12.529Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "Response",
+		"created": "2018-01-01T03:02:05.639Z",
+		"updated": "2018-01-01T05:24:24.422Z",
+		"examples": [{
+			"text": "Yes",
+			"created": "2018-01-01T05:24:07.431Z",
+			"updated": "2018-01-01T05:24:07.431Z"
+		}],
+		"description": "Yes Please"
+	}],
+	"updated": "2018-01-01T10:07:05.420Z",
+	"entities": [{
+		"entity": "AppleHeelPumps",
+		"values": [{
+			"type": "synonyms",
+			"value": "heels",
+			"created": "2018-01-01T08:01:40.069Z",
+			"updated": "2018-01-01T09:35:58.034Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Heel pumps",
+			"created": "2018-01-01T06:05:23.910Z",
+			"updated": "2018-01-01T09:35:53.602Z",
+			"metadata": null,
+			"synonyms": ["hills", "pumps"]
+		}],
+		"created": "2018-01-01T06:05:13.782Z",
+		"updated": "2018-01-01T09:35:58.034Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "hourglass",
+		"values": [{
+			"type": "synonyms",
+			"value": "hourglass",
+			"created": "2018-01-01T03:13:19.840Z",
+			"updated": "2018-01-01T03:13:19.840Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T03:13:17.265Z",
+		"updated": "2018-01-01T03:13:19.840Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "Pear",
+		"values": [{
+			"type": "synonyms",
+			"value": "pear",
+			"created": "2018-01-01T03:17:16.302Z",
+			"updated": "2018-01-01T03:17:16.302Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T02:59:24.211Z",
+		"updated": "2018-01-01T03:17:16.302Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "DontKnow",
+		"values": [{
+			"type": "synonyms",
+			"value": "Dont know",
+			"created": "2018-01-01T04:30:05.811Z",
+			"updated": "2018-01-01T04:30:40.753Z",
+			"metadata": null,
+			"synonyms": ["are there body shapes?", "dont have idea", "please help", "don’t know", "don’t have a clue"]
+		}],
+		"created": "2018-01-01T03:39:14.163Z",
+		"updated": "2018-01-01T04:30:40.753Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "invertedtriangle",
+		"values": [{
+			"type": "synonyms",
+			"value": "inverted triangle",
+			"created": "2018-01-01T03:13:53.272Z",
+			"updated": "2018-01-01T03:13:53.272Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T03:13:49.756Z",
+		"updated": "2018-01-01T03:13:53.272Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "Apple",
+		"values": [{
+			"type": "synonyms",
+			"value": "apple",
+			"created": "2018-01-01T03:12:36.134Z",
+			"updated": "2018-01-01T03:12:36.134Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T03:12:29.481Z",
+		"updated": "2018-01-01T03:12:36.134Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "PearYes",
+		"values": [{
+			"type": "synonyms",
+			"value": "Yes",
+			"created": "2018-01-01T05:25:09.827Z",
+			"updated": "2018-01-01T05:25:09.827Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T05:25:04.229Z",
+		"updated": "2018-01-01T05:25:09.827Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "AppleSheathDress",
+		"values": [{
+			"type": "synonyms",
+			"value": "Sheath dress",
+			"created": "2018-01-01T06:06:42.487Z",
+			"updated": "2018-01-01T06:06:42.487Z",
+			"metadata": null,
+			"synonyms": ["Dress"]
+		}, {
+			"type": "synonyms",
+			"value": "dress",
+			"created": "2018-01-01T09:53:54.806Z",
+			"updated": "2018-01-01T09:53:54.806Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T06:06:35.113Z",
+		"updated": "2018-01-01T09:53:54.806Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "rectangle",
+		"values": [{
+			"type": "synonyms",
+			"value": "rectangle",
+			"created": "2018-01-01T03:13:01.440Z",
+			"updated": "2018-01-01T03:13:01.440Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T03:12:58.544Z",
+		"updated": "2018-01-01T03:13:01.440Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "AppleVShapeJacket",
+		"values": [{
+			"type": "synonyms",
+			"value": "Jacket",
+			"created": "2018-01-01T06:05:57.347Z",
+			"updated": "2018-01-01T06:05:57.347Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T06:05:49.041Z",
+		"updated": "2018-01-01T06:05:57.347Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "ApplePencilSkirt",
+		"values": [{
+			"type": "synonyms",
+			"value": "Pencil skirt",
+			"created": "2018-01-01T06:07:29.196Z",
+			"updated": "2018-01-01T06:07:29.196Z",
+			"metadata": null,
+			"synonyms": ["skirt", "pencil"]
+		}, {
+			"type": "synonyms",
+			"value": "pencil",
+			"created": "2018-01-01T09:55:30.560Z",
+			"updated": "2018-01-01T09:55:30.560Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "skirt",
+			"created": "2018-01-01T09:55:11.473Z",
+			"updated": "2018-01-01T09:55:11.473Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T06:07:06.121Z",
+		"updated": "2018-01-01T09:55:30.560Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "AppleYesTrousers",
+		"values": [{
+			"type": "synonyms",
+			"value": "Trousers",
+			"created": "2018-01-01T06:04:53.567Z",
+			"updated": "2018-01-01T06:04:53.567Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "jeans",
+			"created": "2018-01-01T09:47:45.025Z",
+			"updated": "2018-01-01T09:47:45.025Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T06:04:43.719Z",
+		"updated": "2018-01-01T09:47:45.025Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "AppleStraightLegPants",
+		"values": [{
+			"type": "synonyms",
+			"value": "straight leg pants",
+			"created": "2018-01-01T06:08:12.552Z",
+			"updated": "2018-01-01T06:08:12.552Z",
+			"metadata": null,
+			"synonyms": ["pens"]
+		}],
+		"created": "2018-01-01T06:08:02.208Z",
+		"updated": "2018-01-01T06:08:12.552Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "AppleYes",
+		"values": [{
+			"type": "synonyms",
+			"value": "YestoAppleTrouserjeans",
+			"created": "2018-01-01T05:52:38.004Z",
+			"updated": "2018-01-01T05:52:38.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Yes",
+			"created": "2018-01-01T05:24:50.790Z",
+			"updated": "2018-01-01T05:24:50.790Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-01T05:24:46.691Z",
+		"updated": "2018-01-01T05:52:38.004Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Women body shape type style re-commander",
+	"dialog_nodes": [{
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I have some relevant Woman Trouser jeans examples from AliExpress"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1514784594122",
+		"context": null,
+		"created": "2018-01-01T05:45:58.173Z",
+		"updated": "2018-01-01T05:59:17.751Z",
+		"disabled": true,
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_9_1514785555955",
+		"previous_sibling": "node_18_1514786604274"
+	}, {
+		"type": "standard",
+		"title": "AppleDress",
+		"output": {
+			"text": {
+				"values": ["https://www.ebay.com/sch/i.html?_odkw=V-shaped+jacket&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XSheath+dress.TRS0&_nkw=Sheath+dress&_sacat=0"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1514784594122",
+		"context": null,
+		"created": "2018-01-01T06:03:18.582Z",
+		"updated": "2018-01-01T09:53:54.416Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@AppleSheathDress:(Sheath dress) || @AppleSheathDress:dress",
+		"description": null,
+		"dialog_node": "node_16_1514786596503",
+		"previous_sibling": "node_15_1514786589872"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_7_1514784594122",
+		"context": null,
+		"created": "2018-01-01T05:51:57.915Z",
+		"updated": "2018-01-01T05:59:18.114Z",
+		"disabled": true,
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_10_1514785915498",
+		"previous_sibling": "node_9_1514785555955"
+	}, {
+		"type": "standard",
+		"title": "AppleSkirt",
+		"output": {
+			"text": {
+				"values": ["https://www.ebay.com/sch/i.html?_odkw=Sheath+dress&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.Xpencil+skirt.TRS0&_nkw=pencil+skirt&_sacat=0"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1514784594122",
+		"context": null,
+		"created": "2018-01-01T06:03:20.346Z",
+		"updated": "2018-01-01T09:55:30.480Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@ApplePencilSkirt:(Pencil skirt) || @ApplePencilSkirt:skirt && @ApplePencilSkirt:pencil",
+		"description": null,
+		"dialog_node": "node_17_1514786598278",
+		"previous_sibling": "node_16_1514786596503"
+	}, {
+		"type": "standard",
+		"title": "AppleLegPens",
+		"output": {
+			"text": {
+				"values": ["https://www.ebay.com/sch/i.html?_sacat=0&_nkw=straight+leg+pants+8&_frs=1"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1514784594122",
+		"context": null,
+		"created": "2018-01-01T06:03:26.343Z",
+		"updated": "2018-01-01T09:56:35.597Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@AppleStraightLegPants:(straight leg pants) || @AppleStraightLegPants:pants || @AppleStraightLegPants:leg",
+		"description": null,
+		"dialog_node": "node_18_1514786604274",
+		"previous_sibling": "node_17_1514786598278"
+	}, {
+		"type": "standard",
+		"title": "AppleTrousers",
+		"output": {
+			"text": {
+				"values": ["Please link to https://www.ebay.com/sch/i.html?_odkw=Trouser+jeans&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XTrouser+jeans+woman.TRS0&_nkw=Trouser+jeans+woman&_sacat=0"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1514784594122",
+		"context": null,
+		"created": "2018-01-01T06:02:10.201Z",
+		"updated": "2018-01-01T09:52:11.729Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@AppleYesTrousers:Trousers || @AppleYesTrousers:jeans",
+		"description": null,
+		"dialog_node": "node_11_1514786528088",
+		"previous_sibling": "node_14_1514786584063"
+	}, {
+		"type": "standard",
+		"title": "AppleVshape",
+		"output": {
+			"text": {
+				"values": ["https://www.ebay.com/sch/i.html?_odkw=V-shaped+jacket&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XV-shaped+jacket+woman.TRS0&_nkw=V-shaped+jacket+woman&_sacat=0"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1514784594122",
+		"context": null,
+		"created": "2018-01-01T06:03:11.930Z",
+		"updated": "2018-01-01T06:18:30.515Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@AppleVShapeJacket:Jacket",
+		"description": null,
+		"dialog_node": "node_15_1514786589872",
+		"previous_sibling": "node_11_1514786528088"
+	}, {
+		"type": "standard",
+		"title": "AppleHeelPumps",
+		"output": {
+			"text": {
+				"values": ["https://www.ebay.com/sch/i.html?_odkw=Trouser+jeans+woman&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.Xmedium+heel+pumps.TRS0&_nkw=medium+heel+pumps&_sacat=0"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1514784594122",
+		"context": null,
+		"created": "2018-01-01T06:03:06.327Z",
+		"updated": "2018-01-01T09:41:49.684Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@AppleHeelPumps:heels || @AppleHeelPumps:(Heel pumps)",
+		"description": null,
+		"dialog_node": "node_14_1514786584063",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "YesAppleExample",
+		"output": {
+			"text": {
+				"values": ["link to pear web"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1514776724130",
+		"context": null,
+		"created": "2018-01-01T05:31:24.345Z",
+		"updated": "2018-01-01T05:32:31.613Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@PearYes:Yes",
+		"description": null,
+		"dialog_node": "node_8_1514784681928",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "question",
+		"output": {
+			"text": {
+				"values": ["what body shape do you have?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "Welcome",
+		"context": null,
+		"created": "2018-01-01T02:50:00.614Z",
+		"updated": "2018-01-01T03:05:42.849Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#question",
+		"description": null,
+		"dialog_node": "node_2_1514774999243",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "RecctangleShape",
+		"output": {
+			"text": {
+				"values": ["Button down shirt\nMid-size belt\nBallerina flats\nSkirt with box pleats\nMid-rise pants with pleats\nBlouson-style blouse\nCamisole to layer underneath\nPair of shorts with pleats, ruffles or embellishments\nKnit-tube or dropped waist dress\nDouble breasted jacket"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1514774999243",
+		"context": null,
+		"created": "2018-01-01T03:19:43.503Z",
+		"updated": "2018-01-01T04:46:50.894Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@rectangle:rectangle",
+		"description": null,
+		"dialog_node": "node_5_1514776782142",
+		"previous_sibling": "node_4_1514776724130"
+	}, {
+		"type": "standard",
+		"title": "invertedtriangleShape",
+		"output": {
+			"text": {
+				"values": ["Light or bright pair of trousers with front pleats\nDistressed jacket in a dark color\nKimono shirt in a dark color\nSuper comfortable slouch knee boots\nPeplum skirt\nSoft and drapey wrap cardigan in a dark color\nShort one-shoulder or tunic dress to show killer legs\nWaterfall color shirt in a dark color\nPair of straight jeans in light or bright color\nPair of chunky heel shoes"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1514774999243",
+		"context": null,
+		"created": "2018-01-01T03:27:54.832Z",
+		"updated": "2018-01-01T04:47:02.977Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@invertedtriangle:(inverted triangle)",
+		"description": null,
+		"dialog_node": "node_6_1514777273474",
+		"previous_sibling": "node_5_1514776782142"
+	}, {
+		"type": "standard",
+		"title": "AppleShape",
+		"output": {
+			"text": {
+				"values": ["Bra that supports and lifts Trouser jeans (wide-leg or boot-cut dark denim with a trouser look and design)Colorful medium heel pumpsSingle-breasted structured and tailored jacket with one or two buttons  and V-shaped lapels that ends above your hipsSheath dress in a firm fabricSwing topKnee-length structured pencil skirtForm-fitting top in a stiff fabricStraight leg pants with a flat frontBelted trench-coat with epaulets. Would you like to see some examples please?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1514774999243",
+		"context": null,
+		"created": "2018-01-01T05:20:51.813Z",
+		"updated": "2018-01-01T05:59:10.758Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": null,
+		"conditions": "@Apple:apple",
+		"description": null,
+		"dialog_node": "node_2_1514784049789",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_6_1514777273474"
+	}, {
+		"type": "standard",
+		"title": "PearShape",
+		"output": {
+			"text": {
+				"values": ["Bright scarf that goes with most colors in your wardrobe\nKnee length A-line skirt in a dark color\nForm-fitting blouse with ruffles in a light or bright color\nLong A-line coat that ends below the widest parts of the hips\nClassic or open toe pumps in nude\nShort fitted jacket with a puffed sleeve that ends at the waist in a light or bright color\nEmpire-line dress that flares out with details around the bust\nForm-fitting shirt with a boat neck and big sleeves in a light or bright color\nBoot-cut stretch jeans in dark denim (make sure they are as long as possible.. without wiping the floor)\nFigure-hugging off-the-shoulder top in a light or bright color"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1514774999243",
+		"context": null,
+		"created": "2018-01-01T03:18:45.506Z",
+		"updated": "2018-01-01T04:46:36.796Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Pear:pear",
+		"description": null,
+		"dialog_node": "node_4_1514776724130",
+		"previous_sibling": "node_9_1514778045998"
+	}, {
+		"type": "standard",
+		"title": "DontKnow",
+		"output": {
+			"text": {
+				"values": ["if your Shoulders wider than waistline and hip line so you are an inverted triangle! \nif Hips wider than shoulders and waistline so you must be a pear!\nin case your Hips and shoulders same width, waistline a lot smaller I guess  you are an hourglass!\nShoulders, waistline and hip line about same size. If you gain weight, you gain it evenly in all areas: Congratulations, you are a rectangle!\nShoulders and hip line are about same size. Waistline is same size or wider than shoulders and hips, you are a apple!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1514774999243",
+		"context": null,
+		"created": "2018-01-01T03:40:47.368Z",
+		"updated": "2018-01-01T05:19:33.424Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_2_1514774999243"
+		},
+		"conditions": "@DontKnow:(Dont know)",
+		"description": null,
+		"dialog_node": "node_9_1514778045998",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Bra that supports and lifts Trouser jeans (wide-leg or boot-cut dark denim with a trouser look and design)Colorful medium heel pumpsSingle-breasted structured and tailored jacket with one or two buttons  and V-shaped lapels that ends above your hipsSheath dress in a firm fabricSwing topKnee-length structured pencil skirtForm-fitting top in a stiff fabricStraight leg pants with a flat frontBelted trench-coat with epaulets. Would you like to see some examples?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1514784049789",
+		"context": null,
+		"created": "2018-01-01T05:28:51.277Z",
+		"updated": "2018-01-01T05:57:13.150Z",
+		"disabled": true,
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_5_1514784529219",
+		"previous_sibling": "node_7_1514784594122"
+	}, {
+		"type": "standard",
+		"title": "YesAppleExample",
+		"output": {
+			"text": {
+				"values": ["I can show you some relevant  examples from Ebay Web site for: jeans, heel pumps, V-shaped jacket, Sheath dress, pencil skirts or some straight leg pants. what would you like to see?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1514784049789",
+		"context": null,
+		"created": "2018-01-01T05:29:56.219Z",
+		"updated": "2018-01-01T06:16:57.533Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": null,
+		"conditions": "@AppleYes:Yes",
+		"description": null,
+		"dialog_node": "node_7_1514784594122",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hi"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-01T08:53:41.389Z",
+		"updated": "2018-01-01T08:54:42.689Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "#Greetings",
+		"description": null,
+		"dialog_node": "node_2_1514796819496",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-01T02:48:11.566Z",
+		"updated": "2018-01-01T02:48:11.566Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_2_1514796819496"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-01T02:48:11.566Z",
+		"updated": "2018-01-01T03:04:32.838Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "b3785886-9ca6-4f48-af5e-532f8b20a646",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

@@ -1,1 +1,826 @@
-{"name":"IoT Manager","created":"2017-11-15T21:57:08.007Z","intents":[{"intent":"control_device","created":"2017-11-15T22:22:56.513Z","updated":"2017-11-15T22:24:40.080Z","examples":[{"text":"emergency shut off all devices","created":"2017-11-15T22:24:40.080Z","updated":"2017-11-15T22:24:40.080Z"},{"text":"shut off device <ABC123> immediately","created":"2017-11-15T22:23:43.547Z","updated":"2017-11-15T22:23:43.547Z"},{"text":"turn off device <ABC123> now","created":"2017-11-15T22:24:03.036Z","updated":"2017-11-15T22:24:03.036Z"},{"text":"stop <ABC123> quickly","created":"2017-11-15T22:24:15.038Z","updated":"2017-11-15T22:24:15.038Z"}],"description":null},{"intent":"notifications","created":"2017-11-15T22:09:41.354Z","updated":"2017-11-15T22:11:48.263Z","examples":[{"text":"show me all notifications","created":"2017-11-15T22:09:50.955Z","updated":"2017-11-15T22:09:50.955Z"},{"text":"is notification on","created":"2017-11-15T22:11:27.944Z","updated":"2017-11-15T22:11:27.944Z"},{"text":"is notification working","created":"2017-11-15T22:11:37.513Z","updated":"2017-11-15T22:11:37.513Z"},{"text":"turn on notification","created":"2017-11-15T22:11:48.263Z","updated":"2017-11-15T22:11:48.263Z"},{"text":"list all notifications","created":"2017-11-15T22:09:58.557Z","updated":"2017-11-15T22:09:58.557Z"},{"text":"open to see all notifications","created":"2017-11-15T22:10:22.761Z","updated":"2017-11-15T22:10:22.761Z"},{"text":"can you activate the notifications?","created":"2017-11-15T22:11:05.291Z","updated":"2017-11-15T22:11:05.291Z"}],"description":null},{"intent":"sort_notifications","created":"2017-11-15T22:12:45.401Z","updated":"2017-11-15T22:16:31.273Z","examples":[{"text":"sort all notifications by importance","created":"2017-11-15T22:16:06.914Z","updated":"2017-11-15T22:16:06.914Z"},{"text":"sort all notifications by severity","created":"2017-11-15T22:15:54.758Z","updated":"2017-11-15T22:15:54.758Z"},{"text":"sort all notifications by devices","created":"2017-11-15T22:15:34.695Z","updated":"2017-11-15T22:15:34.695Z"},{"text":"list all minor notifications","created":"2017-11-15T22:14:50.471Z","updated":"2017-11-15T22:14:50.471Z"},{"text":"which notifications are critical","created":"2017-11-15T22:14:38.103Z","updated":"2017-11-15T22:14:38.103Z"},{"text":"show me the latest notifications","created":"2017-11-15T22:14:01.511Z","updated":"2017-11-15T22:14:01.511Z"},{"text":"show me the recent notifications","created":"2017-11-15T22:14:11.049Z","updated":"2017-11-15T22:14:11.049Z"},{"text":"list the last notification","created":"2017-11-15T22:13:50.446Z","updated":"2017-11-15T22:13:50.446Z"},{"text":"sort all my notifications by severity","created":"2017-11-15T22:13:34.886Z","updated":"2017-11-15T22:13:34.886Z"},{"text":"sort all my notifications by importance","created":"2017-11-15T22:13:21.299Z","updated":"2017-11-15T22:13:21.299Z"},{"text":"sort all my notifications by time","created":"2017-11-15T22:13:09.613Z","updated":"2017-11-15T22:13:09.613Z"},{"text":"sort all my notifications","created":"2017-11-15T22:12:53.753Z","updated":"2017-11-15T22:12:53.753Z"},{"text":"list devices with notifications","created":"2017-11-15T22:16:31.273Z","updated":"2017-11-15T22:16:31.273Z"}],"description":null},{"intent":"greetings","created":"2017-11-15T21:57:23.209Z","updated":"2017-11-15T22:00:10.711Z","examples":[{"text":"good morning","created":"2017-11-15T21:58:49.471Z","updated":"2017-11-15T21:58:49.471Z"},{"text":"hi","created":"2017-11-15T21:58:23.346Z","updated":"2017-11-15T21:58:23.346Z"},{"text":"hello","created":"2017-11-15T21:58:34.275Z","updated":"2017-11-15T21:58:34.275Z"},{"text":"howdy","created":"2017-11-15T21:58:38.240Z","updated":"2017-11-15T21:58:38.240Z"},{"text":"good evening","created":"2017-11-15T21:58:54.944Z","updated":"2017-11-15T21:58:54.944Z"},{"text":"good day","created":"2017-11-15T21:59:19.780Z","updated":"2017-11-15T21:59:19.780Z"},{"text":"are you there","created":"2017-11-15T21:59:29.396Z","updated":"2017-11-15T21:59:29.396Z"},{"text":"is there anyone there","created":"2017-11-15T21:59:34.526Z","updated":"2017-11-15T21:59:34.526Z"},{"text":"can someone help me","created":"2017-11-15T22:00:03.875Z","updated":"2017-11-15T22:00:03.875Z"},{"text":"can i get a help","created":"2017-11-15T22:00:10.711Z","updated":"2017-11-15T22:00:10.711Z"}],"description":null},{"intent":"alarms","created":"2017-11-15T22:17:17.401Z","updated":"2017-11-15T22:21:17.335Z","examples":[{"text":"alarms by one month","created":"2017-11-15T22:20:54.239Z","updated":"2017-11-15T22:20:54.239Z"},{"text":"alarms by one week","created":"2017-11-15T22:20:49.187Z","updated":"2017-11-15T22:20:49.187Z"},{"text":"show me all the alarms","created":"2017-11-15T22:17:25.150Z","updated":"2017-11-15T22:17:25.150Z"},{"text":"is there any alarm","created":"2017-11-15T22:17:34.120Z","updated":"2017-11-15T22:17:34.120Z"},{"text":"is there any alert","created":"2017-11-15T22:17:42.992Z","updated":"2017-11-15T22:17:42.992Z"},{"text":"is there any issue","created":"2017-11-15T22:17:50.334Z","updated":"2017-11-15T22:17:50.334Z"},{"text":"is there any error","created":"2017-11-15T22:17:54.098Z","updated":"2017-11-15T22:17:54.098Z"},{"text":"list all the alarms","created":"2017-11-15T22:18:11.941Z","updated":"2017-11-15T22:18:11.941Z"},{"text":"list all issues","created":"2017-11-15T22:18:18.541Z","updated":"2017-11-15T22:18:18.541Z"},{"text":"turn on alarm","created":"2017-11-15T22:18:33.397Z","updated":"2017-11-15T22:18:33.397Z"},{"text":"alarms by today","created":"2017-11-15T22:20:31.569Z","updated":"2017-11-15T22:20:31.569Z"},{"text":"open all the alerts","created":"2017-11-15T22:19:39.910Z","updated":"2017-11-15T22:19:39.910Z"},{"text":"list recent issues","created":"2017-11-15T22:19:27.958Z","updated":"2017-11-15T22:19:27.958Z"},{"text":"list latest alarms","created":"2017-11-15T22:19:18.754Z","updated":"2017-11-15T22:19:18.754Z"},{"text":"turn on alert","created":"2017-11-15T22:18:37.405Z","updated":"2017-11-15T22:18:37.405Z"}],"description":null},{"intent":"sort_alarms","created":"2017-11-15T22:21:26.790Z","updated":"2017-11-15T22:22:10.237Z","examples":[{"text":"sort alarms by severity","created":"2017-11-15T22:21:49.468Z","updated":"2017-11-15T22:21:49.468Z"},{"text":"sort alarms by date","created":"2017-11-15T22:21:32.845Z","updated":"2017-11-15T22:21:32.845Z"},{"text":"sort alarms by importance","created":"2017-11-15T22:22:10.237Z","updated":"2017-11-15T22:22:10.237Z"},{"text":"sort alarms by devices","created":"2017-11-15T22:21:40.212Z","updated":"2017-11-15T22:21:40.212Z"}],"description":null},{"intent":"device_history","created":"2017-11-15T22:25:21.156Z","updated":"2017-11-15T22:29:01.761Z","examples":[{"text":"ask for a maintenance for <ABC123>","created":"2017-11-15T22:29:01.761Z","updated":"2017-11-15T22:29:01.761Z"},{"text":"put a request for a maintenance for <ABC123>","created":"2017-11-15T22:28:43.482Z","updated":"2017-11-15T22:28:43.482Z"},{"text":"tell me what parts has been changed on <ABC123> this year","created":"2017-11-15T22:28:24.256Z","updated":"2017-11-15T22:28:24.256Z"},{"text":"tell me what parts has been installed on <ABC123> this month","created":"2017-11-15T22:28:05.677Z","updated":"2017-11-15T22:28:05.677Z"},{"text":"show the parts changed on <ABC123>","created":"2017-11-15T22:27:48.487Z","updated":"2017-11-15T22:27:48.487Z"},{"text":"report a maintenance request for <ABC123>","created":"2017-11-15T22:27:25.198Z","updated":"2017-11-15T22:27:25.198Z"},{"text":"show me the maintenance log of <ABC123>","created":"2017-11-15T22:27:01.594Z","updated":"2017-11-15T22:27:01.594Z"},{"text":"show me the maintenance log of device <ABC123>","created":"2017-11-15T22:26:44.483Z","updated":"2017-11-15T22:26:44.483Z"},{"text":"give me the history of device <ABC123>","created":"2017-11-15T22:26:11.140Z","updated":"2017-11-15T22:26:11.140Z"},{"text":"give me the history of <ABC123> device","created":"2017-11-15T22:25:49.068Z","updated":"2017-11-15T22:25:49.068Z"}],"description":null},{"intent":"contact","created":"2017-11-15T22:54:45.784Z","updated":"2017-11-15T22:55:28.972Z","examples":[{"text":"urgent, call a person","created":"2017-11-15T22:55:28.972Z","updated":"2017-11-15T22:55:28.972Z"},{"text":"i need to talk with a person","created":"2017-11-15T22:55:19.471Z","updated":"2017-11-15T22:55:19.471Z"},{"text":"let me speak with a person","created":"2017-11-15T22:55:04.351Z","updated":"2017-11-15T22:55:04.351Z"},{"text":"call a person","created":"2017-11-15T22:54:55.073Z","updated":"2017-11-15T22:54:55.073Z"},{"text":"contact a person","created":"2017-11-15T22:54:51.281Z","updated":"2017-11-15T22:54:51.281Z"}],"description":null},{"intent":"goodbyes","created":"2017-11-15T22:00:30.671Z","updated":"2017-11-15T22:01:28.051Z","examples":[{"text":"goodbye","created":"2017-11-15T22:00:56.223Z","updated":"2017-11-15T22:00:56.223Z"},{"text":"bye","created":"2017-11-15T22:00:53.106Z","updated":"2017-11-15T22:00:53.106Z"},{"text":"thanks for the help","created":"2017-11-15T22:01:28.051Z","updated":"2017-11-15T22:01:28.051Z"},{"text":"see you again","created":"2017-11-15T22:01:22.968Z","updated":"2017-11-15T22:01:22.968Z"},{"text":"see you later","created":"2017-11-15T22:01:11.161Z","updated":"2017-11-15T22:01:11.161Z"},{"text":"later","created":"2017-11-15T22:01:01.697Z","updated":"2017-11-15T22:01:01.697Z"},{"text":"see you","created":"2017-11-15T22:00:58.204Z","updated":"2017-11-15T22:00:58.204Z"}],"description":null},{"intent":"demo","created":"2017-11-15T22:02:36.324Z","updated":"2017-11-16T03:46:05.497Z","examples":[{"text":"where to start from","created":"2017-11-15T22:07:09.296Z","updated":"2017-11-15T22:07:09.296Z"},{"text":"what do you do","created":"2017-11-15T22:07:19.853Z","updated":"2017-11-15T22:07:19.853Z"},{"text":"help","created":"2017-11-15T22:53:57.550Z","updated":"2017-11-15T22:53:57.550Z"},{"text":"i need help","created":"2017-11-15T22:54:11.458Z","updated":"2017-11-15T22:54:11.458Z"},{"text":"i need assistance","created":"2017-11-15T22:54:17.628Z","updated":"2017-11-15T22:54:17.628Z"},{"text":"demo","created":"2017-11-16T03:46:05.497Z","updated":"2017-11-16T03:46:05.497Z"},{"text":"i need to know how to use this chatbot","created":"2017-11-15T22:04:05.381Z","updated":"2017-11-15T22:04:05.381Z"},{"text":"can i see a demo","created":"2017-11-15T22:03:33.371Z","updated":"2017-11-15T22:03:33.371Z"},{"text":"i don't know how to use this chatbot","created":"2017-11-15T22:03:18.487Z","updated":"2017-11-15T22:03:18.487Z"},{"text":"show me a video","created":"2017-11-15T22:03:01.168Z","updated":"2017-11-15T22:03:01.168Z"},{"text":"can you show me how this works","created":"2017-11-15T22:02:45.647Z","updated":"2017-11-15T22:02:45.647Z"}],"description":null}],"updated":"2017-11-16T03:51:26.376Z","entities":[{"entity":"request_for_maintenance","values":[{"type":"synonyms","value":"request a maintenance","created":"2017-11-15T22:38:05.153Z","updated":"2017-11-15T22:38:05.153Z","metadata":null,"synonyms":["request a maintenance","request for maintenance","request"]},{"type":"synonyms","value":"call for a maintenance","created":"2017-11-15T22:38:05.153Z","updated":"2017-11-15T22:38:05.153Z","metadata":null,"synonyms":["request a maintenance","call","calls","voice message"]},{"type":"patterns","value":"maintenance","created":"2017-11-15T22:45:45.728Z","updated":"2017-11-15T22:45:45.728Z","metadata":null,"patterns":["maintenance"]}],"created":"2017-11-15T22:34:15.895Z","updated":"2017-11-15T22:45:45.728Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"alarms","values":[{"type":"synonyms","value":"alarms","created":"2017-11-15T22:47:30.213Z","updated":"2017-11-15T22:47:30.213Z","metadata":null,"synonyms":["alarms","notificatins","alerts","errors","issues"]}],"created":"2017-11-15T22:46:13.293Z","updated":"2017-11-15T22:47:30.213Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"demo","values":[{"type":"synonyms","value":"demo","created":"2017-11-15T22:53:19.600Z","updated":"2017-11-15T22:53:34.632Z","metadata":null,"synonyms":["demo","example","video","help"]}],"created":"2017-11-15T22:53:16.470Z","updated":"2017-11-15T22:53:34.632Z","metadata":null,"description":null},{"entity":"control","values":[{"type":"synonyms","value":"control","created":"2017-11-15T22:52:41.969Z","updated":"2017-11-15T22:52:41.969Z","metadata":null,"synonyms":["fix","take action","do","control"]},{"type":"synonyms","value":"turn on","created":"2017-11-15T22:52:41.969Z","updated":"2017-11-15T22:52:41.969Z","metadata":null,"synonyms":["turn on"]},{"type":"synonyms","value":"turn off","created":"2017-11-15T22:52:41.969Z","updated":"2017-11-15T22:52:41.969Z","metadata":null,"synonyms":["turn off","shut off"]},{"type":"synonyms","value":"shut off","created":"2017-11-15T22:52:41.969Z","updated":"2017-11-15T22:52:41.969Z","metadata":null,"synonyms":["shut off","turn off"]}],"created":"2017-11-15T22:51:33.477Z","updated":"2017-11-15T22:52:41.969Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"device","values":[{"type":"synonyms","value":"device","created":"2017-11-15T22:40:01.866Z","updated":"2017-11-15T22:45:22.213Z","metadata":null,"synonyms":["car","truck","raspberry pi","auto parts","machine","sensor","device"]},{"type":"patterns","value":"device parts","created":"2017-11-15T22:45:13.834Z","updated":"2017-11-15T22:45:13.834Z","metadata":null,"patterns":["device components","device parts","device"]}],"created":"2017-11-15T22:38:26.044Z","updated":"2017-11-15T22:45:22.213Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"history","values":[{"type":"synonyms","value":"history","created":"2017-11-15T22:43:02.499Z","updated":"2017-11-15T22:43:02.499Z","metadata":null,"synonyms":["all information","records","maintenance history"]},{"type":"synonyms","value":"device history","created":"2017-11-15T22:43:02.499Z","updated":"2017-11-15T22:43:02.499Z","metadata":null,"synonyms":["maintenance history","device information","parts history"]},{"type":"patterns","value":"maintainers","created":"2017-11-15T22:44:20.173Z","updated":"2017-11-15T22:44:20.173Z","metadata":null,"patterns":["maintenance log writers","device repairers","contact personels"]}],"created":"2017-11-15T22:40:27.146Z","updated":"2017-11-15T22:44:20.173Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"notifications","values":[{"type":"synonyms","value":"notifications","created":"2017-11-15T22:50:47.497Z","updated":"2017-11-15T22:50:47.497Z","metadata":null,"synonyms":["notifications","alerts","alarms","issues","errors","problems","request help"]}],"created":"2017-11-15T22:50:11.059Z","updated":"2017-11-15T22:50:47.497Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"contact","values":[{"type":"synonyms","value":"contact","created":"2017-11-15T22:56:29.553Z","updated":"2017-11-15T22:56:29.553Z","metadata":null,"synonyms":["contact","call","email","sms","text","report","voice message","skype","slack"]}],"created":"2017-11-15T22:55:46.655Z","updated":"2017-11-15T22:56:29.553Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"issues","values":[{"type":"synonyms","value":"issues","created":"2017-11-15T22:49:55.833Z","updated":"2017-11-15T22:49:55.833Z","metadata":null,"synonyms":["alerts","alarms","notifications","errors","problems","request help"]}],"created":"2017-11-15T22:49:08.516Z","updated":"2017-11-15T22:49:55.833Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"alerts","values":[{"type":"synonyms","value":"alerts","created":"2017-11-15T22:48:54.848Z","updated":"2017-11-15T22:48:54.848Z","metadata":null,"synonyms":["alerts","alarms","notifications","issues","errors","urgent"]}],"created":"2017-11-15T22:47:37.735Z","updated":"2017-11-15T22:48:54.848Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Internet of Things workspace that allows to check device performance, notifications, alarms, issues, device history, etc.","dialog_nodes":[{"title":null,"output":{"text":{"values":["calling the maintainer of the day.."],"selection_policy":"sequential"}},"parent":"node_8_1510803851466","context":null,"created":"2017-11-16T03:44:49.172Z","updated":"2017-11-16T03:49:29.550Z","metadata":null,"next_step":null,"conditions":"#contact && @contact:contact","description":null,"dialog_node":"node_9_1510803888242","previous_sibling":null},{"title":null,"output":{"text":{"values":["Ok. Processing..."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:40:45.356Z","updated":"2017-11-16T03:41:31.240Z","metadata":null,"next_step":null,"conditions":"#notifications","description":null,"dialog_node":"node_3_1510803644432","previous_sibling":"node_5_1510803744103"},{"title":null,"output":{"text":{"values":["Playing demo! Watch carefully.."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:47:19.789Z","updated":"2017-11-16T03:47:44.448Z","metadata":null,"next_step":null,"conditions":"#demo","description":null,"dialog_node":"node_10_1510804039636","previous_sibling":"node_1_1510803556065"},{"title":"ciao","output":{"text":{"values":["Take care. Use this bot again."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:18:16.500Z","updated":"2017-11-16T03:46:34.423Z","metadata":null,"next_step":null,"conditions":"#goodbyes","description":null,"dialog_node":"Anything else","previous_sibling":"node_8_1510803851466"},{"title":null,"output":{"text":{"values":["Taking actions right away..."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:43:40.981Z","updated":"2017-11-16T03:44:09.396Z","metadata":null,"next_step":null,"conditions":"#control_device","description":null,"dialog_node":"node_7_1510803820047","previous_sibling":"node_6_1510803766507"},{"title":null,"output":{"text":{"values":["To whom to contact?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:44:12.364Z","updated":"2017-11-16T03:44:48.140Z","metadata":null,"next_step":null,"conditions":"#contact","description":null,"dialog_node":"node_8_1510803851466","previous_sibling":"node_7_1510803820047"},{"title":null,"output":{"text":{"values":["Sorting...Wait a minute"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:41:33.380Z","updated":"2017-11-16T03:42:20.725Z","metadata":null,"next_step":null,"conditions":"#sort_notifications","description":null,"dialog_node":"node_4_1510803692431","previous_sibling":"node_3_1510803644432"},{"title":null,"output":{"text":{"values":["Listing device history.."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:42:47.447Z","updated":"2017-11-16T03:43:38.540Z","metadata":null,"next_step":null,"conditions":"#device_history","description":null,"dialog_node":"node_6_1510803766507","previous_sibling":"node_4_1510803692431"},{"title":null,"output":{"text":{"values":["Sorting alarms...Wait.."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:42:25.025Z","updated":"2017-11-16T03:43:13.013Z","metadata":null,"next_step":null,"conditions":"#sort_alarms","description":null,"dialog_node":"node_5_1510803744103","previous_sibling":"node_2_1510803617378"},{"title":null,"output":{"text":{"values":["Ok. Processing..."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:40:18.298Z","updated":"2017-11-16T03:40:43.106Z","metadata":null,"next_step":null,"conditions":"#alarms","description":null,"dialog_node":"node_2_1510803617378","previous_sibling":"node_10_1510804039636"},{"title":"greet","output":{"text":{"values":["Welcome to IoT Manager. What will you do next?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T03:39:17.001Z","updated":"2017-11-16T03:40:05.790Z","metadata":null,"next_step":null,"conditions":"#greetings","description":null,"dialog_node":"node_1_1510803556065","previous_sibling":null}],"workspace_id":"12c3c1ee-02c1-4835-830f-68600171382b","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "IoT Manager",
+	"created": "2017-11-15T21:57:08.007Z",
+	"intents": [{
+		"intent": "control_device",
+		"created": "2017-11-15T22:22:56.513Z",
+		"updated": "2017-11-15T22:24:40.080Z",
+		"examples": [{
+			"text": "emergency shut off all devices",
+			"created": "2017-11-15T22:24:40.080Z",
+			"updated": "2017-11-15T22:24:40.080Z"
+		}, {
+			"text": "shut off device <ABC123> immediately",
+			"created": "2017-11-15T22:23:43.547Z",
+			"updated": "2017-11-15T22:23:43.547Z"
+		}, {
+			"text": "turn off device <ABC123> now",
+			"created": "2017-11-15T22:24:03.036Z",
+			"updated": "2017-11-15T22:24:03.036Z"
+		}, {
+			"text": "stop <ABC123> quickly",
+			"created": "2017-11-15T22:24:15.038Z",
+			"updated": "2017-11-15T22:24:15.038Z"
+		}],
+		"description": null
+	}, {
+		"intent": "notifications",
+		"created": "2017-11-15T22:09:41.354Z",
+		"updated": "2017-11-15T22:11:48.263Z",
+		"examples": [{
+			"text": "show me all notifications",
+			"created": "2017-11-15T22:09:50.955Z",
+			"updated": "2017-11-15T22:09:50.955Z"
+		}, {
+			"text": "is notification on",
+			"created": "2017-11-15T22:11:27.944Z",
+			"updated": "2017-11-15T22:11:27.944Z"
+		}, {
+			"text": "is notification working",
+			"created": "2017-11-15T22:11:37.513Z",
+			"updated": "2017-11-15T22:11:37.513Z"
+		}, {
+			"text": "turn on notification",
+			"created": "2017-11-15T22:11:48.263Z",
+			"updated": "2017-11-15T22:11:48.263Z"
+		}, {
+			"text": "list all notifications",
+			"created": "2017-11-15T22:09:58.557Z",
+			"updated": "2017-11-15T22:09:58.557Z"
+		}, {
+			"text": "open to see all notifications",
+			"created": "2017-11-15T22:10:22.761Z",
+			"updated": "2017-11-15T22:10:22.761Z"
+		}, {
+			"text": "can you activate the notifications?",
+			"created": "2017-11-15T22:11:05.291Z",
+			"updated": "2017-11-15T22:11:05.291Z"
+		}],
+		"description": null
+	}, {
+		"intent": "sort_notifications",
+		"created": "2017-11-15T22:12:45.401Z",
+		"updated": "2017-11-15T22:16:31.273Z",
+		"examples": [{
+			"text": "sort all notifications by importance",
+			"created": "2017-11-15T22:16:06.914Z",
+			"updated": "2017-11-15T22:16:06.914Z"
+		}, {
+			"text": "sort all notifications by severity",
+			"created": "2017-11-15T22:15:54.758Z",
+			"updated": "2017-11-15T22:15:54.758Z"
+		}, {
+			"text": "sort all notifications by devices",
+			"created": "2017-11-15T22:15:34.695Z",
+			"updated": "2017-11-15T22:15:34.695Z"
+		}, {
+			"text": "list all minor notifications",
+			"created": "2017-11-15T22:14:50.471Z",
+			"updated": "2017-11-15T22:14:50.471Z"
+		}, {
+			"text": "which notifications are critical",
+			"created": "2017-11-15T22:14:38.103Z",
+			"updated": "2017-11-15T22:14:38.103Z"
+		}, {
+			"text": "show me the latest notifications",
+			"created": "2017-11-15T22:14:01.511Z",
+			"updated": "2017-11-15T22:14:01.511Z"
+		}, {
+			"text": "show me the recent notifications",
+			"created": "2017-11-15T22:14:11.049Z",
+			"updated": "2017-11-15T22:14:11.049Z"
+		}, {
+			"text": "list the last notification",
+			"created": "2017-11-15T22:13:50.446Z",
+			"updated": "2017-11-15T22:13:50.446Z"
+		}, {
+			"text": "sort all my notifications by severity",
+			"created": "2017-11-15T22:13:34.886Z",
+			"updated": "2017-11-15T22:13:34.886Z"
+		}, {
+			"text": "sort all my notifications by importance",
+			"created": "2017-11-15T22:13:21.299Z",
+			"updated": "2017-11-15T22:13:21.299Z"
+		}, {
+			"text": "sort all my notifications by time",
+			"created": "2017-11-15T22:13:09.613Z",
+			"updated": "2017-11-15T22:13:09.613Z"
+		}, {
+			"text": "sort all my notifications",
+			"created": "2017-11-15T22:12:53.753Z",
+			"updated": "2017-11-15T22:12:53.753Z"
+		}, {
+			"text": "list devices with notifications",
+			"created": "2017-11-15T22:16:31.273Z",
+			"updated": "2017-11-15T22:16:31.273Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greetings",
+		"created": "2017-11-15T21:57:23.209Z",
+		"updated": "2017-11-15T22:00:10.711Z",
+		"examples": [{
+			"text": "good morning",
+			"created": "2017-11-15T21:58:49.471Z",
+			"updated": "2017-11-15T21:58:49.471Z"
+		}, {
+			"text": "hi",
+			"created": "2017-11-15T21:58:23.346Z",
+			"updated": "2017-11-15T21:58:23.346Z"
+		}, {
+			"text": "hello",
+			"created": "2017-11-15T21:58:34.275Z",
+			"updated": "2017-11-15T21:58:34.275Z"
+		}, {
+			"text": "howdy",
+			"created": "2017-11-15T21:58:38.240Z",
+			"updated": "2017-11-15T21:58:38.240Z"
+		}, {
+			"text": "good evening",
+			"created": "2017-11-15T21:58:54.944Z",
+			"updated": "2017-11-15T21:58:54.944Z"
+		}, {
+			"text": "good day",
+			"created": "2017-11-15T21:59:19.780Z",
+			"updated": "2017-11-15T21:59:19.780Z"
+		}, {
+			"text": "are you there",
+			"created": "2017-11-15T21:59:29.396Z",
+			"updated": "2017-11-15T21:59:29.396Z"
+		}, {
+			"text": "is there anyone there",
+			"created": "2017-11-15T21:59:34.526Z",
+			"updated": "2017-11-15T21:59:34.526Z"
+		}, {
+			"text": "can someone help me",
+			"created": "2017-11-15T22:00:03.875Z",
+			"updated": "2017-11-15T22:00:03.875Z"
+		}, {
+			"text": "can i get a help",
+			"created": "2017-11-15T22:00:10.711Z",
+			"updated": "2017-11-15T22:00:10.711Z"
+		}],
+		"description": null
+	}, {
+		"intent": "alarms",
+		"created": "2017-11-15T22:17:17.401Z",
+		"updated": "2017-11-15T22:21:17.335Z",
+		"examples": [{
+			"text": "alarms by one month",
+			"created": "2017-11-15T22:20:54.239Z",
+			"updated": "2017-11-15T22:20:54.239Z"
+		}, {
+			"text": "alarms by one week",
+			"created": "2017-11-15T22:20:49.187Z",
+			"updated": "2017-11-15T22:20:49.187Z"
+		}, {
+			"text": "show me all the alarms",
+			"created": "2017-11-15T22:17:25.150Z",
+			"updated": "2017-11-15T22:17:25.150Z"
+		}, {
+			"text": "is there any alarm",
+			"created": "2017-11-15T22:17:34.120Z",
+			"updated": "2017-11-15T22:17:34.120Z"
+		}, {
+			"text": "is there any alert",
+			"created": "2017-11-15T22:17:42.992Z",
+			"updated": "2017-11-15T22:17:42.992Z"
+		}, {
+			"text": "is there any issue",
+			"created": "2017-11-15T22:17:50.334Z",
+			"updated": "2017-11-15T22:17:50.334Z"
+		}, {
+			"text": "is there any error",
+			"created": "2017-11-15T22:17:54.098Z",
+			"updated": "2017-11-15T22:17:54.098Z"
+		}, {
+			"text": "list all the alarms",
+			"created": "2017-11-15T22:18:11.941Z",
+			"updated": "2017-11-15T22:18:11.941Z"
+		}, {
+			"text": "list all issues",
+			"created": "2017-11-15T22:18:18.541Z",
+			"updated": "2017-11-15T22:18:18.541Z"
+		}, {
+			"text": "turn on alarm",
+			"created": "2017-11-15T22:18:33.397Z",
+			"updated": "2017-11-15T22:18:33.397Z"
+		}, {
+			"text": "alarms by today",
+			"created": "2017-11-15T22:20:31.569Z",
+			"updated": "2017-11-15T22:20:31.569Z"
+		}, {
+			"text": "open all the alerts",
+			"created": "2017-11-15T22:19:39.910Z",
+			"updated": "2017-11-15T22:19:39.910Z"
+		}, {
+			"text": "list recent issues",
+			"created": "2017-11-15T22:19:27.958Z",
+			"updated": "2017-11-15T22:19:27.958Z"
+		}, {
+			"text": "list latest alarms",
+			"created": "2017-11-15T22:19:18.754Z",
+			"updated": "2017-11-15T22:19:18.754Z"
+		}, {
+			"text": "turn on alert",
+			"created": "2017-11-15T22:18:37.405Z",
+			"updated": "2017-11-15T22:18:37.405Z"
+		}],
+		"description": null
+	}, {
+		"intent": "sort_alarms",
+		"created": "2017-11-15T22:21:26.790Z",
+		"updated": "2017-11-15T22:22:10.237Z",
+		"examples": [{
+			"text": "sort alarms by severity",
+			"created": "2017-11-15T22:21:49.468Z",
+			"updated": "2017-11-15T22:21:49.468Z"
+		}, {
+			"text": "sort alarms by date",
+			"created": "2017-11-15T22:21:32.845Z",
+			"updated": "2017-11-15T22:21:32.845Z"
+		}, {
+			"text": "sort alarms by importance",
+			"created": "2017-11-15T22:22:10.237Z",
+			"updated": "2017-11-15T22:22:10.237Z"
+		}, {
+			"text": "sort alarms by devices",
+			"created": "2017-11-15T22:21:40.212Z",
+			"updated": "2017-11-15T22:21:40.212Z"
+		}],
+		"description": null
+	}, {
+		"intent": "device_history",
+		"created": "2017-11-15T22:25:21.156Z",
+		"updated": "2017-11-15T22:29:01.761Z",
+		"examples": [{
+			"text": "ask for a maintenance for <ABC123>",
+			"created": "2017-11-15T22:29:01.761Z",
+			"updated": "2017-11-15T22:29:01.761Z"
+		}, {
+			"text": "put a request for a maintenance for <ABC123>",
+			"created": "2017-11-15T22:28:43.482Z",
+			"updated": "2017-11-15T22:28:43.482Z"
+		}, {
+			"text": "tell me what parts has been changed on <ABC123> this year",
+			"created": "2017-11-15T22:28:24.256Z",
+			"updated": "2017-11-15T22:28:24.256Z"
+		}, {
+			"text": "tell me what parts has been installed on <ABC123> this month",
+			"created": "2017-11-15T22:28:05.677Z",
+			"updated": "2017-11-15T22:28:05.677Z"
+		}, {
+			"text": "show the parts changed on <ABC123>",
+			"created": "2017-11-15T22:27:48.487Z",
+			"updated": "2017-11-15T22:27:48.487Z"
+		}, {
+			"text": "report a maintenance request for <ABC123>",
+			"created": "2017-11-15T22:27:25.198Z",
+			"updated": "2017-11-15T22:27:25.198Z"
+		}, {
+			"text": "show me the maintenance log of <ABC123>",
+			"created": "2017-11-15T22:27:01.594Z",
+			"updated": "2017-11-15T22:27:01.594Z"
+		}, {
+			"text": "show me the maintenance log of device <ABC123>",
+			"created": "2017-11-15T22:26:44.483Z",
+			"updated": "2017-11-15T22:26:44.483Z"
+		}, {
+			"text": "give me the history of device <ABC123>",
+			"created": "2017-11-15T22:26:11.140Z",
+			"updated": "2017-11-15T22:26:11.140Z"
+		}, {
+			"text": "give me the history of <ABC123> device",
+			"created": "2017-11-15T22:25:49.068Z",
+			"updated": "2017-11-15T22:25:49.068Z"
+		}],
+		"description": null
+	}, {
+		"intent": "contact",
+		"created": "2017-11-15T22:54:45.784Z",
+		"updated": "2017-11-15T22:55:28.972Z",
+		"examples": [{
+			"text": "urgent, call a person",
+			"created": "2017-11-15T22:55:28.972Z",
+			"updated": "2017-11-15T22:55:28.972Z"
+		}, {
+			"text": "i need to talk with a person",
+			"created": "2017-11-15T22:55:19.471Z",
+			"updated": "2017-11-15T22:55:19.471Z"
+		}, {
+			"text": "let me speak with a person",
+			"created": "2017-11-15T22:55:04.351Z",
+			"updated": "2017-11-15T22:55:04.351Z"
+		}, {
+			"text": "call a person",
+			"created": "2017-11-15T22:54:55.073Z",
+			"updated": "2017-11-15T22:54:55.073Z"
+		}, {
+			"text": "contact a person",
+			"created": "2017-11-15T22:54:51.281Z",
+			"updated": "2017-11-15T22:54:51.281Z"
+		}],
+		"description": null
+	}, {
+		"intent": "goodbyes",
+		"created": "2017-11-15T22:00:30.671Z",
+		"updated": "2017-11-15T22:01:28.051Z",
+		"examples": [{
+			"text": "goodbye",
+			"created": "2017-11-15T22:00:56.223Z",
+			"updated": "2017-11-15T22:00:56.223Z"
+		}, {
+			"text": "bye",
+			"created": "2017-11-15T22:00:53.106Z",
+			"updated": "2017-11-15T22:00:53.106Z"
+		}, {
+			"text": "thanks for the help",
+			"created": "2017-11-15T22:01:28.051Z",
+			"updated": "2017-11-15T22:01:28.051Z"
+		}, {
+			"text": "see you again",
+			"created": "2017-11-15T22:01:22.968Z",
+			"updated": "2017-11-15T22:01:22.968Z"
+		}, {
+			"text": "see you later",
+			"created": "2017-11-15T22:01:11.161Z",
+			"updated": "2017-11-15T22:01:11.161Z"
+		}, {
+			"text": "later",
+			"created": "2017-11-15T22:01:01.697Z",
+			"updated": "2017-11-15T22:01:01.697Z"
+		}, {
+			"text": "see you",
+			"created": "2017-11-15T22:00:58.204Z",
+			"updated": "2017-11-15T22:00:58.204Z"
+		}],
+		"description": null
+	}, {
+		"intent": "demo",
+		"created": "2017-11-15T22:02:36.324Z",
+		"updated": "2017-11-16T03:46:05.497Z",
+		"examples": [{
+			"text": "where to start from",
+			"created": "2017-11-15T22:07:09.296Z",
+			"updated": "2017-11-15T22:07:09.296Z"
+		}, {
+			"text": "what do you do",
+			"created": "2017-11-15T22:07:19.853Z",
+			"updated": "2017-11-15T22:07:19.853Z"
+		}, {
+			"text": "help",
+			"created": "2017-11-15T22:53:57.550Z",
+			"updated": "2017-11-15T22:53:57.550Z"
+		}, {
+			"text": "i need help",
+			"created": "2017-11-15T22:54:11.458Z",
+			"updated": "2017-11-15T22:54:11.458Z"
+		}, {
+			"text": "i need assistance",
+			"created": "2017-11-15T22:54:17.628Z",
+			"updated": "2017-11-15T22:54:17.628Z"
+		}, {
+			"text": "demo",
+			"created": "2017-11-16T03:46:05.497Z",
+			"updated": "2017-11-16T03:46:05.497Z"
+		}, {
+			"text": "i need to know how to use this chatbot",
+			"created": "2017-11-15T22:04:05.381Z",
+			"updated": "2017-11-15T22:04:05.381Z"
+		}, {
+			"text": "can i see a demo",
+			"created": "2017-11-15T22:03:33.371Z",
+			"updated": "2017-11-15T22:03:33.371Z"
+		}, {
+			"text": "i don't know how to use this chatbot",
+			"created": "2017-11-15T22:03:18.487Z",
+			"updated": "2017-11-15T22:03:18.487Z"
+		}, {
+			"text": "show me a video",
+			"created": "2017-11-15T22:03:01.168Z",
+			"updated": "2017-11-15T22:03:01.168Z"
+		}, {
+			"text": "can you show me how this works",
+			"created": "2017-11-15T22:02:45.647Z",
+			"updated": "2017-11-15T22:02:45.647Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-16T03:51:26.376Z",
+	"entities": [{
+		"entity": "request_for_maintenance",
+		"values": [{
+			"type": "synonyms",
+			"value": "request a maintenance",
+			"created": "2017-11-15T22:38:05.153Z",
+			"updated": "2017-11-15T22:38:05.153Z",
+			"metadata": null,
+			"synonyms": ["request a maintenance", "request for maintenance", "request"]
+		}, {
+			"type": "synonyms",
+			"value": "call for a maintenance",
+			"created": "2017-11-15T22:38:05.153Z",
+			"updated": "2017-11-15T22:38:05.153Z",
+			"metadata": null,
+			"synonyms": ["request a maintenance", "call", "calls", "voice message"]
+		}, {
+			"type": "patterns",
+			"value": "maintenance",
+			"created": "2017-11-15T22:45:45.728Z",
+			"updated": "2017-11-15T22:45:45.728Z",
+			"metadata": null,
+			"patterns": ["maintenance"]
+		}],
+		"created": "2017-11-15T22:34:15.895Z",
+		"updated": "2017-11-15T22:45:45.728Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "alarms",
+		"values": [{
+			"type": "synonyms",
+			"value": "alarms",
+			"created": "2017-11-15T22:47:30.213Z",
+			"updated": "2017-11-15T22:47:30.213Z",
+			"metadata": null,
+			"synonyms": ["alarms", "notificatins", "alerts", "errors", "issues"]
+		}],
+		"created": "2017-11-15T22:46:13.293Z",
+		"updated": "2017-11-15T22:47:30.213Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "demo",
+		"values": [{
+			"type": "synonyms",
+			"value": "demo",
+			"created": "2017-11-15T22:53:19.600Z",
+			"updated": "2017-11-15T22:53:34.632Z",
+			"metadata": null,
+			"synonyms": ["demo", "example", "video", "help"]
+		}],
+		"created": "2017-11-15T22:53:16.470Z",
+		"updated": "2017-11-15T22:53:34.632Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "control",
+		"values": [{
+			"type": "synonyms",
+			"value": "control",
+			"created": "2017-11-15T22:52:41.969Z",
+			"updated": "2017-11-15T22:52:41.969Z",
+			"metadata": null,
+			"synonyms": ["fix", "take action", "do", "control"]
+		}, {
+			"type": "synonyms",
+			"value": "turn on",
+			"created": "2017-11-15T22:52:41.969Z",
+			"updated": "2017-11-15T22:52:41.969Z",
+			"metadata": null,
+			"synonyms": ["turn on"]
+		}, {
+			"type": "synonyms",
+			"value": "turn off",
+			"created": "2017-11-15T22:52:41.969Z",
+			"updated": "2017-11-15T22:52:41.969Z",
+			"metadata": null,
+			"synonyms": ["turn off", "shut off"]
+		}, {
+			"type": "synonyms",
+			"value": "shut off",
+			"created": "2017-11-15T22:52:41.969Z",
+			"updated": "2017-11-15T22:52:41.969Z",
+			"metadata": null,
+			"synonyms": ["shut off", "turn off"]
+		}],
+		"created": "2017-11-15T22:51:33.477Z",
+		"updated": "2017-11-15T22:52:41.969Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "device",
+		"values": [{
+			"type": "synonyms",
+			"value": "device",
+			"created": "2017-11-15T22:40:01.866Z",
+			"updated": "2017-11-15T22:45:22.213Z",
+			"metadata": null,
+			"synonyms": ["car", "truck", "raspberry pi", "auto parts", "machine", "sensor", "device"]
+		}, {
+			"type": "patterns",
+			"value": "device parts",
+			"created": "2017-11-15T22:45:13.834Z",
+			"updated": "2017-11-15T22:45:13.834Z",
+			"metadata": null,
+			"patterns": ["device components", "device parts", "device"]
+		}],
+		"created": "2017-11-15T22:38:26.044Z",
+		"updated": "2017-11-15T22:45:22.213Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "history",
+		"values": [{
+			"type": "synonyms",
+			"value": "history",
+			"created": "2017-11-15T22:43:02.499Z",
+			"updated": "2017-11-15T22:43:02.499Z",
+			"metadata": null,
+			"synonyms": ["all information", "records", "maintenance history"]
+		}, {
+			"type": "synonyms",
+			"value": "device history",
+			"created": "2017-11-15T22:43:02.499Z",
+			"updated": "2017-11-15T22:43:02.499Z",
+			"metadata": null,
+			"synonyms": ["maintenance history", "device information", "parts history"]
+		}, {
+			"type": "patterns",
+			"value": "maintainers",
+			"created": "2017-11-15T22:44:20.173Z",
+			"updated": "2017-11-15T22:44:20.173Z",
+			"metadata": null,
+			"patterns": ["maintenance log writers", "device repairers", "contact personels"]
+		}],
+		"created": "2017-11-15T22:40:27.146Z",
+		"updated": "2017-11-15T22:44:20.173Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "notifications",
+		"values": [{
+			"type": "synonyms",
+			"value": "notifications",
+			"created": "2017-11-15T22:50:47.497Z",
+			"updated": "2017-11-15T22:50:47.497Z",
+			"metadata": null,
+			"synonyms": ["notifications", "alerts", "alarms", "issues", "errors", "problems", "request help"]
+		}],
+		"created": "2017-11-15T22:50:11.059Z",
+		"updated": "2017-11-15T22:50:47.497Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "contact",
+		"values": [{
+			"type": "synonyms",
+			"value": "contact",
+			"created": "2017-11-15T22:56:29.553Z",
+			"updated": "2017-11-15T22:56:29.553Z",
+			"metadata": null,
+			"synonyms": ["contact", "call", "email", "sms", "text", "report", "voice message", "skype", "slack"]
+		}],
+		"created": "2017-11-15T22:55:46.655Z",
+		"updated": "2017-11-15T22:56:29.553Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "issues",
+		"values": [{
+			"type": "synonyms",
+			"value": "issues",
+			"created": "2017-11-15T22:49:55.833Z",
+			"updated": "2017-11-15T22:49:55.833Z",
+			"metadata": null,
+			"synonyms": ["alerts", "alarms", "notifications", "errors", "problems", "request help"]
+		}],
+		"created": "2017-11-15T22:49:08.516Z",
+		"updated": "2017-11-15T22:49:55.833Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "alerts",
+		"values": [{
+			"type": "synonyms",
+			"value": "alerts",
+			"created": "2017-11-15T22:48:54.848Z",
+			"updated": "2017-11-15T22:48:54.848Z",
+			"metadata": null,
+			"synonyms": ["alerts", "alarms", "notifications", "issues", "errors", "urgent"]
+		}],
+		"created": "2017-11-15T22:47:37.735Z",
+		"updated": "2017-11-15T22:48:54.848Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Internet of Things workspace that allows to check device performance, notifications, alarms, issues, device history, etc.",
+	"dialog_nodes": [{
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["calling the maintainer of the day.."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1510803851466",
+		"context": null,
+		"created": "2017-11-16T03:44:49.172Z",
+		"updated": "2017-11-16T03:49:29.550Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#contact && @contact:contact",
+		"description": null,
+		"dialog_node": "node_9_1510803888242",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok. Processing..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:40:45.356Z",
+		"updated": "2017-11-16T03:41:31.240Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#notifications",
+		"description": null,
+		"dialog_node": "node_3_1510803644432",
+		"previous_sibling": "node_5_1510803744103"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Playing demo! Watch carefully.."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:47:19.789Z",
+		"updated": "2017-11-16T03:47:44.448Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#demo",
+		"description": null,
+		"dialog_node": "node_10_1510804039636",
+		"previous_sibling": "node_1_1510803556065"
+	}, {
+		"title": "ciao",
+		"output": {
+			"text": {
+				"values": ["Take care. Use this bot again."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:18:16.500Z",
+		"updated": "2017-11-16T03:46:34.423Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#goodbyes",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_8_1510803851466"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Taking actions right away..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:43:40.981Z",
+		"updated": "2017-11-16T03:44:09.396Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#control_device",
+		"description": null,
+		"dialog_node": "node_7_1510803820047",
+		"previous_sibling": "node_6_1510803766507"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To whom to contact?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:44:12.364Z",
+		"updated": "2017-11-16T03:44:48.140Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#contact",
+		"description": null,
+		"dialog_node": "node_8_1510803851466",
+		"previous_sibling": "node_7_1510803820047"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorting...Wait a minute"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:41:33.380Z",
+		"updated": "2017-11-16T03:42:20.725Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#sort_notifications",
+		"description": null,
+		"dialog_node": "node_4_1510803692431",
+		"previous_sibling": "node_3_1510803644432"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Listing device history.."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:42:47.447Z",
+		"updated": "2017-11-16T03:43:38.540Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#device_history",
+		"description": null,
+		"dialog_node": "node_6_1510803766507",
+		"previous_sibling": "node_4_1510803692431"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorting alarms...Wait.."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:42:25.025Z",
+		"updated": "2017-11-16T03:43:13.013Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#sort_alarms",
+		"description": null,
+		"dialog_node": "node_5_1510803744103",
+		"previous_sibling": "node_2_1510803617378"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok. Processing..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:40:18.298Z",
+		"updated": "2017-11-16T03:40:43.106Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#alarms",
+		"description": null,
+		"dialog_node": "node_2_1510803617378",
+		"previous_sibling": "node_10_1510804039636"
+	}, {
+		"title": "greet",
+		"output": {
+			"text": {
+				"values": ["Welcome to IoT Manager. What will you do next?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T03:39:17.001Z",
+		"updated": "2017-11-16T03:40:05.790Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "node_1_1510803556065",
+		"previous_sibling": null
+	}],
+	"workspace_id": "12c3c1ee-02c1-4835-830f-68600171382b",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

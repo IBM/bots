@@ -1,1 +1,571 @@
-{"name":"Sales consultant - software","created":"2017-12-13T14:45:19.166Z","intents":[{"intent":"learn_about","created":"2017-12-13T14:48:57.512Z","updated":"2017-12-13T14:51:07.122Z","examples":[{"text":"Can you tell me about your products","created":"2017-12-13T14:49:11.509Z","updated":"2017-12-13T14:49:11.509Z"},{"text":"I want to know more about your softward products","created":"2017-12-13T14:49:30.004Z","updated":"2017-12-13T14:49:30.004Z"},{"text":"Tell me about your products","created":"2017-12-13T14:49:43.469Z","updated":"2017-12-13T14:49:43.469Z"},{"text":"What products do you have","created":"2017-12-13T14:49:52.504Z","updated":"2017-12-13T14:49:52.504Z"},{"text":"Tell me more about your products","created":"2017-12-13T14:50:04.872Z","updated":"2017-12-13T14:50:04.872Z"},{"text":"What are you selling","created":"2017-12-13T14:50:22.959Z","updated":"2017-12-13T14:50:22.959Z"},{"text":"I'm looking for a product","created":"2017-12-13T14:50:40.235Z","updated":"2017-12-13T14:50:40.235Z"},{"text":"I would like to know more about your products","created":"2017-12-13T14:51:07.122Z","updated":"2017-12-13T14:51:07.122Z"}],"description":"Intention to get more information"},{"intent":"improve_quality","created":"2017-12-13T15:18:51.464Z","updated":"2017-12-14T13:44:21.985Z","examples":[{"text":"I need to improve my quality. How can you help","created":"2017-12-13T15:19:06.283Z","updated":"2017-12-13T15:19:06.283Z"},{"text":"My quality is poor. How can I improve it","created":"2017-12-13T15:19:28.312Z","updated":"2017-12-13T15:19:28.312Z"},{"text":"I have poor quality","created":"2017-12-13T15:19:39.662Z","updated":"2017-12-13T15:19:39.662Z"},{"text":"I need to improve the quality of my products","created":"2017-12-13T15:19:53.822Z","updated":"2017-12-13T15:19:53.822Z"},{"text":"Improve quality","created":"2017-12-13T15:20:03.196Z","updated":"2017-12-13T15:20:03.196Z"},{"text":"Better products","created":"2017-12-14T13:43:58.137Z","updated":"2017-12-14T13:43:58.137Z"},{"text":"Better quality","created":"2017-12-14T13:44:03.876Z","updated":"2017-12-14T13:44:03.876Z"},{"text":"Quality","created":"2017-12-14T13:44:07.993Z","updated":"2017-12-14T13:44:07.993Z"},{"text":"Quality problems","created":"2017-12-14T13:44:21.985Z","updated":"2017-12-14T13:44:21.985Z"}],"description":"Intent to improve quality"},{"intent":"improve_process","created":"2017-12-13T14:55:52.688Z","updated":"2017-12-14T13:43:28.703Z","examples":[{"text":"I would like to know how to improve my process","created":"2017-12-13T14:56:04.736Z","updated":"2017-12-13T14:56:04.736Z"},{"text":"My process is broken. How can your product help me improve my process","created":"2017-12-13T14:56:34.082Z","updated":"2017-12-13T14:56:34.082Z"},{"text":"I want to improve my process","created":"2017-12-13T14:56:51.807Z","updated":"2017-12-13T14:56:51.807Z"},{"text":"Can you tell me how to improve my process","created":"2017-12-13T14:57:10.646Z","updated":"2017-12-13T14:57:10.646Z"},{"text":"Can you help with my process","created":"2017-12-13T14:57:26.903Z","updated":"2017-12-13T14:57:26.903Z"},{"text":"I need to speed-up my process","created":"2017-12-13T14:57:39.789Z","updated":"2017-12-13T14:57:39.789Z"},{"text":"My process is broken. Can you help me","created":"2017-12-13T15:16:12.128Z","updated":"2017-12-13T15:16:12.128Z"},{"text":"I want to make my process faster","created":"2017-12-14T13:43:15.368Z","updated":"2017-12-14T13:43:15.368Z"},{"text":"Faster process","created":"2017-12-14T13:43:22.235Z","updated":"2017-12-14T13:43:22.235Z"},{"text":"Quicker","created":"2017-12-14T13:43:28.703Z","updated":"2017-12-14T13:43:28.703Z"}],"description":"Intention to find out about improving process"},{"intent":"better_how","created":"2017-12-15T20:59:04.406Z","updated":"2017-12-15T21:31:27.145Z","examples":[{"text":"How does it make my product better?","created":"2017-12-15T20:59:20.548Z","updated":"2017-12-15T20:59:20.548Z"},{"text":"Better quality? How?","created":"2017-12-15T20:59:32.134Z","updated":"2017-12-15T20:59:32.134Z"},{"text":"how?","created":"2017-12-15T20:59:43.753Z","updated":"2017-12-15T20:59:43.753Z"},{"text":"Can you tell me how it improves the quality","created":"2017-12-15T21:00:01.209Z","updated":"2017-12-15T21:00:01.209Z"},{"text":"Tell me more","created":"2017-12-15T21:31:16.863Z","updated":"2017-12-15T21:31:16.863Z"},{"text":"How","created":"2017-12-15T21:31:27.145Z","updated":"2017-12-15T21:31:27.145Z"}],"description":"how does the product improve the quality"},{"intent":"hello","created":"2017-12-14T03:04:46.730Z","updated":"2017-12-14T03:11:37.567Z","examples":[{"text":"hello","created":"2017-12-14T03:04:52.496Z","updated":"2017-12-14T03:04:52.496Z"},{"text":"good morning","created":"2017-12-14T03:04:57.108Z","updated":"2017-12-14T03:04:57.108Z"},{"text":"hi","created":"2017-12-14T03:05:00.373Z","updated":"2017-12-14T03:05:00.373Z"},{"text":"hello there","created":"2017-12-14T03:05:08.565Z","updated":"2017-12-14T03:05:08.565Z"},{"text":"good day","created":"2017-12-14T03:05:16.622Z","updated":"2017-12-14T03:05:16.622Z"},{"text":"how are you","created":"2017-12-14T03:05:23.017Z","updated":"2017-12-14T03:05:23.017Z"},{"text":"howdy","created":"2017-12-14T03:11:37.567Z","updated":"2017-12-14T03:11:37.567Z"}],"description":"initial greetings"},{"intent":"doit_quicker","created":"2017-12-13T15:16:42.463Z","updated":"2017-12-14T20:51:08.023Z","examples":[{"text":"I need to speed up my process","created":"2017-12-13T15:16:56.667Z","updated":"2017-12-13T15:16:56.667Z"},{"text":"How can you help speed up my process","created":"2017-12-13T15:17:06.914Z","updated":"2017-12-13T15:17:06.914Z"},{"text":"My process is slow and I need to speed it up","created":"2017-12-13T15:17:22.355Z","updated":"2017-12-13T15:17:22.355Z"},{"text":"I need to do my process faster","created":"2017-12-13T15:17:46.459Z","updated":"2017-12-13T15:17:46.459Z"},{"text":"How can you speed up my process","created":"2017-12-13T15:18:27.546Z","updated":"2017-12-13T15:18:27.546Z"},{"text":"how","created":"2017-12-14T20:51:08.023Z","updated":"2017-12-14T20:51:08.023Z"}],"description":"Intent to speed up process"},{"intent":"faster_how","created":"2017-12-14T14:49:59.304Z","updated":"2017-12-14T20:52:14.873Z","examples":[{"text":"tell me how","created":"2017-12-14T14:50:08.146Z","updated":"2017-12-14T14:50:08.146Z"},{"text":"how does it do that","created":"2017-12-14T14:50:13.537Z","updated":"2017-12-14T14:50:13.537Z"},{"text":"Can you show me how your product makes our process faster","created":"2017-12-14T16:02:04.267Z","updated":"2017-12-14T16:02:04.267Z"},{"text":"Faster? How?","created":"2017-12-14T16:02:14.558Z","updated":"2017-12-14T16:02:14.558Z"},{"text":"How does your product do that?","created":"2017-12-14T16:02:32.148Z","updated":"2017-12-14T16:02:32.148Z"},{"text":"how?","created":"2017-12-14T20:39:50.860Z","updated":"2017-12-14T20:39:50.860Z"},{"text":"how","created":"2017-12-14T20:52:14.873Z","updated":"2017-12-14T20:52:14.873Z"}],"description":"How does the product make it faster for the user"}],"updated":"2017-12-15T21:31:27.145Z","entities":[{"entity":"product","values":[{"type":"synonyms","value":"modeler","created":"2017-12-13T20:07:21.870Z","updated":"2017-12-13T20:07:21.870Z","metadata":null,"synonyms":["community-edition","enterprise-edition"]},{"type":"synonyms","value":"issue-tracker","created":"2017-12-13T20:07:59.180Z","updated":"2017-12-13T20:07:59.180Z","metadata":null,"synonyms":["community-edition","enterprise-edition"]}],"created":"2017-12-13T20:06:41.668Z","updated":"2017-12-13T20:07:59.180Z","metadata":null,"description":null},{"entity":"benefits","values":[{"type":"synonyms","value":"accuracy","created":"2017-12-13T20:10:25.758Z","updated":"2017-12-13T20:10:25.758Z","metadata":null,"synonyms":["quality","finish"]},{"type":"synonyms","value":"speed","created":"2017-12-13T20:08:55.747Z","updated":"2017-12-13T20:08:55.747Z","metadata":null,"synonyms":["faster","quicker"]}],"created":"2017-12-13T20:08:34.379Z","updated":"2017-12-13T20:10:25.758Z","metadata":null,"description":null},{"entity":"process","values":[{"type":"synonyms","value":"software process","created":"2017-12-13T15:26:19.214Z","updated":"2017-12-13T15:26:19.214Z","metadata":null,"synonyms":["agile","devops","waterfall","rup","iterative"]},{"type":"synonyms","value":"deployment","created":"2017-12-13T15:27:14.379Z","updated":"2017-12-13T15:27:14.379Z","metadata":null,"synonyms":["cloud","private cloud","containers","kubernetes"]},{"type":"synonyms","value":"design","created":"2017-12-13T15:36:01.104Z","updated":"2017-12-13T15:36:01.104Z","metadata":null,"synonyms":["object-oriented","user-interface","web-interface"]}],"created":"2017-12-13T15:20:32.772Z","updated":"2017-12-13T15:36:01.104Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Conversation with a software sales consultant","dialog_nodes":[{"type":"standard","title":"better_how","output":{"text":{"values":["The designer has built-in quality checker that enforces built-in rules for quality design.","The automatic generation of code from the desig ensures that the code follows the architecture of the product.","The visualization feature allows the architect to quickly spot any design issues and correct them."],"selection_policy":"random"}},"parent":"node_5_1513259207035","context":null,"created":"2017-12-15T21:00:24.195Z","updated":"2017-12-15T21:03:25.181Z","metadata":{},"next_step":null,"conditions":"#better_how","description":null,"dialog_node":"node_10_1513371634755","previous_sibling":"node_11_1513371879855"},{"type":"standard","title":"Anything else - copy1","output":{"text":{"values":["I didn't understand your response, can you please re-state your response."],"selection_policy":"sequential"}},"parent":"node_5_1513259207035","context":null,"created":"2017-12-15T21:04:29.299Z","updated":"2017-12-15T21:04:42.287Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_11_1513371879855","previous_sibling":null},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand your response, can you please re-state your response."],"selection_policy":"sequential"}},"parent":"node_3_1513221496535","context":null,"created":"2017-12-14T20:38:36.856Z","updated":"2017-12-15T21:04:20.502Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_8_1513283926404","previous_sibling":"node_7_1513283681460"},{"type":"standard","title":null,"output":{"text":{"values":["Our product automates the translation of design into code. It also automates the update of the model from changes in code.","Our product automates the deployment of modules and libraries when the source code changes.","Our product makes it easy for architects to design the software using well-known modeling notation."],"selection_policy":"random"}},"parent":"node_3_1513221496535","context":null,"created":"2017-12-14T20:34:31.988Z","updated":"2017-12-14T20:36:43.019Z","metadata":{},"next_step":null,"conditions":"#faster_how","description":null,"dialog_node":"node_7_1513283681460","previous_sibling":null},{"type":"standard","title":"faster-how","output":{"text":{"values":["Our product automates the translation of design into code. It also automates the update of the model from changes in code.","Our product automates the deployment of modules and libraries when the source code changes.","Our product makes it easy for architects to design the software using well-known modeling notation."],"selection_policy":"random"}},"parent":"node_6_1513259319718","context":null,"created":"2017-12-14T20:55:11.033Z","updated":"2017-12-14T20:55:58.494Z","metadata":{},"next_step":null,"conditions":"#faster_how","description":null,"dialog_node":"node_9_1513284920497","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Our product automates most of the design step to enable quicker time-to-market.","Our product features allow your designer to cut design time by half.","Our product supports the product development cycle at each step making it faster to develop your product."],"selection_policy":"sequential"}},"parent":"node_2_1513221139481","context":null,"created":"2017-12-14T13:48:30.525Z","updated":"2017-12-14T13:50:27.048Z","metadata":{},"next_step":null,"conditions":"#improve_process","description":null,"dialog_node":"node_6_1513259319718","previous_sibling":"node_5_1513259207035"},{"type":"standard","title":null,"output":{"text":{"values":["Our products allow you engineers to build-in quality from day 1.","Quality is built-in into you product from inception to delivery.","Our product provides features to your engineers to make it easy for them to build-in high quality into the product."],"selection_policy":"sequential"}},"parent":"node_2_1513221139481","context":null,"created":"2017-12-14T13:46:38.153Z","updated":"2017-12-14T13:48:10.180Z","metadata":{},"next_step":null,"conditions":"#improve_quality","description":null,"dialog_node":"node_5_1513259207035","previous_sibling":"node_3_1513221496535"},{"type":"standard","title":null,"output":{"text":{"values":["Sure we have a product that will save your developers time designing software.","Our product will make your designers productive from day one.","Our product automates most of the software lifecycle process."],"selection_policy":"random"}},"parent":"node_2_1513221139481","context":null,"created":"2017-12-14T03:18:07.539Z","updated":"2017-12-14T03:19:44.019Z","metadata":{},"next_step":null,"conditions":"#doit_quicker","description":null,"dialog_node":"node_3_1513221496535","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["We have multiple products. Are you interested in making your process faster or improving quality?","Sure, I can tell you about our products. Are you interested in process improvement or quality improvement?","Sure, but first can you tell me more about what you are trying to accomplish? Faster process or better products?","Sure, are you interested in improving your process or improving your quality?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-12-14T03:12:10.374Z","updated":"2017-12-14T17:34:23.900Z","metadata":{},"next_step":null,"conditions":"#learn_about","description":null,"dialog_node":"node_2_1513221139481","previous_sibling":"node_1_1513220749048"},{"type":"standard","title":"Hello","output":{"text":{"values":["hello","hi","how are you","good day","greetings"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-12-14T03:05:39.973Z","updated":"2017-12-14T03:10:11.514Z","metadata":{},"next_step":null,"conditions":"#hello","description":null,"dialog_node":"node_1_1513220749048","previous_sibling":"Welcome"},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-13T20:11:06.303Z","updated":"2017-12-13T20:11:06.303Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_2_1513221139481"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hello. How can I help you?","Hello. Can I answer any questions for you?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-12-13T20:11:06.303Z","updated":"2017-12-13T20:30:46.813Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"8144533b-f5c2-4dfb-8f62-e13a6e69b4d5","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Sales consultant - software",
+	"created": "2017-12-13T14:45:19.166Z",
+	"intents": [{
+		"intent": "learn_about",
+		"created": "2017-12-13T14:48:57.512Z",
+		"updated": "2017-12-13T14:51:07.122Z",
+		"examples": [{
+			"text": "Can you tell me about your products",
+			"created": "2017-12-13T14:49:11.509Z",
+			"updated": "2017-12-13T14:49:11.509Z"
+		}, {
+			"text": "I want to know more about your softward products",
+			"created": "2017-12-13T14:49:30.004Z",
+			"updated": "2017-12-13T14:49:30.004Z"
+		}, {
+			"text": "Tell me about your products",
+			"created": "2017-12-13T14:49:43.469Z",
+			"updated": "2017-12-13T14:49:43.469Z"
+		}, {
+			"text": "What products do you have",
+			"created": "2017-12-13T14:49:52.504Z",
+			"updated": "2017-12-13T14:49:52.504Z"
+		}, {
+			"text": "Tell me more about your products",
+			"created": "2017-12-13T14:50:04.872Z",
+			"updated": "2017-12-13T14:50:04.872Z"
+		}, {
+			"text": "What are you selling",
+			"created": "2017-12-13T14:50:22.959Z",
+			"updated": "2017-12-13T14:50:22.959Z"
+		}, {
+			"text": "I'm looking for a product",
+			"created": "2017-12-13T14:50:40.235Z",
+			"updated": "2017-12-13T14:50:40.235Z"
+		}, {
+			"text": "I would like to know more about your products",
+			"created": "2017-12-13T14:51:07.122Z",
+			"updated": "2017-12-13T14:51:07.122Z"
+		}],
+		"description": "Intention to get more information"
+	}, {
+		"intent": "improve_quality",
+		"created": "2017-12-13T15:18:51.464Z",
+		"updated": "2017-12-14T13:44:21.985Z",
+		"examples": [{
+			"text": "I need to improve my quality. How can you help",
+			"created": "2017-12-13T15:19:06.283Z",
+			"updated": "2017-12-13T15:19:06.283Z"
+		}, {
+			"text": "My quality is poor. How can I improve it",
+			"created": "2017-12-13T15:19:28.312Z",
+			"updated": "2017-12-13T15:19:28.312Z"
+		}, {
+			"text": "I have poor quality",
+			"created": "2017-12-13T15:19:39.662Z",
+			"updated": "2017-12-13T15:19:39.662Z"
+		}, {
+			"text": "I need to improve the quality of my products",
+			"created": "2017-12-13T15:19:53.822Z",
+			"updated": "2017-12-13T15:19:53.822Z"
+		}, {
+			"text": "Improve quality",
+			"created": "2017-12-13T15:20:03.196Z",
+			"updated": "2017-12-13T15:20:03.196Z"
+		}, {
+			"text": "Better products",
+			"created": "2017-12-14T13:43:58.137Z",
+			"updated": "2017-12-14T13:43:58.137Z"
+		}, {
+			"text": "Better quality",
+			"created": "2017-12-14T13:44:03.876Z",
+			"updated": "2017-12-14T13:44:03.876Z"
+		}, {
+			"text": "Quality",
+			"created": "2017-12-14T13:44:07.993Z",
+			"updated": "2017-12-14T13:44:07.993Z"
+		}, {
+			"text": "Quality problems",
+			"created": "2017-12-14T13:44:21.985Z",
+			"updated": "2017-12-14T13:44:21.985Z"
+		}],
+		"description": "Intent to improve quality"
+	}, {
+		"intent": "improve_process",
+		"created": "2017-12-13T14:55:52.688Z",
+		"updated": "2017-12-14T13:43:28.703Z",
+		"examples": [{
+			"text": "I would like to know how to improve my process",
+			"created": "2017-12-13T14:56:04.736Z",
+			"updated": "2017-12-13T14:56:04.736Z"
+		}, {
+			"text": "My process is broken. How can your product help me improve my process",
+			"created": "2017-12-13T14:56:34.082Z",
+			"updated": "2017-12-13T14:56:34.082Z"
+		}, {
+			"text": "I want to improve my process",
+			"created": "2017-12-13T14:56:51.807Z",
+			"updated": "2017-12-13T14:56:51.807Z"
+		}, {
+			"text": "Can you tell me how to improve my process",
+			"created": "2017-12-13T14:57:10.646Z",
+			"updated": "2017-12-13T14:57:10.646Z"
+		}, {
+			"text": "Can you help with my process",
+			"created": "2017-12-13T14:57:26.903Z",
+			"updated": "2017-12-13T14:57:26.903Z"
+		}, {
+			"text": "I need to speed-up my process",
+			"created": "2017-12-13T14:57:39.789Z",
+			"updated": "2017-12-13T14:57:39.789Z"
+		}, {
+			"text": "My process is broken. Can you help me",
+			"created": "2017-12-13T15:16:12.128Z",
+			"updated": "2017-12-13T15:16:12.128Z"
+		}, {
+			"text": "I want to make my process faster",
+			"created": "2017-12-14T13:43:15.368Z",
+			"updated": "2017-12-14T13:43:15.368Z"
+		}, {
+			"text": "Faster process",
+			"created": "2017-12-14T13:43:22.235Z",
+			"updated": "2017-12-14T13:43:22.235Z"
+		}, {
+			"text": "Quicker",
+			"created": "2017-12-14T13:43:28.703Z",
+			"updated": "2017-12-14T13:43:28.703Z"
+		}],
+		"description": "Intention to find out about improving process"
+	}, {
+		"intent": "better_how",
+		"created": "2017-12-15T20:59:04.406Z",
+		"updated": "2017-12-15T21:31:27.145Z",
+		"examples": [{
+			"text": "How does it make my product better?",
+			"created": "2017-12-15T20:59:20.548Z",
+			"updated": "2017-12-15T20:59:20.548Z"
+		}, {
+			"text": "Better quality? How?",
+			"created": "2017-12-15T20:59:32.134Z",
+			"updated": "2017-12-15T20:59:32.134Z"
+		}, {
+			"text": "how?",
+			"created": "2017-12-15T20:59:43.753Z",
+			"updated": "2017-12-15T20:59:43.753Z"
+		}, {
+			"text": "Can you tell me how it improves the quality",
+			"created": "2017-12-15T21:00:01.209Z",
+			"updated": "2017-12-15T21:00:01.209Z"
+		}, {
+			"text": "Tell me more",
+			"created": "2017-12-15T21:31:16.863Z",
+			"updated": "2017-12-15T21:31:16.863Z"
+		}, {
+			"text": "How",
+			"created": "2017-12-15T21:31:27.145Z",
+			"updated": "2017-12-15T21:31:27.145Z"
+		}],
+		"description": "how does the product improve the quality"
+	}, {
+		"intent": "hello",
+		"created": "2017-12-14T03:04:46.730Z",
+		"updated": "2017-12-14T03:11:37.567Z",
+		"examples": [{
+			"text": "hello",
+			"created": "2017-12-14T03:04:52.496Z",
+			"updated": "2017-12-14T03:04:52.496Z"
+		}, {
+			"text": "good morning",
+			"created": "2017-12-14T03:04:57.108Z",
+			"updated": "2017-12-14T03:04:57.108Z"
+		}, {
+			"text": "hi",
+			"created": "2017-12-14T03:05:00.373Z",
+			"updated": "2017-12-14T03:05:00.373Z"
+		}, {
+			"text": "hello there",
+			"created": "2017-12-14T03:05:08.565Z",
+			"updated": "2017-12-14T03:05:08.565Z"
+		}, {
+			"text": "good day",
+			"created": "2017-12-14T03:05:16.622Z",
+			"updated": "2017-12-14T03:05:16.622Z"
+		}, {
+			"text": "how are you",
+			"created": "2017-12-14T03:05:23.017Z",
+			"updated": "2017-12-14T03:05:23.017Z"
+		}, {
+			"text": "howdy",
+			"created": "2017-12-14T03:11:37.567Z",
+			"updated": "2017-12-14T03:11:37.567Z"
+		}],
+		"description": "initial greetings"
+	}, {
+		"intent": "doit_quicker",
+		"created": "2017-12-13T15:16:42.463Z",
+		"updated": "2017-12-14T20:51:08.023Z",
+		"examples": [{
+			"text": "I need to speed up my process",
+			"created": "2017-12-13T15:16:56.667Z",
+			"updated": "2017-12-13T15:16:56.667Z"
+		}, {
+			"text": "How can you help speed up my process",
+			"created": "2017-12-13T15:17:06.914Z",
+			"updated": "2017-12-13T15:17:06.914Z"
+		}, {
+			"text": "My process is slow and I need to speed it up",
+			"created": "2017-12-13T15:17:22.355Z",
+			"updated": "2017-12-13T15:17:22.355Z"
+		}, {
+			"text": "I need to do my process faster",
+			"created": "2017-12-13T15:17:46.459Z",
+			"updated": "2017-12-13T15:17:46.459Z"
+		}, {
+			"text": "How can you speed up my process",
+			"created": "2017-12-13T15:18:27.546Z",
+			"updated": "2017-12-13T15:18:27.546Z"
+		}, {
+			"text": "how",
+			"created": "2017-12-14T20:51:08.023Z",
+			"updated": "2017-12-14T20:51:08.023Z"
+		}],
+		"description": "Intent to speed up process"
+	}, {
+		"intent": "faster_how",
+		"created": "2017-12-14T14:49:59.304Z",
+		"updated": "2017-12-14T20:52:14.873Z",
+		"examples": [{
+			"text": "tell me how",
+			"created": "2017-12-14T14:50:08.146Z",
+			"updated": "2017-12-14T14:50:08.146Z"
+		}, {
+			"text": "how does it do that",
+			"created": "2017-12-14T14:50:13.537Z",
+			"updated": "2017-12-14T14:50:13.537Z"
+		}, {
+			"text": "Can you show me how your product makes our process faster",
+			"created": "2017-12-14T16:02:04.267Z",
+			"updated": "2017-12-14T16:02:04.267Z"
+		}, {
+			"text": "Faster? How?",
+			"created": "2017-12-14T16:02:14.558Z",
+			"updated": "2017-12-14T16:02:14.558Z"
+		}, {
+			"text": "How does your product do that?",
+			"created": "2017-12-14T16:02:32.148Z",
+			"updated": "2017-12-14T16:02:32.148Z"
+		}, {
+			"text": "how?",
+			"created": "2017-12-14T20:39:50.860Z",
+			"updated": "2017-12-14T20:39:50.860Z"
+		}, {
+			"text": "how",
+			"created": "2017-12-14T20:52:14.873Z",
+			"updated": "2017-12-14T20:52:14.873Z"
+		}],
+		"description": "How does the product make it faster for the user"
+	}],
+	"updated": "2017-12-15T21:31:27.145Z",
+	"entities": [{
+		"entity": "product",
+		"values": [{
+			"type": "synonyms",
+			"value": "modeler",
+			"created": "2017-12-13T20:07:21.870Z",
+			"updated": "2017-12-13T20:07:21.870Z",
+			"metadata": null,
+			"synonyms": ["community-edition", "enterprise-edition"]
+		}, {
+			"type": "synonyms",
+			"value": "issue-tracker",
+			"created": "2017-12-13T20:07:59.180Z",
+			"updated": "2017-12-13T20:07:59.180Z",
+			"metadata": null,
+			"synonyms": ["community-edition", "enterprise-edition"]
+		}],
+		"created": "2017-12-13T20:06:41.668Z",
+		"updated": "2017-12-13T20:07:59.180Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "benefits",
+		"values": [{
+			"type": "synonyms",
+			"value": "accuracy",
+			"created": "2017-12-13T20:10:25.758Z",
+			"updated": "2017-12-13T20:10:25.758Z",
+			"metadata": null,
+			"synonyms": ["quality", "finish"]
+		}, {
+			"type": "synonyms",
+			"value": "speed",
+			"created": "2017-12-13T20:08:55.747Z",
+			"updated": "2017-12-13T20:08:55.747Z",
+			"metadata": null,
+			"synonyms": ["faster", "quicker"]
+		}],
+		"created": "2017-12-13T20:08:34.379Z",
+		"updated": "2017-12-13T20:10:25.758Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "process",
+		"values": [{
+			"type": "synonyms",
+			"value": "software process",
+			"created": "2017-12-13T15:26:19.214Z",
+			"updated": "2017-12-13T15:26:19.214Z",
+			"metadata": null,
+			"synonyms": ["agile", "devops", "waterfall", "rup", "iterative"]
+		}, {
+			"type": "synonyms",
+			"value": "deployment",
+			"created": "2017-12-13T15:27:14.379Z",
+			"updated": "2017-12-13T15:27:14.379Z",
+			"metadata": null,
+			"synonyms": ["cloud", "private cloud", "containers", "kubernetes"]
+		}, {
+			"type": "synonyms",
+			"value": "design",
+			"created": "2017-12-13T15:36:01.104Z",
+			"updated": "2017-12-13T15:36:01.104Z",
+			"metadata": null,
+			"synonyms": ["object-oriented", "user-interface", "web-interface"]
+		}],
+		"created": "2017-12-13T15:20:32.772Z",
+		"updated": "2017-12-13T15:36:01.104Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Conversation with a software sales consultant",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": "better_how",
+		"output": {
+			"text": {
+				"values": ["The designer has built-in quality checker that enforces built-in rules for quality design.", "The automatic generation of code from the desig ensures that the code follows the architecture of the product.", "The visualization feature allows the architect to quickly spot any design issues and correct them."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_5_1513259207035",
+		"context": null,
+		"created": "2017-12-15T21:00:24.195Z",
+		"updated": "2017-12-15T21:03:25.181Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#better_how",
+		"description": null,
+		"dialog_node": "node_10_1513371634755",
+		"previous_sibling": "node_11_1513371879855"
+	}, {
+		"type": "standard",
+		"title": "Anything else - copy1",
+		"output": {
+			"text": {
+				"values": ["I didn't understand your response, can you please re-state your response."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1513259207035",
+		"context": null,
+		"created": "2017-12-15T21:04:29.299Z",
+		"updated": "2017-12-15T21:04:42.287Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_11_1513371879855",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand your response, can you please re-state your response."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1513221496535",
+		"context": null,
+		"created": "2017-12-14T20:38:36.856Z",
+		"updated": "2017-12-15T21:04:20.502Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_8_1513283926404",
+		"previous_sibling": "node_7_1513283681460"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our product automates the translation of design into code. It also automates the update of the model from changes in code.", "Our product automates the deployment of modules and libraries when the source code changes.", "Our product makes it easy for architects to design the software using well-known modeling notation."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_3_1513221496535",
+		"context": null,
+		"created": "2017-12-14T20:34:31.988Z",
+		"updated": "2017-12-14T20:36:43.019Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#faster_how",
+		"description": null,
+		"dialog_node": "node_7_1513283681460",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "faster-how",
+		"output": {
+			"text": {
+				"values": ["Our product automates the translation of design into code. It also automates the update of the model from changes in code.", "Our product automates the deployment of modules and libraries when the source code changes.", "Our product makes it easy for architects to design the software using well-known modeling notation."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_6_1513259319718",
+		"context": null,
+		"created": "2017-12-14T20:55:11.033Z",
+		"updated": "2017-12-14T20:55:58.494Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#faster_how",
+		"description": null,
+		"dialog_node": "node_9_1513284920497",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our product automates most of the design step to enable quicker time-to-market.", "Our product features allow your designer to cut design time by half.", "Our product supports the product development cycle at each step making it faster to develop your product."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1513221139481",
+		"context": null,
+		"created": "2017-12-14T13:48:30.525Z",
+		"updated": "2017-12-14T13:50:27.048Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#improve_process",
+		"description": null,
+		"dialog_node": "node_6_1513259319718",
+		"previous_sibling": "node_5_1513259207035"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our products allow you engineers to build-in quality from day 1.", "Quality is built-in into you product from inception to delivery.", "Our product provides features to your engineers to make it easy for them to build-in high quality into the product."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1513221139481",
+		"context": null,
+		"created": "2017-12-14T13:46:38.153Z",
+		"updated": "2017-12-14T13:48:10.180Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#improve_quality",
+		"description": null,
+		"dialog_node": "node_5_1513259207035",
+		"previous_sibling": "node_3_1513221496535"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sure we have a product that will save your developers time designing software.", "Our product will make your designers productive from day one.", "Our product automates most of the software lifecycle process."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_2_1513221139481",
+		"context": null,
+		"created": "2017-12-14T03:18:07.539Z",
+		"updated": "2017-12-14T03:19:44.019Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#doit_quicker",
+		"description": null,
+		"dialog_node": "node_3_1513221496535",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We have multiple products. Are you interested in making your process faster or improving quality?", "Sure, I can tell you about our products. Are you interested in process improvement or quality improvement?", "Sure, but first can you tell me more about what you are trying to accomplish? Faster process or better products?", "Sure, are you interested in improving your process or improving your quality?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T03:12:10.374Z",
+		"updated": "2017-12-14T17:34:23.900Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#learn_about",
+		"description": null,
+		"dialog_node": "node_2_1513221139481",
+		"previous_sibling": "node_1_1513220749048"
+	}, {
+		"type": "standard",
+		"title": "Hello",
+		"output": {
+			"text": {
+				"values": ["hello", "hi", "how are you", "good day", "greetings"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-14T03:05:39.973Z",
+		"updated": "2017-12-14T03:10:11.514Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#hello",
+		"description": null,
+		"dialog_node": "node_1_1513220749048",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-13T20:11:06.303Z",
+		"updated": "2017-12-13T20:11:06.303Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_2_1513221139481"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. How can I help you?", "Hello. Can I answer any questions for you?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-13T20:11:06.303Z",
+		"updated": "2017-12-13T20:30:46.813Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "8144533b-f5c2-4dfb-8f62-e13a6e69b4d5",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

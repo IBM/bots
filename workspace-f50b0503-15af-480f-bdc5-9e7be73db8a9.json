@@ -1,1 +1,842 @@
-{"name":"BANCO","created":"2018-01-11T14:42:35.415Z","intents":[{"intent":"transferencia","created":"2018-01-11T14:48:01.938Z","updated":"2018-01-11T14:48:25.280Z","examples":[{"text":"Quero realizar uma transferencia","created":"2018-01-11T14:48:08.325Z","updated":"2018-01-11T14:48:08.325Z"},{"text":"Quero transferir","created":"2018-01-11T14:48:12.158Z","updated":"2018-01-11T14:48:12.158Z"},{"text":"Fazer transferencia","created":"2018-01-11T14:48:16.803Z","updated":"2018-01-11T14:48:16.803Z"},{"text":"Enviar dinheiro","created":"2018-01-11T14:48:19.980Z","updated":"2018-01-11T14:48:19.980Z"},{"text":"Mandar dindin","created":"2018-01-11T14:48:25.280Z","updated":"2018-01-11T14:48:25.280Z"}],"description":""},{"intent":"investimento","created":"2018-01-11T14:48:36.899Z","updated":"2018-01-11T14:49:12.952Z","examples":[{"text":"Qual fundo eu devo investir?","created":"2018-01-11T14:48:44.450Z","updated":"2018-01-11T14:48:44.450Z"},{"text":"Quero investir","created":"2018-01-11T14:48:53.736Z","updated":"2018-01-11T14:48:53.736Z"},{"text":"Fazer investimento","created":"2018-01-11T14:49:05.756Z","updated":"2018-01-11T14:49:05.756Z"},{"text":"Aplicar dinheiro","created":"2018-01-11T14:49:08.471Z","updated":"2018-01-11T14:49:08.471Z"}],"description":""},{"intent":"saudação","created":"2018-01-11T14:43:51.879Z","updated":"2018-01-11T14:44:07.819Z","examples":[{"text":"Oi","created":"2018-01-11T14:43:55.223Z","updated":"2018-01-11T14:43:55.223Z"},{"text":"Olá","created":"2018-01-11T14:43:57.415Z","updated":"2018-01-11T14:43:57.415Z"},{"text":"Bom dia","created":"2018-01-11T14:43:59.326Z","updated":"2018-01-11T14:43:59.326Z"},{"text":"Boa tarde","created":"2018-01-11T14:44:01.337Z","updated":"2018-01-11T14:44:01.337Z"},{"text":"boa noite","created":"2018-01-11T14:44:03.515Z","updated":"2018-01-11T14:44:03.515Z"},{"text":"Oie","created":"2018-01-11T14:44:06.494Z","updated":"2018-01-11T14:44:06.494Z"},{"text":"Opa","created":"2018-01-11T14:44:07.819Z","updated":"2018-01-11T14:44:07.819Z"}],"description":""},{"intent":"saldo","created":"2018-01-11T14:47:16.596Z","updated":"2018-01-11T14:47:49.665Z","examples":[{"text":"Qual o saldo da minha conta","created":"2018-01-11T14:47:23.207Z","updated":"2018-01-11T14:47:23.207Z"},{"text":"Quero ver meu saldo","created":"2018-01-11T14:47:27.404Z","updated":"2018-01-11T14:47:27.404Z"},{"text":"Quanto dinheiro tem ai?","created":"2018-01-11T14:47:32.273Z","updated":"2018-01-11T14:47:32.273Z"},{"text":"Me informe meu saldo","created":"2018-01-11T14:47:40.471Z","updated":"2018-01-11T14:47:40.471Z"},{"text":"Por favor quero meu extrato","created":"2018-01-11T14:47:49.665Z","updated":"2018-01-11T14:47:49.665Z"}],"description":""},{"intent":"despedida","created":"2018-01-11T14:44:12.482Z","updated":"2018-01-11T14:45:07.492Z","examples":[{"text":"Xau","created":"2018-01-11T14:44:51.746Z","updated":"2018-01-11T14:44:51.746Z"},{"text":"Tchau","created":"2018-01-11T14:44:56.437Z","updated":"2018-01-11T14:44:56.437Z"},{"text":"Obrigada","created":"2018-01-11T14:44:59.028Z","updated":"2018-01-11T14:44:59.028Z"},{"text":"Obrigado","created":"2018-01-11T14:45:01.414Z","updated":"2018-01-11T14:45:01.414Z"},{"text":"Até mais","created":"2018-01-11T14:45:04.838Z","updated":"2018-01-11T14:45:04.838Z"},{"text":"Falou","created":"2018-01-11T14:45:07.492Z","updated":"2018-01-11T14:45:07.492Z"}],"description":""}],"updated":"2018-01-11T17:14:51.778Z","entities":[{"entity":"booleano","values":[{"type":"synonyms","value":"Sim","created":"2018-01-11T15:15:02.299Z","updated":"2018-01-11T15:15:02.299Z","metadata":null,"synonyms":["s","yes"]},{"type":"synonyms","value":"Não","created":"2018-01-11T15:15:18.182Z","updated":"2018-01-11T15:15:18.182Z","metadata":null,"synonyms":["nope","n"]}],"created":"2018-01-11T15:14:55.593Z","updated":"2018-01-11T15:15:18.182Z","metadata":null,"description":null},{"entity":"info_transferencia","values":[{"type":"patterns","value":"CPF","created":"2018-01-11T15:11:05.236Z","updated":"2018-01-11T15:11:05.236Z","metadata":null,"patterns":["([0-9]{2}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[\\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[-]?[0-9]{2})"]}],"created":"2018-01-11T15:10:42.112Z","updated":"2018-01-11T15:11:05.236Z","metadata":null,"description":null},{"entity":"sys-currency","values":[],"created":"2018-01-11T14:51:04.652Z","updated":"2018-01-11T14:51:04.652Z","metadata":null,"description":null},{"entity":"sys-date","values":[],"created":"2018-01-11T14:51:06.386Z","updated":"2018-01-11T14:51:06.386Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2018-01-11T14:51:07.978Z","updated":"2018-01-11T14:51:07.978Z","metadata":null,"description":null},{"entity":"tipo_investidor","values":[{"type":"synonyms","value":"Conservador","created":"2018-01-11T14:50:37.065Z","updated":"2018-01-11T14:50:37.065Z","metadata":null,"synonyms":["não quer perder"]},{"type":"synonyms","value":"Agressivo","created":"2018-01-11T14:50:09.778Z","updated":"2018-01-11T14:50:23.742Z","metadata":null,"synonyms":["ganhar dinheiro","retorno rápido"]}],"created":"2018-01-11T14:49:31.580Z","updated":"2018-01-11T14:50:37.065Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"tipo_conta","values":[{"type":"synonyms","value":"Conta Poupança","created":"2018-01-11T14:51:48.692Z","updated":"2018-01-11T14:51:48.692Z","metadata":null,"synonyms":["CP","poupança"]},{"type":"synonyms","value":"Conta Corrente","created":"2018-01-11T14:51:28.839Z","updated":"2018-01-11T14:51:28.839Z","metadata":null,"synonyms":["CC","corrente"]}],"created":"2018-01-11T14:51:18.739Z","updated":"2018-01-11T14:51:48.692Z","metadata":null,"description":null}],"language":"pt-br","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"slot","title":null,"output":{},"parent":"node_6_1515683365643","context":null,"created":"2018-01-11T15:12:16.044Z","updated":"2018-01-11T15:13:49.865Z","metadata":{},"variable":"$date","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_14_1515683535677","previous_sibling":"slot_11_1515683519433"},{"type":"response_condition","title":null,"output":{"text":{"values":[]}},"parent":"node_6_1515683365643","context":null,"created":"2018-01-11T15:09:55.827Z","updated":"2018-01-11T15:10:06.150Z","disabled":true,"metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_10_1515683395513","previous_sibling":"node_44_1515688461023"},{"type":"slot","title":null,"output":{},"parent":"node_6_1515683365643","context":null,"created":"2018-01-11T16:47:28.817Z","updated":"2018-01-11T17:07:01.610Z","metadata":{},"variable":"$info_transferencia","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_47_1515689248535","previous_sibling":"node_10_1515683395513"},{"type":"slot","title":null,"output":{},"parent":"node_6_1515683365643","context":null,"created":"2018-01-11T15:11:59.802Z","updated":"2018-01-11T16:34:03.191Z","metadata":{},"variable":"$number","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_11_1515683519433","previous_sibling":"slot_47_1515689248535"},{"type":"standard","title":null,"output":{},"parent":"node_6_1515683365643","context":null,"created":"2018-01-11T16:34:21.278Z","updated":"2018-01-11T16:46:22.375Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"@booleano","description":null,"dialog_node":"node_44_1515688461023","digress_out":"allow_all","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Informe o valor da transferência"],"selection_policy":"sequential"}},"parent":"slot_11_1515683519433","context":null,"created":"2018-01-11T15:13:06.578Z","updated":"2018-01-11T15:13:06.578Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_22_1515683573544","previous_sibling":"handler_12_1515683519433"},{"type":"event_handler","title":null,"output":{},"parent":"slot_11_1515683519433","context":{"number":"@sys-currency"},"created":"2018-01-11T15:12:00.266Z","updated":"2018-01-11T16:34:03.551Z","metadata":{},"next_step":null,"conditions":"@sys-currency","event_name":"input","description":null,"dialog_node":"handler_12_1515683519433","previous_sibling":"handler_13_1515683519433"},{"type":"event_handler","title":null,"output":{"text":"Qual o valor da transferência?"},"parent":"slot_11_1515683519433","context":null,"created":"2018-01-11T15:12:00.709Z","updated":"2018-01-11T15:13:05.513Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_13_1515683519433","previous_sibling":null},{"type":"standard","title":"Tipo investimento","output":{},"parent":"node_52_1515690552454","context":null,"created":"2018-01-11T17:11:01.927Z","updated":"2018-01-11T17:11:16.253Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"@tipo_investidor","description":null,"dialog_node":"node_54_1515690661676","digress_out":"allow_all","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Seu saldo da Conta Corrente é 3400,00 reais"]}},"parent":"node_34_1515687854914","context":null,"created":"2018-01-11T16:24:40.400Z","updated":"2018-01-11T16:32:08.641Z","metadata":{},"next_step":null,"conditions":"@tipo_conta:(Conta Corrente)","description":null,"dialog_node":"node_37_1515687880077","previous_sibling":"node_36_1515687869032"},{"type":"response_condition","title":null,"output":{"text":{"values":["Seu saldo da Conta Poupança é 15000,00 reais"]}},"parent":"node_34_1515687854914","context":null,"created":"2018-01-11T16:24:29.319Z","updated":"2018-01-11T16:31:53.616Z","metadata":{},"next_step":null,"conditions":"@tipo_conta:(Conta Poupança)","description":null,"dialog_node":"node_36_1515687869032","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Para o perfil agressivo, indicamos comprar Bitcoin e ficar rico!!"]}},"parent":"node_54_1515690661676","context":null,"created":"2018-01-11T17:11:42.247Z","updated":"2018-01-11T17:11:59.494Z","metadata":{},"next_step":null,"conditions":"@tipo_investidor:Agressivo","description":null,"dialog_node":"node_56_1515690701425","previous_sibling":"node_55_1515690675548"},{"type":"response_condition","title":null,"output":{"text":{"values":["Infelizmente não temos este perfil de investidor."]}},"parent":"node_54_1515690661676","context":null,"created":"2018-01-11T17:12:57.276Z","updated":"2018-01-11T17:14:14.321Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_57_1515690776434","previous_sibling":"node_56_1515690701425"},{"type":"response_condition","title":null,"output":{"text":{"values":["Para o perfil conservador, indicamos investimento no CDB"]}},"parent":"node_54_1515690661676","context":null,"created":"2018-01-11T17:11:15.813Z","updated":"2018-01-11T17:11:40.280Z","metadata":{},"next_step":null,"conditions":"@tipo_investidor:Conservador","description":null,"dialog_node":"node_55_1515690675548","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["O sistema está com problemas. Vamos rever as informações sobre a transferência ."]}},"parent":"node_44_1515688461023","context":null,"created":"2018-01-11T16:46:42.558Z","updated":"2018-01-11T16:47:19.345Z","metadata":{},"next_step":null,"conditions":"@booleano:Não","description":null,"dialog_node":"node_46_1515689202284","previous_sibling":"node_45_1515689181662"},{"type":"response_condition","title":null,"output":{"text":{"values":["Ok! Sua transferência foi realizada!"]}},"parent":"node_44_1515688461023","context":null,"created":"2018-01-11T16:46:21.931Z","updated":"2018-01-11T16:46:40.953Z","metadata":{},"next_step":null,"conditions":"@booleano:Sim","description":null,"dialog_node":"node_45_1515689181662","previous_sibling":null},{"type":"standard","title":"Qual tipo?","output":{"text":{"values":["Qual conta você quer saber o saldo, conta corrente ou poupança?"],"selection_policy":"sequential"}},"parent":"node_29_1515683771404","context":null,"created":"2018-01-11T16:24:18.499Z","updated":"2018-01-11T16:27:14.382Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_35_1515687858253","previous_sibling":"node_34_1515687854914"},{"type":"response_condition","title":null,"output":{},"parent":"node_29_1515683771404","context":null,"created":"2018-01-11T16:24:03.026Z","updated":"2018-01-11T16:24:03.783Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_32_1515687842766","previous_sibling":"node_35_1515687858253"},{"type":"standard","title":"CP e CC","output":{},"parent":"node_29_1515683771404","context":null,"created":"2018-01-11T16:24:15.231Z","updated":"2018-01-11T16:27:09.239Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"@tipo_conta","description":null,"dialog_node":"node_34_1515687854914","digress_out":"allow_all","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Informe a data"],"selection_policy":"sequential"}},"parent":"slot_14_1515683535677","context":null,"created":"2018-01-11T15:13:15.440Z","updated":"2018-01-11T15:13:15.440Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_28_1515683586756","previous_sibling":"handler_15_1515683535677"},{"type":"event_handler","title":null,"output":{},"parent":"slot_14_1515683535677","context":{"date":"@sys-date"},"created":"2018-01-11T15:12:16.441Z","updated":"2018-01-11T15:13:50.215Z","metadata":{},"next_step":null,"conditions":"@sys-date","event_name":"input","description":null,"dialog_node":"handler_15_1515683535677","previous_sibling":"handler_16_1515683535677"},{"type":"event_handler","title":null,"output":{"text":"Qual a data da transferência?"},"parent":"slot_14_1515683535677","context":null,"created":"2018-01-11T15:12:16.826Z","updated":"2018-01-11T15:13:14.268Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_16_1515683535677","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_47_1515689248535","context":{"info_transferencia":"@info_transferencia.literal"},"created":"2018-01-11T16:47:29.411Z","updated":"2018-01-11T17:07:03.886Z","metadata":{},"next_step":null,"conditions":"@info_transferencia","event_name":"input","description":null,"dialog_node":"handler_48_1515689248535","previous_sibling":"handler_49_1515689248535"},{"type":"event_handler","title":null,"output":{"text":"Qual o CPF do beneficiário?"},"parent":"slot_47_1515689248535","context":null,"created":"2018-01-11T16:47:29.817Z","updated":"2018-01-11T17:07:03.157Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_49_1515689248535","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"node_35_1515687858253","context":null,"created":"2018-01-11T16:25:30.903Z","updated":"2018-01-11T16:26:00.693Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_34_1515687854914"},"conditions":"@tipo_conta","description":null,"dialog_node":"node_38_1515687930663","previous_sibling":null},{"type":"standard","title":"Investimento","output":{"text":{"values":["Informe seu perfil de investimento: Conservador ou Agressivo?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T17:09:12.735Z","updated":"2018-01-11T17:10:41.542Z","metadata":{},"next_step":null,"conditions":"#investimento","description":null,"dialog_node":"node_52_1515690552454","previous_sibling":"node_6_1515683365643"},{"type":"standard","title":"Despedida","output":{"text":{"values":["Foi um prazer! Qualquer coisa estou à disposição!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T17:14:32.699Z","updated":"2018-01-11T17:14:51.778Z","metadata":{},"next_step":null,"conditions":"#despedida","description":null,"dialog_node":"node_58_1515690872447","previous_sibling":"node_52_1515690552454"},{"type":"standard","title":"Em outros casos","output":{"text":{"values":["Eu não entendi. Você pode tentar reformular a frase.","Você pode reformular sua afirmação? Eu não estou entendendo.","Eu não entendi o sentido."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T14:52:43.814Z","updated":"2018-01-11T14:52:43.814Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Em outros casos","previous_sibling":"node_58_1515690872447"},{"type":"standard","title":null,"output":{"text":{"values":["Oi! Eu sou o bot do banco da Stéfany! Já decidiu em que posso te ajudar?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T16:32:42.561Z","updated":"2018-01-11T16:33:11.508Z","metadata":{},"next_step":null,"conditions":"#saudação","description":null,"dialog_node":"node_43_1515688361090","previous_sibling":"Bem-vindo"},{"type":"frame","title":"Transferência","output":{"text":{"values":["Os dados estão corretos? Transferência no valor de $number reais, para $info_transferencia, na data $date?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T15:09:25.901Z","updated":"2018-01-11T17:08:26.636Z","metadata":{"fallback":"leave","_customization":{"mcr":false}},"next_step":null,"conditions":"#transferencia","digress_in":"does_not_return","description":null,"dialog_node":"node_6_1515683365643","digress_out":"allow_all","previous_sibling":"node_29_1515683771404","digress_out_slots":"not_allowed"},{"type":"standard","title":"Saldo","output":{},"parent":null,"context":null,"created":"2018-01-11T15:16:11.720Z","updated":"2018-01-11T16:27:02.889Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_34_1515687854914"},"conditions":"#saldo","digress_in":"does_not_return","description":null,"dialog_node":"node_29_1515683771404","digress_out":"allow_all","previous_sibling":"node_43_1515688361090"},{"type":"standard","title":"Bem-vindo","output":{"text":{"values":["Olá. Seja bem vindo ao Banco da Stéfany, em que posso te ajudar?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T14:52:43.814Z","updated":"2018-01-11T14:53:00.116Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Bem-vindo","previous_sibling":null}],"workspace_id":"f50b0503-15af-480f-bdc5-9e7be73db8a9","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "BANCO",
+	"created": "2018-01-11T14:42:35.415Z",
+	"intents": [{
+		"intent": "transferencia",
+		"created": "2018-01-11T14:48:01.938Z",
+		"updated": "2018-01-11T14:48:25.280Z",
+		"examples": [{
+			"text": "Quero realizar uma transferencia",
+			"created": "2018-01-11T14:48:08.325Z",
+			"updated": "2018-01-11T14:48:08.325Z"
+		}, {
+			"text": "Quero transferir",
+			"created": "2018-01-11T14:48:12.158Z",
+			"updated": "2018-01-11T14:48:12.158Z"
+		}, {
+			"text": "Fazer transferencia",
+			"created": "2018-01-11T14:48:16.803Z",
+			"updated": "2018-01-11T14:48:16.803Z"
+		}, {
+			"text": "Enviar dinheiro",
+			"created": "2018-01-11T14:48:19.980Z",
+			"updated": "2018-01-11T14:48:19.980Z"
+		}, {
+			"text": "Mandar dindin",
+			"created": "2018-01-11T14:48:25.280Z",
+			"updated": "2018-01-11T14:48:25.280Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "investimento",
+		"created": "2018-01-11T14:48:36.899Z",
+		"updated": "2018-01-11T14:49:12.952Z",
+		"examples": [{
+			"text": "Qual fundo eu devo investir?",
+			"created": "2018-01-11T14:48:44.450Z",
+			"updated": "2018-01-11T14:48:44.450Z"
+		}, {
+			"text": "Quero investir",
+			"created": "2018-01-11T14:48:53.736Z",
+			"updated": "2018-01-11T14:48:53.736Z"
+		}, {
+			"text": "Fazer investimento",
+			"created": "2018-01-11T14:49:05.756Z",
+			"updated": "2018-01-11T14:49:05.756Z"
+		}, {
+			"text": "Aplicar dinheiro",
+			"created": "2018-01-11T14:49:08.471Z",
+			"updated": "2018-01-11T14:49:08.471Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "saudação",
+		"created": "2018-01-11T14:43:51.879Z",
+		"updated": "2018-01-11T14:44:07.819Z",
+		"examples": [{
+			"text": "Oi",
+			"created": "2018-01-11T14:43:55.223Z",
+			"updated": "2018-01-11T14:43:55.223Z"
+		}, {
+			"text": "Olá",
+			"created": "2018-01-11T14:43:57.415Z",
+			"updated": "2018-01-11T14:43:57.415Z"
+		}, {
+			"text": "Bom dia",
+			"created": "2018-01-11T14:43:59.326Z",
+			"updated": "2018-01-11T14:43:59.326Z"
+		}, {
+			"text": "Boa tarde",
+			"created": "2018-01-11T14:44:01.337Z",
+			"updated": "2018-01-11T14:44:01.337Z"
+		}, {
+			"text": "boa noite",
+			"created": "2018-01-11T14:44:03.515Z",
+			"updated": "2018-01-11T14:44:03.515Z"
+		}, {
+			"text": "Oie",
+			"created": "2018-01-11T14:44:06.494Z",
+			"updated": "2018-01-11T14:44:06.494Z"
+		}, {
+			"text": "Opa",
+			"created": "2018-01-11T14:44:07.819Z",
+			"updated": "2018-01-11T14:44:07.819Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "saldo",
+		"created": "2018-01-11T14:47:16.596Z",
+		"updated": "2018-01-11T14:47:49.665Z",
+		"examples": [{
+			"text": "Qual o saldo da minha conta",
+			"created": "2018-01-11T14:47:23.207Z",
+			"updated": "2018-01-11T14:47:23.207Z"
+		}, {
+			"text": "Quero ver meu saldo",
+			"created": "2018-01-11T14:47:27.404Z",
+			"updated": "2018-01-11T14:47:27.404Z"
+		}, {
+			"text": "Quanto dinheiro tem ai?",
+			"created": "2018-01-11T14:47:32.273Z",
+			"updated": "2018-01-11T14:47:32.273Z"
+		}, {
+			"text": "Me informe meu saldo",
+			"created": "2018-01-11T14:47:40.471Z",
+			"updated": "2018-01-11T14:47:40.471Z"
+		}, {
+			"text": "Por favor quero meu extrato",
+			"created": "2018-01-11T14:47:49.665Z",
+			"updated": "2018-01-11T14:47:49.665Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "despedida",
+		"created": "2018-01-11T14:44:12.482Z",
+		"updated": "2018-01-11T14:45:07.492Z",
+		"examples": [{
+			"text": "Xau",
+			"created": "2018-01-11T14:44:51.746Z",
+			"updated": "2018-01-11T14:44:51.746Z"
+		}, {
+			"text": "Tchau",
+			"created": "2018-01-11T14:44:56.437Z",
+			"updated": "2018-01-11T14:44:56.437Z"
+		}, {
+			"text": "Obrigada",
+			"created": "2018-01-11T14:44:59.028Z",
+			"updated": "2018-01-11T14:44:59.028Z"
+		}, {
+			"text": "Obrigado",
+			"created": "2018-01-11T14:45:01.414Z",
+			"updated": "2018-01-11T14:45:01.414Z"
+		}, {
+			"text": "Até mais",
+			"created": "2018-01-11T14:45:04.838Z",
+			"updated": "2018-01-11T14:45:04.838Z"
+		}, {
+			"text": "Falou",
+			"created": "2018-01-11T14:45:07.492Z",
+			"updated": "2018-01-11T14:45:07.492Z"
+		}],
+		"description": ""
+	}],
+	"updated": "2018-01-11T17:14:51.778Z",
+	"entities": [{
+		"entity": "booleano",
+		"values": [{
+			"type": "synonyms",
+			"value": "Sim",
+			"created": "2018-01-11T15:15:02.299Z",
+			"updated": "2018-01-11T15:15:02.299Z",
+			"metadata": null,
+			"synonyms": ["s", "yes"]
+		}, {
+			"type": "synonyms",
+			"value": "Não",
+			"created": "2018-01-11T15:15:18.182Z",
+			"updated": "2018-01-11T15:15:18.182Z",
+			"metadata": null,
+			"synonyms": ["nope", "n"]
+		}],
+		"created": "2018-01-11T15:14:55.593Z",
+		"updated": "2018-01-11T15:15:18.182Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "info_transferencia",
+		"values": [{
+			"type": "patterns",
+			"value": "CPF",
+			"created": "2018-01-11T15:11:05.236Z",
+			"updated": "2018-01-11T15:11:05.236Z",
+			"metadata": null,
+			"patterns": ["([0-9]{2}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[\\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[-]?[0-9]{2})"]
+		}],
+		"created": "2018-01-11T15:10:42.112Z",
+		"updated": "2018-01-11T15:11:05.236Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-currency",
+		"values": [],
+		"created": "2018-01-11T14:51:04.652Z",
+		"updated": "2018-01-11T14:51:04.652Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-date",
+		"values": [],
+		"created": "2018-01-11T14:51:06.386Z",
+		"updated": "2018-01-11T14:51:06.386Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2018-01-11T14:51:07.978Z",
+		"updated": "2018-01-11T14:51:07.978Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "tipo_investidor",
+		"values": [{
+			"type": "synonyms",
+			"value": "Conservador",
+			"created": "2018-01-11T14:50:37.065Z",
+			"updated": "2018-01-11T14:50:37.065Z",
+			"metadata": null,
+			"synonyms": ["não quer perder"]
+		}, {
+			"type": "synonyms",
+			"value": "Agressivo",
+			"created": "2018-01-11T14:50:09.778Z",
+			"updated": "2018-01-11T14:50:23.742Z",
+			"metadata": null,
+			"synonyms": ["ganhar dinheiro", "retorno rápido"]
+		}],
+		"created": "2018-01-11T14:49:31.580Z",
+		"updated": "2018-01-11T14:50:37.065Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "tipo_conta",
+		"values": [{
+			"type": "synonyms",
+			"value": "Conta Poupança",
+			"created": "2018-01-11T14:51:48.692Z",
+			"updated": "2018-01-11T14:51:48.692Z",
+			"metadata": null,
+			"synonyms": ["CP", "poupança"]
+		}, {
+			"type": "synonyms",
+			"value": "Conta Corrente",
+			"created": "2018-01-11T14:51:28.839Z",
+			"updated": "2018-01-11T14:51:28.839Z",
+			"metadata": null,
+			"synonyms": ["CC", "corrente"]
+		}],
+		"created": "2018-01-11T14:51:18.739Z",
+		"updated": "2018-01-11T14:51:48.692Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "pt-br",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_6_1515683365643",
+		"context": null,
+		"created": "2018-01-11T15:12:16.044Z",
+		"updated": "2018-01-11T15:13:49.865Z",
+		"metadata": {},
+		"variable": "$date",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_14_1515683535677",
+		"previous_sibling": "slot_11_1515683519433"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
+		},
+		"parent": "node_6_1515683365643",
+		"context": null,
+		"created": "2018-01-11T15:09:55.827Z",
+		"updated": "2018-01-11T15:10:06.150Z",
+		"disabled": true,
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_10_1515683395513",
+		"previous_sibling": "node_44_1515688461023"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_6_1515683365643",
+		"context": null,
+		"created": "2018-01-11T16:47:28.817Z",
+		"updated": "2018-01-11T17:07:01.610Z",
+		"metadata": {},
+		"variable": "$info_transferencia",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_47_1515689248535",
+		"previous_sibling": "node_10_1515683395513"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_6_1515683365643",
+		"context": null,
+		"created": "2018-01-11T15:11:59.802Z",
+		"updated": "2018-01-11T16:34:03.191Z",
+		"metadata": {},
+		"variable": "$number",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_11_1515683519433",
+		"previous_sibling": "slot_47_1515689248535"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_6_1515683365643",
+		"context": null,
+		"created": "2018-01-11T16:34:21.278Z",
+		"updated": "2018-01-11T16:46:22.375Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "@booleano",
+		"description": null,
+		"dialog_node": "node_44_1515688461023",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Informe o valor da transferência"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_11_1515683519433",
+		"context": null,
+		"created": "2018-01-11T15:13:06.578Z",
+		"updated": "2018-01-11T15:13:06.578Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_22_1515683573544",
+		"previous_sibling": "handler_12_1515683519433"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_11_1515683519433",
+		"context": {
+			"number": "@sys-currency"
+		},
+		"created": "2018-01-11T15:12:00.266Z",
+		"updated": "2018-01-11T16:34:03.551Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@sys-currency",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_12_1515683519433",
+		"previous_sibling": "handler_13_1515683519433"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Qual o valor da transferência?"
+		},
+		"parent": "slot_11_1515683519433",
+		"context": null,
+		"created": "2018-01-11T15:12:00.709Z",
+		"updated": "2018-01-11T15:13:05.513Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_13_1515683519433",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Tipo investimento",
+		"output": {},
+		"parent": "node_52_1515690552454",
+		"context": null,
+		"created": "2018-01-11T17:11:01.927Z",
+		"updated": "2018-01-11T17:11:16.253Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "@tipo_investidor",
+		"description": null,
+		"dialog_node": "node_54_1515690661676",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Seu saldo da Conta Corrente é 3400,00 reais"]
+			}
+		},
+		"parent": "node_34_1515687854914",
+		"context": null,
+		"created": "2018-01-11T16:24:40.400Z",
+		"updated": "2018-01-11T16:32:08.641Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@tipo_conta:(Conta Corrente)",
+		"description": null,
+		"dialog_node": "node_37_1515687880077",
+		"previous_sibling": "node_36_1515687869032"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Seu saldo da Conta Poupança é 15000,00 reais"]
+			}
+		},
+		"parent": "node_34_1515687854914",
+		"context": null,
+		"created": "2018-01-11T16:24:29.319Z",
+		"updated": "2018-01-11T16:31:53.616Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@tipo_conta:(Conta Poupança)",
+		"description": null,
+		"dialog_node": "node_36_1515687869032",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Para o perfil agressivo, indicamos comprar Bitcoin e ficar rico!!"]
+			}
+		},
+		"parent": "node_54_1515690661676",
+		"context": null,
+		"created": "2018-01-11T17:11:42.247Z",
+		"updated": "2018-01-11T17:11:59.494Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@tipo_investidor:Agressivo",
+		"description": null,
+		"dialog_node": "node_56_1515690701425",
+		"previous_sibling": "node_55_1515690675548"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Infelizmente não temos este perfil de investidor."]
+			}
+		},
+		"parent": "node_54_1515690661676",
+		"context": null,
+		"created": "2018-01-11T17:12:57.276Z",
+		"updated": "2018-01-11T17:14:14.321Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_57_1515690776434",
+		"previous_sibling": "node_56_1515690701425"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Para o perfil conservador, indicamos investimento no CDB"]
+			}
+		},
+		"parent": "node_54_1515690661676",
+		"context": null,
+		"created": "2018-01-11T17:11:15.813Z",
+		"updated": "2018-01-11T17:11:40.280Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@tipo_investidor:Conservador",
+		"description": null,
+		"dialog_node": "node_55_1515690675548",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["O sistema está com problemas. Vamos rever as informações sobre a transferência ."]
+			}
+		},
+		"parent": "node_44_1515688461023",
+		"context": null,
+		"created": "2018-01-11T16:46:42.558Z",
+		"updated": "2018-01-11T16:47:19.345Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@booleano:Não",
+		"description": null,
+		"dialog_node": "node_46_1515689202284",
+		"previous_sibling": "node_45_1515689181662"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok! Sua transferência foi realizada!"]
+			}
+		},
+		"parent": "node_44_1515688461023",
+		"context": null,
+		"created": "2018-01-11T16:46:21.931Z",
+		"updated": "2018-01-11T16:46:40.953Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@booleano:Sim",
+		"description": null,
+		"dialog_node": "node_45_1515689181662",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Qual tipo?",
+		"output": {
+			"text": {
+				"values": ["Qual conta você quer saber o saldo, conta corrente ou poupança?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_29_1515683771404",
+		"context": null,
+		"created": "2018-01-11T16:24:18.499Z",
+		"updated": "2018-01-11T16:27:14.382Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_35_1515687858253",
+		"previous_sibling": "node_34_1515687854914"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {},
+		"parent": "node_29_1515683771404",
+		"context": null,
+		"created": "2018-01-11T16:24:03.026Z",
+		"updated": "2018-01-11T16:24:03.783Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_32_1515687842766",
+		"previous_sibling": "node_35_1515687858253"
+	}, {
+		"type": "standard",
+		"title": "CP e CC",
+		"output": {},
+		"parent": "node_29_1515683771404",
+		"context": null,
+		"created": "2018-01-11T16:24:15.231Z",
+		"updated": "2018-01-11T16:27:09.239Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "@tipo_conta",
+		"description": null,
+		"dialog_node": "node_34_1515687854914",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Informe a data"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_14_1515683535677",
+		"context": null,
+		"created": "2018-01-11T15:13:15.440Z",
+		"updated": "2018-01-11T15:13:15.440Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_28_1515683586756",
+		"previous_sibling": "handler_15_1515683535677"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_14_1515683535677",
+		"context": {
+			"date": "@sys-date"
+		},
+		"created": "2018-01-11T15:12:16.441Z",
+		"updated": "2018-01-11T15:13:50.215Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@sys-date",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_15_1515683535677",
+		"previous_sibling": "handler_16_1515683535677"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Qual a data da transferência?"
+		},
+		"parent": "slot_14_1515683535677",
+		"context": null,
+		"created": "2018-01-11T15:12:16.826Z",
+		"updated": "2018-01-11T15:13:14.268Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_16_1515683535677",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_47_1515689248535",
+		"context": {
+			"info_transferencia": "@info_transferencia.literal"
+		},
+		"created": "2018-01-11T16:47:29.411Z",
+		"updated": "2018-01-11T17:07:03.886Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@info_transferencia",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_48_1515689248535",
+		"previous_sibling": "handler_49_1515689248535"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Qual o CPF do beneficiário?"
+		},
+		"parent": "slot_47_1515689248535",
+		"context": null,
+		"created": "2018-01-11T16:47:29.817Z",
+		"updated": "2018-01-11T17:07:03.157Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_49_1515689248535",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_35_1515687858253",
+		"context": null,
+		"created": "2018-01-11T16:25:30.903Z",
+		"updated": "2018-01-11T16:26:00.693Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_34_1515687854914"
+		},
+		"conditions": "@tipo_conta",
+		"description": null,
+		"dialog_node": "node_38_1515687930663",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Investimento",
+		"output": {
+			"text": {
+				"values": ["Informe seu perfil de investimento: Conservador ou Agressivo?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T17:09:12.735Z",
+		"updated": "2018-01-11T17:10:41.542Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#investimento",
+		"description": null,
+		"dialog_node": "node_52_1515690552454",
+		"previous_sibling": "node_6_1515683365643"
+	}, {
+		"type": "standard",
+		"title": "Despedida",
+		"output": {
+			"text": {
+				"values": ["Foi um prazer! Qualquer coisa estou à disposição!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T17:14:32.699Z",
+		"updated": "2018-01-11T17:14:51.778Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#despedida",
+		"description": null,
+		"dialog_node": "node_58_1515690872447",
+		"previous_sibling": "node_52_1515690552454"
+	}, {
+		"type": "standard",
+		"title": "Em outros casos",
+		"output": {
+			"text": {
+				"values": ["Eu não entendi. Você pode tentar reformular a frase.", "Você pode reformular sua afirmação? Eu não estou entendendo.", "Eu não entendi o sentido."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T14:52:43.814Z",
+		"updated": "2018-01-11T14:52:43.814Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Em outros casos",
+		"previous_sibling": "node_58_1515690872447"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Oi! Eu sou o bot do banco da Stéfany! Já decidiu em que posso te ajudar?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T16:32:42.561Z",
+		"updated": "2018-01-11T16:33:11.508Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#saudação",
+		"description": null,
+		"dialog_node": "node_43_1515688361090",
+		"previous_sibling": "Bem-vindo"
+	}, {
+		"type": "frame",
+		"title": "Transferência",
+		"output": {
+			"text": {
+				"values": ["Os dados estão corretos? Transferência no valor de $number reais, para $info_transferencia, na data $date?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T15:09:25.901Z",
+		"updated": "2018-01-11T17:08:26.636Z",
+		"metadata": {
+			"fallback": "leave",
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": null,
+		"conditions": "#transferencia",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_6_1515683365643",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_29_1515683771404",
+		"digress_out_slots": "not_allowed"
+	}, {
+		"type": "standard",
+		"title": "Saldo",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T15:16:11.720Z",
+		"updated": "2018-01-11T16:27:02.889Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_34_1515687854914"
+		},
+		"conditions": "#saldo",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_29_1515683771404",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_43_1515688361090"
+	}, {
+		"type": "standard",
+		"title": "Bem-vindo",
+		"output": {
+			"text": {
+				"values": ["Olá. Seja bem vindo ao Banco da Stéfany, em que posso te ajudar?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T14:52:43.814Z",
+		"updated": "2018-01-11T14:53:00.116Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Bem-vindo",
+		"previous_sibling": null
+	}],
+	"workspace_id": "f50b0503-15af-480f-bdc5-9e7be73db8a9",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

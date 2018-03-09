@@ -1,1 +1,2322 @@
-{"name":"TheLuxurySpa- Reservation chatbot","created":"2018-01-29T11:41:58.089Z","intents":[{"intent":"Thanks","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","examples":[{"text":"i appreciate it","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"many thanks","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"much appreciated","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"thanks","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"thank you","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"thank you very much","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"that's nice of you","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"}],"description":null},{"intent":"Directions","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","examples":[{"text":"how do i get to your restaurant","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"how do i get to your place","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"give me directions","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"can you give me directions","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"location please","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"how do i find you","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"what is the address","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"what's your location","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"which cross streets are you on","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"where are you","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"where are you located","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"}],"description":null},{"intent":"TheLuxurySpa","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:53:16.696Z","examples":[{"text":"talk to a human","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"I want to talk to the manager","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"representative","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"I want to speak to a person","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"I don't want to speak with a robot","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"I dont want to talk to a computer","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"get me a person","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"call the manager","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"I want to speak to a human","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"LuxurySpa","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:52:57.926Z"},{"text":"LuxurySpa hotel","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:53:16.696Z"},{"text":"I want to contact someone","created":"2018-01-29T11:50:42.680Z","updated":"2018-01-29T11:50:42.680Z"},{"text":"can I speak to an employee","created":"2018-01-29T11:50:57.351Z","updated":"2018-01-29T11:50:57.351Z"},{"text":"where is the manger","created":"2018-01-29T11:51:12.907Z","updated":"2018-01-29T11:51:12.907Z"}],"description":null},{"intent":"Goodbye","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","examples":[{"text":"see ya","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"good bye","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"so long","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"bye","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"ciao","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"arrivederci","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"}],"description":null},{"intent":"Reservations","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:00:00.730Z","examples":[{"text":"will you be open for christmas","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"reservation for tonight","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"i want to make a reservation","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"i want to make a reservation for four","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"can you reserve a table for me","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"are you open for reservations on tuesday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"book reservation","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"can i book a session for tonight","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:53:51.608Z"},{"text":"can i make a massage reservation","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:54:02.292Z"},{"text":"do you have a steam","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:55:47.887Z"},{"text":"I need a session for wednesday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:57:30.705Z"},{"text":"i want a foot massage","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:57:48.699Z"},{"text":"i want tretiment for tonight","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:58:17.786Z"},{"text":"i would like a booking for","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:58:30.941Z"},{"text":"i'd like to book an hour","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:58:44.249Z"},{"text":"reservation for 2 please","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:58:57.664Z"},{"text":"reservation for 3","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:59:05.126Z"},{"text":"book a skin care session","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:59:21.579Z"},{"text":"make a reservation for body massage","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:59:45.959Z"},{"text":"hot stone massage","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:00:00.730Z"},{"text":"can I make a reservation for hotstone massage","created":"2018-01-29T11:54:35.193Z","updated":"2018-01-29T11:54:35.193Z"},{"text":"book Facial Massage","created":"2018-01-29T11:54:52.119Z","updated":"2018-01-29T11:54:52.119Z"},{"text":"book body massge session","created":"2018-01-29T11:55:03.090Z","updated":"2018-01-29T11:55:03.090Z"},{"text":"skin care","created":"2018-01-29T11:55:12.537Z","updated":"2018-01-29T11:55:12.537Z"}],"description":null},{"intent":"greeting","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:48:48.198Z","examples":[{"text":"hello","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"hi","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"hiya","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"hi there","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"yo","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"whats up","created":"2018-01-29T11:48:38.357Z","updated":"2018-01-29T11:48:38.357Z"},{"text":"hey","created":"2018-01-29T11:48:48.198Z","updated":"2018-01-29T11:48:48.198Z"}],"description":null},{"intent":"stress_conditions","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T07:47:46.379Z","examples":[{"text":"do you suffer from back pain","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:04:10.093Z"},{"text":"do you want Asian Massage","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:05:57.137Z"},{"text":"I'm stressed","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:07:59.898Z"},{"text":"tell me about low relaxing options","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:08:39.637Z"},{"text":"I am facing a lot of work stress","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T07:46:42.948Z"},{"text":"I need facial care","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T07:47:02.712Z"},{"text":"I have back pain","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T07:47:18.866Z"},{"text":"I  feel stressed","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T07:46:52.987Z"},{"text":"I need to relax","created":"2018-01-29T12:08:07.921Z","updated":"2018-01-29T12:08:07.921Z"},{"text":"I want to lay down","created":"2018-01-29T12:08:17.901Z","updated":"2018-01-29T12:08:17.901Z"},{"text":"I have foot pain","created":"2018-01-30T07:47:46.379Z","updated":"2018-01-30T07:47:46.379Z"}],"description":null},{"intent":"Hours_of_operation","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:50:02.516Z","examples":[{"text":"Are you open on Sunday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"how late are you open tonight","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"how late are you there","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"how early do you open on Saturdays","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"Are you closing early today","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"how late are you open","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"what time do you close the spa","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:49:30.599Z"},{"text":"Hours of operation","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"What time do you close today","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"what time do you close on Sunday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"What time do you open on Saturdays","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"What time do you close","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"when do you close","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"will you be open Memorial day","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"what are your hours","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"will you open on national day","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:49:54.506Z"},{"text":"will you open for eid","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:50:02.516Z"}],"description":null},{"intent":"treatments","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:07:27.752Z","examples":[{"text":"what's good today","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"tell me about the specials","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"do you have specials","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"specials for tomorrow","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z"},{"text":"any offers today","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:00:51.708Z"},{"text":"do you have any special packages","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:01:14.637Z"},{"text":"do you have special body tretment","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:01:25.061Z"},{"text":"massage of the day please","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:01:44.850Z"},{"text":"what are the massage packages","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:02:11.465Z"},{"text":"what are the special treatments of the Spa","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:02:46.070Z"},{"text":"what do you have for sessions of the day","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:03:02.605Z"},{"text":"what will be the treatments on friday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:03:20.847Z"},{"text":"can you tell me the prices of the day","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:01:01.496Z"}],"description":null}],"updated":"2018-01-30T08:54:07.084Z","entities":[{"entity":"sys-time","values":[],"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"description":null},{"entity":"holidays","values":[{"type":"synonyms","value":"christmas","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["christmas day","x man day","xmas","x mas","x-mas","x-mas day","xmas day"]},{"type":"synonyms","value":"christmas eve","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["x mas eve","x-mas eve","xmas eve"]},{"type":"synonyms","value":"halloween","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"independence day","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["7/4","fourth of july","july 4","july 4th","july fourth"]},{"type":"synonyms","value":"labor day","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"memorial day","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"new years","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["1/1","jan 1","jan 1st","jan first","january 1","january 1st","january first","new year","new year day","new years day"]},{"type":"synonyms","value":"new years eve","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["12-31","12/31","dec 31","dec 31st","new year's eve"]},{"type":"synonyms","value":"thanksgiving","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["turkey day"]},{"type":"synonyms","value":"valentine's day","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["valentine day","valentines day"]}],"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"description":null},{"entity":"reply","values":[{"type":"synonyms","value":"no","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["definitely not","don't think so","dont think so","i think not","nope","not at this time","not now"]},{"type":"synonyms","value":"yes","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["definitely","go for it","let's do it","ok","please","sure","why not","yeah","yes","you bet","you betcha"]}],"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"description":null},{"entity":"Relaxing","values":[{"type":"synonyms","value":"relaxing","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:31:38.782Z","metadata":null,"synonyms":["stress-free"]},{"type":"synonyms","value":"massage","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:32:43.923Z","metadata":null,"synonyms":["back massage"]},{"type":"synonyms","value":"facial","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:33:16.522Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"foot","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:33:25.802Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"relase stress","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:33:44.453Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"back","created":"2018-01-29T12:34:16.269Z","updated":"2018-01-29T12:34:16.269Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"sholders and neck","created":"2018-01-29T12:34:35.960Z","updated":"2018-01-29T12:34:35.960Z","metadata":null,"synonyms":[]}],"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:34:35.960Z","metadata":null,"description":null},{"entity":"days_of_the_week","values":[{"type":"synonyms","value":"Friday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["fri","fridays"]},{"type":"synonyms","value":"Monday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["mon","mondays"]},{"type":"synonyms","value":"Saturday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["sat","saturdays"]},{"type":"synonyms","value":"Sunday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["sun","sundays"]},{"type":"synonyms","value":"Tuesday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["tue","tues","tuesdays"]},{"type":"synonyms","value":"Wednesday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["wed","wednesdays","weds","wendsday","wensday"]},{"type":"synonyms","value":"Thursday","created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"synonyms":["thrusday","thursdays","thurs","thur"]}],"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"description":null},{"entity":"landmarks","values":[{"type":"synonyms","value":"AlUrubah","created":"2018-01-29T12:39:07.119Z","updated":"2018-01-29T12:39:07.119Z","metadata":null,"synonyms":["Urubah Road"]},{"type":"synonyms","value":"Olya street","created":"2018-01-29T12:39:28.316Z","updated":"2018-01-29T12:39:28.316Z","metadata":null,"synonyms":["Olya"]},{"type":"synonyms","value":"kingdom Center","created":"2018-01-29T12:35:59.550Z","updated":"2018-01-29T12:35:59.550Z","metadata":null,"synonyms":["kingdom tower"]},{"type":"synonyms","value":"empire state building","created":"2018-01-29T14:02:30.226Z","updated":"2018-01-29T14:02:30.226Z","metadata":null,"synonyms":[]}],"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T14:02:30.226Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"sys-number","values":[],"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"},"runtime_version":"2016-09-20"},"description":"This is a bot for  spa reservations, hours, directions, special treatments and more :)","dialog_nodes":[{"type":"standard","title":null,"output":{"text":"Got you down for @sys-number people. See you then."},"parent":"node_48_1470391986060","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-number && @sys-number<=4","description":null,"dialog_node":"node_50_1470392026987","previous_sibling":"node_49_1470392010255"},{"type":"standard","title":null,"output":{"text":"I didn't understand. How many people in your party?"},"parent":"node_48_1470391986060","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_49_1470392010255"},"conditions":"true","description":null,"dialog_node":"node_11_1478871464609","previous_sibling":"node_50_1470392026987"},{"type":"standard","title":null,"output":{},"parent":"node_48_1470391986060","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Transfer large parties"},"conditions":"@sys-number > 4","description":null,"dialog_node":"node_49_1470392010255","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. Please enter the day of the week for your reservation."},"parent":"Need day and size of party","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"true","description":null,"dialog_node":"node_10_1478871395729","previous_sibling":"node_48_1470391986060"},{"type":"standard","title":null,"output":{"text":"OK for @days_of_the_week. How many people in your party?"},"parent":"Need day and size of party","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"node_48_1470391986060","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. What day of the week are you interested in visiting us?"},"parent":"Need day and time","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_52_1470392164789"},"conditions":"true","description":null,"dialog_node":"node_12_1478871508515","previous_sibling":"node_52_1470392164789"},{"type":"standard","title":null,"output":{"text":"For @days_of_the_week got it. What time?"},"parent":"Need day and time","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"node_52_1470392164789","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Didn't understand. Say Yes or No"],"selection_policy":"sequential"}},"parent":"node_1_1482448228340","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_1_1482458391355"},"conditions":"anything_else","description":null,"dialog_node":"node_1_1484146777643","previous_sibling":"node_2_1482458401441"},{"type":"standard","title":null,"output":{"text":{"values":["Ok. Just let me know if I can help with something else"],"selection_policy":"sequential"}},"parent":"node_1_1482448228340","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:no","description":null,"dialog_node":"node_2_1482458401441","previous_sibling":"node_1_1482458391355"},{"type":"response_condition","title":null,"output":{"text":{"values":["Would you like to make a reservation for $daypick?"],"selection_policy":"sequential"}},"parent":"node_1_1482448228340","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_2_1482448256701","previous_sibling":"node_1_1484146777643"},{"type":"standard","title":null,"output":{},"parent":"node_1_1482448228340","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Jump from hours of operation request"},"conditions":"@reply:yes","description":null,"dialog_node":"node_1_1482458391355","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["To get to our Spa from Centira Mall go strait then it would be on the right"],"selection_policy":"sequential"}},"parent":"Directions","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T14:02:15.042Z","metadata":{},"next_step":null,"conditions":" @landmarks:(times square)","description":null,"dialog_node":"node_8_1482459217052","previous_sibling":"node_7_1482459200886"},{"type":"response_condition","title":null,"output":{"text":{"values":["To get to our Spa from the Kingdom Center, take a right to Alurubah you'll findd it on the left"],"selection_policy":"sequential"}},"parent":"Directions","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T14:02:12.056Z","metadata":{},"next_step":null,"conditions":" @landmarks:(empire state building)","description":null,"dialog_node":"node_7_1482459200886","previous_sibling":"node_10_1482459396865"},{"type":"response_condition","title":null,"output":{"text":{"values":["To get to our Spa from the king Fahd street, go strait then to thr right"],"selection_policy":"sequential"}},"parent":"Directions","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:27:27.398Z","metadata":{},"next_step":null,"conditions":" @landmarks:(world trade center)","description":null,"dialog_node":"node_9_1482459335607","previous_sibling":"node_8_1482459217052"},{"type":"standard","title":null,"output":{"text":{"values":["Address: Hugayat Tower, Al Olaya, Riyadh 12214 11321, Saudi Arabia"],"selection_policy":"sequential"}},"parent":"Directions","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:28:25.562Z","metadata":{},"next_step":null,"conditions":"true","description":null,"dialog_node":"node_10_1482459396865","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. Please enter the time of your reservation."},"parent":"Need time","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_40_1470391576406"},"conditions":"true","description":null,"dialog_node":"node_6_1478871097895","previous_sibling":"node_40_1470391576406"},{"type":"standard","title":null,"output":{"text":"OK we'll see you at @sys-time then."},"parent":"Need time","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-time","description":null,"dialog_node":"node_40_1470391576406","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. What time are you visiting us?"},"parent":"node_57_1470392318293","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_58_1470392382868"},"conditions":"true","description":null,"dialog_node":"node_16_1478871694446","previous_sibling":"node_58_1470392382868"},{"type":"standard","title":null,"output":{"text":"OK. I have you down for @sys-time and we have availability. We'll see you then."},"parent":"node_57_1470392318293","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-time","description":null,"dialog_node":"node_58_1470392382868","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. Please tell me what day you want to make a reservation."},"parent":"Need day","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_77_1470543740008"},"conditions":"true","description":null,"dialog_node":"node_7_1478871196928","previous_sibling":"node_77_1470543740008"},{"type":"standard","title":null,"output":{"text":"OK. I have you down. See you on @days_of_the_week."},"parent":"Need day","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"node_77_1470543740008","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"OK Let's start over. How many people in your party?"},"parent":"All data supplied","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Transfer large parties"},"conditions":"@reply:no","description":null,"dialog_node":"node_35_1470391178573","previous_sibling":"node_34_1470391153633"},{"type":"standard","title":null,"output":{"text":"I didn't understand. Did I get it right? Yes or no."},"parent":"All data supplied","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_34_1470391153633"},"conditions":"true","description":null,"dialog_node":"node_5_1479417733642","previous_sibling":"node_35_1470391178573"},{"type":"standard","title":null,"output":{"text":"Great! See you then."},"parent":"All data supplied","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_34_1470391153633","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["I didn't understand you. Would you like to make a reservation? Respond Yes or No"],"selection_policy":"sequential"}},"parent":"node_3_1482448369140","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_3_1482458659457"},"conditions":"anything_else","description":null,"dialog_node":"node_6_1482458930026","previous_sibling":"node_4_1482458670434"},{"type":"standard","title":null,"output":{"text":{"values":["Ok. Just let me know if I can help with something else"],"selection_policy":"sequential"}},"parent":"node_3_1482448369140","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:no","description":null,"dialog_node":"node_4_1482458670434","previous_sibling":"node_3_1482458659457"},{"type":"standard","title":null,"output":{},"parent":"node_3_1482448369140","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"No data supplied"},"conditions":"@reply:yes","description":null,"dialog_node":"node_3_1482458659457","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I have a party of @sys-number. What time?"},"parent":"Need time and size of party","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-number && @sys-number<=4","description":null,"dialog_node":"node_44_1470391785316","previous_sibling":"node_43_1470391756844"},{"type":"standard","title":null,"output":{"text":"I didn't understand. Please enter the number of people in your party."},"parent":"Need time and size of party","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_43_1470391756844"},"conditions":"true","description":null,"dialog_node":"node_8_1478871310532","previous_sibling":"node_44_1470391785316"},{"type":"standard","title":null,"output":{},"parent":"Need time and size of party","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Transfer large parties"},"conditions":"@sys-number > 4","description":null,"dialog_node":"node_43_1470391756844","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. What time are you joining us?"},"parent":"node_52_1470392164789","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_53_1470392186217"},"conditions":"true","description":null,"dialog_node":"node_13_1478871555452","previous_sibling":"node_53_1470392186217"},{"type":"standard","title":null,"output":{"text":"OK. We have you down for @sys-time. See you then."},"parent":"node_52_1470392164789","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-time","description":null,"dialog_node":"node_53_1470392186217","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["We have a foot massage that can help you relase stress in your body take a look at it http://www.hotstone-spa.com/our_services"],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T14:19:06.699Z","metadata":{},"next_step":null,"conditions":"@Relaxing:foot","description":null,"dialog_node":"node_13_1482459505126","previous_sibling":"node_12_1482459482216"},{"type":"response_condition","title":null,"output":{"text":{"values":["we have couple of services for back massage that can help your realse pain take a look at our servics: http://www.hotstone-spa.com/our_services/abhyangam"],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T08:54:07.084Z","metadata":{},"next_step":null,"conditions":"@Relaxing:back","description":null,"dialog_node":"node_14_1482459530014","previous_sibling":"node_13_1482459505126"},{"type":"response_condition","title":null,"output":{"text":{"values":["we have a relaxing Facial treatment that you can try, it coems with a neck and shoulder massage"],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T14:10:07.734Z","metadata":{},"next_step":null,"conditions":"@Relaxing:facial","description":null,"dialog_node":"node_12_1482459482216","previous_sibling":"node_11_1482459476120"},{"type":"response_condition","title":null,"output":{"text":{"values":["we have many treatment packages please check our website for coupones and offers http://www.hotstone-spa.com/our_gallery"],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T14:24:20.505Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_15_1482459549015","previous_sibling":"node_14_1482459530014"},{"type":"response_condition","title":null,"output":{"text":{"values":["We have lots of Relaxing sessions. Try one of our special treatments: the hot stone massage check it out: http://www.hotstone-spa.com/"],"selection_policy":"sequential"}},"parent":"Dietary Issues","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T08:45:31.588Z","metadata":{},"next_step":null,"conditions":"@Relaxing:massage","description":null,"dialog_node":"node_11_1482459476120","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Good evening. How can I help?"],"selection_policy":"sequential"}},"parent":"node_14_1488295443524","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T08:50:34.250Z","metadata":{},"next_step":null,"conditions":" $daypart:evening","description":null,"dialog_node":"node_1_1495022305143","previous_sibling":"node_16_1488295517679"},{"type":"response_condition","title":null,"output":{"text":{"values":["Hi there, how can I help?"],"selection_policy":"sequential"}},"parent":"node_14_1488295443524","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T08:51:56.210Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_1_1496404774962","previous_sibling":"node_1_1495022305143"},{"type":"response_condition","title":null,"output":{"text":{"values":["Good afternoon. How can I help?"],"selection_policy":"sequential"}},"parent":"node_14_1488295443524","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T08:50:49.097Z","metadata":{},"next_step":null,"conditions":"$daypart:afternoon","description":null,"dialog_node":"node_16_1488295517679","previous_sibling":"node_15_1488295465298"},{"type":"response_condition","title":null,"output":{"text":{"values":["Good morning. How can I help?"],"selection_policy":"sequential"}},"parent":"node_14_1488295443524","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T08:50:55.636Z","metadata":{},"next_step":null,"conditions":"$daypart:morning","description":null,"dialog_node":"node_15_1488295465298","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"OK. Let me know how I can help."},"parent":"node_22_1467833484410","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:no","description":null,"dialog_node":"node_21_1468350173406","previous_sibling":"node_19_1468350024009"},{"type":"standard","title":null,"output":{"text":"OK. Transferring."},"parent":"node_22_1467833484410","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_19_1468350024009","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. What day of the week are you joining us?"},"parent":"node_56_1470392261102","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_57_1470392318293"},"conditions":"true","description":null,"dialog_node":"node_15_1478871666174","previous_sibling":"node_57_1470392318293"},{"type":"standard","title":null,"output":{"text":"OK @days_of_the_week it is. What time?"},"parent":"node_56_1470392261102","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"node_57_1470392318293","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"OK. Reservation for @sys-number people. What day will you join us?"},"parent":"No data supplied","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-number && @sys-number<=4","description":null,"dialog_node":"node_56_1470392261102","previous_sibling":"node_55_1470392249063"},{"type":"standard","title":null,"output":{"text":"I didn't understand. How many people in your party?"},"parent":"No data supplied","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_55_1470392249063"},"conditions":"true","description":null,"dialog_node":"node_14_1478871636885","previous_sibling":"node_56_1470392261102"},{"type":"standard","title":null,"output":{},"parent":"No data supplied","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Transfer large parties"},"conditions":"@sys-number > 4","description":null,"dialog_node":"node_55_1470392249063","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"OK. Have a nice day."},"parent":"node_2_1468243505617","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:no","description":null,"dialog_node":"node_4_1468243575457","previous_sibling":"node_3_1468243530574"},{"type":"standard","title":null,"output":{"text":"OK. How can I help?"},"parent":"node_2_1468243505617","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_3_1468243530574","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. Please enter the time you want for your reservation."},"parent":"node_44_1470391785316","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_45_1470391818604"},"conditions":"true","description":null,"dialog_node":"node_9_1478871347808","previous_sibling":"node_45_1470391818604"},{"type":"standard","title":null,"output":{"text":"OK. See you at @sys-time then."},"parent":"node_44_1470391785316","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-time","description":null,"dialog_node":"node_45_1470391818604","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["We are open on @holidays regular hours"],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":" @holidays","description":null,"dialog_node":"node_5_1482426503106","previous_sibling":"node_4_1482425833988"},{"type":"standard","title":null,"output":{"text":{"values":["Would you like to make a reservation?"],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"$resprompt","description":null,"dialog_node":"node_3_1482448369140","previous_sibling":"node_1_1482448228340"},{"type":"response_condition","title":null,"output":{"text":{"values":["Our hours are Sunday to Thursday 10-Midnight and Friday and Saturday 11Am to 3am."],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":{"resprompt":1},"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:17:25.041Z","metadata":{},"next_step":null,"conditions":" true","description":null,"dialog_node":"node_6_1482426521282","previous_sibling":"node_5_1482426503106"},{"type":"response_condition","title":null,"output":{"text":{"values":["Our hours on @days_of_the_week are 11am until 3am."],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":{"daypick":"@days_of_the_week","resprompt":1},"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:17:13.316Z","metadata":{},"next_step":null,"conditions":"@days_of_the_week:Friday || @days_of_the_week:Saturday","description":null,"dialog_node":"node_3_1482425660639","previous_sibling":"node_2_1482424204936"},{"type":"response_condition","title":null,"output":{"text":{"values":["Our hours on @days_of_the_week are 10am to midnight."],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":{"daypick":"@days_of_the_week","resprompt":1},"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@days_of_the_week:Sunday || @days_of_the_week:Monday || @days_of_the_week:Tuesday || @days_of_the_week:Wednesday || @days_of_the_week:Thursday","description":null,"dialog_node":"node_2_1482424204936","previous_sibling":"node_3_1482448369140"},{"type":"response_condition","title":null,"output":{"text":{"values":["We are closed on @holidays. We will reopen regular hours the following day."],"selection_policy":"sequential"}},"parent":"Hours of Operation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@holidays:christmas || @holidays:thanksgiving || @holidays:(new years)","description":null,"dialog_node":"node_4_1482425833988","previous_sibling":"node_3_1482425660639"},{"type":"standard","title":null,"output":{},"parent":"Hours of Operation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"$resprompt && $daypick","description":null,"dialog_node":"node_1_1482448228340","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"OK. You can close this window or just let me know what else I can help you with."},"parent":"Transfer large parties","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:no","description":null,"dialog_node":"node_32_1470390891429","previous_sibling":"node_31_1470390882505"},{"type":"standard","title":null,"output":{"text":"Calling him over. Stand by."},"parent":"Transfer large parties","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@reply:yes","description":null,"dialog_node":"node_31_1470390882505","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"I didn't understand. how many people in your party?"},"parent":"Need size of party","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_37_1470391335172"},"conditions":"@true","description":null,"dialog_node":"node_1_1478370328588","previous_sibling":"node_38_1470391360097"},{"type":"standard","title":null,"output":{"text":"@sys-number people. We have you confirmed."},"parent":"Need size of party","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-number && @sys-number<=4","description":null,"dialog_node":"node_38_1470391360097","previous_sibling":"node_37_1470391335172"},{"type":"standard","title":null,"output":{},"parent":"Need size of party","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Transfer large parties"},"conditions":"@sys-number > 4","description":null,"dialog_node":"node_37_1470391335172","previous_sibling":null},{"type":"standard","title":"Need day and time","output":{"text":"Great. Reservation for @sys-number people. What day?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-number","description":null,"dialog_node":"Need day and time","previous_sibling":"Need day and size of party"},{"type":"standard","title":"No data supplied","output":{"text":"Reservation for how many people?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"true","description":null,"dialog_node":"No data supplied","previous_sibling":"Need day and time"},{"type":"standard","title":"Need day","output":{"text":"OK. Reservation for @sys-time for @sys-number people. What day?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-time && @sys-number","description":null,"dialog_node":"Need day","previous_sibling":"Need time"},{"type":"standard","title":"Need time and size of party","output":{"text":"OK. Reservation for @days_of_the_week. How many people in your party?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@days_of_the_week","description":null,"dialog_node":"Need time and size of party","previous_sibling":"Need day"},{"type":"standard","title":"Need size of party","output":{"text":"OK. Reservation for @days_of_the_week at @sys-time. How many people in your party?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@days_of_the_week && @sys-time","description":null,"dialog_node":"Need size of party","previous_sibling":"All data supplied"},{"type":"standard","title":"Need day and size of party","output":{"text":"Reservation for @sys-time. What day will you join us?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-time","description":null,"dialog_node":"Need day and size of party","previous_sibling":"Need time and size of party"},{"type":"standard","title":"Jump from hours of operation request","output":{"text":"Ok. I can help you make a reservation for $daypick. How many people in your party?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_43_1470391756844"},"conditions":"$daypick","description":null,"dialog_node":"Jump from hours of operation request","previous_sibling":"No data supplied"},{"type":"standard","title":"All data supplied","output":{"text":"Alright, let me confirm: you want a table for @sys-number people at @sys-time on @days_of_the_week. Is that right?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-number && @days_of_the_week && @sys-time","description":null,"dialog_node":"All data supplied","previous_sibling":"Transfer large parties"},{"type":"standard","title":"Need time","output":{"text":"OK. Reservation for @days_of_the_week for @sys-number people. What time will you join us?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@days_of_the_week && @sys-number","description":null,"dialog_node":"Need time","previous_sibling":"Need size of party"},{"type":"standard","title":"Transfer large parties","output":{"text":"For parties larger than 4, we require additional information. Would you like to speak to our Maitre D?"},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"@sys-number && @sys-number>4","description":null,"dialog_node":"Transfer large parties","previous_sibling":"node_1_1482256152616"},{"type":"response_condition","title":null,"output":{},"parent":"Reservation","context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_1_1482256152616","previous_sibling":null},{"type":"standard","title":"#stress_conditions","output":{},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:29:59.114Z","metadata":{},"next_step":null,"conditions":"#stress_conditions","description":null,"dialog_node":"Dietary Issues","previous_sibling":"Directions"},{"type":"standard","title":"Specials","output":{"text":{"values":["Our special treatment of the day is  a hot stone massage with facial care","We have special packages for facial and body care, check our website for more details :  http://www.hotstone-spa.com/","our special offer of the day is (Facial and back massage) for 20% discount"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T08:01:46.006Z","metadata":{},"next_step":null,"conditions":"#treatments","description":null,"dialog_node":"Specials","previous_sibling":"Dietary Issues"},{"type":"standard","title":"Hours of Operation","output":{},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_1_1482448228340"},"conditions":"#Hours_of_operation","description":null,"dialog_node":"Hours of Operation","previous_sibling":"node_14_1488295443524"},{"type":"standard","title":null,"output":{"text":{"values":["You're welcome. Need anything else?","You got it. Just let me know if you need anything else?","No problemo. How else can I help?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"#Thanks","description":null,"dialog_node":"node_2_1468243505617","previous_sibling":"node_22_1467833484410"},{"type":"standard","title":"Reservation","output":{},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"Transfer large parties"},"conditions":"#Reservations","description":null,"dialog_node":"Reservation","previous_sibling":"Specials"},{"type":"standard","title":null,"output":{"text":{"values":["So long :)","See ya","Bye bye","Happy trails","OK, I said good bye already","Really? We're doing this?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"#Goodbye","description":null,"dialog_node":"node_12_1468329566917","previous_sibling":"node_2_1468243505617"},{"type":"standard","title":"Directions","output":{},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_10_1482459396865"},"conditions":"#Directions","description":null,"dialog_node":"Directions","previous_sibling":"Hours of Operation"},{"type":"standard","title":null,"output":{"text":{"values":["I am a TheLuxurySpa bot. I can help you book relaxing massage or facial treatments, Answer questions about our opening hours, our packages, special treatments of the day and I can give you directions to our location :) looking forward to help you"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-30T07:57:06.491Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_2_1467831978407","previous_sibling":"node_12_1468329566917"},{"type":"standard","title":null,"output":{"text":{"values":["Would you like me to transfer you to our Maitre D.","Do you wish to speak to our host?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"#Maitre_D","description":null,"dialog_node":"node_22_1467833484410","previous_sibling":"Reservation"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T11:41:58.089Z","metadata":null,"next_step":null,"conditions":"#greeting","description":null,"dialog_node":"node_14_1488295443524","previous_sibling":"Opening"},{"type":"standard","title":"Opening","output":{"text":{"values":["Hello. I am  TheLuxurySpa agent, I can help you book relaxing massage treatments, I also can tell you about our packages and help you book a reservation :)"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-29T11:41:58.089Z","updated":"2018-01-29T12:12:41.657Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Opening","previous_sibling":null}],"workspace_id":"e89bfeee-9ba4-4d39-b024-25af3535c5d8","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "TheLuxurySpa- Reservation chatbot",
+	"created": "2018-01-29T11:41:58.089Z",
+	"intents": [{
+		"intent": "Thanks",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"examples": [{
+			"text": "i appreciate it",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "many thanks",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "much appreciated",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "thanks",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "thank you",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "thank you very much",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "that's nice of you",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Directions",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"examples": [{
+			"text": "how do i get to your restaurant",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "how do i get to your place",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "give me directions",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "can you give me directions",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "location please",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "how do i find you",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "what is the address",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "what's your location",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "which cross streets are you on",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "where are you",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "where are you located",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}],
+		"description": null
+	}, {
+		"intent": "TheLuxurySpa",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:53:16.696Z",
+		"examples": [{
+			"text": "talk to a human",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "I want to talk to the manager",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "representative",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "I want to speak to a person",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "I don't want to speak with a robot",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "I dont want to talk to a computer",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "get me a person",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "call the manager",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "I want to speak to a human",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "LuxurySpa",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:52:57.926Z"
+		}, {
+			"text": "LuxurySpa hotel",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:53:16.696Z"
+		}, {
+			"text": "I want to contact someone",
+			"created": "2018-01-29T11:50:42.680Z",
+			"updated": "2018-01-29T11:50:42.680Z"
+		}, {
+			"text": "can I speak to an employee",
+			"created": "2018-01-29T11:50:57.351Z",
+			"updated": "2018-01-29T11:50:57.351Z"
+		}, {
+			"text": "where is the manger",
+			"created": "2018-01-29T11:51:12.907Z",
+			"updated": "2018-01-29T11:51:12.907Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Goodbye",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"examples": [{
+			"text": "see ya",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "good bye",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "so long",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "bye",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "ciao",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "arrivederci",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Reservations",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:00:00.730Z",
+		"examples": [{
+			"text": "will you be open for christmas",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "reservation for tonight",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "i want to make a reservation",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "i want to make a reservation for four",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "can you reserve a table for me",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "are you open for reservations on tuesday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "book reservation",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "can i book a session for tonight",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:53:51.608Z"
+		}, {
+			"text": "can i make a massage reservation",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:54:02.292Z"
+		}, {
+			"text": "do you have a steam",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:55:47.887Z"
+		}, {
+			"text": "I need a session for wednesday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:57:30.705Z"
+		}, {
+			"text": "i want a foot massage",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:57:48.699Z"
+		}, {
+			"text": "i want tretiment for tonight",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:58:17.786Z"
+		}, {
+			"text": "i would like a booking for",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:58:30.941Z"
+		}, {
+			"text": "i'd like to book an hour",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:58:44.249Z"
+		}, {
+			"text": "reservation for 2 please",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:58:57.664Z"
+		}, {
+			"text": "reservation for 3",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:59:05.126Z"
+		}, {
+			"text": "book a skin care session",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:59:21.579Z"
+		}, {
+			"text": "make a reservation for body massage",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:59:45.959Z"
+		}, {
+			"text": "hot stone massage",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:00:00.730Z"
+		}, {
+			"text": "can I make a reservation for hotstone massage",
+			"created": "2018-01-29T11:54:35.193Z",
+			"updated": "2018-01-29T11:54:35.193Z"
+		}, {
+			"text": "book Facial Massage",
+			"created": "2018-01-29T11:54:52.119Z",
+			"updated": "2018-01-29T11:54:52.119Z"
+		}, {
+			"text": "book body massge session",
+			"created": "2018-01-29T11:55:03.090Z",
+			"updated": "2018-01-29T11:55:03.090Z"
+		}, {
+			"text": "skin care",
+			"created": "2018-01-29T11:55:12.537Z",
+			"updated": "2018-01-29T11:55:12.537Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greeting",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:48:48.198Z",
+		"examples": [{
+			"text": "hello",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "hi",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "hiya",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "hi there",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "yo",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "whats up",
+			"created": "2018-01-29T11:48:38.357Z",
+			"updated": "2018-01-29T11:48:38.357Z"
+		}, {
+			"text": "hey",
+			"created": "2018-01-29T11:48:48.198Z",
+			"updated": "2018-01-29T11:48:48.198Z"
+		}],
+		"description": null
+	}, {
+		"intent": "stress_conditions",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T07:47:46.379Z",
+		"examples": [{
+			"text": "do you suffer from back pain",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:04:10.093Z"
+		}, {
+			"text": "do you want Asian Massage",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:05:57.137Z"
+		}, {
+			"text": "I'm stressed",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:07:59.898Z"
+		}, {
+			"text": "tell me about low relaxing options",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:08:39.637Z"
+		}, {
+			"text": "I am facing a lot of work stress",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-30T07:46:42.948Z"
+		}, {
+			"text": "I need facial care",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-30T07:47:02.712Z"
+		}, {
+			"text": "I have back pain",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-30T07:47:18.866Z"
+		}, {
+			"text": "I  feel stressed",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-30T07:46:52.987Z"
+		}, {
+			"text": "I need to relax",
+			"created": "2018-01-29T12:08:07.921Z",
+			"updated": "2018-01-29T12:08:07.921Z"
+		}, {
+			"text": "I want to lay down",
+			"created": "2018-01-29T12:08:17.901Z",
+			"updated": "2018-01-29T12:08:17.901Z"
+		}, {
+			"text": "I have foot pain",
+			"created": "2018-01-30T07:47:46.379Z",
+			"updated": "2018-01-30T07:47:46.379Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Hours_of_operation",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:50:02.516Z",
+		"examples": [{
+			"text": "Are you open on Sunday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "how late are you open tonight",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "how late are you there",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "how early do you open on Saturdays",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "Are you closing early today",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "how late are you open",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "what time do you close the spa",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:49:30.599Z"
+		}, {
+			"text": "Hours of operation",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "What time do you close today",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "what time do you close on Sunday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "What time do you open on Saturdays",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "What time do you close",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "when do you close",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "will you be open Memorial day",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "what are your hours",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "will you open on national day",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:49:54.506Z"
+		}, {
+			"text": "will you open for eid",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:50:02.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "treatments",
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:07:27.752Z",
+		"examples": [{
+			"text": "what's good today",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "tell me about the specials",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "do you have specials",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "specials for tomorrow",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z"
+		}, {
+			"text": "any offers today",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:00:51.708Z"
+		}, {
+			"text": "do you have any special packages",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:01:14.637Z"
+		}, {
+			"text": "do you have special body tretment",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:01:25.061Z"
+		}, {
+			"text": "massage of the day please",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:01:44.850Z"
+		}, {
+			"text": "what are the massage packages",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:02:11.465Z"
+		}, {
+			"text": "what are the special treatments of the Spa",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:02:46.070Z"
+		}, {
+			"text": "what do you have for sessions of the day",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:03:02.605Z"
+		}, {
+			"text": "what will be the treatments on friday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:03:20.847Z"
+		}, {
+			"text": "can you tell me the prices of the day",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:01:01.496Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-01-30T08:54:07.084Z",
+	"entities": [{
+		"entity": "sys-time",
+		"values": [],
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "holidays",
+		"values": [{
+			"type": "synonyms",
+			"value": "christmas",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["christmas day", "x man day", "xmas", "x mas", "x-mas", "x-mas day", "xmas day"]
+		}, {
+			"type": "synonyms",
+			"value": "christmas eve",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["x mas eve", "x-mas eve", "xmas eve"]
+		}, {
+			"type": "synonyms",
+			"value": "halloween",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "independence day",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["7/4", "fourth of july", "july 4", "july 4th", "july fourth"]
+		}, {
+			"type": "synonyms",
+			"value": "labor day",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "memorial day",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "new years",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["1/1", "jan 1", "jan 1st", "jan first", "january 1", "january 1st", "january first", "new year", "new year day", "new years day"]
+		}, {
+			"type": "synonyms",
+			"value": "new years eve",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["12-31", "12/31", "dec 31", "dec 31st", "new year's eve"]
+		}, {
+			"type": "synonyms",
+			"value": "thanksgiving",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["turkey day"]
+		}, {
+			"type": "synonyms",
+			"value": "valentine's day",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["valentine day", "valentines day"]
+		}],
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "reply",
+		"values": [{
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["definitely not", "don't think so", "dont think so", "i think not", "nope", "not at this time", "not now"]
+		}, {
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["definitely", "go for it", "let's do it", "ok", "please", "sure", "why not", "yeah", "yes", "you bet", "you betcha"]
+		}],
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Relaxing",
+		"values": [{
+			"type": "synonyms",
+			"value": "relaxing",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:31:38.782Z",
+			"metadata": null,
+			"synonyms": ["stress-free"]
+		}, {
+			"type": "synonyms",
+			"value": "massage",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:32:43.923Z",
+			"metadata": null,
+			"synonyms": ["back massage"]
+		}, {
+			"type": "synonyms",
+			"value": "facial",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:33:16.522Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "foot",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:33:25.802Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "relase stress",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T12:33:44.453Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "back",
+			"created": "2018-01-29T12:34:16.269Z",
+			"updated": "2018-01-29T12:34:16.269Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "sholders and neck",
+			"created": "2018-01-29T12:34:35.960Z",
+			"updated": "2018-01-29T12:34:35.960Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:34:35.960Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "days_of_the_week",
+		"values": [{
+			"type": "synonyms",
+			"value": "Friday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["fri", "fridays"]
+		}, {
+			"type": "synonyms",
+			"value": "Monday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["mon", "mondays"]
+		}, {
+			"type": "synonyms",
+			"value": "Saturday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["sat", "saturdays"]
+		}, {
+			"type": "synonyms",
+			"value": "Sunday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["sun", "sundays"]
+		}, {
+			"type": "synonyms",
+			"value": "Tuesday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["tue", "tues", "tuesdays"]
+		}, {
+			"type": "synonyms",
+			"value": "Wednesday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["wed", "wednesdays", "weds", "wendsday", "wensday"]
+		}, {
+			"type": "synonyms",
+			"value": "Thursday",
+			"created": "2018-01-29T11:41:58.089Z",
+			"updated": "2018-01-29T11:41:58.089Z",
+			"metadata": null,
+			"synonyms": ["thrusday", "thursdays", "thurs", "thur"]
+		}],
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "landmarks",
+		"values": [{
+			"type": "synonyms",
+			"value": "AlUrubah",
+			"created": "2018-01-29T12:39:07.119Z",
+			"updated": "2018-01-29T12:39:07.119Z",
+			"metadata": null,
+			"synonyms": ["Urubah Road"]
+		}, {
+			"type": "synonyms",
+			"value": "Olya street",
+			"created": "2018-01-29T12:39:28.316Z",
+			"updated": "2018-01-29T12:39:28.316Z",
+			"metadata": null,
+			"synonyms": ["Olya"]
+		}, {
+			"type": "synonyms",
+			"value": "kingdom Center",
+			"created": "2018-01-29T12:35:59.550Z",
+			"updated": "2018-01-29T12:35:59.550Z",
+			"metadata": null,
+			"synonyms": ["kingdom tower"]
+		}, {
+			"type": "synonyms",
+			"value": "empire state building",
+			"created": "2018-01-29T14:02:30.226Z",
+			"updated": "2018-01-29T14:02:30.226Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T14:02:30.226Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		},
+		"runtime_version": "2016-09-20"
+	},
+	"description": "This is a bot for  spa reservations, hours, directions, special treatments and more :)",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Got you down for @sys-number people. See you then."
+		},
+		"parent": "node_48_1470391986060",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number && @sys-number<=4",
+		"description": null,
+		"dialog_node": "node_50_1470392026987",
+		"previous_sibling": "node_49_1470392010255"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. How many people in your party?"
+		},
+		"parent": "node_48_1470391986060",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_49_1470392010255"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_11_1478871464609",
+		"previous_sibling": "node_50_1470392026987"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_48_1470391986060",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Transfer large parties"
+		},
+		"conditions": "@sys-number > 4",
+		"description": null,
+		"dialog_node": "node_49_1470392010255",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please enter the day of the week for your reservation."
+		},
+		"parent": "Need day and size of party",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_10_1478871395729",
+		"previous_sibling": "node_48_1470391986060"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK for @days_of_the_week. How many people in your party?"
+		},
+		"parent": "Need day and size of party",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "node_48_1470391986060",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. What day of the week are you interested in visiting us?"
+		},
+		"parent": "Need day and time",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_52_1470392164789"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_12_1478871508515",
+		"previous_sibling": "node_52_1470392164789"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "For @days_of_the_week got it. What time?"
+		},
+		"parent": "Need day and time",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "node_52_1470392164789",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Didn't understand. Say Yes or No"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1482448228340",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_1_1482458391355"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_1_1484146777643",
+		"previous_sibling": "node_2_1482458401441"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok. Just let me know if I can help with something else"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1482448228340",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_2_1482458401441",
+		"previous_sibling": "node_1_1482458391355"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Would you like to make a reservation for $daypick?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1482448228340",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_2_1482448256701",
+		"previous_sibling": "node_1_1484146777643"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_1_1482448228340",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Jump from hours of operation request"
+		},
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_1_1482458391355",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To get to our Spa from Centira Mall go strait then it would be on the right"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Directions",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T14:02:15.042Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": " @landmarks:(times square)",
+		"description": null,
+		"dialog_node": "node_8_1482459217052",
+		"previous_sibling": "node_7_1482459200886"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To get to our Spa from the Kingdom Center, take a right to Alurubah you'll findd it on the left"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Directions",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T14:02:12.056Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": " @landmarks:(empire state building)",
+		"description": null,
+		"dialog_node": "node_7_1482459200886",
+		"previous_sibling": "node_10_1482459396865"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To get to our Spa from the king Fahd street, go strait then to thr right"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Directions",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:27:27.398Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": " @landmarks:(world trade center)",
+		"description": null,
+		"dialog_node": "node_9_1482459335607",
+		"previous_sibling": "node_8_1482459217052"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Address: Hugayat Tower, Al Olaya, Riyadh 12214 11321, Saudi Arabia"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Directions",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:28:25.562Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_10_1482459396865",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please enter the time of your reservation."
+		},
+		"parent": "Need time",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_40_1470391576406"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_6_1478871097895",
+		"previous_sibling": "node_40_1470391576406"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK we'll see you at @sys-time then."
+		},
+		"parent": "Need time",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "node_40_1470391576406",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. What time are you visiting us?"
+		},
+		"parent": "node_57_1470392318293",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_58_1470392382868"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_16_1478871694446",
+		"previous_sibling": "node_58_1470392382868"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. I have you down for @sys-time and we have availability. We'll see you then."
+		},
+		"parent": "node_57_1470392318293",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "node_58_1470392382868",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please tell me what day you want to make a reservation."
+		},
+		"parent": "Need day",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_77_1470543740008"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_7_1478871196928",
+		"previous_sibling": "node_77_1470543740008"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. I have you down. See you on @days_of_the_week."
+		},
+		"parent": "Need day",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "node_77_1470543740008",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK Let's start over. How many people in your party?"
+		},
+		"parent": "All data supplied",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Transfer large parties"
+		},
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_35_1470391178573",
+		"previous_sibling": "node_34_1470391153633"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Did I get it right? Yes or no."
+		},
+		"parent": "All data supplied",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_34_1470391153633"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_5_1479417733642",
+		"previous_sibling": "node_35_1470391178573"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Great! See you then."
+		},
+		"parent": "All data supplied",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_34_1470391153633",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand you. Would you like to make a reservation? Respond Yes or No"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1482448369140",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_3_1482458659457"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_6_1482458930026",
+		"previous_sibling": "node_4_1482458670434"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok. Just let me know if I can help with something else"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1482448369140",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_4_1482458670434",
+		"previous_sibling": "node_3_1482458659457"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_3_1482448369140",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "No data supplied"
+		},
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_3_1482458659457",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I have a party of @sys-number. What time?"
+		},
+		"parent": "Need time and size of party",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number && @sys-number<=4",
+		"description": null,
+		"dialog_node": "node_44_1470391785316",
+		"previous_sibling": "node_43_1470391756844"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please enter the number of people in your party."
+		},
+		"parent": "Need time and size of party",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_43_1470391756844"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_8_1478871310532",
+		"previous_sibling": "node_44_1470391785316"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Need time and size of party",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Transfer large parties"
+		},
+		"conditions": "@sys-number > 4",
+		"description": null,
+		"dialog_node": "node_43_1470391756844",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. What time are you joining us?"
+		},
+		"parent": "node_52_1470392164789",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_53_1470392186217"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_13_1478871555452",
+		"previous_sibling": "node_53_1470392186217"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. We have you down for @sys-time. See you then."
+		},
+		"parent": "node_52_1470392164789",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "node_53_1470392186217",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We have a foot massage that can help you relase stress in your body take a look at it http://www.hotstone-spa.com/our_services"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T14:19:06.699Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Relaxing:foot",
+		"description": null,
+		"dialog_node": "node_13_1482459505126",
+		"previous_sibling": "node_12_1482459482216"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["we have couple of services for back massage that can help your realse pain take a look at our servics: http://www.hotstone-spa.com/our_services/abhyangam"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T08:54:07.084Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Relaxing:back",
+		"description": null,
+		"dialog_node": "node_14_1482459530014",
+		"previous_sibling": "node_13_1482459505126"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["we have a relaxing Facial treatment that you can try, it coems with a neck and shoulder massage"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T14:10:07.734Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Relaxing:facial",
+		"description": null,
+		"dialog_node": "node_12_1482459482216",
+		"previous_sibling": "node_11_1482459476120"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["we have many treatment packages please check our website for coupones and offers http://www.hotstone-spa.com/our_gallery"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T14:24:20.505Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_15_1482459549015",
+		"previous_sibling": "node_14_1482459530014"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We have lots of Relaxing sessions. Try one of our special treatments: the hot stone massage check it out: http://www.hotstone-spa.com/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Dietary Issues",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T08:45:31.588Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Relaxing:massage",
+		"description": null,
+		"dialog_node": "node_11_1482459476120",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good evening. How can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1488295443524",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T08:50:34.250Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": " $daypart:evening",
+		"description": null,
+		"dialog_node": "node_1_1495022305143",
+		"previous_sibling": "node_16_1488295517679"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hi there, how can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1488295443524",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T08:51:56.210Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_1_1496404774962",
+		"previous_sibling": "node_1_1495022305143"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good afternoon. How can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1488295443524",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T08:50:49.097Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$daypart:afternoon",
+		"description": null,
+		"dialog_node": "node_16_1488295517679",
+		"previous_sibling": "node_15_1488295465298"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good morning. How can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1488295443524",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T08:50:55.636Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$daypart:morning",
+		"description": null,
+		"dialog_node": "node_15_1488295465298",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. Let me know how I can help."
+		},
+		"parent": "node_22_1467833484410",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_21_1468350173406",
+		"previous_sibling": "node_19_1468350024009"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. Transferring."
+		},
+		"parent": "node_22_1467833484410",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_19_1468350024009",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. What day of the week are you joining us?"
+		},
+		"parent": "node_56_1470392261102",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_57_1470392318293"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_15_1478871666174",
+		"previous_sibling": "node_57_1470392318293"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK @days_of_the_week it is. What time?"
+		},
+		"parent": "node_56_1470392261102",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "node_57_1470392318293",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. Reservation for @sys-number people. What day will you join us?"
+		},
+		"parent": "No data supplied",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number && @sys-number<=4",
+		"description": null,
+		"dialog_node": "node_56_1470392261102",
+		"previous_sibling": "node_55_1470392249063"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. How many people in your party?"
+		},
+		"parent": "No data supplied",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_55_1470392249063"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_14_1478871636885",
+		"previous_sibling": "node_56_1470392261102"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "No data supplied",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Transfer large parties"
+		},
+		"conditions": "@sys-number > 4",
+		"description": null,
+		"dialog_node": "node_55_1470392249063",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. Have a nice day."
+		},
+		"parent": "node_2_1468243505617",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_4_1468243575457",
+		"previous_sibling": "node_3_1468243530574"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. How can I help?"
+		},
+		"parent": "node_2_1468243505617",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_3_1468243530574",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. Please enter the time you want for your reservation."
+		},
+		"parent": "node_44_1470391785316",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_45_1470391818604"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_9_1478871347808",
+		"previous_sibling": "node_45_1470391818604"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. See you at @sys-time then."
+		},
+		"parent": "node_44_1470391785316",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "node_45_1470391818604",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We are open on @holidays regular hours"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @holidays",
+		"description": null,
+		"dialog_node": "node_5_1482426503106",
+		"previous_sibling": "node_4_1482425833988"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Would you like to make a reservation?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$resprompt",
+		"description": null,
+		"dialog_node": "node_3_1482448369140",
+		"previous_sibling": "node_1_1482448228340"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our hours are Sunday to Thursday 10-Midnight and Friday and Saturday 11Am to 3am."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": {
+			"resprompt": 1
+		},
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:17:25.041Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": " true",
+		"description": null,
+		"dialog_node": "node_6_1482426521282",
+		"previous_sibling": "node_5_1482426503106"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our hours on @days_of_the_week are 11am until 3am."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": {
+			"daypick": "@days_of_the_week",
+			"resprompt": 1
+		},
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:17:13.316Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@days_of_the_week:Friday || @days_of_the_week:Saturday",
+		"description": null,
+		"dialog_node": "node_3_1482425660639",
+		"previous_sibling": "node_2_1482424204936"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Our hours on @days_of_the_week are 10am to midnight."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": {
+			"daypick": "@days_of_the_week",
+			"resprompt": 1
+		},
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@days_of_the_week:Sunday || @days_of_the_week:Monday || @days_of_the_week:Tuesday || @days_of_the_week:Wednesday || @days_of_the_week:Thursday",
+		"description": null,
+		"dialog_node": "node_2_1482424204936",
+		"previous_sibling": "node_3_1482448369140"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We are closed on @holidays. We will reopen regular hours the following day."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Hours of Operation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@holidays:christmas || @holidays:thanksgiving || @holidays:(new years)",
+		"description": null,
+		"dialog_node": "node_4_1482425833988",
+		"previous_sibling": "node_3_1482425660639"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Hours of Operation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$resprompt && $daypick",
+		"description": null,
+		"dialog_node": "node_1_1482448228340",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "OK. You can close this window or just let me know what else I can help you with."
+		},
+		"parent": "Transfer large parties",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:no",
+		"description": null,
+		"dialog_node": "node_32_1470390891429",
+		"previous_sibling": "node_31_1470390882505"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Calling him over. Stand by."
+		},
+		"parent": "Transfer large parties",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reply:yes",
+		"description": null,
+		"dialog_node": "node_31_1470390882505",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "I didn't understand. how many people in your party?"
+		},
+		"parent": "Need size of party",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_37_1470391335172"
+		},
+		"conditions": "@true",
+		"description": null,
+		"dialog_node": "node_1_1478370328588",
+		"previous_sibling": "node_38_1470391360097"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "@sys-number people. We have you confirmed."
+		},
+		"parent": "Need size of party",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number && @sys-number<=4",
+		"description": null,
+		"dialog_node": "node_38_1470391360097",
+		"previous_sibling": "node_37_1470391335172"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Need size of party",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Transfer large parties"
+		},
+		"conditions": "@sys-number > 4",
+		"description": null,
+		"dialog_node": "node_37_1470391335172",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Need day and time",
+		"output": {
+			"text": "Great. Reservation for @sys-number people. What day?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "Need day and time",
+		"previous_sibling": "Need day and size of party"
+	}, {
+		"type": "standard",
+		"title": "No data supplied",
+		"output": {
+			"text": "Reservation for how many people?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "No data supplied",
+		"previous_sibling": "Need day and time"
+	}, {
+		"type": "standard",
+		"title": "Need day",
+		"output": {
+			"text": "OK. Reservation for @sys-time for @sys-number people. What day?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time && @sys-number",
+		"description": null,
+		"dialog_node": "Need day",
+		"previous_sibling": "Need time"
+	}, {
+		"type": "standard",
+		"title": "Need time and size of party",
+		"output": {
+			"text": "OK. Reservation for @days_of_the_week. How many people in your party?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@days_of_the_week",
+		"description": null,
+		"dialog_node": "Need time and size of party",
+		"previous_sibling": "Need day"
+	}, {
+		"type": "standard",
+		"title": "Need size of party",
+		"output": {
+			"text": "OK. Reservation for @days_of_the_week at @sys-time. How many people in your party?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@days_of_the_week && @sys-time",
+		"description": null,
+		"dialog_node": "Need size of party",
+		"previous_sibling": "All data supplied"
+	}, {
+		"type": "standard",
+		"title": "Need day and size of party",
+		"output": {
+			"text": "Reservation for @sys-time. What day will you join us?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"description": null,
+		"dialog_node": "Need day and size of party",
+		"previous_sibling": "Need time and size of party"
+	}, {
+		"type": "standard",
+		"title": "Jump from hours of operation request",
+		"output": {
+			"text": "Ok. I can help you make a reservation for $daypick. How many people in your party?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_43_1470391756844"
+		},
+		"conditions": "$daypick",
+		"description": null,
+		"dialog_node": "Jump from hours of operation request",
+		"previous_sibling": "No data supplied"
+	}, {
+		"type": "standard",
+		"title": "All data supplied",
+		"output": {
+			"text": "Alright, let me confirm: you want a table for @sys-number people at @sys-time on @days_of_the_week. Is that right?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number && @days_of_the_week && @sys-time",
+		"description": null,
+		"dialog_node": "All data supplied",
+		"previous_sibling": "Transfer large parties"
+	}, {
+		"type": "standard",
+		"title": "Need time",
+		"output": {
+			"text": "OK. Reservation for @days_of_the_week for @sys-number people. What time will you join us?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@days_of_the_week && @sys-number",
+		"description": null,
+		"dialog_node": "Need time",
+		"previous_sibling": "Need size of party"
+	}, {
+		"type": "standard",
+		"title": "Transfer large parties",
+		"output": {
+			"text": "For parties larger than 4, we require additional information. Would you like to speak to our Maitre D?"
+		},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number && @sys-number>4",
+		"description": null,
+		"dialog_node": "Transfer large parties",
+		"previous_sibling": "node_1_1482256152616"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {},
+		"parent": "Reservation",
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_1_1482256152616",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "#stress_conditions",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:29:59.114Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#stress_conditions",
+		"description": null,
+		"dialog_node": "Dietary Issues",
+		"previous_sibling": "Directions"
+	}, {
+		"type": "standard",
+		"title": "Specials",
+		"output": {
+			"text": {
+				"values": ["Our special treatment of the day is  a hot stone massage with facial care", "We have special packages for facial and body care, check our website for more details :  http://www.hotstone-spa.com/", "our special offer of the day is (Facial and back massage) for 20% discount"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T08:01:46.006Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#treatments",
+		"description": null,
+		"dialog_node": "Specials",
+		"previous_sibling": "Dietary Issues"
+	}, {
+		"type": "standard",
+		"title": "Hours of Operation",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_1_1482448228340"
+		},
+		"conditions": "#Hours_of_operation",
+		"description": null,
+		"dialog_node": "Hours of Operation",
+		"previous_sibling": "node_14_1488295443524"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You're welcome. Need anything else?", "You got it. Just let me know if you need anything else?", "No problemo. How else can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Thanks",
+		"description": null,
+		"dialog_node": "node_2_1468243505617",
+		"previous_sibling": "node_22_1467833484410"
+	}, {
+		"type": "standard",
+		"title": "Reservation",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "Transfer large parties"
+		},
+		"conditions": "#Reservations",
+		"description": null,
+		"dialog_node": "Reservation",
+		"previous_sibling": "Specials"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["So long :)", "See ya", "Bye bye", "Happy trails", "OK, I said good bye already", "Really? We're doing this?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Goodbye",
+		"description": null,
+		"dialog_node": "node_12_1468329566917",
+		"previous_sibling": "node_2_1468243505617"
+	}, {
+		"type": "standard",
+		"title": "Directions",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_10_1482459396865"
+		},
+		"conditions": "#Directions",
+		"description": null,
+		"dialog_node": "Directions",
+		"previous_sibling": "Hours of Operation"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I am a TheLuxurySpa bot. I can help you book relaxing massage or facial treatments, Answer questions about our opening hours, our packages, special treatments of the day and I can give you directions to our location :) looking forward to help you"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-30T07:57:06.491Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1467831978407",
+		"previous_sibling": "node_12_1468329566917"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Would you like me to transfer you to our Maitre D.", "Do you wish to speak to our host?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Maitre_D",
+		"description": null,
+		"dialog_node": "node_22_1467833484410",
+		"previous_sibling": "Reservation"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T11:41:58.089Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greeting",
+		"description": null,
+		"dialog_node": "node_14_1488295443524",
+		"previous_sibling": "Opening"
+	}, {
+		"type": "standard",
+		"title": "Opening",
+		"output": {
+			"text": {
+				"values": ["Hello. I am  TheLuxurySpa agent, I can help you book relaxing massage treatments, I also can tell you about our packages and help you book a reservation :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-29T11:41:58.089Z",
+		"updated": "2018-01-29T12:12:41.657Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Opening",
+		"previous_sibling": null
+	}],
+	"workspace_id": "e89bfeee-9ba4-4d39-b024-25af3535c5d8",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

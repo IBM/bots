@@ -1,1 +1,894 @@
-{"name":"Watson and Unity Demo","created":"2017-10-23T19:41:37.620Z","intents":[{"intent":"acertijo1correcto","created":"2017-10-25T13:57:12.975Z","updated":"2017-11-23T18:33:26.019Z","examples":[{"text":"cafe en granos","created":"2017-10-25T13:57:20.435Z","updated":"2017-10-25T13:57:20.435Z"},{"text":"es cafe en granos","created":"2017-10-25T13:57:28.370Z","updated":"2017-10-25T13:57:28.370Z"},{"text":"esta en granos","created":"2017-10-25T13:57:33.080Z","updated":"2017-10-25T13:57:33.080Z"},{"text":"esta en polvo","created":"2017-10-25T13:57:36.142Z","updated":"2017-10-25T13:57:36.142Z"},{"text":"la taza esta llena de cafe en granos","created":"2017-10-25T13:57:41.484Z","updated":"2017-10-25T13:57:41.484Z"},{"text":"no tiene agua","created":"2017-10-25T13:57:43.382Z","updated":"2017-10-25T13:57:43.382Z"},{"text":"el cafe esta en polvo","created":"2017-10-25T13:58:23.087Z","updated":"2017-10-25T13:58:23.087Z"},{"text":"el cafe esta en granos","created":"2017-10-25T13:58:19.228Z","updated":"2017-10-25T18:42:22.002Z"},{"text":"no hay agua","created":"2017-10-25T18:42:27.915Z","updated":"2017-10-25T18:42:27.915Z"},{"text":"la taza esta llena de cafe en polvo","created":"2017-10-25T18:42:44.914Z","updated":"2017-10-25T18:42:44.914Z"},{"text":"no hay liquido","created":"2017-10-25T18:42:54.904Z","updated":"2017-10-25T18:42:54.904Z"},{"text":"no liquido","created":"2017-10-25T18:42:59.368Z","updated":"2017-10-25T18:42:59.368Z"},{"text":"Porque es instantáneo","created":"2017-11-23T14:41:09.607Z","updated":"2017-11-23T14:41:09.607Z"},{"text":"cafe instantáneo","created":"2017-10-25T13:57:24.053Z","updated":"2017-11-23T18:33:26.019Z"}],"description":null},{"intent":"Presentacion","created":"2017-10-24T18:53:29.436Z","updated":"2017-11-23T18:58:32.180Z","examples":[{"text":"me llaman @nombre","created":"2017-10-24T18:53:37.342Z","updated":"2017-10-24T18:53:37.342Z"},{"text":"me suelen decir @nombre","created":"2017-10-24T18:53:42.537Z","updated":"2017-10-24T18:53:42.537Z"},{"text":"@nombre para los amigos","created":"2017-10-24T18:53:47.091Z","updated":"2017-10-24T18:53:47.091Z"},{"text":"@nombre","created":"2017-10-24T18:53:50.420Z","updated":"2017-10-24T18:53:50.420Z"},{"text":"mi @nombre es","created":"2017-10-24T18:53:54.197Z","updated":"2017-10-24T18:53:54.197Z"},{"text":"me llamo @nombre","created":"2017-10-24T18:53:59.430Z","updated":"2017-10-24T18:53:59.430Z"},{"text":"me dicen @nombre","created":"2017-10-24T18:54:06.198Z","updated":"2017-10-24T18:54:06.198Z"},{"text":"hola soy @nombre","created":"2017-10-24T18:54:12.457Z","updated":"2017-10-24T18:54:12.457Z"}],"description":null},{"intent":"acertijo3correcto","created":"2017-10-25T14:47:14.946Z","updated":"2017-10-25T18:42:05.779Z","examples":[{"text":"5 de oro","created":"2017-10-25T14:47:26.140Z","updated":"2017-10-25T14:47:26.140Z"},{"text":"5","created":"2017-10-25T14:47:27.946Z","updated":"2017-10-25T14:47:27.946Z"},{"text":"seguramente es 5","created":"2017-10-25T14:47:35.215Z","updated":"2017-10-25T14:47:35.215Z"},{"text":"5 monedas","created":"2017-10-25T14:47:48.168Z","updated":"2017-10-25T14:47:48.168Z"},{"text":"5 monedas de oro","created":"2017-10-25T14:47:23.502Z","updated":"2017-10-25T14:53:12.974Z"},{"text":"cinco","created":"2017-10-25T18:41:37.926Z","updated":"2017-10-25T18:41:37.926Z"},{"text":"cinco monedas de oro","created":"2017-10-25T18:41:44.457Z","updated":"2017-10-25T18:41:44.457Z"},{"text":"cinco monedas","created":"2017-10-25T18:41:50.494Z","updated":"2017-10-25T18:41:50.494Z"},{"text":"cinco de oro","created":"2017-10-25T18:41:58.412Z","updated":"2017-10-25T18:41:58.412Z"},{"text":"seguramente es cinco","created":"2017-10-25T18:42:05.779Z","updated":"2017-10-25T18:42:05.779Z"}],"description":null},{"intent":"negacion","created":"2017-10-25T13:34:34.189Z","updated":"2017-10-25T18:41:27.393Z","examples":[{"text":"n","created":"2017-10-25T13:34:34.189Z","updated":"2017-10-25T13:34:34.189Z"},{"text":"no","created":"2017-10-25T13:34:38.167Z","updated":"2017-10-25T13:34:38.167Z"},{"text":"no quiero","created":"2017-10-25T13:34:41.099Z","updated":"2017-10-25T13:34:41.099Z"},{"text":"no me gusta","created":"2017-10-25T13:34:44.604Z","updated":"2017-10-25T13:34:44.604Z"},{"text":"ni loco","created":"2017-10-25T13:34:49.264Z","updated":"2017-10-25T13:34:49.264Z"},{"text":"ni borracho","created":"2017-10-25T13:34:54.052Z","updated":"2017-10-25T13:34:54.052Z"},{"text":"no hay otra forma","created":"2017-10-25T13:34:57.112Z","updated":"2017-10-25T13:34:57.112Z"},{"text":"Que se yo","created":"2017-10-25T16:37:12.603Z","updated":"2017-10-25T16:37:12.603Z"},{"text":"ni","created":"2017-10-25T18:41:27.393Z","updated":"2017-10-25T18:41:27.393Z"}],"description":null},{"intent":"aceptacion","created":"2017-10-25T13:25:33.652Z","updated":"2017-11-23T18:33:44.907Z","examples":[{"text":"Bueno dale","created":"2017-10-25T13:26:04.567Z","updated":"2017-10-25T13:26:12.245Z"},{"text":"seria genial","created":"2017-10-25T13:26:14.973Z","updated":"2017-10-25T13:26:14.973Z"},{"text":"genial","created":"2017-10-25T13:26:16.738Z","updated":"2017-10-25T13:26:16.738Z"},{"text":"que buena onda","created":"2017-10-25T13:26:20.245Z","updated":"2017-10-25T13:26:20.245Z"},{"text":"ok","created":"2017-10-25T13:26:21.582Z","updated":"2017-10-25T13:26:21.582Z"},{"text":"si","created":"2017-10-25T13:26:22.751Z","updated":"2017-10-25T13:26:22.751Z"},{"text":"bueno","created":"2017-10-25T13:26:26.156Z","updated":"2017-10-25T13:26:26.156Z"},{"text":"sale con fritas","created":"2017-10-25T13:26:29.507Z","updated":"2017-10-25T13:26:29.507Z"},{"text":"dale que so vo","created":"2017-10-25T13:26:35.226Z","updated":"2017-10-25T13:26:35.226Z"},{"text":"bien","created":"2017-10-25T13:26:41.273Z","updated":"2017-10-25T13:26:41.273Z"},{"text":"estupendo","created":"2017-10-25T13:26:44.692Z","updated":"2017-10-25T13:26:44.692Z"},{"text":"me encantaria","created":"2017-10-25T13:26:48.945Z","updated":"2017-10-25T13:26:48.945Z"},{"text":":D","created":"2017-10-25T18:43:30.715Z","updated":"2017-10-25T18:43:30.715Z"},{"text":"ok!","created":"2017-10-25T18:43:39.137Z","updated":"2017-10-25T18:43:39.137Z"},{"text":"dale","created":"2017-11-18T22:21:14.363Z","updated":"2017-11-18T22:21:14.363Z"},{"text":"oki","created":"2017-10-25T13:26:53.373Z","updated":"2017-11-23T18:33:44.907Z"}],"description":null},{"intent":"SALUDO","created":"2017-11-16T23:39:57.659Z","updated":"2017-11-16T23:40:57.772Z","examples":[{"text":"welcome","created":"2017-11-16T23:40:57.772Z","updated":"2017-11-16T23:40:57.772Z"}],"description":null},{"intent":"acertijo2correcto","created":"2017-10-25T14:00:20.510Z","updated":"2017-11-23T18:34:08.065Z","examples":[{"text":"es de dia","created":"2017-10-25T14:00:25.389Z","updated":"2017-10-25T14:00:25.389Z"},{"text":"era de dia","created":"2017-10-25T14:00:27.204Z","updated":"2017-10-25T14:00:27.204Z"},{"text":"no es de noche","created":"2017-10-25T14:00:29.890Z","updated":"2017-10-25T14:00:29.890Z"},{"text":"no era de noche","created":"2017-10-25T14:00:31.685Z","updated":"2017-10-25T14:00:31.685Z"},{"text":"era la mañana","created":"2017-10-25T14:00:40.673Z","updated":"2017-10-25T14:00:40.673Z"},{"text":"habia sol","created":"2017-10-25T14:00:44.897Z","updated":"2017-10-25T14:00:44.897Z"},{"text":"habia luz de dia","created":"2017-10-25T14:00:59.042Z","updated":"2017-10-25T14:00:59.042Z"},{"text":"ya habia amanecido","created":"2017-10-25T14:01:15.987Z","updated":"2017-10-25T14:01:15.987Z"},{"text":"dia","created":"2017-10-25T18:40:54.663Z","updated":"2017-10-25T18:40:54.663Z"}],"description":null}],"updated":"2017-11-24T00:47:14.526Z","entities":[{"entity":"Nombre","values":[{"type":"synonyms","value":"Jhon Doe","created":"2017-10-24T18:41:24.028Z","updated":"2017-10-24T18:41:24.028Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Salvador","created":"2017-10-24T18:40:07.824Z","updated":"2017-10-25T18:40:10.107Z","metadata":null,"synonyms":["salvi","salva","salvador"]},{"type":"synonyms","value":"Rodrigo","created":"2017-10-24T18:39:55.355Z","updated":"2017-10-24T18:39:55.355Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Clara","created":"2017-10-24T18:39:48.943Z","updated":"2017-10-25T18:39:37.532Z","metadata":null,"synonyms":["Clarita"]},{"type":"synonyms","value":"Lucia","created":"2017-10-24T18:41:11.315Z","updated":"2017-10-24T18:41:11.315Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Nicolas","created":"2017-10-24T18:38:59.839Z","updated":"2017-10-24T18:39:27.447Z","metadata":null,"synonyms":["Nico","nick","nicolo"]},{"type":"synonyms","value":"Daniela","created":"2017-10-24T18:40:13.293Z","updated":"2017-10-25T18:36:17.476Z","metadata":null,"synonyms":["Dani"]},{"type":"synonyms","value":"Roberto","created":"2017-10-24T18:39:51.183Z","updated":"2017-10-25T18:36:30.224Z","metadata":null,"synonyms":["Robert","Rober"]},{"type":"synonyms","value":"Laura","created":"2017-10-24T18:40:06.049Z","updated":"2017-10-25T18:36:49.046Z","metadata":null,"synonyms":["lau"]},{"type":"synonyms","value":"Sebastian","created":"2017-10-25T13:28:59.922Z","updated":"2017-10-25T18:39:09.351Z","metadata":null,"synonyms":["Seba","SEBI","sebas","sebastian"]},{"type":"synonyms","value":"Diego","created":"2017-10-24T18:39:33.659Z","updated":"2017-10-25T18:35:59.881Z","metadata":null,"synonyms":["diego"]},{"type":"synonyms","value":"Luciano","created":"2017-10-24T18:41:10.698Z","updated":"2017-10-25T18:38:56.313Z","metadata":null,"synonyms":["lucho","luciano"]},{"type":"synonyms","value":"Romina","created":"2017-10-24T18:39:40.273Z","updated":"2017-10-25T18:39:46.329Z","metadata":null,"synonyms":["romi"]},{"type":"synonyms","value":"Valeria","created":"2017-10-24T18:40:15.528Z","updated":"2017-10-25T18:39:52.636Z","metadata":null,"synonyms":["vale"]},{"type":"synonyms","value":"Pancho","created":"2017-10-24T18:40:17.359Z","updated":"2017-11-23T18:59:16.063Z","metadata":null,"synonyms":["Francisco"]},{"type":"synonyms","value":"Facu","created":"2017-10-24T18:41:06.908Z","updated":"2017-11-23T18:59:06.875Z","metadata":null,"synonyms":["facundo","faku"]},{"type":"synonyms","value":"Pau","created":"2017-11-24T00:47:14.526Z","updated":"2017-11-24T00:47:14.526Z","metadata":null,"synonyms":["paula","pauloncha","pauli","pau"]}],"created":"2017-10-24T18:38:09.022Z","updated":"2017-11-24T00:47:14.526Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"es","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"response_condition","title":null,"output":{"text":{"values":["¡Excelente Respuesta! El segundo acertijo es: Va por la calle una carreta oscura sin luces. Todos los faroles de la calle están apagados, no hay resplandor de ninguna casa. De pronto, un gato negro se cruza por delante de la carreta, sin embargo, el conductor frena a tiempo antes de atropellarlo. ¿Cómo lo vió?"],"selection_policy":"sequential"}},"parent":"node_11_1508941278086","context":null,"created":"2017-10-25T15:13:25.304Z","updated":"2017-11-18T22:25:04.224Z","metadata":null,"next_step":null,"conditions":"#acertijo1correcto","description":null,"dialog_node":"node_15_1508944411403","previous_sibling":"node_12_1508942542009"},{"type":"response_condition","title":null,"output":{"text":{"values":["respuesta incorrecta, intentalo de nuevo."],"selection_policy":"sequential"}},"parent":"node_11_1508941278086","context":null,"created":"2017-10-25T15:14:01.015Z","updated":"2017-10-25T15:14:53.044Z","metadata":null,"next_step":null,"conditions":"!#acertijo1correcto","description":null,"dialog_node":"node_16_1508944447141","previous_sibling":"node_15_1508944411403"},{"type":"standard","title":"acertijo correcto 2","output":{},"parent":"node_11_1508941278086","context":null,"created":"2017-10-25T14:42:15.863Z","updated":"2017-10-25T17:55:05.095Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"#acertijo2correcto || !#acertijo2correcto","description":null,"dialog_node":"node_12_1508942542009","previous_sibling":"node_19_1508946866835"},{"type":"standard","title":"segunda oportunidad acertijo 1","output":{},"parent":"node_11_1508941278086","context":null,"created":"2017-10-25T15:54:20.711Z","updated":"2017-10-25T17:53:28.192Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_11_1508941278086"},"conditions":"#acertijo1correcto","description":null,"dialog_node":"node_19_1508946866835","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Hola @Nombre. Si has llegado hasta aquí es porque estas muy cerca de encontrar a Fiona, rescatarla del mago bi-dente, y tener una cita con ella. Te puedo ayudar a cumplir tu objetivo si respondes correctamente 3 acertijos, ¿estás de acuerdo?\""],"selection_policy":"sequential"}},"parent":"node_1_1508937139819","context":null,"created":"2017-10-25T18:08:58.712Z","updated":"2017-11-23T18:57:07.230Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_1_1508954944838","previous_sibling":"node_2_1508954946802"},{"type":"response_condition","title":null,"output":{"text":{"values":["Hola <?input_text?>. Si has llegado hasta aquí es porque estas muy cerca de encontrar a Fiona, rescatarla del mago bi-dente, y tener una cita con ella. Te puedo ayudar a cumplir tu objetivo si respondes correctamente 3 acertijos, ¿estás de acuerdo?"],"selection_policy":"sequential"}},"parent":"node_1_1508937139819","context":{"name":"<?input_text?>"},"created":"2017-10-25T18:09:00.702Z","updated":"2017-11-23T19:03:58.994Z","metadata":null,"next_step":null,"conditions":"!@Nombre","description":null,"dialog_node":"node_2_1508954946802","previous_sibling":"node_2_1508938426739"},{"type":"standard","title":"comienzo del acertijo acertijo","output":{},"parent":"node_1_1508937139819","context":null,"created":"2017-10-25T13:33:40.668Z","updated":"2017-10-25T19:16:30.653Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"#aceptacion || #negacion","description":null,"dialog_node":"node_2_1508938426739","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["intentalo de nuevo"],"selection_policy":"sequential"}},"parent":"node_12_1508942542009","context":null,"created":"2017-10-25T16:01:06.669Z","updated":"2017-10-25T16:01:38.604Z","metadata":null,"next_step":null,"conditions":"!#acertijo2correcto","description":null,"dialog_node":"node_21_1508947272719","previous_sibling":"node_20_1508947270107"},{"type":"response_condition","title":null,"output":{"text":{"values":["¡Excelente! El tercer y ultimo acertijo es: Un bastón y un libro cuestan 110 monedas de oro. El baston cuesta 100 monedas más que el libro. Así que, ¿cuánto cuesta el libro?"],"selection_policy":"sequential"}},"parent":"node_12_1508942542009","context":null,"created":"2017-10-25T16:01:04.041Z","updated":"2017-11-18T22:24:22.288Z","metadata":null,"next_step":null,"conditions":"#acertijo2correcto","description":null,"dialog_node":"node_20_1508947270107","previous_sibling":"node_13_1508942805230"},{"type":"standard","title":"acertijo correcto 3","output":{},"parent":"node_12_1508942542009","context":null,"created":"2017-10-25T14:46:39.894Z","updated":"2017-10-25T17:55:19.434Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"#acertijo3correcto || !#acertijo3correcto","description":null,"dialog_node":"node_13_1508942805230","previous_sibling":"node_22_1508947480453"},{"type":"standard","title":"segunda oportunidad acertijo 2","output":{},"parent":"node_12_1508942542009","context":null,"created":"2017-10-25T16:04:34.310Z","updated":"2017-10-25T16:06:31.335Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_12_1508942542009"},"conditions":"#acertijo2correcto","description":null,"dialog_node":"node_22_1508947480453","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["¡Genial! Entonces pasemos al primer acertijo: Tiro un anillo a una taza llena de café y no se moja. ¿Por qué?"],"selection_policy":"sequential"}},"parent":"node_2_1508938426739","context":null,"created":"2017-10-25T13:34:13.282Z","updated":"2017-10-25T19:31:43.806Z","metadata":null,"next_step":null,"conditions":"#aceptacion","description":null,"dialog_node":"node_3_1508938459332","previous_sibling":"node_11_1508941278086"},{"type":"standard","title":"acertijo correcto 1","output":{},"parent":"node_2_1508938426739","context":null,"created":"2017-10-25T14:21:11.950Z","updated":"2017-10-25T15:57:08.526Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"#acertijo1correcto || !#acertijo1correcto","description":null,"dialog_node":"node_11_1508941278086","previous_sibling":"node_1_1508959093160"},{"type":"response_condition","title":null,"output":{"text":{"values":["No puedas continuar con tu búsqueda si no respondes los acertijos. Al menos intentalo, ¿qué decís?"],"selection_policy":"sequential"}},"parent":"node_2_1508938426739","context":null,"created":"2017-10-25T14:08:11.231Z","updated":"2017-10-25T19:32:28.482Z","metadata":null,"next_step":null,"conditions":"#negacion","description":null,"dialog_node":"node_10_1508940497217","previous_sibling":"node_3_1508938459332"},{"type":"standard","title":"Negacion","output":{"text":{"values":["¡Si cambiás de opinión y aceptás el desafío aca estaré esperando!"],"selection_policy":"sequential"}},"parent":"node_2_1508938426739","context":null,"created":"2017-10-25T19:18:13.292Z","updated":"2017-10-25T19:32:49.578Z","metadata":null,"next_step":null,"conditions":"#negacion","description":null,"dialog_node":"node_1_1508959093160","previous_sibling":"node_18_1508946685708"},{"type":"standard","title":"aceptacion","output":{},"parent":"node_2_1508938426739","context":null,"created":"2017-10-25T15:51:19.584Z","updated":"2017-10-25T15:57:37.443Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_2_1508938426739"},"conditions":"#aceptacion","description":null,"dialog_node":"node_18_1508946685708","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["vuelve a intentarlo"],"selection_policy":"sequential"}},"parent":"node_13_1508942805230","context":null,"created":"2017-10-25T16:09:01.883Z","updated":"2017-10-25T16:09:25.948Z","metadata":null,"next_step":null,"conditions":"!#acertijo3correcto","description":null,"dialog_node":"node_25_1508947748019","previous_sibling":"node_24_1508947734612"},{"type":"response_condition","title":null,"output":{"text":{"values":["Por haber respondido todos los acertijos correctamente aquí tienes tu premio: <br> <br> ¡YO SOY FIONA!"],"selection_policy":"sequential"}},"parent":"node_13_1508942805230","context":null,"created":"2017-10-25T16:08:48.492Z","updated":"2017-10-25T19:36:10.801Z","metadata":null,"next_step":null,"conditions":"#acertijo3correcto","description":null,"dialog_node":"node_24_1508947734612","previous_sibling":"node_23_1508947608934"},{"type":"standard","title":"segunda oportunidad acertijo 3","output":{},"parent":"node_13_1508942805230","context":null,"created":"2017-10-25T16:06:42.796Z","updated":"2017-10-25T16:07:46.030Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_13_1508942805230"},"conditions":"#acertijo3correcto","description":null,"dialog_node":"node_23_1508947608934","previous_sibling":null},{"type":"standard","title":"SALUDO - HARDCODED","output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T23:39:19.726Z","updated":"2017-11-23T20:40:27.793Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Bienvenido"},"conditions":"#SALUDO","description":null,"dialog_node":"node_1_1510875559367","previous_sibling":"node_1_1508937139819"},{"type":"standard","title":"En otras cosas","output":{"text":{"values":["No entendí lo que me quisiste decir"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-24T18:47:31.246Z","updated":"2017-10-25T19:36:36.260Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"En otras cosas","previous_sibling":"node_1_1510875559367"},{"type":"standard","title":"Presentacion","output":{},"parent":null,"context":null,"created":"2017-10-25T13:12:13.772Z","updated":"2017-11-23T19:01:09.968Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_1_1508937139819","previous_sibling":"Bienvenido"},{"type":"standard","title":"Bienvenido","output":{"text":{"values":["¡Hola! Soy Sirius, el gran viejo sabio, Guardian de los Senderos del Bosque Mágico. ¿Cuál es tu nombre?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-10-24T18:47:31.246Z","updated":"2017-11-24T00:46:51.581Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Bienvenido","previous_sibling":null}],"workspace_id":"2c4f3502-a653-4fb4-a74e-c59b424f8cb5","counterexamples":[{"text":"tu vieja","created":"2017-10-25T16:11:05.898Z","updated":"2017-10-25T16:11:05.898Z"}],"learning_opt_out":false}
+{
+	"name": "Watson and Unity Demo",
+	"created": "2017-10-23T19:41:37.620Z",
+	"intents": [{
+		"intent": "acertijo1correcto",
+		"created": "2017-10-25T13:57:12.975Z",
+		"updated": "2017-11-23T18:33:26.019Z",
+		"examples": [{
+			"text": "cafe en granos",
+			"created": "2017-10-25T13:57:20.435Z",
+			"updated": "2017-10-25T13:57:20.435Z"
+		}, {
+			"text": "es cafe en granos",
+			"created": "2017-10-25T13:57:28.370Z",
+			"updated": "2017-10-25T13:57:28.370Z"
+		}, {
+			"text": "esta en granos",
+			"created": "2017-10-25T13:57:33.080Z",
+			"updated": "2017-10-25T13:57:33.080Z"
+		}, {
+			"text": "esta en polvo",
+			"created": "2017-10-25T13:57:36.142Z",
+			"updated": "2017-10-25T13:57:36.142Z"
+		}, {
+			"text": "la taza esta llena de cafe en granos",
+			"created": "2017-10-25T13:57:41.484Z",
+			"updated": "2017-10-25T13:57:41.484Z"
+		}, {
+			"text": "no tiene agua",
+			"created": "2017-10-25T13:57:43.382Z",
+			"updated": "2017-10-25T13:57:43.382Z"
+		}, {
+			"text": "el cafe esta en polvo",
+			"created": "2017-10-25T13:58:23.087Z",
+			"updated": "2017-10-25T13:58:23.087Z"
+		}, {
+			"text": "el cafe esta en granos",
+			"created": "2017-10-25T13:58:19.228Z",
+			"updated": "2017-10-25T18:42:22.002Z"
+		}, {
+			"text": "no hay agua",
+			"created": "2017-10-25T18:42:27.915Z",
+			"updated": "2017-10-25T18:42:27.915Z"
+		}, {
+			"text": "la taza esta llena de cafe en polvo",
+			"created": "2017-10-25T18:42:44.914Z",
+			"updated": "2017-10-25T18:42:44.914Z"
+		}, {
+			"text": "no hay liquido",
+			"created": "2017-10-25T18:42:54.904Z",
+			"updated": "2017-10-25T18:42:54.904Z"
+		}, {
+			"text": "no liquido",
+			"created": "2017-10-25T18:42:59.368Z",
+			"updated": "2017-10-25T18:42:59.368Z"
+		}, {
+			"text": "Porque es instantáneo",
+			"created": "2017-11-23T14:41:09.607Z",
+			"updated": "2017-11-23T14:41:09.607Z"
+		}, {
+			"text": "cafe instantáneo",
+			"created": "2017-10-25T13:57:24.053Z",
+			"updated": "2017-11-23T18:33:26.019Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Presentacion",
+		"created": "2017-10-24T18:53:29.436Z",
+		"updated": "2017-11-23T18:58:32.180Z",
+		"examples": [{
+			"text": "me llaman @nombre",
+			"created": "2017-10-24T18:53:37.342Z",
+			"updated": "2017-10-24T18:53:37.342Z"
+		}, {
+			"text": "me suelen decir @nombre",
+			"created": "2017-10-24T18:53:42.537Z",
+			"updated": "2017-10-24T18:53:42.537Z"
+		}, {
+			"text": "@nombre para los amigos",
+			"created": "2017-10-24T18:53:47.091Z",
+			"updated": "2017-10-24T18:53:47.091Z"
+		}, {
+			"text": "@nombre",
+			"created": "2017-10-24T18:53:50.420Z",
+			"updated": "2017-10-24T18:53:50.420Z"
+		}, {
+			"text": "mi @nombre es",
+			"created": "2017-10-24T18:53:54.197Z",
+			"updated": "2017-10-24T18:53:54.197Z"
+		}, {
+			"text": "me llamo @nombre",
+			"created": "2017-10-24T18:53:59.430Z",
+			"updated": "2017-10-24T18:53:59.430Z"
+		}, {
+			"text": "me dicen @nombre",
+			"created": "2017-10-24T18:54:06.198Z",
+			"updated": "2017-10-24T18:54:06.198Z"
+		}, {
+			"text": "hola soy @nombre",
+			"created": "2017-10-24T18:54:12.457Z",
+			"updated": "2017-10-24T18:54:12.457Z"
+		}],
+		"description": null
+	}, {
+		"intent": "acertijo3correcto",
+		"created": "2017-10-25T14:47:14.946Z",
+		"updated": "2017-10-25T18:42:05.779Z",
+		"examples": [{
+			"text": "5 de oro",
+			"created": "2017-10-25T14:47:26.140Z",
+			"updated": "2017-10-25T14:47:26.140Z"
+		}, {
+			"text": "5",
+			"created": "2017-10-25T14:47:27.946Z",
+			"updated": "2017-10-25T14:47:27.946Z"
+		}, {
+			"text": "seguramente es 5",
+			"created": "2017-10-25T14:47:35.215Z",
+			"updated": "2017-10-25T14:47:35.215Z"
+		}, {
+			"text": "5 monedas",
+			"created": "2017-10-25T14:47:48.168Z",
+			"updated": "2017-10-25T14:47:48.168Z"
+		}, {
+			"text": "5 monedas de oro",
+			"created": "2017-10-25T14:47:23.502Z",
+			"updated": "2017-10-25T14:53:12.974Z"
+		}, {
+			"text": "cinco",
+			"created": "2017-10-25T18:41:37.926Z",
+			"updated": "2017-10-25T18:41:37.926Z"
+		}, {
+			"text": "cinco monedas de oro",
+			"created": "2017-10-25T18:41:44.457Z",
+			"updated": "2017-10-25T18:41:44.457Z"
+		}, {
+			"text": "cinco monedas",
+			"created": "2017-10-25T18:41:50.494Z",
+			"updated": "2017-10-25T18:41:50.494Z"
+		}, {
+			"text": "cinco de oro",
+			"created": "2017-10-25T18:41:58.412Z",
+			"updated": "2017-10-25T18:41:58.412Z"
+		}, {
+			"text": "seguramente es cinco",
+			"created": "2017-10-25T18:42:05.779Z",
+			"updated": "2017-10-25T18:42:05.779Z"
+		}],
+		"description": null
+	}, {
+		"intent": "negacion",
+		"created": "2017-10-25T13:34:34.189Z",
+		"updated": "2017-10-25T18:41:27.393Z",
+		"examples": [{
+			"text": "n",
+			"created": "2017-10-25T13:34:34.189Z",
+			"updated": "2017-10-25T13:34:34.189Z"
+		}, {
+			"text": "no",
+			"created": "2017-10-25T13:34:38.167Z",
+			"updated": "2017-10-25T13:34:38.167Z"
+		}, {
+			"text": "no quiero",
+			"created": "2017-10-25T13:34:41.099Z",
+			"updated": "2017-10-25T13:34:41.099Z"
+		}, {
+			"text": "no me gusta",
+			"created": "2017-10-25T13:34:44.604Z",
+			"updated": "2017-10-25T13:34:44.604Z"
+		}, {
+			"text": "ni loco",
+			"created": "2017-10-25T13:34:49.264Z",
+			"updated": "2017-10-25T13:34:49.264Z"
+		}, {
+			"text": "ni borracho",
+			"created": "2017-10-25T13:34:54.052Z",
+			"updated": "2017-10-25T13:34:54.052Z"
+		}, {
+			"text": "no hay otra forma",
+			"created": "2017-10-25T13:34:57.112Z",
+			"updated": "2017-10-25T13:34:57.112Z"
+		}, {
+			"text": "Que se yo",
+			"created": "2017-10-25T16:37:12.603Z",
+			"updated": "2017-10-25T16:37:12.603Z"
+		}, {
+			"text": "ni",
+			"created": "2017-10-25T18:41:27.393Z",
+			"updated": "2017-10-25T18:41:27.393Z"
+		}],
+		"description": null
+	}, {
+		"intent": "aceptacion",
+		"created": "2017-10-25T13:25:33.652Z",
+		"updated": "2017-11-23T18:33:44.907Z",
+		"examples": [{
+			"text": "Bueno dale",
+			"created": "2017-10-25T13:26:04.567Z",
+			"updated": "2017-10-25T13:26:12.245Z"
+		}, {
+			"text": "seria genial",
+			"created": "2017-10-25T13:26:14.973Z",
+			"updated": "2017-10-25T13:26:14.973Z"
+		}, {
+			"text": "genial",
+			"created": "2017-10-25T13:26:16.738Z",
+			"updated": "2017-10-25T13:26:16.738Z"
+		}, {
+			"text": "que buena onda",
+			"created": "2017-10-25T13:26:20.245Z",
+			"updated": "2017-10-25T13:26:20.245Z"
+		}, {
+			"text": "ok",
+			"created": "2017-10-25T13:26:21.582Z",
+			"updated": "2017-10-25T13:26:21.582Z"
+		}, {
+			"text": "si",
+			"created": "2017-10-25T13:26:22.751Z",
+			"updated": "2017-10-25T13:26:22.751Z"
+		}, {
+			"text": "bueno",
+			"created": "2017-10-25T13:26:26.156Z",
+			"updated": "2017-10-25T13:26:26.156Z"
+		}, {
+			"text": "sale con fritas",
+			"created": "2017-10-25T13:26:29.507Z",
+			"updated": "2017-10-25T13:26:29.507Z"
+		}, {
+			"text": "dale que so vo",
+			"created": "2017-10-25T13:26:35.226Z",
+			"updated": "2017-10-25T13:26:35.226Z"
+		}, {
+			"text": "bien",
+			"created": "2017-10-25T13:26:41.273Z",
+			"updated": "2017-10-25T13:26:41.273Z"
+		}, {
+			"text": "estupendo",
+			"created": "2017-10-25T13:26:44.692Z",
+			"updated": "2017-10-25T13:26:44.692Z"
+		}, {
+			"text": "me encantaria",
+			"created": "2017-10-25T13:26:48.945Z",
+			"updated": "2017-10-25T13:26:48.945Z"
+		}, {
+			"text": ":D",
+			"created": "2017-10-25T18:43:30.715Z",
+			"updated": "2017-10-25T18:43:30.715Z"
+		}, {
+			"text": "ok!",
+			"created": "2017-10-25T18:43:39.137Z",
+			"updated": "2017-10-25T18:43:39.137Z"
+		}, {
+			"text": "dale",
+			"created": "2017-11-18T22:21:14.363Z",
+			"updated": "2017-11-18T22:21:14.363Z"
+		}, {
+			"text": "oki",
+			"created": "2017-10-25T13:26:53.373Z",
+			"updated": "2017-11-23T18:33:44.907Z"
+		}],
+		"description": null
+	}, {
+		"intent": "SALUDO",
+		"created": "2017-11-16T23:39:57.659Z",
+		"updated": "2017-11-16T23:40:57.772Z",
+		"examples": [{
+			"text": "welcome",
+			"created": "2017-11-16T23:40:57.772Z",
+			"updated": "2017-11-16T23:40:57.772Z"
+		}],
+		"description": null
+	}, {
+		"intent": "acertijo2correcto",
+		"created": "2017-10-25T14:00:20.510Z",
+		"updated": "2017-11-23T18:34:08.065Z",
+		"examples": [{
+			"text": "es de dia",
+			"created": "2017-10-25T14:00:25.389Z",
+			"updated": "2017-10-25T14:00:25.389Z"
+		}, {
+			"text": "era de dia",
+			"created": "2017-10-25T14:00:27.204Z",
+			"updated": "2017-10-25T14:00:27.204Z"
+		}, {
+			"text": "no es de noche",
+			"created": "2017-10-25T14:00:29.890Z",
+			"updated": "2017-10-25T14:00:29.890Z"
+		}, {
+			"text": "no era de noche",
+			"created": "2017-10-25T14:00:31.685Z",
+			"updated": "2017-10-25T14:00:31.685Z"
+		}, {
+			"text": "era la mañana",
+			"created": "2017-10-25T14:00:40.673Z",
+			"updated": "2017-10-25T14:00:40.673Z"
+		}, {
+			"text": "habia sol",
+			"created": "2017-10-25T14:00:44.897Z",
+			"updated": "2017-10-25T14:00:44.897Z"
+		}, {
+			"text": "habia luz de dia",
+			"created": "2017-10-25T14:00:59.042Z",
+			"updated": "2017-10-25T14:00:59.042Z"
+		}, {
+			"text": "ya habia amanecido",
+			"created": "2017-10-25T14:01:15.987Z",
+			"updated": "2017-10-25T14:01:15.987Z"
+		}, {
+			"text": "dia",
+			"created": "2017-10-25T18:40:54.663Z",
+			"updated": "2017-10-25T18:40:54.663Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-24T00:47:14.526Z",
+	"entities": [{
+		"entity": "Nombre",
+		"values": [{
+			"type": "synonyms",
+			"value": "Jhon Doe",
+			"created": "2017-10-24T18:41:24.028Z",
+			"updated": "2017-10-24T18:41:24.028Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Salvador",
+			"created": "2017-10-24T18:40:07.824Z",
+			"updated": "2017-10-25T18:40:10.107Z",
+			"metadata": null,
+			"synonyms": ["salvi", "salva", "salvador"]
+		}, {
+			"type": "synonyms",
+			"value": "Rodrigo",
+			"created": "2017-10-24T18:39:55.355Z",
+			"updated": "2017-10-24T18:39:55.355Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Clara",
+			"created": "2017-10-24T18:39:48.943Z",
+			"updated": "2017-10-25T18:39:37.532Z",
+			"metadata": null,
+			"synonyms": ["Clarita"]
+		}, {
+			"type": "synonyms",
+			"value": "Lucia",
+			"created": "2017-10-24T18:41:11.315Z",
+			"updated": "2017-10-24T18:41:11.315Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Nicolas",
+			"created": "2017-10-24T18:38:59.839Z",
+			"updated": "2017-10-24T18:39:27.447Z",
+			"metadata": null,
+			"synonyms": ["Nico", "nick", "nicolo"]
+		}, {
+			"type": "synonyms",
+			"value": "Daniela",
+			"created": "2017-10-24T18:40:13.293Z",
+			"updated": "2017-10-25T18:36:17.476Z",
+			"metadata": null,
+			"synonyms": ["Dani"]
+		}, {
+			"type": "synonyms",
+			"value": "Roberto",
+			"created": "2017-10-24T18:39:51.183Z",
+			"updated": "2017-10-25T18:36:30.224Z",
+			"metadata": null,
+			"synonyms": ["Robert", "Rober"]
+		}, {
+			"type": "synonyms",
+			"value": "Laura",
+			"created": "2017-10-24T18:40:06.049Z",
+			"updated": "2017-10-25T18:36:49.046Z",
+			"metadata": null,
+			"synonyms": ["lau"]
+		}, {
+			"type": "synonyms",
+			"value": "Sebastian",
+			"created": "2017-10-25T13:28:59.922Z",
+			"updated": "2017-10-25T18:39:09.351Z",
+			"metadata": null,
+			"synonyms": ["Seba", "SEBI", "sebas", "sebastian"]
+		}, {
+			"type": "synonyms",
+			"value": "Diego",
+			"created": "2017-10-24T18:39:33.659Z",
+			"updated": "2017-10-25T18:35:59.881Z",
+			"metadata": null,
+			"synonyms": ["diego"]
+		}, {
+			"type": "synonyms",
+			"value": "Luciano",
+			"created": "2017-10-24T18:41:10.698Z",
+			"updated": "2017-10-25T18:38:56.313Z",
+			"metadata": null,
+			"synonyms": ["lucho", "luciano"]
+		}, {
+			"type": "synonyms",
+			"value": "Romina",
+			"created": "2017-10-24T18:39:40.273Z",
+			"updated": "2017-10-25T18:39:46.329Z",
+			"metadata": null,
+			"synonyms": ["romi"]
+		}, {
+			"type": "synonyms",
+			"value": "Valeria",
+			"created": "2017-10-24T18:40:15.528Z",
+			"updated": "2017-10-25T18:39:52.636Z",
+			"metadata": null,
+			"synonyms": ["vale"]
+		}, {
+			"type": "synonyms",
+			"value": "Pancho",
+			"created": "2017-10-24T18:40:17.359Z",
+			"updated": "2017-11-23T18:59:16.063Z",
+			"metadata": null,
+			"synonyms": ["Francisco"]
+		}, {
+			"type": "synonyms",
+			"value": "Facu",
+			"created": "2017-10-24T18:41:06.908Z",
+			"updated": "2017-11-23T18:59:06.875Z",
+			"metadata": null,
+			"synonyms": ["facundo", "faku"]
+		}, {
+			"type": "synonyms",
+			"value": "Pau",
+			"created": "2017-11-24T00:47:14.526Z",
+			"updated": "2017-11-24T00:47:14.526Z",
+			"metadata": null,
+			"synonyms": ["paula", "pauloncha", "pauli", "pau"]
+		}],
+		"created": "2017-10-24T18:38:09.022Z",
+		"updated": "2017-11-24T00:47:14.526Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "es",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["¡Excelente Respuesta! El segundo acertijo es: Va por la calle una carreta oscura sin luces. Todos los faroles de la calle están apagados, no hay resplandor de ninguna casa. De pronto, un gato negro se cruza por delante de la carreta, sin embargo, el conductor frena a tiempo antes de atropellarlo. ¿Cómo lo vió?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_11_1508941278086",
+		"context": null,
+		"created": "2017-10-25T15:13:25.304Z",
+		"updated": "2017-11-18T22:25:04.224Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#acertijo1correcto",
+		"description": null,
+		"dialog_node": "node_15_1508944411403",
+		"previous_sibling": "node_12_1508942542009"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["respuesta incorrecta, intentalo de nuevo."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_11_1508941278086",
+		"context": null,
+		"created": "2017-10-25T15:14:01.015Z",
+		"updated": "2017-10-25T15:14:53.044Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "!#acertijo1correcto",
+		"description": null,
+		"dialog_node": "node_16_1508944447141",
+		"previous_sibling": "node_15_1508944411403"
+	}, {
+		"type": "standard",
+		"title": "acertijo correcto 2",
+		"output": {},
+		"parent": "node_11_1508941278086",
+		"context": null,
+		"created": "2017-10-25T14:42:15.863Z",
+		"updated": "2017-10-25T17:55:05.095Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#acertijo2correcto || !#acertijo2correcto",
+		"description": null,
+		"dialog_node": "node_12_1508942542009",
+		"previous_sibling": "node_19_1508946866835"
+	}, {
+		"type": "standard",
+		"title": "segunda oportunidad acertijo 1",
+		"output": {},
+		"parent": "node_11_1508941278086",
+		"context": null,
+		"created": "2017-10-25T15:54:20.711Z",
+		"updated": "2017-10-25T17:53:28.192Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_11_1508941278086"
+		},
+		"conditions": "#acertijo1correcto",
+		"description": null,
+		"dialog_node": "node_19_1508946866835",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hola @Nombre. Si has llegado hasta aquí es porque estas muy cerca de encontrar a Fiona, rescatarla del mago bi-dente, y tener una cita con ella. Te puedo ayudar a cumplir tu objetivo si respondes correctamente 3 acertijos, ¿estás de acuerdo?\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1508937139819",
+		"context": null,
+		"created": "2017-10-25T18:08:58.712Z",
+		"updated": "2017-11-23T18:57:07.230Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_1_1508954944838",
+		"previous_sibling": "node_2_1508954946802"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hola <?input_text?>. Si has llegado hasta aquí es porque estas muy cerca de encontrar a Fiona, rescatarla del mago bi-dente, y tener una cita con ella. Te puedo ayudar a cumplir tu objetivo si respondes correctamente 3 acertijos, ¿estás de acuerdo?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1508937139819",
+		"context": {
+			"name": "<?input_text?>"
+		},
+		"created": "2017-10-25T18:09:00.702Z",
+		"updated": "2017-11-23T19:03:58.994Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "!@Nombre",
+		"description": null,
+		"dialog_node": "node_2_1508954946802",
+		"previous_sibling": "node_2_1508938426739"
+	}, {
+		"type": "standard",
+		"title": "comienzo del acertijo acertijo",
+		"output": {},
+		"parent": "node_1_1508937139819",
+		"context": null,
+		"created": "2017-10-25T13:33:40.668Z",
+		"updated": "2017-10-25T19:16:30.653Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#aceptacion || #negacion",
+		"description": null,
+		"dialog_node": "node_2_1508938426739",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["intentalo de nuevo"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_12_1508942542009",
+		"context": null,
+		"created": "2017-10-25T16:01:06.669Z",
+		"updated": "2017-10-25T16:01:38.604Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "!#acertijo2correcto",
+		"description": null,
+		"dialog_node": "node_21_1508947272719",
+		"previous_sibling": "node_20_1508947270107"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["¡Excelente! El tercer y ultimo acertijo es: Un bastón y un libro cuestan 110 monedas de oro. El baston cuesta 100 monedas más que el libro. Así que, ¿cuánto cuesta el libro?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_12_1508942542009",
+		"context": null,
+		"created": "2017-10-25T16:01:04.041Z",
+		"updated": "2017-11-18T22:24:22.288Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#acertijo2correcto",
+		"description": null,
+		"dialog_node": "node_20_1508947270107",
+		"previous_sibling": "node_13_1508942805230"
+	}, {
+		"type": "standard",
+		"title": "acertijo correcto 3",
+		"output": {},
+		"parent": "node_12_1508942542009",
+		"context": null,
+		"created": "2017-10-25T14:46:39.894Z",
+		"updated": "2017-10-25T17:55:19.434Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#acertijo3correcto || !#acertijo3correcto",
+		"description": null,
+		"dialog_node": "node_13_1508942805230",
+		"previous_sibling": "node_22_1508947480453"
+	}, {
+		"type": "standard",
+		"title": "segunda oportunidad acertijo 2",
+		"output": {},
+		"parent": "node_12_1508942542009",
+		"context": null,
+		"created": "2017-10-25T16:04:34.310Z",
+		"updated": "2017-10-25T16:06:31.335Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_12_1508942542009"
+		},
+		"conditions": "#acertijo2correcto",
+		"description": null,
+		"dialog_node": "node_22_1508947480453",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["¡Genial! Entonces pasemos al primer acertijo: Tiro un anillo a una taza llena de café y no se moja. ¿Por qué?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1508938426739",
+		"context": null,
+		"created": "2017-10-25T13:34:13.282Z",
+		"updated": "2017-10-25T19:31:43.806Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#aceptacion",
+		"description": null,
+		"dialog_node": "node_3_1508938459332",
+		"previous_sibling": "node_11_1508941278086"
+	}, {
+		"type": "standard",
+		"title": "acertijo correcto 1",
+		"output": {},
+		"parent": "node_2_1508938426739",
+		"context": null,
+		"created": "2017-10-25T14:21:11.950Z",
+		"updated": "2017-10-25T15:57:08.526Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#acertijo1correcto || !#acertijo1correcto",
+		"description": null,
+		"dialog_node": "node_11_1508941278086",
+		"previous_sibling": "node_1_1508959093160"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["No puedas continuar con tu búsqueda si no respondes los acertijos. Al menos intentalo, ¿qué decís?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1508938426739",
+		"context": null,
+		"created": "2017-10-25T14:08:11.231Z",
+		"updated": "2017-10-25T19:32:28.482Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#negacion",
+		"description": null,
+		"dialog_node": "node_10_1508940497217",
+		"previous_sibling": "node_3_1508938459332"
+	}, {
+		"type": "standard",
+		"title": "Negacion",
+		"output": {
+			"text": {
+				"values": ["¡Si cambiás de opinión y aceptás el desafío aca estaré esperando!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1508938426739",
+		"context": null,
+		"created": "2017-10-25T19:18:13.292Z",
+		"updated": "2017-10-25T19:32:49.578Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#negacion",
+		"description": null,
+		"dialog_node": "node_1_1508959093160",
+		"previous_sibling": "node_18_1508946685708"
+	}, {
+		"type": "standard",
+		"title": "aceptacion",
+		"output": {},
+		"parent": "node_2_1508938426739",
+		"context": null,
+		"created": "2017-10-25T15:51:19.584Z",
+		"updated": "2017-10-25T15:57:37.443Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_2_1508938426739"
+		},
+		"conditions": "#aceptacion",
+		"description": null,
+		"dialog_node": "node_18_1508946685708",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["vuelve a intentarlo"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_13_1508942805230",
+		"context": null,
+		"created": "2017-10-25T16:09:01.883Z",
+		"updated": "2017-10-25T16:09:25.948Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "!#acertijo3correcto",
+		"description": null,
+		"dialog_node": "node_25_1508947748019",
+		"previous_sibling": "node_24_1508947734612"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Por haber respondido todos los acertijos correctamente aquí tienes tu premio: <br> <br> ¡YO SOY FIONA!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_13_1508942805230",
+		"context": null,
+		"created": "2017-10-25T16:08:48.492Z",
+		"updated": "2017-10-25T19:36:10.801Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#acertijo3correcto",
+		"description": null,
+		"dialog_node": "node_24_1508947734612",
+		"previous_sibling": "node_23_1508947608934"
+	}, {
+		"type": "standard",
+		"title": "segunda oportunidad acertijo 3",
+		"output": {},
+		"parent": "node_13_1508942805230",
+		"context": null,
+		"created": "2017-10-25T16:06:42.796Z",
+		"updated": "2017-10-25T16:07:46.030Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_13_1508942805230"
+		},
+		"conditions": "#acertijo3correcto",
+		"description": null,
+		"dialog_node": "node_23_1508947608934",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "SALUDO - HARDCODED",
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T23:39:19.726Z",
+		"updated": "2017-11-23T20:40:27.793Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Bienvenido"
+		},
+		"conditions": "#SALUDO",
+		"description": null,
+		"dialog_node": "node_1_1510875559367",
+		"previous_sibling": "node_1_1508937139819"
+	}, {
+		"type": "standard",
+		"title": "En otras cosas",
+		"output": {
+			"text": {
+				"values": ["No entendí lo que me quisiste decir"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-24T18:47:31.246Z",
+		"updated": "2017-10-25T19:36:36.260Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "En otras cosas",
+		"previous_sibling": "node_1_1510875559367"
+	}, {
+		"type": "standard",
+		"title": "Presentacion",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-25T13:12:13.772Z",
+		"updated": "2017-11-23T19:01:09.968Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_1_1508937139819",
+		"previous_sibling": "Bienvenido"
+	}, {
+		"type": "standard",
+		"title": "Bienvenido",
+		"output": {
+			"text": {
+				"values": ["¡Hola! Soy Sirius, el gran viejo sabio, Guardian de los Senderos del Bosque Mágico. ¿Cuál es tu nombre?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-10-24T18:47:31.246Z",
+		"updated": "2017-11-24T00:46:51.581Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Bienvenido",
+		"previous_sibling": null
+	}],
+	"workspace_id": "2c4f3502-a653-4fb4-a74e-c59b424f8cb5",
+	"counterexamples": [{
+		"text": "tu vieja",
+		"created": "2017-10-25T16:11:05.898Z",
+		"updated": "2017-10-25T16:11:05.898Z"
+	}],
+	"learning_opt_out": false
+}

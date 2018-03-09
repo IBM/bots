@@ -1,1 +1,1405 @@
-{"name":"WDC-C9-Demo","created":"2018-01-09T21:41:44.613Z","intents":[{"intent":"greeting","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Good day","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Hi","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Good morning","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Good evening","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Good afternoon","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Hello","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"UK","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Great Britain","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"The UK","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"UK","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"United Kingdom","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"data_subjects","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"How does this affect people","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Does this have an effect on my customers","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does GDPR affect my clients","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Does GDPR give people new rights on how their data is processed","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does this affect people whose data is handled by my company","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is a data subject","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How are my customers affected by GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"who_is_affected","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Does GDPR apply to public organizations","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Who is affected by GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Which organisations are impacted by GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Is my organization required to comply with GDPR rules","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Do I have to adopt the GDPR directives","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"data_breach","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"How does GDPR affect data breaches","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What must I do in the event of a data breach","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does GDPR affect the regulations relating to data breaches","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does GDPR impact data breaches","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"help","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Where else can I get more information","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How do I get further information","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Who can help me more","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Where can I get help with GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Where can I get further information from","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"one_stop_shop","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Where is the single information source on data privacy regulation","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Is there be a single point of contact for GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Where is the single information source on GDPR regulation","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Will GDPR create a one-stop-shop for data privacy regulation","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"data_protection_officer","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Do I need to appoint a data protection officer","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Who needs to appoint a data protection officer","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Do I need to appoint a DPO","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Who needs to appoint a DPO","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Which organisations need to appoint a DPO","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Which organisations need to appoint a data protection officer","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"data_processor","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"What is the new form of the consent","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is the impact of GDPR on conditions for consent","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does GDPR affect conditions for consent","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Do I need to present the purpose of data processing","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Can I use my current terms and conditions","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Does GDPR affect non-sensitive data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What happens if only non-sensitive data is processed","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"EU_countries","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Which countries are covered by GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"In which countries are companies affected","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"In which countries is the GDPR being implemented","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"In which countries are the new rules being enforced","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Which countries are implementing the new rules","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Which countries are implementing GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What countries are in the EU","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What countries are affected by GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"In which countries are people affected","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"children","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Does a child need parental consensus","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What about data subjects under the age of 15","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What about consensus for children below the age of 16","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What about consensus for children younger than 16","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Do children need a parental consensus","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What about personal data processing of children","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Is parental consent required for children","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Is parental consensus necessary for children","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"regulation","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Is GDPR a recommendation","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What has changed in legal terms compared to the past","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Is it a regulation or a directive","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Is the new legislation more restrictive than before","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is the difference between a regulation and a directive","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"implications","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"How will GDPR impact me","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How will GDP impact my company","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What are the implications of GDPR on my data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What are the implications of GDPR on my organization","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What are the implications of GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"date","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"When do I need to be GDPR compliant","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"When does GDPR come into effect","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"penalties","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"What are the implications of not complying with the new rules","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is the cost of not being compliant","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What happens if we do nothing?","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Are there penalties for non compliance","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What are the penalties for non-compliance","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Are there penalties if I am non-compliant","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Are there penalties for non compliance?","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"If I am non-compliant what happens","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What happens if we do nothing","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"understand_roles","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"What does the data processor do","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is a data processor","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What does the data controller do","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is the responsibility of the data processor","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is the difference between a data processor and a data controller","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is a data controller","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is the responsibility of the data controller","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"personal_data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Can you give me a list of personal data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What are examples of personal data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Are posts on social media personal data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What personal data falls under GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is personal data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"complicated","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"This is complicated","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Why is this so complicated","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"I'm finding this very confusing","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"I'm confused","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"This is all very complicated","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"transfer","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"How does GDPR affect privacy shield","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does GDPR affect Safe Harbor","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does GDPR affect the transfer of data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What about the transfer of data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What about data transmissions to third parties","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does GDPR affect the transfer of data to 3rd parties","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What about the transfer of data to 3rd parties","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"acronym","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"What does the term GDPR mean","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What does GDPR stand for","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"brexit","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"How will Brexit affect GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Does the UK need to be compliant with GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"If I sell goods or services to non-EU citizens do I need to be GDPR compliant","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Will the UK need to be compliant with GDPR post Brexit","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What happens if the UK leaves the EU","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"consent","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"How do I get consent from a person","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is the meaning of consent","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What is the difference between explicit and unambiguous consent","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"Do data processors need explicit or unambiguous data subject consent","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What consents are needed for GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"How does GDPR change the consents needed","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"welcome","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"Hello - how can I help you with GDPR?","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null},{"intent":"countries","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[],"description":null},{"intent":"data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","examples":[{"text":"What data is affected","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What kinds of data does GDPR apply to","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"What types of data are affected by GDPR","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"},{"text":"To what data does GDPR apply","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z"}],"description":null}],"updated":"2018-01-09T21:41:44.613Z","entities":[{"entity":"dpo","values":[{"type":"synonyms","value":"data","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]}],"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"description":null},{"entity":"Country","values":[{"type":"synonyms","value":"Germany","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":["Deutschland"]},{"type":"synonyms","value":"France","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":["France"]},{"type":"synonyms","value":"UK","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":["Scotland","Wales","Northern Ireland","United Kingdom","Great Britain","GB","The UK"]},{"type":"synonyms","value":"Italy","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":["Italy"]},{"type":"synonyms","value":"Norway","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Sweden","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Finland","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Austria","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Spain","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Portugal","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Belgium","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Greece","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Poland","created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"synonyms":[]}],"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"GDPR advisor","dialog_nodes":[{"type":"standard","title":null,"output":{"text":{"values":["<br><img src=\"https://52fc91b4-8809-4795-b3c0-b668a7ed77db-bluemix.cloudant.com/nodered/748ab0b61ced274b16752d8bc1860f92/rashik.png\" height=\"230\" width=\"230\"><br>"],"selection_policy":"sequential"}},"parent":"Contacts","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Rashik","previous_sibling":"Tony"},{"type":"standard","title":null,"output":{"text":{"values":["<br><img src=\"https://8924dd50-adf8-4cc7-9fb8-ef7881a06ea6-bluemix.cloudant.com/nodered/4426d12dafdbd3e23d7548a3e552638e/adam.png\" height=\"230\" width=\"230\"><br>"],"selection_policy":"sequential"}},"parent":"Contacts","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Adam","previous_sibling":"Rashik"},{"type":"standard","title":null,"output":{"text":{"values":["<br><img src=\"https://52fc91b4-8809-4795-b3c0-b668a7ed77db-bluemix.cloudant.com/nodered/eceb75c96b821f22a3d2eeb344c55840/tony.png\" height=\"230\" width=\"230\"><br>"],"selection_policy":"sequential"}},"parent":"Contacts","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Tony","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["For questions relating to GDPR in France please contact Tony Horrocks","Tony Horrocks can help you with GDPR questions in France"],"selection_policy":"sequential"}},"parent":"Which_Country","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Tony"},"conditions":"@Country:France","description":null,"dialog_node":"France","previous_sibling":"Germany"},{"type":"standard","title":null,"output":{"text":{"values":["Ciao. You can get help on GDPR issues in Italy from Rashik Parmar."],"selection_policy":"sequential"}},"parent":"Which_Country","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Rashik"},"conditions":"@Country:Italy","description":null,"dialog_node":"Italy","previous_sibling":"France"},{"type":"standard","title":null,"output":{"text":{"values":["The contact for GDPR in Germany is Rashik Parmar","Rashik Parmar can help you with question on GDPR relating to Germany"],"selection_policy":"sequential"}},"parent":"Which_Country","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Rashik"},"conditions":"@Country:Germany","description":null,"dialog_node":"Germany","previous_sibling":"UK"},{"type":"standard","title":null,"output":{"text":{"values":["The contact for GDPR in the UK is Adam Hammond","Adam Hammon can help you with GDPR questions in the UK"],"selection_policy":"sequential"}},"parent":"Which_Country","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Adam"},"conditions":"@Country:UK","description":null,"dialog_node":"UK","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["You can get further information on GDPR and how to ensure that your organization is prepared by contacting your local IBM representative."],"selection_policy":"sequential"}},"parent":"Help","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_2_1498052314853","previous_sibling":"Which_Country"},{"type":"standard","title":null,"output":{"text":{"values":["In which country does your organization operate?"],"selection_policy":"sequential"}},"parent":"Help","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Which_Country","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["If you process data about individuals in the context of selling goods or services to citizens in other EU countries then you will need to comply with the GDPR, irrespective as to whether or not the UK retains the GDPR post-Brexit. If your activities are limited to the UK, then the position (after the initial exit period) is much less clear. The UK Government has indicated it will implement an equivalent or alternative legal mechanisms. Our expectation is that any such legislation will largely follow the GDPR, given the support previously provided to the GDPR by the ICO and UK Government as an effective privacy standard, together with the fact that the GDPR provides a clear baseline against which UK business can seek continued access to the EU digital market."],"selection_policy":"sequential"}},"parent":"Brexit","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_1_1498038079367","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["The GDPR was approved and adopted by the EU Parliament in April 2016. The regulation will take effect after a two-year transition period and, unlike a Directive it does not require any enabling legislation to be passed by government; meaning it will be in force May 2018."],"selection_policy":"sequential"}},"parent":"Date","context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_2_1498038293730","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Any information related to a natural person or ‘Data Subject’, that can be used to directly or indirectly identify the person. It can be anything from a name, a photo, an email address, bank details, posts on social networking websites, medical information, or a computer IP address."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#personal_data || #data","description":null,"dialog_node":"Personal_Data","previous_sibling":"Penalties"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#date","description":null,"dialog_node":"Date","previous_sibling":"Personal_Data"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Contacts","previous_sibling":"Acronym"},{"type":"standard","title":null,"output":{"text":{"values":["The transfer of personal data provisions remain largely the same as was outlined in the previous directive. Transfer mechanisms such as Model Clauses and Binding Corporate Rules can still be used. Data transfers under the mechanisms of ‘Safe Harbor’ are no longer permissible, following its invalidation in October 2015. For data transfers previously held under ‘Safe Harbor,’ the renamed ‘Privacy Shield’ agreement has yet to be approved by the EU Member States. This transfer mechanism has more stringent rules then the previous Safe Harbor agreement. For example, it offers more channels for the data subject to seek redress."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#transfer","description":null,"dialog_node":"Transfer","previous_sibling":"Contacts"},{"type":"standard","title":null,"output":{"text":{"values":["DPOs mustbe appointed in the case of: (a) public authorities, (b) organizations that engage in large scale systematic monitoring, or (c) organizations that engage in large scale processing of sensitive personal data (Art. 37).  If your organization doesn’t fall into one of these categories, then you do not need to appoint a DPO."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#data_protection_officer","description":null,"dialog_node":"Data_Protection_Officer","previous_sibling":"Implications"},{"type":"standard","title":null,"output":{"text":{"values":["The conditions for consent have been strengthened, as companies will no longer be able to utilise long illegible terms and conditions full of legalese, as the request for consent must be given in an intelligible and easily accessible form, with the purpose for data processing attached to that consent - meaning it must be unambiguous. Consent must be clear and distinguishable from other matters and provided in an intelligible and easily accessible form, using clear and plain language. It must be as easy to withdraw consent as it is to give it.​  Explicit consent is required only for processing sensitive personal data - in this context, nothing short of “opt in” will suffice. However, for non-sensitive data, “unambiguous” consent will suffice."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#consent","description":null,"dialog_node":"Consent","previous_sibling":"Complicated"},{"type":"standard","title":null,"output":{"text":{"values":["A controller is the entity that determines the purposes, conditions and means of the processing of personal data, while the processor is an entity which processes personal data on behalf of the controller."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#data_processor","description":null,"dialog_node":"Data_Processor","previous_sibling":"Data_Protection_Officer"},{"type":"standard","title":null,"output":{"text":{"values":["GDPR stands for General Data Protection Regulation. The General Data Protection Regulation (GDPR) (Regulation (EU) 2016/679) is a regulation by which the European Parliament, the Council of the European Union and the European Commission intend to strengthen and unify data protection for all individuals within the European Union (EU)."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#acronym","description":null,"dialog_node":"Acronym","previous_sibling":"Countries"},{"type":"standard","title":null,"output":{"text":{"values":["Proposed regulations surrounding data breaches primarily relate to the notification policies of companies that have been breached. Data breaches which may pose a risk to individuals must be notified to the DPA within 72 hours and to affected individuals without undue delay."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#data_breach","description":null,"dialog_node":"Data_Breach","previous_sibling":"Data_Processor"},{"type":"standard","title":null,"output":{"text":{"values":["GDPR applies if the data controller (organization that collects data from EU residents) or processor (organization that processes data on behalf of data controller e.g. cloud service providers) or the data subject (person) is based in the EU."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#countries","description":null,"dialog_node":"Countries","previous_sibling":"EU"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#brexit","description":null,"dialog_node":"Brexit","previous_sibling":"Data_Breach"},{"type":"standard","title":null,"output":{"text":{"values":["Organizations can be fined up to 4% of annual global turnover for breaching GDPR or €20 Million. This is the maximum fine that can be imposed for the most serious infringements e.g.not having sufficient customer consent to process data or violating the core of Privacy by Design concepts. There is a tiered approach to fines e.g. a company can be fined 2% for not having their records in order (article 28), not notifying the supervising authority and data subject about a breach or not conducting impact assessment. It is important to note that these rules apply to both controllers and processors -- meaning 'clouds' will not be exempt from GDPR enforcement."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#penalties","description":null,"dialog_node":"Penalties","previous_sibling":"Children"},{"type":"standard","title":null,"output":{"text":{"values":["Yes - GDPR is very complicated."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Help"},"conditions":"#complicated","description":null,"dialog_node":"Complicated","previous_sibling":"Help"},{"type":"standard","title":null,"output":{"text":{"values":["Parental consent will be required to process the personal data of children under the age of 16 for online services; member states may legislate for a lower age of consent but this will not be below the age of 13."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#children","description":null,"dialog_node":"Children","previous_sibling":"Brexit"},{"type":"standard","title":null,"output":{"text":{"values":["A Data Controller is the entity that determines the purposes, conditions and means of the processing of personal data, while the Data Processor is an entity which processes personal data on behalf of the controller."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#understand_roles","description":null,"dialog_node":"Understand_Roles","previous_sibling":"Consent"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Which_Country"},"conditions":"#help","description":null,"dialog_node":"Help","previous_sibling":"Welcome"},{"type":"standard","title":null,"output":{"text":{"values":["Data subjects, people whose personal data is stored, have new mandatory rights which give them more control over their personal data. This includes, amongst others, the right to be forgotten (erasure) and the right to data portability. Data subjects who require more information on their data and the rights they have will also be able to request that more easily than they can today, and information about actions taken to satisfy their rights need to be provided within a month in principle."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#data_subjects","description":null,"dialog_node":"Data_Subjects","previous_sibling":"Transfer"},{"type":"standard","title":null,"output":{"text":{"values":["GDPR applies to all countries in the EU (Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom)"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#EU_countries","description":null,"dialog_node":"EU","previous_sibling":"Understand_Roles"},{"type":"standard","title":null,"output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"Date"},{"type":"standard","title":null,"output":{"text":{"values":["The GDPR introduces significant changes to how companies must handle and process personal data. Processes from collection, processing, retention and deletion will have to be revised so they are compliant under the stricter data protection rules. Internal governance processes will have to change."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"#implications","description":null,"dialog_node":"Implications","previous_sibling":"Data_Subjects"},{"type":"standard","title":null,"output":{"text":{"values":["Hello. I am a GDPR advisor, how can I help you?","Hello. How can I help you with GDPR?","Hi - how can I help with GDPR today?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:41:44.613Z","updated":"2018-01-09T21:41:44.613Z","metadata":null,"next_step":null,"conditions":"input.text == 'init' || #greeting || welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"715c17fb-4ffc-434c-80ee-d9a716791c99","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "GDPR Advisor",
+	"created": "2018-01-09T21:41:44.613Z",
+	"intents": [{
+		"intent": "greeting",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Good day",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Hi",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Good morning",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Good evening",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Good afternoon",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Hello",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "UK",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Great Britain",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "The UK",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "UK",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "United Kingdom",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "data_subjects",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "How does this affect people",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Does this have an effect on my customers",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does GDPR affect my clients",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Does GDPR give people new rights on how their data is processed",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does this affect people whose data is handled by my company",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is a data subject",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How are my customers affected by GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "who_is_affected",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Does GDPR apply to public organizations",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Who is affected by GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Which organisations are impacted by GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Is my organization required to comply with GDPR rules",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Do I have to adopt the GDPR directives",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "data_breach",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "How does GDPR affect data breaches",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What must I do in the event of a data breach",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does GDPR affect the regulations relating to data breaches",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does GDPR impact data breaches",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "help",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Where else can I get more information",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How do I get further information",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Who can help me more",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Where can I get help with GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Where can I get further information from",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "one_stop_shop",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Where is the single information source on data privacy regulation",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Is there be a single point of contact for GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Where is the single information source on GDPR regulation",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Will GDPR create a one-stop-shop for data privacy regulation",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "data_protection_officer",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Do I need to appoint a data protection officer",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Who needs to appoint a data protection officer",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Do I need to appoint a DPO",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Who needs to appoint a DPO",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Which organisations need to appoint a DPO",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Which organisations need to appoint a data protection officer",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "data_processor",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "What is the new form of the consent",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is the impact of GDPR on conditions for consent",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does GDPR affect conditions for consent",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Do I need to present the purpose of data processing",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Can I use my current terms and conditions",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Does GDPR affect non-sensitive data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What happens if only non-sensitive data is processed",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "EU_countries",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Which countries are covered by GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "In which countries are companies affected",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "In which countries is the GDPR being implemented",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "In which countries are the new rules being enforced",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Which countries are implementing the new rules",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Which countries are implementing GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What countries are in the EU",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What countries are affected by GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "In which countries are people affected",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "children",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Does a child need parental consensus",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What about data subjects under the age of 15",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What about consensus for children below the age of 16",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What about consensus for children younger than 16",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Do children need a parental consensus",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What about personal data processing of children",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Is parental consent required for children",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Is parental consensus necessary for children",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "regulation",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Is GDPR a recommendation",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What has changed in legal terms compared to the past",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Is it a regulation or a directive",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Is the new legislation more restrictive than before",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is the difference between a regulation and a directive",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "implications",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "How will GDPR impact me",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How will GDP impact my company",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What are the implications of GDPR on my data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What are the implications of GDPR on my organization",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What are the implications of GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "date",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "When do I need to be GDPR compliant",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "When does GDPR come into effect",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "penalties",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "What are the implications of not complying with the new rules",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is the cost of not being compliant",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What happens if we do nothing?",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Are there penalties for non compliance",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What are the penalties for non-compliance",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Are there penalties if I am non-compliant",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Are there penalties for non compliance?",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "If I am non-compliant what happens",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What happens if we do nothing",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "understand_roles",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "What does the data processor do",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is a data processor",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What does the data controller do",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is the responsibility of the data processor",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is the difference between a data processor and a data controller",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is a data controller",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is the responsibility of the data controller",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "personal_data",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Can you give me a list of personal data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What are examples of personal data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Are posts on social media personal data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What personal data falls under GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is personal data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "complicated",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "This is complicated",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Why is this so complicated",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "I'm finding this very confusing",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "I'm confused",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "This is all very complicated",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "transfer",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "How does GDPR affect privacy shield",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does GDPR affect Safe Harbor",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does GDPR affect the transfer of data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What about the transfer of data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What about data transmissions to third parties",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does GDPR affect the transfer of data to 3rd parties",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What about the transfer of data to 3rd parties",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "acronym",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "What does the term GDPR mean",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What does GDPR stand for",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "brexit",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "How will Brexit affect GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Does the UK need to be compliant with GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "If I sell goods or services to non-EU citizens do I need to be GDPR compliant",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Will the UK need to be compliant with GDPR post Brexit",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What happens if the UK leaves the EU",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "consent",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "How do I get consent from a person",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is the meaning of consent",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What is the difference between explicit and unambiguous consent",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "Do data processors need explicit or unambiguous data subject consent",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What consents are needed for GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "How does GDPR change the consents needed",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "welcome",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "Hello - how can I help you with GDPR?",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}, {
+		"intent": "countries",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [],
+		"description": null
+	}, {
+		"intent": "data",
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"examples": [{
+			"text": "What data is affected",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What kinds of data does GDPR apply to",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "What types of data are affected by GDPR",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}, {
+			"text": "To what data does GDPR apply",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-01-09T21:41:44.613Z",
+	"entities": [{
+		"entity": "dpo",
+		"values": [{
+			"type": "synonyms",
+			"value": "data",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Country",
+		"values": [{
+			"type": "synonyms",
+			"value": "Germany",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": ["Deutschland"]
+		}, {
+			"type": "synonyms",
+			"value": "France",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": ["France"]
+		}, {
+			"type": "synonyms",
+			"value": "UK",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": ["Scotland", "Wales", "Northern Ireland", "United Kingdom", "Great Britain", "GB", "The UK"]
+		}, {
+			"type": "synonyms",
+			"value": "Italy",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": ["Italy"]
+		}, {
+			"type": "synonyms",
+			"value": "Norway",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Sweden",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Finland",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Austria",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Spain",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Portugal",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Belgium",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Greece",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Poland",
+			"created": "2018-01-09T21:41:44.613Z",
+			"updated": "2018-01-09T21:41:44.613Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "GDPR advisor",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["<br><img src=\"https://52fc91b4-8809-4795-b3c0-b668a7ed77db-bluemix.cloudant.com/nodered/748ab0b61ced274b16752d8bc1860f92/rashik.png\" height=\"230\" width=\"230\"><br>"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Contacts",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Rashik",
+		"previous_sibling": "Tony"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["<br><img src=\"https://8924dd50-adf8-4cc7-9fb8-ef7881a06ea6-bluemix.cloudant.com/nodered/4426d12dafdbd3e23d7548a3e552638e/adam.png\" height=\"230\" width=\"230\"><br>"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Contacts",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Adam",
+		"previous_sibling": "Rashik"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["<br><img src=\"https://52fc91b4-8809-4795-b3c0-b668a7ed77db-bluemix.cloudant.com/nodered/eceb75c96b821f22a3d2eeb344c55840/tony.png\" height=\"230\" width=\"230\"><br>"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Contacts",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Tony",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["For questions relating to GDPR in France please contact Tony Horrocks", "Tony Horrocks can help you with GDPR questions in France"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Which_Country",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Tony"
+		},
+		"conditions": "@Country:France",
+		"description": null,
+		"dialog_node": "France",
+		"previous_sibling": "Germany"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ciao. You can get help on GDPR issues in Italy from Rashik Parmar."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Which_Country",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Rashik"
+		},
+		"conditions": "@Country:Italy",
+		"description": null,
+		"dialog_node": "Italy",
+		"previous_sibling": "France"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The contact for GDPR in Germany is Rashik Parmar", "Rashik Parmar can help you with question on GDPR relating to Germany"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Which_Country",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Rashik"
+		},
+		"conditions": "@Country:Germany",
+		"description": null,
+		"dialog_node": "Germany",
+		"previous_sibling": "UK"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The contact for GDPR in the UK is Adam Hammond", "Adam Hammon can help you with GDPR questions in the UK"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Which_Country",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Adam"
+		},
+		"conditions": "@Country:UK",
+		"description": null,
+		"dialog_node": "UK",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You can get further information on GDPR and how to ensure that your organization is prepared by contacting your local IBM representative."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Help",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_2_1498052314853",
+		"previous_sibling": "Which_Country"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["In which country does your organization operate?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Help",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Which_Country",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["If you process data about individuals in the context of selling goods or services to citizens in other EU countries then you will need to comply with the GDPR, irrespective as to whether or not the UK retains the GDPR post-Brexit. If your activities are limited to the UK, then the position (after the initial exit period) is much less clear. The UK Government has indicated it will implement an equivalent or alternative legal mechanisms. Our expectation is that any such legislation will largely follow the GDPR, given the support previously provided to the GDPR by the ICO and UK Government as an effective privacy standard, together with the fact that the GDPR provides a clear baseline against which UK business can seek continued access to the EU digital market."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Brexit",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_1_1498038079367",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The GDPR was approved and adopted by the EU Parliament in April 2016. The regulation will take effect after a two-year transition period and, unlike a Directive it does not require any enabling legislation to be passed by government; meaning it will be in force May 2018."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Date",
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_2_1498038293730",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Any information related to a natural person or ‘Data Subject’, that can be used to directly or indirectly identify the person. It can be anything from a name, a photo, an email address, bank details, posts on social networking websites, medical information, or a computer IP address."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#personal_data || #data",
+		"description": null,
+		"dialog_node": "Personal_Data",
+		"previous_sibling": "Penalties"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#date",
+		"description": null,
+		"dialog_node": "Date",
+		"previous_sibling": "Personal_Data"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Contacts",
+		"previous_sibling": "Acronym"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The transfer of personal data provisions remain largely the same as was outlined in the previous directive. Transfer mechanisms such as Model Clauses and Binding Corporate Rules can still be used. Data transfers under the mechanisms of ‘Safe Harbor’ are no longer permissible, following its invalidation in October 2015. For data transfers previously held under ‘Safe Harbor,’ the renamed ‘Privacy Shield’ agreement has yet to be approved by the EU Member States. This transfer mechanism has more stringent rules then the previous Safe Harbor agreement. For example, it offers more channels for the data subject to seek redress."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#transfer",
+		"description": null,
+		"dialog_node": "Transfer",
+		"previous_sibling": "Contacts"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["DPOs mustbe appointed in the case of: (a) public authorities, (b) organizations that engage in large scale systematic monitoring, or (c) organizations that engage in large scale processing of sensitive personal data (Art. 37).  If your organization doesn’t fall into one of these categories, then you do not need to appoint a DPO."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#data_protection_officer",
+		"description": null,
+		"dialog_node": "Data_Protection_Officer",
+		"previous_sibling": "Implications"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The conditions for consent have been strengthened, as companies will no longer be able to utilise long illegible terms and conditions full of legalese, as the request for consent must be given in an intelligible and easily accessible form, with the purpose for data processing attached to that consent - meaning it must be unambiguous. Consent must be clear and distinguishable from other matters and provided in an intelligible and easily accessible form, using clear and plain language. It must be as easy to withdraw consent as it is to give it.​  Explicit consent is required only for processing sensitive personal data - in this context, nothing short of “opt in” will suffice. However, for non-sensitive data, “unambiguous” consent will suffice."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#consent",
+		"description": null,
+		"dialog_node": "Consent",
+		"previous_sibling": "Complicated"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["A controller is the entity that determines the purposes, conditions and means of the processing of personal data, while the processor is an entity which processes personal data on behalf of the controller."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#data_processor",
+		"description": null,
+		"dialog_node": "Data_Processor",
+		"previous_sibling": "Data_Protection_Officer"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["GDPR stands for General Data Protection Regulation. The General Data Protection Regulation (GDPR) (Regulation (EU) 2016/679) is a regulation by which the European Parliament, the Council of the European Union and the European Commission intend to strengthen and unify data protection for all individuals within the European Union (EU)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#acronym",
+		"description": null,
+		"dialog_node": "Acronym",
+		"previous_sibling": "Countries"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Proposed regulations surrounding data breaches primarily relate to the notification policies of companies that have been breached. Data breaches which may pose a risk to individuals must be notified to the DPA within 72 hours and to affected individuals without undue delay."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#data_breach",
+		"description": null,
+		"dialog_node": "Data_Breach",
+		"previous_sibling": "Data_Processor"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["GDPR applies if the data controller (organization that collects data from EU residents) or processor (organization that processes data on behalf of data controller e.g. cloud service providers) or the data subject (person) is based in the EU."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#countries",
+		"description": null,
+		"dialog_node": "Countries",
+		"previous_sibling": "EU"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#brexit",
+		"description": null,
+		"dialog_node": "Brexit",
+		"previous_sibling": "Data_Breach"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Organizations can be fined up to 4% of annual global turnover for breaching GDPR or €20 Million. This is the maximum fine that can be imposed for the most serious infringements e.g.not having sufficient customer consent to process data or violating the core of Privacy by Design concepts. There is a tiered approach to fines e.g. a company can be fined 2% for not having their records in order (article 28), not notifying the supervising authority and data subject about a breach or not conducting impact assessment. It is important to note that these rules apply to both controllers and processors -- meaning 'clouds' will not be exempt from GDPR enforcement."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#penalties",
+		"description": null,
+		"dialog_node": "Penalties",
+		"previous_sibling": "Children"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Yes - GDPR is very complicated."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Help"
+		},
+		"conditions": "#complicated",
+		"description": null,
+		"dialog_node": "Complicated",
+		"previous_sibling": "Help"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Parental consent will be required to process the personal data of children under the age of 16 for online services; member states may legislate for a lower age of consent but this will not be below the age of 13."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#children",
+		"description": null,
+		"dialog_node": "Children",
+		"previous_sibling": "Brexit"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["A Data Controller is the entity that determines the purposes, conditions and means of the processing of personal data, while the Data Processor is an entity which processes personal data on behalf of the controller."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#understand_roles",
+		"description": null,
+		"dialog_node": "Understand_Roles",
+		"previous_sibling": "Consent"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Which_Country"
+		},
+		"conditions": "#help",
+		"description": null,
+		"dialog_node": "Help",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Data subjects, people whose personal data is stored, have new mandatory rights which give them more control over their personal data. This includes, amongst others, the right to be forgotten (erasure) and the right to data portability. Data subjects who require more information on their data and the rights they have will also be able to request that more easily than they can today, and information about actions taken to satisfy their rights need to be provided within a month in principle."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#data_subjects",
+		"description": null,
+		"dialog_node": "Data_Subjects",
+		"previous_sibling": "Transfer"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["GDPR applies to all countries in the EU (Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#EU_countries",
+		"description": null,
+		"dialog_node": "EU",
+		"previous_sibling": "Understand_Roles"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Date"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The GDPR introduces significant changes to how companies must handle and process personal data. Processes from collection, processing, retention and deletion will have to be revised so they are compliant under the stricter data protection rules. Internal governance processes will have to change."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#implications",
+		"description": null,
+		"dialog_node": "Implications",
+		"previous_sibling": "Data_Subjects"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hello. I am a GDPR advisor, how can I help you?", "Hello. How can I help you with GDPR?", "Hi - how can I help with GDPR today?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:41:44.613Z",
+		"updated": "2018-01-09T21:41:44.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "input.text == 'init' || #greeting || welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "715c17fb-4ffc-434c-80ee-d9a716791c99",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

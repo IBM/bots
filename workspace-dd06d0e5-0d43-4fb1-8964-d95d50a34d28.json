@@ -1,1 +1,856 @@
-{"name":"Dental Appointment Booking Chatbot","created":"2017-11-01T17:13:12.465Z","intents":[{"intent":"greetings","created":"2017-11-02T18:11:46.556Z","updated":"2017-11-02T18:15:21.470Z","examples":[{"text":"Hi","created":"2017-11-02T18:14:55.637Z","updated":"2017-11-02T18:14:55.637Z"},{"text":"Hello","created":"2017-11-02T18:14:58.190Z","updated":"2017-11-02T18:14:58.190Z"},{"text":"Hey","created":"2017-11-02T18:15:03.879Z","updated":"2017-11-02T18:15:03.879Z"},{"text":"whats up","created":"2017-11-02T18:15:06.320Z","updated":"2017-11-02T18:15:06.320Z"},{"text":"what's up?","created":"2017-11-02T18:15:12.046Z","updated":"2017-11-02T18:15:12.046Z"},{"text":"Heyya","created":"2017-11-02T18:15:14.286Z","updated":"2017-11-02T18:15:14.286Z"},{"text":"sup?","created":"2017-11-02T18:15:15.888Z","updated":"2017-11-02T18:15:15.888Z"},{"text":"Hello there","created":"2017-11-02T18:15:21.470Z","updated":"2017-11-02T18:15:21.470Z"}],"description":null},{"intent":"book_appointment","created":"2017-11-02T03:47:35.593Z","updated":"2017-11-02T17:44:11.917Z","examples":[{"text":"Pls book an appointment","created":"2017-11-02T03:47:57.143Z","updated":"2017-11-02T17:43:50.247Z"},{"text":"Please help me book an appointment","created":"2017-11-02T03:48:30.600Z","updated":"2017-11-02T17:43:55.560Z"},{"text":"Help me book an appointment","created":"2017-11-02T03:48:10.655Z","updated":"2017-11-02T17:43:59.740Z"},{"text":"Can you pls help me book an appointment","created":"2017-11-02T03:48:43.394Z","updated":"2017-11-02T17:44:04.227Z"},{"text":"I need to book an appointment immediately","created":"2017-11-02T03:48:58.960Z","updated":"2017-11-02T17:44:11.917Z"},{"text":"Book appointment","created":"2017-11-02T03:47:52.634Z","updated":"2017-11-02T03:47:52.634Z"},{"text":"My tooth is aching","created":"2017-11-02T03:49:06.998Z","updated":"2017-11-02T03:49:06.998Z"},{"text":"I have a tooth pain","created":"2017-11-02T03:49:11.429Z","updated":"2017-11-02T03:49:11.429Z"},{"text":"I have cavity in my teeth","created":"2017-11-02T03:49:42.697Z","updated":"2017-11-02T03:49:42.697Z"},{"text":"cavity in my tooth","created":"2017-11-02T03:49:51.757Z","updated":"2017-11-02T03:49:51.757Z"},{"text":"tooth ache","created":"2017-11-02T03:50:17.879Z","updated":"2017-11-02T03:50:17.879Z"},{"text":"tooth decay","created":"2017-11-02T03:50:23.635Z","updated":"2017-11-02T03:50:23.635Z"},{"text":"Book an appointment","created":"2017-11-02T17:43:44.554Z","updated":"2017-11-02T17:43:44.554Z"}],"description":null},{"intent":"thanks","created":"2017-11-02T19:01:05.744Z","updated":"2017-11-02T19:01:23.071Z","examples":[{"text":"Thank you","created":"2017-11-02T19:01:10.657Z","updated":"2017-11-02T19:01:10.657Z"},{"text":"Thank you very much","created":"2017-11-02T19:01:17.947Z","updated":"2017-11-02T19:01:17.947Z"},{"text":"Thanks a lot","created":"2017-11-02T19:01:20.702Z","updated":"2017-11-02T19:01:20.702Z"},{"text":"Thanks","created":"2017-11-02T19:01:23.071Z","updated":"2017-11-02T19:01:23.071Z"}],"description":null}],"updated":"2017-11-02T19:07:02.368Z","entities":[{"entity":"personal_details","values":[{"type":"patterns","value":"emailid","created":"2017-11-02T18:52:23.011Z","updated":"2017-11-02T18:58:24.003Z","metadata":null,"patterns":["^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$"]}],"created":"2017-11-02T18:52:14.751Z","updated":"2017-11-02T18:58:24.003Z","metadata":null,"description":null},{"entity":"reason_for_visit","values":[{"type":"synonyms","value":"checkup","created":"2017-11-02T18:15:52.819Z","updated":"2017-11-02T18:16:11.204Z","metadata":null,"synonyms":["routine checkup","check up","private examination"]},{"type":"synonyms","value":"gum problem","created":"2017-11-02T18:16:55.123Z","updated":"2017-11-02T18:16:57.403Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"toothache","created":"2017-11-02T18:16:17.566Z","updated":"2017-11-02T18:16:46.860Z","metadata":null,"synonyms":["tooth ache","tooth pain","toothpain","tooth paining"]},{"type":"synonyms","value":"bridge","created":"2017-11-02T18:17:58.049Z","updated":"2017-11-02T18:17:59.470Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"filling","created":"2017-11-02T18:17:03.900Z","updated":"2017-11-02T18:17:11.411Z","metadata":null,"synonyms":["cavity"]},{"type":"synonyms","value":"denture","created":"2017-11-02T18:17:20.409Z","updated":"2017-11-02T18:17:24.189Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"dental implant","created":"2017-11-02T18:17:30.409Z","updated":"2017-11-02T18:17:32.538Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"crown","created":"2017-11-02T18:17:35.690Z","updated":"2017-11-02T18:17:39.957Z","metadata":null,"synonyms":["cap"]},{"type":"synonyms","value":"broken tooth","created":"2017-11-02T18:17:53.311Z","updated":"2017-11-02T18:17:53.357Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"tooth cleaning","created":"2017-11-02T18:18:03.401Z","updated":"2017-11-02T18:18:11.157Z","metadata":null,"synonyms":["tooth clean","teeth clean"]}],"created":"2017-11-02T18:15:46.089Z","updated":"2017-11-02T18:18:11.157Z","metadata":null,"description":null},{"entity":"sys-time","values":[],"created":"2017-11-02T17:43:30.088Z","updated":"2017-11-02T17:43:30.088Z","metadata":null,"description":null},{"entity":"list_of_doctors","values":[{"type":"synonyms","value":"dentist","created":"2017-11-02T17:43:22.789Z","updated":"2017-11-02T17:43:22.789Z","metadata":null,"synonyms":["prosthodontist","endodontist","periodontist","pedodontist","dental practitioner","dental","dentist's","orthodontist","exodontist","medical practitioner","tooth doctor","dental surgeon","doctor"]}],"created":"2017-11-02T17:43:22.789Z","updated":"2017-11-02T17:43:22.789Z","metadata":null,"description":null},{"entity":"sys-date","values":[],"created":"2017-11-02T04:02:52.865Z","updated":"2017-11-02T04:02:52.865Z","metadata":null,"description":null},{"entity":"sys-currency","values":[],"created":"2017-11-02T04:07:03.842Z","updated":"2017-11-02T04:07:03.842Z","metadata":null,"description":null},{"entity":"sys-location","values":[],"created":"2017-11-02T17:43:30.064Z","updated":"2017-11-02T17:43:30.064Z","metadata":null,"description":null},{"entity":"sys-percentage","values":[],"created":"2017-11-02T04:04:06.631Z","updated":"2017-11-02T04:04:06.631Z","metadata":null,"description":null},{"entity":"sys-person","values":[],"created":"2017-11-02T04:03:35.454Z","updated":"2017-11-02T04:03:35.454Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2017-11-02T17:43:30.071Z","updated":"2017-11-02T17:43:30.071Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"This is a beginner chatbot that can assist you in booking dental appointments and can also greet users in their timezone!","dialog_nodes":[{"type":"event_handler","title":null,"output":null,"parent":"slot_23_1509646887988","context":{"reason_for_visit":"@reason_for_visit"},"created":"2017-11-02T18:21:30.579Z","updated":"2017-11-02T18:22:01.771Z","metadata":null,"next_step":null,"conditions":"@reason_for_visit","event_name":"input","description":null,"dialog_node":"handler_24_1509646887988","previous_sibling":"handler_25_1509646887988"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter reason for appointment/visit"],"selection_policy":"sequential"}},"parent":"slot_23_1509646887988","context":null,"created":"2017-11-02T18:22:02.243Z","updated":"2017-11-02T18:22:02.243Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_27_1509646914427","previous_sibling":"handler_24_1509646887988"},{"type":"event_handler","title":null,"output":{"text":"Please enter reason for appointment/visit"},"parent":"slot_23_1509646887988","context":null,"created":"2017-11-02T18:21:31.070Z","updated":"2017-11-02T18:22:01.316Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_25_1509646887988","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_1_1509644683004","context":null,"created":"2017-11-02T18:22:11.489Z","updated":"2017-11-02T18:23:01.596Z","metadata":null,"variable":"$username","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_28_1509646931185","previous_sibling":"slot_23_1509646887988"},{"type":"slot","title":null,"output":null,"parent":"node_1_1509644683004","context":null,"created":"2017-11-02T18:20:06.646Z","updated":"2017-11-02T18:42:58.822Z","metadata":null,"variable":"$appointmentTime","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_18_1509646806293","previous_sibling":"slot_2_1509644887854"},{"type":"slot","title":null,"output":null,"parent":"node_1_1509644683004","context":null,"created":"2017-11-02T18:23:07.125Z","updated":"2017-11-02T18:50:10.539Z","metadata":null,"variable":"$Mobilenumber","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_33_1509646986800","previous_sibling":"slot_28_1509646931185"},{"type":"slot","title":null,"output":null,"parent":"node_1_1509644683004","context":null,"created":"2017-11-02T18:23:56.126Z","updated":"2017-11-02T18:53:43.131Z","metadata":null,"variable":"$emailID","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_38_1509647035830","previous_sibling":"slot_33_1509646986800"},{"type":"slot","title":null,"output":null,"parent":"node_1_1509644683004","context":null,"created":"2017-11-02T18:21:29.665Z","updated":"2017-11-02T18:22:01.288Z","metadata":null,"variable":"$reason_for_visit","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_23_1509646887988","previous_sibling":"slot_18_1509646806293"},{"type":"slot","title":null,"output":{},"parent":"node_1_1509644683004","context":null,"created":"2017-11-02T17:48:09.082Z","updated":"2017-11-02T18:37:19.078Z","metadata":null,"variable":"$appointmentDate","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_2_1509644887854","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Good Afternoon!Welcome to ABC Dental Clinic! How can I help you?"],"selection_policy":"sequential"}},"parent":"node_14_1509646294755","context":null,"created":"2017-11-02T18:12:08.043Z","updated":"2017-11-02T18:14:09.799Z","metadata":null,"next_step":null,"conditions":"now().before('16:00:00')","description":null,"dialog_node":"node_16_1509646327760","previous_sibling":"node_15_1509646306910"},{"type":"response_condition","title":null,"output":{"text":{"values":["Good Evening!Welcome to ABC Dental Clinic! How can I help you?"],"selection_policy":"sequential"}},"parent":"node_14_1509646294755","context":null,"created":"2017-11-02T18:12:28.810Z","updated":"2017-11-02T18:14:06.451Z","metadata":null,"next_step":null,"conditions":"now().before('24:00:00')","description":null,"dialog_node":"node_17_1509646348527","previous_sibling":"node_16_1509646327760"},{"type":"response_condition","title":null,"output":{"text":{"values":["Good Morning!Welcome to ABC Dental Clinic! How can I help you?"],"selection_policy":"sequential"}},"parent":"node_14_1509646294755","context":null,"created":"2017-11-02T18:11:47.272Z","updated":"2017-11-02T18:14:14.816Z","metadata":null,"next_step":null,"conditions":"now().before('12:00:00')","description":null,"dialog_node":"node_15_1509646306910","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter preferred appointment date!"],"selection_policy":"sequential"}},"parent":"slot_2_1509644887854","context":null,"created":"2017-11-02T18:02:41.683Z","updated":"2017-11-02T18:02:41.683Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_8_1509645349973","previous_sibling":"handler_3_1509644887855"},{"type":"event_handler","title":null,"output":{},"parent":"slot_2_1509644887854","context":{"appointmentDate":"@sys-date"},"created":"2017-11-02T17:48:09.603Z","updated":"2017-11-02T18:37:19.565Z","metadata":null,"next_step":null,"conditions":"@sys-date","event_name":"input","description":null,"dialog_node":"handler_3_1509644887855","previous_sibling":"handler_4_1509644887855"},{"type":"event_handler","title":null,"output":{"text":"Please enter preferred appointment date!"},"parent":"slot_2_1509644887854","context":null,"created":"2017-11-02T17:48:10.111Z","updated":"2017-11-02T18:02:40.695Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_4_1509644887855","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your full name!"],"selection_policy":"sequential"}},"parent":"slot_28_1509646931185","context":null,"created":"2017-11-02T18:23:03.502Z","updated":"2017-11-02T18:23:03.502Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_32_1509646970108","previous_sibling":"handler_29_1509646931185"},{"type":"event_handler","title":null,"output":null,"parent":"slot_28_1509646931185","context":{"username":"@sys-person"},"created":"2017-11-02T18:22:11.954Z","updated":"2017-11-02T18:23:03.017Z","metadata":null,"next_step":null,"conditions":"@sys-person","event_name":"input","description":null,"dialog_node":"handler_29_1509646931185","previous_sibling":"handler_30_1509646931185"},{"type":"event_handler","title":null,"output":{"text":"Please enter your full name"},"parent":"slot_28_1509646931185","context":null,"created":"2017-11-02T18:22:12.424Z","updated":"2017-11-02T18:23:02.459Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_30_1509646931185","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_38_1509647035830","context":{"emailID":"@personal_details:emailid"},"created":"2017-11-02T18:23:56.589Z","updated":"2017-11-02T18:53:43.613Z","metadata":null,"next_step":null,"conditions":"@personal_details:emailid","event_name":"input","description":null,"dialog_node":"handler_39_1509647035830","previous_sibling":"handler_40_1509647035830"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter your email id!"],"selection_policy":"sequential"}},"parent":"slot_38_1509647035830","context":null,"created":"2017-11-02T18:36:15.169Z","updated":"2017-11-02T18:36:15.169Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_42_1509647767581","previous_sibling":"handler_39_1509647035830"},{"type":"event_handler","title":null,"output":{"text":"Please enter your email id"},"parent":"slot_38_1509647035830","context":null,"created":"2017-11-02T18:23:57.214Z","updated":"2017-11-02T18:36:14.183Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_40_1509647035830","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_33_1509646986800","context":{"Mobilenumber":"@sys-number"},"created":"2017-11-02T18:23:07.626Z","updated":"2017-11-02T18:50:11.010Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_34_1509646986800","previous_sibling":"handler_35_1509646986800"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter valid mobile number!"],"selection_policy":"sequential"}},"parent":"slot_33_1509646986800","context":null,"created":"2017-11-02T18:23:54.266Z","updated":"2017-11-02T18:43:51.720Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_37_1509647027941","previous_sibling":"handler_34_1509646986800"},{"type":"event_handler","title":null,"output":{"text":"Please enter valid mobile number!"},"parent":"slot_33_1509646986800","context":null,"created":"2017-11-02T18:23:08.170Z","updated":"2017-11-02T18:50:22.370Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_35_1509646986800","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_18_1509646806293","context":{"appointmentTime":"@sys-time"},"created":"2017-11-02T18:20:07.569Z","updated":"2017-11-02T18:42:59.423Z","metadata":null,"next_step":null,"conditions":"@sys-time","event_name":"input","description":null,"dialog_node":"handler_19_1509646806293","previous_sibling":"handler_20_1509646806293"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please enter preferred appointment time"],"selection_policy":"sequential"}},"parent":"slot_18_1509646806293","context":null,"created":"2017-11-02T18:20:48.964Z","updated":"2017-11-02T18:43:00.238Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_22_1509646841556","previous_sibling":"handler_19_1509646806293"},{"type":"event_handler","title":null,"output":{"text":"Please enter preferred appointment time"},"parent":"slot_18_1509646806293","context":null,"created":"2017-11-02T18:20:08.069Z","updated":"2017-11-02T18:42:58.793Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_20_1509646806293","previous_sibling":null},{"title":"Thank You","output":{"text":{"values":["My pleasure!","Welcome!","Welcome, looking forward to your appointment!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-02T19:06:27.998Z","updated":"2017-11-02T19:07:02.368Z","metadata":null,"next_step":null,"conditions":"#thanks","description":null,"dialog_node":"node_45_1509649587604","previous_sibling":"node_1_1509644683004"},{"title":"Greetings","output":{},"parent":null,"context":null,"created":"2017-11-02T18:11:35.105Z","updated":"2017-11-02T18:13:00.723Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"#greetings","description":null,"dialog_node":"node_14_1509646294755","previous_sibling":"Welcome"},{"type":"frame","title":"Book Dentist Appointment","output":{"text":{"values":["Thanks $username ! Your appointment has been booked for $appointmentDate $appointmentTime with Dr.XYZ. Your token number is $tokenNumber ! If you have any concerns please reach out to ABC Dental Clinic contact number. Have a good day! :-)"],"selection_policy":"sequential"}},"parent":null,"context":{"tokenNumber":"<?new Random().nextInt(9999999)?>"},"created":"2017-11-02T17:44:43.428Z","updated":"2017-11-02T19:02:32.272Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"#book_appointment || @list_of_doctors:dentist","description":null,"dialog_node":"node_1_1509644683004","previous_sibling":"node_14_1509646294755"},{"title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-02T17:44:34.770Z","updated":"2017-11-02T17:44:34.770Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_45_1509649587604"},{"title":"Welcome","output":{"text":{"values":["Hey there,Welcome to ABC Dental Clinic.How can I help you?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-02T17:44:34.770Z","updated":"2017-11-02T18:13:46.611Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"dd06d0e5-0d43-4fb1-8964-d95d50a34d28","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Dental Appointment Booking Chatbot",
+	"created": "2017-11-01T17:13:12.465Z",
+	"intents": [{
+		"intent": "greetings",
+		"created": "2017-11-02T18:11:46.556Z",
+		"updated": "2017-11-02T18:15:21.470Z",
+		"examples": [{
+			"text": "Hi",
+			"created": "2017-11-02T18:14:55.637Z",
+			"updated": "2017-11-02T18:14:55.637Z"
+		}, {
+			"text": "Hello",
+			"created": "2017-11-02T18:14:58.190Z",
+			"updated": "2017-11-02T18:14:58.190Z"
+		}, {
+			"text": "Hey",
+			"created": "2017-11-02T18:15:03.879Z",
+			"updated": "2017-11-02T18:15:03.879Z"
+		}, {
+			"text": "whats up",
+			"created": "2017-11-02T18:15:06.320Z",
+			"updated": "2017-11-02T18:15:06.320Z"
+		}, {
+			"text": "what's up?",
+			"created": "2017-11-02T18:15:12.046Z",
+			"updated": "2017-11-02T18:15:12.046Z"
+		}, {
+			"text": "Heyya",
+			"created": "2017-11-02T18:15:14.286Z",
+			"updated": "2017-11-02T18:15:14.286Z"
+		}, {
+			"text": "sup?",
+			"created": "2017-11-02T18:15:15.888Z",
+			"updated": "2017-11-02T18:15:15.888Z"
+		}, {
+			"text": "Hello there",
+			"created": "2017-11-02T18:15:21.470Z",
+			"updated": "2017-11-02T18:15:21.470Z"
+		}],
+		"description": null
+	}, {
+		"intent": "book_appointment",
+		"created": "2017-11-02T03:47:35.593Z",
+		"updated": "2017-11-02T17:44:11.917Z",
+		"examples": [{
+			"text": "Pls book an appointment",
+			"created": "2017-11-02T03:47:57.143Z",
+			"updated": "2017-11-02T17:43:50.247Z"
+		}, {
+			"text": "Please help me book an appointment",
+			"created": "2017-11-02T03:48:30.600Z",
+			"updated": "2017-11-02T17:43:55.560Z"
+		}, {
+			"text": "Help me book an appointment",
+			"created": "2017-11-02T03:48:10.655Z",
+			"updated": "2017-11-02T17:43:59.740Z"
+		}, {
+			"text": "Can you pls help me book an appointment",
+			"created": "2017-11-02T03:48:43.394Z",
+			"updated": "2017-11-02T17:44:04.227Z"
+		}, {
+			"text": "I need to book an appointment immediately",
+			"created": "2017-11-02T03:48:58.960Z",
+			"updated": "2017-11-02T17:44:11.917Z"
+		}, {
+			"text": "Book appointment",
+			"created": "2017-11-02T03:47:52.634Z",
+			"updated": "2017-11-02T03:47:52.634Z"
+		}, {
+			"text": "My tooth is aching",
+			"created": "2017-11-02T03:49:06.998Z",
+			"updated": "2017-11-02T03:49:06.998Z"
+		}, {
+			"text": "I have a tooth pain",
+			"created": "2017-11-02T03:49:11.429Z",
+			"updated": "2017-11-02T03:49:11.429Z"
+		}, {
+			"text": "I have cavity in my teeth",
+			"created": "2017-11-02T03:49:42.697Z",
+			"updated": "2017-11-02T03:49:42.697Z"
+		}, {
+			"text": "cavity in my tooth",
+			"created": "2017-11-02T03:49:51.757Z",
+			"updated": "2017-11-02T03:49:51.757Z"
+		}, {
+			"text": "tooth ache",
+			"created": "2017-11-02T03:50:17.879Z",
+			"updated": "2017-11-02T03:50:17.879Z"
+		}, {
+			"text": "tooth decay",
+			"created": "2017-11-02T03:50:23.635Z",
+			"updated": "2017-11-02T03:50:23.635Z"
+		}, {
+			"text": "Book an appointment",
+			"created": "2017-11-02T17:43:44.554Z",
+			"updated": "2017-11-02T17:43:44.554Z"
+		}],
+		"description": null
+	}, {
+		"intent": "thanks",
+		"created": "2017-11-02T19:01:05.744Z",
+		"updated": "2017-11-02T19:01:23.071Z",
+		"examples": [{
+			"text": "Thank you",
+			"created": "2017-11-02T19:01:10.657Z",
+			"updated": "2017-11-02T19:01:10.657Z"
+		}, {
+			"text": "Thank you very much",
+			"created": "2017-11-02T19:01:17.947Z",
+			"updated": "2017-11-02T19:01:17.947Z"
+		}, {
+			"text": "Thanks a lot",
+			"created": "2017-11-02T19:01:20.702Z",
+			"updated": "2017-11-02T19:01:20.702Z"
+		}, {
+			"text": "Thanks",
+			"created": "2017-11-02T19:01:23.071Z",
+			"updated": "2017-11-02T19:01:23.071Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-02T19:07:02.368Z",
+	"entities": [{
+		"entity": "personal_details",
+		"values": [{
+			"type": "patterns",
+			"value": "emailid",
+			"created": "2017-11-02T18:52:23.011Z",
+			"updated": "2017-11-02T18:58:24.003Z",
+			"metadata": null,
+			"patterns": ["^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$"]
+		}],
+		"created": "2017-11-02T18:52:14.751Z",
+		"updated": "2017-11-02T18:58:24.003Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "reason_for_visit",
+		"values": [{
+			"type": "synonyms",
+			"value": "checkup",
+			"created": "2017-11-02T18:15:52.819Z",
+			"updated": "2017-11-02T18:16:11.204Z",
+			"metadata": null,
+			"synonyms": ["routine checkup", "check up", "private examination"]
+		}, {
+			"type": "synonyms",
+			"value": "gum problem",
+			"created": "2017-11-02T18:16:55.123Z",
+			"updated": "2017-11-02T18:16:57.403Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "toothache",
+			"created": "2017-11-02T18:16:17.566Z",
+			"updated": "2017-11-02T18:16:46.860Z",
+			"metadata": null,
+			"synonyms": ["tooth ache", "tooth pain", "toothpain", "tooth paining"]
+		}, {
+			"type": "synonyms",
+			"value": "bridge",
+			"created": "2017-11-02T18:17:58.049Z",
+			"updated": "2017-11-02T18:17:59.470Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "filling",
+			"created": "2017-11-02T18:17:03.900Z",
+			"updated": "2017-11-02T18:17:11.411Z",
+			"metadata": null,
+			"synonyms": ["cavity"]
+		}, {
+			"type": "synonyms",
+			"value": "denture",
+			"created": "2017-11-02T18:17:20.409Z",
+			"updated": "2017-11-02T18:17:24.189Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "dental implant",
+			"created": "2017-11-02T18:17:30.409Z",
+			"updated": "2017-11-02T18:17:32.538Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "crown",
+			"created": "2017-11-02T18:17:35.690Z",
+			"updated": "2017-11-02T18:17:39.957Z",
+			"metadata": null,
+			"synonyms": ["cap"]
+		}, {
+			"type": "synonyms",
+			"value": "broken tooth",
+			"created": "2017-11-02T18:17:53.311Z",
+			"updated": "2017-11-02T18:17:53.357Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "tooth cleaning",
+			"created": "2017-11-02T18:18:03.401Z",
+			"updated": "2017-11-02T18:18:11.157Z",
+			"metadata": null,
+			"synonyms": ["tooth clean", "teeth clean"]
+		}],
+		"created": "2017-11-02T18:15:46.089Z",
+		"updated": "2017-11-02T18:18:11.157Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-time",
+		"values": [],
+		"created": "2017-11-02T17:43:30.088Z",
+		"updated": "2017-11-02T17:43:30.088Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "list_of_doctors",
+		"values": [{
+			"type": "synonyms",
+			"value": "dentist",
+			"created": "2017-11-02T17:43:22.789Z",
+			"updated": "2017-11-02T17:43:22.789Z",
+			"metadata": null,
+			"synonyms": ["prosthodontist", "endodontist", "periodontist", "pedodontist", "dental practitioner", "dental", "dentist's", "orthodontist", "exodontist", "medical practitioner", "tooth doctor", "dental surgeon", "doctor"]
+		}],
+		"created": "2017-11-02T17:43:22.789Z",
+		"updated": "2017-11-02T17:43:22.789Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-date",
+		"values": [],
+		"created": "2017-11-02T04:02:52.865Z",
+		"updated": "2017-11-02T04:02:52.865Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-currency",
+		"values": [],
+		"created": "2017-11-02T04:07:03.842Z",
+		"updated": "2017-11-02T04:07:03.842Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-location",
+		"values": [],
+		"created": "2017-11-02T17:43:30.064Z",
+		"updated": "2017-11-02T17:43:30.064Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-percentage",
+		"values": [],
+		"created": "2017-11-02T04:04:06.631Z",
+		"updated": "2017-11-02T04:04:06.631Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-person",
+		"values": [],
+		"created": "2017-11-02T04:03:35.454Z",
+		"updated": "2017-11-02T04:03:35.454Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2017-11-02T17:43:30.071Z",
+		"updated": "2017-11-02T17:43:30.071Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "This is a beginner chatbot that can assist you in booking dental appointments and can also greet users in their timezone!",
+	"dialog_nodes": [{
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_23_1509646887988",
+		"context": {
+			"reason_for_visit": "@reason_for_visit"
+		},
+		"created": "2017-11-02T18:21:30.579Z",
+		"updated": "2017-11-02T18:22:01.771Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@reason_for_visit",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_24_1509646887988",
+		"previous_sibling": "handler_25_1509646887988"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter reason for appointment/visit"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_23_1509646887988",
+		"context": null,
+		"created": "2017-11-02T18:22:02.243Z",
+		"updated": "2017-11-02T18:22:02.243Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_27_1509646914427",
+		"previous_sibling": "handler_24_1509646887988"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter reason for appointment/visit"
+		},
+		"parent": "slot_23_1509646887988",
+		"context": null,
+		"created": "2017-11-02T18:21:31.070Z",
+		"updated": "2017-11-02T18:22:01.316Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_25_1509646887988",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1509644683004",
+		"context": null,
+		"created": "2017-11-02T18:22:11.489Z",
+		"updated": "2017-11-02T18:23:01.596Z",
+		"metadata": null,
+		"variable": "$username",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_28_1509646931185",
+		"previous_sibling": "slot_23_1509646887988"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1509644683004",
+		"context": null,
+		"created": "2017-11-02T18:20:06.646Z",
+		"updated": "2017-11-02T18:42:58.822Z",
+		"metadata": null,
+		"variable": "$appointmentTime",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_18_1509646806293",
+		"previous_sibling": "slot_2_1509644887854"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1509644683004",
+		"context": null,
+		"created": "2017-11-02T18:23:07.125Z",
+		"updated": "2017-11-02T18:50:10.539Z",
+		"metadata": null,
+		"variable": "$Mobilenumber",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_33_1509646986800",
+		"previous_sibling": "slot_28_1509646931185"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1509644683004",
+		"context": null,
+		"created": "2017-11-02T18:23:56.126Z",
+		"updated": "2017-11-02T18:53:43.131Z",
+		"metadata": null,
+		"variable": "$emailID",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_38_1509647035830",
+		"previous_sibling": "slot_33_1509646986800"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1509644683004",
+		"context": null,
+		"created": "2017-11-02T18:21:29.665Z",
+		"updated": "2017-11-02T18:22:01.288Z",
+		"metadata": null,
+		"variable": "$reason_for_visit",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_23_1509646887988",
+		"previous_sibling": "slot_18_1509646806293"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_1_1509644683004",
+		"context": null,
+		"created": "2017-11-02T17:48:09.082Z",
+		"updated": "2017-11-02T18:37:19.078Z",
+		"metadata": null,
+		"variable": "$appointmentDate",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_2_1509644887854",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good Afternoon!Welcome to ABC Dental Clinic! How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1509646294755",
+		"context": null,
+		"created": "2017-11-02T18:12:08.043Z",
+		"updated": "2017-11-02T18:14:09.799Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "now().before('16:00:00')",
+		"description": null,
+		"dialog_node": "node_16_1509646327760",
+		"previous_sibling": "node_15_1509646306910"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good Evening!Welcome to ABC Dental Clinic! How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1509646294755",
+		"context": null,
+		"created": "2017-11-02T18:12:28.810Z",
+		"updated": "2017-11-02T18:14:06.451Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "now().before('24:00:00')",
+		"description": null,
+		"dialog_node": "node_17_1509646348527",
+		"previous_sibling": "node_16_1509646327760"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Good Morning!Welcome to ABC Dental Clinic! How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_14_1509646294755",
+		"context": null,
+		"created": "2017-11-02T18:11:47.272Z",
+		"updated": "2017-11-02T18:14:14.816Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "now().before('12:00:00')",
+		"description": null,
+		"dialog_node": "node_15_1509646306910",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter preferred appointment date!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_2_1509644887854",
+		"context": null,
+		"created": "2017-11-02T18:02:41.683Z",
+		"updated": "2017-11-02T18:02:41.683Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_8_1509645349973",
+		"previous_sibling": "handler_3_1509644887855"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_2_1509644887854",
+		"context": {
+			"appointmentDate": "@sys-date"
+		},
+		"created": "2017-11-02T17:48:09.603Z",
+		"updated": "2017-11-02T18:37:19.565Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-date",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_3_1509644887855",
+		"previous_sibling": "handler_4_1509644887855"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter preferred appointment date!"
+		},
+		"parent": "slot_2_1509644887854",
+		"context": null,
+		"created": "2017-11-02T17:48:10.111Z",
+		"updated": "2017-11-02T18:02:40.695Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_4_1509644887855",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your full name!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_28_1509646931185",
+		"context": null,
+		"created": "2017-11-02T18:23:03.502Z",
+		"updated": "2017-11-02T18:23:03.502Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_32_1509646970108",
+		"previous_sibling": "handler_29_1509646931185"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_28_1509646931185",
+		"context": {
+			"username": "@sys-person"
+		},
+		"created": "2017-11-02T18:22:11.954Z",
+		"updated": "2017-11-02T18:23:03.017Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-person",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_29_1509646931185",
+		"previous_sibling": "handler_30_1509646931185"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your full name"
+		},
+		"parent": "slot_28_1509646931185",
+		"context": null,
+		"created": "2017-11-02T18:22:12.424Z",
+		"updated": "2017-11-02T18:23:02.459Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_30_1509646931185",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_38_1509647035830",
+		"context": {
+			"emailID": "@personal_details:emailid"
+		},
+		"created": "2017-11-02T18:23:56.589Z",
+		"updated": "2017-11-02T18:53:43.613Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@personal_details:emailid",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_39_1509647035830",
+		"previous_sibling": "handler_40_1509647035830"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your email id!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_38_1509647035830",
+		"context": null,
+		"created": "2017-11-02T18:36:15.169Z",
+		"updated": "2017-11-02T18:36:15.169Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_42_1509647767581",
+		"previous_sibling": "handler_39_1509647035830"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter your email id"
+		},
+		"parent": "slot_38_1509647035830",
+		"context": null,
+		"created": "2017-11-02T18:23:57.214Z",
+		"updated": "2017-11-02T18:36:14.183Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_40_1509647035830",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_33_1509646986800",
+		"context": {
+			"Mobilenumber": "@sys-number"
+		},
+		"created": "2017-11-02T18:23:07.626Z",
+		"updated": "2017-11-02T18:50:11.010Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_34_1509646986800",
+		"previous_sibling": "handler_35_1509646986800"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter valid mobile number!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_33_1509646986800",
+		"context": null,
+		"created": "2017-11-02T18:23:54.266Z",
+		"updated": "2017-11-02T18:43:51.720Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_37_1509647027941",
+		"previous_sibling": "handler_34_1509646986800"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter valid mobile number!"
+		},
+		"parent": "slot_33_1509646986800",
+		"context": null,
+		"created": "2017-11-02T18:23:08.170Z",
+		"updated": "2017-11-02T18:50:22.370Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_35_1509646986800",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_18_1509646806293",
+		"context": {
+			"appointmentTime": "@sys-time"
+		},
+		"created": "2017-11-02T18:20:07.569Z",
+		"updated": "2017-11-02T18:42:59.423Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_19_1509646806293",
+		"previous_sibling": "handler_20_1509646806293"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter preferred appointment time"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_18_1509646806293",
+		"context": null,
+		"created": "2017-11-02T18:20:48.964Z",
+		"updated": "2017-11-02T18:43:00.238Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_22_1509646841556",
+		"previous_sibling": "handler_19_1509646806293"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Please enter preferred appointment time"
+		},
+		"parent": "slot_18_1509646806293",
+		"context": null,
+		"created": "2017-11-02T18:20:08.069Z",
+		"updated": "2017-11-02T18:42:58.793Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_20_1509646806293",
+		"previous_sibling": null
+	}, {
+		"title": "Thank You",
+		"output": {
+			"text": {
+				"values": ["My pleasure!", "Welcome!", "Welcome, looking forward to your appointment!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-02T19:06:27.998Z",
+		"updated": "2017-11-02T19:07:02.368Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#thanks",
+		"description": null,
+		"dialog_node": "node_45_1509649587604",
+		"previous_sibling": "node_1_1509644683004"
+	}, {
+		"title": "Greetings",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-02T18:11:35.105Z",
+		"updated": "2017-11-02T18:13:00.723Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "node_14_1509646294755",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "frame",
+		"title": "Book Dentist Appointment",
+		"output": {
+			"text": {
+				"values": ["Thanks $username ! Your appointment has been booked for $appointmentDate $appointmentTime with Dr.XYZ. Your token number is $tokenNumber ! If you have any concerns please reach out to ABC Dental Clinic contact number. Have a good day! :-)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"tokenNumber": "<?new Random().nextInt(9999999)?>"
+		},
+		"created": "2017-11-02T17:44:43.428Z",
+		"updated": "2017-11-02T19:02:32.272Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#book_appointment || @list_of_doctors:dentist",
+		"description": null,
+		"dialog_node": "node_1_1509644683004",
+		"previous_sibling": "node_14_1509646294755"
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-02T17:44:34.770Z",
+		"updated": "2017-11-02T17:44:34.770Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_45_1509649587604"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hey there,Welcome to ABC Dental Clinic.How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-02T17:44:34.770Z",
+		"updated": "2017-11-02T18:13:46.611Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "dd06d0e5-0d43-4fb1-8964-d95d50a34d28",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

@@ -1,1 +1,1110 @@
-{"name":"Joey's Pizza bot","created":"2018-02-01T10:51:08.228Z","intents":[{"intent":"Yes","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z","examples":[{"text":"yes please","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"okay","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"ok","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"ofcourse","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"sure","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"yeah","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"yes","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"}],"description":null},{"intent":"Thanks","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z","examples":[{"text":"yay","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Thank you!","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Thanks!","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Thanks","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"}],"description":""},{"intent":"No","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z","examples":[{"text":"not interested","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"nope","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"No","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"}],"description":""},{"intent":"hello","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z","examples":[{"text":"good evening","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"good morning","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"whats up","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Heya","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Yo","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Hello","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Hey","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"}],"description":""},{"intent":"goodbye","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z","examples":[{"text":"bye","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"farewell","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"goodbye","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"I'm done","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"see you later","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"}],"description":""},{"intent":"finalize","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z","examples":[],"description":null},{"intent":"Pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z","examples":[{"text":"i'll have peri peri chicken","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Order pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"I'll have pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"I'll have a large pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"I'll have a small pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"I'll have a regular pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"I'll have a large size pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"I'll have a Medium size pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"I'll have a small size pizza","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"}],"description":""},{"intent":"pizza_list","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z","examples":[{"text":"what's special today?","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"whats the menu","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"What options do i have?","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"Show me the list of pizzas","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"What pizzas you got?","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"what pizzas do you have?","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"},{"text":"List of pizzas","created":"2018-02-08T09:46:12.458Z","updated":"2018-02-08T09:46:12.458Z"}],"description":""}],"updated":"2018-02-08T09:52:46.332Z","entities":[{"entity":"pizza_toppings","values":[{"type":"synonyms","value":"red paprika","created":"2018-02-08T08:06:32.492Z","updated":"2018-02-08T08:06:32.492Z","metadata":null,"synonyms":["paprika","chilly"]},{"type":"synonyms","value":"black olive","created":"2018-02-08T08:06:45.032Z","updated":"2018-02-08T08:06:45.032Z","metadata":null,"synonyms":["olive"]},{"type":"synonyms","value":"jalapeno","created":"2018-02-08T08:06:52.727Z","updated":"2018-02-08T08:06:52.727Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"fresh tomato","created":"2018-02-08T08:07:07.464Z","updated":"2018-02-08T08:07:07.464Z","metadata":null,"synonyms":["tomato"]}],"created":"2018-02-08T07:52:15.823Z","updated":"2018-02-08T08:07:07.464Z","metadata":null,"description":null},{"entity":"pizza_size","values":[{"type":"synonyms","value":"Large","created":"2018-02-07T10:13:48.766Z","updated":"2018-02-07T13:51:01.786Z","metadata":null,"synonyms":["Large pizza","Large size pizza","Large sized pizza","large"]},{"type":"synonyms","value":"Regular","created":"2018-02-07T10:15:01.439Z","updated":"2018-02-07T13:51:35.875Z","metadata":null,"synonyms":["Small pizza","Small size pizza","Small sized pizza","Regular size pizza","Regular sized pizza","regular"]},{"type":"synonyms","value":"Medium","created":"2018-02-07T10:16:56.880Z","updated":"2018-02-07T13:51:31.306Z","metadata":null,"synonyms":["Medium pizza","Medium size pizza","Medium sized pizza","medium"]}],"created":"2018-02-07T10:13:30.793Z","updated":"2018-02-07T13:51:35.875Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"sys-person","values":[],"created":"2018-02-08T07:51:29.163Z","updated":"2018-02-08T07:51:29.163Z","metadata":null,"description":null},{"entity":"pizza_crust","values":[{"type":"synonyms","value":"wheat thin","created":"2018-02-07T13:55:19.062Z","updated":"2018-02-07T14:02:56.589Z","metadata":null,"synonyms":["wheat thin crust","wheat-thin","wheat"]},{"type":"synonyms","value":"hand tossed","created":"2018-02-07T13:55:03.600Z","updated":"2018-02-07T14:02:47.687Z","metadata":null,"synonyms":["hand crust"]},{"type":"synonyms","value":"fresh pan","created":"2018-02-07T13:55:57.574Z","updated":"2018-02-07T13:55:57.574Z","metadata":null,"synonyms":["fresh pan pizza"]},{"type":"synonyms","value":"classic hand tossed","created":"2018-02-07T13:56:30.683Z","updated":"2018-02-07T13:56:30.683Z","metadata":null,"synonyms":["classic","classic hand"]},{"type":"synonyms","value":"cheese burst","created":"2018-02-07T13:55:41.448Z","updated":"2018-02-07T13:55:41.448Z","metadata":null,"synonyms":["cheeseburst"]}],"created":"2018-02-07T13:54:51.242Z","updated":"2018-02-07T14:02:56.589Z","metadata":null,"description":null},{"entity":"Pizza_name","values":[{"type":"synonyms","value":"MARGHERITA","created":"2018-02-07T13:20:46.331Z","updated":"2018-02-07T13:48:52.678Z","metadata":null,"synonyms":["Margerita"]},{"type":"synonyms","value":"DELUXE VEGGIE","created":"2018-02-07T13:21:54.494Z","updated":"2018-02-07T13:21:54.494Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"5 PEPPER","created":"2018-02-07T13:22:03.444Z","updated":"2018-02-07T13:22:03.444Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"DOUBLE CHEESE MARGHERITA","created":"2018-02-07T13:22:08.769Z","updated":"2018-02-07T13:49:01.597Z","metadata":null,"synonyms":["DOUBLE CHEESE MARGERITA"]},{"type":"synonyms","value":"PERI-PERI CHICKEN","created":"2018-02-07T13:20:52.905Z","updated":"2018-02-07T13:20:52.905Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"VEG EXTRAVAGANZA","created":"2018-02-07T13:21:59.533Z","updated":"2018-02-07T13:21:59.533Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"CHICKEN TIKKA","created":"2018-02-07T13:20:56.426Z","updated":"2018-02-07T13:20:56.426Z","metadata":null,"synonyms":[]}],"created":"2018-02-07T13:17:14.353Z","updated":"2018-02-07T13:49:01.597Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"A simple pizza bot which shows menu, takes your pizza order including pizza size, type, crust and toppings.","dialog_nodes":[{"type":"event_handler","title":null,"output":{},"parent":"slot_12_1518011800202","context":{"pizza_crust":"@pizza_crust"},"created":"2018-02-07T13:56:42.017Z","updated":"2018-02-08T07:23:52.376Z","metadata":{},"next_step":null,"conditions":"@pizza_crust","event_name":"input","description":null,"dialog_node":"handler_13_1518011800202","previous_sibling":"handler_14_1518011800202"},{"type":"event_handler","title":null,"output":{"text":"What crust do you like? (Cheese burst, Fresh pan pizza, hand tossed, wheat thin)"},"parent":"slot_12_1518011800202","context":null,"created":"2018-02-07T13:56:42.790Z","updated":"2018-02-08T07:29:44.107Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_14_1518011800202","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_24_1518081341695","context":null,"created":"2018-02-08T09:15:44.707Z","updated":"2018-02-08T09:15:44.707Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_26_1518081341695","previous_sibling":"handler_25_1518081341695"},{"type":"event_handler","title":null,"output":null,"parent":"slot_24_1518081341695","context":{"pizza_toppings":"@pizza_toppings"},"created":"2018-02-08T09:15:44.215Z","updated":"2018-02-08T09:15:50.094Z","metadata":null,"next_step":null,"conditions":"@pizza_toppings","event_name":"input","description":null,"dialog_node":"handler_25_1518081341695","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["$pizza_toppings added!"]}},"parent":"node_27_1518081390815","context":null,"created":"2018-02-08T09:19:47.002Z","updated":"2018-02-08T09:21:46.204Z","disabled":true,"metadata":{},"next_step":null,"conditions":"$pizza_toppings","description":null,"dialog_node":"node_28_1518081584917","previous_sibling":"node_31_1518082255868"},{"type":"standard","title":"No toppings","output":{"text":{"values":["Okay no toppings :("],"selection_policy":"sequential"}},"parent":"node_27_1518081390815","context":null,"created":"2018-02-08T09:30:57.932Z","updated":"2018-02-08T09:31:35.734Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_2_1518078140737"},"conditions":"#No","description":null,"dialog_node":"node_31_1518082255868","previous_sibling":"node_30_1518082093163"},{"type":"response_condition","title":null,"output":{"text":{"values":["Would you like to add"]}},"parent":"node_27_1518081390815","context":null,"created":"2018-02-08T09:20:41.528Z","updated":"2018-02-08T09:21:47.735Z","disabled":true,"metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_29_1518081639485","previous_sibling":"node_28_1518081584917"},{"type":"frame","title":"Toppings list","output":{"text":{"values":["$pizza_toppings toppings added!"],"selection_policy":"sequential"}},"parent":"node_27_1518081390815","context":null,"created":"2018-02-08T09:28:15.189Z","updated":"2018-02-08T09:51:00.932Z","metadata":{"fallback":"leave"},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_2_1518078140737"},"conditions":"#Yes","description":null,"dialog_node":"node_30_1518082093163","digress_out":"allow_all","previous_sibling":null,"digress_out_slots":"not_allowed"},{"type":"event_handler","title":null,"output":{},"parent":"slot_7_1518010597307","context":{"pizza_name":"@Pizza_name"},"created":"2018-02-07T13:36:39.188Z","updated":"2018-02-08T08:03:10.409Z","metadata":{},"next_step":null,"conditions":"@Pizza_name","event_name":"input","description":null,"dialog_node":"handler_8_1518010597307","previous_sibling":"handler_9_1518010597307"},{"type":"event_handler","title":null,"output":{"text":{"values":["Here's our list of pizzas - \nMargherita, Deluxe veggie, 5 Pepper, Double cheese margherita, peri-peri chicken, Veg extravaganza"],"selection_policy":"sequential"}},"parent":"slot_7_1518010597307","context":null,"created":"2018-02-08T08:03:10.860Z","updated":"2018-02-08T08:03:10.860Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_13_1518076971685","previous_sibling":"handler_8_1518010597307"},{"type":"event_handler","title":null,"output":{"text":"What pizza would you like to have? (Margherita, Deluxe veggie, 5 Pepper, Double cheese margherita, peri-peri chicken, Veg extravaganza)"},"parent":"slot_7_1518010597307","context":null,"created":"2018-02-07T13:36:39.680Z","updated":"2018-02-08T09:52:46.332Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_9_1518010597307","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_30_1518082093163","context":null,"created":"2018-02-08T09:32:37.199Z","updated":"2018-02-08T09:32:43.591Z","metadata":null,"variable":"$pizza_toppings","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_33_1518082354506","previous_sibling":"handler_32_1518082354486"},{"type":"event_handler","title":null,"output":{"text":{"values":["Select your toppings (Jalapeno, Black olive, Fresh tomato or Red Paprika)"],"selection_policy":"sequential"}},"parent":"node_30_1518082093163","context":null,"created":"2018-02-08T09:32:36.521Z","updated":"2018-02-08T09:34:21.941Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_32_1518082354486","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"Select your toppings (Jalapeno, Black olive, Fresh tomato or Red Paprika)"},"parent":"slot_33_1518082354506","context":null,"created":"2018-02-08T09:32:38.136Z","updated":"2018-02-08T09:34:20.519Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_35_1518082354506","previous_sibling":"handler_34_1518082354506"},{"type":"event_handler","title":null,"output":null,"parent":"slot_33_1518082354506","context":{"pizza_toppings":"@pizza_toppings"},"created":"2018-02-08T09:32:37.642Z","updated":"2018-02-08T09:32:44.066Z","metadata":null,"next_step":null,"conditions":"@pizza_toppings","event_name":"input","description":null,"dialog_node":"handler_34_1518082354506","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"Would you like to have regular, medium or large sized pizza?"},"parent":"slot_1_1518009183959","context":null,"created":"2018-02-07T13:13:06.599Z","updated":"2018-02-08T07:10:37.720Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_3_1518009183959","previous_sibling":"handler_2_1518009183959"},{"type":"event_handler","title":null,"output":{},"parent":"slot_1_1518009183959","context":{"pizza_size":"@pizza_size"},"created":"2018-02-07T13:13:06.155Z","updated":"2018-02-07T13:42:03.647Z","metadata":{},"next_step":null,"conditions":"@pizza_size","event_name":"input","description":null,"dialog_node":"handler_2_1518009183959","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Your order is confirmed. A  Delicious $pizza_size sized $pizza_name with $pizza_crust crust will be served in 30 minutes!"]}},"parent":"node_20_1518080514383","context":null,"created":"2018-02-08T09:05:28.262Z","updated":"2018-02-08T09:06:29.690Z","metadata":{},"next_step":null,"conditions":null,"description":null,"dialog_node":"node_22_1518080726199","previous_sibling":"node_21_1518080651976"},{"type":"response_condition","title":null,"output":{"text":{"values":["Your order is confirmed. A  Delicious $pizza_size sized $pizza_name with $pizza_crust crust and $pizza_toppings extra toppings will be served in 30 minutes!"]}},"parent":"node_20_1518080514383","context":null,"created":"2018-02-08T09:04:14.031Z","updated":"2018-02-08T09:06:18.992Z","metadata":{},"next_step":null,"conditions":"$pizza_toppings","description":null,"dialog_node":"node_21_1518080651976","previous_sibling":null},{"type":"slot","title":null,"output":{},"parent":"node_1_1517998699565","context":null,"created":"2018-02-07T13:13:05.703Z","updated":"2018-02-07T13:42:03.199Z","metadata":{},"variable":"$pizza_size","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_1_1518009183959","previous_sibling":"slot_12_1518011800202"},{"type":"event_handler","title":null,"output":{},"parent":"node_1_1517998699565","context":null,"created":"2018-02-07T13:14:45.872Z","updated":"2018-02-07T13:15:10.814Z","disabled":true,"metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_4_1518009284515","previous_sibling":"slot_24_1518081341695"},{"type":"standard","title":"Finalize order","output":{},"parent":"node_1_1517998699565","context":null,"created":"2018-02-08T08:22:22.734Z","updated":"2018-02-08T09:11:24.145Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"$pizza_name","description":null,"dialog_node":"node_2_1518078140737","digress_out":"allow_all","previous_sibling":"node_27_1518081390815"},{"type":"slot","title":null,"output":{},"parent":"node_1_1517998699565","context":null,"created":"2018-02-07T13:56:41.569Z","updated":"2018-02-08T07:23:51.491Z","metadata":{},"variable":"$pizza_crust","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_12_1518011800202","previous_sibling":"slot_7_1518010597307"},{"type":"slot","title":null,"output":null,"parent":"node_1_1517998699565","context":null,"created":"2018-02-08T09:15:43.732Z","updated":"2018-02-08T09:15:49.588Z","metadata":null,"variable":"$pizza_toppings","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_24_1518081341695","previous_sibling":"slot_1_1518009183959"},{"type":"slot","title":null,"output":{},"parent":"node_1_1517998699565","context":null,"created":"2018-02-07T13:36:38.728Z","updated":"2018-02-08T08:03:09.121Z","metadata":{},"variable":"$pizza_name","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_7_1518010597307","previous_sibling":"node_2_1518078140737"},{"type":"standard","title":"Toppings","output":{"text":{"values":["Would you like to add extra toppings?"]}},"parent":"node_1_1517998699565","context":null,"created":"2018-02-08T09:16:32.850Z","updated":"2018-02-08T09:29:59.509Z","metadata":{"_customization":{"mcr":false}},"next_step":null,"conditions":"$pizza_toppings==null","description":null,"dialog_node":"node_27_1518081390815","digress_out":"allow_all","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["A  $pizza_size sized $pizza_name with $pizza_crust crust. Confirm the order?"]}},"parent":"node_2_1518078140737","context":null,"created":"2018-02-08T08:29:25.716Z","updated":"2018-02-08T09:05:36.050Z","metadata":{},"next_step":null,"conditions":"","description":null,"dialog_node":"node_5_1518078563741","previous_sibling":"node_3_1518078410398"},{"type":"response_condition","title":null,"output":{"text":{"values":["A  $pizza_size sized $pizza_name with $pizza_crust crust and $pizza_toppings extra toppings. Confirm the order?"]}},"parent":"node_2_1518078140737","context":null,"created":"2018-02-08T08:26:52.765Z","updated":"2018-02-08T09:04:31.832Z","metadata":{},"next_step":null,"conditions":"$pizza_toppings","description":null,"dialog_node":"node_3_1518078410398","previous_sibling":"node_23_1518080821611"},{"type":"standard","title":"Reset order","output":{"text":{"values":["What changes would you like to make?"],"selection_policy":"sequential"}},"parent":"node_2_1518078140737","context":null,"created":"2018-02-08T09:07:03.680Z","updated":"2018-02-08T09:43:08.527Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_1_1517998699565"},"conditions":"#No","description":null,"dialog_node":"node_23_1518080821611","previous_sibling":"node_20_1518080514383"},{"type":"standard","title":"Confirm order","output":{},"parent":"node_2_1518078140737","context":null,"created":"2018-02-08T09:01:56.527Z","updated":"2018-02-08T09:04:14.502Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"#Yes","description":null,"dialog_node":"node_20_1518080514383","digress_out":"allow_all","previous_sibling":null},{"type":"frame","title":"Ask Pizza Details","output":{"text":{"values":["A  $pizza_size sized $pizza_name with $pizza_crust crust it is!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-07T10:18:21.779Z","updated":"2018-02-08T09:19:28.338Z","metadata":{"fallback":"leave","_customization":{"mcr":false}},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_27_1518081390815"},"conditions":"#Pizza","digress_in":"does_not_return","description":null,"dialog_node":"node_1_1517998699565","digress_out":"allow_all","previous_sibling":"node_12_1518074679474","digress_out_slots":"not_allowed"},{"type":"standard","title":"Bye","output":{"text":{"values":["Bye, Have a great day!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-08T09:38:36.510Z","updated":"2018-02-08T09:38:52.779Z","metadata":{},"next_step":null,"conditions":"#goodbye","description":null,"dialog_node":"node_37_1518082714451","previous_sibling":"node_36_1518082670214"},{"type":"standard","title":"Hello","output":{"text":{"values":["Hello again! What would you like to have?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-08T07:39:01.373Z","updated":"2018-02-08T09:43:37.940Z","metadata":{},"next_step":null,"conditions":"#hello","description":null,"dialog_node":"node_15_1518075539386","previous_sibling":"Welcome"},{"type":"standard","title":"Pizza list","output":{"text":{"values":["Here's our list of pizzas - \nMargherita, Deluxe veggie, 5 Pepper, Double cheese margherita, peri-peri chicken, Veg extravaganza"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-08T07:24:41.424Z","updated":"2018-02-08T09:52:35.813Z","metadata":{},"next_step":null,"conditions":"#pizza_list","digress_in":"does_not_return","description":null,"dialog_node":"node_12_1518074679474","previous_sibling":"node_15_1518075539386"},{"type":"standard","title":"Thanks","output":{"text":{"values":["You are welcome :)"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-08T09:37:52.277Z","updated":"2018-02-08T09:38:18.169Z","metadata":{},"next_step":null,"conditions":"#Thanks","description":null,"dialog_node":"node_36_1518082670214","previous_sibling":"node_1_1517998699565"},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-02-01T10:53:53.207Z","updated":"2018-02-08T07:10:25.375Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_37_1518082714451"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Welcome to Joey's Pizza, What would you like to have today!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-02-01T10:53:53.207Z","updated":"2018-02-08T06:59:15.938Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"fccd17b6-50a8-4497-bc23-f9967cfdfdc3","counterexamples":[{"text":"I'll have medium margherita hand tossed","created":"2018-02-08T08:18:28.124Z","updated":"2018-02-08T08:18:28.124Z"},{"text":"medium","created":"2018-02-07T13:45:04.111Z","updated":"2018-02-07T13:45:04.111Z"},{"text":"no","created":"2018-02-08T07:41:41.743Z","updated":"2018-02-08T07:41:41.743Z"}],"learning_opt_out":false}
+{
+	"name": "Joey's Pizza bot",
+	"created": "2018-02-01T10:51:08.228Z",
+	"intents": [{
+		"intent": "Yes",
+		"created": "2018-02-08T09:46:12.458Z",
+		"updated": "2018-02-08T09:46:12.458Z",
+		"examples": [{
+			"text": "yes please",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "okay",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "ok",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "ofcourse",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "sure",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "yeah",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "yes",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Thanks",
+		"created": "2018-02-08T09:46:12.458Z",
+		"updated": "2018-02-08T09:46:12.458Z",
+		"examples": [{
+			"text": "yay",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Thank you!",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Thanks!",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Thanks",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "No",
+		"created": "2018-02-08T09:46:12.458Z",
+		"updated": "2018-02-08T09:46:12.458Z",
+		"examples": [{
+			"text": "not interested",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "nope",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "No",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "hello",
+		"created": "2018-02-08T09:46:12.458Z",
+		"updated": "2018-02-08T09:46:12.458Z",
+		"examples": [{
+			"text": "good evening",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "good morning",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "whats up",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Heya",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Yo",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Hello",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Hey",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "goodbye",
+		"created": "2018-02-08T09:46:12.458Z",
+		"updated": "2018-02-08T09:46:12.458Z",
+		"examples": [{
+			"text": "bye",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "farewell",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "goodbye",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "I'm done",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "see you later",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "finalize",
+		"created": "2018-02-08T09:46:12.458Z",
+		"updated": "2018-02-08T09:46:12.458Z",
+		"examples": [],
+		"description": null
+	}, {
+		"intent": "Pizza",
+		"created": "2018-02-08T09:46:12.458Z",
+		"updated": "2018-02-08T09:46:12.458Z",
+		"examples": [{
+			"text": "i'll have peri peri chicken",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Order pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "I'll have pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "I'll have a large pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "I'll have a small pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "I'll have a regular pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "I'll have a large size pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "I'll have a Medium size pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "I'll have a small size pizza",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "pizza_list",
+		"created": "2018-02-08T09:46:12.458Z",
+		"updated": "2018-02-08T09:46:12.458Z",
+		"examples": [{
+			"text": "what's special today?",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "whats the menu",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "What options do i have?",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "Show me the list of pizzas",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "What pizzas you got?",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "what pizzas do you have?",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}, {
+			"text": "List of pizzas",
+			"created": "2018-02-08T09:46:12.458Z",
+			"updated": "2018-02-08T09:46:12.458Z"
+		}],
+		"description": ""
+	}],
+	"updated": "2018-02-08T09:52:46.332Z",
+	"entities": [{
+		"entity": "pizza_toppings",
+		"values": [{
+			"type": "synonyms",
+			"value": "red paprika",
+			"created": "2018-02-08T08:06:32.492Z",
+			"updated": "2018-02-08T08:06:32.492Z",
+			"metadata": null,
+			"synonyms": ["paprika", "chilly"]
+		}, {
+			"type": "synonyms",
+			"value": "black olive",
+			"created": "2018-02-08T08:06:45.032Z",
+			"updated": "2018-02-08T08:06:45.032Z",
+			"metadata": null,
+			"synonyms": ["olive"]
+		}, {
+			"type": "synonyms",
+			"value": "jalapeno",
+			"created": "2018-02-08T08:06:52.727Z",
+			"updated": "2018-02-08T08:06:52.727Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "fresh tomato",
+			"created": "2018-02-08T08:07:07.464Z",
+			"updated": "2018-02-08T08:07:07.464Z",
+			"metadata": null,
+			"synonyms": ["tomato"]
+		}],
+		"created": "2018-02-08T07:52:15.823Z",
+		"updated": "2018-02-08T08:07:07.464Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "pizza_size",
+		"values": [{
+			"type": "synonyms",
+			"value": "Large",
+			"created": "2018-02-07T10:13:48.766Z",
+			"updated": "2018-02-07T13:51:01.786Z",
+			"metadata": null,
+			"synonyms": ["Large pizza", "Large size pizza", "Large sized pizza", "large"]
+		}, {
+			"type": "synonyms",
+			"value": "Regular",
+			"created": "2018-02-07T10:15:01.439Z",
+			"updated": "2018-02-07T13:51:35.875Z",
+			"metadata": null,
+			"synonyms": ["Small pizza", "Small size pizza", "Small sized pizza", "Regular size pizza", "Regular sized pizza", "regular"]
+		}, {
+			"type": "synonyms",
+			"value": "Medium",
+			"created": "2018-02-07T10:16:56.880Z",
+			"updated": "2018-02-07T13:51:31.306Z",
+			"metadata": null,
+			"synonyms": ["Medium pizza", "Medium size pizza", "Medium sized pizza", "medium"]
+		}],
+		"created": "2018-02-07T10:13:30.793Z",
+		"updated": "2018-02-07T13:51:35.875Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "sys-person",
+		"values": [],
+		"created": "2018-02-08T07:51:29.163Z",
+		"updated": "2018-02-08T07:51:29.163Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "pizza_crust",
+		"values": [{
+			"type": "synonyms",
+			"value": "wheat thin",
+			"created": "2018-02-07T13:55:19.062Z",
+			"updated": "2018-02-07T14:02:56.589Z",
+			"metadata": null,
+			"synonyms": ["wheat thin crust", "wheat-thin", "wheat"]
+		}, {
+			"type": "synonyms",
+			"value": "hand tossed",
+			"created": "2018-02-07T13:55:03.600Z",
+			"updated": "2018-02-07T14:02:47.687Z",
+			"metadata": null,
+			"synonyms": ["hand crust"]
+		}, {
+			"type": "synonyms",
+			"value": "fresh pan",
+			"created": "2018-02-07T13:55:57.574Z",
+			"updated": "2018-02-07T13:55:57.574Z",
+			"metadata": null,
+			"synonyms": ["fresh pan pizza"]
+		}, {
+			"type": "synonyms",
+			"value": "classic hand tossed",
+			"created": "2018-02-07T13:56:30.683Z",
+			"updated": "2018-02-07T13:56:30.683Z",
+			"metadata": null,
+			"synonyms": ["classic", "classic hand"]
+		}, {
+			"type": "synonyms",
+			"value": "cheese burst",
+			"created": "2018-02-07T13:55:41.448Z",
+			"updated": "2018-02-07T13:55:41.448Z",
+			"metadata": null,
+			"synonyms": ["cheeseburst"]
+		}],
+		"created": "2018-02-07T13:54:51.242Z",
+		"updated": "2018-02-07T14:02:56.589Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Pizza_name",
+		"values": [{
+			"type": "synonyms",
+			"value": "MARGHERITA",
+			"created": "2018-02-07T13:20:46.331Z",
+			"updated": "2018-02-07T13:48:52.678Z",
+			"metadata": null,
+			"synonyms": ["Margerita"]
+		}, {
+			"type": "synonyms",
+			"value": "DELUXE VEGGIE",
+			"created": "2018-02-07T13:21:54.494Z",
+			"updated": "2018-02-07T13:21:54.494Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "5 PEPPER",
+			"created": "2018-02-07T13:22:03.444Z",
+			"updated": "2018-02-07T13:22:03.444Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "DOUBLE CHEESE MARGHERITA",
+			"created": "2018-02-07T13:22:08.769Z",
+			"updated": "2018-02-07T13:49:01.597Z",
+			"metadata": null,
+			"synonyms": ["DOUBLE CHEESE MARGERITA"]
+		}, {
+			"type": "synonyms",
+			"value": "PERI-PERI CHICKEN",
+			"created": "2018-02-07T13:20:52.905Z",
+			"updated": "2018-02-07T13:20:52.905Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "VEG EXTRAVAGANZA",
+			"created": "2018-02-07T13:21:59.533Z",
+			"updated": "2018-02-07T13:21:59.533Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "CHICKEN TIKKA",
+			"created": "2018-02-07T13:20:56.426Z",
+			"updated": "2018-02-07T13:20:56.426Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-02-07T13:17:14.353Z",
+		"updated": "2018-02-07T13:49:01.597Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "A simple pizza bot which shows menu, takes your pizza order including pizza size, type, crust and toppings.",
+	"dialog_nodes": [{
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_12_1518011800202",
+		"context": {
+			"pizza_crust": "@pizza_crust"
+		},
+		"created": "2018-02-07T13:56:42.017Z",
+		"updated": "2018-02-08T07:23:52.376Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@pizza_crust",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_13_1518011800202",
+		"previous_sibling": "handler_14_1518011800202"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "What crust do you like? (Cheese burst, Fresh pan pizza, hand tossed, wheat thin)"
+		},
+		"parent": "slot_12_1518011800202",
+		"context": null,
+		"created": "2018-02-07T13:56:42.790Z",
+		"updated": "2018-02-08T07:29:44.107Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_14_1518011800202",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_24_1518081341695",
+		"context": null,
+		"created": "2018-02-08T09:15:44.707Z",
+		"updated": "2018-02-08T09:15:44.707Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_26_1518081341695",
+		"previous_sibling": "handler_25_1518081341695"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_24_1518081341695",
+		"context": {
+			"pizza_toppings": "@pizza_toppings"
+		},
+		"created": "2018-02-08T09:15:44.215Z",
+		"updated": "2018-02-08T09:15:50.094Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@pizza_toppings",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_25_1518081341695",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["$pizza_toppings added!"]
+			}
+		},
+		"parent": "node_27_1518081390815",
+		"context": null,
+		"created": "2018-02-08T09:19:47.002Z",
+		"updated": "2018-02-08T09:21:46.204Z",
+		"disabled": true,
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$pizza_toppings",
+		"description": null,
+		"dialog_node": "node_28_1518081584917",
+		"previous_sibling": "node_31_1518082255868"
+	}, {
+		"type": "standard",
+		"title": "No toppings",
+		"output": {
+			"text": {
+				"values": ["Okay no toppings :("],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_27_1518081390815",
+		"context": null,
+		"created": "2018-02-08T09:30:57.932Z",
+		"updated": "2018-02-08T09:31:35.734Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_2_1518078140737"
+		},
+		"conditions": "#No",
+		"description": null,
+		"dialog_node": "node_31_1518082255868",
+		"previous_sibling": "node_30_1518082093163"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Would you like to add"]
+			}
+		},
+		"parent": "node_27_1518081390815",
+		"context": null,
+		"created": "2018-02-08T09:20:41.528Z",
+		"updated": "2018-02-08T09:21:47.735Z",
+		"disabled": true,
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_29_1518081639485",
+		"previous_sibling": "node_28_1518081584917"
+	}, {
+		"type": "frame",
+		"title": "Toppings list",
+		"output": {
+			"text": {
+				"values": ["$pizza_toppings toppings added!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_27_1518081390815",
+		"context": null,
+		"created": "2018-02-08T09:28:15.189Z",
+		"updated": "2018-02-08T09:51:00.932Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_2_1518078140737"
+		},
+		"conditions": "#Yes",
+		"description": null,
+		"dialog_node": "node_30_1518082093163",
+		"digress_out": "allow_all",
+		"previous_sibling": null,
+		"digress_out_slots": "not_allowed"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_7_1518010597307",
+		"context": {
+			"pizza_name": "@Pizza_name"
+		},
+		"created": "2018-02-07T13:36:39.188Z",
+		"updated": "2018-02-08T08:03:10.409Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Pizza_name",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_8_1518010597307",
+		"previous_sibling": "handler_9_1518010597307"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Here's our list of pizzas - \nMargherita, Deluxe veggie, 5 Pepper, Double cheese margherita, peri-peri chicken, Veg extravaganza"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_7_1518010597307",
+		"context": null,
+		"created": "2018-02-08T08:03:10.860Z",
+		"updated": "2018-02-08T08:03:10.860Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_13_1518076971685",
+		"previous_sibling": "handler_8_1518010597307"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "What pizza would you like to have? (Margherita, Deluxe veggie, 5 Pepper, Double cheese margherita, peri-peri chicken, Veg extravaganza)"
+		},
+		"parent": "slot_7_1518010597307",
+		"context": null,
+		"created": "2018-02-07T13:36:39.680Z",
+		"updated": "2018-02-08T09:52:46.332Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_9_1518010597307",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_30_1518082093163",
+		"context": null,
+		"created": "2018-02-08T09:32:37.199Z",
+		"updated": "2018-02-08T09:32:43.591Z",
+		"metadata": null,
+		"variable": "$pizza_toppings",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_33_1518082354506",
+		"previous_sibling": "handler_32_1518082354486"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Select your toppings (Jalapeno, Black olive, Fresh tomato or Red Paprika)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_30_1518082093163",
+		"context": null,
+		"created": "2018-02-08T09:32:36.521Z",
+		"updated": "2018-02-08T09:34:21.941Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_32_1518082354486",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Select your toppings (Jalapeno, Black olive, Fresh tomato or Red Paprika)"
+		},
+		"parent": "slot_33_1518082354506",
+		"context": null,
+		"created": "2018-02-08T09:32:38.136Z",
+		"updated": "2018-02-08T09:34:20.519Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_35_1518082354506",
+		"previous_sibling": "handler_34_1518082354506"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_33_1518082354506",
+		"context": {
+			"pizza_toppings": "@pizza_toppings"
+		},
+		"created": "2018-02-08T09:32:37.642Z",
+		"updated": "2018-02-08T09:32:44.066Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@pizza_toppings",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_34_1518082354506",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Would you like to have regular, medium or large sized pizza?"
+		},
+		"parent": "slot_1_1518009183959",
+		"context": null,
+		"created": "2018-02-07T13:13:06.599Z",
+		"updated": "2018-02-08T07:10:37.720Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_3_1518009183959",
+		"previous_sibling": "handler_2_1518009183959"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_1_1518009183959",
+		"context": {
+			"pizza_size": "@pizza_size"
+		},
+		"created": "2018-02-07T13:13:06.155Z",
+		"updated": "2018-02-07T13:42:03.647Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@pizza_size",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_2_1518009183959",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Your order is confirmed. A  Delicious $pizza_size sized $pizza_name with $pizza_crust crust will be served in 30 minutes!"]
+			}
+		},
+		"parent": "node_20_1518080514383",
+		"context": null,
+		"created": "2018-02-08T09:05:28.262Z",
+		"updated": "2018-02-08T09:06:29.690Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_22_1518080726199",
+		"previous_sibling": "node_21_1518080651976"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Your order is confirmed. A  Delicious $pizza_size sized $pizza_name with $pizza_crust crust and $pizza_toppings extra toppings will be served in 30 minutes!"]
+			}
+		},
+		"parent": "node_20_1518080514383",
+		"context": null,
+		"created": "2018-02-08T09:04:14.031Z",
+		"updated": "2018-02-08T09:06:18.992Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$pizza_toppings",
+		"description": null,
+		"dialog_node": "node_21_1518080651976",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_1_1517998699565",
+		"context": null,
+		"created": "2018-02-07T13:13:05.703Z",
+		"updated": "2018-02-07T13:42:03.199Z",
+		"metadata": {},
+		"variable": "$pizza_size",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_1_1518009183959",
+		"previous_sibling": "slot_12_1518011800202"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "node_1_1517998699565",
+		"context": null,
+		"created": "2018-02-07T13:14:45.872Z",
+		"updated": "2018-02-07T13:15:10.814Z",
+		"disabled": true,
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_4_1518009284515",
+		"previous_sibling": "slot_24_1518081341695"
+	}, {
+		"type": "standard",
+		"title": "Finalize order",
+		"output": {},
+		"parent": "node_1_1517998699565",
+		"context": null,
+		"created": "2018-02-08T08:22:22.734Z",
+		"updated": "2018-02-08T09:11:24.145Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "$pizza_name",
+		"description": null,
+		"dialog_node": "node_2_1518078140737",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_27_1518081390815"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_1_1517998699565",
+		"context": null,
+		"created": "2018-02-07T13:56:41.569Z",
+		"updated": "2018-02-08T07:23:51.491Z",
+		"metadata": {},
+		"variable": "$pizza_crust",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_12_1518011800202",
+		"previous_sibling": "slot_7_1518010597307"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1517998699565",
+		"context": null,
+		"created": "2018-02-08T09:15:43.732Z",
+		"updated": "2018-02-08T09:15:49.588Z",
+		"metadata": null,
+		"variable": "$pizza_toppings",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_24_1518081341695",
+		"previous_sibling": "slot_1_1518009183959"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_1_1517998699565",
+		"context": null,
+		"created": "2018-02-07T13:36:38.728Z",
+		"updated": "2018-02-08T08:03:09.121Z",
+		"metadata": {},
+		"variable": "$pizza_name",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_7_1518010597307",
+		"previous_sibling": "node_2_1518078140737"
+	}, {
+		"type": "standard",
+		"title": "Toppings",
+		"output": {
+			"text": {
+				"values": ["Would you like to add extra toppings?"]
+			}
+		},
+		"parent": "node_1_1517998699565",
+		"context": null,
+		"created": "2018-02-08T09:16:32.850Z",
+		"updated": "2018-02-08T09:29:59.509Z",
+		"metadata": {
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": null,
+		"conditions": "$pizza_toppings==null",
+		"description": null,
+		"dialog_node": "node_27_1518081390815",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["A  $pizza_size sized $pizza_name with $pizza_crust crust. Confirm the order?"]
+			}
+		},
+		"parent": "node_2_1518078140737",
+		"context": null,
+		"created": "2018-02-08T08:29:25.716Z",
+		"updated": "2018-02-08T09:05:36.050Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_5_1518078563741",
+		"previous_sibling": "node_3_1518078410398"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["A  $pizza_size sized $pizza_name with $pizza_crust crust and $pizza_toppings extra toppings. Confirm the order?"]
+			}
+		},
+		"parent": "node_2_1518078140737",
+		"context": null,
+		"created": "2018-02-08T08:26:52.765Z",
+		"updated": "2018-02-08T09:04:31.832Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$pizza_toppings",
+		"description": null,
+		"dialog_node": "node_3_1518078410398",
+		"previous_sibling": "node_23_1518080821611"
+	}, {
+		"type": "standard",
+		"title": "Reset order",
+		"output": {
+			"text": {
+				"values": ["What changes would you like to make?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1518078140737",
+		"context": null,
+		"created": "2018-02-08T09:07:03.680Z",
+		"updated": "2018-02-08T09:43:08.527Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_1_1517998699565"
+		},
+		"conditions": "#No",
+		"description": null,
+		"dialog_node": "node_23_1518080821611",
+		"previous_sibling": "node_20_1518080514383"
+	}, {
+		"type": "standard",
+		"title": "Confirm order",
+		"output": {},
+		"parent": "node_2_1518078140737",
+		"context": null,
+		"created": "2018-02-08T09:01:56.527Z",
+		"updated": "2018-02-08T09:04:14.502Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#Yes",
+		"description": null,
+		"dialog_node": "node_20_1518080514383",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "frame",
+		"title": "Ask Pizza Details",
+		"output": {
+			"text": {
+				"values": ["A  $pizza_size sized $pizza_name with $pizza_crust crust it is!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-07T10:18:21.779Z",
+		"updated": "2018-02-08T09:19:28.338Z",
+		"metadata": {
+			"fallback": "leave",
+			"_customization": {
+				"mcr": false
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_27_1518081390815"
+		},
+		"conditions": "#Pizza",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_1_1517998699565",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_12_1518074679474",
+		"digress_out_slots": "not_allowed"
+	}, {
+		"type": "standard",
+		"title": "Bye",
+		"output": {
+			"text": {
+				"values": ["Bye, Have a great day!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-08T09:38:36.510Z",
+		"updated": "2018-02-08T09:38:52.779Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#goodbye",
+		"description": null,
+		"dialog_node": "node_37_1518082714451",
+		"previous_sibling": "node_36_1518082670214"
+	}, {
+		"type": "standard",
+		"title": "Hello",
+		"output": {
+			"text": {
+				"values": ["Hello again! What would you like to have?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-08T07:39:01.373Z",
+		"updated": "2018-02-08T09:43:37.940Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#hello",
+		"description": null,
+		"dialog_node": "node_15_1518075539386",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "Pizza list",
+		"output": {
+			"text": {
+				"values": ["Here's our list of pizzas - \nMargherita, Deluxe veggie, 5 Pepper, Double cheese margherita, peri-peri chicken, Veg extravaganza"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-08T07:24:41.424Z",
+		"updated": "2018-02-08T09:52:35.813Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#pizza_list",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_12_1518074679474",
+		"previous_sibling": "node_15_1518075539386"
+	}, {
+		"type": "standard",
+		"title": "Thanks",
+		"output": {
+			"text": {
+				"values": ["You are welcome :)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-08T09:37:52.277Z",
+		"updated": "2018-02-08T09:38:18.169Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Thanks",
+		"description": null,
+		"dialog_node": "node_36_1518082670214",
+		"previous_sibling": "node_1_1517998699565"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-01T10:53:53.207Z",
+		"updated": "2018-02-08T07:10:25.375Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_37_1518082714451"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Welcome to Joey's Pizza, What would you like to have today!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-01T10:53:53.207Z",
+		"updated": "2018-02-08T06:59:15.938Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "fccd17b6-50a8-4497-bc23-f9967cfdfdc3",
+	"counterexamples": [{
+		"text": "I'll have medium margherita hand tossed",
+		"created": "2018-02-08T08:18:28.124Z",
+		"updated": "2018-02-08T08:18:28.124Z"
+	}, {
+		"text": "medium",
+		"created": "2018-02-07T13:45:04.111Z",
+		"updated": "2018-02-07T13:45:04.111Z"
+	}, {
+		"text": "no",
+		"created": "2018-02-08T07:41:41.743Z",
+		"updated": "2018-02-08T07:41:41.743Z"
+	}],
+	"learning_opt_out": false
+}

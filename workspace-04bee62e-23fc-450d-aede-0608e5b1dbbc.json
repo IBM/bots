@@ -1,1 +1,101 @@
-{"name":"Are we there yet space","created":"2017-12-01T22:14:23.822Z","intents":[{"intent":"Distance","created":"2017-12-01T22:19:04.134Z","updated":"2017-12-01T22:19:25.199Z","examples":[{"text":"Are we there yet","created":"2017-12-01T22:19:14.617Z","updated":"2017-12-01T22:19:14.617Z"},{"text":"How long will it take","created":"2017-12-01T22:19:25.199Z","updated":"2017-12-01T22:19:25.199Z"}],"description":null},{"intent":"Greeting","created":"2017-12-01T22:15:52.121Z","updated":"2017-12-01T22:16:13.056Z","examples":[{"text":"Hello bot","created":"2017-12-01T22:15:59.393Z","updated":"2017-12-01T22:15:59.393Z"},{"text":"Hi","created":"2017-12-01T22:16:04.896Z","updated":"2017-12-01T22:16:04.896Z"},{"text":"Yo","created":"2017-12-01T22:16:13.056Z","updated":"2017-12-01T22:16:13.056Z"}],"description":null}],"updated":"2017-12-01T23:00:28.545Z","entities":[{"entity":"Distance","values":[{"type":"synonyms","value":"distance","created":"2017-12-01T22:32:13.153Z","updated":"2017-12-01T22:32:21.974Z","metadata":null,"synonyms":["far"]}],"created":"2017-12-01T22:31:59.874Z","updated":"2017-12-01T22:32:21.974Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"title":"Business","output":{"text":{"values":["10 minutes away","5 miles","Almost !","be patient","shut up","I'll buy you an ice cream if you behave"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-01T22:37:11.181Z","updated":"2017-12-01T23:00:28.545Z","metadata":{},"next_step":null,"conditions":"#Distance","description":null,"dialog_node":"Anything else","previous_sibling":"Welcome"},{"title":"Welcome","output":{"text":{"values":["Hey, what's up"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-01T22:37:11.181Z","updated":"2017-12-01T22:37:58.204Z","metadata":{},"next_step":null,"conditions":"#Greeting","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"04bee62e-23fc-450d-aede-0608e5b1dbbc","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Are we there yet space",
+	"created": "2017-12-01T22:14:23.822Z",
+	"intents": [{
+		"intent": "Distance",
+		"created": "2017-12-01T22:19:04.134Z",
+		"updated": "2017-12-01T22:19:25.199Z",
+		"examples": [{
+			"text": "Are we there yet",
+			"created": "2017-12-01T22:19:14.617Z",
+			"updated": "2017-12-01T22:19:14.617Z"
+		}, {
+			"text": "How long will it take",
+			"created": "2017-12-01T22:19:25.199Z",
+			"updated": "2017-12-01T22:19:25.199Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Greeting",
+		"created": "2017-12-01T22:15:52.121Z",
+		"updated": "2017-12-01T22:16:13.056Z",
+		"examples": [{
+			"text": "Hello bot",
+			"created": "2017-12-01T22:15:59.393Z",
+			"updated": "2017-12-01T22:15:59.393Z"
+		}, {
+			"text": "Hi",
+			"created": "2017-12-01T22:16:04.896Z",
+			"updated": "2017-12-01T22:16:04.896Z"
+		}, {
+			"text": "Yo",
+			"created": "2017-12-01T22:16:13.056Z",
+			"updated": "2017-12-01T22:16:13.056Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-12-01T23:00:28.545Z",
+	"entities": [{
+		"entity": "Distance",
+		"values": [{
+			"type": "synonyms",
+			"value": "distance",
+			"created": "2017-12-01T22:32:13.153Z",
+			"updated": "2017-12-01T22:32:21.974Z",
+			"metadata": null,
+			"synonyms": ["far"]
+		}],
+		"created": "2017-12-01T22:31:59.874Z",
+		"updated": "2017-12-01T22:32:21.974Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"title": "Business",
+		"output": {
+			"text": {
+				"values": ["10 minutes away", "5 miles", "Almost !", "be patient", "shut up", "I'll buy you an ice cream if you behave"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-01T22:37:11.181Z",
+		"updated": "2017-12-01T23:00:28.545Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Distance",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hey, what's up"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-01T22:37:11.181Z",
+		"updated": "2017-12-01T22:37:58.204Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Greeting",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "04bee62e-23fc-450d-aede-0608e5b1dbbc",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

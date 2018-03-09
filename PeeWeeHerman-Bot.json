@@ -1,1 +1,498 @@
-{"name":"Pee-Wee Herman Bot","created":"2017-08-24T01:57:50.988Z","intents":[{"intent":"pen","created":"2017-08-24T02:10:37.492Z","updated":"2017-08-24T02:10:46.306Z","examples":[{"text":"pen","created":"2017-08-24T02:10:39.805Z","updated":"2017-08-24T02:10:39.805Z"},{"text":"what's this pen","created":"2017-08-24T02:10:46.306Z","updated":"2017-08-24T02:10:46.306Z"}],"description":null},{"intent":"Texas","created":"2017-08-24T01:58:28.347Z","updated":"2017-08-24T02:11:40.373Z","examples":[{"text":"the stars at night","created":"2017-08-24T01:58:35.677Z","updated":"2017-08-24T01:58:35.677Z"},{"text":"are you really in Texas?","created":"2017-08-24T02:11:40.373Z","updated":"2017-08-24T02:11:40.373Z"}],"description":null},{"intent":"love","created":"2017-08-24T02:27:38.549Z","updated":"2017-08-24T02:27:48.502Z","examples":[{"text":"love it","created":"2017-08-24T02:27:48.502Z","updated":"2017-08-24T02:27:48.502Z"}],"description":null},{"intent":"aFewWords","created":"2017-08-24T02:34:14.145Z","updated":"2017-08-24T02:34:29.447Z","examples":[{"text":"say a few words","created":"2017-08-24T02:34:18.939Z","updated":"2017-08-24T02:34:18.939Z"},{"text":"would you like to say a few words?","created":"2017-08-24T02:34:29.447Z","updated":"2017-08-24T02:34:29.447Z"}],"description":null},{"intent":"GuessedWord","created":"2017-08-24T02:02:55.061Z","updated":"2017-12-01T16:45:07.084Z","examples":[{"text":"cornucopia","created":"2017-08-24T02:02:59.309Z","updated":"2017-08-24T02:02:59.309Z"},{"text":"trombone","created":"2017-08-24T02:03:24.598Z","updated":"2017-08-24T02:03:24.598Z"},{"text":"pie","created":"2017-08-24T02:03:28.401Z","updated":"2017-08-24T02:03:28.401Z"},{"text":"pickle","created":"2017-12-01T16:44:47.869Z","updated":"2017-12-01T16:44:47.869Z"},{"text":"monkey","created":"2017-12-01T16:44:49.543Z","updated":"2017-12-01T16:44:49.543Z"},{"text":"tricycle","created":"2017-12-01T16:44:55.818Z","updated":"2017-12-01T16:45:07.084Z"}],"description":null},{"intent":"Ram","created":"2017-09-09T23:51:22.898Z","updated":"2017-09-09T23:53:42.832Z","examples":[{"text":"Who is Ram?","created":"2017-09-09T23:51:31.600Z","updated":"2017-09-09T23:51:31.600Z"},{"text":"Ram","created":"2017-09-09T23:51:44.205Z","updated":"2017-09-09T23:51:44.205Z"},{"text":"Ram wut?","created":"2017-09-09T23:53:42.832Z","updated":"2017-09-09T23:53:42.832Z"}],"description":null},{"intent":"hi","created":"2017-08-24T02:08:20.626Z","updated":"2017-08-24T02:08:33.701Z","examples":[{"text":"hi","created":"2017-08-24T02:08:24.263Z","updated":"2017-08-24T02:08:24.263Z"},{"text":"hello","created":"2017-08-24T02:08:25.693Z","updated":"2017-08-24T02:08:25.693Z"},{"text":"sup?","created":"2017-08-24T02:08:27.230Z","updated":"2017-08-24T02:08:27.230Z"},{"text":"hola","created":"2017-08-24T02:08:33.701Z","updated":"2017-08-24T02:08:33.701Z"}],"description":null},{"intent":"bike","created":"2017-08-24T02:13:04.059Z","updated":"2017-08-24T02:13:13.574Z","examples":[{"text":"bike","created":"2017-08-24T02:13:07.906Z","updated":"2017-08-24T02:13:07.906Z"},{"text":"bicycle","created":"2017-08-24T02:13:13.574Z","updated":"2017-08-24T02:13:13.574Z"}],"description":null},{"intent":"SecretWord","created":"2017-08-24T02:02:03.261Z","updated":"2017-08-24T02:02:14.067Z","examples":[{"text":"what's the secret word","created":"2017-08-24T02:02:08.803Z","updated":"2017-08-24T02:02:08.803Z"},{"text":"secret word","created":"2017-08-24T02:02:11.038Z","updated":"2017-08-24T02:02:11.038Z"},{"text":"secret","created":"2017-08-24T02:02:14.067Z","updated":"2017-08-24T02:02:14.067Z"}],"description":null},{"intent":"Cher","created":"2017-08-24T02:25:09.968Z","updated":"2017-08-24T02:25:20.751Z","examples":[{"text":"Cher","created":"2017-08-24T02:25:20.751Z","updated":"2017-08-24T02:25:20.751Z"}],"description":null},{"intent":"dreams","created":"2017-08-24T02:16:11.992Z","updated":"2017-08-24T02:16:20.975Z","examples":[{"text":"dreams","created":"2017-08-24T02:16:16.633Z","updated":"2017-08-24T02:16:16.633Z"},{"text":"do you have any dreams?","created":"2017-08-24T02:16:20.975Z","updated":"2017-08-24T02:16:20.975Z"}],"description":null}],"updated":"2017-12-01T17:02:10.809Z","entities":[{"entity":"Pokemon","values":[{"type":"synonyms","value":"Food","created":"2017-09-10T00:27:09.796Z","updated":"2017-09-10T00:27:09.796Z","metadata":null,"synonyms":["Fred"]},{"type":"synonyms","value":"Charmander","created":"2017-09-10T00:23:55.728Z","updated":"2017-09-10T00:24:03.945Z","metadata":null,"synonyms":["Charizard"]},{"type":"synonyms","value":"Oddish","created":"2017-09-10T00:24:06.203Z","updated":"2017-09-10T00:24:09.640Z","metadata":null,"synonyms":["Fred"]}],"created":"2017-09-10T00:23:53.453Z","updated":"2017-09-10T00:27:09.796Z","metadata":null,"description":null},{"entity":"Cher","values":[{"type":"synonyms","value":"Cher","created":"2017-08-24T02:24:38.799Z","updated":"2017-08-24T02:24:43.531Z","metadata":null,"synonyms":["cher"]}],"created":"2017-08-24T02:24:34.254Z","updated":"2017-08-24T02:24:57.718Z","metadata":null,"description":null},{"entity":"Alamo","values":[{"type":"synonyms","value":"Alamo","created":"2017-08-24T01:59:04.626Z","updated":"2017-08-24T01:59:11.289Z","metadata":null,"synonyms":["the Alamo"]}],"created":"2017-08-24T01:59:01.781Z","updated":"2017-08-24T01:59:11.428Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"A bot that provides the inimitable experience of chatting with Pee-Wee Herman. (I KNOW YOU ARE BUT WHAT AM I???)","dialog_nodes":[{"type":"response_condition","title":null,"output":{},"parent":"node_3_1503540401007","context":null,"created":"2017-08-24T02:07:16.845Z","updated":"2017-08-24T02:07:16.845Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_5_1503540435844","previous_sibling":"node_4_1503540435588"},{"type":"response_condition","title":null,"output":{"text":{"values":["I remember... the Alamo.","DEEP IN THE HEART OF TEXAS *clap clap*","Sh! I'm listening to reason."],"selection_policy":"random"}},"parent":"node_3_1503540401007","context":null,"created":"2017-08-24T02:07:16.571Z","updated":"2017-08-24T02:15:30.316Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_4_1503540435588","previous_sibling":null},{"title":null,"output":{"text":{"values":["Yeah, I'm all alone. I'm rolling a big doughnut and this snake wearing a vest..."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-08-24T02:17:07.729Z","updated":"2017-08-24T02:19:49.833Z","metadata":null,"next_step":null,"conditions":"#dreams","description":null,"dialog_node":"node_8_1503541162454","previous_sibling":"node_3_1503540401007"},{"title":"Anything else","output":{"text":{"values":["I know you are, but what am I?","Go ahead and scream your head off! We're miles from where anyone can hear you!","You don't wanna get mixed up with a guy like me. I'm a loner. A rebel.","I don't make monkeys, I just train 'em.","I say we let him go.","Shhhh! I'm listening to reason.","There's a lotta things about me you don't know anything about. Things you wouldn't understand. Things you couldn't understand. Things you shouldn't understand.","Merci-bleh-bleh!","Nobody hipped me to that, dude.","I don't have to see it. I lived it.","I'll say! I'm going to start a paper route right now.","I'm going to have to call you back, I got Dinah Shore on the other line.","You know I don't want to go anywhere, or try anything new.","Listen, it's been real and it's been fun. Has it been *real* fun? Nope. Mm mm.","I pity the poor fool who don't eat my cereal!","I feel just PERFECT! In fact, I can't remember when I felt quite so COZY down here!","Look out, Mister Potato Head!","The mind plays tricks on you. You play tricks back! It's like you're unraveling a big cable-knit sweater that someone keeps knitting and knitting and knitting and knitting and knitting and knitting and knitting...","Wow, I can't believe we're already saying goodbye.","You seem really busy. Let me let you let me run.","I broke rules. I broke hearts. I lived a little. I wanted to find out who I was. But I found out all right. A stupid little baby crying at the bottom of this crappy well."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-08-24T01:59:20.389Z","updated":"2017-12-01T16:55:02.784Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_2_1512146726665"},{"title":null,"output":{"text":{"values":["Ram is my BEST FRIEND!!!!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-09-09T23:52:26.287Z","updated":"2017-09-09T23:53:00.319Z","metadata":null,"next_step":null,"conditions":"#Ram","description":null,"dialog_node":"node_1_1505001146007","previous_sibling":"node_11_1503542073005"},{"title":null,"output":{"text":{"values":["That's the secret word! SCREAMMMMMMMMM!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-08-24T02:02:20.699Z","updated":"2017-08-24T02:04:20.685Z","metadata":null,"next_step":null,"conditions":"#GuessedWord","description":null,"dialog_node":"node_2_1503540259678","previous_sibling":"Welcome"},{"title":null,"output":{},"parent":null,"context":null,"created":"2017-08-24T02:06:42.021Z","updated":"2017-08-24T15:09:35.857Z","metadata":null,"next_step":null,"conditions":"#Texas || @Alamo","description":null,"dialog_node":"node_3_1503540401007","previous_sibling":"node_2_1503540259678"},{"title":"Welcome standard","output":{"text":{"values":["Come on in, and pull yourself up a chair (like Chairry!)\nLet the fun begin, it's time to let down your hair!\nPee-Wee's so excited,\n'cause all his friends have been invited (that's you!)\nTo go wacky, at Pee-Wee's playhouse!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-01T16:45:24.087Z","updated":"2017-12-01T16:48:16.841Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"node_2_1512146726665","previous_sibling":"node_3_1505003196020"},{"title":null,"output":{"text":{"values":["I bought this pen exactly one hour before my bike was stolen. Why? What's the significance? I DON'T KNOW!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-08-24T02:10:51.554Z","updated":"2017-08-24T02:11:06.101Z","metadata":null,"next_step":null,"conditions":"#pen","description":null,"dialog_node":"node_6_1503540650533","previous_sibling":"node_8_1503541162454"},{"title":"Cher","output":{"text":{"values":["That was Cher! Cher was right over there! In the same room as my chair! I hope I didn't stare! Oh well! I don't care!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-08-24T02:25:26.867Z","updated":"2017-12-01T16:42:22.729Z","metadata":{},"next_step":null,"conditions":"#Cher","description":null,"dialog_node":"node_9_1503541526577","previous_sibling":"node_6_1503540650533"},{"title":"bike","output":{"text":{"values":["I wouldn't sell my bike for all the money in the world. Not for a hundred million, trillion, billion dollars!","I bought this pen exactly one hour before my bike was stolen. Why? What's the significance? I DON'T KNOW!","Whoever returns the bike is obviously the person who stole it. So they don't deserve any reward!"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-09-10T00:26:36.250Z","updated":"2017-12-01T16:51:23.740Z","metadata":{},"next_step":null,"conditions":"#bike","description":null,"dialog_node":"node_3_1505003196020","previous_sibling":"node_1_1505001146007"},{"title":null,"output":{"text":{"values":["Why don't you marry it then?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-08-24T02:27:52.704Z","updated":"2017-08-24T02:28:04.603Z","metadata":null,"next_step":null,"conditions":"#love","description":null,"dialog_node":"node_10_1503541672411","previous_sibling":"node_9_1503541526577"},{"title":null,"output":{"text":{"values":["Uh, sure. Encyclopedia. Pimple. And uh, hairball."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-08-24T02:34:33.399Z","updated":"2017-08-24T02:34:50.256Z","metadata":null,"next_step":null,"conditions":"#aFewWords","description":null,"dialog_node":"node_11_1503542073005","previous_sibling":"node_10_1503541672411"},{"title":"Hi","output":{"text":{"values":["Hi, Dottie, it's Pee-wee!","Hi, it's Pee-wee!"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-08-24T01:59:20.389Z","updated":"2017-12-01T16:48:27.595Z","metadata":{},"next_step":null,"conditions":"#hi","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"b5e0b93b-14cf-46b5-b147-f4297b1d2cca","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Pee-Wee Herman Bot",
+	"created": "2017-08-24T01:57:50.988Z",
+	"intents": [{
+		"intent": "pen",
+		"created": "2017-08-24T02:10:37.492Z",
+		"updated": "2017-08-24T02:10:46.306Z",
+		"examples": [{
+			"text": "pen",
+			"created": "2017-08-24T02:10:39.805Z",
+			"updated": "2017-08-24T02:10:39.805Z"
+		}, {
+			"text": "what's this pen",
+			"created": "2017-08-24T02:10:46.306Z",
+			"updated": "2017-08-24T02:10:46.306Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Texas",
+		"created": "2017-08-24T01:58:28.347Z",
+		"updated": "2017-08-24T02:11:40.373Z",
+		"examples": [{
+			"text": "the stars at night",
+			"created": "2017-08-24T01:58:35.677Z",
+			"updated": "2017-08-24T01:58:35.677Z"
+		}, {
+			"text": "are you really in Texas?",
+			"created": "2017-08-24T02:11:40.373Z",
+			"updated": "2017-08-24T02:11:40.373Z"
+		}],
+		"description": null
+	}, {
+		"intent": "love",
+		"created": "2017-08-24T02:27:38.549Z",
+		"updated": "2017-08-24T02:27:48.502Z",
+		"examples": [{
+			"text": "love it",
+			"created": "2017-08-24T02:27:48.502Z",
+			"updated": "2017-08-24T02:27:48.502Z"
+		}],
+		"description": null
+	}, {
+		"intent": "aFewWords",
+		"created": "2017-08-24T02:34:14.145Z",
+		"updated": "2017-08-24T02:34:29.447Z",
+		"examples": [{
+			"text": "say a few words",
+			"created": "2017-08-24T02:34:18.939Z",
+			"updated": "2017-08-24T02:34:18.939Z"
+		}, {
+			"text": "would you like to say a few words?",
+			"created": "2017-08-24T02:34:29.447Z",
+			"updated": "2017-08-24T02:34:29.447Z"
+		}],
+		"description": null
+	}, {
+		"intent": "GuessedWord",
+		"created": "2017-08-24T02:02:55.061Z",
+		"updated": "2017-12-01T16:45:07.084Z",
+		"examples": [{
+			"text": "cornucopia",
+			"created": "2017-08-24T02:02:59.309Z",
+			"updated": "2017-08-24T02:02:59.309Z"
+		}, {
+			"text": "trombone",
+			"created": "2017-08-24T02:03:24.598Z",
+			"updated": "2017-08-24T02:03:24.598Z"
+		}, {
+			"text": "pie",
+			"created": "2017-08-24T02:03:28.401Z",
+			"updated": "2017-08-24T02:03:28.401Z"
+		}, {
+			"text": "pickle",
+			"created": "2017-12-01T16:44:47.869Z",
+			"updated": "2017-12-01T16:44:47.869Z"
+		}, {
+			"text": "monkey",
+			"created": "2017-12-01T16:44:49.543Z",
+			"updated": "2017-12-01T16:44:49.543Z"
+		}, {
+			"text": "tricycle",
+			"created": "2017-12-01T16:44:55.818Z",
+			"updated": "2017-12-01T16:45:07.084Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Ram",
+		"created": "2017-09-09T23:51:22.898Z",
+		"updated": "2017-09-09T23:53:42.832Z",
+		"examples": [{
+			"text": "Who is Ram?",
+			"created": "2017-09-09T23:51:31.600Z",
+			"updated": "2017-09-09T23:51:31.600Z"
+		}, {
+			"text": "Ram",
+			"created": "2017-09-09T23:51:44.205Z",
+			"updated": "2017-09-09T23:51:44.205Z"
+		}, {
+			"text": "Ram wut?",
+			"created": "2017-09-09T23:53:42.832Z",
+			"updated": "2017-09-09T23:53:42.832Z"
+		}],
+		"description": null
+	}, {
+		"intent": "hi",
+		"created": "2017-08-24T02:08:20.626Z",
+		"updated": "2017-08-24T02:08:33.701Z",
+		"examples": [{
+			"text": "hi",
+			"created": "2017-08-24T02:08:24.263Z",
+			"updated": "2017-08-24T02:08:24.263Z"
+		}, {
+			"text": "hello",
+			"created": "2017-08-24T02:08:25.693Z",
+			"updated": "2017-08-24T02:08:25.693Z"
+		}, {
+			"text": "sup?",
+			"created": "2017-08-24T02:08:27.230Z",
+			"updated": "2017-08-24T02:08:27.230Z"
+		}, {
+			"text": "hola",
+			"created": "2017-08-24T02:08:33.701Z",
+			"updated": "2017-08-24T02:08:33.701Z"
+		}],
+		"description": null
+	}, {
+		"intent": "bike",
+		"created": "2017-08-24T02:13:04.059Z",
+		"updated": "2017-08-24T02:13:13.574Z",
+		"examples": [{
+			"text": "bike",
+			"created": "2017-08-24T02:13:07.906Z",
+			"updated": "2017-08-24T02:13:07.906Z"
+		}, {
+			"text": "bicycle",
+			"created": "2017-08-24T02:13:13.574Z",
+			"updated": "2017-08-24T02:13:13.574Z"
+		}],
+		"description": null
+	}, {
+		"intent": "SecretWord",
+		"created": "2017-08-24T02:02:03.261Z",
+		"updated": "2017-08-24T02:02:14.067Z",
+		"examples": [{
+			"text": "what's the secret word",
+			"created": "2017-08-24T02:02:08.803Z",
+			"updated": "2017-08-24T02:02:08.803Z"
+		}, {
+			"text": "secret word",
+			"created": "2017-08-24T02:02:11.038Z",
+			"updated": "2017-08-24T02:02:11.038Z"
+		}, {
+			"text": "secret",
+			"created": "2017-08-24T02:02:14.067Z",
+			"updated": "2017-08-24T02:02:14.067Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Cher",
+		"created": "2017-08-24T02:25:09.968Z",
+		"updated": "2017-08-24T02:25:20.751Z",
+		"examples": [{
+			"text": "Cher",
+			"created": "2017-08-24T02:25:20.751Z",
+			"updated": "2017-08-24T02:25:20.751Z"
+		}],
+		"description": null
+	}, {
+		"intent": "dreams",
+		"created": "2017-08-24T02:16:11.992Z",
+		"updated": "2017-08-24T02:16:20.975Z",
+		"examples": [{
+			"text": "dreams",
+			"created": "2017-08-24T02:16:16.633Z",
+			"updated": "2017-08-24T02:16:16.633Z"
+		}, {
+			"text": "do you have any dreams?",
+			"created": "2017-08-24T02:16:20.975Z",
+			"updated": "2017-08-24T02:16:20.975Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-12-01T17:02:10.809Z",
+	"entities": [{
+		"entity": "Pokemon",
+		"values": [{
+			"type": "synonyms",
+			"value": "Food",
+			"created": "2017-09-10T00:27:09.796Z",
+			"updated": "2017-09-10T00:27:09.796Z",
+			"metadata": null,
+			"synonyms": ["Fred"]
+		}, {
+			"type": "synonyms",
+			"value": "Charmander",
+			"created": "2017-09-10T00:23:55.728Z",
+			"updated": "2017-09-10T00:24:03.945Z",
+			"metadata": null,
+			"synonyms": ["Charizard"]
+		}, {
+			"type": "synonyms",
+			"value": "Oddish",
+			"created": "2017-09-10T00:24:06.203Z",
+			"updated": "2017-09-10T00:24:09.640Z",
+			"metadata": null,
+			"synonyms": ["Fred"]
+		}],
+		"created": "2017-09-10T00:23:53.453Z",
+		"updated": "2017-09-10T00:27:09.796Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Cher",
+		"values": [{
+			"type": "synonyms",
+			"value": "Cher",
+			"created": "2017-08-24T02:24:38.799Z",
+			"updated": "2017-08-24T02:24:43.531Z",
+			"metadata": null,
+			"synonyms": ["cher"]
+		}],
+		"created": "2017-08-24T02:24:34.254Z",
+		"updated": "2017-08-24T02:24:57.718Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Alamo",
+		"values": [{
+			"type": "synonyms",
+			"value": "Alamo",
+			"created": "2017-08-24T01:59:04.626Z",
+			"updated": "2017-08-24T01:59:11.289Z",
+			"metadata": null,
+			"synonyms": ["the Alamo"]
+		}],
+		"created": "2017-08-24T01:59:01.781Z",
+		"updated": "2017-08-24T01:59:11.428Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "A bot that provides the inimitable experience of chatting with Pee-Wee Herman. (I KNOW YOU ARE BUT WHAT AM I???)",
+	"dialog_nodes": [{
+		"type": "response_condition",
+		"title": null,
+		"output": {},
+		"parent": "node_3_1503540401007",
+		"context": null,
+		"created": "2017-08-24T02:07:16.845Z",
+		"updated": "2017-08-24T02:07:16.845Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_5_1503540435844",
+		"previous_sibling": "node_4_1503540435588"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I remember... the Alamo.", "DEEP IN THE HEART OF TEXAS *clap clap*", "Sh! I'm listening to reason."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_3_1503540401007",
+		"context": null,
+		"created": "2017-08-24T02:07:16.571Z",
+		"updated": "2017-08-24T02:15:30.316Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_4_1503540435588",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Yeah, I'm all alone. I'm rolling a big doughnut and this snake wearing a vest..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T02:17:07.729Z",
+		"updated": "2017-08-24T02:19:49.833Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#dreams",
+		"description": null,
+		"dialog_node": "node_8_1503541162454",
+		"previous_sibling": "node_3_1503540401007"
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I know you are, but what am I?", "Go ahead and scream your head off! We're miles from where anyone can hear you!", "You don't wanna get mixed up with a guy like me. I'm a loner. A rebel.", "I don't make monkeys, I just train 'em.", "I say we let him go.", "Shhhh! I'm listening to reason.", "There's a lotta things about me you don't know anything about. Things you wouldn't understand. Things you couldn't understand. Things you shouldn't understand.", "Merci-bleh-bleh!", "Nobody hipped me to that, dude.", "I don't have to see it. I lived it.", "I'll say! I'm going to start a paper route right now.", "I'm going to have to call you back, I got Dinah Shore on the other line.", "You know I don't want to go anywhere, or try anything new.", "Listen, it's been real and it's been fun. Has it been *real* fun? Nope. Mm mm.", "I pity the poor fool who don't eat my cereal!", "I feel just PERFECT! In fact, I can't remember when I felt quite so COZY down here!", "Look out, Mister Potato Head!", "The mind plays tricks on you. You play tricks back! It's like you're unraveling a big cable-knit sweater that someone keeps knitting and knitting and knitting and knitting and knitting and knitting and knitting...", "Wow, I can't believe we're already saying goodbye.", "You seem really busy. Let me let you let me run.", "I broke rules. I broke hearts. I lived a little. I wanted to find out who I was. But I found out all right. A stupid little baby crying at the bottom of this crappy well."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T01:59:20.389Z",
+		"updated": "2017-12-01T16:55:02.784Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_2_1512146726665"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ram is my BEST FRIEND!!!!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-09-09T23:52:26.287Z",
+		"updated": "2017-09-09T23:53:00.319Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Ram",
+		"description": null,
+		"dialog_node": "node_1_1505001146007",
+		"previous_sibling": "node_11_1503542073005"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["That's the secret word! SCREAMMMMMMMMM!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T02:02:20.699Z",
+		"updated": "2017-08-24T02:04:20.685Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#GuessedWord",
+		"description": null,
+		"dialog_node": "node_2_1503540259678",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T02:06:42.021Z",
+		"updated": "2017-08-24T15:09:35.857Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Texas || @Alamo",
+		"description": null,
+		"dialog_node": "node_3_1503540401007",
+		"previous_sibling": "node_2_1503540259678"
+	}, {
+		"title": "Welcome standard",
+		"output": {
+			"text": {
+				"values": ["Come on in, and pull yourself up a chair (like Chairry!)\nLet the fun begin, it's time to let down your hair!\nPee-Wee's so excited,\n'cause all his friends have been invited (that's you!)\nTo go wacky, at Pee-Wee's playhouse!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-01T16:45:24.087Z",
+		"updated": "2017-12-01T16:48:16.841Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "node_2_1512146726665",
+		"previous_sibling": "node_3_1505003196020"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I bought this pen exactly one hour before my bike was stolen. Why? What's the significance? I DON'T KNOW!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T02:10:51.554Z",
+		"updated": "2017-08-24T02:11:06.101Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#pen",
+		"description": null,
+		"dialog_node": "node_6_1503540650533",
+		"previous_sibling": "node_8_1503541162454"
+	}, {
+		"title": "Cher",
+		"output": {
+			"text": {
+				"values": ["That was Cher! Cher was right over there! In the same room as my chair! I hope I didn't stare! Oh well! I don't care!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T02:25:26.867Z",
+		"updated": "2017-12-01T16:42:22.729Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Cher",
+		"description": null,
+		"dialog_node": "node_9_1503541526577",
+		"previous_sibling": "node_6_1503540650533"
+	}, {
+		"title": "bike",
+		"output": {
+			"text": {
+				"values": ["I wouldn't sell my bike for all the money in the world. Not for a hundred million, trillion, billion dollars!", "I bought this pen exactly one hour before my bike was stolen. Why? What's the significance? I DON'T KNOW!", "Whoever returns the bike is obviously the person who stole it. So they don't deserve any reward!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-09-10T00:26:36.250Z",
+		"updated": "2017-12-01T16:51:23.740Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#bike",
+		"description": null,
+		"dialog_node": "node_3_1505003196020",
+		"previous_sibling": "node_1_1505001146007"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Why don't you marry it then?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T02:27:52.704Z",
+		"updated": "2017-08-24T02:28:04.603Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#love",
+		"description": null,
+		"dialog_node": "node_10_1503541672411",
+		"previous_sibling": "node_9_1503541526577"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Uh, sure. Encyclopedia. Pimple. And uh, hairball."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T02:34:33.399Z",
+		"updated": "2017-08-24T02:34:50.256Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#aFewWords",
+		"description": null,
+		"dialog_node": "node_11_1503542073005",
+		"previous_sibling": "node_10_1503541672411"
+	}, {
+		"title": "Hi",
+		"output": {
+			"text": {
+				"values": ["Hi, Dottie, it's Pee-wee!", "Hi, it's Pee-wee!"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-24T01:59:20.389Z",
+		"updated": "2017-12-01T16:48:27.595Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#hi",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "b5e0b93b-14cf-46b5-b147-f4297b1d2cca",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

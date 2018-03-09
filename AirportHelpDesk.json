@@ -1,1 +1,344 @@
-{"name":"Airport Helpdesk","created":"2018-01-07T20:25:43.691Z","intents":[{"intent":"tell_destination","created":"2018-01-07T20:28:21.799Z","updated":"2018-01-07T20:29:02.990Z","examples":[{"text":"tell me my destination","created":"2018-01-07T20:28:31.506Z","updated":"2018-01-07T20:28:31.506Z"},{"text":"what is my target airport","created":"2018-01-07T20:28:35.869Z","updated":"2018-01-07T20:28:35.869Z"},{"text":"where am i going to","created":"2018-01-07T20:28:40.239Z","updated":"2018-01-07T20:28:40.239Z"},{"text":"where am I heading","created":"2018-01-07T20:28:48.287Z","updated":"2018-01-07T20:28:48.287Z"},{"text":"where am I leaving","created":"2018-01-07T20:28:56.694Z","updated":"2018-01-07T20:28:56.694Z"},{"text":"which airport i am going to","created":"2018-01-07T20:29:02.990Z","updated":"2018-01-07T20:29:02.990Z"}],"description":"I am leaving"},{"intent":"set_destination","created":"2018-01-07T20:26:55.330Z","updated":"2018-01-07T20:39:12.802Z","examples":[{"text":"I am leaving for *","created":"2018-01-07T20:26:59.761Z","updated":"2018-01-07T20:26:59.761Z"},{"text":"I will go *","created":"2018-01-07T20:27:07.916Z","updated":"2018-01-07T20:27:07.916Z"},{"text":"I will leave for *","created":"2018-01-07T20:27:11.156Z","updated":"2018-01-07T20:27:11.156Z"},{"text":"my destination is *","created":"2018-01-07T20:27:16.205Z","updated":"2018-01-07T20:27:16.205Z"},{"text":"my target airport is *","created":"2018-01-07T20:27:22.160Z","updated":"2018-01-07T20:27:22.160Z"},{"text":"set my destination to *","created":"2018-01-07T20:27:30.257Z","updated":"2018-01-07T20:27:30.257Z"},{"text":"I am leaving to","created":"2018-01-07T20:39:12.802Z","updated":"2018-01-07T20:39:12.802Z"}],"description":"I am leaving"}],"updated":"2018-01-07T23:38:50.197Z","entities":[{"entity":"Airport","values":[{"type":"synonyms","value":"Washington D.C.","created":"2018-01-07T20:29:52.388Z","updated":"2018-01-07T20:32:45.715Z","metadata":null,"synonyms":["Dulles","Reagan International"]},{"type":"synonyms","value":"New York","created":"2018-01-07T20:29:37.373Z","updated":"2018-01-07T20:32:22.403Z","metadata":null,"synonyms":["JFK","Laguardia","LGA"]},{"type":"synonyms","value":"San Francisco","created":"2018-01-07T20:30:14.560Z","updated":"2018-01-07T20:32:34.838Z","metadata":null,"synonyms":["SFO","San Jose","Oakland"]},{"type":"synonyms","value":"Los Angeles","created":"2018-01-07T20:30:43.361Z","updated":"2018-01-07T20:32:51.037Z","metadata":null,"synonyms":["LAX"]},{"type":"synonyms","value":"Miami","created":"2018-01-07T20:30:20.539Z","updated":"2018-01-07T20:30:20.539Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Boston","created":"2018-01-07T20:29:32.752Z","updated":"2018-01-07T20:31:58.041Z","metadata":null,"synonyms":["Bos","Login Airport","Logan International"]}],"created":"2018-01-07T20:29:26.291Z","updated":"2018-01-07T20:32:51.037Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"concierge at airport","dialog_nodes":[{"type":"slot","title":null,"output":null,"parent":"node_3_1515357900644","context":null,"created":"2018-01-07T22:00:28.326Z","updated":"2018-01-07T22:00:38.350Z","metadata":null,"variable":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"slot_4_1515362430650","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["I do not know your destination"],"selection_policy":"sequential"}},"parent":"node_7_1515363032724","context":null,"created":"2018-01-07T22:34:46.020Z","updated":"2018-01-07T22:35:19.383Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_10_1515364488624","previous_sibling":"node_8_1515363100683"},{"type":"standard","title":null,"output":{"text":{"values":["Your destination is <? $destination ?>"],"selection_policy":"sequential"}},"parent":"node_7_1515363032724","context":null,"created":"2018-01-07T22:11:38.064Z","updated":"2018-01-07T22:13:42.408Z","metadata":{},"next_step":null,"conditions":"$destination","description":null,"dialog_node":"node_8_1515363100683","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["tell me your destination"],"selection_policy":"sequential"}},"parent":"node_1_1515357332245","context":null,"created":"2018-01-07T20:44:58.557Z","updated":"2018-01-07T22:02:10.541Z","metadata":{"fallback":"leave"},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_2_1515357703305"},"conditions":"true","description":null,"dialog_node":"node_3_1515357900644","digress_out":"allow_all","previous_sibling":"node_2_1515357703305"},{"type":"standard","title":"Airport","output":{"text":{"values":["Your airport is set to <? @Airport ?>"],"selection_policy":"sequential"}},"parent":"node_1_1515357332245","context":{"destination":"@Airport"},"created":"2018-01-07T20:41:41.209Z","updated":"2018-01-07T23:38:50.197Z","metadata":{},"next_step":null,"conditions":"@Airport","description":null,"dialog_node":"node_2_1515357703305","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_4_1515362430650","context":null,"created":"2018-01-07T22:00:28.837Z","updated":"2018-01-07T22:00:28.837Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_6_1515362430650","previous_sibling":"handler_5_1515362430650"},{"type":"event_handler","title":null,"output":null,"parent":"slot_4_1515362430650","context":{},"created":"2018-01-07T22:00:28.592Z","updated":"2018-01-07T22:00:38.602Z","metadata":null,"next_step":null,"conditions":"tru","event_name":"input","description":null,"dialog_node":"handler_5_1515362430650","previous_sibling":null},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-07T20:33:11.132Z","updated":"2018-01-07T22:34:32.178Z","metadata":{},"next_step":null,"conditions":"anything_else","digress_in":"does_not_return","description":null,"dialog_node":"Anything else","previous_sibling":"node_7_1515363032724"},{"type":"standard","title":"Tell_Destination","output":{},"parent":null,"context":null,"created":"2018-01-07T22:10:30.116Z","updated":"2018-01-07T23:04:10.058Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_8_1515363100683"},"conditions":"#tell_destination","digress_in":"does_not_return","description":null,"dialog_node":"node_7_1515363032724","previous_sibling":"node_1_1515357332245"},{"type":"standard","title":"set destination","output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-07T20:35:30.451Z","updated":"2018-01-07T21:55:15.834Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_2_1515357703305"},"conditions":"#set_destination","description":null,"dialog_node":"node_1_1515357332245","previous_sibling":"Welcome"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hello. You can set or ask your destination."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-07T20:33:11.132Z","updated":"2018-01-07T20:34:44.269Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"f6fd1a0e-db09-45fa-9c8a-c0ddcb313143","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Airport Helpdesk",
+	"created": "2018-01-07T20:25:43.691Z",
+	"intents": [{
+		"intent": "tell_destination",
+		"created": "2018-01-07T20:28:21.799Z",
+		"updated": "2018-01-07T20:29:02.990Z",
+		"examples": [{
+			"text": "tell me my destination",
+			"created": "2018-01-07T20:28:31.506Z",
+			"updated": "2018-01-07T20:28:31.506Z"
+		}, {
+			"text": "what is my target airport",
+			"created": "2018-01-07T20:28:35.869Z",
+			"updated": "2018-01-07T20:28:35.869Z"
+		}, {
+			"text": "where am i going to",
+			"created": "2018-01-07T20:28:40.239Z",
+			"updated": "2018-01-07T20:28:40.239Z"
+		}, {
+			"text": "where am I heading",
+			"created": "2018-01-07T20:28:48.287Z",
+			"updated": "2018-01-07T20:28:48.287Z"
+		}, {
+			"text": "where am I leaving",
+			"created": "2018-01-07T20:28:56.694Z",
+			"updated": "2018-01-07T20:28:56.694Z"
+		}, {
+			"text": "which airport i am going to",
+			"created": "2018-01-07T20:29:02.990Z",
+			"updated": "2018-01-07T20:29:02.990Z"
+		}],
+		"description": "I am leaving"
+	}, {
+		"intent": "set_destination",
+		"created": "2018-01-07T20:26:55.330Z",
+		"updated": "2018-01-07T20:39:12.802Z",
+		"examples": [{
+			"text": "I am leaving for *",
+			"created": "2018-01-07T20:26:59.761Z",
+			"updated": "2018-01-07T20:26:59.761Z"
+		}, {
+			"text": "I will go *",
+			"created": "2018-01-07T20:27:07.916Z",
+			"updated": "2018-01-07T20:27:07.916Z"
+		}, {
+			"text": "I will leave for *",
+			"created": "2018-01-07T20:27:11.156Z",
+			"updated": "2018-01-07T20:27:11.156Z"
+		}, {
+			"text": "my destination is *",
+			"created": "2018-01-07T20:27:16.205Z",
+			"updated": "2018-01-07T20:27:16.205Z"
+		}, {
+			"text": "my target airport is *",
+			"created": "2018-01-07T20:27:22.160Z",
+			"updated": "2018-01-07T20:27:22.160Z"
+		}, {
+			"text": "set my destination to *",
+			"created": "2018-01-07T20:27:30.257Z",
+			"updated": "2018-01-07T20:27:30.257Z"
+		}, {
+			"text": "I am leaving to",
+			"created": "2018-01-07T20:39:12.802Z",
+			"updated": "2018-01-07T20:39:12.802Z"
+		}],
+		"description": "I am leaving"
+	}],
+	"updated": "2018-01-07T23:38:50.197Z",
+	"entities": [{
+		"entity": "Airport",
+		"values": [{
+			"type": "synonyms",
+			"value": "Washington D.C.",
+			"created": "2018-01-07T20:29:52.388Z",
+			"updated": "2018-01-07T20:32:45.715Z",
+			"metadata": null,
+			"synonyms": ["Dulles", "Reagan International"]
+		}, {
+			"type": "synonyms",
+			"value": "New York",
+			"created": "2018-01-07T20:29:37.373Z",
+			"updated": "2018-01-07T20:32:22.403Z",
+			"metadata": null,
+			"synonyms": ["JFK", "Laguardia", "LGA"]
+		}, {
+			"type": "synonyms",
+			"value": "San Francisco",
+			"created": "2018-01-07T20:30:14.560Z",
+			"updated": "2018-01-07T20:32:34.838Z",
+			"metadata": null,
+			"synonyms": ["SFO", "San Jose", "Oakland"]
+		}, {
+			"type": "synonyms",
+			"value": "Los Angeles",
+			"created": "2018-01-07T20:30:43.361Z",
+			"updated": "2018-01-07T20:32:51.037Z",
+			"metadata": null,
+			"synonyms": ["LAX"]
+		}, {
+			"type": "synonyms",
+			"value": "Miami",
+			"created": "2018-01-07T20:30:20.539Z",
+			"updated": "2018-01-07T20:30:20.539Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Boston",
+			"created": "2018-01-07T20:29:32.752Z",
+			"updated": "2018-01-07T20:31:58.041Z",
+			"metadata": null,
+			"synonyms": ["Bos", "Login Airport", "Logan International"]
+		}],
+		"created": "2018-01-07T20:29:26.291Z",
+		"updated": "2018-01-07T20:32:51.037Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "concierge at airport",
+	"dialog_nodes": [{
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_3_1515357900644",
+		"context": null,
+		"created": "2018-01-07T22:00:28.326Z",
+		"updated": "2018-01-07T22:00:38.350Z",
+		"metadata": null,
+		"variable": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_4_1515362430650",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I do not know your destination"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1515363032724",
+		"context": null,
+		"created": "2018-01-07T22:34:46.020Z",
+		"updated": "2018-01-07T22:35:19.383Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_10_1515364488624",
+		"previous_sibling": "node_8_1515363100683"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Your destination is <? $destination ?>"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1515363032724",
+		"context": null,
+		"created": "2018-01-07T22:11:38.064Z",
+		"updated": "2018-01-07T22:13:42.408Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$destination",
+		"description": null,
+		"dialog_node": "node_8_1515363100683",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["tell me your destination"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1515357332245",
+		"context": null,
+		"created": "2018-01-07T20:44:58.557Z",
+		"updated": "2018-01-07T22:02:10.541Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_2_1515357703305"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_3_1515357900644",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_2_1515357703305"
+	}, {
+		"type": "standard",
+		"title": "Airport",
+		"output": {
+			"text": {
+				"values": ["Your airport is set to <? @Airport ?>"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1515357332245",
+		"context": {
+			"destination": "@Airport"
+		},
+		"created": "2018-01-07T20:41:41.209Z",
+		"updated": "2018-01-07T23:38:50.197Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Airport",
+		"description": null,
+		"dialog_node": "node_2_1515357703305",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_4_1515362430650",
+		"context": null,
+		"created": "2018-01-07T22:00:28.837Z",
+		"updated": "2018-01-07T22:00:28.837Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_6_1515362430650",
+		"previous_sibling": "handler_5_1515362430650"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_4_1515362430650",
+		"context": {},
+		"created": "2018-01-07T22:00:28.592Z",
+		"updated": "2018-01-07T22:00:38.602Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "tru",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_5_1515362430650",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-07T20:33:11.132Z",
+		"updated": "2018-01-07T22:34:32.178Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_7_1515363032724"
+	}, {
+		"type": "standard",
+		"title": "Tell_Destination",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-07T22:10:30.116Z",
+		"updated": "2018-01-07T23:04:10.058Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_8_1515363100683"
+		},
+		"conditions": "#tell_destination",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_7_1515363032724",
+		"previous_sibling": "node_1_1515357332245"
+	}, {
+		"type": "standard",
+		"title": "set destination",
+		"output": {
+			"text": {
+				"values": [""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-07T20:35:30.451Z",
+		"updated": "2018-01-07T21:55:15.834Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_2_1515357703305"
+		},
+		"conditions": "#set_destination",
+		"description": null,
+		"dialog_node": "node_1_1515357332245",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. You can set or ask your destination."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-07T20:33:11.132Z",
+		"updated": "2018-01-07T20:34:44.269Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "f6fd1a0e-db09-45fa-9c8a-c0ddcb313143",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

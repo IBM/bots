@@ -1,1 +1,1132 @@
-{"name":"IBM Code Bot","created":"2017-11-15T22:02:49.761Z","intents":[{"intent":"greetings","created":"2017-11-15T22:04:03.729Z","updated":"2017-11-16T19:28:22.724Z","examples":[{"text":"How are you doing","created":"2017-11-15T22:04:15.361Z","updated":"2017-11-15T22:04:15.361Z"},{"text":"Hello Watson","created":"2017-11-15T22:04:17.062Z","updated":"2017-11-15T22:04:17.062Z"},{"text":"hey","created":"2017-11-15T22:04:23.749Z","updated":"2017-11-15T22:04:23.749Z"},{"text":"Hi","created":"2017-11-15T22:04:25.351Z","updated":"2017-11-15T22:04:25.351Z"},{"text":"sup","created":"2017-11-15T22:04:28.184Z","updated":"2017-11-15T22:04:28.184Z"},{"text":"heya","created":"2017-11-15T22:04:34.314Z","updated":"2017-11-15T22:04:34.314Z"},{"text":"hey there","created":"2017-11-15T22:04:36.791Z","updated":"2017-11-15T22:04:36.791Z"},{"text":"hi how are u","created":"2017-11-15T22:04:49.013Z","updated":"2017-11-15T22:04:49.013Z"},{"text":"Hi my name is Tom","created":"2017-11-15T22:04:55.736Z","updated":"2017-11-15T22:04:55.736Z"},{"text":"hi there","created":"2017-11-15T22:05:04.041Z","updated":"2017-11-15T22:05:04.041Z"},{"text":"Hi watson","created":"2017-11-15T22:05:09.857Z","updated":"2017-11-15T22:05:09.857Z"},{"text":"what r u doing","created":"2017-11-15T22:05:27.692Z","updated":"2017-11-15T22:05:27.692Z"},{"text":"What's up","created":"2017-11-15T22:05:33.288Z","updated":"2017-11-15T22:05:33.288Z"},{"text":"What's up ?","created":"2017-11-15T22:05:35.624Z","updated":"2017-11-15T22:05:35.624Z"},{"text":"greetings","created":"2017-11-15T22:05:52.789Z","updated":"2017-11-15T22:05:52.789Z"},{"text":"good morning","created":"2017-11-15T22:05:57.867Z","updated":"2017-11-15T22:05:57.867Z"},{"text":"good how are you","created":"2017-11-15T22:06:09.952Z","updated":"2017-11-15T22:06:09.952Z"},{"text":"good evening","created":"2017-11-15T22:06:14.409Z","updated":"2017-11-15T22:06:14.409Z"},{"text":"good day","created":"2017-11-15T22:06:16.986Z","updated":"2017-11-15T22:06:16.986Z"},{"text":"Hello, how are you","created":"2017-11-15T22:06:32.849Z","updated":"2017-11-15T22:06:32.849Z"}],"description":null},{"intent":"information_request","created":"2017-11-15T22:08:51.176Z","updated":"2017-11-16T20:27:00.286Z","examples":[{"text":"microservices example","created":"2017-11-16T00:14:45.149Z","updated":"2017-11-16T00:14:45.149Z"},{"text":"industries","created":"2017-11-16T19:37:07.325Z","updated":"2017-11-16T19:37:07.325Z"},{"text":"teck talks","created":"2017-11-15T23:57:27.795Z","updated":"2017-11-15T23:57:27.795Z"},{"text":"build with watson","created":"2017-11-16T20:27:00.286Z","updated":"2017-11-16T20:27:00.286Z"},{"text":"I want to build something with watson","created":"2017-11-16T20:24:28.091Z","updated":"2017-11-16T20:24:28.091Z"},{"text":"learn blockchain","created":"2017-11-15T23:58:22.682Z","updated":"2017-11-15T23:58:22.682Z"},{"text":"learn new skill","created":"2017-11-15T23:59:02.648Z","updated":"2017-11-15T23:59:02.648Z"},{"text":"tutorials","created":"2017-11-15T23:59:16.735Z","updated":"2017-11-15T23:59:36.031Z"},{"text":"sample applications for node","created":"2017-11-15T23:59:47.727Z","updated":"2017-11-15T23:59:47.727Z"},{"text":"cloud deployments","created":"2017-11-15T23:59:58.507Z","updated":"2017-11-15T23:59:58.507Z"},{"text":"blog","created":"2017-11-16T00:00:09.759Z","updated":"2017-11-16T00:00:09.759Z"},{"text":"what are the upcoming events at ibm","created":"2017-11-16T00:00:22.893Z","updated":"2017-11-16T00:00:22.893Z"},{"text":"show me the upcoming events","created":"2017-11-16T00:00:33.519Z","updated":"2017-11-16T00:00:33.519Z"},{"text":"what are code patterns","created":"2017-11-16T00:00:46.573Z","updated":"2017-11-16T00:00:46.573Z"},{"text":"show me code for real world problems","created":"2017-11-16T00:01:18.420Z","updated":"2017-11-16T00:01:18.420Z"},{"text":"use case for real world problem","created":"2017-11-16T00:02:30.528Z","updated":"2017-11-16T00:02:34.475Z"},{"text":"something for docker","created":"2017-11-16T00:02:44.351Z","updated":"2017-11-16T00:02:44.351Z"},{"text":"applications using java","created":"2017-11-16T00:02:59.457Z","updated":"2017-11-16T00:02:59.457Z"},{"text":"More information about developer community","created":"2017-11-16T00:03:29.672Z","updated":"2017-11-16T00:03:29.672Z"},{"text":"developer advocates at IBM","created":"2017-11-16T00:03:40.776Z","updated":"2017-11-16T00:03:45.852Z"},{"text":"mobile patterns","created":"2017-11-16T00:07:16.216Z","updated":"2017-11-16T00:07:16.216Z"},{"text":"open source projects at ibm","created":"2017-11-16T00:08:40.370Z","updated":"2017-11-16T00:08:40.370Z"},{"text":"url for teck talks","created":"2017-11-16T00:13:10.079Z","updated":"2017-11-16T00:13:10.079Z"},{"text":"something for iot","created":"2017-11-16T00:14:29.082Z","updated":"2017-11-16T00:14:29.082Z"}],"description":null}],"updated":"2017-11-16T20:54:58.558Z","entities":[{"entity":"pattern","values":[{"type":"synonyms","value":"patterns","created":"2017-11-15T23:21:18.371Z","updated":"2017-11-16T00:01:48.655Z","metadata":null,"synonyms":["Code Patterns","sample application","applications","example application","developer journeys","journeys","real problems","real world problems","use cases"]}],"created":"2017-11-15T23:21:14.811Z","updated":"2017-11-16T00:01:48.655Z","metadata":null,"description":null},{"entity":"events","values":[{"type":"synonyms","value":"events","created":"2017-11-15T23:31:06.152Z","updated":"2017-11-15T23:31:57.135Z","metadata":null,"synonyms":["upcoming events","event","workshop","tech talk"]}],"created":"2017-11-15T23:31:03.979Z","updated":"2017-11-15T23:31:57.135Z","metadata":null,"description":null},{"entity":"blog","values":[{"type":"synonyms","value":"blogs","created":"2017-11-15T23:34:35.493Z","updated":"2017-11-15T23:34:38.606Z","metadata":null,"synonyms":["blog"]}],"created":"2017-11-15T23:34:33.335Z","updated":"2017-11-15T23:34:38.606Z","metadata":null,"description":null},{"entity":"watson","values":[{"type":"synonyms","value":"watson","created":"2017-11-16T20:53:01.185Z","updated":"2017-11-16T20:53:17.762Z","metadata":null,"synonyms":[]}],"created":"2017-11-16T20:52:54.516Z","updated":"2017-11-16T20:53:17.762Z","metadata":null,"description":null},{"entity":"opensource","values":[{"type":"synonyms","value":"Open source","created":"2017-11-15T23:26:24.005Z","updated":"2017-11-15T23:26:53.381Z","metadata":null,"synonyms":["Open source at ibm","ibm open source","open technologies"]}],"created":"2017-11-15T23:26:14.362Z","updated":"2017-11-15T23:26:53.381Z","metadata":null,"description":null},{"entity":"tech","values":[{"type":"synonyms","value":"microservices","created":"2017-11-15T22:41:02.056Z","updated":"2017-11-15T23:08:37.611Z","metadata":null,"synonyms":["APIS","api connect","api management","microservices","loosely coupled services","services"]},{"type":"synonyms","value":"artificial-intelligence","created":"2017-11-15T22:41:20.784Z","updated":"2017-11-16T20:53:23.585Z","metadata":null,"synonyms":["ai","ml","machine learning","machine-learning","deep learning","artificial intelligence","cognitive","cognitive applications"]},{"type":"synonyms","value":"blockchain","created":"2017-11-15T22:43:06.786Z","updated":"2017-11-15T22:44:38.985Z","metadata":null,"synonyms":["Blockchain","hyperledger","fabric","hyperleger fabric","hyperleger composer","composer","ledger","ledger technology","permissioned ledger"]},{"type":"synonyms","value":"container-orchestration","created":"2017-11-15T22:45:08.315Z","updated":"2017-11-15T22:46:25.767Z","metadata":null,"synonyms":["container orchestration","containerized applications"]},{"type":"synonyms","value":"containers","created":"2017-11-15T22:46:32.189Z","updated":"2017-11-15T23:15:58.288Z","metadata":null,"synonyms":["container technology","docker","kubernetes","kubes","docker compose","docker-compose","devops","deployment","deployment methodology","code deployment","sandbox"]},{"type":"synonyms","value":"data-science","created":"2017-11-15T22:53:23.987Z","updated":"2017-11-15T22:54:52.569Z","metadata":null,"synonyms":["data science","data analytics","analytics","data","big data"]},{"type":"synonyms","value":"databases","created":"2017-11-15T22:55:58.977Z","updated":"2017-11-15T22:56:25.031Z","metadata":null,"synonyms":["db"]},{"type":"synonyms","value":"gaming","created":"2017-11-15T22:59:47.310Z","updated":"2017-11-15T22:59:47.310Z","metadata":null,"synonyms":["games"]},{"type":"synonyms","value":"cloud","created":"2017-11-15T23:02:54.797Z","updated":"2017-11-15T23:04:16.321Z","metadata":null,"synonyms":["hybrid integration","ibm cloud","public cloud service","cloud service"]},{"type":"synonyms","value":"iot","created":"2017-11-15T23:05:54.761Z","updated":"2017-11-15T23:05:54.761Z","metadata":null,"synonyms":["IoT","internet of things","node red","node-red","sensors","rasberry pi","pi"]},{"type":"synonyms","value":"java","created":"2017-11-15T23:06:28.976Z","updated":"2017-11-15T23:06:36.300Z","metadata":null,"synonyms":["J2EE","javase"]},{"type":"synonyms","value":"mobile","created":"2017-11-15T23:09:32.553Z","updated":"2017-11-15T23:09:32.553Z","metadata":null,"synonyms":["android","ios"]},{"type":"synonyms","value":"systems","created":"2017-11-15T23:14:58.645Z","updated":"2017-11-15T23:15:46.853Z","metadata":null,"synonyms":["linux","mainframe"]},{"type":"synonyms","value":"node-js","created":"2017-11-15T23:11:50.476Z","updated":"2017-11-15T23:11:50.476Z","metadata":null,"synonyms":["node.js","server-side JavaScript","js","javascript"]},{"type":"synonyms","value":"paas","created":"2017-11-15T23:12:42.692Z","updated":"2017-11-15T23:12:42.692Z","metadata":null,"synonyms":["Platform as a Service","Platform for Cloud services"]},{"type":"synonyms","value":"python","created":"2017-11-15T23:13:11.230Z","updated":"2017-11-15T23:13:11.230Z","metadata":null,"synonyms":["py"]},{"type":"synonyms","value":"serverless","created":"2017-11-15T23:13:48.430Z","updated":"2017-11-15T23:13:48.430Z","metadata":null,"synonyms":["event-action platform","event action"]},{"type":"synonyms","value":"swift-on-the-server","created":"2017-11-15T23:14:35.027Z","updated":"2017-11-15T23:14:35.027Z","metadata":null,"synonyms":["swift","server-side swift"]},{"type":"synonyms","value":"virtual-reality","created":"2017-11-15T23:16:31.182Z","updated":"2017-11-15T23:16:31.182Z","metadata":null,"synonyms":["vr","ar vr"]}],"created":"2017-11-15T22:41:02.056Z","updated":"2017-11-16T20:53:23.585Z","metadata":null,"description":null},{"entity":"industries","values":[{"type":"synonyms","value":"industries","created":"2017-11-15T23:25:16.599Z","updated":"2017-11-16T19:35:45.942Z","metadata":null,"synonyms":["industry"]}],"created":"2017-11-15T23:24:16.693Z","updated":"2017-11-16T19:35:45.942Z","metadata":null,"description":null},{"entity":"how-to","values":[{"type":"synonyms","value":"howtos","created":"2017-11-15T23:19:01.344Z","updated":"2017-11-16T19:30:20.806Z","metadata":null,"synonyms":["tutorials","new skill","guides","howto","lectures","labs","lab","how-to","how-tos"]}],"created":"2017-11-15T23:18:59.630Z","updated":"2017-11-16T19:30:20.806Z","metadata":null,"description":null},{"entity":"advocates","values":[{"type":"synonyms","value":"developer advocates","created":"2017-11-15T23:29:27.654Z","updated":"2017-11-15T23:30:54.621Z","metadata":null,"synonyms":["advocates","client advocates","developer","developer community","community"]}],"created":"2017-11-15T23:29:24.769Z","updated":"2017-11-15T23:30:54.621Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"IBM Code Bot allows users to get information about code patterns, talks, blog, developer community etc.","dialog_nodes":[{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T19:38:22.867Z","updated":"2017-11-16T19:47:39.735Z","metadata":null,"variable":"$tech","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_41_1510861102555","previous_sibling":"slot_36_1510860783532"},{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T19:24:55.944Z","updated":"2017-11-16T19:27:31.145Z","metadata":null,"variable":"$howtos","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_25_1510860295790","previous_sibling":"slot_17_1510859819806"},{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T19:49:31.313Z","updated":"2017-11-16T19:50:52.459Z","metadata":null,"variable":"$advocates","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_46_1510861771154","previous_sibling":"slot_41_1510861102555"},{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T19:51:07.293Z","updated":"2017-11-16T19:52:18.865Z","metadata":null,"variable":"$events","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_53_1510861867150","previous_sibling":"slot_46_1510861771154"},{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T19:33:03.889Z","updated":"2017-11-16T19:35:12.769Z","metadata":null,"variable":"$industries","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_36_1510860783532","previous_sibling":"slot_31_1510860722549"},{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T20:53:46.034Z","updated":"2017-11-16T20:54:57.548Z","metadata":null,"variable":"$watson","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_63_1510865625747","previous_sibling":"slot_58_1510861944026"},{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T19:32:02.677Z","updated":"2017-11-16T19:33:00.810Z","metadata":null,"variable":"$blog","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_31_1510860722549","previous_sibling":"slot_25_1510860295790"},{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T19:52:24.265Z","updated":"2017-11-16T19:53:39.793Z","metadata":null,"variable":"$opensource","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_58_1510861944026","previous_sibling":"slot_53_1510861867150"},{"type":"slot","title":null,"output":null,"parent":"node_1_1510858544052","context":null,"created":"2017-11-16T19:16:59.961Z","updated":"2017-11-16T19:24:49.506Z","metadata":null,"variable":"$pattern","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_17_1510859819806","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["To see open source code in action across industries, please visit : https://developer.ibm.com/code/industries/"],"selection_policy":"sequential"}},"parent":"slot_36_1510860783532","context":null,"created":"2017-11-16T19:35:13.805Z","updated":"2017-11-16T19:35:13.805Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_39_1510860791081","previous_sibling":"handler_37_1510860783532"},{"type":"event_handler","title":null,"output":null,"parent":"slot_36_1510860783532","context":{"industries":"@industries"},"created":"2017-11-16T19:33:04.213Z","updated":"2017-11-16T19:35:13.330Z","metadata":null,"next_step":null,"conditions":"@industries","event_name":"input","description":null,"dialog_node":"handler_37_1510860783532","previous_sibling":"handler_38_1510860783532"},{"type":"event_handler","title":null,"output":{},"parent":"slot_36_1510860783532","context":null,"created":"2017-11-16T19:33:04.456Z","updated":"2017-11-16T19:35:13.008Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_38_1510860783532","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Code Pattern is everything you need to quickly solve real problems. For more information please check: https://developer.ibm.com/code/patterns/"],"selection_policy":"sequential"}},"parent":"slot_17_1510859819806","context":null,"created":"2017-11-16T19:20:05.135Z","updated":"2017-11-16T19:24:50.263Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_21_1510859981936","previous_sibling":"handler_18_1510859819806"},{"type":"event_handler","title":null,"output":null,"parent":"slot_17_1510859819806","context":{"pattern":"@pattern"},"created":"2017-11-16T19:17:00.399Z","updated":"2017-11-16T19:24:50.035Z","metadata":null,"next_step":null,"conditions":"@pattern","event_name":"input","description":null,"dialog_node":"handler_18_1510859819806","previous_sibling":"handler_19_1510859819806"},{"type":"event_handler","title":null,"output":{},"parent":"slot_17_1510859819806","context":null,"created":"2017-11-16T19:17:00.640Z","updated":"2017-11-16T19:24:49.786Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_19_1510859819806","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Please visit https://developer.ibm.com/code/technologies/$tech/ to see code patterns for $tech"],"selection_policy":"sequential"}},"parent":"slot_41_1510861102555","context":null,"created":"2017-11-16T19:47:40.526Z","updated":"2017-11-16T19:47:40.526Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_44_1510861116017","previous_sibling":"handler_42_1510861102555"},{"type":"event_handler","title":null,"output":null,"parent":"slot_41_1510861102555","context":{"tech":"@tech"},"created":"2017-11-16T19:38:23.397Z","updated":"2017-11-16T19:47:40.320Z","metadata":null,"next_step":null,"conditions":"@tech","event_name":"input","description":null,"dialog_node":"handler_42_1510861102555","previous_sibling":"handler_43_1510861102555"},{"type":"event_handler","title":null,"output":{},"parent":"slot_41_1510861102555","context":null,"created":"2017-11-16T19:38:23.903Z","updated":"2017-11-16T19:47:40.079Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_43_1510861102555","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["To know more about the developer community, please visit https://developer.ibm.com/code/community/advocates/."],"selection_policy":"sequential"}},"parent":"slot_46_1510861771154","context":null,"created":"2017-11-16T19:50:53.282Z","updated":"2017-11-16T19:50:53.282Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_51_1510861828271","previous_sibling":"handler_47_1510861771154"},{"type":"event_handler","title":null,"output":null,"parent":"slot_46_1510861771154","context":{"advocates":"@advocates"},"created":"2017-11-16T19:49:31.920Z","updated":"2017-11-16T19:50:52.993Z","metadata":null,"next_step":null,"conditions":"@advocates","event_name":"input","description":null,"dialog_node":"handler_47_1510861771154","previous_sibling":"handler_48_1510861771154"},{"type":"event_handler","title":null,"output":{},"parent":"slot_46_1510861771154","context":null,"created":"2017-11-16T19:49:32.274Z","updated":"2017-11-16T19:50:52.718Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_48_1510861771154","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["Yo can find the latest blog by IBMer's here: https://developer.ibm.com/code/blogs/"],"selection_policy":"sequential"}},"parent":"slot_31_1510860722549","context":null,"created":"2017-11-16T19:33:02.153Z","updated":"2017-11-16T19:33:02.153Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_34_1510860733738","previous_sibling":"handler_32_1510860722549"},{"type":"event_handler","title":null,"output":null,"parent":"slot_31_1510860722549","context":{"blog":"@blog"},"created":"2017-11-16T19:32:02.955Z","updated":"2017-11-16T19:33:01.830Z","metadata":null,"next_step":null,"conditions":"@blog","event_name":"input","description":null,"dialog_node":"handler_32_1510860722549","previous_sibling":"handler_33_1510860722549"},{"type":"event_handler","title":null,"output":{},"parent":"slot_31_1510860722549","context":null,"created":"2017-11-16T19:32:03.211Z","updated":"2017-11-16T19:33:01.254Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_33_1510860722549","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_58_1510861944026","context":{"opensource":"@opensource"},"created":"2017-11-16T19:52:24.514Z","updated":"2017-11-16T19:53:40.405Z","metadata":null,"next_step":null,"conditions":"@opensource","event_name":"input","description":null,"dialog_node":"handler_59_1510861944026","previous_sibling":"handler_60_1510861944026"},{"type":"event_handler","title":null,"output":{"text":{"values":["For more information about the open source projects at IBM please visit https://developer.ibm.com/code/open/"],"selection_policy":"sequential"}},"parent":"slot_58_1510861944026","context":null,"created":"2017-11-16T19:53:40.707Z","updated":"2017-11-16T19:53:40.707Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_61_1510861963686","previous_sibling":"handler_59_1510861944026"},{"type":"event_handler","title":null,"output":{},"parent":"slot_58_1510861944026","context":null,"created":"2017-11-16T19:52:24.763Z","updated":"2017-11-16T19:53:40.048Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_60_1510861944026","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_25_1510860295790","context":{"howtos":"@how-to"},"created":"2017-11-16T19:24:56.194Z","updated":"2017-11-16T19:27:31.871Z","metadata":null,"next_step":null,"conditions":"@how-to","event_name":"input","description":null,"dialog_node":"handler_26_1510860295790","previous_sibling":"handler_27_1510860295790"},{"type":"event_handler","title":null,"output":{"text":{"values":["How-tos are lectures or lab that help you learn new skills. For more information please visit: https://developer.ibm.com/code/howtos/"],"selection_policy":"sequential"}},"parent":"slot_25_1510860295790","context":null,"created":"2017-11-16T19:27:23.383Z","updated":"2017-11-16T19:27:32.296Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_28_1510860326361","previous_sibling":"handler_26_1510860295790"},{"type":"event_handler","title":null,"output":{},"parent":"slot_25_1510860295790","context":null,"created":"2017-11-16T19:24:56.418Z","updated":"2017-11-16T19:27:31.460Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_27_1510860295790","previous_sibling":null},{"type":"event_handler","title":null,"output":null,"parent":"slot_63_1510865625747","context":{"watson":"@watson"},"created":"2017-11-16T20:53:46.502Z","updated":"2017-11-16T20:54:58.225Z","metadata":null,"next_step":null,"conditions":"@watson","event_name":"input","description":null,"dialog_node":"handler_64_1510865625747","previous_sibling":"handler_65_1510865625747"},{"type":"event_handler","title":null,"output":{"text":{"values":["Please visit https://developer.ibm.com/code/technologies/artificial-intelligence/ to build cognitive applications with Watson"],"selection_policy":"sequential"}},"parent":"slot_63_1510865625747","context":null,"created":"2017-11-16T20:54:58.558Z","updated":"2017-11-16T20:54:58.558Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_68_1510865653288","previous_sibling":"handler_64_1510865625747"},{"type":"event_handler","title":null,"output":{},"parent":"slot_63_1510865625747","context":null,"created":"2017-11-16T20:53:46.923Z","updated":"2017-11-16T20:54:57.842Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_65_1510865625747","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":["To know more about the upcoming events at IBM visit https://developer.ibm.com/code/community/events/#!/events"],"selection_policy":"sequential"}},"parent":"slot_53_1510861867150","context":null,"created":"2017-11-16T19:52:19.840Z","updated":"2017-11-16T19:52:19.840Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_56_1510861874976","previous_sibling":"handler_54_1510861867150"},{"type":"event_handler","title":null,"output":null,"parent":"slot_53_1510861867150","context":{"events":"@events"},"created":"2017-11-16T19:51:07.655Z","updated":"2017-11-16T19:52:19.632Z","metadata":null,"next_step":null,"conditions":"@events","event_name":"input","description":null,"dialog_node":"handler_54_1510861867150","previous_sibling":"handler_55_1510861867150"},{"type":"event_handler","title":null,"output":{},"parent":"slot_53_1510861867150","context":null,"created":"2017-11-16T19:51:07.941Z","updated":"2017-11-16T19:52:19.294Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_55_1510861867150","previous_sibling":null},{"title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T19:01:00.763Z","updated":"2017-11-16T19:15:11.734Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_2_1510858859992","previous_sibling":"node_1_1510858544052"},{"type":"frame","title":"Information Req","output":{},"parent":null,"context":null,"created":"2017-11-16T18:55:44.234Z","updated":"2017-11-16T19:13:33.800Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"#information_request","description":null,"dialog_node":"node_1_1510858544052","previous_sibling":"Anything else"},{"title":"Greetigs","output":{"text":{"values":["Hi, I'm IBM Code Bot, how can I help you? You can ask questions about code patterns, developer community, tech talks, blogs or code patterns for different technologies."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T00:14:52.945Z","updated":"2017-11-16T19:15:25.045Z","metadata":null,"next_step":null,"conditions":"#greetings","description":null,"dialog_node":"Anything else","previous_sibling":"Welcome"},{"title":"Welcome","output":{"text":{"values":["Welcome to IBM Code! I’m Watson, your Personal Assistant. I can help you with any query regarding IBM code. Feel free to ask me questions at any time"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-11-16T00:14:52.945Z","updated":"2017-11-16T18:43:48.137Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"7a733f8b-e1db-425a-9f02-92c09a8708d3","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "IBM Code Bot",
+	"created": "2017-11-16T21:34:37.591Z",
+	"intents": [{
+		"intent": "information_request",
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:37:38.351Z",
+		"examples": [{
+			"text": "give me some examples for microservices",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:37:38.351Z"
+		}, {
+			"text": "developer advocates at IBM",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "More information about developer community",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "applications using java",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "something for docker",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "use case for real world problem",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "show me code for real world problems",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "what are code patterns",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "show me the upcoming events",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "what are the upcoming events at ibm",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "sample applications for node",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "learn new skill",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "I want to build something with watson",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "give me some patterns for mobile",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:35:20.867Z"
+		}, {
+			"text": "latest blogs at IBM",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:35:37.050Z"
+		}, {
+			"text": "I need patterns cloud deployments",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:35:47.778Z"
+		}, {
+			"text": "what are the latest tutorials",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:36:08.419Z"
+		}, {
+			"text": "learn more about blockchain using patterns",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:36:19.953Z"
+		}, {
+			"text": "build with cognitive applications",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:36:38.746Z"
+		}, {
+			"text": "what are the upcoming tech talks",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:36:52.638Z"
+		}, {
+			"text": "I want more about industry patterns",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:37:25.148Z"
+		}, {
+			"text": "something for iot",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "url for teck talks",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "open source projects at ibm",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greetings",
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"examples": [{
+			"text": "good day",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "good evening",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "good how are you",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "good morning",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "greetings",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "What's up ?",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "What's up",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "what r u doing",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "Hi watson",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "hi there",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "Hi my name is Tom",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "hi how are u",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "hey there",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "heya",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "sup",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "Hi",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "hey",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "Hello Watson",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "How are you doing",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}, {
+			"text": "Hello, how are you",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-16T21:39:48.218Z",
+	"entities": [{
+		"entity": "how-to",
+		"values": [{
+			"type": "synonyms",
+			"value": "howtos",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["tutorials", "new skill", "guides", "howto", "lectures", "labs", "lab", "how-to", "how-tos"]
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "events",
+		"values": [{
+			"type": "synonyms",
+			"value": "events",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["upcoming events", "event", "workshop", "tech talk"]
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "blog",
+		"values": [{
+			"type": "synonyms",
+			"value": "blogs",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["blog"]
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "pattern",
+		"values": [{
+			"type": "synonyms",
+			"value": "patterns",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["Code Patterns", "sample application", "applications", "example application", "developer journeys", "journeys", "real problems", "real world problems", "use cases"]
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "opensource",
+		"values": [{
+			"type": "synonyms",
+			"value": "Open source",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["Open source at ibm", "ibm open source", "open technologies"]
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "watson",
+		"values": [{
+			"type": "synonyms",
+			"value": "watson",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "advocates",
+		"values": [{
+			"type": "synonyms",
+			"value": "developer advocates",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["advocates", "client advocates", "developer", "developer community", "community"]
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "tech",
+		"values": [{
+			"type": "synonyms",
+			"value": "microservices",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["APIS", "api connect", "api management", "microservices", "loosely coupled services", "services"]
+		}, {
+			"type": "synonyms",
+			"value": "artificial-intelligence",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["ai", "ml", "machine learning", "machine-learning", "deep learning", "artificial intelligence", "cognitive", "cognitive applications"]
+		}, {
+			"type": "synonyms",
+			"value": "blockchain",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["Blockchain", "hyperledger", "fabric", "hyperleger fabric", "hyperleger composer", "composer", "ledger", "ledger technology", "permissioned ledger"]
+		}, {
+			"type": "synonyms",
+			"value": "container-orchestration",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["container orchestration", "containerized applications"]
+		}, {
+			"type": "synonyms",
+			"value": "containers",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["container technology", "docker", "kubernetes", "kubes", "docker compose", "docker-compose", "devops", "deployment", "deployment methodology", "code deployment", "sandbox"]
+		}, {
+			"type": "synonyms",
+			"value": "data-science",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["data science", "data analytics", "analytics", "data", "big data"]
+		}, {
+			"type": "synonyms",
+			"value": "databases",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["db"]
+		}, {
+			"type": "synonyms",
+			"value": "gaming",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["games"]
+		}, {
+			"type": "synonyms",
+			"value": "cloud",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["hybrid integration", "ibm cloud", "public cloud service", "cloud service"]
+		}, {
+			"type": "synonyms",
+			"value": "iot",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["IoT", "internet of things", "node red", "node-red", "sensors", "rasberry pi", "pi"]
+		}, {
+			"type": "synonyms",
+			"value": "java",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["J2EE", "javase"]
+		}, {
+			"type": "synonyms",
+			"value": "mobile",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["android", "ios"]
+		}, {
+			"type": "synonyms",
+			"value": "systems",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["linux", "mainframe"]
+		}, {
+			"type": "synonyms",
+			"value": "node-js",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["node.js", "server-side JavaScript", "js", "javascript"]
+		}, {
+			"type": "synonyms",
+			"value": "paas",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["Platform as a Service", "Platform for Cloud services"]
+		}, {
+			"type": "synonyms",
+			"value": "python",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["py"]
+		}, {
+			"type": "synonyms",
+			"value": "serverless",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["event-action platform", "event action"]
+		}, {
+			"type": "synonyms",
+			"value": "swift-on-the-server",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["swift", "server-side swift"]
+		}, {
+			"type": "synonyms",
+			"value": "virtual-reality",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["vr", "ar vr"]
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "industries",
+		"values": [{
+			"type": "synonyms",
+			"value": "industries",
+			"created": "2017-11-16T21:34:37.591Z",
+			"updated": "2017-11-16T21:34:37.591Z",
+			"metadata": null,
+			"synonyms": ["industry"]
+		}],
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "IBM Code Bot allows the user to get information about code patterns, tech talks, blogs, developer community etc.",
+	"dialog_nodes": [{
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_63_1510865625747",
+		"context": {
+			"watson": "@watson"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@watson",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_64_1510865625747",
+		"previous_sibling": "handler_65_1510865625747"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please visit https://developer.ibm.com/code/technologies/artificial-intelligence/ to build cognitive applications with Watson"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_63_1510865625747",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_68_1510865653288",
+		"previous_sibling": "handler_64_1510865625747"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_63_1510865625747",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_65_1510865625747",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please visit https://developer.ibm.com/code/technologies/$tech/ to see code patterns for $tech"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_41_1510861102555",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_44_1510861116017",
+		"previous_sibling": "handler_42_1510861102555"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_41_1510861102555",
+		"context": {
+			"tech": "@tech"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@tech",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_42_1510861102555",
+		"previous_sibling": "handler_43_1510861102555"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_41_1510861102555",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_43_1510861102555",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_58_1510861944026",
+		"context": {
+			"opensource": "@opensource"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@opensource",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_59_1510861944026",
+		"previous_sibling": "handler_60_1510861944026"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["For more information about the open source projects at IBM please visit https://developer.ibm.com/code/open/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_58_1510861944026",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_61_1510861963686",
+		"previous_sibling": "handler_59_1510861944026"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_58_1510861944026",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_60_1510861944026",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_17_1510859819806",
+		"context": {
+			"pattern": "@pattern"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@pattern",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_18_1510859819806",
+		"previous_sibling": "handler_19_1510859819806"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Code Pattern is everything you need to quickly solve real problems. For more information please check: https://developer.ibm.com/code/patterns/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_17_1510859819806",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_21_1510859981936",
+		"previous_sibling": "handler_18_1510859819806"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_17_1510859819806",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_19_1510859819806",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To see open source code in action across industries, please visit : https://developer.ibm.com/code/industries/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_36_1510860783532",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_39_1510860791081",
+		"previous_sibling": "handler_37_1510860783532"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_36_1510860783532",
+		"context": {
+			"industries": "@industries"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@industries",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_37_1510860783532",
+		"previous_sibling": "handler_38_1510860783532"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_36_1510860783532",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_38_1510860783532",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To know more about the developer community, please visit https://developer.ibm.com/code/community/advocates/."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_46_1510861771154",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_51_1510861828271",
+		"previous_sibling": "handler_47_1510861771154"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_46_1510861771154",
+		"context": {
+			"advocates": "@advocates"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@advocates",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_47_1510861771154",
+		"previous_sibling": "handler_48_1510861771154"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_46_1510861771154",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_48_1510861771154",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$advocates",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_46_1510861771154",
+		"previous_sibling": "slot_41_1510861102555"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$watson",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_63_1510865625747",
+		"previous_sibling": "slot_58_1510861944026"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$howtos",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_25_1510860295790",
+		"previous_sibling": "slot_17_1510859819806"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$tech",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_41_1510861102555",
+		"previous_sibling": "slot_36_1510860783532"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$events",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_53_1510861867150",
+		"previous_sibling": "slot_46_1510861771154"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$blog",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_31_1510860722549",
+		"previous_sibling": "slot_25_1510860295790"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$industries",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_36_1510860783532",
+		"previous_sibling": "slot_31_1510860722549"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$opensource",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_58_1510861944026",
+		"previous_sibling": "slot_53_1510861867150"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1510858544052",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"variable": "$pattern",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_17_1510859819806",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_25_1510860295790",
+		"context": {
+			"howtos": "@how-to"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@how-to",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_26_1510860295790",
+		"previous_sibling": "handler_27_1510860295790"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["How-tos are lectures or lab that help you learn new skills. For more information please visit: https://developer.ibm.com/code/howtos/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_25_1510860295790",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_28_1510860326361",
+		"previous_sibling": "handler_26_1510860295790"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_25_1510860295790",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_27_1510860295790",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Yo can find the latest blog by IBMer's here: https://developer.ibm.com/code/blogs/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_31_1510860722549",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_34_1510860733738",
+		"previous_sibling": "handler_32_1510860722549"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_31_1510860722549",
+		"context": {
+			"blog": "@blog"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@blog",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_32_1510860722549",
+		"previous_sibling": "handler_33_1510860722549"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_31_1510860722549",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_33_1510860722549",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["To know more about the upcoming events at IBM visit https://developer.ibm.com/code/community/events/#!/events"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_53_1510861867150",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_56_1510861874976",
+		"previous_sibling": "handler_54_1510861867150"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_53_1510861867150",
+		"context": {
+			"events": "@events"
+		},
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@events",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_54_1510861867150",
+		"previous_sibling": "handler_55_1510861867150"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_53_1510861867150",
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_55_1510861867150",
+		"previous_sibling": null
+	}, {
+		"type": "frame",
+		"title": "Information Req",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#information_request",
+		"description": null,
+		"dialog_node": "node_1_1510858544052",
+		"previous_sibling": "Anything else"
+	}, {
+		"title": "Greetigs",
+		"output": {
+			"text": {
+				"values": ["Hi, I'm IBM Code Bot, how can I help you? You can ask questions about code patterns, developer community, tech talks, blogs or code patterns for different technologies."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1510858859992",
+		"previous_sibling": "node_1_1510858544052"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Welcome to IBM Code! I’m Watson, your Personal Assistant. I can help you with any query regarding IBM code. Feel free to ask me questions at any time"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-16T21:34:37.591Z",
+		"updated": "2017-11-16T21:34:37.591Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "8856994e-b2dd-48af-a236-2073fed6fe03",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

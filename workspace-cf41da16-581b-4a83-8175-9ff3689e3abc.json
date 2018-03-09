@@ -1,1 +1,368 @@
-{"name":"Reciper Recommender","created":"2017-12-11T09:45:34.946Z","intents":[{"intent":"burger","created":"2017-12-21T11:46:24.881Z","updated":"2017-12-21T11:46:48.835Z","examples":[{"text":"burger king","created":"2017-12-21T11:46:29.245Z","updated":"2017-12-21T11:46:29.245Z"},{"text":"burger","created":"2017-12-21T11:46:43.213Z","updated":"2017-12-21T11:46:43.213Z"},{"text":"mcdonalds","created":"2017-12-21T11:46:48.835Z","updated":"2017-12-21T11:46:48.835Z"}],"description":""},{"intent":"pizza","created":"2017-12-21T11:45:48.269Z","updated":"2017-12-21T11:46:04.196Z","examples":[{"text":"pizza","created":"2017-12-21T11:45:53.432Z","updated":"2017-12-21T11:45:53.432Z"},{"text":"pizza hut","created":"2017-12-21T11:45:57.412Z","updated":"2017-12-21T11:45:57.412Z"},{"text":"debonairs","created":"2017-12-21T11:46:00.731Z","updated":"2017-12-21T11:46:00.731Z"},{"text":"romans","created":"2017-12-21T11:46:04.196Z","updated":"2017-12-21T11:46:04.196Z"}],"description":""},{"intent":"pasta","created":"2017-12-21T11:47:35.078Z","updated":"2017-12-21T11:48:20.493Z","examples":[{"text":"pasta","created":"2017-12-21T11:47:44.661Z","updated":"2017-12-21T11:47:44.661Z"},{"text":"italian","created":"2017-12-21T11:47:50.449Z","updated":"2017-12-21T11:47:50.449Z"},{"text":"mac and cheese","created":"2017-12-21T11:47:57.342Z","updated":"2017-12-21T11:47:57.342Z"},{"text":"macaroni","created":"2017-12-21T11:48:01.728Z","updated":"2017-12-21T11:48:01.728Z"},{"text":"spaghetti","created":"2017-12-21T11:48:05.515Z","updated":"2017-12-21T11:48:05.515Z"},{"text":"bolognaise","created":"2017-12-21T11:48:17.533Z","updated":"2017-12-21T11:48:17.533Z"},{"text":"lasagne","created":"2017-12-21T11:48:20.493Z","updated":"2017-12-21T11:48:20.493Z"}],"description":""},{"intent":"thanks","created":"2017-12-21T11:59:49.621Z","updated":"2017-12-21T12:00:19.155Z","examples":[{"text":"thank you","created":"2017-12-21T12:00:19.155Z","updated":"2017-12-21T12:00:19.155Z"},{"text":"thanks","created":"2017-12-21T12:00:19.155Z","updated":"2017-12-21T12:00:19.155Z"},{"text":"great","created":"2017-12-21T12:00:19.155Z","updated":"2017-12-21T12:00:19.155Z"}],"description":""},{"intent":"greeting","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z","examples":[{"text":"sho","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z"},{"text":"sup","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z"},{"text":"Eita","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z"},{"text":"Salaam","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z"},{"text":"Watsup","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z"},{"text":"Hey","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z"},{"text":"Hi","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z"},{"text":"Hello","created":"2017-12-21T11:45:41.638Z","updated":"2017-12-21T11:45:41.638Z"}],"description":"Hi's"}],"updated":"2017-12-21T12:21:21.887Z","entities":[{"entity":"pizza","values":[{"type":"synonyms","value":"margherita","created":"2017-12-21T11:44:45.052Z","updated":"2017-12-21T11:44:45.052Z","metadata":null,"synonyms":["cheese","tomato","plain","normal","basic"]},{"type":"synonyms","value":"vegetarian","created":"2017-12-21T11:45:26.003Z","updated":"2017-12-21T11:45:26.003Z","metadata":null,"synonyms":["veggie","mushroom","veg"]},{"type":"synonyms","value":"meat","created":"2017-12-21T11:44:57.889Z","updated":"2017-12-21T11:44:57.889Z","metadata":null,"synonyms":["chicken","steak"]}],"created":"2017-12-21T11:41:39.683Z","updated":"2017-12-21T11:45:26.003Z","metadata":null,"description":null},{"entity":"sys-person","values":[],"created":"2017-12-21T07:42:29.766Z","updated":"2017-12-21T07:42:29.766Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"This Bot suggests recipes based on what you're craving.","dialog_nodes":[{"type":"event_handler","title":null,"output":{},"parent":"slot_6_1513858565622","context":null,"created":"2017-12-21T12:16:07.924Z","updated":"2017-12-21T12:16:07.924Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_8_1513858565622","previous_sibling":"handler_7_1513858565622"},{"type":"event_handler","title":null,"output":null,"parent":"slot_6_1513858565622","context":null,"created":"2017-12-21T12:16:07.442Z","updated":"2017-12-21T12:16:07.442Z","metadata":null,"next_step":null,"conditions":null,"event_name":"input","description":null,"dialog_node":"handler_7_1513858565622","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_1_1513857864058","context":null,"created":"2017-12-21T12:16:06.950Z","updated":"2017-12-21T12:16:06.950Z","metadata":null,"variable":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"slot_6_1513858565622","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"node_2_1513843767171","context":null,"created":"2017-12-21T08:27:04.295Z","updated":"2017-12-21T11:41:17.616Z","metadata":{},"next_step":null,"conditions":"#food","description":null,"dialog_node":"node_3_1513844822992","previous_sibling":null},{"type":"standard","title":"pizza-meat","output":{"text":{"values":["You'll find a variety of meaty pizza recipes here: http://iamafoodblog.com/the-ultimate-meat-lovers-pizza/"],"selection_policy":"sequential"}},"parent":null,"context":{"meatoption":"<?input.text?>"},"created":"2017-12-21T12:04:25.498Z","updated":"2017-12-21T12:19:41.825Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"#pizza && @pizza:meat","digress_in":"does_not_return","description":null,"dialog_node":"node_1_1513857864058","digress_out":"allow_all","previous_sibling":"node_5_1513857391855"},{"type":"standard","title":null,"output":{"text":{"values":["Vegetarian pizza recipe can be found here: http://allrecipes.com/recipe/222734/homemade-veggie-pizza/"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-21T11:56:33.273Z","updated":"2017-12-21T11:59:10.368Z","metadata":{},"next_step":null,"conditions":"#pizza && @pizza:vegetarian","description":null,"dialog_node":"node_5_1513857391855","previous_sibling":"node_4_1513856917241"},{"type":"standard","title":"Anything else","output":{"text":{"values":["Please be more specific in your request. You could try \"Mushroom pizza\""],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-11T09:48:11.203Z","updated":"2017-12-21T12:03:54.929Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_12_1513858800698"},{"type":"standard","title":"burgers","output":{"text":{"values":["Enjoy! https://realfood.tesco.com/recipes/classic-homemade-burger.html"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-21T12:20:02.105Z","updated":"2017-12-21T12:21:21.887Z","metadata":{},"next_step":null,"conditions":"#burger","description":null,"dialog_node":"node_12_1513858800698","previous_sibling":"node_1_1513857864058"},{"type":"standard","title":null,"output":{"text":{"values":["Margherita Pizza Recipe can be found here https://sallysbakingaddiction.com/2014/07/15/classic-margherita-pizza/"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-21T11:48:39.841Z","updated":"2017-12-21T11:55:52.346Z","metadata":{},"next_step":null,"conditions":"#pizza && @pizza:margherita","description":null,"dialog_node":"node_4_1513856917241","previous_sibling":"node_2_1513843767171"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hi! I'm your personal Recipe Recommender. What type of food would you like a recipe for?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-21T08:09:28.528Z","updated":"2017-12-21T11:40:55.976Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"node_2_1513843767171","previous_sibling":null}],"workspace_id":"cf41da16-581b-4a83-8175-9ff3689e3abc","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Reciper Recommender",
+	"created": "2017-12-11T09:45:34.946Z",
+	"intents": [{
+		"intent": "burger",
+		"created": "2017-12-21T11:46:24.881Z",
+		"updated": "2017-12-21T11:46:48.835Z",
+		"examples": [{
+			"text": "burger king",
+			"created": "2017-12-21T11:46:29.245Z",
+			"updated": "2017-12-21T11:46:29.245Z"
+		}, {
+			"text": "burger",
+			"created": "2017-12-21T11:46:43.213Z",
+			"updated": "2017-12-21T11:46:43.213Z"
+		}, {
+			"text": "mcdonalds",
+			"created": "2017-12-21T11:46:48.835Z",
+			"updated": "2017-12-21T11:46:48.835Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "pizza",
+		"created": "2017-12-21T11:45:48.269Z",
+		"updated": "2017-12-21T11:46:04.196Z",
+		"examples": [{
+			"text": "pizza",
+			"created": "2017-12-21T11:45:53.432Z",
+			"updated": "2017-12-21T11:45:53.432Z"
+		}, {
+			"text": "pizza hut",
+			"created": "2017-12-21T11:45:57.412Z",
+			"updated": "2017-12-21T11:45:57.412Z"
+		}, {
+			"text": "debonairs",
+			"created": "2017-12-21T11:46:00.731Z",
+			"updated": "2017-12-21T11:46:00.731Z"
+		}, {
+			"text": "romans",
+			"created": "2017-12-21T11:46:04.196Z",
+			"updated": "2017-12-21T11:46:04.196Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "pasta",
+		"created": "2017-12-21T11:47:35.078Z",
+		"updated": "2017-12-21T11:48:20.493Z",
+		"examples": [{
+			"text": "pasta",
+			"created": "2017-12-21T11:47:44.661Z",
+			"updated": "2017-12-21T11:47:44.661Z"
+		}, {
+			"text": "italian",
+			"created": "2017-12-21T11:47:50.449Z",
+			"updated": "2017-12-21T11:47:50.449Z"
+		}, {
+			"text": "mac and cheese",
+			"created": "2017-12-21T11:47:57.342Z",
+			"updated": "2017-12-21T11:47:57.342Z"
+		}, {
+			"text": "macaroni",
+			"created": "2017-12-21T11:48:01.728Z",
+			"updated": "2017-12-21T11:48:01.728Z"
+		}, {
+			"text": "spaghetti",
+			"created": "2017-12-21T11:48:05.515Z",
+			"updated": "2017-12-21T11:48:05.515Z"
+		}, {
+			"text": "bolognaise",
+			"created": "2017-12-21T11:48:17.533Z",
+			"updated": "2017-12-21T11:48:17.533Z"
+		}, {
+			"text": "lasagne",
+			"created": "2017-12-21T11:48:20.493Z",
+			"updated": "2017-12-21T11:48:20.493Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "thanks",
+		"created": "2017-12-21T11:59:49.621Z",
+		"updated": "2017-12-21T12:00:19.155Z",
+		"examples": [{
+			"text": "thank you",
+			"created": "2017-12-21T12:00:19.155Z",
+			"updated": "2017-12-21T12:00:19.155Z"
+		}, {
+			"text": "thanks",
+			"created": "2017-12-21T12:00:19.155Z",
+			"updated": "2017-12-21T12:00:19.155Z"
+		}, {
+			"text": "great",
+			"created": "2017-12-21T12:00:19.155Z",
+			"updated": "2017-12-21T12:00:19.155Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "greeting",
+		"created": "2017-12-21T11:45:41.638Z",
+		"updated": "2017-12-21T11:45:41.638Z",
+		"examples": [{
+			"text": "sho",
+			"created": "2017-12-21T11:45:41.638Z",
+			"updated": "2017-12-21T11:45:41.638Z"
+		}, {
+			"text": "sup",
+			"created": "2017-12-21T11:45:41.638Z",
+			"updated": "2017-12-21T11:45:41.638Z"
+		}, {
+			"text": "Eita",
+			"created": "2017-12-21T11:45:41.638Z",
+			"updated": "2017-12-21T11:45:41.638Z"
+		}, {
+			"text": "Salaam",
+			"created": "2017-12-21T11:45:41.638Z",
+			"updated": "2017-12-21T11:45:41.638Z"
+		}, {
+			"text": "Watsup",
+			"created": "2017-12-21T11:45:41.638Z",
+			"updated": "2017-12-21T11:45:41.638Z"
+		}, {
+			"text": "Hey",
+			"created": "2017-12-21T11:45:41.638Z",
+			"updated": "2017-12-21T11:45:41.638Z"
+		}, {
+			"text": "Hi",
+			"created": "2017-12-21T11:45:41.638Z",
+			"updated": "2017-12-21T11:45:41.638Z"
+		}, {
+			"text": "Hello",
+			"created": "2017-12-21T11:45:41.638Z",
+			"updated": "2017-12-21T11:45:41.638Z"
+		}],
+		"description": "Hi's"
+	}],
+	"updated": "2017-12-21T12:21:21.887Z",
+	"entities": [{
+		"entity": "pizza",
+		"values": [{
+			"type": "synonyms",
+			"value": "margherita",
+			"created": "2017-12-21T11:44:45.052Z",
+			"updated": "2017-12-21T11:44:45.052Z",
+			"metadata": null,
+			"synonyms": ["cheese", "tomato", "plain", "normal", "basic"]
+		}, {
+			"type": "synonyms",
+			"value": "vegetarian",
+			"created": "2017-12-21T11:45:26.003Z",
+			"updated": "2017-12-21T11:45:26.003Z",
+			"metadata": null,
+			"synonyms": ["veggie", "mushroom", "veg"]
+		}, {
+			"type": "synonyms",
+			"value": "meat",
+			"created": "2017-12-21T11:44:57.889Z",
+			"updated": "2017-12-21T11:44:57.889Z",
+			"metadata": null,
+			"synonyms": ["chicken", "steak"]
+		}],
+		"created": "2017-12-21T11:41:39.683Z",
+		"updated": "2017-12-21T11:45:26.003Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-person",
+		"values": [],
+		"created": "2017-12-21T07:42:29.766Z",
+		"updated": "2017-12-21T07:42:29.766Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "This Bot suggests recipes based on what you're craving.",
+	"dialog_nodes": [{
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_6_1513858565622",
+		"context": null,
+		"created": "2017-12-21T12:16:07.924Z",
+		"updated": "2017-12-21T12:16:07.924Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_8_1513858565622",
+		"previous_sibling": "handler_7_1513858565622"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_6_1513858565622",
+		"context": null,
+		"created": "2017-12-21T12:16:07.442Z",
+		"updated": "2017-12-21T12:16:07.442Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_7_1513858565622",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1513857864058",
+		"context": null,
+		"created": "2017-12-21T12:16:06.950Z",
+		"updated": "2017-12-21T12:16:06.950Z",
+		"metadata": null,
+		"variable": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_6_1513858565622",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1513843767171",
+		"context": null,
+		"created": "2017-12-21T08:27:04.295Z",
+		"updated": "2017-12-21T11:41:17.616Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#food",
+		"description": null,
+		"dialog_node": "node_3_1513844822992",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "pizza-meat",
+		"output": {
+			"text": {
+				"values": ["You'll find a variety of meaty pizza recipes here: http://iamafoodblog.com/the-ultimate-meat-lovers-pizza/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"meatoption": "<?input.text?>"
+		},
+		"created": "2017-12-21T12:04:25.498Z",
+		"updated": "2017-12-21T12:19:41.825Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#pizza && @pizza:meat",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_1_1513857864058",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_5_1513857391855"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Vegetarian pizza recipe can be found here: http://allrecipes.com/recipe/222734/homemade-veggie-pizza/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-21T11:56:33.273Z",
+		"updated": "2017-12-21T11:59:10.368Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#pizza && @pizza:vegetarian",
+		"description": null,
+		"dialog_node": "node_5_1513857391855",
+		"previous_sibling": "node_4_1513856917241"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["Please be more specific in your request. You could try \"Mushroom pizza\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-11T09:48:11.203Z",
+		"updated": "2017-12-21T12:03:54.929Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_12_1513858800698"
+	}, {
+		"type": "standard",
+		"title": "burgers",
+		"output": {
+			"text": {
+				"values": ["Enjoy! https://realfood.tesco.com/recipes/classic-homemade-burger.html"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-21T12:20:02.105Z",
+		"updated": "2017-12-21T12:21:21.887Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#burger",
+		"description": null,
+		"dialog_node": "node_12_1513858800698",
+		"previous_sibling": "node_1_1513857864058"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Margherita Pizza Recipe can be found here https://sallysbakingaddiction.com/2014/07/15/classic-margherita-pizza/"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-21T11:48:39.841Z",
+		"updated": "2017-12-21T11:55:52.346Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#pizza && @pizza:margherita",
+		"description": null,
+		"dialog_node": "node_4_1513856917241",
+		"previous_sibling": "node_2_1513843767171"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hi! I'm your personal Recipe Recommender. What type of food would you like a recipe for?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-21T08:09:28.528Z",
+		"updated": "2017-12-21T11:40:55.976Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "node_2_1513843767171",
+		"previous_sibling": null
+	}],
+	"workspace_id": "cf41da16-581b-4a83-8175-9ff3689e3abc",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

@@ -1,1 +1,1323 @@
-{"name":"Vini Bot","created":"2017-12-07T02:24:15.976Z","intents":[{"intent":"comprar-tiendas","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"donde encuentro un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"me puedes recomendar algunas tiendas","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"donde compro vinos","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"donde puedo comprar vinos buenos","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"degustacion-decantacion","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"que vino debe decantarse","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se decanta un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"para que sirve un decantador","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuando debe decantarse el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"sabe mejor el vino con un decantador?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"debo usar un decantador?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"para que se decanta","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que significa decantar el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"porque se debe decantar el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que es un decantador","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"¿Que es la decantación?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"propiedades-nutrición","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"el vino hace subir de peso?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"ayuda tomar vino para la salud?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"es bueno tomar vino?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que implicaciones tiene a la salud","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"el vino te hace subir de peso","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"es bueno para la salud?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cual es la dosis recomendada","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"me hace daño tomar mucho vino?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuantas calorias tiene","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"¿El vino engorda?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"propiedades-edad","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"si guardo el vino un tiempo sabe mejor?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"dura mucho un vino?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"vino joven o añejo?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que significa que sea un vino joven","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que tanto importa el año del vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que importancia tiene la edad del vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"mientras más viejo sea un vino es mejor?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"¿El vino mejora con el paso del tiempo?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"propiedades-alcohol","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:59:35.294Z","examples":[{"text":"cual es la graduacion de un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como evito la cruda","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"el vino causa cruda?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"es cierto que el vino tino emborracha más rápido","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"es más fuerte el vino rosado o el tinto?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que tanto alcohol tiene el vino?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"me emborracho si me tomo dos copas de vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"el vino emborracha?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que vino emborracha más","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"me embriago si me tomo una copa de vino?","created":"2018-01-15T01:59:33.227Z","updated":"2018-01-15T01:59:33.227Z"},{"text":"con cuantas copas de vino me emborracho?","created":"2018-01-15T01:59:35.294Z","updated":"2018-01-15T01:59:35.294Z"}],"description":null},{"intent":"degustacion-trasvase","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"que significa trasvasar","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuando se realiza el trasvase","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"en que consiste el trasvase de un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cual es la diferencia entre trasvasar y decantar","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cual es la diferencia entre trasvase y decantación","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"es lo mismo trasvasar que decantar un vino?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuando es mejor trasvasar un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que es el trasvase","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"degustacion-bebidas","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"recomiendame algunas bebidas","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"tienes recetas para bebidas?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"quiero preparar algo con vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como puedo preparar algunas bebidas","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"puedes decirme como preparar bebidas","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"clasificacion","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"que es un vino rosado?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"porque se llama vino tinto","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que hace a un vino ser tinto?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuál es la diferencia entre un vino tinto y blanco","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"en que consisten las diferentes uvas","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que opciones de vinos hay","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se catalogan los vinos","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"diferentes tipos de vinos","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se clasifican los vinos","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"qué tipos de vino hay","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"capacidades","created":"2018-01-15T01:42:55.729Z","updated":"2018-01-15T01:43:06.919Z","examples":[{"text":"que sabes hacer?","created":"2018-01-15T01:42:58.169Z","updated":"2018-01-15T01:42:58.169Z"},{"text":"sobre que me puedes hablar","created":"2018-01-15T01:42:59.842Z","updated":"2018-01-15T01:42:59.842Z"},{"text":"que tanto conoces de vinos","created":"2018-01-15T01:43:01.338Z","updated":"2018-01-15T01:43:01.338Z"},{"text":"que temas conoces","created":"2018-01-15T01:43:02.791Z","updated":"2018-01-15T01:43:02.791Z"},{"text":"que te puedo preguntar","created":"2018-01-15T01:43:04.326Z","updated":"2018-01-15T01:43:04.326Z"},{"text":"no sé que preguntar","created":"2018-01-15T01:43:06.919Z","updated":"2018-01-15T01:43:06.919Z"}],"description":""},{"intent":"comprar-precio","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"cual es el precio promedio de un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"hay vinos baratos?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que tan caro es el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"es caro un vino?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cual es el precio de un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuanto cuesta un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"degustacion-maridaje","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"que vino es mejor para un postre","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"si el vino es dulce lo combino con un postre?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"con que debo tomar el vino rosado","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que vino me recomiendas para cortes de carne","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"quiero maridar un vino con pescado","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se hace un buen maridaje","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como maridar un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se deben combinar los vinos","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"con que se comen los vinos tintos","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"degustacion-recipiente","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"el vino debe servirse en copa?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"donde se sirve el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se agarra la copa","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como agarro la copa para tomar vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que copa debo usar","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"importa el tipo de copa","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que tipo de copa debo usar","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se toma el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"Qué importancia tiene la copa","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"propiedades-monovarietal","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"cual es la diferencia entre varietal y monovarietal","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que significa varietal","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"es lo mismo varietal?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"porque se dice que un vino es monovarietal","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que significa monovarietal","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuando es monovarietal","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que significa que sea monovarietal","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"¿Qué es un vino monovarietal?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"off_topic","created":"2018-01-15T01:52:48.561Z","updated":"2018-01-15T01:53:42.026Z","examples":[{"text":"sabes hablar de deportes","created":"2018-01-15T01:52:52.394Z","updated":"2018-01-15T01:52:52.394Z"},{"text":"puedes hablar de política","created":"2018-01-15T01:52:58.025Z","updated":"2018-01-15T01:52:58.025Z"},{"text":"que opinas de la vida?","created":"2018-01-15T01:52:59.877Z","updated":"2018-01-15T01:52:59.877Z"},{"text":"cuanto mide la tierra","created":"2018-01-15T01:53:01.477Z","updated":"2018-01-15T01:53:01.477Z"},{"text":"quien es mejor los hombres o las mujeres","created":"2018-01-15T01:53:03.045Z","updated":"2018-01-15T01:53:03.045Z"},{"text":"crees en alguna religión","created":"2018-01-15T01:53:04.765Z","updated":"2018-01-15T01:53:04.765Z"},{"text":"quien es el mejor futbolista","created":"2018-01-15T01:53:06.432Z","updated":"2018-01-15T01:53:06.432Z"},{"text":"a que equipo le vas","created":"2018-01-15T01:53:08.046Z","updated":"2018-01-15T01:53:08.046Z"},{"text":"sabes chistes?","created":"2018-01-15T01:53:09.576Z","updated":"2018-01-15T01:53:09.576Z"},{"text":"cual es el clima","created":"2018-01-15T01:53:12.001Z","updated":"2018-01-15T01:53:12.001Z"},{"text":"cuentame un chiste","created":"2018-01-15T01:53:13.443Z","updated":"2018-01-15T01:53:13.443Z"},{"text":"dime algo gracioso","created":"2018-01-15T01:53:15.268Z","updated":"2018-01-15T01:53:15.268Z"},{"text":"que es siri?","created":"2018-01-15T01:53:17.154Z","updated":"2018-01-15T01:53:17.154Z"},{"text":"eres siri?","created":"2018-01-15T01:53:19.134Z","updated":"2018-01-15T01:53:19.134Z"},{"text":"te gustan los deportes?","created":"2018-01-15T01:53:20.900Z","updated":"2018-01-15T01:53:20.900Z"},{"text":"te gusta la política?","created":"2018-01-15T01:53:22.590Z","updated":"2018-01-15T01:53:22.590Z"},{"text":"cual es el secreto de la felicidad","created":"2018-01-15T01:53:25.333Z","updated":"2018-01-15T01:53:25.333Z"},{"text":"crees en la vida después de la muerte?","created":"2018-01-15T01:53:28.708Z","updated":"2018-01-15T01:53:28.708Z"},{"text":"cuando se va a terminar el mundo","created":"2018-01-15T01:53:30.516Z","updated":"2018-01-15T01:53:30.516Z"},{"text":"que fue primero el huevo o la gallina?","created":"2018-01-15T01:53:32.495Z","updated":"2018-01-15T01:53:32.495Z"},{"text":"quieres casarte conmigo","created":"2018-01-15T01:53:34.451Z","updated":"2018-01-15T01:53:34.451Z"},{"text":"quieres ser mi novia?","created":"2018-01-15T01:53:36.346Z","updated":"2018-01-15T01:53:36.346Z"},{"text":"me quieres","created":"2018-01-15T01:53:38.450Z","updated":"2018-01-15T01:53:38.450Z"},{"text":"que es el amor","created":"2018-01-15T01:53:40.246Z","updated":"2018-01-15T01:53:40.246Z"},{"text":"que es la felicidad","created":"2018-01-15T01:53:42.026Z","updated":"2018-01-15T01:53:42.026Z"}],"description":""},{"intent":"mesa-temperatura","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"a que temperatura se toma","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"es mejor tomar el vino frio?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"sabe mejor frio o caliente","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como sabe mejor frio o caliente?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"tengo que calentar el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como me debo tomar el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"el vino se toma frio o caliente","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"a que temperatura debe tomarse el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"Se deben enfriar los vinos?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"almacenamiento","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T01:34:54.548Z","examples":[{"text":"donde se mantiene mejor el sabor","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"donde es mejor que guarde el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"debo mantener el vino en el refrigerador?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"debo mantener el vino frio?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"puedo guardar el vino en el refri","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como hago para conservar bien el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cual es la forma correcta de guardar el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como debo guardar el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"¿Como guardo el vino?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"}],"description":null},{"intent":"proceso-produccion","created":"2018-01-15T01:34:54.548Z","updated":"2018-01-15T02:27:56.201Z","examples":[{"text":"cual es el proceso de fermentación de un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se fermenta un vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se realiza el prensado de la uva","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"se puede hacer vino en casa","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuáles son las condiciones ideales de un viñedo?","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se elabora el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se hace el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuanto tiempo debe embarricarse el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"cuanto tiempo toma producir el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se fabrica el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"como se produce el vino","created":"2018-01-15T01:34:54.565Z","updated":"2018-01-15T01:34:54.565Z"},{"text":"que es el añejamiento","created":"2018-01-15T02:26:35.887Z","updated":"2018-01-15T02:26:35.887Z"},{"text":"como se embotella un vino?","created":"2018-01-15T02:26:38.511Z","updated":"2018-01-15T02:26:38.511Z"},{"text":"que es la vinificacion","created":"2018-01-15T02:26:41.261Z","updated":"2018-01-15T02:26:41.261Z"},{"text":"que es la vendimia","created":"2018-01-15T02:26:44.680Z","updated":"2018-01-15T02:26:44.680Z"},{"text":"en que consiste el prensado de la uva","created":"2018-01-15T02:26:46.575Z","updated":"2018-01-15T02:26:46.575Z"},{"text":"como se extrae el jugo de la uva","created":"2018-01-15T02:27:39.212Z","updated":"2018-01-15T02:27:39.212Z"},{"text":"como se aplastan las uvas?","created":"2018-01-15T02:27:56.201Z","updated":"2018-01-15T02:27:56.201Z"}],"description":null}],"updated":"2018-01-15T02:53:58.967Z","entities":[{"entity":"tipo_precio","values":[{"type":"synonyms","value":"reportes","created":"2017-12-27T21:51:47.823Z","updated":"2017-12-27T21:51:47.823Z","metadata":null,"synonyms":["analiticos","graficas","tablas"]},{"type":"synonyms","value":"subscripcion","created":"2017-12-27T21:52:34.376Z","updated":"2017-12-27T21:52:34.376Z","metadata":null,"synonyms":["planes","paquetes"]},{"type":"synonyms","value":"usuario","created":"2017-12-27T21:50:40.477Z","updated":"2017-12-27T21:50:40.477Z","metadata":null,"synonyms":["agente","administrador","cliente","super administrador"]},{"type":"synonyms","value":"tarea","created":"2017-12-27T21:51:25.934Z","updated":"2017-12-27T21:51:25.934Z","metadata":null,"synonyms":["actividad","servicio","delivery","pick up","entrega","recoger","recolectar"]}],"created":"2017-12-27T21:50:05.190Z","updated":"2017-12-27T21:52:34.376Z","metadata":null,"description":null}],"language":"es","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"standard","title":null,"output":{"text":{"values":["La decantación, combinación con alimentos (maridaje), la forma de almacenarlo"],"selection_policy":"sequential"}},"parent":"node_19_1515980647042","context":null,"created":"2018-01-15T01:44:48.652Z","updated":"2018-01-15T01:47:07.325Z","metadata":{},"next_step":{"behavior":"skip_user_input"},"conditions":"true","description":null,"dialog_node":"node_20_1515980681762","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Estas son algunas bebidas que puedes preparar con vino."],"selection_policy":"sequential"}},"parent":"node_23_1515981584086","context":{"flag_beberage":true},"created":"2018-01-15T02:05:06.239Z","updated":"2018-01-15T02:39:39.969Z","metadata":{},"next_step":null,"conditions":"#degustacion-bebidas","description":null,"dialog_node":"node_32_1515981899342","previous_sibling":"node_31_1515981893641"},{"type":"response_condition","title":null,"output":{"text":{"values":["Aquí tienes la ubicación de algunas tiendas donde puedes comprar vinos"],"selection_policy":"sequential"}},"parent":"node_23_1515981584086","context":{"flag_search_stores":true},"created":"2018-01-15T02:05:00.611Z","updated":"2018-01-15T02:32:56.325Z","metadata":{},"next_step":null,"conditions":"#comprar-tiendas","description":null,"dialog_node":"node_31_1515981893641","previous_sibling":"node_30_1515981882390"},{"type":"response_condition","title":null,"output":{"text":{"values":["En https://wine4.me puedes encontrar recomendaciones para maridar tus vinos. También deberías probar \"Watson Chef\" para recibir sugerencias de recetas inteligentes."]}},"parent":"node_23_1515981584086","context":{"flag_wine_pairing":true},"created":"2018-01-15T02:05:27.547Z","updated":"2018-01-15T02:37:56.364Z","metadata":{},"next_step":null,"conditions":"#degustacion-maridaje","description":null,"dialog_node":"node_33_1515981920640","previous_sibling":"node_32_1515981899342"},{"type":"response_condition","title":null,"output":{"text":{"values":["Para darte precios de algunos vinos, te voy a mostrar algunas botellas disponibles en http://www.mercadolibre.com"],"selection_policy":"sequential"}},"parent":"node_23_1515981584086","context":{"flag_search_products":true},"created":"2018-01-15T02:04:49.384Z","updated":"2018-01-15T02:53:26.952Z","metadata":{},"next_step":null,"conditions":"#comprar-precio","description":null,"dialog_node":"node_30_1515981882390","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Por ejemplo: los tipos de uva, el proceso de producción"],"selection_policy":"sequential"}},"parent":"node_18_1515980630695","context":null,"created":"2018-01-15T01:44:13.937Z","updated":"2018-01-15T01:47:13.127Z","metadata":{},"next_step":{"behavior":"skip_user_input"},"conditions":"true","description":null,"dialog_node":"node_19_1515980647042","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Pregúntame algo al respecto y veamos si puedo responderte","Tira una pregunta a ver qué sale","Osas desafiarme mi conocimiento?"],"selection_policy":"random"}},"parent":"Bienvenido","context":null,"created":"2018-01-15T01:36:23.058Z","updated":"2018-01-15T01:57:38.903Z","metadata":{},"next_step":null,"conditions":"true","description":null,"dialog_node":"node_1_1515980176165","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Debemos conocer, primeramente, que al ser la materia prima del vino la uva, es casi imposible conseguir mediante la fermentación más de un 15% de volumen de alcohol, ya que a partir de esa graduación deja de transformarse el azúcar en alcohol. Aunque muchos podrían pensar que el tinto es el que mayor contenido alcohólico posee, otras cuestiones también influyen.  Estudios han demostrado que los vinos espumantes, gracias a sus burbujas, producen un estado etílico mayor o más rápido. Esto tiene que ver con la presión creada por el dióxido de carbono de las burbujas, lo que aumenta la absorción de la bebida y llega antes al torrente sanguíneo."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:40:44.514Z","updated":"2018-01-15T02:17:12.034Z","metadata":{},"next_step":null,"conditions":"#propiedades-alcohol","description":null,"dialog_node":"node_14_1515980437574","previous_sibling":"node_12_1515980375455"},{"type":"response_condition","title":null,"output":{"text":{"values":["El vino es una fermentada bebida que proviene de la vid que es una planta con alrededor de 60 especies aceptadas en el mundo. El proceso inicia con la vendimia (cosecha o recolección de la uva), posteriormente viene el prensado, parte fundamental de la vinificación a través del cual se extrae el mosto. Finalmente, se realiza el embotellamiento y (en algunos casos) añejamiento. https://www.vinetur.com/2017032227575/como-se-hace-el-vino-de-la-vid-a-la-botella.html"]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:39:42.359Z","updated":"2018-01-15T02:25:29.037Z","metadata":{},"next_step":null,"conditions":"#proceso-produccion","description":null,"dialog_node":"node_12_1515980375455","previous_sibling":"node_11_1515980374478"},{"type":"response_condition","title":null,"output":{"text":{"values":["Uno de los parámetro que hacen de un vino un gran vino, es su capacidad de envejecer, de evolucionar y de aguantar y mejorar en el tiempo. El vino evoluciona con el paso del tiempo y el resultado de esa evolución depende de muchos factores.  En lineas generales podemos decir que un vino elaborado y vendido con unos parámetros de guarda y bien conservado (temperatura conservación alrededor de 15ºC, oscuridad, sin ruidos ni vibraciones) su evolución será positiva."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:40:43.543Z","updated":"2018-01-15T02:17:44.235Z","metadata":{},"next_step":null,"conditions":"#propiedades-edad","description":null,"dialog_node":"node_13_1515980436645","previous_sibling":"node_14_1515980437574"},{"type":"response_condition","title":null,"output":{"text":{"values":["El vino es agua en un 85% y el resto son azúcares, polifenoles, fenoles, proteínas o vitaminas. La mayoría de las calorías las vamos a encontrar en su componente alcohólico. Un gramo de alcohol equivale, como regla general, a 7 calorías. La Organización Mundial de la Salud recomienda una ingesta diaria de alcohol no superior a los 40 o 50 gramos diarios, lo que puede equivaler a 4 copas diarias de vino."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:41:13.093Z","updated":"2018-01-15T02:18:14.282Z","metadata":{},"next_step":null,"conditions":"#propiedades-nutrición","description":null,"dialog_node":"node_16_1515980466196","previous_sibling":"node_15_1515980457175"},{"type":"response_condition","title":null,"output":{"text":{"values":["El vino envejece, madura en botella y, especialmente en el caso de los tintos, este proceso produce sedimentos derivados de la precipitación de la materia colorante. La decantación simplemente es el proceso de separar el vino de los sedimentos pasando el vino a una jarra de decantación o decanter. Para realizar la decantación correctamente es recomendable que la botella haya permanecido de pie por lo menos 24 horas antes de la decantación. Una vez abierta verteremos el vino a la jarra de decantación con un movimiento continuo y suave, iluminando el cuello de la botella, hasta que se pueda observar que los sedimentos alcanzan el cuello de la botella."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:39:36.297Z","updated":"2018-01-15T02:12:07.996Z","metadata":{},"next_step":null,"conditions":"#degustacion-decantacion","description":null,"dialog_node":"node_8_1515980369309","previous_sibling":"node_7_1515980253749"},{"type":"response_condition","title":null,"output":{"text":{"values":["El trasvase, muy sugerido a la hora de degustar vinos jóvenes o robustos, ayuda a oxigenar el vino y favorecer su rápida expresión de aromas y sabores. Es mayor la necesidad de trasvase para los vinos madurados por más de 5 años antes de su embotellado, mientras que para los de menos tiempo la necesidad en base a la cantidad de impurezas disminuye un poco.  El oxigeno que entra en el vino depende de su grado alcohólico, el gas carbónico y el extracto seco que posea."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:39:40.471Z","updated":"2018-01-15T02:14:46.261Z","metadata":{},"next_step":null,"conditions":"#degustacion-trasvase","description":null,"dialog_node":"node_10_1515980373491","previous_sibling":"node_9_1515980372445"},{"type":"response_condition","title":null,"output":{"text":{"values":["Los vinos se clasifican de acuerdo a edad, color, azúcar y el alcohol. Aquí encuentrarás una descripción detallada http://www.vitivinicultura.net/clasificacion-de-los-vinos.html"]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:37:40.724Z","updated":"2018-01-15T02:19:47.937Z","metadata":{},"next_step":null,"conditions":"#clasificacion","description":null,"dialog_node":"node_7_1515980253749","previous_sibling":"node_6_1515980250032"},{"type":"response_condition","title":null,"output":{"text":{"values":["Todos los vinos, incluidos los tintos, se deben enfriar si no se encuentran a su temperatura de consumo. La temperatura incide en el aroma, sabor y tacto del vino. Para enfriar los vinos, si no se tiene un armario climatizado, el método más aconsejable es el de la cubitera con hielo y agua, ya que el agua con hielos es un buen conductor del frío."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:39:41.459Z","updated":"2018-01-15T02:15:35.597Z","metadata":{},"next_step":null,"conditions":"#mesa-temperatura","description":null,"dialog_node":"node_11_1515980374478","previous_sibling":"node_10_1515980373491"},{"type":"response_condition","title":null,"output":{"text":{"values":["El vino se toma en copa ya que esta permite la apreciación de las cualidades del vino.  Una copa puede cambiar el sabor del vino y en ella influyen varias cosas como la transparencia que nos permite una visión clara y nítida del color; debe tener un buen pie para poder cogerla correctamente y no calentarla; y finalmente el tamaño influye en la intensidad y la calidad de los aromas."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:39:39.374Z","updated":"2018-01-15T02:14:14.421Z","metadata":{},"next_step":null,"conditions":"#degustacion-recipiente","description":null,"dialog_node":"node_9_1515980372445","previous_sibling":"node_8_1515980369309"},{"type":"response_condition","title":null,"output":{"text":{"values":["También llamados varietales, son vinos que, generalmente, se elaboran de un solo tipo de uva. Es importante mencionar que este término está sujeto a las legislaciones de los países que los producen, por ejemplo, en algunos territorios los monovarietales deben estar elaborados al 100 por ciento con una misma uva, mientras que en otros pueden contener pequeños porcentajes de otras cepas (variedades de uvas)."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:41:04.159Z","updated":"2018-01-15T02:17:53.223Z","metadata":{},"next_step":null,"conditions":"#propiedades-monovarietal","description":null,"dialog_node":"node_15_1515980457175","previous_sibling":"node_13_1515980436645"},{"type":"response_condition","title":null,"output":{"text":{"values":["El factor más determinante a la hora de conservar el vino es la temperatura. La temperatura y sus cambios bruscos, tienen una granl influencia en la velocidad de evolución del vino. Lo más importante es la estabilidad y constancia de la temperatura, más que los grados (hablamos siempre de unos parámetros normales de temperatura)."]}},"parent":"node_2_1515980213967","context":null,"created":"2018-01-15T01:37:36.963Z","updated":"2018-01-15T02:11:00.594Z","metadata":{},"next_step":null,"conditions":"#almacenamiento","description":null,"dialog_node":"node_6_1515980250032","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Y puede que conózca algunas recetas para preparar bebidas"],"selection_policy":"sequential"}},"parent":"node_20_1515980681762","context":null,"created":"2018-01-15T01:45:39.766Z","updated":"2018-01-15T01:47:10.975Z","metadata":{},"next_step":null,"conditions":"true","description":null,"dialog_node":"node_21_1515980732804","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Pregunta de otra manera.","Intenta con otra pregunta.","Vamos, haz otra pregunta.","Quizás tengas más suerte con otra pregunta.","¡Tira otra pregunta!"],"selection_policy":"random"}},"parent":"En otras cosas","context":null,"created":"2018-01-15T02:08:48.190Z","updated":"2018-01-15T02:09:53.209Z","metadata":{},"next_step":null,"conditions":"true","description":null,"dialog_node":"node_35_1515982121303","previous_sibling":null},{"type":"standard","title":"No he entendido","output":{"text":{"values":["No te estoy entendiendo.","No entiendo de qué me estás hablando.","No entendí a qué te refieres.","Estoy teniendo problemas para entenderte.","Parece que no me entrenaron para entender eso, ¡Qué mal!"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-12-07T02:39:19.048Z","updated":"2018-01-15T02:09:44.777Z","metadata":{},"next_step":{"behavior":"skip_user_input"},"conditions":"anything_else","description":null,"dialog_node":"En otras cosas","previous_sibling":"node_23_1515981584086"},{"type":"standard","title":"Preguntas Core Vinos","output":{},"parent":null,"context":null,"created":"2018-01-15T01:37:01.019Z","updated":"2018-01-15T02:10:25.557Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"#almacenamiento || #clasificacion || #degustacion-decantacion || #degustacion-recipiente || #degustacion-trasvase || #mesa-temperatura || #proceso-produccion || #propiedades-alcohol || #propiedades-edad || #propiedades-monovarietal || #propiedades-nutrición","digress_in":"does_not_return","description":null,"dialog_node":"node_2_1515980213967","digress_out":"allow_all","previous_sibling":"node_18_1515980630695"},{"type":"standard","title":"Alcance del bot","output":{"text":{"values":["Estoy entrenado para hablar de varios temas acerca del vino","Soy un nerd de los vinos"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-01-15T01:43:57.581Z","updated":"2018-01-15T01:58:19.005Z","metadata":{},"next_step":{"behavior":"skip_user_input"},"conditions":"#capacidades","digress_in":"does_not_return","description":null,"dialog_node":"node_18_1515980630695","previous_sibling":"Bienvenido"},{"type":"standard","title":"Preguntas con acciones","output":{},"parent":null,"context":null,"created":"2018-01-15T01:59:51.004Z","updated":"2018-01-15T02:40:49.050Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"#comprar-precio || #comprar-tiendas || #degustacion-bebidas || #degustacion-maridaje","digress_in":"does_not_return","description":null,"dialog_node":"node_23_1515981584086","digress_out":"allow_all","previous_sibling":"node_2_1515980213967"},{"type":"standard","title":"Fuera de alcance","output":{"text":{"values":["Sí que te pusiste romántico con esa pregunta","¿Qué fue lo que te tomaste para que se te ocurriera semejante cosa? !!","Que conversación tan profunda estamos teniendo","Puede ser que si o puede ser que no","Prefiero no responder"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-01-15T02:05:58.981Z","updated":"2018-01-15T02:08:06.101Z","metadata":{},"next_step":null,"conditions":"#off_topic","description":null,"dialog_node":"node_34_1515981952075","previous_sibling":"En otras cosas"},{"type":"standard","title":"Bienvenida","output":{"text":{"values":["Hola! estoy entrenado para hablar acerca de vinos","Qué onda! soy un nerd de los vinos"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-12-07T02:39:19.048Z","updated":"2018-01-15T01:57:06.430Z","metadata":{},"next_step":{"behavior":"skip_user_input"},"conditions":"welcome","description":null,"dialog_node":"Bienvenido","previous_sibling":null}],"workspace_id":"91c1981a-070c-4326-889e-51136afc36a7","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Vini Bot",
+	"created": "2017-12-07T02:24:15.976Z",
+	"intents": [{
+		"intent": "comprar-tiendas",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "donde encuentro un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "me puedes recomendar algunas tiendas",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "donde compro vinos",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "donde puedo comprar vinos buenos",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "degustacion-decantacion",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "que vino debe decantarse",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se decanta un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "para que sirve un decantador",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuando debe decantarse el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "sabe mejor el vino con un decantador?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "debo usar un decantador?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "para que se decanta",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que significa decantar el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "porque se debe decantar el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que es un decantador",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "¿Que es la decantación?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "propiedades-nutrición",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "el vino hace subir de peso?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "ayuda tomar vino para la salud?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "es bueno tomar vino?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que implicaciones tiene a la salud",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "el vino te hace subir de peso",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "es bueno para la salud?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cual es la dosis recomendada",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "me hace daño tomar mucho vino?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuantas calorias tiene",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "¿El vino engorda?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "propiedades-edad",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "si guardo el vino un tiempo sabe mejor?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "dura mucho un vino?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "vino joven o añejo?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que significa que sea un vino joven",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que tanto importa el año del vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que importancia tiene la edad del vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "mientras más viejo sea un vino es mejor?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "¿El vino mejora con el paso del tiempo?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "propiedades-alcohol",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:59:35.294Z",
+		"examples": [{
+			"text": "cual es la graduacion de un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como evito la cruda",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "el vino causa cruda?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "es cierto que el vino tino emborracha más rápido",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "es más fuerte el vino rosado o el tinto?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que tanto alcohol tiene el vino?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "me emborracho si me tomo dos copas de vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "el vino emborracha?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que vino emborracha más",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "me embriago si me tomo una copa de vino?",
+			"created": "2018-01-15T01:59:33.227Z",
+			"updated": "2018-01-15T01:59:33.227Z"
+		}, {
+			"text": "con cuantas copas de vino me emborracho?",
+			"created": "2018-01-15T01:59:35.294Z",
+			"updated": "2018-01-15T01:59:35.294Z"
+		}],
+		"description": null
+	}, {
+		"intent": "degustacion-trasvase",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "que significa trasvasar",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuando se realiza el trasvase",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "en que consiste el trasvase de un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cual es la diferencia entre trasvasar y decantar",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cual es la diferencia entre trasvase y decantación",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "es lo mismo trasvasar que decantar un vino?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuando es mejor trasvasar un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que es el trasvase",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "degustacion-bebidas",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "recomiendame algunas bebidas",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "tienes recetas para bebidas?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "quiero preparar algo con vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como puedo preparar algunas bebidas",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "puedes decirme como preparar bebidas",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "clasificacion",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "que es un vino rosado?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "porque se llama vino tinto",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que hace a un vino ser tinto?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuál es la diferencia entre un vino tinto y blanco",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "en que consisten las diferentes uvas",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que opciones de vinos hay",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se catalogan los vinos",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "diferentes tipos de vinos",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se clasifican los vinos",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "qué tipos de vino hay",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "capacidades",
+		"created": "2018-01-15T01:42:55.729Z",
+		"updated": "2018-01-15T01:43:06.919Z",
+		"examples": [{
+			"text": "que sabes hacer?",
+			"created": "2018-01-15T01:42:58.169Z",
+			"updated": "2018-01-15T01:42:58.169Z"
+		}, {
+			"text": "sobre que me puedes hablar",
+			"created": "2018-01-15T01:42:59.842Z",
+			"updated": "2018-01-15T01:42:59.842Z"
+		}, {
+			"text": "que tanto conoces de vinos",
+			"created": "2018-01-15T01:43:01.338Z",
+			"updated": "2018-01-15T01:43:01.338Z"
+		}, {
+			"text": "que temas conoces",
+			"created": "2018-01-15T01:43:02.791Z",
+			"updated": "2018-01-15T01:43:02.791Z"
+		}, {
+			"text": "que te puedo preguntar",
+			"created": "2018-01-15T01:43:04.326Z",
+			"updated": "2018-01-15T01:43:04.326Z"
+		}, {
+			"text": "no sé que preguntar",
+			"created": "2018-01-15T01:43:06.919Z",
+			"updated": "2018-01-15T01:43:06.919Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "comprar-precio",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "cual es el precio promedio de un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "hay vinos baratos?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que tan caro es el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "es caro un vino?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cual es el precio de un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuanto cuesta un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "degustacion-maridaje",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "que vino es mejor para un postre",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "si el vino es dulce lo combino con un postre?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "con que debo tomar el vino rosado",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que vino me recomiendas para cortes de carne",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "quiero maridar un vino con pescado",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se hace un buen maridaje",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como maridar un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se deben combinar los vinos",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "con que se comen los vinos tintos",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "degustacion-recipiente",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "el vino debe servirse en copa?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "donde se sirve el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se agarra la copa",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como agarro la copa para tomar vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que copa debo usar",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "importa el tipo de copa",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que tipo de copa debo usar",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se toma el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "Qué importancia tiene la copa",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "propiedades-monovarietal",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "cual es la diferencia entre varietal y monovarietal",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que significa varietal",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "es lo mismo varietal?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "porque se dice que un vino es monovarietal",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que significa monovarietal",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuando es monovarietal",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que significa que sea monovarietal",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "¿Qué es un vino monovarietal?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "off_topic",
+		"created": "2018-01-15T01:52:48.561Z",
+		"updated": "2018-01-15T01:53:42.026Z",
+		"examples": [{
+			"text": "sabes hablar de deportes",
+			"created": "2018-01-15T01:52:52.394Z",
+			"updated": "2018-01-15T01:52:52.394Z"
+		}, {
+			"text": "puedes hablar de política",
+			"created": "2018-01-15T01:52:58.025Z",
+			"updated": "2018-01-15T01:52:58.025Z"
+		}, {
+			"text": "que opinas de la vida?",
+			"created": "2018-01-15T01:52:59.877Z",
+			"updated": "2018-01-15T01:52:59.877Z"
+		}, {
+			"text": "cuanto mide la tierra",
+			"created": "2018-01-15T01:53:01.477Z",
+			"updated": "2018-01-15T01:53:01.477Z"
+		}, {
+			"text": "quien es mejor los hombres o las mujeres",
+			"created": "2018-01-15T01:53:03.045Z",
+			"updated": "2018-01-15T01:53:03.045Z"
+		}, {
+			"text": "crees en alguna religión",
+			"created": "2018-01-15T01:53:04.765Z",
+			"updated": "2018-01-15T01:53:04.765Z"
+		}, {
+			"text": "quien es el mejor futbolista",
+			"created": "2018-01-15T01:53:06.432Z",
+			"updated": "2018-01-15T01:53:06.432Z"
+		}, {
+			"text": "a que equipo le vas",
+			"created": "2018-01-15T01:53:08.046Z",
+			"updated": "2018-01-15T01:53:08.046Z"
+		}, {
+			"text": "sabes chistes?",
+			"created": "2018-01-15T01:53:09.576Z",
+			"updated": "2018-01-15T01:53:09.576Z"
+		}, {
+			"text": "cual es el clima",
+			"created": "2018-01-15T01:53:12.001Z",
+			"updated": "2018-01-15T01:53:12.001Z"
+		}, {
+			"text": "cuentame un chiste",
+			"created": "2018-01-15T01:53:13.443Z",
+			"updated": "2018-01-15T01:53:13.443Z"
+		}, {
+			"text": "dime algo gracioso",
+			"created": "2018-01-15T01:53:15.268Z",
+			"updated": "2018-01-15T01:53:15.268Z"
+		}, {
+			"text": "que es siri?",
+			"created": "2018-01-15T01:53:17.154Z",
+			"updated": "2018-01-15T01:53:17.154Z"
+		}, {
+			"text": "eres siri?",
+			"created": "2018-01-15T01:53:19.134Z",
+			"updated": "2018-01-15T01:53:19.134Z"
+		}, {
+			"text": "te gustan los deportes?",
+			"created": "2018-01-15T01:53:20.900Z",
+			"updated": "2018-01-15T01:53:20.900Z"
+		}, {
+			"text": "te gusta la política?",
+			"created": "2018-01-15T01:53:22.590Z",
+			"updated": "2018-01-15T01:53:22.590Z"
+		}, {
+			"text": "cual es el secreto de la felicidad",
+			"created": "2018-01-15T01:53:25.333Z",
+			"updated": "2018-01-15T01:53:25.333Z"
+		}, {
+			"text": "crees en la vida después de la muerte?",
+			"created": "2018-01-15T01:53:28.708Z",
+			"updated": "2018-01-15T01:53:28.708Z"
+		}, {
+			"text": "cuando se va a terminar el mundo",
+			"created": "2018-01-15T01:53:30.516Z",
+			"updated": "2018-01-15T01:53:30.516Z"
+		}, {
+			"text": "que fue primero el huevo o la gallina?",
+			"created": "2018-01-15T01:53:32.495Z",
+			"updated": "2018-01-15T01:53:32.495Z"
+		}, {
+			"text": "quieres casarte conmigo",
+			"created": "2018-01-15T01:53:34.451Z",
+			"updated": "2018-01-15T01:53:34.451Z"
+		}, {
+			"text": "quieres ser mi novia?",
+			"created": "2018-01-15T01:53:36.346Z",
+			"updated": "2018-01-15T01:53:36.346Z"
+		}, {
+			"text": "me quieres",
+			"created": "2018-01-15T01:53:38.450Z",
+			"updated": "2018-01-15T01:53:38.450Z"
+		}, {
+			"text": "que es el amor",
+			"created": "2018-01-15T01:53:40.246Z",
+			"updated": "2018-01-15T01:53:40.246Z"
+		}, {
+			"text": "que es la felicidad",
+			"created": "2018-01-15T01:53:42.026Z",
+			"updated": "2018-01-15T01:53:42.026Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "mesa-temperatura",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "a que temperatura se toma",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "es mejor tomar el vino frio?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "sabe mejor frio o caliente",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como sabe mejor frio o caliente?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "tengo que calentar el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como me debo tomar el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "el vino se toma frio o caliente",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "a que temperatura debe tomarse el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "Se deben enfriar los vinos?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "almacenamiento",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T01:34:54.548Z",
+		"examples": [{
+			"text": "donde se mantiene mejor el sabor",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "donde es mejor que guarde el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "debo mantener el vino en el refrigerador?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "debo mantener el vino frio?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "puedo guardar el vino en el refri",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como hago para conservar bien el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cual es la forma correcta de guardar el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como debo guardar el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "¿Como guardo el vino?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}],
+		"description": null
+	}, {
+		"intent": "proceso-produccion",
+		"created": "2018-01-15T01:34:54.548Z",
+		"updated": "2018-01-15T02:27:56.201Z",
+		"examples": [{
+			"text": "cual es el proceso de fermentación de un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se fermenta un vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se realiza el prensado de la uva",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "se puede hacer vino en casa",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuáles son las condiciones ideales de un viñedo?",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se elabora el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se hace el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuanto tiempo debe embarricarse el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "cuanto tiempo toma producir el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se fabrica el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "como se produce el vino",
+			"created": "2018-01-15T01:34:54.565Z",
+			"updated": "2018-01-15T01:34:54.565Z"
+		}, {
+			"text": "que es el añejamiento",
+			"created": "2018-01-15T02:26:35.887Z",
+			"updated": "2018-01-15T02:26:35.887Z"
+		}, {
+			"text": "como se embotella un vino?",
+			"created": "2018-01-15T02:26:38.511Z",
+			"updated": "2018-01-15T02:26:38.511Z"
+		}, {
+			"text": "que es la vinificacion",
+			"created": "2018-01-15T02:26:41.261Z",
+			"updated": "2018-01-15T02:26:41.261Z"
+		}, {
+			"text": "que es la vendimia",
+			"created": "2018-01-15T02:26:44.680Z",
+			"updated": "2018-01-15T02:26:44.680Z"
+		}, {
+			"text": "en que consiste el prensado de la uva",
+			"created": "2018-01-15T02:26:46.575Z",
+			"updated": "2018-01-15T02:26:46.575Z"
+		}, {
+			"text": "como se extrae el jugo de la uva",
+			"created": "2018-01-15T02:27:39.212Z",
+			"updated": "2018-01-15T02:27:39.212Z"
+		}, {
+			"text": "como se aplastan las uvas?",
+			"created": "2018-01-15T02:27:56.201Z",
+			"updated": "2018-01-15T02:27:56.201Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-01-15T02:53:58.967Z",
+	"entities": [{
+		"entity": "tipo_precio",
+		"values": [{
+			"type": "synonyms",
+			"value": "reportes",
+			"created": "2017-12-27T21:51:47.823Z",
+			"updated": "2017-12-27T21:51:47.823Z",
+			"metadata": null,
+			"synonyms": ["analiticos", "graficas", "tablas"]
+		}, {
+			"type": "synonyms",
+			"value": "subscripcion",
+			"created": "2017-12-27T21:52:34.376Z",
+			"updated": "2017-12-27T21:52:34.376Z",
+			"metadata": null,
+			"synonyms": ["planes", "paquetes"]
+		}, {
+			"type": "synonyms",
+			"value": "usuario",
+			"created": "2017-12-27T21:50:40.477Z",
+			"updated": "2017-12-27T21:50:40.477Z",
+			"metadata": null,
+			"synonyms": ["agente", "administrador", "cliente", "super administrador"]
+		}, {
+			"type": "synonyms",
+			"value": "tarea",
+			"created": "2017-12-27T21:51:25.934Z",
+			"updated": "2017-12-27T21:51:25.934Z",
+			"metadata": null,
+			"synonyms": ["actividad", "servicio", "delivery", "pick up", "entrega", "recoger", "recolectar"]
+		}],
+		"created": "2017-12-27T21:50:05.190Z",
+		"updated": "2017-12-27T21:52:34.376Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "es",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["La decantación, combinación con alimentos (maridaje), la forma de almacenarlo"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_19_1515980647042",
+		"context": null,
+		"created": "2018-01-15T01:44:48.652Z",
+		"updated": "2018-01-15T01:47:07.325Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_20_1515980681762",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Estas son algunas bebidas que puedes preparar con vino."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1515981584086",
+		"context": {
+			"flag_beberage": true
+		},
+		"created": "2018-01-15T02:05:06.239Z",
+		"updated": "2018-01-15T02:39:39.969Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#degustacion-bebidas",
+		"description": null,
+		"dialog_node": "node_32_1515981899342",
+		"previous_sibling": "node_31_1515981893641"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Aquí tienes la ubicación de algunas tiendas donde puedes comprar vinos"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1515981584086",
+		"context": {
+			"flag_search_stores": true
+		},
+		"created": "2018-01-15T02:05:00.611Z",
+		"updated": "2018-01-15T02:32:56.325Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#comprar-tiendas",
+		"description": null,
+		"dialog_node": "node_31_1515981893641",
+		"previous_sibling": "node_30_1515981882390"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["En https://wine4.me puedes encontrar recomendaciones para maridar tus vinos. También deberías probar \"Watson Chef\" para recibir sugerencias de recetas inteligentes."]
+			}
+		},
+		"parent": "node_23_1515981584086",
+		"context": {
+			"flag_wine_pairing": true
+		},
+		"created": "2018-01-15T02:05:27.547Z",
+		"updated": "2018-01-15T02:37:56.364Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#degustacion-maridaje",
+		"description": null,
+		"dialog_node": "node_33_1515981920640",
+		"previous_sibling": "node_32_1515981899342"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Para darte precios de algunos vinos, te voy a mostrar algunas botellas disponibles en http://www.mercadolibre.com"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_23_1515981584086",
+		"context": {
+			"flag_search_products": true
+		},
+		"created": "2018-01-15T02:04:49.384Z",
+		"updated": "2018-01-15T02:53:26.952Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#comprar-precio",
+		"description": null,
+		"dialog_node": "node_30_1515981882390",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Por ejemplo: los tipos de uva, el proceso de producción"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_18_1515980630695",
+		"context": null,
+		"created": "2018-01-15T01:44:13.937Z",
+		"updated": "2018-01-15T01:47:13.127Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_19_1515980647042",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Pregúntame algo al respecto y veamos si puedo responderte", "Tira una pregunta a ver qué sale", "Osas desafiarme mi conocimiento?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "Bienvenido",
+		"context": null,
+		"created": "2018-01-15T01:36:23.058Z",
+		"updated": "2018-01-15T01:57:38.903Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_1_1515980176165",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Debemos conocer, primeramente, que al ser la materia prima del vino la uva, es casi imposible conseguir mediante la fermentación más de un 15% de volumen de alcohol, ya que a partir de esa graduación deja de transformarse el azúcar en alcohol. Aunque muchos podrían pensar que el tinto es el que mayor contenido alcohólico posee, otras cuestiones también influyen.  Estudios han demostrado que los vinos espumantes, gracias a sus burbujas, producen un estado etílico mayor o más rápido. Esto tiene que ver con la presión creada por el dióxido de carbono de las burbujas, lo que aumenta la absorción de la bebida y llega antes al torrente sanguíneo."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:40:44.514Z",
+		"updated": "2018-01-15T02:17:12.034Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#propiedades-alcohol",
+		"description": null,
+		"dialog_node": "node_14_1515980437574",
+		"previous_sibling": "node_12_1515980375455"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["El vino es una fermentada bebida que proviene de la vid que es una planta con alrededor de 60 especies aceptadas en el mundo. El proceso inicia con la vendimia (cosecha o recolección de la uva), posteriormente viene el prensado, parte fundamental de la vinificación a través del cual se extrae el mosto. Finalmente, se realiza el embotellamiento y (en algunos casos) añejamiento. https://www.vinetur.com/2017032227575/como-se-hace-el-vino-de-la-vid-a-la-botella.html"]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:39:42.359Z",
+		"updated": "2018-01-15T02:25:29.037Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#proceso-produccion",
+		"description": null,
+		"dialog_node": "node_12_1515980375455",
+		"previous_sibling": "node_11_1515980374478"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Uno de los parámetro que hacen de un vino un gran vino, es su capacidad de envejecer, de evolucionar y de aguantar y mejorar en el tiempo. El vino evoluciona con el paso del tiempo y el resultado de esa evolución depende de muchos factores.  En lineas generales podemos decir que un vino elaborado y vendido con unos parámetros de guarda y bien conservado (temperatura conservación alrededor de 15ºC, oscuridad, sin ruidos ni vibraciones) su evolución será positiva."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:40:43.543Z",
+		"updated": "2018-01-15T02:17:44.235Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#propiedades-edad",
+		"description": null,
+		"dialog_node": "node_13_1515980436645",
+		"previous_sibling": "node_14_1515980437574"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["El vino es agua en un 85% y el resto son azúcares, polifenoles, fenoles, proteínas o vitaminas. La mayoría de las calorías las vamos a encontrar en su componente alcohólico. Un gramo de alcohol equivale, como regla general, a 7 calorías. La Organización Mundial de la Salud recomienda una ingesta diaria de alcohol no superior a los 40 o 50 gramos diarios, lo que puede equivaler a 4 copas diarias de vino."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:41:13.093Z",
+		"updated": "2018-01-15T02:18:14.282Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#propiedades-nutrición",
+		"description": null,
+		"dialog_node": "node_16_1515980466196",
+		"previous_sibling": "node_15_1515980457175"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["El vino envejece, madura en botella y, especialmente en el caso de los tintos, este proceso produce sedimentos derivados de la precipitación de la materia colorante. La decantación simplemente es el proceso de separar el vino de los sedimentos pasando el vino a una jarra de decantación o decanter. Para realizar la decantación correctamente es recomendable que la botella haya permanecido de pie por lo menos 24 horas antes de la decantación. Una vez abierta verteremos el vino a la jarra de decantación con un movimiento continuo y suave, iluminando el cuello de la botella, hasta que se pueda observar que los sedimentos alcanzan el cuello de la botella."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:39:36.297Z",
+		"updated": "2018-01-15T02:12:07.996Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#degustacion-decantacion",
+		"description": null,
+		"dialog_node": "node_8_1515980369309",
+		"previous_sibling": "node_7_1515980253749"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["El trasvase, muy sugerido a la hora de degustar vinos jóvenes o robustos, ayuda a oxigenar el vino y favorecer su rápida expresión de aromas y sabores. Es mayor la necesidad de trasvase para los vinos madurados por más de 5 años antes de su embotellado, mientras que para los de menos tiempo la necesidad en base a la cantidad de impurezas disminuye un poco.  El oxigeno que entra en el vino depende de su grado alcohólico, el gas carbónico y el extracto seco que posea."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:39:40.471Z",
+		"updated": "2018-01-15T02:14:46.261Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#degustacion-trasvase",
+		"description": null,
+		"dialog_node": "node_10_1515980373491",
+		"previous_sibling": "node_9_1515980372445"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Los vinos se clasifican de acuerdo a edad, color, azúcar y el alcohol. Aquí encuentrarás una descripción detallada http://www.vitivinicultura.net/clasificacion-de-los-vinos.html"]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:37:40.724Z",
+		"updated": "2018-01-15T02:19:47.937Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#clasificacion",
+		"description": null,
+		"dialog_node": "node_7_1515980253749",
+		"previous_sibling": "node_6_1515980250032"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Todos los vinos, incluidos los tintos, se deben enfriar si no se encuentran a su temperatura de consumo. La temperatura incide en el aroma, sabor y tacto del vino. Para enfriar los vinos, si no se tiene un armario climatizado, el método más aconsejable es el de la cubitera con hielo y agua, ya que el agua con hielos es un buen conductor del frío."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:39:41.459Z",
+		"updated": "2018-01-15T02:15:35.597Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#mesa-temperatura",
+		"description": null,
+		"dialog_node": "node_11_1515980374478",
+		"previous_sibling": "node_10_1515980373491"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["El vino se toma en copa ya que esta permite la apreciación de las cualidades del vino.  Una copa puede cambiar el sabor del vino y en ella influyen varias cosas como la transparencia que nos permite una visión clara y nítida del color; debe tener un buen pie para poder cogerla correctamente y no calentarla; y finalmente el tamaño influye en la intensidad y la calidad de los aromas."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:39:39.374Z",
+		"updated": "2018-01-15T02:14:14.421Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#degustacion-recipiente",
+		"description": null,
+		"dialog_node": "node_9_1515980372445",
+		"previous_sibling": "node_8_1515980369309"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["También llamados varietales, son vinos que, generalmente, se elaboran de un solo tipo de uva. Es importante mencionar que este término está sujeto a las legislaciones de los países que los producen, por ejemplo, en algunos territorios los monovarietales deben estar elaborados al 100 por ciento con una misma uva, mientras que en otros pueden contener pequeños porcentajes de otras cepas (variedades de uvas)."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:41:04.159Z",
+		"updated": "2018-01-15T02:17:53.223Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#propiedades-monovarietal",
+		"description": null,
+		"dialog_node": "node_15_1515980457175",
+		"previous_sibling": "node_13_1515980436645"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["El factor más determinante a la hora de conservar el vino es la temperatura. La temperatura y sus cambios bruscos, tienen una granl influencia en la velocidad de evolución del vino. Lo más importante es la estabilidad y constancia de la temperatura, más que los grados (hablamos siempre de unos parámetros normales de temperatura)."]
+			}
+		},
+		"parent": "node_2_1515980213967",
+		"context": null,
+		"created": "2018-01-15T01:37:36.963Z",
+		"updated": "2018-01-15T02:11:00.594Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#almacenamiento",
+		"description": null,
+		"dialog_node": "node_6_1515980250032",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Y puede que conózca algunas recetas para preparar bebidas"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_20_1515980681762",
+		"context": null,
+		"created": "2018-01-15T01:45:39.766Z",
+		"updated": "2018-01-15T01:47:10.975Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_21_1515980732804",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Pregunta de otra manera.", "Intenta con otra pregunta.", "Vamos, haz otra pregunta.", "Quizás tengas más suerte con otra pregunta.", "¡Tira otra pregunta!"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "En otras cosas",
+		"context": null,
+		"created": "2018-01-15T02:08:48.190Z",
+		"updated": "2018-01-15T02:09:53.209Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_35_1515982121303",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "No he entendido",
+		"output": {
+			"text": {
+				"values": ["No te estoy entendiendo.", "No entiendo de qué me estás hablando.", "No entendí a qué te refieres.", "Estoy teniendo problemas para entenderte.", "Parece que no me entrenaron para entender eso, ¡Qué mal!"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-07T02:39:19.048Z",
+		"updated": "2018-01-15T02:09:44.777Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "En otras cosas",
+		"previous_sibling": "node_23_1515981584086"
+	}, {
+		"type": "standard",
+		"title": "Preguntas Core Vinos",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T01:37:01.019Z",
+		"updated": "2018-01-15T02:10:25.557Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#almacenamiento || #clasificacion || #degustacion-decantacion || #degustacion-recipiente || #degustacion-trasvase || #mesa-temperatura || #proceso-produccion || #propiedades-alcohol || #propiedades-edad || #propiedades-monovarietal || #propiedades-nutrición",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_2_1515980213967",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_18_1515980630695"
+	}, {
+		"type": "standard",
+		"title": "Alcance del bot",
+		"output": {
+			"text": {
+				"values": ["Estoy entrenado para hablar de varios temas acerca del vino", "Soy un nerd de los vinos"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T01:43:57.581Z",
+		"updated": "2018-01-15T01:58:19.005Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "#capacidades",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_18_1515980630695",
+		"previous_sibling": "Bienvenido"
+	}, {
+		"type": "standard",
+		"title": "Preguntas con acciones",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T01:59:51.004Z",
+		"updated": "2018-01-15T02:40:49.050Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#comprar-precio || #comprar-tiendas || #degustacion-bebidas || #degustacion-maridaje",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_23_1515981584086",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_2_1515980213967"
+	}, {
+		"type": "standard",
+		"title": "Fuera de alcance",
+		"output": {
+			"text": {
+				"values": ["Sí que te pusiste romántico con esa pregunta", "¿Qué fue lo que te tomaste para que se te ocurriera semejante cosa? !!", "Que conversación tan profunda estamos teniendo", "Puede ser que si o puede ser que no", "Prefiero no responder"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-15T02:05:58.981Z",
+		"updated": "2018-01-15T02:08:06.101Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#off_topic",
+		"description": null,
+		"dialog_node": "node_34_1515981952075",
+		"previous_sibling": "En otras cosas"
+	}, {
+		"type": "standard",
+		"title": "Bienvenida",
+		"output": {
+			"text": {
+				"values": ["Hola! estoy entrenado para hablar acerca de vinos", "Qué onda! soy un nerd de los vinos"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-07T02:39:19.048Z",
+		"updated": "2018-01-15T01:57:06.430Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "skip_user_input"
+		},
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Bienvenido",
+		"previous_sibling": null
+	}],
+	"workspace_id": "91c1981a-070c-4326-889e-51136afc36a7",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

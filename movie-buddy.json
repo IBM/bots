@@ -1,1 +1,543 @@
-{"name":"movie buddy","created":"2017-12-06T22:11:12.360Z","intents":[{"intent":"search","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z","examples":[{"text":"get movie by title","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"},{"text":"lookup movie","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"},{"text":"search for a movie","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"}],"description":null},{"intent":"confirm","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z","examples":[{"text":"correct","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"},{"text":"confirm","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"},{"text":"that's right","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"},{"text":"that is correct","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"},{"text":"yep","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"},{"text":"yes","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"}],"description":null},{"intent":"startover","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z","examples":[{"text":"start over","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"},{"text":"start from the top","created":"2017-12-12T19:52:29.672Z","updated":"2017-12-12T19:52:29.672Z"}],"description":""}],"updated":"2017-12-12T19:53:14.067Z","entities":[{"entity":"type","values":[{"type":"synonyms","value":"movie","created":"2017-12-12T00:05:10.071Z","updated":"2017-12-12T00:05:10.071Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"series","created":"2017-12-12T00:05:10.071Z","updated":"2017-12-12T00:05:10.071Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"episode","created":"2017-12-12T00:05:10.071Z","updated":"2017-12-12T00:05:10.071Z","metadata":null,"synonyms":[]}],"created":"2017-12-12T00:05:10.071Z","updated":"2017-12-12T00:05:10.071Z","metadata":null,"description":null},{"entity":"title","values":[{"type":"patterns","value":"Name","created":"2017-12-12T00:05:10.071Z","updated":"2017-12-12T00:05:10.071Z","metadata":null,"patterns":[".*","/.*/"]}],"created":"2017-12-12T00:05:10.071Z","updated":"2017-12-12T00:05:10.071Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2017-12-12T00:05:10.071Z","updated":"2017-12-12T00:05:10.071Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"A chatbot to interact with the omdb api","dialog_nodes":[{"type":"standard","title":"year","output":{"text":{"values":["You entered <? $y ?> for the year. Please type confirm to begin your search."],"selection_policy":"sequential"}},"parent":"node_3_1513039538640","context":{"y":"@sys-number"},"created":"2017-12-12T19:01:34.725Z","updated":"2017-12-12T19:44:14.682Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_18_1513103510851"},"conditions":"@sys-number","description":null,"dialog_node":"node_6_1513105294433","previous_sibling":"node_7_1513105327716"},{"type":"standard","title":"confirm","output":{"text":{"values":["Confirmation received"],"selection_policy":"sequential"}},"parent":"node_3_1513039538640","context":{"result":"<? $s ?>, <? $type ?>"},"created":"2017-12-12T19:02:07.983Z","updated":"2017-12-12T19:42:40.992Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_11_1513040499279"},"conditions":"#confirm","description":null,"dialog_node":"node_7_1513105327716","previous_sibling":null},{"type":"standard","title":"Start over","output":{},"parent":"node_11_1513040499279","context":null,"created":"2017-12-12T01:04:51.109Z","updated":"2017-12-12T01:05:04.916Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"#startover","description":null,"dialog_node":"node_12_1513040690856","previous_sibling":null},{"type":"standard","title":"confirm","output":{"text":{"values":["Confirmation received"],"selection_policy":"sequential"}},"parent":"node_4_1513039562635","context":{"result":"<? $s ?>, <? $y ?>"},"created":"2017-12-12T19:37:36.406Z","updated":"2017-12-12T19:49:48.929Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_11_1513040499279"},"conditions":"#confirm","description":null,"dialog_node":"node_10_1513107456243","previous_sibling":"node_9_1513107440994"},{"type":"standard","title":"Type","output":{"text":{"values":["You entered <? $type ?> for the type. Please type confirm to begin your search."],"selection_policy":"sequential"}},"parent":"node_4_1513039562635","context":{"type":"@type"},"created":"2017-12-12T19:37:21.568Z","updated":"2017-12-12T19:44:34.671Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_18_1513103510851"},"conditions":"@type","description":null,"dialog_node":"node_9_1513107440994","previous_sibling":null},{"type":"standard","title":"Movie Search","output":{"text":{"values":["You entered <? input.text ?>. Would you like to specify either a type(movie, series, or episode) or year? If not, please confirm that you wish to search with just the title."],"selection_policy":"sequential"}},"parent":"Welcome","context":{"s":"<? input.text ?>"},"created":"2017-12-11T19:15:35.386Z","updated":"2017-12-12T00:26:00.524Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"@title","description":null,"dialog_node":"node_1_1513019735097","digress_out":"allow_all","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_44_1513033618834","context":null,"created":"2017-12-11T23:06:59.732Z","updated":"2017-12-11T23:06:59.732Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_46_1513033618834","previous_sibling":"handler_45_1513033618834"},{"type":"event_handler","title":null,"output":null,"parent":"slot_44_1513033618834","context":null,"created":"2017-12-11T23:06:59.489Z","updated":"2017-12-11T23:06:59.489Z","metadata":null,"next_step":null,"conditions":null,"event_name":"input","description":null,"dialog_node":"handler_45_1513033618834","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_41_1513033608744","context":null,"created":"2017-12-11T23:06:49.557Z","updated":"2017-12-11T23:13:21.328Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_43_1513033608744","previous_sibling":"handler_42_1513033608744"},{"type":"event_handler","title":null,"output":null,"parent":"slot_41_1513033608744","context":{},"created":"2017-12-11T23:06:49.325Z","updated":"2017-12-11T23:12:40.942Z","metadata":null,"next_step":null,"conditions":"","event_name":"input","description":null,"dialog_node":"handler_42_1513033608744","previous_sibling":null},{"type":"slot","title":null,"output":null,"parent":"node_1_1513019735097","context":null,"created":"2017-12-11T23:06:49.054Z","updated":"2017-12-11T23:12:40.704Z","metadata":null,"variable":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"slot_41_1513033608744","previous_sibling":"node_5_1513105111981"},{"type":"standard","title":"Year","output":{"text":{"values":["You entered <? $y ?> for the year. Please enter a type or say confirm to begin your search."],"selection_policy":"sequential"}},"parent":"node_1_1513019735097","context":{"y":"@sys-number"},"created":"2017-12-12T00:46:02.817Z","updated":"2017-12-12T19:44:07.171Z","metadata":{},"next_step":null,"conditions":"@sys-number","description":null,"dialog_node":"node_4_1513039562635","previous_sibling":"node_3_1513039538640"},{"type":"standard","title":"Confirm","output":{"text":{"values":["Confirmation received"],"selection_policy":"sequential"}},"parent":"node_1_1513019735097","context":{"result":"<? $s ?>"},"created":"2017-12-12T18:58:32.228Z","updated":"2017-12-12T19:34:23.255Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_11_1513040499279"},"conditions":"#confirm","description":null,"dialog_node":"node_5_1513105111981","previous_sibling":"node_4_1513039562635"},{"type":"slot","title":null,"output":null,"parent":"node_1_1513019735097","context":null,"created":"2017-12-11T23:06:59.252Z","updated":"2017-12-11T23:06:59.252Z","metadata":null,"variable":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"slot_44_1513033618834","previous_sibling":"slot_41_1513033608744"},{"type":"standard","title":"Type","output":{"text":{"values":["You entered <? $type ?> for the type. Please enter a year or say confirm to begin your search."],"selection_policy":"sequential"}},"parent":"node_1_1513019735097","context":{"type":"@type"},"created":"2017-12-12T00:45:38.947Z","updated":"2017-12-12T19:43:54.215Z","metadata":{},"next_step":null,"conditions":"@type","description":null,"dialog_node":"node_3_1513039538640","previous_sibling":"node_5_1513039576068"},{"type":"standard","title":"year and type","output":{"text":{"values":["You entered <? $y ?> for the year and <? $type ?> for the type. Please type confirm to start your search."],"selection_policy":"sequential"}},"parent":"node_1_1513019735097","context":{"y":"@sys-number","type":"@type"},"created":"2017-12-12T00:46:16.237Z","updated":"2017-12-12T18:49:18.851Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_18_1513103510851"},"conditions":"@sys-number && @type","description":null,"dialog_node":"node_5_1513039576068","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Sorry I didn't understand that."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-11T23:04:58.735Z","updated":"2017-12-12T19:51:13.482Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_40_1513033498533","previous_sibling":"node_18_1513103510851"},{"type":"standard","title":"confirm","output":{"text":{"values":["Confirmation received"],"selection_policy":"sequential"}},"parent":null,"context":{"result":"<? $s ?> , <? $y ?>, <? $type ?>"},"created":"2017-12-12T18:31:51.016Z","updated":"2017-12-12T18:58:24.921Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_11_1513040499279"},"conditions":"#confirm","description":null,"dialog_node":"node_18_1513103510851","previous_sibling":"node_11_1513040499279"},{"type":"standard","title":"Results","output":{"text":{"values":["your result was <? $result ?>. Please say start over if you wish to begin a new search"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-12T01:01:39.670Z","updated":"2017-12-12T18:57:08.791Z","metadata":{},"next_step":null,"conditions":"$result","description":null,"dialog_node":"node_11_1513040499279","previous_sibling":"Welcome"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Please enter the name of the movie, series, or episode you wish to search for","What would you like to search for?"],"selection_policy":"random"}},"parent":null,"context":{"s":"","y":0,"type":"","result":"","confirm":false},"created":"2017-12-06T22:28:32.599Z","updated":"2017-12-12T19:45:30.268Z","metadata":{},"next_step":null,"conditions":"#startover || welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"f091a948-0a02-4900-be5a-257454a76f12","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "movie buddy",
+	"created": "2017-12-06T22:11:12.360Z",
+	"intents": [{
+		"intent": "search",
+		"created": "2017-12-12T19:52:29.672Z",
+		"updated": "2017-12-12T19:52:29.672Z",
+		"examples": [{
+			"text": "get movie by title",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}, {
+			"text": "lookup movie",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}, {
+			"text": "search for a movie",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}],
+		"description": null
+	}, {
+		"intent": "confirm",
+		"created": "2017-12-12T19:52:29.672Z",
+		"updated": "2017-12-12T19:52:29.672Z",
+		"examples": [{
+			"text": "correct",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}, {
+			"text": "confirm",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}, {
+			"text": "that's right",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}, {
+			"text": "that is correct",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}, {
+			"text": "yep",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}, {
+			"text": "yes",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}],
+		"description": null
+	}, {
+		"intent": "startover",
+		"created": "2017-12-12T19:52:29.672Z",
+		"updated": "2017-12-12T19:52:29.672Z",
+		"examples": [{
+			"text": "start over",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}, {
+			"text": "start from the top",
+			"created": "2017-12-12T19:52:29.672Z",
+			"updated": "2017-12-12T19:52:29.672Z"
+		}],
+		"description": ""
+	}],
+	"updated": "2017-12-12T19:53:14.067Z",
+	"entities": [{
+		"entity": "type",
+		"values": [{
+			"type": "synonyms",
+			"value": "movie",
+			"created": "2017-12-12T00:05:10.071Z",
+			"updated": "2017-12-12T00:05:10.071Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "series",
+			"created": "2017-12-12T00:05:10.071Z",
+			"updated": "2017-12-12T00:05:10.071Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "episode",
+			"created": "2017-12-12T00:05:10.071Z",
+			"updated": "2017-12-12T00:05:10.071Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-12-12T00:05:10.071Z",
+		"updated": "2017-12-12T00:05:10.071Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "title",
+		"values": [{
+			"type": "patterns",
+			"value": "Name",
+			"created": "2017-12-12T00:05:10.071Z",
+			"updated": "2017-12-12T00:05:10.071Z",
+			"metadata": null,
+			"patterns": [".*", "/.*/"]
+		}],
+		"created": "2017-12-12T00:05:10.071Z",
+		"updated": "2017-12-12T00:05:10.071Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2017-12-12T00:05:10.071Z",
+		"updated": "2017-12-12T00:05:10.071Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "A chatbot to interact with the omdb api",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": "year",
+		"output": {
+			"text": {
+				"values": ["You entered <? $y ?> for the year. Please type confirm to begin your search."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1513039538640",
+		"context": {
+			"y": "@sys-number"
+		},
+		"created": "2017-12-12T19:01:34.725Z",
+		"updated": "2017-12-12T19:44:14.682Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_18_1513103510851"
+		},
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "node_6_1513105294433",
+		"previous_sibling": "node_7_1513105327716"
+	}, {
+		"type": "standard",
+		"title": "confirm",
+		"output": {
+			"text": {
+				"values": ["Confirmation received"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1513039538640",
+		"context": {
+			"result": "<? $s ?>, <? $type ?>"
+		},
+		"created": "2017-12-12T19:02:07.983Z",
+		"updated": "2017-12-12T19:42:40.992Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_11_1513040499279"
+		},
+		"conditions": "#confirm",
+		"description": null,
+		"dialog_node": "node_7_1513105327716",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Start over",
+		"output": {},
+		"parent": "node_11_1513040499279",
+		"context": null,
+		"created": "2017-12-12T01:04:51.109Z",
+		"updated": "2017-12-12T01:05:04.916Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "#startover",
+		"description": null,
+		"dialog_node": "node_12_1513040690856",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "confirm",
+		"output": {
+			"text": {
+				"values": ["Confirmation received"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1513039562635",
+		"context": {
+			"result": "<? $s ?>, <? $y ?>"
+		},
+		"created": "2017-12-12T19:37:36.406Z",
+		"updated": "2017-12-12T19:49:48.929Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_11_1513040499279"
+		},
+		"conditions": "#confirm",
+		"description": null,
+		"dialog_node": "node_10_1513107456243",
+		"previous_sibling": "node_9_1513107440994"
+	}, {
+		"type": "standard",
+		"title": "Type",
+		"output": {
+			"text": {
+				"values": ["You entered <? $type ?> for the type. Please type confirm to begin your search."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1513039562635",
+		"context": {
+			"type": "@type"
+		},
+		"created": "2017-12-12T19:37:21.568Z",
+		"updated": "2017-12-12T19:44:34.671Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_18_1513103510851"
+		},
+		"conditions": "@type",
+		"description": null,
+		"dialog_node": "node_9_1513107440994",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Movie Search",
+		"output": {
+			"text": {
+				"values": ["You entered <? input.text ?>. Would you like to specify either a type(movie, series, or episode) or year? If not, please confirm that you wish to search with just the title."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Welcome",
+		"context": {
+			"s": "<? input.text ?>"
+		},
+		"created": "2017-12-11T19:15:35.386Z",
+		"updated": "2017-12-12T00:26:00.524Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "@title",
+		"description": null,
+		"dialog_node": "node_1_1513019735097",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_44_1513033618834",
+		"context": null,
+		"created": "2017-12-11T23:06:59.732Z",
+		"updated": "2017-12-11T23:06:59.732Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_46_1513033618834",
+		"previous_sibling": "handler_45_1513033618834"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_44_1513033618834",
+		"context": null,
+		"created": "2017-12-11T23:06:59.489Z",
+		"updated": "2017-12-11T23:06:59.489Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_45_1513033618834",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_41_1513033608744",
+		"context": null,
+		"created": "2017-12-11T23:06:49.557Z",
+		"updated": "2017-12-11T23:13:21.328Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_43_1513033608744",
+		"previous_sibling": "handler_42_1513033608744"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_41_1513033608744",
+		"context": {},
+		"created": "2017-12-11T23:06:49.325Z",
+		"updated": "2017-12-11T23:12:40.942Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_42_1513033608744",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1513019735097",
+		"context": null,
+		"created": "2017-12-11T23:06:49.054Z",
+		"updated": "2017-12-11T23:12:40.704Z",
+		"metadata": null,
+		"variable": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_41_1513033608744",
+		"previous_sibling": "node_5_1513105111981"
+	}, {
+		"type": "standard",
+		"title": "Year",
+		"output": {
+			"text": {
+				"values": ["You entered <? $y ?> for the year. Please enter a type or say confirm to begin your search."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1513019735097",
+		"context": {
+			"y": "@sys-number"
+		},
+		"created": "2017-12-12T00:46:02.817Z",
+		"updated": "2017-12-12T19:44:07.171Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "node_4_1513039562635",
+		"previous_sibling": "node_3_1513039538640"
+	}, {
+		"type": "standard",
+		"title": "Confirm",
+		"output": {
+			"text": {
+				"values": ["Confirmation received"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1513019735097",
+		"context": {
+			"result": "<? $s ?>"
+		},
+		"created": "2017-12-12T18:58:32.228Z",
+		"updated": "2017-12-12T19:34:23.255Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_11_1513040499279"
+		},
+		"conditions": "#confirm",
+		"description": null,
+		"dialog_node": "node_5_1513105111981",
+		"previous_sibling": "node_4_1513039562635"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_1_1513019735097",
+		"context": null,
+		"created": "2017-12-11T23:06:59.252Z",
+		"updated": "2017-12-11T23:06:59.252Z",
+		"metadata": null,
+		"variable": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_44_1513033618834",
+		"previous_sibling": "slot_41_1513033608744"
+	}, {
+		"type": "standard",
+		"title": "Type",
+		"output": {
+			"text": {
+				"values": ["You entered <? $type ?> for the type. Please enter a year or say confirm to begin your search."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1513019735097",
+		"context": {
+			"type": "@type"
+		},
+		"created": "2017-12-12T00:45:38.947Z",
+		"updated": "2017-12-12T19:43:54.215Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@type",
+		"description": null,
+		"dialog_node": "node_3_1513039538640",
+		"previous_sibling": "node_5_1513039576068"
+	}, {
+		"type": "standard",
+		"title": "year and type",
+		"output": {
+			"text": {
+				"values": ["You entered <? $y ?> for the year and <? $type ?> for the type. Please type confirm to start your search."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1513019735097",
+		"context": {
+			"y": "@sys-number",
+			"type": "@type"
+		},
+		"created": "2017-12-12T00:46:16.237Z",
+		"updated": "2017-12-12T18:49:18.851Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_18_1513103510851"
+		},
+		"conditions": "@sys-number && @type",
+		"description": null,
+		"dialog_node": "node_5_1513039576068",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorry I didn't understand that."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-11T23:04:58.735Z",
+		"updated": "2017-12-12T19:51:13.482Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_40_1513033498533",
+		"previous_sibling": "node_18_1513103510851"
+	}, {
+		"type": "standard",
+		"title": "confirm",
+		"output": {
+			"text": {
+				"values": ["Confirmation received"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"result": "<? $s ?> , <? $y ?>, <? $type ?>"
+		},
+		"created": "2017-12-12T18:31:51.016Z",
+		"updated": "2017-12-12T18:58:24.921Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_11_1513040499279"
+		},
+		"conditions": "#confirm",
+		"description": null,
+		"dialog_node": "node_18_1513103510851",
+		"previous_sibling": "node_11_1513040499279"
+	}, {
+		"type": "standard",
+		"title": "Results",
+		"output": {
+			"text": {
+				"values": ["your result was <? $result ?>. Please say start over if you wish to begin a new search"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-12T01:01:39.670Z",
+		"updated": "2017-12-12T18:57:08.791Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$result",
+		"description": null,
+		"dialog_node": "node_11_1513040499279",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Please enter the name of the movie, series, or episode you wish to search for", "What would you like to search for?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": {
+			"s": "",
+			"y": 0,
+			"type": "",
+			"result": "",
+			"confirm": false
+		},
+		"created": "2017-12-06T22:28:32.599Z",
+		"updated": "2017-12-12T19:45:30.268Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#startover || welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "f091a948-0a02-4900-be5a-257454a76f12",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

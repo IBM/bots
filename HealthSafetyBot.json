@@ -1,1 +1,493 @@
-{"name":"HSE_workspace","created":"2018-01-09T21:09:24.348Z","intents":[{"intent":"safety","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","examples":[{"text":"I need to work safely","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I need information on right PPE","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"How to protect my hands","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I need to protect my hands","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I need to protect my eyes","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I need advice on","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I need to protect myself","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"}],"description":null},{"intent":"greetings","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","examples":[{"text":"how's it going","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"good morning","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"hi","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"Howdy","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"hello","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"}],"description":null},{"intent":"work_activity","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","examples":[{"text":"I need to review pumps and valves","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I go to repair electrical lines","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I have to replace a meter","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I go to maintain a substation","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I work on transformer","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I'll work on boiler","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"},{"text":"I need to check condensers","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z"}],"description":null}],"updated":"2018-01-09T21:09:24.348Z","entities":[{"entity":"Location","values":[{"type":"synonyms","value":"Indoor","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Outdoor","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]}],"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"description":null},{"entity":"Assets","values":[{"type":"synonyms","value":"pump","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"boiler","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":["steam drum"]},{"type":"synonyms","value":"cooling system","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Transformer","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Substation","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Breaker","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Turbine","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Valve","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"condenser","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]}],"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"description":null},{"entity":"PPE","values":[{"type":"synonyms","value":"eyes","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":["glasses","goggles, spectacles","spectacles"]},{"type":"synonyms","value":"hands","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":["gloves"]},{"type":"synonyms","value":"jacket","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":["high vis","high visibility"]},{"type":"synonyms","value":"body","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":["myself","everything","suit"]},{"type":"synonyms","value":"head","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":["hard hat","helmet","head protector"]}],"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"description":null},{"entity":"Hazard","values":[{"type":"synonyms","value":"Electrical","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Chemical","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Physical","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Environment","created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"synonyms":["Temperature","Humidity","weather"]}],"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"standard","title":null,"output":{"text":{"values":["Okay - let me get you more information (such as safety policy, regulations and recommended equipment)."],"selection_policy":"sequential"}},"parent":"Location","context":{"PPE":"<? @PPE ?>"},"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":"@PPE","description":null,"dialog_node":"PPE","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Please enter your asset"],"selection_policy":"sequential"}},"parent":"Welcome","context":null,"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":"anything-else","description":null,"dialog_node":"node_6_1498128665555","previous_sibling":"node_5_1498128665129"},{"type":"response_condition","title":null,"output":{"text":{"values":["Hello. I'm SAM, your Safety Advisor. On what equipment are you planning to work on today?"],"selection_policy":"sequential"}},"parent":"Welcome","context":{"PPE":"","Assets":"","Location":""},"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_5_1498128665129","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Please enter \"indoor\" or \"outdoor\""],"selection_policy":"sequential"}},"parent":"node_2_1498128154953","context":null,"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_3_1498128183237","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"Equipment qualification","context":null,"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Equipment qualification"},"conditions":"anything_else","description":null,"dialog_node":"node_2_1498128154953","previous_sibling":"Location"},{"type":"response_condition","title":null,"output":{"text":{"values":["Enter a real asset PLEASE"],"selection_policy":"sequential"}},"parent":"Equipment qualification","context":null,"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":" ","description":null,"dialog_node":"node_1_1498127746666","previous_sibling":"node_13_1498063444184"},{"type":"standard","title":null,"output":{"text":{"values":["What do you want to protect (body, head, eyes, ...)?"],"selection_policy":"sequential"}},"parent":"Equipment qualification","context":{"Location":"<? @Location ?>"},"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":"@Location","description":null,"dialog_node":"Location","previous_sibling":"node_1_1498127746666"},{"type":"response_condition","title":null,"output":{"text":{"values":["Are you working indoor or outdoor?"],"selection_policy":"sequential"}},"parent":"Equipment qualification","context":{"Assets":"<? @Assets ?>"},"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":" @Assets","description":null,"dialog_node":"node_13_1498063444184","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":"@Assets","description":null,"dialog_node":"Equipment qualification","previous_sibling":"Welcome"},{"type":"standard","title":null,"output":{"text":{"values":["Please enter an asset to be worked on"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"Equipment qualification"},"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"Equipment qualification"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:09:24.348Z","updated":"2018-01-09T21:09:24.348Z","metadata":null,"next_step":null,"conditions":"welcome || #greetings","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"f54b0598-45b1-4c0a-a545-988cf4f4b138","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "HSE_workspace",
+	"created": "2018-01-09T21:09:24.348Z",
+	"intents": [{
+		"intent": "safety",
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"examples": [{
+			"text": "I need to work safely",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I need information on right PPE",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "How to protect my hands",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I need to protect my hands",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I need to protect my eyes",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I need advice on",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I need to protect myself",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greetings",
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"examples": [{
+			"text": "how's it going",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "good morning",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "hi",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "Howdy",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "hello",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}],
+		"description": null
+	}, {
+		"intent": "work_activity",
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"examples": [{
+			"text": "I need to review pumps and valves",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I go to repair electrical lines",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I have to replace a meter",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I go to maintain a substation",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I work on transformer",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I'll work on boiler",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}, {
+			"text": "I need to check condensers",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-01-09T21:09:24.348Z",
+	"entities": [{
+		"entity": "Location",
+		"values": [{
+			"type": "synonyms",
+			"value": "Indoor",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Outdoor",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Assets",
+		"values": [{
+			"type": "synonyms",
+			"value": "pump",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "boiler",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": ["steam drum"]
+		}, {
+			"type": "synonyms",
+			"value": "cooling system",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Transformer",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Substation",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Breaker",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Turbine",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Valve",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "condenser",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "PPE",
+		"values": [{
+			"type": "synonyms",
+			"value": "eyes",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": ["glasses", "goggles, spectacles", "spectacles"]
+		}, {
+			"type": "synonyms",
+			"value": "hands",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": ["gloves"]
+		}, {
+			"type": "synonyms",
+			"value": "jacket",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": ["high vis", "high visibility"]
+		}, {
+			"type": "synonyms",
+			"value": "body",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": ["myself", "everything", "suit"]
+		}, {
+			"type": "synonyms",
+			"value": "head",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": ["hard hat", "helmet", "head protector"]
+		}],
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Hazard",
+		"values": [{
+			"type": "synonyms",
+			"value": "Electrical",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Chemical",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Physical",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Environment",
+			"created": "2018-01-09T21:09:24.348Z",
+			"updated": "2018-01-09T21:09:24.348Z",
+			"metadata": null,
+			"synonyms": ["Temperature", "Humidity", "weather"]
+		}],
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay - let me get you more information (such as safety policy, regulations and recommended equipment)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Location",
+		"context": {
+			"PPE": "<? @PPE ?>"
+		},
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@PPE",
+		"description": null,
+		"dialog_node": "PPE",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter your asset"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Welcome",
+		"context": null,
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything-else",
+		"description": null,
+		"dialog_node": "node_6_1498128665555",
+		"previous_sibling": "node_5_1498128665129"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hello. I'm SAM, your Safety Advisor. On what equipment are you planning to work on today?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Welcome",
+		"context": {
+			"PPE": "",
+			"Assets": "",
+			"Location": ""
+		},
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_5_1498128665129",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter \"indoor\" or \"outdoor\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1498128154953",
+		"context": null,
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_3_1498128183237",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Equipment qualification",
+		"context": null,
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Equipment qualification"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1498128154953",
+		"previous_sibling": "Location"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Enter a real asset PLEASE"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Equipment qualification",
+		"context": null,
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " ",
+		"description": null,
+		"dialog_node": "node_1_1498127746666",
+		"previous_sibling": "node_13_1498063444184"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["What do you want to protect (body, head, eyes, ...)?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Equipment qualification",
+		"context": {
+			"Location": "<? @Location ?>"
+		},
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Location",
+		"description": null,
+		"dialog_node": "Location",
+		"previous_sibling": "node_1_1498127746666"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Are you working indoor or outdoor?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Equipment qualification",
+		"context": {
+			"Assets": "<? @Assets ?>"
+		},
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @Assets",
+		"description": null,
+		"dialog_node": "node_13_1498063444184",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Assets",
+		"description": null,
+		"dialog_node": "Equipment qualification",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter an asset to be worked on"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "Equipment qualification"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Equipment qualification"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:09:24.348Z",
+		"updated": "2018-01-09T21:09:24.348Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome || #greetings",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "f54b0598-45b1-4c0a-a545-988cf4f4b138",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

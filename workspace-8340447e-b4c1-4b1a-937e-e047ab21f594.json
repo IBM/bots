@@ -1,1 +1,677 @@
-{"name":"MyBank","created":"2017-06-22T15:45:43.546Z","intents":[{"intent":"saludo","created":"2017-06-22T15:47:48.856Z","updated":"2017-06-22T15:48:55.150Z","examples":[{"text":"Que mas","created":"2017-06-22T15:48:32.886Z","updated":"2017-06-22T15:48:32.886Z"},{"text":"Hola","created":"2017-06-22T15:48:35.250Z","updated":"2017-06-22T15:48:35.250Z"},{"text":"Buenos dias","created":"2017-06-22T15:48:37.796Z","updated":"2017-06-22T15:48:37.796Z"},{"text":"Que dice mi perro","created":"2017-06-22T15:48:41.215Z","updated":"2017-06-22T15:48:41.215Z"},{"text":"Buenas tardes","created":"2017-06-22T15:48:50.389Z","updated":"2017-06-22T15:48:50.389Z"},{"text":"Buenas","created":"2017-06-22T15:48:55.150Z","updated":"2017-06-22T15:48:55.150Z"}],"description":null},{"intent":"consulta_saldo","created":"2017-06-22T15:57:14.029Z","updated":"2017-06-22T16:19:07.485Z","examples":[{"text":"quiero conocer el saldo de mi cuenta de ahorros","created":"2017-06-22T15:57:21.192Z","updated":"2017-06-22T15:57:21.192Z"},{"text":"cuanta plata me queda en mi cuenta corriente","created":"2017-06-22T15:57:27.096Z","updated":"2017-06-22T15:57:27.096Z"},{"text":"cuanto tengo en mi cuenta","created":"2017-06-22T15:57:30.406Z","updated":"2017-06-22T15:57:30.406Z"},{"text":"¿me queda plata en mi cuenta?","created":"2017-06-22T15:57:39.991Z","updated":"2017-06-22T15:57:39.991Z"},{"text":"Necesito saber cuanto tengo en mi cuenta","created":"2017-06-22T15:58:00.613Z","updated":"2017-06-22T15:58:00.613Z"},{"text":"quier saber cuanto me queda","created":"2017-06-22T16:19:07.485Z","updated":"2017-06-22T16:19:07.485Z"}],"description":null},{"intent":"transferencia","created":"2017-06-22T15:59:23.536Z","updated":"2017-06-22T16:00:26.548Z","examples":[{"text":"Voy a hacer una trasferencia de dinero","created":"2017-06-22T15:59:32.454Z","updated":"2017-06-22T15:59:32.454Z"},{"text":"como hago para pasarle plata a mi mama","created":"2017-06-22T15:59:44.042Z","updated":"2017-06-22T15:59:44.042Z"},{"text":"quiero transferirle","created":"2017-06-22T16:00:02.738Z","updated":"2017-06-22T16:00:02.738Z"},{"text":"voy a hacer una transferencia","created":"2017-06-22T16:00:08.711Z","updated":"2017-06-22T16:00:08.711Z"},{"text":"Ayúdeme enviando plata","created":"2017-06-22T16:00:26.548Z","updated":"2017-06-22T16:00:26.548Z"}],"description":null},{"intent":"extracto","created":"2017-06-22T15:58:16.417Z","updated":"2017-06-22T15:59:16.036Z","examples":[{"text":"Regálame el extracto de mi cuenta de ahorro","created":"2017-06-22T15:58:30.080Z","updated":"2017-06-22T15:58:30.080Z"},{"text":"Quiero saber las transacciones de mi cuenta","created":"2017-06-22T15:58:42.976Z","updated":"2017-06-22T15:58:42.976Z"},{"text":"Donde descargo mi extracto","created":"2017-06-22T15:59:03.200Z","updated":"2017-06-22T15:59:03.200Z"},{"text":"Quiero el balance de mis cuentas","created":"2017-06-22T15:59:09.784Z","updated":"2017-06-22T15:59:09.784Z"},{"text":"Cual es el balance","created":"2017-06-22T15:59:16.036Z","updated":"2017-06-22T15:59:16.036Z"}],"description":null},{"intent":"No","created":"2017-06-22T16:31:54.258Z","updated":"2017-06-22T16:32:14.844Z","examples":[{"text":"No","created":"2017-06-22T16:31:58.690Z","updated":"2017-06-22T16:31:58.690Z"},{"text":"Pailas","created":"2017-06-22T16:32:00.218Z","updated":"2017-06-22T16:32:00.218Z"},{"text":"Esta mal","created":"2017-06-22T16:32:01.760Z","updated":"2017-06-22T16:32:01.760Z"},{"text":"Se equivoco","created":"2017-06-22T16:32:05.457Z","updated":"2017-06-22T16:32:05.457Z"},{"text":"negativo","created":"2017-06-22T16:32:14.844Z","updated":"2017-06-22T16:32:14.844Z"}],"description":null},{"intent":"Out_of_Scope","created":"2017-06-22T16:00:49.631Z","updated":"2017-06-22T21:05:57.261Z","examples":[{"text":"como deberia manejar mi dinero","created":"2017-06-22T16:02:24.183Z","updated":"2017-06-22T16:02:24.183Z"},{"text":"que es una cuenta de ahorros","created":"2017-06-22T16:02:34.198Z","updated":"2017-06-22T16:02:34.198Z"},{"text":"que es un leasing","created":"2017-06-22T16:02:37.035Z","updated":"2017-06-22T16:02:37.035Z"},{"text":"¿mi dinero va a estar seguro?","created":"2017-06-22T16:03:35.981Z","updated":"2017-06-22T16:03:35.981Z"},{"text":"que es una sucursar virutal","created":"2017-06-22T16:04:03.537Z","updated":"2017-06-22T16:04:03.537Z"},{"text":"como puedo mejorar mis finanzas","created":"2017-06-22T21:05:57.261Z","updated":"2017-06-22T21:05:57.261Z"}],"description":null},{"intent":"Si","created":"2017-06-22T16:31:34.886Z","updated":"2017-06-22T16:31:49.343Z","examples":[{"text":"Si","created":"2017-06-22T16:31:38.022Z","updated":"2017-06-22T16:31:38.022Z"},{"text":"claro que si","created":"2017-06-22T16:31:40.228Z","updated":"2017-06-22T16:31:40.228Z"},{"text":"Aja","created":"2017-06-22T16:31:42.222Z","updated":"2017-06-22T16:31:42.222Z"},{"text":"Afirmativo","created":"2017-06-22T16:31:46.565Z","updated":"2017-06-22T16:31:46.565Z"},{"text":"esta bien","created":"2017-06-22T16:31:48.377Z","updated":"2017-06-22T16:31:48.377Z"},{"text":"Ok","created":"2017-06-22T16:31:49.343Z","updated":"2017-06-22T16:31:49.343Z"}],"description":null}],"updated":"2017-08-18T21:01:42.796Z","entities":[{"entity":"Cuenta","values":[{"type":"synonyms","value":"Corriente","created":"2017-06-22T16:09:58.073Z","updated":"2017-06-22T16:52:40.544Z","metadata":null,"synonyms":["debito","corriente"]},{"type":"synonyms","value":"Ahorros","created":"2017-06-22T16:09:28.490Z","updated":"2017-06-22T16:09:38.704Z","metadata":null,"synonyms":["Ahorro","Nomina"]}],"created":"2017-06-22T16:09:25.594Z","updated":"2017-06-22T16:52:40.544Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"sys-number","values":[],"created":"2017-06-22T16:10:53.758Z","updated":"2017-06-22T16:10:53.758Z","metadata":null,"description":null},{"entity":"sys-currency","values":[],"created":"2017-06-22T17:03:45.380Z","updated":"2017-06-22T17:03:45.380Z","metadata":null,"description":null}],"language":"es","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"slot","title":"slot_2_1503074062362","output":null,"parent":"Nueva consulta","context":null,"created":"2017-08-18T16:34:20.236Z","updated":"2017-08-18T21:01:42.293Z","metadata":null,"variable":"$Cuenta","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_2_1503074062362","previous_sibling":null},{"type":"event_handler","title":"handler_14_1503084529296","output":{"text":"Regalame el numero de cuenta destino"},"parent":"slot_12_1503084529296","context":null,"created":"2017-08-18T19:28:47.916Z","updated":"2017-08-18T19:30:20.269Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_14_1503084529296","previous_sibling":"handler_13_1503084529296"},{"type":"event_handler","title":"handler_13_1503084529296","output":null,"parent":"slot_12_1503084529296","context":{"num_cuenta_destino":"@sys-number"},"created":"2017-08-18T19:28:47.261Z","updated":"2017-08-18T19:29:27.419Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_13_1503084529296","previous_sibling":null},{"type":"event_handler","title":"handler_11_1503084504092","output":{"text":"¿Que cuenta de origen deseas?"},"parent":"slot_9_1503084504092","context":null,"created":"2017-08-18T19:28:25.232Z","updated":"2017-08-18T19:30:01.306Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_11_1503084504092","previous_sibling":"handler_10_1503084504092"},{"type":"event_handler","title":"handler_10_1503084504092","output":null,"parent":"slot_9_1503084504092","context":{"Cuenta_Origen":"@Cuenta"},"created":"2017-08-18T19:28:24.668Z","updated":"2017-08-18T19:28:45.367Z","metadata":null,"next_step":null,"conditions":"@Cuenta","event_name":"input","description":null,"dialog_node":"handler_10_1503084504092","previous_sibling":null},{"type":"event_handler","title":"handler_17_1503084625366","output":{"text":"¿Cuanto plata deseas transferir?"},"parent":"slot_15_1503084625366","context":null,"created":"2017-08-18T19:30:23.889Z","updated":"2017-08-18T19:30:49.773Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_17_1503084625366","previous_sibling":"handler_16_1503084625366"},{"type":"event_handler","title":"handler_16_1503084625366","output":null,"parent":"slot_15_1503084625366","context":{"monto":"@sys-number"},"created":"2017-08-18T19:30:23.289Z","updated":"2017-08-18T19:30:39.551Z","metadata":null,"next_step":null,"conditions":"@sys-number","event_name":"input","description":null,"dialog_node":"handler_16_1503084625366","previous_sibling":null},{"type":"standard","title":"Cuenta extracto","output":{},"parent":"Extracto","context":null,"created":"2017-06-22T17:31:45.017Z","updated":"2017-06-22T17:32:34.068Z","metadata":null,"next_step":null,"conditions":"@Cuenta","description":null,"dialog_node":"Cuenta extracto","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Este es el extracto de tu cuenta corriente:"],"selection_policy":"sequential"}},"parent":"Cuenta extracto","context":null,"created":"2017-06-22T17:32:13.090Z","updated":"2017-06-22T17:32:28.218Z","metadata":null,"next_step":null,"conditions":" @Cuenta:Corriente","description":null,"dialog_node":"node_28_1498152736617","previous_sibling":"node_27_1498152718718"},{"type":"response_condition","title":null,"output":{"text":{"values":["Este es el extracto de tu cuenta de ahorros:"],"selection_policy":"sequential"}},"parent":"Cuenta extracto","context":null,"created":"2017-06-22T17:31:55.189Z","updated":"2017-06-22T17:32:11.212Z","metadata":null,"next_step":null,"conditions":" @Cuenta:Ahorros","description":null,"dialog_node":"node_27_1498152718718","previous_sibling":null},{"type":"event_handler","title":"handler_3_1503074062362","output":null,"parent":"slot_2_1503074062362","context":{"Cuenta":"@Cuenta"},"created":"2017-08-18T16:34:20.608Z","updated":"2017-08-18T21:01:42.796Z","metadata":null,"next_step":null,"conditions":"@Cuenta","event_name":"input","description":null,"dialog_node":"handler_3_1503074062362","previous_sibling":"handler_4_1503074062362"},{"type":"event_handler","title":"handler_5_1503074115318","output":{"text":{"values":["No encontré la cuenta que deseas consultar, ¿me puedes repetir?","Lo siento no te entiendo, ¿Puedes indicarme si deseas consultar la cuenta de ahorros o la cuenta corriente?"],"selection_policy":"sequential"}},"parent":"slot_2_1503074062362","context":null,"created":"2017-08-18T16:36:44.501Z","updated":"2017-08-18T19:26:19.221Z","metadata":null,"next_step":null,"conditions":null,"event_name":"nomatch","description":null,"dialog_node":"handler_5_1503074115318","previous_sibling":"handler_7_1503074284768"},{"type":"event_handler","title":"handler_7_1503074284768","output":{"text":{"values":["Perfecto, consultaré el saldo de tu cuenta $Cuenta"],"selection_policy":"sequential"}},"parent":"slot_2_1503074062362","context":null,"created":"2017-08-18T16:38:42.488Z","updated":"2017-08-18T19:26:18.462Z","metadata":null,"next_step":null,"conditions":null,"event_name":"filled","description":null,"dialog_node":"handler_7_1503074284768","previous_sibling":"handler_3_1503074062362"},{"type":"event_handler","title":"handler_4_1503074062362","output":{"text":"¿Que cuenta deseas consultar?"},"parent":"slot_2_1503074062362","context":null,"created":"2017-08-18T16:34:20.991Z","updated":"2017-08-18T19:26:17.002Z","metadata":null,"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_4_1503074062362","previous_sibling":null},{"type":"slot","title":"slot_15_1503084625366","output":null,"parent":"Trasferencia","context":null,"created":"2017-08-18T19:30:22.686Z","updated":"2017-08-18T19:30:38.875Z","metadata":null,"variable":"$monto","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_15_1503084625366","previous_sibling":"slot_12_1503084529296"},{"type":"slot","title":"slot_12_1503084529296","output":null,"parent":"Trasferencia","context":null,"created":"2017-08-18T19:28:46.620Z","updated":"2017-08-18T19:29:26.527Z","metadata":null,"variable":"$num_cuenta_destino","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_12_1503084529296","previous_sibling":"slot_9_1503084504092"},{"type":"slot","title":"slot_9_1503084504092","output":null,"parent":"Trasferencia","context":null,"created":"2017-08-18T19:28:24.042Z","updated":"2017-08-18T19:28:44.417Z","metadata":null,"variable":"$Cuenta_Origen","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_9_1503084504092","previous_sibling":null},{"type":"standard","title":"Trasferencia","output":{"text":{"values":["Listo, regalame el numero de cuenta destino","Comencemos, ¿cual es el numero de la cuenta de destino?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-06-22T16:28:29.929Z","updated":"2017-06-22T16:29:26.707Z","metadata":null,"next_step":null,"conditions":"#transferencia","description":null,"dialog_node":"Trasferencia","previous_sibling":"Nueva consulta"},{"type":"frame","title":"Nueva consulta","output":{"text":{"values":["Estoy procesando tu consulta."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-08-18T16:26:46.303Z","updated":"2017-08-18T19:27:07.989Z","metadata":null,"next_step":null,"conditions":"#consulta_saldo","description":null,"dialog_node":"Nueva consulta","previous_sibling":"Bienvenido"},{"type":"standard","title":"Extracto completo","output":{},"parent":null,"context":null,"created":"2017-06-22T17:32:48.404Z","updated":"2017-06-22T17:33:18.821Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Cuenta extracto"},"conditions":"#extracto && @Cuenta","description":null,"dialog_node":"Extracto completo","previous_sibling":"Fuera del Bot"},{"type":"standard","title":"En otras cosas","output":{"text":{"values":["No le he entendido. Intente reformular la consulta.","¿Puede expresarse con otras palabras? No le he entendido.","No entendí el significado."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-06-22T16:13:57.475Z","updated":"2017-06-22T16:13:57.475Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"En otras cosas","previous_sibling":"Extracto"},{"type":"standard","title":"Extracto","output":{"text":{"values":["Perfecto, ¿de que cuenta quieres el extracto?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-06-22T17:27:09.279Z","updated":"2017-06-22T17:31:03.553Z","metadata":null,"next_step":null,"conditions":"#extracto","description":null,"dialog_node":"Extracto","previous_sibling":"Extracto completo"},{"type":"standard","title":"Fuera del Bot","output":{"text":{"values":["Dame un segundo, voy a investigar","No se la respuesta, pero voy a investigar"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-06-22T16:28:12.951Z","updated":"2017-06-22T17:24:43.606Z","metadata":null,"next_step":null,"conditions":"#Out_of_Scope","description":null,"dialog_node":"Fuera del Bot","previous_sibling":"Trasferencia"},{"type":"standard","title":"Bienvenido","output":{"text":{"values":["Hola. ¿Cómo puedo ayudarle?","Que mas! En que le ayudo?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-06-22T16:13:57.475Z","updated":"2017-06-28T16:11:10.793Z","metadata":null,"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Bienvenido","previous_sibling":null}],"workspace_id":"8340447e-b4c1-4b1a-937e-e047ab21f594","counterexamples":[{"text":"usted es un estupido","created":"2017-06-22T15:56:18.580Z","updated":"2017-06-22T15:56:18.580Z"}],"learning_opt_out":false}
+{
+	"name": "MyBank",
+	"created": "2017-06-22T15:45:43.546Z",
+	"intents": [{
+		"intent": "saludo",
+		"created": "2017-06-22T15:47:48.856Z",
+		"updated": "2017-06-22T15:48:55.150Z",
+		"examples": [{
+			"text": "Que mas",
+			"created": "2017-06-22T15:48:32.886Z",
+			"updated": "2017-06-22T15:48:32.886Z"
+		}, {
+			"text": "Hola",
+			"created": "2017-06-22T15:48:35.250Z",
+			"updated": "2017-06-22T15:48:35.250Z"
+		}, {
+			"text": "Buenos dias",
+			"created": "2017-06-22T15:48:37.796Z",
+			"updated": "2017-06-22T15:48:37.796Z"
+		}, {
+			"text": "Que dice mi perro",
+			"created": "2017-06-22T15:48:41.215Z",
+			"updated": "2017-06-22T15:48:41.215Z"
+		}, {
+			"text": "Buenas tardes",
+			"created": "2017-06-22T15:48:50.389Z",
+			"updated": "2017-06-22T15:48:50.389Z"
+		}, {
+			"text": "Buenas",
+			"created": "2017-06-22T15:48:55.150Z",
+			"updated": "2017-06-22T15:48:55.150Z"
+		}],
+		"description": null
+	}, {
+		"intent": "consulta_saldo",
+		"created": "2017-06-22T15:57:14.029Z",
+		"updated": "2017-06-22T16:19:07.485Z",
+		"examples": [{
+			"text": "quiero conocer el saldo de mi cuenta de ahorros",
+			"created": "2017-06-22T15:57:21.192Z",
+			"updated": "2017-06-22T15:57:21.192Z"
+		}, {
+			"text": "cuanta plata me queda en mi cuenta corriente",
+			"created": "2017-06-22T15:57:27.096Z",
+			"updated": "2017-06-22T15:57:27.096Z"
+		}, {
+			"text": "cuanto tengo en mi cuenta",
+			"created": "2017-06-22T15:57:30.406Z",
+			"updated": "2017-06-22T15:57:30.406Z"
+		}, {
+			"text": "¿me queda plata en mi cuenta?",
+			"created": "2017-06-22T15:57:39.991Z",
+			"updated": "2017-06-22T15:57:39.991Z"
+		}, {
+			"text": "Necesito saber cuanto tengo en mi cuenta",
+			"created": "2017-06-22T15:58:00.613Z",
+			"updated": "2017-06-22T15:58:00.613Z"
+		}, {
+			"text": "quier saber cuanto me queda",
+			"created": "2017-06-22T16:19:07.485Z",
+			"updated": "2017-06-22T16:19:07.485Z"
+		}],
+		"description": null
+	}, {
+		"intent": "transferencia",
+		"created": "2017-06-22T15:59:23.536Z",
+		"updated": "2017-06-22T16:00:26.548Z",
+		"examples": [{
+			"text": "Voy a hacer una trasferencia de dinero",
+			"created": "2017-06-22T15:59:32.454Z",
+			"updated": "2017-06-22T15:59:32.454Z"
+		}, {
+			"text": "como hago para pasarle plata a mi mama",
+			"created": "2017-06-22T15:59:44.042Z",
+			"updated": "2017-06-22T15:59:44.042Z"
+		}, {
+			"text": "quiero transferirle",
+			"created": "2017-06-22T16:00:02.738Z",
+			"updated": "2017-06-22T16:00:02.738Z"
+		}, {
+			"text": "voy a hacer una transferencia",
+			"created": "2017-06-22T16:00:08.711Z",
+			"updated": "2017-06-22T16:00:08.711Z"
+		}, {
+			"text": "Ayúdeme enviando plata",
+			"created": "2017-06-22T16:00:26.548Z",
+			"updated": "2017-06-22T16:00:26.548Z"
+		}],
+		"description": null
+	}, {
+		"intent": "extracto",
+		"created": "2017-06-22T15:58:16.417Z",
+		"updated": "2017-06-22T15:59:16.036Z",
+		"examples": [{
+			"text": "Regálame el extracto de mi cuenta de ahorro",
+			"created": "2017-06-22T15:58:30.080Z",
+			"updated": "2017-06-22T15:58:30.080Z"
+		}, {
+			"text": "Quiero saber las transacciones de mi cuenta",
+			"created": "2017-06-22T15:58:42.976Z",
+			"updated": "2017-06-22T15:58:42.976Z"
+		}, {
+			"text": "Donde descargo mi extracto",
+			"created": "2017-06-22T15:59:03.200Z",
+			"updated": "2017-06-22T15:59:03.200Z"
+		}, {
+			"text": "Quiero el balance de mis cuentas",
+			"created": "2017-06-22T15:59:09.784Z",
+			"updated": "2017-06-22T15:59:09.784Z"
+		}, {
+			"text": "Cual es el balance",
+			"created": "2017-06-22T15:59:16.036Z",
+			"updated": "2017-06-22T15:59:16.036Z"
+		}],
+		"description": null
+	}, {
+		"intent": "No",
+		"created": "2017-06-22T16:31:54.258Z",
+		"updated": "2017-06-22T16:32:14.844Z",
+		"examples": [{
+			"text": "No",
+			"created": "2017-06-22T16:31:58.690Z",
+			"updated": "2017-06-22T16:31:58.690Z"
+		}, {
+			"text": "Pailas",
+			"created": "2017-06-22T16:32:00.218Z",
+			"updated": "2017-06-22T16:32:00.218Z"
+		}, {
+			"text": "Esta mal",
+			"created": "2017-06-22T16:32:01.760Z",
+			"updated": "2017-06-22T16:32:01.760Z"
+		}, {
+			"text": "Se equivoco",
+			"created": "2017-06-22T16:32:05.457Z",
+			"updated": "2017-06-22T16:32:05.457Z"
+		}, {
+			"text": "negativo",
+			"created": "2017-06-22T16:32:14.844Z",
+			"updated": "2017-06-22T16:32:14.844Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Out_of_Scope",
+		"created": "2017-06-22T16:00:49.631Z",
+		"updated": "2017-06-22T21:05:57.261Z",
+		"examples": [{
+			"text": "como deberia manejar mi dinero",
+			"created": "2017-06-22T16:02:24.183Z",
+			"updated": "2017-06-22T16:02:24.183Z"
+		}, {
+			"text": "que es una cuenta de ahorros",
+			"created": "2017-06-22T16:02:34.198Z",
+			"updated": "2017-06-22T16:02:34.198Z"
+		}, {
+			"text": "que es un leasing",
+			"created": "2017-06-22T16:02:37.035Z",
+			"updated": "2017-06-22T16:02:37.035Z"
+		}, {
+			"text": "¿mi dinero va a estar seguro?",
+			"created": "2017-06-22T16:03:35.981Z",
+			"updated": "2017-06-22T16:03:35.981Z"
+		}, {
+			"text": "que es una sucursar virutal",
+			"created": "2017-06-22T16:04:03.537Z",
+			"updated": "2017-06-22T16:04:03.537Z"
+		}, {
+			"text": "como puedo mejorar mis finanzas",
+			"created": "2017-06-22T21:05:57.261Z",
+			"updated": "2017-06-22T21:05:57.261Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Si",
+		"created": "2017-06-22T16:31:34.886Z",
+		"updated": "2017-06-22T16:31:49.343Z",
+		"examples": [{
+			"text": "Si",
+			"created": "2017-06-22T16:31:38.022Z",
+			"updated": "2017-06-22T16:31:38.022Z"
+		}, {
+			"text": "claro que si",
+			"created": "2017-06-22T16:31:40.228Z",
+			"updated": "2017-06-22T16:31:40.228Z"
+		}, {
+			"text": "Aja",
+			"created": "2017-06-22T16:31:42.222Z",
+			"updated": "2017-06-22T16:31:42.222Z"
+		}, {
+			"text": "Afirmativo",
+			"created": "2017-06-22T16:31:46.565Z",
+			"updated": "2017-06-22T16:31:46.565Z"
+		}, {
+			"text": "esta bien",
+			"created": "2017-06-22T16:31:48.377Z",
+			"updated": "2017-06-22T16:31:48.377Z"
+		}, {
+			"text": "Ok",
+			"created": "2017-06-22T16:31:49.343Z",
+			"updated": "2017-06-22T16:31:49.343Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-08-18T21:01:42.796Z",
+	"entities": [{
+		"entity": "Cuenta",
+		"values": [{
+			"type": "synonyms",
+			"value": "Corriente",
+			"created": "2017-06-22T16:09:58.073Z",
+			"updated": "2017-06-22T16:52:40.544Z",
+			"metadata": null,
+			"synonyms": ["debito", "corriente"]
+		}, {
+			"type": "synonyms",
+			"value": "Ahorros",
+			"created": "2017-06-22T16:09:28.490Z",
+			"updated": "2017-06-22T16:09:38.704Z",
+			"metadata": null,
+			"synonyms": ["Ahorro", "Nomina"]
+		}],
+		"created": "2017-06-22T16:09:25.594Z",
+		"updated": "2017-06-22T16:52:40.544Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2017-06-22T16:10:53.758Z",
+		"updated": "2017-06-22T16:10:53.758Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-currency",
+		"values": [],
+		"created": "2017-06-22T17:03:45.380Z",
+		"updated": "2017-06-22T17:03:45.380Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "es",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "slot",
+		"title": "slot_2_1503074062362",
+		"output": null,
+		"parent": "Nueva consulta",
+		"context": null,
+		"created": "2017-08-18T16:34:20.236Z",
+		"updated": "2017-08-18T21:01:42.293Z",
+		"metadata": null,
+		"variable": "$Cuenta",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_2_1503074062362",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": "handler_14_1503084529296",
+		"output": {
+			"text": "Regalame el numero de cuenta destino"
+		},
+		"parent": "slot_12_1503084529296",
+		"context": null,
+		"created": "2017-08-18T19:28:47.916Z",
+		"updated": "2017-08-18T19:30:20.269Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_14_1503084529296",
+		"previous_sibling": "handler_13_1503084529296"
+	}, {
+		"type": "event_handler",
+		"title": "handler_13_1503084529296",
+		"output": null,
+		"parent": "slot_12_1503084529296",
+		"context": {
+			"num_cuenta_destino": "@sys-number"
+		},
+		"created": "2017-08-18T19:28:47.261Z",
+		"updated": "2017-08-18T19:29:27.419Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_13_1503084529296",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": "handler_11_1503084504092",
+		"output": {
+			"text": "¿Que cuenta de origen deseas?"
+		},
+		"parent": "slot_9_1503084504092",
+		"context": null,
+		"created": "2017-08-18T19:28:25.232Z",
+		"updated": "2017-08-18T19:30:01.306Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_11_1503084504092",
+		"previous_sibling": "handler_10_1503084504092"
+	}, {
+		"type": "event_handler",
+		"title": "handler_10_1503084504092",
+		"output": null,
+		"parent": "slot_9_1503084504092",
+		"context": {
+			"Cuenta_Origen": "@Cuenta"
+		},
+		"created": "2017-08-18T19:28:24.668Z",
+		"updated": "2017-08-18T19:28:45.367Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Cuenta",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_10_1503084504092",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": "handler_17_1503084625366",
+		"output": {
+			"text": "¿Cuanto plata deseas transferir?"
+		},
+		"parent": "slot_15_1503084625366",
+		"context": null,
+		"created": "2017-08-18T19:30:23.889Z",
+		"updated": "2017-08-18T19:30:49.773Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_17_1503084625366",
+		"previous_sibling": "handler_16_1503084625366"
+	}, {
+		"type": "event_handler",
+		"title": "handler_16_1503084625366",
+		"output": null,
+		"parent": "slot_15_1503084625366",
+		"context": {
+			"monto": "@sys-number"
+		},
+		"created": "2017-08-18T19:30:23.289Z",
+		"updated": "2017-08-18T19:30:39.551Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_16_1503084625366",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Cuenta extracto",
+		"output": {},
+		"parent": "Extracto",
+		"context": null,
+		"created": "2017-06-22T17:31:45.017Z",
+		"updated": "2017-06-22T17:32:34.068Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Cuenta",
+		"description": null,
+		"dialog_node": "Cuenta extracto",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Este es el extracto de tu cuenta corriente:"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Cuenta extracto",
+		"context": null,
+		"created": "2017-06-22T17:32:13.090Z",
+		"updated": "2017-06-22T17:32:28.218Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @Cuenta:Corriente",
+		"description": null,
+		"dialog_node": "node_28_1498152736617",
+		"previous_sibling": "node_27_1498152718718"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Este es el extracto de tu cuenta de ahorros:"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Cuenta extracto",
+		"context": null,
+		"created": "2017-06-22T17:31:55.189Z",
+		"updated": "2017-06-22T17:32:11.212Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": " @Cuenta:Ahorros",
+		"description": null,
+		"dialog_node": "node_27_1498152718718",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": "handler_3_1503074062362",
+		"output": null,
+		"parent": "slot_2_1503074062362",
+		"context": {
+			"Cuenta": "@Cuenta"
+		},
+		"created": "2017-08-18T16:34:20.608Z",
+		"updated": "2017-08-18T21:01:42.796Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Cuenta",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_3_1503074062362",
+		"previous_sibling": "handler_4_1503074062362"
+	}, {
+		"type": "event_handler",
+		"title": "handler_5_1503074115318",
+		"output": {
+			"text": {
+				"values": ["No encontré la cuenta que deseas consultar, ¿me puedes repetir?", "Lo siento no te entiendo, ¿Puedes indicarme si deseas consultar la cuenta de ahorros o la cuenta corriente?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_2_1503074062362",
+		"context": null,
+		"created": "2017-08-18T16:36:44.501Z",
+		"updated": "2017-08-18T19:26:19.221Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_5_1503074115318",
+		"previous_sibling": "handler_7_1503074284768"
+	}, {
+		"type": "event_handler",
+		"title": "handler_7_1503074284768",
+		"output": {
+			"text": {
+				"values": ["Perfecto, consultaré el saldo de tu cuenta $Cuenta"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "slot_2_1503074062362",
+		"context": null,
+		"created": "2017-08-18T16:38:42.488Z",
+		"updated": "2017-08-18T19:26:18.462Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "filled",
+		"description": null,
+		"dialog_node": "handler_7_1503074284768",
+		"previous_sibling": "handler_3_1503074062362"
+	}, {
+		"type": "event_handler",
+		"title": "handler_4_1503074062362",
+		"output": {
+			"text": "¿Que cuenta deseas consultar?"
+		},
+		"parent": "slot_2_1503074062362",
+		"context": null,
+		"created": "2017-08-18T16:34:20.991Z",
+		"updated": "2017-08-18T19:26:17.002Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_4_1503074062362",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": "slot_15_1503084625366",
+		"output": null,
+		"parent": "Trasferencia",
+		"context": null,
+		"created": "2017-08-18T19:30:22.686Z",
+		"updated": "2017-08-18T19:30:38.875Z",
+		"metadata": null,
+		"variable": "$monto",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_15_1503084625366",
+		"previous_sibling": "slot_12_1503084529296"
+	}, {
+		"type": "slot",
+		"title": "slot_12_1503084529296",
+		"output": null,
+		"parent": "Trasferencia",
+		"context": null,
+		"created": "2017-08-18T19:28:46.620Z",
+		"updated": "2017-08-18T19:29:26.527Z",
+		"metadata": null,
+		"variable": "$num_cuenta_destino",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_12_1503084529296",
+		"previous_sibling": "slot_9_1503084504092"
+	}, {
+		"type": "slot",
+		"title": "slot_9_1503084504092",
+		"output": null,
+		"parent": "Trasferencia",
+		"context": null,
+		"created": "2017-08-18T19:28:24.042Z",
+		"updated": "2017-08-18T19:28:44.417Z",
+		"metadata": null,
+		"variable": "$Cuenta_Origen",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_9_1503084504092",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Trasferencia",
+		"output": {
+			"text": {
+				"values": ["Listo, regalame el numero de cuenta destino", "Comencemos, ¿cual es el numero de la cuenta de destino?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-06-22T16:28:29.929Z",
+		"updated": "2017-06-22T16:29:26.707Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#transferencia",
+		"description": null,
+		"dialog_node": "Trasferencia",
+		"previous_sibling": "Nueva consulta"
+	}, {
+		"type": "frame",
+		"title": "Nueva consulta",
+		"output": {
+			"text": {
+				"values": ["Estoy procesando tu consulta."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-08-18T16:26:46.303Z",
+		"updated": "2017-08-18T19:27:07.989Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#consulta_saldo",
+		"description": null,
+		"dialog_node": "Nueva consulta",
+		"previous_sibling": "Bienvenido"
+	}, {
+		"type": "standard",
+		"title": "Extracto completo",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-06-22T17:32:48.404Z",
+		"updated": "2017-06-22T17:33:18.821Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Cuenta extracto"
+		},
+		"conditions": "#extracto && @Cuenta",
+		"description": null,
+		"dialog_node": "Extracto completo",
+		"previous_sibling": "Fuera del Bot"
+	}, {
+		"type": "standard",
+		"title": "En otras cosas",
+		"output": {
+			"text": {
+				"values": ["No le he entendido. Intente reformular la consulta.", "¿Puede expresarse con otras palabras? No le he entendido.", "No entendí el significado."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-06-22T16:13:57.475Z",
+		"updated": "2017-06-22T16:13:57.475Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "En otras cosas",
+		"previous_sibling": "Extracto"
+	}, {
+		"type": "standard",
+		"title": "Extracto",
+		"output": {
+			"text": {
+				"values": ["Perfecto, ¿de que cuenta quieres el extracto?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-06-22T17:27:09.279Z",
+		"updated": "2017-06-22T17:31:03.553Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#extracto",
+		"description": null,
+		"dialog_node": "Extracto",
+		"previous_sibling": "Extracto completo"
+	}, {
+		"type": "standard",
+		"title": "Fuera del Bot",
+		"output": {
+			"text": {
+				"values": ["Dame un segundo, voy a investigar", "No se la respuesta, pero voy a investigar"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-06-22T16:28:12.951Z",
+		"updated": "2017-06-22T17:24:43.606Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Out_of_Scope",
+		"description": null,
+		"dialog_node": "Fuera del Bot",
+		"previous_sibling": "Trasferencia"
+	}, {
+		"type": "standard",
+		"title": "Bienvenido",
+		"output": {
+			"text": {
+				"values": ["Hola. ¿Cómo puedo ayudarle?", "Que mas! En que le ayudo?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-06-22T16:13:57.475Z",
+		"updated": "2017-06-28T16:11:10.793Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Bienvenido",
+		"previous_sibling": null
+	}],
+	"workspace_id": "8340447e-b4c1-4b1a-937e-e047ab21f594",
+	"counterexamples": [{
+		"text": "usted es un estupido",
+		"created": "2017-06-22T15:56:18.580Z",
+		"updated": "2017-06-22T15:56:18.580Z"
+	}],
+	"learning_opt_out": false
+}

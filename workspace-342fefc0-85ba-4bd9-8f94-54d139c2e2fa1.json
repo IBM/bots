@@ -1,1 +1,348 @@
-{"name":"Workshop survey","created":"2018-01-11T16:28:46.068Z","intents":[{"intent":"feedback","created":"2018-01-11T16:30:04.106Z","updated":"2018-01-11T16:31:48.424Z","examples":[{"text":"I want to add feedback on","created":"2018-01-11T16:30:24.166Z","updated":"2018-01-11T16:30:24.166Z"},{"text":"I want to fill out survey on","created":"2018-01-11T16:30:48.087Z","updated":"2018-01-11T16:31:05.330Z"},{"text":"I would like to give you a feedback on","created":"2018-01-11T16:31:32.028Z","updated":"2018-01-11T16:31:32.028Z"},{"text":"my feedback on","created":"2018-01-11T16:31:48.424Z","updated":"2018-01-11T16:31:48.424Z"}],"description":""}],"updated":"2018-01-11T18:01:46.854Z","entities":[{"entity":"workshop","values":[{"type":"synonyms","value":"workshop","created":"2018-01-11T16:36:31.827Z","updated":"2018-01-11T16:36:31.827Z","metadata":null,"synonyms":["hands-on","lab","class","presentation","meetup","roadshow"]}],"created":"2018-01-11T16:35:08.961Z","updated":"2018-01-11T16:36:31.827Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2018-01-11T16:34:36.976Z","updated":"2018-01-11T16:34:36.976Z","metadata":null,"description":null},{"entity":"sys-person","values":[],"created":"2018-01-11T16:34:47.304Z","updated":"2018-01-11T16:34:47.304Z","metadata":null,"description":null},{"entity":"no","values":[{"type":"synonyms","value":"no","created":"2018-01-11T17:38:27.023Z","updated":"2018-01-11T17:38:27.023Z","metadata":null,"synonyms":["duh","not ok"]}],"created":"2018-01-11T17:37:39.293Z","updated":"2018-01-11T17:38:27.023Z","metadata":null,"description":null},{"entity":"sys-location","values":[],"created":"2018-01-11T16:34:30.521Z","updated":"2018-01-11T16:34:30.521Z","metadata":null,"description":null},{"entity":"sys-time","values":[],"created":"2018-01-11T16:34:52.898Z","updated":"2018-01-11T16:34:52.898Z","metadata":null,"description":null},{"entity":"sys-date","values":[],"created":"2018-01-11T16:34:25.494Z","updated":"2018-01-11T16:34:25.494Z","metadata":null,"description":null},{"entity":"yes","values":[{"type":"synonyms","value":"yes","created":"2018-01-11T16:49:51.210Z","updated":"2018-01-11T16:49:51.210Z","metadata":null,"synonyms":["ok","good","not bad","awesome","great"]}],"created":"2018-01-11T16:49:27.629Z","updated":"2018-01-11T16:49:51.210Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"This is a workshop survey chatbot. It might be more entertaining to go thru the chatbot led survey than do the paper version.","dialog_nodes":[{"type":"standard","title":"other free suggestions?","output":{"text":{"values":["I got it. Would you have any other suggestion for a subject of the next meetup? Please type the suggestion or press \"Enter\"."],"selection_policy":"sequential"}},"parent":"node_7_1515691113845","context":{"speaker-score":"@sys-number"},"created":"2018-01-11T17:22:29.165Z","updated":"2018-01-11T17:58:31.906Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_10_1515691791500"},"conditions":"@sys-number","description":null,"dialog_node":"node_8_1515691348937","previous_sibling":null},{"type":"standard","title":"get the place","output":{"text":{"values":["Ok. I got it. Where was the event? (type city name, for example \"San Francisco\" or it was in San Francisco)"],"selection_policy":"sequential"}},"parent":"node_2_1515689129278","context":null,"created":"2018-01-11T16:50:43.253Z","updated":"2018-01-11T17:52:26.150Z","metadata":{},"next_step":null,"conditions":"$date || @yes","description":null,"dialog_node":"node_3_1515689443028","previous_sibling":null},{"type":"standard","title":"want to keep the location","output":{"text":{"values":["I got @sys-location. Would you like to keep it here? If no please tell us the alternative location (for example: Santa Clara)."],"selection_policy":"sequential"}},"parent":"node_3_1515689443028","context":{"location":"@sys-location"},"created":"2018-01-11T17:02:49.574Z","updated":"2018-01-11T17:17:38.289Z","metadata":{},"next_step":null,"conditions":"@sys-location","description":null,"dialog_node":"node_4_1515690169344","previous_sibling":null},{"type":"standard","title":"alternative location","output":{"text":{"values":["I got the alternative location: @sys-location. Is it correct?"],"selection_policy":"sequential"}},"parent":"node_4_1515690169344","context":{"alternative-location":"@sys-location"},"created":"2018-01-11T17:15:31.097Z","updated":"2018-01-11T17:18:12.437Z","metadata":{},"next_step":null,"conditions":"@sys-location","description":null,"dialog_node":"node_6_1515690929878","previous_sibling":null},{"type":"standard","title":"get the date","output":{"text":{"values":["Thank you. I got @sys-date. Was it a good date? (if \"no\" please suggest the weekday that works the best for you)."],"selection_policy":"sequential"}},"parent":"node_1_1515688807242","context":{"date":"@sys-date"},"created":"2018-01-11T16:45:29.476Z","updated":"2018-01-11T16:59:06.317Z","metadata":{},"next_step":null,"conditions":"@sys-date","description":null,"dialog_node":"node_2_1515689129278","previous_sibling":null},{"type":"standard","title":"review the speaker","output":{"text":{"values":["Ok. I got your review for the place. Could you give us the review of the speaker please from 1 to 10 (one is the worst - and ten being the best)?"],"selection_policy":"sequential"}},"parent":"node_5_1515690503551","context":{"location-score":"@sys-number"},"created":"2018-01-11T17:18:34.099Z","updated":"2018-01-11T17:26:55.480Z","metadata":{},"next_step":null,"conditions":"@sys-number","description":null,"dialog_node":"node_7_1515691113845","previous_sibling":null},{"type":"standard","title":"feedback survey","output":{"text":{"values":["I got that you want to give us your fedback on @workshop. When it was?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T16:40:07.496Z","updated":"2018-01-11T16:42:41.704Z","metadata":{},"next_step":null,"conditions":"#feedback && @workshop","digress_in":"does_not_return","description":null,"dialog_node":"node_1_1515688807242","previous_sibling":"Welcome"},{"type":"standard","title":"this location review","output":{"text":{"values":["Ok. I got it. How would you score this location from 1 to 10 (one is the worst - and ten being the best)."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T17:08:23.855Z","updated":"2018-01-11T17:59:33.691Z","metadata":{},"next_step":null,"conditions":"$location || $alternative-location","digress_in":"does_not_return","description":null,"dialog_node":"node_5_1515690503551","previous_sibling":"node_10_1515691791500"},{"type":"standard","title":"Thank you for a feedback","output":{"text":{"values":["Thank you for such a feedback. We are working hard to make the events better and reflect your requests. I will pass over your suggestions to organizers and we would do our best to accommodate them for the next event. Thank you for choosing us! You can start over now."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T17:29:51.748Z","updated":"2018-01-11T18:01:46.854Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"$speaker-score && $location-score","digress_in":"does_not_return","description":null,"dialog_node":"node_10_1515691791500","previous_sibling":"node_1_1515688807242"},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T16:36:46.244Z","updated":"2018-01-11T16:36:46.244Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_5_1515690503551"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hello. How can I help you? You can say \" I want to give a feedback on the workshop\" or simply \"my feedback on a meetup\"."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-11T16:36:46.244Z","updated":"2018-01-11T16:38:14.520Z","metadata":{},"next_step":null,"conditions":"welcome","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"342fefc0-85ba-4bd9-8f94-54d139c2e2fa","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Workshop survey",
+	"created": "2018-01-11T16:28:46.068Z",
+	"intents": [{
+		"intent": "feedback",
+		"created": "2018-01-11T16:30:04.106Z",
+		"updated": "2018-01-11T16:31:48.424Z",
+		"examples": [{
+			"text": "I want to add feedback on",
+			"created": "2018-01-11T16:30:24.166Z",
+			"updated": "2018-01-11T16:30:24.166Z"
+		}, {
+			"text": "I want to fill out survey on",
+			"created": "2018-01-11T16:30:48.087Z",
+			"updated": "2018-01-11T16:31:05.330Z"
+		}, {
+			"text": "I would like to give you a feedback on",
+			"created": "2018-01-11T16:31:32.028Z",
+			"updated": "2018-01-11T16:31:32.028Z"
+		}, {
+			"text": "my feedback on",
+			"created": "2018-01-11T16:31:48.424Z",
+			"updated": "2018-01-11T16:31:48.424Z"
+		}],
+		"description": ""
+	}],
+	"updated": "2018-01-11T18:01:46.854Z",
+	"entities": [{
+		"entity": "workshop",
+		"values": [{
+			"type": "synonyms",
+			"value": "workshop",
+			"created": "2018-01-11T16:36:31.827Z",
+			"updated": "2018-01-11T16:36:31.827Z",
+			"metadata": null,
+			"synonyms": ["hands-on", "lab", "class", "presentation", "meetup", "roadshow"]
+		}],
+		"created": "2018-01-11T16:35:08.961Z",
+		"updated": "2018-01-11T16:36:31.827Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2018-01-11T16:34:36.976Z",
+		"updated": "2018-01-11T16:34:36.976Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-person",
+		"values": [],
+		"created": "2018-01-11T16:34:47.304Z",
+		"updated": "2018-01-11T16:34:47.304Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "no",
+		"values": [{
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-11T17:38:27.023Z",
+			"updated": "2018-01-11T17:38:27.023Z",
+			"metadata": null,
+			"synonyms": ["duh", "not ok"]
+		}],
+		"created": "2018-01-11T17:37:39.293Z",
+		"updated": "2018-01-11T17:38:27.023Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-location",
+		"values": [],
+		"created": "2018-01-11T16:34:30.521Z",
+		"updated": "2018-01-11T16:34:30.521Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-time",
+		"values": [],
+		"created": "2018-01-11T16:34:52.898Z",
+		"updated": "2018-01-11T16:34:52.898Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-date",
+		"values": [],
+		"created": "2018-01-11T16:34:25.494Z",
+		"updated": "2018-01-11T16:34:25.494Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "yes",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-11T16:49:51.210Z",
+			"updated": "2018-01-11T16:49:51.210Z",
+			"metadata": null,
+			"synonyms": ["ok", "good", "not bad", "awesome", "great"]
+		}],
+		"created": "2018-01-11T16:49:27.629Z",
+		"updated": "2018-01-11T16:49:51.210Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "This is a workshop survey chatbot. It might be more entertaining to go thru the chatbot led survey than do the paper version.",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": "other free suggestions?",
+		"output": {
+			"text": {
+				"values": ["I got it. Would you have any other suggestion for a subject of the next meetup? Please type the suggestion or press \"Enter\"."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_7_1515691113845",
+		"context": {
+			"speaker-score": "@sys-number"
+		},
+		"created": "2018-01-11T17:22:29.165Z",
+		"updated": "2018-01-11T17:58:31.906Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_10_1515691791500"
+		},
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "node_8_1515691348937",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "get the place",
+		"output": {
+			"text": {
+				"values": ["Ok. I got it. Where was the event? (type city name, for example \"San Francisco\" or it was in San Francisco)"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1515689129278",
+		"context": null,
+		"created": "2018-01-11T16:50:43.253Z",
+		"updated": "2018-01-11T17:52:26.150Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$date || @yes",
+		"description": null,
+		"dialog_node": "node_3_1515689443028",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "want to keep the location",
+		"output": {
+			"text": {
+				"values": ["I got @sys-location. Would you like to keep it here? If no please tell us the alternative location (for example: Santa Clara)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_3_1515689443028",
+		"context": {
+			"location": "@sys-location"
+		},
+		"created": "2018-01-11T17:02:49.574Z",
+		"updated": "2018-01-11T17:17:38.289Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@sys-location",
+		"description": null,
+		"dialog_node": "node_4_1515690169344",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "alternative location",
+		"output": {
+			"text": {
+				"values": ["I got the alternative location: @sys-location. Is it correct?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1515690169344",
+		"context": {
+			"alternative-location": "@sys-location"
+		},
+		"created": "2018-01-11T17:15:31.097Z",
+		"updated": "2018-01-11T17:18:12.437Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@sys-location",
+		"description": null,
+		"dialog_node": "node_6_1515690929878",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "get the date",
+		"output": {
+			"text": {
+				"values": ["Thank you. I got @sys-date. Was it a good date? (if \"no\" please suggest the weekday that works the best for you)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1515688807242",
+		"context": {
+			"date": "@sys-date"
+		},
+		"created": "2018-01-11T16:45:29.476Z",
+		"updated": "2018-01-11T16:59:06.317Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@sys-date",
+		"description": null,
+		"dialog_node": "node_2_1515689129278",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "review the speaker",
+		"output": {
+			"text": {
+				"values": ["Ok. I got your review for the place. Could you give us the review of the speaker please from 1 to 10 (one is the worst - and ten being the best)?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1515690503551",
+		"context": {
+			"location-score": "@sys-number"
+		},
+		"created": "2018-01-11T17:18:34.099Z",
+		"updated": "2018-01-11T17:26:55.480Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "node_7_1515691113845",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "feedback survey",
+		"output": {
+			"text": {
+				"values": ["I got that you want to give us your fedback on @workshop. When it was?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T16:40:07.496Z",
+		"updated": "2018-01-11T16:42:41.704Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#feedback && @workshop",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_1_1515688807242",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "this location review",
+		"output": {
+			"text": {
+				"values": ["Ok. I got it. How would you score this location from 1 to 10 (one is the worst - and ten being the best)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T17:08:23.855Z",
+		"updated": "2018-01-11T17:59:33.691Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$location || $alternative-location",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_5_1515690503551",
+		"previous_sibling": "node_10_1515691791500"
+	}, {
+		"type": "standard",
+		"title": "Thank you for a feedback",
+		"output": {
+			"text": {
+				"values": ["Thank you for such a feedback. We are working hard to make the events better and reflect your requests. I will pass over your suggestions to organizers and we would do our best to accommodate them for the next event. Thank you for choosing us! You can start over now."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T17:29:51.748Z",
+		"updated": "2018-01-11T18:01:46.854Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "$speaker-score && $location-score",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_10_1515691791500",
+		"previous_sibling": "node_1_1515688807242"
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T16:36:46.244Z",
+		"updated": "2018-01-11T16:36:46.244Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_5_1515690503551"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. How can I help you? You can say \" I want to give a feedback on the workshop\" or simply \"my feedback on a meetup\"."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-11T16:36:46.244Z",
+		"updated": "2018-01-11T16:38:14.520Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "342fefc0-85ba-4bd9-8f94-54d139c2e2fa",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

@@ -1,1 +1,1191 @@
-{"name":"CPR & Choke from a foreign body","created":"2018-01-13T19:43:16.334Z","intents":[{"intent":"Response","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T21:28:44.515Z","examples":[{"text":"no","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z"},{"text":"yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z"},{"text":"not feel good","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z"},{"text":"Choking","created":"2018-01-13T21:10:38.875Z","updated":"2018-01-13T21:10:38.875Z"},{"text":"He is choking","created":"2018-01-13T21:18:57.186Z","updated":"2018-01-13T21:18:57.186Z"},{"text":"Choke","created":"2018-01-13T21:28:44.515Z","updated":"2018-01-13T21:28:44.515Z"}],"description":""},{"intent":"Question","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","examples":[],"description":""},{"intent":"chokingresponse","created":"2018-01-13T20:53:52.764Z","updated":"2018-01-13T21:18:57.960Z","examples":[],"description":"answers for a choking condition"},{"intent":"Greeing","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","examples":[{"text":"Help","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z"},{"text":"Hello","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z"},{"text":"Hi","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z"}],"description":""}],"updated":"2018-01-14T07:58:34.634Z","entities":[{"entity":"Greeting","values":[],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null},{"entity":"FirstResponse","values":[{"type":"synonyms","value":"feel bed","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Not feel good","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"not responding","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Help","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"he is dead","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"he is not answering","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"he is unconscious","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T20:46:11.100Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"BetterAfterHeimlich","values":[{"type":"synonyms","value":"yes","created":"2018-01-14T07:25:46.588Z","updated":"2018-01-14T07:25:46.588Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-14T07:27:14.847Z","updated":"2018-01-14T07:27:14.847Z","metadata":null,"synonyms":[]}],"created":"2018-01-14T07:25:31.764Z","updated":"2018-01-14T07:27:14.847Z","metadata":null,"description":null},{"entity":"IsTherePulse","values":[{"type":"synonyms","value":"Yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null},{"entity":"HeimlichGuide","values":[{"type":"synonyms","value":"yes","created":"2018-01-13T20:11:55.281Z","updated":"2018-01-13T20:11:55.281Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-13T20:17:27.804Z","updated":"2018-01-13T20:17:27.804Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T20:11:49.585Z","updated":"2018-01-13T20:17:27.804Z","metadata":null,"description":null},{"entity":"notify911breath","values":[{"type":"synonyms","value":"yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null},{"entity":"HeimlichVideo","values":[{"type":"synonyms","value":"yes","created":"2018-01-13T20:14:05.113Z","updated":"2018-01-13T20:14:05.113Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-13T20:16:11.122Z","updated":"2018-01-13T20:16:11.122Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T20:13:59.910Z","updated":"2018-01-13T20:16:11.122Z","metadata":null,"description":null},{"entity":"Callrespondents","values":[{"type":"synonyms","value":"yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null},{"entity":"IsDefibrillator","values":[{"type":"synonyms","value":"Yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"No","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"choke","values":[{"type":"synonyms","value":"he choked","created":"2018-01-13T21:35:11.691Z","updated":"2018-01-13T21:35:11.691Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"he is choking","created":"2018-01-13T21:35:11.691Z","updated":"2018-01-13T21:35:11.691Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Choking","created":"2018-01-13T21:35:11.691Z","updated":"2018-01-13T21:35:11.691Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"he’s choking","created":"2018-01-13T21:35:11.691Z","updated":"2018-01-13T21:35:11.691Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Choke","created":"2018-01-13T21:35:11.691Z","updated":"2018-01-13T21:35:11.691Z","metadata":null,"synonyms":["נחנק"]}],"created":"2018-01-13T19:44:45.877Z","updated":"2018-01-13T21:50:53.707Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"BetterAfterCoughing","values":[{"type":"synonyms","value":"yes","created":"2018-01-13T20:08:00.017Z","updated":"2018-01-13T20:08:00.017Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-13T20:08:16.240Z","updated":"2018-01-13T20:08:16.240Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T20:07:52.555Z","updated":"2018-01-13T20:08:16.240Z","metadata":null,"description":null},{"entity":"isChoked","values":[{"type":"synonyms","value":"yes","created":"2018-01-13T20:04:15.655Z","updated":"2018-01-13T20:04:15.655Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T20:04:06.574Z","updated":"2018-01-13T20:04:15.655Z","metadata":null,"description":null},{"entity":"ShowBreathingVideo","values":[{"type":"synonyms","value":"yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null},{"entity":"IsBreathing","values":[{"type":"synonyms","value":"Yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"No","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"ShowCardiacMessage","values":[{"type":"synonyms","value":"no","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null},{"entity":"isconscious","values":[{"type":"synonyms","value":"yes","created":"2018-01-13T20:05:02.572Z","updated":"2018-01-13T20:05:02.572Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-13T20:05:20.792Z","updated":"2018-01-13T20:05:20.792Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T20:04:54.770Z","updated":"2018-01-13T20:05:20.792Z","metadata":null,"description":null},{"entity":"AreYouAlone","values":[{"type":"synonyms","value":"Yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"No","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null,"fuzzy_match":false},{"entity":"BreathIndependently","values":[{"type":"synonyms","value":"Yes","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"synonyms":[]}],"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":null,"description":null},{"entity":"NeedGuides2CPR","values":[{"type":"synonyms","value":"yes","created":"2018-01-14T07:30:58.586Z","updated":"2018-01-14T07:30:58.586Z","metadata":null,"synonyms":[]}],"created":"2018-01-14T07:30:49.281Z","updated":"2018-01-14T07:30:58.586Z","metadata":null,"description":null},{"entity":"NeedGuidanceNotConscious","values":[{"type":"synonyms","value":"yes","created":"2018-01-14T07:40:07.561Z","updated":"2018-01-14T07:40:07.561Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2018-01-14T07:40:56.021Z","updated":"2018-01-14T07:40:56.021Z","metadata":null,"synonyms":[]}],"created":"2018-01-14T07:39:59.538Z","updated":"2018-01-14T07:40:56.021Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Guide bot for CPR & Choke from a foreign body","dialog_nodes":[{"type":"standard","title":"Call 1st respondents (No)","output":{"text":{"values":["OK thanks"],"selection_policy":"sequential"}},"parent":"node_49_1515861835361","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@Callrespondents:yes","description":null,"dialog_node":"node_51_1515864490195","previous_sibling":"node_50_1515864394777"},{"type":"standard","title":"Call 1st respondents (yes)","output":{"text":{"values":["calling 911 with location based information"],"selection_policy":"sequential"}},"parent":"node_49_1515861835361","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@Callrespondents:yes","description":null,"dialog_node":"node_50_1515864394777","previous_sibling":null},{"type":"standard","title":"Show Rescue breathing (no)","output":{"text":{"values":["can he breath Independently ?"],"selection_policy":"sequential"}},"parent":"node_44_1515861604881","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@ShowBreathingVideo:no","description":null,"dialog_node":"node_47_1515861771120","previous_sibling":"node_46_1515861709375"},{"type":"standard","title":"Show Rescue breathing (yes)","output":{"text":{"values":["please link to    https://www.youtube.com/watch?v=Lbh7g-m_bwQ. update me if he breath independently"],"selection_policy":"sequential"}},"parent":"node_44_1515861604881","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_45_1515861670621"},"conditions":"@ShowBreathingVideo:yes","description":null,"dialog_node":"node_46_1515861709375","previous_sibling":null},{"type":"standard","title":"Show Cardiac message video (No)","output":{"text":{"values":["keep on with the cardiac pressure till the ambulance comes. there is enough oxygen in the blood for the brain to resist just keep your work would you like to send an SOS push notification to the 1st respondents?"],"selection_policy":"sequential"}},"parent":"node_43_1515861268078","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@ShowCardiacMessage:no","description":null,"dialog_node":"node_49_1515861835361","previous_sibling":"node_48_1515861816540"},{"type":"standard","title":"Show Cardiac message video (Yes)","output":{"text":{"values":["link to  :   https://www.youtube.com/watch?v=e4_uxP8yBB8"],"selection_policy":"sequential"}},"parent":"node_43_1515861268078","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@ShowCardiacMessage:yes","description":null,"dialog_node":"node_48_1515861816540","previous_sibling":null},{"type":"standard","title":"Notify 911 breath (no)","output":{"text":{"values":["OK thanks for saving him"],"selection_policy":"sequential"}},"parent":"node_45_1515861670621","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@notify911breath:no","description":null,"dialog_node":"node_59_1515870763138","previous_sibling":"node_58_1515870693919"},{"type":"standard","title":"Notify 911 breath (yes)","output":{"text":{"values":["calling 911 with your GPS  location"],"selection_policy":"sequential"}},"parent":"node_45_1515861670621","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@notify911breath:yes","description":null,"dialog_node":"node_58_1515870693919","previous_sibling":null},{"type":"slot","title":null,"output":{},"parent":"Welcome","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"variable":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"slot_53_1515865046771","previous_sibling":"handler_52_1515865046751"},{"type":"standard","title":"Choke","output":{"text":{"values":["is he in conscious?"],"selection_policy":"sequential"}},"parent":"Welcome","context":null,"created":"2018-01-13T19:43:49.767Z","updated":"2018-01-13T21:58:30.085Z","metadata":{},"next_step":null,"conditions":"@choke:(he choked) || @choke:(he is choking) || @choke:Choking || @choke:(he’s choking) && @choke:Choke","description":null,"dialog_node":"node_60_1515872628233","previous_sibling":"node_40_1515860739089"},{"type":"standard","title":"What is his status","output":{"text":{"values":["Can you find his pulse?"],"selection_policy":"sequential"}},"parent":"Welcome","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@FirstResponse:(feel bed) || @FirstResponse:(Not feel good) || @FirstResponse:(not responding) || @FirstResponse:Help || @FirstResponse:(he is dead) || @FirstResponse:(he is not answering) || @FirstResponse:(he is unconscious)","description":null,"dialog_node":"node_40_1515860739089","previous_sibling":"slot_53_1515865046771"},{"type":"event_handler","title":null,"output":{},"parent":"Welcome","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_52_1515865046751","previous_sibling":null},{"type":"standard","title":"Breath Independently(no)","output":{"text":{"values":["Please keep on performing rescue breathing process"],"selection_policy":"sequential"}},"parent":"node_47_1515861771120","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_44_1515861604881"},"conditions":"@BreathIndependently:no","description":null,"dialog_node":"node_57_1515865338543","previous_sibling":"node_56_1515865217595"},{"type":"standard","title":"Breath Independently(yes)","output":{"text":{"values":["Ok please monitor his pulse and his breathing... I recommend  you to call 911 would you like to do this?"],"selection_policy":"sequential"}},"parent":"node_47_1515861771120","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@BreathIndependently:Yes","description":null,"dialog_node":"node_56_1515865217595","previous_sibling":null},{"type":"standard","title":"Pulse(Yes)","output":{"text":{"values":["Is He Breathing?"],"selection_policy":"sequential"}},"parent":"node_40_1515860739089","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@IsTherePulse:Yes","description":null,"dialog_node":"node_42_1515861243058","previous_sibling":"node_43_1515861268078"},{"type":"standard","title":"Do Cardiac Message","output":{"text":{"values":["To give cardiac massage, the patient must be placed on a firm surface, such as the floor. If the rescuer is alone, the patient's lungs should be filled with three or four rapid mouth-to-mouth respirations before attempting to massage. Ideally, both artificial respiration and massage are performed at the same time by two rescuers. There is no need to coordinate the two activities between the rescuers. In massage, the rescuer puts one hand across the lower sternum (breast-bone) of the patient. The other hand is placed on top to make a right angle. The full weight of the rescuer is applied rhythmically through the heel of the hands, at about one thrust per second. The sternum moves in about 4 or 5 centimeters (1.5 to 2 inches), compressing the heart. When pressure is lifted, blood reenters the heart. If the rescuer is alone, several rapid mouth-to-mouth respirations should be given to the patient every 30 seconds. would you like to see a video how to do this?"],"selection_policy":"sequential"}},"parent":"node_40_1515860739089","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@IsTherePulse:no","description":null,"dialog_node":"node_43_1515861268078","previous_sibling":null},{"type":"standard","title":"conscious(no)","output":{"text":{"values":["first call 911 please don't waste time. the Patient needs air supply I suggest to start CPR would you like guidance?"],"selection_policy":"sequential"}},"parent":"node_60_1515872628233","context":null,"created":"2018-01-13T20:03:45.788Z","updated":"2018-01-14T07:38:23.678Z","metadata":{},"next_step":null,"conditions":"@isconscious:no","description":null,"dialog_node":"node_2_1515873824808","previous_sibling":"node_1_1515873802637"},{"type":"standard","title":"conscious(Yes)","output":{"text":{"values":["Encourage coughing is it better?"],"selection_policy":"sequential"}},"parent":"node_60_1515872628233","context":null,"created":"2018-01-13T20:03:24.454Z","updated":"2018-01-13T20:07:03.950Z","metadata":{},"next_step":null,"conditions":"@isconscious:yes","description":null,"dialog_node":"node_1_1515873802637","previous_sibling":null},{"type":"standard","title":"Guide to Heimlich (no)","output":{"text":{"values":["is he better?"],"selection_policy":"sequential"}},"parent":"node_4_1515874085709","context":null,"created":"2018-01-13T20:17:16.846Z","updated":"2018-01-13T20:34:29.836Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_3_1515874024107"},"conditions":"@HeimlichGuide:no","description":null,"dialog_node":"node_8_1515874635177","previous_sibling":"node_5_1515874245994"},{"type":"standard","title":"Guide to Heimlich (Yes)","output":{"text":{"values":["The Heimlich Maneuver® for CHOKING ADULTS\n\nA choking victim can't speak or breathe and needs your help immediately. Follow these steps to help a choking victim:\n\nFrom behind, wrap your arms around the victim's waist.\nMake a fist and place the thumb side of your fist against the victim's upper abdomen, below the ribcage and above the navel.\nGrasp your fist with your other hand and press into their upper abdomen with a quick upward thrust. Do not squeeze the ribcage; confine the force of the thrust to your hands.\nRepeat until object is expelled.\nUNCONSCIOUS VICTIM, OR WHEN RESCUER CAN'T REACH AROUND VICTIM:\nPlace the victim on back. Facing the victim, kneel astride the victim's hips. With one of your hands on top of the other, place the heel of your bottom hand on the upper abdomen below the rib cage and above the navel. Use your body weight to press into the victim's upper abdomen with a quick upward thrust. Repeat until object is expelled. If the Victim has not recovered, proceed with CPR.\nThe Victim should see a physician immediately after rescue.\nDon't slap the victim's back. (This could make matters worse.)\n\n\nThe Heimlich Maneuver for CHOKING INFANTS\nA choking victim can't speak or breathe and needs your help immediately.\nFollow these steps to help a choking infant:\n\nLay the child down, face up, on a firm surface and kneel or stand at the victim's feet, or hold infant on your lap facing away from you. Place the middle and index fingers of both your hands below his rib cage and above his navel. Press into the victim's upper abdomen with a quick upward thrust; do not squeeze the rib cage. Be very gentle. Repeat until object is expelled.\n\nIf the Victim has not recovered, proceed with CPR. The Victim should see a physician immediately after rescue.\n\nDon't slap the victim's back. (This could make matters worse.\n\nThe Heimlich Maneuver for CHOKING (ONESELF)\nWhen you choke, you can't speak or breathe and you need help immediately. Follow these steps to save yourself from choking:\n\nMake a fist and place the thumb side of your fist against your upper abdomen, below the ribcage and above the navel.\nGrasp your fist with your other hand and press into your upper abdomen with a quick upward thrust.\nRepeat until object is expelled.\nAlternatively, you can lean over a fixed horizontal object (table edge, chair, railing) and press your upper abdomen against the edge to produce a quick upward thrust. Repeat until object is expelled.\n\nSee a physician immediately after rescue. would you like to see a video?"],"selection_policy":"sequential"}},"parent":"node_4_1515874085709","context":null,"created":"2018-01-13T20:10:46.918Z","updated":"2018-01-13T20:13:28.199Z","metadata":{},"next_step":null,"conditions":"@HeimlichGuide:yes","description":null,"dialog_node":"node_5_1515874245994","previous_sibling":null},{"type":"standard","title":"Better after heimlich (no)","output":{"text":{"values":["Keep on the Heimlich Procedure. if there is not any improvement with his condition  consider to start CPR do you need guidance?",""],"selection_policy":"sequential"}},"parent":"node_8_1515874635177","context":null,"created":"2018-01-14T07:24:46.803Z","updated":"2018-01-14T07:29:40.320Z","metadata":{},"next_step":null,"conditions":"@BetterAfterHeimlich:no","description":null,"dialog_node":"node_12_1515914685176","previous_sibling":"node_11_1515914654028"},{"type":"standard","title":"Better after heimlich (yes)","output":{},"parent":"node_8_1515874635177","context":null,"created":"2018-01-14T07:24:17.147Z","updated":"2018-01-14T07:26:11.005Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1515874024107"},"conditions":"@BetterAfterHeimlich:yes","description":null,"dialog_node":"node_11_1515914654028","previous_sibling":null},{"type":"event_handler","title":null,"output":{},"parent":"slot_53_1515865046771","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_55_1515865046771","previous_sibling":"handler_54_1515865046771"},{"type":"event_handler","title":null,"output":{},"parent":"slot_53_1515865046771","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":null,"event_name":"input","description":null,"dialog_node":"handler_54_1515865046771","previous_sibling":null},{"type":"standard","title":"Better after coughing (no)","output":{"text":{"values":["How to do the Heimlich Maneuver \nDo you need guidance?"],"selection_policy":"sequential"}},"parent":"node_1_1515873802637","context":null,"created":"2018-01-13T20:08:06.636Z","updated":"2018-01-13T20:10:45.857Z","metadata":{},"next_step":null,"conditions":"@BetterAfterCoughing:no","description":null,"dialog_node":"node_4_1515874085709","previous_sibling":"node_3_1515874024107"},{"type":"standard","title":"Better after coughing (yes)","output":{"text":{"values":["Ok good well done"],"selection_policy":"sequential"}},"parent":"node_1_1515873802637","context":null,"created":"2018-01-13T20:07:05.041Z","updated":"2018-01-13T20:33:29.174Z","metadata":{},"next_step":null,"conditions":"@BetterAfterCoughing:yes","description":null,"dialog_node":"node_3_1515874024107","previous_sibling":null},{"type":"standard","title":"IsBreathing (yes)","output":{"text":{"values":["OK we are in a good condition, I strongly suggest to contact the 911 team would you like me to notify them with your location?"],"selection_policy":"sequential"}},"parent":"node_42_1515861243058","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@IsBreathing:Yes","description":null,"dialog_node":"node_45_1515861670621","previous_sibling":"node_44_1515861604881"},{"type":"standard","title":"IsBreathing (no)","output":{"text":{"values":["Rescue breathing can be mouth-to-mouth breathing or mouth-to-nose breathing if the mouth is seriously injured or can't be opened.  \n\nWith the airway open (using the head-tilt, chin-lift maneuver), pinch the nostrils shut for mouth-to-mouth breathing and cover the person's mouth with yours, making a seal.\nPrepare to give two rescue breaths. Give the first rescue breath — lasting one second — and watch to see if the chest rises. If it does rise, give the second breath. If the chest doesn't rise, repeat the head-tilt, chin-lift maneuver and then give the second breath. Thirty chest compressions followed by two rescue breaths is considered one cycle. Be careful not to provide too many breaths or to breathe with too much force.\nResume chest compression to restore circulation. would you like to see a video how to do this?"],"selection_policy":"sequential"}},"parent":"node_42_1515861243058","context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"@IsBreathing:No","description":null,"dialog_node":"node_44_1515861604881","previous_sibling":null},{"type":"standard","title":"Need guidance not conscious (no)","output":{"text":{"values":["OK keep on with the protocol"],"selection_policy":"sequential"}},"parent":"node_2_1515873824808","context":null,"created":"2018-01-14T07:40:38.561Z","updated":"2018-01-14T07:42:43.441Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_40_1515860739089"},"conditions":"@NeedGuidanceNotConscious:no","description":null,"dialog_node":"node_15_1515915636950","previous_sibling":"node_14_1515915218858"},{"type":"standard","title":"Need guidance not conscious (yes)","output":{},"parent":"node_2_1515873824808","context":null,"created":"2018-01-14T07:33:40.568Z","updated":"2018-01-14T07:40:29.018Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_40_1515860739089"},"conditions":"@NeedGuidanceNotConscious:yes","description":null,"dialog_node":"node_14_1515915218858","previous_sibling":null},{"type":"standard","title":"No Better after Heimlich need guide (yes)","output":{},"parent":"node_12_1515914685176","context":null,"created":"2018-01-14T07:26:52.642Z","updated":"2018-01-14T07:31:18.838Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_40_1515860739089"},"conditions":"@NeedGuides2CPR:yes","description":null,"dialog_node":"node_13_1515914808166","previous_sibling":null},{"type":"standard","title":"Heimlich Video (no)","output":{"text":{"values":["no need to Heimlich"],"selection_policy":"sequential"}},"parent":"node_5_1515874245994","context":null,"created":"2018-01-13T20:15:59.087Z","updated":"2018-01-13T20:16:25.213Z","metadata":{},"next_step":null,"conditions":"@HeimlichVideo:no","description":null,"dialog_node":"node_7_1515874558069","previous_sibling":"node_6_1515874408663"},{"type":"standard","title":"Heimlich Video (yes)","output":{"text":{"values":["https://www.youtube.com/watch?v=tEIiEAn7b-U"],"selection_policy":"sequential"}},"parent":"node_5_1515874245994","context":null,"created":"2018-01-13T20:13:29.607Z","updated":"2018-01-13T20:15:52.464Z","metadata":{},"next_step":null,"conditions":"@HeimlichVideo:yes","description":null,"dialog_node":"node_6_1515874408663","previous_sibling":null},{"type":"standard","title":"Anything else","output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"Welcome"},{"type":"standard","title":"Welcome","output":{"text":{"values":["Hello. How can I help you?","Hi I'm a  resuscitation bot how can I help please?","Thanks for approaching what is your friend condition?","Hey what happened?","whats going on?"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-01-13T19:43:16.334Z","updated":"2018-01-13T19:43:16.334Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"#Greeing","digress_in":"does_not_return","description":null,"dialog_node":"Welcome","digress_out":"allow_all","previous_sibling":null}],"workspace_id":"e1cd502c-2be3-45c5-9ef2-eedf0140a3bd","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "CPR & Choke from a foreign body",
+	"created": "2018-01-13T19:43:16.334Z",
+	"intents": [{
+		"intent": "Response",
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T21:28:44.515Z",
+		"examples": [{
+			"text": "no",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z"
+		}, {
+			"text": "yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z"
+		}, {
+			"text": "not feel good",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z"
+		}, {
+			"text": "Choking",
+			"created": "2018-01-13T21:10:38.875Z",
+			"updated": "2018-01-13T21:10:38.875Z"
+		}, {
+			"text": "He is choking",
+			"created": "2018-01-13T21:18:57.186Z",
+			"updated": "2018-01-13T21:18:57.186Z"
+		}, {
+			"text": "Choke",
+			"created": "2018-01-13T21:28:44.515Z",
+			"updated": "2018-01-13T21:28:44.515Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "Question",
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"examples": [],
+		"description": ""
+	}, {
+		"intent": "chokingresponse",
+		"created": "2018-01-13T20:53:52.764Z",
+		"updated": "2018-01-13T21:18:57.960Z",
+		"examples": [],
+		"description": "answers for a choking condition"
+	}, {
+		"intent": "Greeing",
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"examples": [{
+			"text": "Help",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z"
+		}, {
+			"text": "Hello",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z"
+		}, {
+			"text": "Hi",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z"
+		}],
+		"description": ""
+	}],
+	"updated": "2018-01-14T07:58:34.634Z",
+	"entities": [{
+		"entity": "Greeting",
+		"values": [],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "FirstResponse",
+		"values": [{
+			"type": "synonyms",
+			"value": "feel bed",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Not feel good",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "not responding",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Help",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "he is dead",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "he is not answering",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "he is unconscious",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T20:46:11.100Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "BetterAfterHeimlich",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-14T07:25:46.588Z",
+			"updated": "2018-01-14T07:25:46.588Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-14T07:27:14.847Z",
+			"updated": "2018-01-14T07:27:14.847Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-14T07:25:31.764Z",
+		"updated": "2018-01-14T07:27:14.847Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "IsTherePulse",
+		"values": [{
+			"type": "synonyms",
+			"value": "Yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "HeimlichGuide",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T20:11:55.281Z",
+			"updated": "2018-01-13T20:11:55.281Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T20:17:27.804Z",
+			"updated": "2018-01-13T20:17:27.804Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T20:11:49.585Z",
+		"updated": "2018-01-13T20:17:27.804Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "notify911breath",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "HeimlichVideo",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T20:14:05.113Z",
+			"updated": "2018-01-13T20:14:05.113Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T20:16:11.122Z",
+			"updated": "2018-01-13T20:16:11.122Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T20:13:59.910Z",
+		"updated": "2018-01-13T20:16:11.122Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Callrespondents",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "IsDefibrillator",
+		"values": [{
+			"type": "synonyms",
+			"value": "Yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "No",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "choke",
+		"values": [{
+			"type": "synonyms",
+			"value": "he choked",
+			"created": "2018-01-13T21:35:11.691Z",
+			"updated": "2018-01-13T21:35:11.691Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "he is choking",
+			"created": "2018-01-13T21:35:11.691Z",
+			"updated": "2018-01-13T21:35:11.691Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Choking",
+			"created": "2018-01-13T21:35:11.691Z",
+			"updated": "2018-01-13T21:35:11.691Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "he’s choking",
+			"created": "2018-01-13T21:35:11.691Z",
+			"updated": "2018-01-13T21:35:11.691Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Choke",
+			"created": "2018-01-13T21:35:11.691Z",
+			"updated": "2018-01-13T21:35:11.691Z",
+			"metadata": null,
+			"synonyms": ["נחנק"]
+		}],
+		"created": "2018-01-13T19:44:45.877Z",
+		"updated": "2018-01-13T21:50:53.707Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "BetterAfterCoughing",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T20:08:00.017Z",
+			"updated": "2018-01-13T20:08:00.017Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T20:08:16.240Z",
+			"updated": "2018-01-13T20:08:16.240Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T20:07:52.555Z",
+		"updated": "2018-01-13T20:08:16.240Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "isChoked",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T20:04:15.655Z",
+			"updated": "2018-01-13T20:04:15.655Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T20:04:06.574Z",
+		"updated": "2018-01-13T20:04:15.655Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "ShowBreathingVideo",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "IsBreathing",
+		"values": [{
+			"type": "synonyms",
+			"value": "Yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "No",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "ShowCardiacMessage",
+		"values": [{
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "isconscious",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-13T20:05:02.572Z",
+			"updated": "2018-01-13T20:05:02.572Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T20:05:20.792Z",
+			"updated": "2018-01-13T20:05:20.792Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T20:04:54.770Z",
+		"updated": "2018-01-13T20:05:20.792Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "AreYouAlone",
+		"values": [{
+			"type": "synonyms",
+			"value": "Yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "No",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": false
+	}, {
+		"entity": "BreathIndependently",
+		"values": [{
+			"type": "synonyms",
+			"value": "Yes",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-13T19:43:16.334Z",
+			"updated": "2018-01-13T19:43:16.334Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "NeedGuides2CPR",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-14T07:30:58.586Z",
+			"updated": "2018-01-14T07:30:58.586Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-14T07:30:49.281Z",
+		"updated": "2018-01-14T07:30:58.586Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "NeedGuidanceNotConscious",
+		"values": [{
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2018-01-14T07:40:07.561Z",
+			"updated": "2018-01-14T07:40:07.561Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2018-01-14T07:40:56.021Z",
+			"updated": "2018-01-14T07:40:56.021Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-14T07:39:59.538Z",
+		"updated": "2018-01-14T07:40:56.021Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Guide bot for CPR & Choke from a foreign body",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": "Call 1st respondents (No)",
+		"output": {
+			"text": {
+				"values": ["OK thanks"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_49_1515861835361",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Callrespondents:yes",
+		"description": null,
+		"dialog_node": "node_51_1515864490195",
+		"previous_sibling": "node_50_1515864394777"
+	}, {
+		"type": "standard",
+		"title": "Call 1st respondents (yes)",
+		"output": {
+			"text": {
+				"values": ["calling 911 with location based information"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_49_1515861835361",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Callrespondents:yes",
+		"description": null,
+		"dialog_node": "node_50_1515864394777",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Show Rescue breathing (no)",
+		"output": {
+			"text": {
+				"values": ["can he breath Independently ?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_44_1515861604881",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@ShowBreathingVideo:no",
+		"description": null,
+		"dialog_node": "node_47_1515861771120",
+		"previous_sibling": "node_46_1515861709375"
+	}, {
+		"type": "standard",
+		"title": "Show Rescue breathing (yes)",
+		"output": {
+			"text": {
+				"values": ["please link to    https://www.youtube.com/watch?v=Lbh7g-m_bwQ. update me if he breath independently"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_44_1515861604881",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_45_1515861670621"
+		},
+		"conditions": "@ShowBreathingVideo:yes",
+		"description": null,
+		"dialog_node": "node_46_1515861709375",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Show Cardiac message video (No)",
+		"output": {
+			"text": {
+				"values": ["keep on with the cardiac pressure till the ambulance comes. there is enough oxygen in the blood for the brain to resist just keep your work would you like to send an SOS push notification to the 1st respondents?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_43_1515861268078",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@ShowCardiacMessage:no",
+		"description": null,
+		"dialog_node": "node_49_1515861835361",
+		"previous_sibling": "node_48_1515861816540"
+	}, {
+		"type": "standard",
+		"title": "Show Cardiac message video (Yes)",
+		"output": {
+			"text": {
+				"values": ["link to  :   https://www.youtube.com/watch?v=e4_uxP8yBB8"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_43_1515861268078",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@ShowCardiacMessage:yes",
+		"description": null,
+		"dialog_node": "node_48_1515861816540",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Notify 911 breath (no)",
+		"output": {
+			"text": {
+				"values": ["OK thanks for saving him"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_45_1515861670621",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@notify911breath:no",
+		"description": null,
+		"dialog_node": "node_59_1515870763138",
+		"previous_sibling": "node_58_1515870693919"
+	}, {
+		"type": "standard",
+		"title": "Notify 911 breath (yes)",
+		"output": {
+			"text": {
+				"values": ["calling 911 with your GPS  location"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_45_1515861670621",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@notify911breath:yes",
+		"description": null,
+		"dialog_node": "node_58_1515870693919",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "Welcome",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"variable": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_53_1515865046771",
+		"previous_sibling": "handler_52_1515865046751"
+	}, {
+		"type": "standard",
+		"title": "Choke",
+		"output": {
+			"text": {
+				"values": ["is he in conscious?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Welcome",
+		"context": null,
+		"created": "2018-01-13T19:43:49.767Z",
+		"updated": "2018-01-13T21:58:30.085Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@choke:(he choked) || @choke:(he is choking) || @choke:Choking || @choke:(he’s choking) && @choke:Choke",
+		"description": null,
+		"dialog_node": "node_60_1515872628233",
+		"previous_sibling": "node_40_1515860739089"
+	}, {
+		"type": "standard",
+		"title": "What is his status",
+		"output": {
+			"text": {
+				"values": ["Can you find his pulse?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Welcome",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@FirstResponse:(feel bed) || @FirstResponse:(Not feel good) || @FirstResponse:(not responding) || @FirstResponse:Help || @FirstResponse:(he is dead) || @FirstResponse:(he is not answering) || @FirstResponse:(he is unconscious)",
+		"description": null,
+		"dialog_node": "node_40_1515860739089",
+		"previous_sibling": "slot_53_1515865046771"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "Welcome",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_52_1515865046751",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Breath Independently(no)",
+		"output": {
+			"text": {
+				"values": ["Please keep on performing rescue breathing process"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_47_1515861771120",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_44_1515861604881"
+		},
+		"conditions": "@BreathIndependently:no",
+		"description": null,
+		"dialog_node": "node_57_1515865338543",
+		"previous_sibling": "node_56_1515865217595"
+	}, {
+		"type": "standard",
+		"title": "Breath Independently(yes)",
+		"output": {
+			"text": {
+				"values": ["Ok please monitor his pulse and his breathing... I recommend  you to call 911 would you like to do this?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_47_1515861771120",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@BreathIndependently:Yes",
+		"description": null,
+		"dialog_node": "node_56_1515865217595",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Pulse(Yes)",
+		"output": {
+			"text": {
+				"values": ["Is He Breathing?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_40_1515860739089",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@IsTherePulse:Yes",
+		"description": null,
+		"dialog_node": "node_42_1515861243058",
+		"previous_sibling": "node_43_1515861268078"
+	}, {
+		"type": "standard",
+		"title": "Do Cardiac Message",
+		"output": {
+			"text": {
+				"values": ["To give cardiac massage, the patient must be placed on a firm surface, such as the floor. If the rescuer is alone, the patient's lungs should be filled with three or four rapid mouth-to-mouth respirations before attempting to massage. Ideally, both artificial respiration and massage are performed at the same time by two rescuers. There is no need to coordinate the two activities between the rescuers. In massage, the rescuer puts one hand across the lower sternum (breast-bone) of the patient. The other hand is placed on top to make a right angle. The full weight of the rescuer is applied rhythmically through the heel of the hands, at about one thrust per second. The sternum moves in about 4 or 5 centimeters (1.5 to 2 inches), compressing the heart. When pressure is lifted, blood reenters the heart. If the rescuer is alone, several rapid mouth-to-mouth respirations should be given to the patient every 30 seconds. would you like to see a video how to do this?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_40_1515860739089",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@IsTherePulse:no",
+		"description": null,
+		"dialog_node": "node_43_1515861268078",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "conscious(no)",
+		"output": {
+			"text": {
+				"values": ["first call 911 please don't waste time. the Patient needs air supply I suggest to start CPR would you like guidance?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_60_1515872628233",
+		"context": null,
+		"created": "2018-01-13T20:03:45.788Z",
+		"updated": "2018-01-14T07:38:23.678Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@isconscious:no",
+		"description": null,
+		"dialog_node": "node_2_1515873824808",
+		"previous_sibling": "node_1_1515873802637"
+	}, {
+		"type": "standard",
+		"title": "conscious(Yes)",
+		"output": {
+			"text": {
+				"values": ["Encourage coughing is it better?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_60_1515872628233",
+		"context": null,
+		"created": "2018-01-13T20:03:24.454Z",
+		"updated": "2018-01-13T20:07:03.950Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@isconscious:yes",
+		"description": null,
+		"dialog_node": "node_1_1515873802637",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Guide to Heimlich (no)",
+		"output": {
+			"text": {
+				"values": ["is he better?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1515874085709",
+		"context": null,
+		"created": "2018-01-13T20:17:16.846Z",
+		"updated": "2018-01-13T20:34:29.836Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_3_1515874024107"
+		},
+		"conditions": "@HeimlichGuide:no",
+		"description": null,
+		"dialog_node": "node_8_1515874635177",
+		"previous_sibling": "node_5_1515874245994"
+	}, {
+		"type": "standard",
+		"title": "Guide to Heimlich (Yes)",
+		"output": {
+			"text": {
+				"values": ["The Heimlich Maneuver® for CHOKING ADULTS\n\nA choking victim can't speak or breathe and needs your help immediately. Follow these steps to help a choking victim:\n\nFrom behind, wrap your arms around the victim's waist.\nMake a fist and place the thumb side of your fist against the victim's upper abdomen, below the ribcage and above the navel.\nGrasp your fist with your other hand and press into their upper abdomen with a quick upward thrust. Do not squeeze the ribcage; confine the force of the thrust to your hands.\nRepeat until object is expelled.\nUNCONSCIOUS VICTIM, OR WHEN RESCUER CAN'T REACH AROUND VICTIM:\nPlace the victim on back. Facing the victim, kneel astride the victim's hips. With one of your hands on top of the other, place the heel of your bottom hand on the upper abdomen below the rib cage and above the navel. Use your body weight to press into the victim's upper abdomen with a quick upward thrust. Repeat until object is expelled. If the Victim has not recovered, proceed with CPR.\nThe Victim should see a physician immediately after rescue.\nDon't slap the victim's back. (This could make matters worse.)\n\n\nThe Heimlich Maneuver for CHOKING INFANTS\nA choking victim can't speak or breathe and needs your help immediately.\nFollow these steps to help a choking infant:\n\nLay the child down, face up, on a firm surface and kneel or stand at the victim's feet, or hold infant on your lap facing away from you. Place the middle and index fingers of both your hands below his rib cage and above his navel. Press into the victim's upper abdomen with a quick upward thrust; do not squeeze the rib cage. Be very gentle. Repeat until object is expelled.\n\nIf the Victim has not recovered, proceed with CPR. The Victim should see a physician immediately after rescue.\n\nDon't slap the victim's back. (This could make matters worse.\n\nThe Heimlich Maneuver for CHOKING (ONESELF)\nWhen you choke, you can't speak or breathe and you need help immediately. Follow these steps to save yourself from choking:\n\nMake a fist and place the thumb side of your fist against your upper abdomen, below the ribcage and above the navel.\nGrasp your fist with your other hand and press into your upper abdomen with a quick upward thrust.\nRepeat until object is expelled.\nAlternatively, you can lean over a fixed horizontal object (table edge, chair, railing) and press your upper abdomen against the edge to produce a quick upward thrust. Repeat until object is expelled.\n\nSee a physician immediately after rescue. would you like to see a video?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1515874085709",
+		"context": null,
+		"created": "2018-01-13T20:10:46.918Z",
+		"updated": "2018-01-13T20:13:28.199Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@HeimlichGuide:yes",
+		"description": null,
+		"dialog_node": "node_5_1515874245994",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Better after heimlich (no)",
+		"output": {
+			"text": {
+				"values": ["Keep on the Heimlich Procedure. if there is not any improvement with his condition  consider to start CPR do you need guidance?", ""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_8_1515874635177",
+		"context": null,
+		"created": "2018-01-14T07:24:46.803Z",
+		"updated": "2018-01-14T07:29:40.320Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@BetterAfterHeimlich:no",
+		"description": null,
+		"dialog_node": "node_12_1515914685176",
+		"previous_sibling": "node_11_1515914654028"
+	}, {
+		"type": "standard",
+		"title": "Better after heimlich (yes)",
+		"output": {},
+		"parent": "node_8_1515874635177",
+		"context": null,
+		"created": "2018-01-14T07:24:17.147Z",
+		"updated": "2018-01-14T07:26:11.005Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1515874024107"
+		},
+		"conditions": "@BetterAfterHeimlich:yes",
+		"description": null,
+		"dialog_node": "node_11_1515914654028",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_53_1515865046771",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_55_1515865046771",
+		"previous_sibling": "handler_54_1515865046771"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_53_1515865046771",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_54_1515865046771",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Better after coughing (no)",
+		"output": {
+			"text": {
+				"values": ["How to do the Heimlich Maneuver \nDo you need guidance?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1515873802637",
+		"context": null,
+		"created": "2018-01-13T20:08:06.636Z",
+		"updated": "2018-01-13T20:10:45.857Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@BetterAfterCoughing:no",
+		"description": null,
+		"dialog_node": "node_4_1515874085709",
+		"previous_sibling": "node_3_1515874024107"
+	}, {
+		"type": "standard",
+		"title": "Better after coughing (yes)",
+		"output": {
+			"text": {
+				"values": ["Ok good well done"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1515873802637",
+		"context": null,
+		"created": "2018-01-13T20:07:05.041Z",
+		"updated": "2018-01-13T20:33:29.174Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@BetterAfterCoughing:yes",
+		"description": null,
+		"dialog_node": "node_3_1515874024107",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "IsBreathing (yes)",
+		"output": {
+			"text": {
+				"values": ["OK we are in a good condition, I strongly suggest to contact the 911 team would you like me to notify them with your location?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_42_1515861243058",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@IsBreathing:Yes",
+		"description": null,
+		"dialog_node": "node_45_1515861670621",
+		"previous_sibling": "node_44_1515861604881"
+	}, {
+		"type": "standard",
+		"title": "IsBreathing (no)",
+		"output": {
+			"text": {
+				"values": ["Rescue breathing can be mouth-to-mouth breathing or mouth-to-nose breathing if the mouth is seriously injured or can't be opened.  \n\nWith the airway open (using the head-tilt, chin-lift maneuver), pinch the nostrils shut for mouth-to-mouth breathing and cover the person's mouth with yours, making a seal.\nPrepare to give two rescue breaths. Give the first rescue breath — lasting one second — and watch to see if the chest rises. If it does rise, give the second breath. If the chest doesn't rise, repeat the head-tilt, chin-lift maneuver and then give the second breath. Thirty chest compressions followed by two rescue breaths is considered one cycle. Be careful not to provide too many breaths or to breathe with too much force.\nResume chest compression to restore circulation. would you like to see a video how to do this?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_42_1515861243058",
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@IsBreathing:No",
+		"description": null,
+		"dialog_node": "node_44_1515861604881",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Need guidance not conscious (no)",
+		"output": {
+			"text": {
+				"values": ["OK keep on with the protocol"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1515873824808",
+		"context": null,
+		"created": "2018-01-14T07:40:38.561Z",
+		"updated": "2018-01-14T07:42:43.441Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_40_1515860739089"
+		},
+		"conditions": "@NeedGuidanceNotConscious:no",
+		"description": null,
+		"dialog_node": "node_15_1515915636950",
+		"previous_sibling": "node_14_1515915218858"
+	}, {
+		"type": "standard",
+		"title": "Need guidance not conscious (yes)",
+		"output": {},
+		"parent": "node_2_1515873824808",
+		"context": null,
+		"created": "2018-01-14T07:33:40.568Z",
+		"updated": "2018-01-14T07:40:29.018Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_40_1515860739089"
+		},
+		"conditions": "@NeedGuidanceNotConscious:yes",
+		"description": null,
+		"dialog_node": "node_14_1515915218858",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "No Better after Heimlich need guide (yes)",
+		"output": {},
+		"parent": "node_12_1515914685176",
+		"context": null,
+		"created": "2018-01-14T07:26:52.642Z",
+		"updated": "2018-01-14T07:31:18.838Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_40_1515860739089"
+		},
+		"conditions": "@NeedGuides2CPR:yes",
+		"description": null,
+		"dialog_node": "node_13_1515914808166",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Heimlich Video (no)",
+		"output": {
+			"text": {
+				"values": ["no need to Heimlich"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1515874245994",
+		"context": null,
+		"created": "2018-01-13T20:15:59.087Z",
+		"updated": "2018-01-13T20:16:25.213Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@HeimlichVideo:no",
+		"description": null,
+		"dialog_node": "node_7_1515874558069",
+		"previous_sibling": "node_6_1515874408663"
+	}, {
+		"type": "standard",
+		"title": "Heimlich Video (yes)",
+		"output": {
+			"text": {
+				"values": ["https://www.youtube.com/watch?v=tEIiEAn7b-U"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1515874245994",
+		"context": null,
+		"created": "2018-01-13T20:13:29.607Z",
+		"updated": "2018-01-13T20:15:52.464Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@HeimlichVideo:yes",
+		"description": null,
+		"dialog_node": "node_6_1515874408663",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. How can I help you?", "Hi I'm a  resuscitation bot how can I help please?", "Thanks for approaching what is your friend condition?", "Hey what happened?", "whats going on?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-13T19:43:16.334Z",
+		"updated": "2018-01-13T19:43:16.334Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#Greeing",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "Welcome",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}],
+	"workspace_id": "e1cd502c-2be3-45c5-9ef2-eedf0140a3bd",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

@@ -1,1 +1,676 @@
-{"name":"Skin chatbot","created":"2018-01-09T21:30:49.201Z","intents":[{"intent":"greetings","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","examples":[{"text":"hello","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"serwus","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"good afternoon","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"good evening","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"good morning","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"start","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"hi","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"Hola","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"}],"description":null},{"intent":"finish","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","examples":[{"text":"nothing","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"ciao","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"goodbye","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"bye","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"end","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"},{"text":"finish","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z"}],"description":null}],"updated":"2018-01-09T21:30:49.201Z","entities":[{"entity":"gender","values":[{"type":"synonyms","value":"female","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":["woman","girl","female"]},{"type":"synonyms","value":"male","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":["guy","boy","man","male"]}],"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"city","values":[{"type":"synonyms","value":"Lisbon","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Barcelona","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Berlin","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Krakow","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"London","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Madrid","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Linz","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":[]}],"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"description":null,"fuzzy_match":true},{"entity":"emotions","values":[{"type":"synonyms","value":"neutral","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":["ok","excellent","good","fine"]},{"type":"synonyms","value":"risky","created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"synonyms":["bad","angry","worried","worry","fear","anger","nervous"]}],"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"description":null,"fuzzy_match":true}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"type":"standard","title":null,"output":{},"parent":"node_16_1498051439078","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Discovery request"},"conditions":"True","description":null,"dialog_node":"node_18_1498051584895","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["How old are you?"],"selection_policy":"sequential"}},"parent":"node_1_1498044343414","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_2_1498044668120","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Ok. Negative emotions may contribute to cancer according to Chinese research. Mental exhaustion is harmful and life should be enriched with entertainment."],"selection_policy":"sequential"}},"parent":"Welcome","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1498044668120"},"conditions":"@emotions","description":null,"dialog_node":"node_1_1498044343414","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Currently I can check: Berlin, Krakow, Madrid, Linz, Madrid, Barcelona and London."],"selection_policy":"sequential"}},"parent":"City location","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_9_1498050612450"},"conditions":"True","description":null,"dialog_node":"node_13_1498051022247","previous_sibling":"node_9_1498050612450"},{"type":"standard","title":null,"output":{"text":{"values":["Today will be $weather weather, temperature $temp degrees and $uv UV index in $city."],"selection_policy":"sequential"}},"parent":"City location","context":{"city":"<? entities[0].value ?>"},"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_12_1498050781435"},"conditions":"@city","description":null,"dialog_node":"node_9_1498050612450","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["The risk of skin cancer is much higher for whites than for dark-skinned African Americans or Hispanics. This is because melanin helps protect against UV radiation. People with dark skin have more melanin. People with fair (light-colored) skin that freckles or burns easily are at extra high risk."],"selection_policy":"sequential"}},"parent":"Skin type","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"City location"},"conditions":"True","description":null,"dialog_node":"node_7_1498050389192","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["People who live in places with year-round, bright sunlight have a higher risk. For example, the risk of skin cancer is twice as high in Arizona compared to Minnesota. The highest rate of skin cancer in the world is in Australia. Spending a lot of time outdoors without covering your skin and using sunscreen increases your risk."],"selection_policy":"sequential"}},"parent":"node_9_1498050612450","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Discovery request"},"conditions":null,"description":null,"dialog_node":"node_12_1498050781435","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Please answer male or female."],"selection_policy":"sequential"}},"parent":"Gender","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_2_1498049674109"},"conditions":"True","description":null,"dialog_node":"node_4_1498049862919","previous_sibling":"node_2_1498049674109"},{"type":"standard","title":null,"output":{"text":{"values":["OK. Men are 2 times as likely as women to have basal cell cancers and about 3 times as likely to have squamous cell cancers of the skin. This could be because they spend more time in the sun."],"selection_policy":"sequential"}},"parent":"Gender","context":{"gender":"<? input_text ?>"},"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Skin type"},"conditions":"@gender","description":null,"dialog_node":"node_2_1498049674109","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Please provide just number representing your age."],"selection_policy":"sequential"}},"parent":"node_2_1498044668120","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_3_1498044816645"},"conditions":"True","description":null,"dialog_node":"node_4_1498045032048","previous_sibling":"node_6_1498045381817"},{"type":"standard","title":null,"output":{"text":{"values":["OK. Your age is $age. Skin cancers are now being seen in younger people too, probably because they are spending more time in the sun without protecting their skin."],"selection_policy":"sequential"}},"parent":"node_2_1498044668120","context":{"age":"<? input_text ?>"},"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Gender"},"conditions":"input_text<=20","description":null,"dialog_node":"node_6_1498045381817","previous_sibling":"node_3_1498044816645"},{"type":"standard","title":null,"output":{"text":{"values":["OK. Your age is $age. The risk of basal and squamous cell skin cancers goes up as people get older."],"selection_policy":"sequential"}},"parent":"node_2_1498044668120","context":{"age":"<? input_text ?>"},"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Gender"},"conditions":"input_text>20","description":null,"dialog_node":"node_3_1498044816645","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"Discovery request","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"#greetings","description":null,"dialog_node":"node_21_1498060902712","previous_sibling":"node_15_1498051328818"},{"type":"standard","title":null,"output":{},"parent":"Discovery request","context":{"discovery":"true"},"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":"True","description":null,"dialog_node":"node_16_1498051439078","previous_sibling":"node_21_1498060902712"},{"type":"standard","title":null,"output":{"text":{"values":["Ok. Nice talking to you. Bye!"],"selection_policy":"sequential"}},"parent":"Discovery request","context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":"#finish && intents[0].confidence > 0.70","description":null,"dialog_node":"node_15_1498051328818","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_2_1498049674109"},"conditions":"@gender","description":null,"dialog_node":"node_5_1498050068762","previous_sibling":"node_20_1498054948618"},{"type":"standard","title":null,"output":{"text":{"values":["What is your gender?"],"selection_policy":"sequential"}},"parent":null,"context":{},"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Gender","previous_sibling":"node_5_1498050068762"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Welcome"},"conditions":"#greetings && intents[0].confidence > 0.70","description":null,"dialog_node":"node_20_1498054948618","previous_sibling":"Welcome"},{"type":"standard","title":null,"output":{"text":{"values":["What else I can help you with?"],"selection_policy":"sequential"}},"parent":null,"context":{"discovery":"false"},"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":"True","description":null,"dialog_node":"Discovery request","previous_sibling":"City location"},{"type":"standard","title":null,"output":{"text":{"values":["What is your city so I can estimate your UV exposure for today?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"City location","previous_sibling":"Skin type"},{"type":"standard","title":null,"output":{"text":{"values":["Do you have fair or dark skin?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"Skin type","previous_sibling":"Gender"},{"type":"standard","title":null,"output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"Discovery request"},{"type":"standard","title":null,"output":{"text":{"values":["Hi! I am skin chatbot. I will help you to identify risk factors for skin cancer. How are you?"],"selection_policy":"sequential"}},"parent":null,"context":{"uv":"","age":"","city":"","temp":"","gender":"","weather":"","discovery":"false"},"created":"2018-01-09T21:30:49.201Z","updated":"2018-01-09T21:30:49.201Z","metadata":null,"next_step":null,"conditions":"conversation_start","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"7846b36e-814b-41b3-af13-d0925827ac0b","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Skin chatbot",
+	"created": "2018-01-09T21:30:49.201Z",
+	"intents": [{
+		"intent": "greetings",
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"examples": [{
+			"text": "hello",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "serwus",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "good afternoon",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "good evening",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "good morning",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "start",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "hi",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "Hola",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}],
+		"description": null
+	}, {
+		"intent": "finish",
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"examples": [{
+			"text": "nothing",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "ciao",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "goodbye",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "bye",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "end",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}, {
+			"text": "finish",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-01-09T21:30:49.201Z",
+	"entities": [{
+		"entity": "gender",
+		"values": [{
+			"type": "synonyms",
+			"value": "female",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": ["woman", "girl", "female"]
+		}, {
+			"type": "synonyms",
+			"value": "male",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": ["guy", "boy", "man", "male"]
+		}],
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "city",
+		"values": [{
+			"type": "synonyms",
+			"value": "Lisbon",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Barcelona",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Berlin",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Krakow",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "London",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Madrid",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Linz",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}, {
+		"entity": "emotions",
+		"values": [{
+			"type": "synonyms",
+			"value": "neutral",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": ["ok", "excellent", "good", "fine"]
+		}, {
+			"type": "synonyms",
+			"value": "risky",
+			"created": "2018-01-09T21:30:49.201Z",
+			"updated": "2018-01-09T21:30:49.201Z",
+			"metadata": null,
+			"synonyms": ["bad", "angry", "worried", "worry", "fear", "anger", "nervous"]
+		}],
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"description": null,
+		"fuzzy_match": true
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_16_1498051439078",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Discovery request"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_18_1498051584895",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["How old are you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1498044343414",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_2_1498044668120",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok. Negative emotions may contribute to cancer according to Chinese research. Mental exhaustion is harmful and life should be enriched with entertainment."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Welcome",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1498044668120"
+		},
+		"conditions": "@emotions",
+		"description": null,
+		"dialog_node": "node_1_1498044343414",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Currently I can check: Berlin, Krakow, Madrid, Linz, Madrid, Barcelona and London."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "City location",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_9_1498050612450"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_13_1498051022247",
+		"previous_sibling": "node_9_1498050612450"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Today will be $weather weather, temperature $temp degrees and $uv UV index in $city."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "City location",
+		"context": {
+			"city": "<? entities[0].value ?>"
+		},
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_12_1498050781435"
+		},
+		"conditions": "@city",
+		"description": null,
+		"dialog_node": "node_9_1498050612450",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The risk of skin cancer is much higher for whites than for dark-skinned African Americans or Hispanics. This is because melanin helps protect against UV radiation. People with dark skin have more melanin. People with fair (light-colored) skin that freckles or burns easily are at extra high risk."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Skin type",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "City location"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_7_1498050389192",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["People who live in places with year-round, bright sunlight have a higher risk. For example, the risk of skin cancer is twice as high in Arizona compared to Minnesota. The highest rate of skin cancer in the world is in Australia. Spending a lot of time outdoors without covering your skin and using sunscreen increases your risk."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_9_1498050612450",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Discovery request"
+		},
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_12_1498050781435",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please answer male or female."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Gender",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_2_1498049674109"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_4_1498049862919",
+		"previous_sibling": "node_2_1498049674109"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["OK. Men are 2 times as likely as women to have basal cell cancers and about 3 times as likely to have squamous cell cancers of the skin. This could be because they spend more time in the sun."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Gender",
+		"context": {
+			"gender": "<? input_text ?>"
+		},
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Skin type"
+		},
+		"conditions": "@gender",
+		"description": null,
+		"dialog_node": "node_2_1498049674109",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please provide just number representing your age."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1498044668120",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_3_1498044816645"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_4_1498045032048",
+		"previous_sibling": "node_6_1498045381817"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["OK. Your age is $age. Skin cancers are now being seen in younger people too, probably because they are spending more time in the sun without protecting their skin."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1498044668120",
+		"context": {
+			"age": "<? input_text ?>"
+		},
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Gender"
+		},
+		"conditions": "input_text<=20",
+		"description": null,
+		"dialog_node": "node_6_1498045381817",
+		"previous_sibling": "node_3_1498044816645"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["OK. Your age is $age. The risk of basal and squamous cell skin cancers goes up as people get older."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1498044668120",
+		"context": {
+			"age": "<? input_text ?>"
+		},
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Gender"
+		},
+		"conditions": "input_text>20",
+		"description": null,
+		"dialog_node": "node_3_1498044816645",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Discovery request",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "#greetings",
+		"description": null,
+		"dialog_node": "node_21_1498060902712",
+		"previous_sibling": "node_15_1498051328818"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Discovery request",
+		"context": {
+			"discovery": "true"
+		},
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_16_1498051439078",
+		"previous_sibling": "node_21_1498060902712"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Ok. Nice talking to you. Bye!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Discovery request",
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#finish && intents[0].confidence > 0.70",
+		"description": null,
+		"dialog_node": "node_15_1498051328818",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_2_1498049674109"
+		},
+		"conditions": "@gender",
+		"description": null,
+		"dialog_node": "node_5_1498050068762",
+		"previous_sibling": "node_20_1498054948618"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["What is your gender?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {},
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Gender",
+		"previous_sibling": "node_5_1498050068762"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Welcome"
+		},
+		"conditions": "#greetings && intents[0].confidence > 0.70",
+		"description": null,
+		"dialog_node": "node_20_1498054948618",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["What else I can help you with?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"discovery": "false"
+		},
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "Discovery request",
+		"previous_sibling": "City location"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["What is your city so I can estimate your UV exposure for today?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "City location",
+		"previous_sibling": "Skin type"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Do you have fair or dark skin?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "Skin type",
+		"previous_sibling": "Gender"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Discovery request"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hi! I am skin chatbot. I will help you to identify risk factors for skin cancer. How are you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"uv": "",
+			"age": "",
+			"city": "",
+			"temp": "",
+			"gender": "",
+			"weather": "",
+			"discovery": "false"
+		},
+		"created": "2018-01-09T21:30:49.201Z",
+		"updated": "2018-01-09T21:30:49.201Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "conversation_start",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "7846b36e-814b-41b3-af13-d0925827ac0b",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

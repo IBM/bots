@@ -1,1 +1,347 @@
-{"name":"nba-bot","created":"2017-12-01T22:13:59.003Z","intents":[{"intent":"agreement","created":"2017-12-01T22:40:41.799Z","updated":"2017-12-01T23:08:49.410Z","examples":[{"text":"I completely agree.","created":"2017-12-01T22:41:03.043Z","updated":"2017-12-01T22:41:03.043Z"},{"text":"yes","created":"2017-12-01T23:07:37.357Z","updated":"2017-12-01T23:07:37.357Z"},{"text":"Cool","created":"2017-12-01T23:07:41.048Z","updated":"2017-12-01T23:07:41.048Z"},{"text":"yeah","created":"2017-12-01T23:07:48.109Z","updated":"2017-12-01T23:07:48.109Z"},{"text":"Ok","created":"2017-12-01T23:08:46.777Z","updated":"2017-12-01T23:08:46.777Z"},{"text":"K","created":"2017-12-01T23:08:49.410Z","updated":"2017-12-01T23:08:49.410Z"}],"description":null},{"intent":"greeting","created":"2017-12-01T22:14:42.083Z","updated":"2017-12-01T22:17:53.724Z","examples":[{"text":"Hello","created":"2017-12-01T22:15:48.446Z","updated":"2017-12-01T22:15:48.446Z"},{"text":"Hi","created":"2017-12-01T22:15:56.719Z","updated":"2017-12-01T22:15:56.719Z"},{"text":"Yo","created":"2017-12-01T22:17:53.724Z","updated":"2017-12-01T22:17:53.724Z"}],"description":null},{"intent":"schedule","created":"2017-12-01T22:20:19.855Z","updated":"2017-12-01T22:21:20.428Z","examples":[{"text":"When is the game?","created":"2017-12-01T22:20:33.628Z","updated":"2017-12-01T22:20:33.628Z"},{"text":"What is the game?","created":"2017-12-01T22:20:42.103Z","updated":"2017-12-01T22:20:42.103Z"},{"text":"When's the next game?","created":"2017-12-01T22:20:57.319Z","updated":"2017-12-01T22:20:57.319Z"},{"text":"What time are the [team] gonna play?","created":"2017-12-01T22:21:20.428Z","updated":"2017-12-01T22:21:20.428Z"}],"description":null},{"intent":"Who","created":"2017-12-01T23:51:03.067Z","updated":"2017-12-01T23:51:19.548Z","examples":[{"text":"Who is","created":"2017-12-01T23:51:10.923Z","updated":"2017-12-01T23:51:10.923Z"},{"text":"Who","created":"2017-12-01T23:51:19.548Z","updated":"2017-12-01T23:51:19.548Z"}],"description":null}],"updated":"2017-12-02T00:15:38.884Z","entities":[{"entity":"Team","values":[{"type":"synonyms","value":"Lakers","created":"2017-12-01T22:31:44.899Z","updated":"2017-12-01T23:46:11.647Z","metadata":null,"synonyms":["los angeles","LAL","LA Lakers"]},{"type":"synonyms","value":"Bulls","created":"2017-12-01T22:39:01.550Z","updated":"2017-12-01T23:45:56.992Z","metadata":null,"synonyms":["Chicago","CHI","Chicago Bulls"]},{"type":"synonyms","value":"Cavaliers","created":"2017-12-01T23:46:26.145Z","updated":"2017-12-01T23:46:26.145Z","metadata":null,"synonyms":["CLE","Cleveland","Cleveland Cavaliers"]},{"type":"synonyms","value":"Warriors","created":"2017-12-01T23:46:55.939Z","updated":"2017-12-01T23:46:55.939Z","metadata":null,"synonyms":["Golden State Warriors","GSW","Golden State"]}],"created":"2017-12-01T22:31:43.061Z","updated":"2017-12-01T23:46:55.939Z","metadata":null,"description":null},{"entity":"Players","values":[{"type":"synonyms","value":"Lebron James","created":"2017-12-01T23:47:29.636Z","updated":"2017-12-01T23:47:49.342Z","metadata":null,"synonyms":["LBJ","Lebron","James","The King"]},{"type":"synonyms","value":"Kobe Bryant","created":"2017-12-01T23:48:04.778Z","updated":"2017-12-01T23:49:39.434Z","metadata":null,"synonyms":["Kobe","The Black Mamba","Mamba"]}],"created":"2017-12-01T23:47:26.201Z","updated":"2017-12-01T23:49:39.434Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Bot for NBA related things","dialog_nodes":[{"title":null,"output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":"node_1_1512167403730","context":null,"created":"2017-12-01T22:38:24.603Z","updated":"2017-12-01T23:59:17.165Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_1_1512172408927"},"conditions":"@Team:Bulls","description":null,"dialog_node":"node_5_1512167904199","previous_sibling":"node_2_1512167546853"},{"title":null,"output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"node_1_1512167403730","context":null,"created":"2017-12-01T22:32:27.251Z","updated":"2017-12-02T00:07:50.052Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_3_1512173218128"},"conditions":"@Team:Lakers","description":null,"dialog_node":"node_2_1512167546853","previous_sibling":null},{"title":"Welcome","output":{"text":{"values":["Can you reword your statement? I'm not understanding."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-01T22:28:39.922Z","updated":"2017-12-01T22:30:03.244Z","metadata":{},"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"node_5_1512173639161"},{"title":null,"output":{"text":{"values":["He played with the Los Angeles Lakers in his whole NBA career","He was an NBA player with the Los Angeles Lakers","Beast."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-02T00:13:59.370Z","updated":"2017-12-02T00:15:38.884Z","metadata":{},"next_step":null,"conditions":"#Who && @Players:(Kobe Bryant)","description":null,"dialog_node":"node_5_1512173639161","previous_sibling":"node_4_1512173572238"},{"title":null,"output":{"text":{"values":["The Chicago Bulls game will start in an hour."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-01T23:53:29.104Z","updated":"2017-12-01T23:59:01.229Z","metadata":{},"next_step":null,"conditions":"#schedule && @Team:Bulls","description":null,"dialog_node":"node_1_1512172408927","previous_sibling":"node_1_1512167403730"},{"title":null,"output":{"text":{"values":["He plays with the Cleveland Cavaliers","His team is the Cavaliers"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-02T00:12:52.416Z","updated":"2017-12-02T00:13:52.441Z","metadata":{},"next_step":null,"conditions":"#Who && @Players:(Lebron James)","description":null,"dialog_node":"node_4_1512173572238","previous_sibling":"node_3_1512173218128"},{"title":"time-of-game","output":{"text":{"values":["Which team?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-01T22:30:04.209Z","updated":"2017-12-02T00:12:02.374Z","metadata":{},"next_step":null,"conditions":"#schedule","description":null,"dialog_node":"node_1_1512167403730","previous_sibling":"Welcome"},{"title":null,"output":{"text":{"values":["The Los Angeles Lakers will be playing in 3 hours.","The Los Angeles Lakers game is in 3 hours","The Los Angeles Lakers game starts at 7 PM"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-02T00:06:58.336Z","updated":"2017-12-02T00:07:30.193Z","metadata":{},"next_step":null,"conditions":"#schedule && @Team:Lakers","description":null,"dialog_node":"node_3_1512173218128","previous_sibling":"node_7_1512168749983"},{"title":null,"output":{"text":{"values":["What about them?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-01T22:52:30.426Z","updated":"2017-12-01T22:52:42.287Z","metadata":{},"next_step":null,"conditions":"@Team:Bulls","description":null,"dialog_node":"node_7_1512168749983","previous_sibling":"node_1_1512172408927"},{"title":"Welcome","output":{"text":{"values":["Hello. How can I help you?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-12-01T22:28:39.922Z","updated":"2017-12-01T22:29:45.471Z","metadata":{},"next_step":null,"conditions":"#greeting","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"a2b72220-8ce4-4626-a709-5957f759d13d","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "nba-bot",
+	"created": "2017-12-01T22:13:59.003Z",
+	"intents": [{
+		"intent": "agreement",
+		"created": "2017-12-01T22:40:41.799Z",
+		"updated": "2017-12-01T23:08:49.410Z",
+		"examples": [{
+			"text": "I completely agree.",
+			"created": "2017-12-01T22:41:03.043Z",
+			"updated": "2017-12-01T22:41:03.043Z"
+		}, {
+			"text": "yes",
+			"created": "2017-12-01T23:07:37.357Z",
+			"updated": "2017-12-01T23:07:37.357Z"
+		}, {
+			"text": "Cool",
+			"created": "2017-12-01T23:07:41.048Z",
+			"updated": "2017-12-01T23:07:41.048Z"
+		}, {
+			"text": "yeah",
+			"created": "2017-12-01T23:07:48.109Z",
+			"updated": "2017-12-01T23:07:48.109Z"
+		}, {
+			"text": "Ok",
+			"created": "2017-12-01T23:08:46.777Z",
+			"updated": "2017-12-01T23:08:46.777Z"
+		}, {
+			"text": "K",
+			"created": "2017-12-01T23:08:49.410Z",
+			"updated": "2017-12-01T23:08:49.410Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greeting",
+		"created": "2017-12-01T22:14:42.083Z",
+		"updated": "2017-12-01T22:17:53.724Z",
+		"examples": [{
+			"text": "Hello",
+			"created": "2017-12-01T22:15:48.446Z",
+			"updated": "2017-12-01T22:15:48.446Z"
+		}, {
+			"text": "Hi",
+			"created": "2017-12-01T22:15:56.719Z",
+			"updated": "2017-12-01T22:15:56.719Z"
+		}, {
+			"text": "Yo",
+			"created": "2017-12-01T22:17:53.724Z",
+			"updated": "2017-12-01T22:17:53.724Z"
+		}],
+		"description": null
+	}, {
+		"intent": "schedule",
+		"created": "2017-12-01T22:20:19.855Z",
+		"updated": "2017-12-01T22:21:20.428Z",
+		"examples": [{
+			"text": "When is the game?",
+			"created": "2017-12-01T22:20:33.628Z",
+			"updated": "2017-12-01T22:20:33.628Z"
+		}, {
+			"text": "What is the game?",
+			"created": "2017-12-01T22:20:42.103Z",
+			"updated": "2017-12-01T22:20:42.103Z"
+		}, {
+			"text": "When's the next game?",
+			"created": "2017-12-01T22:20:57.319Z",
+			"updated": "2017-12-01T22:20:57.319Z"
+		}, {
+			"text": "What time are the [team] gonna play?",
+			"created": "2017-12-01T22:21:20.428Z",
+			"updated": "2017-12-01T22:21:20.428Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Who",
+		"created": "2017-12-01T23:51:03.067Z",
+		"updated": "2017-12-01T23:51:19.548Z",
+		"examples": [{
+			"text": "Who is",
+			"created": "2017-12-01T23:51:10.923Z",
+			"updated": "2017-12-01T23:51:10.923Z"
+		}, {
+			"text": "Who",
+			"created": "2017-12-01T23:51:19.548Z",
+			"updated": "2017-12-01T23:51:19.548Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-12-02T00:15:38.884Z",
+	"entities": [{
+		"entity": "Team",
+		"values": [{
+			"type": "synonyms",
+			"value": "Lakers",
+			"created": "2017-12-01T22:31:44.899Z",
+			"updated": "2017-12-01T23:46:11.647Z",
+			"metadata": null,
+			"synonyms": ["los angeles", "LAL", "LA Lakers"]
+		}, {
+			"type": "synonyms",
+			"value": "Bulls",
+			"created": "2017-12-01T22:39:01.550Z",
+			"updated": "2017-12-01T23:45:56.992Z",
+			"metadata": null,
+			"synonyms": ["Chicago", "CHI", "Chicago Bulls"]
+		}, {
+			"type": "synonyms",
+			"value": "Cavaliers",
+			"created": "2017-12-01T23:46:26.145Z",
+			"updated": "2017-12-01T23:46:26.145Z",
+			"metadata": null,
+			"synonyms": ["CLE", "Cleveland", "Cleveland Cavaliers"]
+		}, {
+			"type": "synonyms",
+			"value": "Warriors",
+			"created": "2017-12-01T23:46:55.939Z",
+			"updated": "2017-12-01T23:46:55.939Z",
+			"metadata": null,
+			"synonyms": ["Golden State Warriors", "GSW", "Golden State"]
+		}],
+		"created": "2017-12-01T22:31:43.061Z",
+		"updated": "2017-12-01T23:46:55.939Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Players",
+		"values": [{
+			"type": "synonyms",
+			"value": "Lebron James",
+			"created": "2017-12-01T23:47:29.636Z",
+			"updated": "2017-12-01T23:47:49.342Z",
+			"metadata": null,
+			"synonyms": ["LBJ", "Lebron", "James", "The King"]
+		}, {
+			"type": "synonyms",
+			"value": "Kobe Bryant",
+			"created": "2017-12-01T23:48:04.778Z",
+			"updated": "2017-12-01T23:49:39.434Z",
+			"metadata": null,
+			"synonyms": ["Kobe", "The Black Mamba", "Mamba"]
+		}],
+		"created": "2017-12-01T23:47:26.201Z",
+		"updated": "2017-12-01T23:49:39.434Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Bot for NBA related things",
+	"dialog_nodes": [{
+		"title": null,
+		"output": {
+			"text": {
+				"values": [""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1512167403730",
+		"context": null,
+		"created": "2017-12-01T22:38:24.603Z",
+		"updated": "2017-12-01T23:59:17.165Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_1_1512172408927"
+		},
+		"conditions": "@Team:Bulls",
+		"description": null,
+		"dialog_node": "node_5_1512167904199",
+		"previous_sibling": "node_2_1512167546853"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1512167403730",
+		"context": null,
+		"created": "2017-12-01T22:32:27.251Z",
+		"updated": "2017-12-02T00:07:50.052Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_3_1512173218128"
+		},
+		"conditions": "@Team:Lakers",
+		"description": null,
+		"dialog_node": "node_2_1512167546853",
+		"previous_sibling": null
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Can you reword your statement? I'm not understanding."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-01T22:28:39.922Z",
+		"updated": "2017-12-01T22:30:03.244Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_5_1512173639161"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["He played with the Los Angeles Lakers in his whole NBA career", "He was an NBA player with the Los Angeles Lakers", "Beast."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-02T00:13:59.370Z",
+		"updated": "2017-12-02T00:15:38.884Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Who && @Players:(Kobe Bryant)",
+		"description": null,
+		"dialog_node": "node_5_1512173639161",
+		"previous_sibling": "node_4_1512173572238"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The Chicago Bulls game will start in an hour."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-01T23:53:29.104Z",
+		"updated": "2017-12-01T23:59:01.229Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#schedule && @Team:Bulls",
+		"description": null,
+		"dialog_node": "node_1_1512172408927",
+		"previous_sibling": "node_1_1512167403730"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["He plays with the Cleveland Cavaliers", "His team is the Cavaliers"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-02T00:12:52.416Z",
+		"updated": "2017-12-02T00:13:52.441Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#Who && @Players:(Lebron James)",
+		"description": null,
+		"dialog_node": "node_4_1512173572238",
+		"previous_sibling": "node_3_1512173218128"
+	}, {
+		"title": "time-of-game",
+		"output": {
+			"text": {
+				"values": ["Which team?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-01T22:30:04.209Z",
+		"updated": "2017-12-02T00:12:02.374Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#schedule",
+		"description": null,
+		"dialog_node": "node_1_1512167403730",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The Los Angeles Lakers will be playing in 3 hours.", "The Los Angeles Lakers game is in 3 hours", "The Los Angeles Lakers game starts at 7 PM"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-02T00:06:58.336Z",
+		"updated": "2017-12-02T00:07:30.193Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#schedule && @Team:Lakers",
+		"description": null,
+		"dialog_node": "node_3_1512173218128",
+		"previous_sibling": "node_7_1512168749983"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["What about them?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-01T22:52:30.426Z",
+		"updated": "2017-12-01T22:52:42.287Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@Team:Bulls",
+		"description": null,
+		"dialog_node": "node_7_1512168749983",
+		"previous_sibling": "node_1_1512172408927"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. How can I help you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-12-01T22:28:39.922Z",
+		"updated": "2017-12-01T22:29:45.471Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#greeting",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "a2b72220-8ce4-4626-a709-5957f759d13d",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

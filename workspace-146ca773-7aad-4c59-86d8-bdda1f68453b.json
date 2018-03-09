@@ -1,1 +1,121 @@
-{"name":"Personal Finance Advisor","created":"2017-12-07T13:38:31.216Z","intents":[{"intent":"advice","created":"2017-12-07T14:30:29.322Z","updated":"2017-12-07T14:31:15.747Z","examples":[{"text":"How can I reduce sepending","created":"2017-12-07T14:30:46.038Z","updated":"2017-12-07T14:30:46.038Z"},{"text":"how to save money","created":"2017-12-07T14:30:56.203Z","updated":"2017-12-07T14:30:56.203Z"},{"text":"savings","created":"2017-12-07T14:31:15.747Z","updated":"2017-12-07T14:31:15.747Z"}],"description":""},{"intent":"income_fixed","created":"2017-12-07T14:15:14.759Z","updated":"2017-12-07T14:16:44.491Z","examples":[{"text":"pi-weekly","created":"2017-12-07T14:16:44.491Z","updated":"2017-12-07T14:16:44.491Z"},{"text":"monthly","created":"2017-12-07T14:16:44.491Z","updated":"2017-12-07T14:16:44.491Z"},{"text":"fixed","created":"2017-12-07T14:16:44.491Z","updated":"2017-12-07T14:16:44.491Z"}],"description":""},{"intent":"income_varies","created":"2017-12-07T14:16:58.033Z","updated":"2017-12-07T14:18:11.056Z","examples":[{"text":"not fixed","created":"2017-12-07T14:17:07.677Z","updated":"2017-12-07T14:17:07.677Z"},{"text":"per project","created":"2017-12-07T14:17:18.228Z","updated":"2017-12-07T14:17:18.228Z"},{"text":"variable income","created":"2017-12-07T14:18:11.056Z","updated":"2017-12-07T14:18:11.056Z"}],"description":""},{"intent":"expenses","created":"2017-12-07T14:22:25.791Z","updated":"2017-12-07T14:22:25.791Z","examples":[],"description":""},{"intent":"savings","created":"2017-12-07T14:18:30.292Z","updated":"2017-12-07T14:18:53.630Z","examples":[{"text":"save money","created":"2017-12-07T14:18:39.866Z","updated":"2017-12-07T14:18:39.866Z"},{"text":"savings","created":"2017-12-07T14:18:53.630Z","updated":"2017-12-07T14:18:53.630Z"}],"description":""}],"updated":"2017-12-07T14:40:04.113Z","entities":[{"entity":"cash","values":[],"created":"2017-12-07T14:39:39.742Z","updated":"2017-12-07T14:39:39.742Z","metadata":null,"description":null},{"entity":"savings","values":[],"created":"2017-12-07T14:40:04.113Z","updated":"2017-12-07T14:40:04.113Z","metadata":null,"description":null},{"entity":"income","values":[],"created":"2017-12-07T14:34:44.968Z","updated":"2017-12-07T14:35:08.481Z","metadata":null,"description":null},{"entity":"advice","values":[],"created":"2017-12-07T14:39:24.606Z","updated":"2017-12-07T14:39:24.606Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"A bot to that gives advice regarding personal finance management","dialog_nodes":[],"workspace_id":"146ca773-7aad-4c59-86d8-bdda1f68453b","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Personal Finance Advisor",
+	"created": "2017-12-07T13:38:31.216Z",
+	"intents": [{
+		"intent": "advice",
+		"created": "2017-12-07T14:30:29.322Z",
+		"updated": "2017-12-07T14:31:15.747Z",
+		"examples": [{
+			"text": "How can I reduce sepending",
+			"created": "2017-12-07T14:30:46.038Z",
+			"updated": "2017-12-07T14:30:46.038Z"
+		}, {
+			"text": "how to save money",
+			"created": "2017-12-07T14:30:56.203Z",
+			"updated": "2017-12-07T14:30:56.203Z"
+		}, {
+			"text": "savings",
+			"created": "2017-12-07T14:31:15.747Z",
+			"updated": "2017-12-07T14:31:15.747Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "income_fixed",
+		"created": "2017-12-07T14:15:14.759Z",
+		"updated": "2017-12-07T14:16:44.491Z",
+		"examples": [{
+			"text": "pi-weekly",
+			"created": "2017-12-07T14:16:44.491Z",
+			"updated": "2017-12-07T14:16:44.491Z"
+		}, {
+			"text": "monthly",
+			"created": "2017-12-07T14:16:44.491Z",
+			"updated": "2017-12-07T14:16:44.491Z"
+		}, {
+			"text": "fixed",
+			"created": "2017-12-07T14:16:44.491Z",
+			"updated": "2017-12-07T14:16:44.491Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "income_varies",
+		"created": "2017-12-07T14:16:58.033Z",
+		"updated": "2017-12-07T14:18:11.056Z",
+		"examples": [{
+			"text": "not fixed",
+			"created": "2017-12-07T14:17:07.677Z",
+			"updated": "2017-12-07T14:17:07.677Z"
+		}, {
+			"text": "per project",
+			"created": "2017-12-07T14:17:18.228Z",
+			"updated": "2017-12-07T14:17:18.228Z"
+		}, {
+			"text": "variable income",
+			"created": "2017-12-07T14:18:11.056Z",
+			"updated": "2017-12-07T14:18:11.056Z"
+		}],
+		"description": ""
+	}, {
+		"intent": "expenses",
+		"created": "2017-12-07T14:22:25.791Z",
+		"updated": "2017-12-07T14:22:25.791Z",
+		"examples": [],
+		"description": ""
+	}, {
+		"intent": "savings",
+		"created": "2017-12-07T14:18:30.292Z",
+		"updated": "2017-12-07T14:18:53.630Z",
+		"examples": [{
+			"text": "save money",
+			"created": "2017-12-07T14:18:39.866Z",
+			"updated": "2017-12-07T14:18:39.866Z"
+		}, {
+			"text": "savings",
+			"created": "2017-12-07T14:18:53.630Z",
+			"updated": "2017-12-07T14:18:53.630Z"
+		}],
+		"description": ""
+	}],
+	"updated": "2017-12-07T14:40:04.113Z",
+	"entities": [{
+		"entity": "cash",
+		"values": [],
+		"created": "2017-12-07T14:39:39.742Z",
+		"updated": "2017-12-07T14:39:39.742Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "savings",
+		"values": [],
+		"created": "2017-12-07T14:40:04.113Z",
+		"updated": "2017-12-07T14:40:04.113Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "income",
+		"values": [],
+		"created": "2017-12-07T14:34:44.968Z",
+		"updated": "2017-12-07T14:35:08.481Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "advice",
+		"values": [],
+		"created": "2017-12-07T14:39:24.606Z",
+		"updated": "2017-12-07T14:39:24.606Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "A bot to that gives advice regarding personal finance management",
+	"dialog_nodes": [],
+	"workspace_id": "146ca773-7aad-4c59-86d8-bdda1f68453b",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

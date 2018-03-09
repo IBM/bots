@@ -1,1 +1,643 @@
-{"name":"Insurance English","created":"2016-07-22T18:47:56.988Z","intents":[{"intent":"cancel-policy","created":"2017-01-30T17:47:20.111Z","updated":"2017-01-30T17:50:20.647Z","examples":[{"text":"Cancel my insurance","created":"2017-01-30T17:50:20.647Z","updated":"2017-01-30T17:50:20.647Z"},{"text":"Delete my policy","created":"2017-01-30T17:49:57.386Z","updated":"2017-01-30T17:49:57.386Z"},{"text":"I want to cancel my insurance","created":"2017-01-30T17:48:01.780Z","updated":"2017-01-30T17:48:01.780Z"},{"text":"I want to cancel my policy","created":"2017-01-30T17:47:20.111Z","updated":"2017-01-30T17:47:20.111Z"},{"text":"I want to close my account","created":"2017-01-30T17:47:41.047Z","updated":"2017-01-30T17:47:41.047Z"},{"text":"I want to get rid of my insurance","created":"2017-01-30T17:48:32.222Z","updated":"2017-01-30T17:48:32.222Z"},{"text":"Remove my insurance","created":"2017-01-30T17:50:09.572Z","updated":"2017-01-30T17:50:09.572Z"}],"description":null},{"intent":"claim-information","created":"2016-07-28T16:48:58.342Z","updated":"2016-08-02T17:10:42.441Z","examples":[{"text":"Find my claim","created":"2016-08-01T18:16:57.770Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"Get the status of my claim","created":"2016-07-28T16:48:58.342Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"How much was my claim?","created":"2016-07-28T16:48:58.342Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"Show me my claim","created":"2016-08-02T17:10:42.441Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"What is the status of my claim?","created":"2016-08-01T18:13:37.117Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"What was the total of my claim?","created":"2016-07-28T16:48:58.342Z","updated":"2016-11-29T18:16:22.226Z"}],"description":null},{"intent":"file-claim","created":"2017-01-30T18:07:37.468Z","updated":"2017-01-30T18:07:37.468Z","examples":[{"text":"How do I file a claim?","created":"2017-01-30T18:07:37.468Z","updated":"2017-01-30T18:07:37.468Z"},{"text":"How do I report damage to my car?","created":"2017-01-30T18:07:37.468Z","updated":"2017-01-30T18:07:37.468Z"},{"text":"I need to report an accident.","created":"2017-01-30T18:07:37.468Z","updated":"2017-01-30T18:07:37.468Z"},{"text":"I need to report damage to my car","created":"2017-01-30T18:07:37.468Z","updated":"2017-01-30T18:07:37.468Z"},{"text":"I want to make a claim.","created":"2017-01-30T18:07:37.468Z","updated":"2017-01-30T18:07:37.468Z"}],"description":null},{"intent":"offer-information","created":"2016-08-01T17:51:34.126Z","updated":"2017-01-30T18:05:50.455Z","examples":[{"text":"Are there any offers for me?","created":"2016-08-01T17:52:17.940Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"Are there any special offers?","created":"2016-08-01T17:51:48.692Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"Do I have any offers?","created":"2016-08-02T17:12:52.122Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"How do I get a discount?","created":"2016-08-02T17:14:30.506Z","updated":"2017-01-30T18:05:50.276Z"},{"text":"How do I lower my premium?","created":"2017-01-30T18:05:50.455Z","updated":"2017-01-30T18:05:50.455Z"},{"text":"How do I save money?","created":"2017-01-30T18:05:34.077Z","updated":"2017-01-30T18:05:34.077Z"}],"description":null},{"intent":"policy-information","created":"2016-07-23T23:53:58.196Z","updated":"2016-08-02T17:07:14.433Z","examples":[{"text":"Can you look up my policy?","created":"2016-07-23T23:53:58.196Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"Get my policy","created":"2016-07-29T13:25:49.885Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"How much does my policy cost?","created":"2016-07-28T16:45:51.306Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"Locate my policy","created":"2016-07-23T23:53:58.196Z","updated":"2016-11-29T18:16:22.226Z"},{"text":"Show me my policy","created":"2016-07-29T13:25:22.913Z","updated":"2016-11-29T18:16:22.226Z"}],"description":null}],"updated":"2017-02-01T15:17:18.681Z","entities":[{"type":null,"entity":"accident","source":null,"values":[{"value":"accident","created":"2017-01-30T17:56:29.236Z","updated":"2017-01-30T17:57:51.838Z","metadata":null,"synonyms":["collision","crack-up","damage","fender-bender","rear-ender"]}],"created":"2017-01-30T17:56:29.236Z","updated":"2017-01-30T17:56:29.236Z","open_list":false,"description":null},{"type":null,"entity":"claim","source":null,"values":[{"value":"claim","created":"2016-07-28T16:50:18.004Z","updated":"2017-01-30T18:00:06.533Z","metadata":null,"synonyms":[]}],"created":"2016-07-28T16:50:18.004Z","updated":"2016-07-28T16:50:18.004Z","open_list":false,"description":null},{"type":null,"entity":"money","source":null,"values":[{"value":"money","created":"2017-01-31T16:00:02.360Z","updated":"2017-01-31T16:30:26.134Z","metadata":null,"synonyms":["cost","premium"]}],"created":"2017-01-31T16:00:02.360Z","updated":"2017-01-31T16:00:02.360Z","open_list":false,"description":null},{"type":null,"entity":"offers","source":null,"values":[{"value":"offers","created":"2016-08-01T17:51:18.173Z","updated":"2017-01-30T18:00:14.572Z","metadata":null,"synonyms":["discounts","promotions","savings","specials"]}],"created":"2016-08-01T17:51:18.173Z","updated":"2016-08-01T17:51:18.173Z","open_list":false,"description":null},{"type":null,"entity":"policy","source":null,"values":[{"value":"policy","created":"2016-07-24T00:45:49.451Z","updated":"2017-01-30T18:19:00.336Z","metadata":null,"synonyms":["account","account number","id","id number","information","insurance","policy number"]}],"created":"2016-07-22T19:30:22.488Z","updated":"2016-07-24T00:44:37.339Z","open_list":false,"description":null},{"type":null,"entity":"response_no","source":null,"values":[{"value":"no","created":"2017-02-01T15:14:03.146Z","updated":"2017-02-01T15:14:03.146Z","metadata":null,"synonyms":["n"]}],"created":"2017-02-01T15:14:03.146Z","updated":"2017-02-01T15:14:03.146Z","open_list":false,"description":null},{"type":null,"entity":"response_yes","source":null,"values":[{"value":"yes","created":"2017-02-01T15:13:45.252Z","updated":"2017-02-01T15:13:45.252Z","metadata":null,"synonyms":["y"]}],"created":"2017-02-01T15:13:45.252Z","updated":"2017-02-01T15:13:45.252Z","open_list":false,"description":null}],"language":"en","metadata":{"runtime_version":"2016-09-20"},"description":"This is a dialog for looking up insurance information","dialog_nodes":[{"go_to":null,"output":{},"parent":"node_5_1485801143609","context":null,"created":"2017-01-30T18:33:58.844Z","updated":"2017-02-01T15:15:08.599Z","metadata":null,"conditions":"@response_yes","description":null,"dialog_node":"node_6_1485801238641","previous_sibling":"node_7_1485801290107"},{"go_to":null,"output":{"text":"Hi. Welcome to the insurance agent! You can say things like show me my policy or get my claims. How can I help you?"},"parent":null,"context":null,"created":"2016-07-22T19:55:24.298Z","updated":"2017-01-30T18:13:12.680Z","metadata":null,"conditions":"conversation_start","description":null,"dialog_node":"greeting","previous_sibling":null},{"go_to":null,"output":{"text":"I can help you. What is your policy number?"},"parent":null,"context":null,"created":"2016-07-28T16:50:55.675Z","updated":"2017-01-31T15:58:55.540Z","metadata":null,"conditions":"#claim-information && @claim","description":null,"dialog_node":"locate claim","previous_sibling":"get policy"},{"go_to":null,"output":{"text":"I can help you. What is your policy number?"},"parent":null,"context":null,"created":"2016-07-28T22:40:49.087Z","updated":"2017-01-31T15:58:30.432Z","metadata":null,"conditions":"#policy-information && @policy","description":null,"dialog_node":"get policy","previous_sibling":"cancel policy"},{"go_to":null,"output":{"text":"I can help you. What is your policy number?"},"parent":null,"context":null,"created":"2016-08-01T17:53:53.763Z","updated":"2017-01-31T16:28:43.234Z","metadata":null,"conditions":"#offer-information && (@offers || @money)","description":null,"dialog_node":"get discount","previous_sibling":"locate claim"},{"go_to":null,"output":{"text":"I'm sorry. I don't understand. Please try again."},"parent":null,"context":null,"created":"2016-07-22T19:55:56.536Z","updated":"2017-01-30T18:15:14.129Z","metadata":null,"conditions":"anything_else","description":null,"dialog_node":"unknown request","previous_sibling":"get discount"},{"go_to":null,"output":{"text":"I'm sorry. I don't understand. Please try again."},"parent":"node_10_1470073248186","context":null,"created":"2016-08-01T17:42:27.117Z","updated":"2016-08-01T17:44:43.342Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_13_1470073346682","previous_sibling":"node_12_1470073334940"},{"go_to":null,"output":{"text":"I'm sorry. I don't understand. Please try again."},"parent":"node_15_1470074178843","context":null,"created":"2016-08-01T17:59:27.841Z","updated":"2016-08-01T17:59:41.444Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_18_1470074367419","previous_sibling":"node_17_1470074331749"},{"go_to":null,"output":{"text":"I'm sorry. I don't understand. Please try again."},"parent":"node_4_1469745695208","context":null,"created":"2016-07-28T22:50:02.149Z","updated":"2017-02-01T13:37:22.757Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_7_1469746201904","previous_sibling":"node_6_1469745940176"},{"go_to":null,"output":{"text":"Is there anything else I can help with?"},"parent":"node_10_1470073248186","context":null,"created":"2016-08-01T17:42:15.625Z","updated":"2017-02-01T15:16:20.123Z","metadata":null,"conditions":"@response_no","description":null,"dialog_node":"node_12_1470073334940","previous_sibling":"node_11_1470073325881"},{"go_to":null,"output":{"text":"Is there anything else I can help with?"},"parent":"node_15_1470074178843","context":null,"created":"2016-08-01T17:58:52.348Z","updated":"2017-02-01T15:16:52.466Z","metadata":null,"conditions":"@response_no","description":null,"dialog_node":"node_17_1470074331749","previous_sibling":"node_16_1470074259636"},{"go_to":null,"output":{"text":"Is there anything else I can help with?"},"parent":"node_4_1469745695208","context":null,"created":"2016-07-28T22:45:40.413Z","updated":"2017-02-01T15:15:49.557Z","metadata":null,"conditions":"@response_no","description":null,"dialog_node":"node_6_1469745940176","previous_sibling":"node_5_1469745929980"},{"go_to":null,"output":{"text":"Ok I will get the status of claims for $policy. Is there anything else I can help with?"},"parent":"node_10_1470073248186","context":{"verified":true},"created":"2016-08-01T17:42:06.390Z","updated":"2017-02-01T15:16:08.579Z","metadata":null,"conditions":"@response_yes","description":null,"dialog_node":"node_11_1470073325881","previous_sibling":null},{"go_to":null,"output":{"text":"Ok I will see if there are special offers for $policy. Is there anything else I can help with?"},"parent":"node_15_1470074178843","context":{"verified":true},"created":"2016-08-01T17:57:40.179Z","updated":"2017-02-01T15:16:40.094Z","metadata":null,"conditions":"@response_yes","description":null,"dialog_node":"node_16_1470074259636","previous_sibling":null},{"go_to":null,"output":{"text":"You want me to get the status of your claims for policy <? input.text ?>?"},"parent":"locate claim","context":{"claims":true,"policy":"<? input.text ?>","verified":false},"created":"2016-08-01T17:40:48.799Z","updated":"2016-11-06T04:01:28.860Z","metadata":null,"conditions":"input.text","description":null,"dialog_node":"node_10_1470073248186","previous_sibling":null},{"go_to":null,"output":{"text":"You want me to see if there are any special offers for your policy <? input.text ?>?"},"parent":"get discount","context":{"offers":true,"policy":"<? input.text ?>","verified":false},"created":"2016-08-01T17:56:19.311Z","updated":"2016-08-14T11:48:54.206Z","metadata":null,"conditions":"input.text","description":null,"dialog_node":"node_15_1470074178843","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Ok I will get the status of $policy. Is there anything else I can help with?"]}},"parent":"node_4_1469745695208","context":{"verified":true},"created":"2016-07-28T22:45:30.558Z","updated":"2017-02-01T15:15:37.450Z","metadata":null,"conditions":"@response_yes","description":null,"dialog_node":"node_5_1469745929980","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["Ok, tell me about the damage."]}},"parent":"report accident","context":{"policy":"<? input.text ?>","verified":false},"created":"2017-01-30T18:29:58.528Z","updated":"2017-01-30T18:31:24.759Z","metadata":null,"conditions":"input.text","description":null,"dialog_node":"node_4_1485800998154","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["You want me to cancel your policy?"]}},"parent":"cancel policy","context":{"policy":"<? input.text ?>","verified":false},"created":"2017-01-30T18:32:23.943Z","updated":"2017-01-30T18:34:43.391Z","metadata":null,"conditions":"input.text","description":null,"dialog_node":"node_5_1485801143609","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["You want me to get the status of <? input.text ?>?"]}},"parent":"get policy","context":{"policy":"<? input.text ?>","verified":false},"created":"2016-07-28T22:41:35.444Z","updated":"2017-01-30T18:29:27.238Z","metadata":null,"conditions":"input.text","description":null,"dialog_node":"node_4_1469745695208","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["I can help you. What is your policy number?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-01-30T18:11:08.881Z","updated":"2017-01-31T16:28:27.399Z","metadata":null,"conditions":"#file-claim && (@accident || @claim)","description":null,"dialog_node":"report accident","previous_sibling":"greeting"},{"go_to":null,"output":{"text":{"values":["I can help you. What is your policy number?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-01-30T18:16:29.054Z","updated":"2017-01-31T15:57:17.486Z","metadata":null,"conditions":"#cancel-policy && @policy","description":null,"dialog_node":"cancel policy","previous_sibling":"report accident"},{"go_to":null,"output":{"text":{"values":["I'm sorry. I don't understand. Please try again."],"selection_policy":"sequential"}},"parent":"node_5_1485801143609","context":null,"created":"2017-02-01T13:38:31.860Z","updated":"2017-02-01T13:38:41.962Z","metadata":null,"conditions":"true","description":null,"dialog_node":"node_4_1485956311653","previous_sibling":"node_6_1485801238641"},{"go_to":null,"output":{"text":{"values":["Ok, I won't cancel your policy. Is there anything else I can help with?"],"selection_policy":"sequential"}},"parent":"node_5_1485801143609","context":null,"created":"2017-01-30T18:34:50.345Z","updated":"2017-02-01T15:14:54.405Z","metadata":null,"conditions":"@response_no","description":null,"dialog_node":"node_7_1485801290107","previous_sibling":null}],"workspace_id":"37a0355f-4ae3-4300-8ee4-b62b31c87226","counterexamples":[]}
+{
+	"name": "Insurance English",
+	"created": "2016-07-22T18:47:56.988Z",
+	"intents": [{
+		"intent": "cancel-policy",
+		"created": "2017-01-30T17:47:20.111Z",
+		"updated": "2017-01-30T17:50:20.647Z",
+		"examples": [{
+			"text": "Cancel my insurance",
+			"created": "2017-01-30T17:50:20.647Z",
+			"updated": "2017-01-30T17:50:20.647Z"
+		}, {
+			"text": "Delete my policy",
+			"created": "2017-01-30T17:49:57.386Z",
+			"updated": "2017-01-30T17:49:57.386Z"
+		}, {
+			"text": "I want to cancel my insurance",
+			"created": "2017-01-30T17:48:01.780Z",
+			"updated": "2017-01-30T17:48:01.780Z"
+		}, {
+			"text": "I want to cancel my policy",
+			"created": "2017-01-30T17:47:20.111Z",
+			"updated": "2017-01-30T17:47:20.111Z"
+		}, {
+			"text": "I want to close my account",
+			"created": "2017-01-30T17:47:41.047Z",
+			"updated": "2017-01-30T17:47:41.047Z"
+		}, {
+			"text": "I want to get rid of my insurance",
+			"created": "2017-01-30T17:48:32.222Z",
+			"updated": "2017-01-30T17:48:32.222Z"
+		}, {
+			"text": "Remove my insurance",
+			"created": "2017-01-30T17:50:09.572Z",
+			"updated": "2017-01-30T17:50:09.572Z"
+		}],
+		"description": null
+	}, {
+		"intent": "claim-information",
+		"created": "2016-07-28T16:48:58.342Z",
+		"updated": "2016-08-02T17:10:42.441Z",
+		"examples": [{
+			"text": "Find my claim",
+			"created": "2016-08-01T18:16:57.770Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "Get the status of my claim",
+			"created": "2016-07-28T16:48:58.342Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "How much was my claim?",
+			"created": "2016-07-28T16:48:58.342Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "Show me my claim",
+			"created": "2016-08-02T17:10:42.441Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "What is the status of my claim?",
+			"created": "2016-08-01T18:13:37.117Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "What was the total of my claim?",
+			"created": "2016-07-28T16:48:58.342Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}],
+		"description": null
+	}, {
+		"intent": "file-claim",
+		"created": "2017-01-30T18:07:37.468Z",
+		"updated": "2017-01-30T18:07:37.468Z",
+		"examples": [{
+			"text": "How do I file a claim?",
+			"created": "2017-01-30T18:07:37.468Z",
+			"updated": "2017-01-30T18:07:37.468Z"
+		}, {
+			"text": "How do I report damage to my car?",
+			"created": "2017-01-30T18:07:37.468Z",
+			"updated": "2017-01-30T18:07:37.468Z"
+		}, {
+			"text": "I need to report an accident.",
+			"created": "2017-01-30T18:07:37.468Z",
+			"updated": "2017-01-30T18:07:37.468Z"
+		}, {
+			"text": "I need to report damage to my car",
+			"created": "2017-01-30T18:07:37.468Z",
+			"updated": "2017-01-30T18:07:37.468Z"
+		}, {
+			"text": "I want to make a claim.",
+			"created": "2017-01-30T18:07:37.468Z",
+			"updated": "2017-01-30T18:07:37.468Z"
+		}],
+		"description": null
+	}, {
+		"intent": "offer-information",
+		"created": "2016-08-01T17:51:34.126Z",
+		"updated": "2017-01-30T18:05:50.455Z",
+		"examples": [{
+			"text": "Are there any offers for me?",
+			"created": "2016-08-01T17:52:17.940Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "Are there any special offers?",
+			"created": "2016-08-01T17:51:48.692Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "Do I have any offers?",
+			"created": "2016-08-02T17:12:52.122Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "How do I get a discount?",
+			"created": "2016-08-02T17:14:30.506Z",
+			"updated": "2017-01-30T18:05:50.276Z"
+		}, {
+			"text": "How do I lower my premium?",
+			"created": "2017-01-30T18:05:50.455Z",
+			"updated": "2017-01-30T18:05:50.455Z"
+		}, {
+			"text": "How do I save money?",
+			"created": "2017-01-30T18:05:34.077Z",
+			"updated": "2017-01-30T18:05:34.077Z"
+		}],
+		"description": null
+	}, {
+		"intent": "policy-information",
+		"created": "2016-07-23T23:53:58.196Z",
+		"updated": "2016-08-02T17:07:14.433Z",
+		"examples": [{
+			"text": "Can you look up my policy?",
+			"created": "2016-07-23T23:53:58.196Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "Get my policy",
+			"created": "2016-07-29T13:25:49.885Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "How much does my policy cost?",
+			"created": "2016-07-28T16:45:51.306Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "Locate my policy",
+			"created": "2016-07-23T23:53:58.196Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}, {
+			"text": "Show me my policy",
+			"created": "2016-07-29T13:25:22.913Z",
+			"updated": "2016-11-29T18:16:22.226Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-02-01T15:17:18.681Z",
+	"entities": [{
+		"type": null,
+		"entity": "accident",
+		"source": null,
+		"values": [{
+			"value": "accident",
+			"created": "2017-01-30T17:56:29.236Z",
+			"updated": "2017-01-30T17:57:51.838Z",
+			"metadata": null,
+			"synonyms": ["collision", "crack-up", "damage", "fender-bender", "rear-ender"]
+		}],
+		"created": "2017-01-30T17:56:29.236Z",
+		"updated": "2017-01-30T17:56:29.236Z",
+		"open_list": false,
+		"description": null
+	}, {
+		"type": null,
+		"entity": "claim",
+		"source": null,
+		"values": [{
+			"value": "claim",
+			"created": "2016-07-28T16:50:18.004Z",
+			"updated": "2017-01-30T18:00:06.533Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2016-07-28T16:50:18.004Z",
+		"updated": "2016-07-28T16:50:18.004Z",
+		"open_list": false,
+		"description": null
+	}, {
+		"type": null,
+		"entity": "money",
+		"source": null,
+		"values": [{
+			"value": "money",
+			"created": "2017-01-31T16:00:02.360Z",
+			"updated": "2017-01-31T16:30:26.134Z",
+			"metadata": null,
+			"synonyms": ["cost", "premium"]
+		}],
+		"created": "2017-01-31T16:00:02.360Z",
+		"updated": "2017-01-31T16:00:02.360Z",
+		"open_list": false,
+		"description": null
+	}, {
+		"type": null,
+		"entity": "offers",
+		"source": null,
+		"values": [{
+			"value": "offers",
+			"created": "2016-08-01T17:51:18.173Z",
+			"updated": "2017-01-30T18:00:14.572Z",
+			"metadata": null,
+			"synonyms": ["discounts", "promotions", "savings", "specials"]
+		}],
+		"created": "2016-08-01T17:51:18.173Z",
+		"updated": "2016-08-01T17:51:18.173Z",
+		"open_list": false,
+		"description": null
+	}, {
+		"type": null,
+		"entity": "policy",
+		"source": null,
+		"values": [{
+			"value": "policy",
+			"created": "2016-07-24T00:45:49.451Z",
+			"updated": "2017-01-30T18:19:00.336Z",
+			"metadata": null,
+			"synonyms": ["account", "account number", "id", "id number", "information", "insurance", "policy number"]
+		}],
+		"created": "2016-07-22T19:30:22.488Z",
+		"updated": "2016-07-24T00:44:37.339Z",
+		"open_list": false,
+		"description": null
+	}, {
+		"type": null,
+		"entity": "response_no",
+		"source": null,
+		"values": [{
+			"value": "no",
+			"created": "2017-02-01T15:14:03.146Z",
+			"updated": "2017-02-01T15:14:03.146Z",
+			"metadata": null,
+			"synonyms": ["n"]
+		}],
+		"created": "2017-02-01T15:14:03.146Z",
+		"updated": "2017-02-01T15:14:03.146Z",
+		"open_list": false,
+		"description": null
+	}, {
+		"type": null,
+		"entity": "response_yes",
+		"source": null,
+		"values": [{
+			"value": "yes",
+			"created": "2017-02-01T15:13:45.252Z",
+			"updated": "2017-02-01T15:13:45.252Z",
+			"metadata": null,
+			"synonyms": ["y"]
+		}],
+		"created": "2017-02-01T15:13:45.252Z",
+		"updated": "2017-02-01T15:13:45.252Z",
+		"open_list": false,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"runtime_version": "2016-09-20"
+	},
+	"description": "This is a dialog for looking up insurance information",
+	"dialog_nodes": [{
+		"go_to": null,
+		"output": {},
+		"parent": "node_5_1485801143609",
+		"context": null,
+		"created": "2017-01-30T18:33:58.844Z",
+		"updated": "2017-02-01T15:15:08.599Z",
+		"metadata": null,
+		"conditions": "@response_yes",
+		"description": null,
+		"dialog_node": "node_6_1485801238641",
+		"previous_sibling": "node_7_1485801290107"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "Hi. Welcome to the insurance agent! You can say things like show me my policy or get my claims. How can I help you?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-07-22T19:55:24.298Z",
+		"updated": "2017-01-30T18:13:12.680Z",
+		"metadata": null,
+		"conditions": "conversation_start",
+		"description": null,
+		"dialog_node": "greeting",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "I can help you. What is your policy number?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-07-28T16:50:55.675Z",
+		"updated": "2017-01-31T15:58:55.540Z",
+		"metadata": null,
+		"conditions": "#claim-information && @claim",
+		"description": null,
+		"dialog_node": "locate claim",
+		"previous_sibling": "get policy"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "I can help you. What is your policy number?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-07-28T22:40:49.087Z",
+		"updated": "2017-01-31T15:58:30.432Z",
+		"metadata": null,
+		"conditions": "#policy-information && @policy",
+		"description": null,
+		"dialog_node": "get policy",
+		"previous_sibling": "cancel policy"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "I can help you. What is your policy number?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-08-01T17:53:53.763Z",
+		"updated": "2017-01-31T16:28:43.234Z",
+		"metadata": null,
+		"conditions": "#offer-information && (@offers || @money)",
+		"description": null,
+		"dialog_node": "get discount",
+		"previous_sibling": "locate claim"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "I'm sorry. I don't understand. Please try again."
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-07-22T19:55:56.536Z",
+		"updated": "2017-01-30T18:15:14.129Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "unknown request",
+		"previous_sibling": "get discount"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "I'm sorry. I don't understand. Please try again."
+		},
+		"parent": "node_10_1470073248186",
+		"context": null,
+		"created": "2016-08-01T17:42:27.117Z",
+		"updated": "2016-08-01T17:44:43.342Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_13_1470073346682",
+		"previous_sibling": "node_12_1470073334940"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "I'm sorry. I don't understand. Please try again."
+		},
+		"parent": "node_15_1470074178843",
+		"context": null,
+		"created": "2016-08-01T17:59:27.841Z",
+		"updated": "2016-08-01T17:59:41.444Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_18_1470074367419",
+		"previous_sibling": "node_17_1470074331749"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "I'm sorry. I don't understand. Please try again."
+		},
+		"parent": "node_4_1469745695208",
+		"context": null,
+		"created": "2016-07-28T22:50:02.149Z",
+		"updated": "2017-02-01T13:37:22.757Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_7_1469746201904",
+		"previous_sibling": "node_6_1469745940176"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "Is there anything else I can help with?"
+		},
+		"parent": "node_10_1470073248186",
+		"context": null,
+		"created": "2016-08-01T17:42:15.625Z",
+		"updated": "2017-02-01T15:16:20.123Z",
+		"metadata": null,
+		"conditions": "@response_no",
+		"description": null,
+		"dialog_node": "node_12_1470073334940",
+		"previous_sibling": "node_11_1470073325881"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "Is there anything else I can help with?"
+		},
+		"parent": "node_15_1470074178843",
+		"context": null,
+		"created": "2016-08-01T17:58:52.348Z",
+		"updated": "2017-02-01T15:16:52.466Z",
+		"metadata": null,
+		"conditions": "@response_no",
+		"description": null,
+		"dialog_node": "node_17_1470074331749",
+		"previous_sibling": "node_16_1470074259636"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "Is there anything else I can help with?"
+		},
+		"parent": "node_4_1469745695208",
+		"context": null,
+		"created": "2016-07-28T22:45:40.413Z",
+		"updated": "2017-02-01T15:15:49.557Z",
+		"metadata": null,
+		"conditions": "@response_no",
+		"description": null,
+		"dialog_node": "node_6_1469745940176",
+		"previous_sibling": "node_5_1469745929980"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "Ok I will get the status of claims for $policy. Is there anything else I can help with?"
+		},
+		"parent": "node_10_1470073248186",
+		"context": {
+			"verified": true
+		},
+		"created": "2016-08-01T17:42:06.390Z",
+		"updated": "2017-02-01T15:16:08.579Z",
+		"metadata": null,
+		"conditions": "@response_yes",
+		"description": null,
+		"dialog_node": "node_11_1470073325881",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "Ok I will see if there are special offers for $policy. Is there anything else I can help with?"
+		},
+		"parent": "node_15_1470074178843",
+		"context": {
+			"verified": true
+		},
+		"created": "2016-08-01T17:57:40.179Z",
+		"updated": "2017-02-01T15:16:40.094Z",
+		"metadata": null,
+		"conditions": "@response_yes",
+		"description": null,
+		"dialog_node": "node_16_1470074259636",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "You want me to get the status of your claims for policy <? input.text ?>?"
+		},
+		"parent": "locate claim",
+		"context": {
+			"claims": true,
+			"policy": "<? input.text ?>",
+			"verified": false
+		},
+		"created": "2016-08-01T17:40:48.799Z",
+		"updated": "2016-11-06T04:01:28.860Z",
+		"metadata": null,
+		"conditions": "input.text",
+		"description": null,
+		"dialog_node": "node_10_1470073248186",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": "You want me to see if there are any special offers for your policy <? input.text ?>?"
+		},
+		"parent": "get discount",
+		"context": {
+			"offers": true,
+			"policy": "<? input.text ?>",
+			"verified": false
+		},
+		"created": "2016-08-01T17:56:19.311Z",
+		"updated": "2016-08-14T11:48:54.206Z",
+		"metadata": null,
+		"conditions": "input.text",
+		"description": null,
+		"dialog_node": "node_15_1470074178843",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Ok I will get the status of $policy. Is there anything else I can help with?"]
+			}
+		},
+		"parent": "node_4_1469745695208",
+		"context": {
+			"verified": true
+		},
+		"created": "2016-07-28T22:45:30.558Z",
+		"updated": "2017-02-01T15:15:37.450Z",
+		"metadata": null,
+		"conditions": "@response_yes",
+		"description": null,
+		"dialog_node": "node_5_1469745929980",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Ok, tell me about the damage."]
+			}
+		},
+		"parent": "report accident",
+		"context": {
+			"policy": "<? input.text ?>",
+			"verified": false
+		},
+		"created": "2017-01-30T18:29:58.528Z",
+		"updated": "2017-01-30T18:31:24.759Z",
+		"metadata": null,
+		"conditions": "input.text",
+		"description": null,
+		"dialog_node": "node_4_1485800998154",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["You want me to cancel your policy?"]
+			}
+		},
+		"parent": "cancel policy",
+		"context": {
+			"policy": "<? input.text ?>",
+			"verified": false
+		},
+		"created": "2017-01-30T18:32:23.943Z",
+		"updated": "2017-01-30T18:34:43.391Z",
+		"metadata": null,
+		"conditions": "input.text",
+		"description": null,
+		"dialog_node": "node_5_1485801143609",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["You want me to get the status of <? input.text ?>?"]
+			}
+		},
+		"parent": "get policy",
+		"context": {
+			"policy": "<? input.text ?>",
+			"verified": false
+		},
+		"created": "2016-07-28T22:41:35.444Z",
+		"updated": "2017-01-30T18:29:27.238Z",
+		"metadata": null,
+		"conditions": "input.text",
+		"description": null,
+		"dialog_node": "node_4_1469745695208",
+		"previous_sibling": null
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["I can help you. What is your policy number?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-30T18:11:08.881Z",
+		"updated": "2017-01-31T16:28:27.399Z",
+		"metadata": null,
+		"conditions": "#file-claim && (@accident || @claim)",
+		"description": null,
+		"dialog_node": "report accident",
+		"previous_sibling": "greeting"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["I can help you. What is your policy number?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-01-30T18:16:29.054Z",
+		"updated": "2017-01-31T15:57:17.486Z",
+		"metadata": null,
+		"conditions": "#cancel-policy && @policy",
+		"description": null,
+		"dialog_node": "cancel policy",
+		"previous_sibling": "report accident"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["I'm sorry. I don't understand. Please try again."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1485801143609",
+		"context": null,
+		"created": "2017-02-01T13:38:31.860Z",
+		"updated": "2017-02-01T13:38:41.962Z",
+		"metadata": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_4_1485956311653",
+		"previous_sibling": "node_6_1485801238641"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Ok, I won't cancel your policy. Is there anything else I can help with?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_5_1485801143609",
+		"context": null,
+		"created": "2017-01-30T18:34:50.345Z",
+		"updated": "2017-02-01T15:14:54.405Z",
+		"metadata": null,
+		"conditions": "@response_no",
+		"description": null,
+		"dialog_node": "node_7_1485801290107",
+		"previous_sibling": null
+	}],
+	"workspace_id": "37a0355f-4ae3-4300-8ee4-b62b31c87226",
+	"counterexamples": []
+}

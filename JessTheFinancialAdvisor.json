@@ -1,1 +1,1026 @@
-{"name":"Jess the financial advisor","created":"2018-01-09T21:14:57.516Z","intents":[{"intent":"positive","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"sure","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"yes","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"yes please","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"ok","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"do it","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"go for it","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"togglespeaker","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"turn off","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"disable sound","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"go on mute","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"i am in public","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"i'm in public","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"deativate","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"speakers on","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"enable sound","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"shut up","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"silent","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"quiet","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"sound off","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Mute","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Mic on","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"negative","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"Not today","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"No","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Not yet","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"No thank you","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"None","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"No thanks","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"balance","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"account","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"cash","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"balance","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I want to check my balance","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"How much do I have left","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"What is my balance","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"How much is in my account","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"What is in my account","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"How much money is available at the moment","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"How much money do I have","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"whoareyou","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"What is your name","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"What is your role","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"What is a bot","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Are you alive","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Are you male","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Are you female","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Are you a boy","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Are you a girl","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Who are you","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"buy","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"Buy","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I want","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I want to purchase","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I want to buy","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I would like to have","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I want to have","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I wish I had","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Can I afford","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Can I buy","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"whatcanIafford","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"How much money do I have","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Will I be broke by payday","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Do I have enough money","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"What can I spend","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"What can I afford","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"greeting","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"Hi Jess","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Yo Jess","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Hello Jess","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Hi","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Hiya","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Hello","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Are you there","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Hiya Jess","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"outofscope","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"How long will I live for","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Will I be rich when older","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Am I good at dancing","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Do I need to buy this","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"What is the meaning of life","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"savings","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"I would like to save","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I would like to save the money","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Can you open a savings account","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Help me save","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"savings","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"loan","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"loan","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Instant loan","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Give me the money","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I want to borrow the money","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"I would like a loan","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null},{"intent":"goodbye","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","examples":[{"text":"Laters","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Have a good day","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Goodbye","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Bye","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"},{"text":"Thank you","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z"}],"description":null}],"updated":"2018-01-09T21:14:57.516Z","entities":[{"entity":"sys-person","values":[],"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"description":null},{"entity":"sys-currency","values":[],"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"description":null},{"entity":"object","values":[{"type":"synonyms","value":"handbag","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"synonyms":["prada","hermes","louis vuitton","gucci","purse"]},{"type":"synonyms","value":"watch","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"synonyms":["omega","seiko","swatch","tag heuer","casio","wrist","breitiling","rolex"]},{"type":"synonyms","value":"Car","created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"synonyms":["Jeep","Hyundai","Ford","Audi","BMW","Porsche"]}],"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"Team c6 Financial advisor","dialog_nodes":[{"type":"response_condition","title":null,"output":{"text":{"values":["Understood, I will talk to you"],"selection_policy":"sequential"}},"parent":"Speakers on or off","context":{"var_mic":1},"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"$var_mic == 0","description":null,"dialog_node":"node_11_1498123868756","previous_sibling":"node_10_1498123457212"},{"type":"response_condition","title":null,"output":{"text":{"values":["Understood, I will respond silently"],"selection_policy":"sequential"}},"parent":"Speakers on or off","context":{"var_mic":0},"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"$var_mic == 1","description":null,"dialog_node":"node_10_1498123457212","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"Define Var","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"@sys-number","description":null,"dialog_node":"canafford","previous_sibling":"currencycash"},{"type":"standard","title":null,"output":{},"parent":"Define Var","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"$var_amount > $var_afford","description":null,"dialog_node":"currencycash","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":"Balance request check","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Goodbye"},"conditions":"#negative","description":null,"dialog_node":"disposable negative","previous_sibling":"Disposable Income"},{"type":"standard","title":null,"output":{"text":{"values":["Your disposable income for the rest of the month is $var_afford. If you want more help tell me what you want to do."],"selection_policy":"sequential"}},"parent":"Balance request check","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#positive","description":null,"dialog_node":"Disposable Income","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"Savings","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Negative response"},"conditions":"#negative","description":null,"dialog_node":"No savings required","previous_sibling":"Calculate savings"},{"type":"standard","title":null,"output":{"text":{"values":["A savings plan has been set up. I will update you on the progress to let you know how close you are getting and if your spending patterns change we can adjust your savings plan."],"selection_policy":"sequential"}},"parent":"Savings","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#positive","description":null,"dialog_node":"Calculate savings","previous_sibling":null},{"type":"standard","title":null,"output":{},"parent":"Loan","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Negative response"},"conditions":"#negative","description":null,"dialog_node":"No loan required","previous_sibling":"Calculate loan"},{"type":"standard","title":null,"output":{"text":{"values":["The loan has been created and you will have the money in your account within 5 minutes. Thank you for letting me help you, I hope you enjoy your $var_object"],"selection_policy":"sequential"}},"parent":"Loan","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#positive","description":null,"dialog_node":"Calculate loan","previous_sibling":null},{"type":"standard","title":null,"output":null,"parent":"item","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_1_1498080868236","previous_sibling":"Define Var"},{"type":"standard","title":null,"output":{},"parent":"item","context":{"var_amount":"@sys-number"},"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"currencycash"},"conditions":"@sys-number","description":null,"dialog_node":"Define Var","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":"Purchase options","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Negative response"},"conditions":"#negative","description":null,"dialog_node":"Neither option","previous_sibling":"Savings"},{"type":"response_condition","title":null,"output":{},"parent":"Purchase options","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_34_1498061383622","previous_sibling":"node_33_1498061382882"},{"type":"standard","title":null,"output":{"text":{"values":["I have checked your spending patterns and you can afford to save 150 pounds a month, would you like me to setup this savings plan for you?"],"selection_policy":"sequential"}},"parent":"Purchase options","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#savings","description":null,"dialog_node":"Savings","previous_sibling":"Loan"},{"type":"standard","title":null,"output":{"text":{"values":["We can lend you the $var_amount, I have checked your spending patterns and you can afford to pay back 100 pounds a month, would you like to proceed"],"selection_policy":"sequential"}},"parent":"Purchase options","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#loan","description":null,"dialog_node":"Loan","previous_sibling":"node_34_1498061383622"},{"type":"response_condition","title":null,"output":{"text":{"values":["We can offer you a savings plan or we could offer you an instant loan, which would you like me to look at for you"],"selection_policy":"sequential"}},"parent":"Purchase options","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_33_1498061382882","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["I have checked your account and looked at your projected spending based on historical patterns and you cannot afford $var_amount for this $var_object would you like me to look at purchase options for you"],"selection_policy":"sequential"}},"parent":"currencycash","context":{"var_api":1},"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_15_1498050735490","previous_sibling":"Negative response"},{"type":"standard","title":null,"output":{"text":{"values":["Thanks for using me to check, you may have made a sensible decision today"],"selection_policy":"sequential"}},"parent":"currencycash","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#negative","description":null,"dialog_node":"Negative response","previous_sibling":"Purchase options"},{"type":"response_condition","title":null,"output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"currencycash","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_16_1498055846726","previous_sibling":"node_15_1498050735490"},{"type":"standard","title":null,"output":{},"parent":"currencycash","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#positive","description":null,"dialog_node":"Purchase options","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Hi, I am Jess your personal financial friend, here to look after you. How can I help?"],"selection_policy":"sequential"}},"parent":"Welcome","context":{"var_api":1,"var_mic":1,"var_afford":0,"var_amount":0,"var_object":"","var_balance":0},"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_1_1498047284011","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["I have checked your accounts and spending patterns, I am pleased to say you can buy this $var_object for $var_amount. I hope you enjoy your purchase!"],"selection_policy":"sequential"}},"parent":"canafford","context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"","description":null,"dialog_node":"node_45_1498063852664","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["Hi, Your current balance is $var_balance, do you want to know how much disposable income you have for the rest of the month?"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#balance","description":null,"dialog_node":"Balance request check","previous_sibling":"Speakers on or off"},{"type":"standard","title":null,"output":{"text":{"values":["That sounds great, how much is it?"],"selection_policy":"sequential"}},"parent":null,"context":{"var_object":"@object"},"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#buy","description":null,"dialog_node":"item","previous_sibling":"Balance request check"},{"type":"standard","title":null,"output":{"text":{"values":["It was a pleasure helping you today"],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#goodbye","description":null,"dialog_node":"Goodbye","previous_sibling":"item"},{"type":"standard","title":null,"output":{"text":{"values":["I didn't understand. You can try rephrasing.","Can you reword your statement? I'm not understanding.","I didn't get your meaning."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"Anything else","previous_sibling":"Goodbye"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"#togglespeaker","description":null,"dialog_node":"Speakers on or off","previous_sibling":"Welcome"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-01-09T21:14:57.516Z","updated":"2018-01-09T21:14:57.516Z","metadata":null,"next_step":null,"conditions":"welcome || #greeting","description":null,"dialog_node":"Welcome","previous_sibling":null}],"workspace_id":"d6b7bb99-c914-4756-ac5c-ac91a8bc311d","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "Jess the financial advisor",
+	"created": "2018-01-09T21:14:57.516Z",
+	"intents": [{
+		"intent": "positive",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "sure",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "yes",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "yes please",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "ok",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "do it",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "go for it",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "togglespeaker",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "turn off",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "disable sound",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "go on mute",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "i am in public",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "i'm in public",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "deativate",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "speakers on",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "enable sound",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "shut up",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "silent",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "quiet",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "sound off",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Mute",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Mic on",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "negative",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "Not today",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "No",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Not yet",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "No thank you",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "None",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "No thanks",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "balance",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "account",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "cash",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "balance",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I want to check my balance",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "How much do I have left",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "What is my balance",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "How much is in my account",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "What is in my account",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "How much money is available at the moment",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "How much money do I have",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "whoareyou",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "What is your name",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "What is your role",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "What is a bot",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Are you alive",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Are you male",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Are you female",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Are you a boy",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Are you a girl",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Who are you",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "buy",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "Buy",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I want",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I want to purchase",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I want to buy",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I would like to have",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I want to have",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I wish I had",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Can I afford",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Can I buy",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "whatcanIafford",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "How much money do I have",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Will I be broke by payday",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Do I have enough money",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "What can I spend",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "What can I afford",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greeting",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "Hi Jess",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Yo Jess",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Hello Jess",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Hi",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Hiya",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Hello",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Are you there",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Hiya Jess",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "outofscope",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "How long will I live for",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Will I be rich when older",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Am I good at dancing",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Do I need to buy this",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "What is the meaning of life",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "savings",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "I would like to save",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I would like to save the money",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Can you open a savings account",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Help me save",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "savings",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "loan",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "loan",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Instant loan",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Give me the money",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I want to borrow the money",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "I would like a loan",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}, {
+		"intent": "goodbye",
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"examples": [{
+			"text": "Laters",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Have a good day",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Goodbye",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Bye",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}, {
+			"text": "Thank you",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-01-09T21:14:57.516Z",
+	"entities": [{
+		"entity": "sys-person",
+		"values": [],
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-currency",
+		"values": [],
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "object",
+		"values": [{
+			"type": "synonyms",
+			"value": "handbag",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z",
+			"metadata": null,
+			"synonyms": ["prada", "hermes", "louis vuitton", "gucci", "purse"]
+		}, {
+			"type": "synonyms",
+			"value": "watch",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z",
+			"metadata": null,
+			"synonyms": ["omega", "seiko", "swatch", "tag heuer", "casio", "wrist", "breitiling", "rolex"]
+		}, {
+			"type": "synonyms",
+			"value": "Car",
+			"created": "2018-01-09T21:14:57.516Z",
+			"updated": "2018-01-09T21:14:57.516Z",
+			"metadata": null,
+			"synonyms": ["Jeep", "Hyundai", "Ford", "Audi", "BMW", "Porsche"]
+		}],
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "Team c6 Financial advisor",
+	"dialog_nodes": [{
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Understood, I will talk to you"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Speakers on or off",
+		"context": {
+			"var_mic": 1
+		},
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$var_mic == 0",
+		"description": null,
+		"dialog_node": "node_11_1498123868756",
+		"previous_sibling": "node_10_1498123457212"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Understood, I will respond silently"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Speakers on or off",
+		"context": {
+			"var_mic": 0
+		},
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$var_mic == 1",
+		"description": null,
+		"dialog_node": "node_10_1498123457212",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Define Var",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "canafford",
+		"previous_sibling": "currencycash"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Define Var",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$var_amount > $var_afford",
+		"description": null,
+		"dialog_node": "currencycash",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Balance request check",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Goodbye"
+		},
+		"conditions": "#negative",
+		"description": null,
+		"dialog_node": "disposable negative",
+		"previous_sibling": "Disposable Income"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Your disposable income for the rest of the month is $var_afford. If you want more help tell me what you want to do."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Balance request check",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#positive",
+		"description": null,
+		"dialog_node": "Disposable Income",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Savings",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Negative response"
+		},
+		"conditions": "#negative",
+		"description": null,
+		"dialog_node": "No savings required",
+		"previous_sibling": "Calculate savings"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["A savings plan has been set up. I will update you on the progress to let you know how close you are getting and if your spending patterns change we can adjust your savings plan."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Savings",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#positive",
+		"description": null,
+		"dialog_node": "Calculate savings",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "Loan",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Negative response"
+		},
+		"conditions": "#negative",
+		"description": null,
+		"dialog_node": "No loan required",
+		"previous_sibling": "Calculate loan"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The loan has been created and you will have the money in your account within 5 minutes. Thank you for letting me help you, I hope you enjoy your $var_object"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Loan",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#positive",
+		"description": null,
+		"dialog_node": "Calculate loan",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": null,
+		"parent": "item",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_1_1498080868236",
+		"previous_sibling": "Define Var"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "item",
+		"context": {
+			"var_amount": "@sys-number"
+		},
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "currencycash"
+		},
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "Define Var",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Purchase options",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Negative response"
+		},
+		"conditions": "#negative",
+		"description": null,
+		"dialog_node": "Neither option",
+		"previous_sibling": "Savings"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {},
+		"parent": "Purchase options",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_34_1498061383622",
+		"previous_sibling": "node_33_1498061382882"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I have checked your spending patterns and you can afford to save 150 pounds a month, would you like me to setup this savings plan for you?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Purchase options",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#savings",
+		"description": null,
+		"dialog_node": "Savings",
+		"previous_sibling": "Loan"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We can lend you the $var_amount, I have checked your spending patterns and you can afford to pay back 100 pounds a month, would you like to proceed"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Purchase options",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#loan",
+		"description": null,
+		"dialog_node": "Loan",
+		"previous_sibling": "node_34_1498061383622"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["We can offer you a savings plan or we could offer you an instant loan, which would you like me to look at for you"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Purchase options",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_33_1498061382882",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I have checked your account and looked at your projected spending based on historical patterns and you cannot afford $var_amount for this $var_object would you like me to look at purchase options for you"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "currencycash",
+		"context": {
+			"var_api": 1
+		},
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_15_1498050735490",
+		"previous_sibling": "Negative response"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Thanks for using me to check, you may have made a sensible decision today"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "currencycash",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#negative",
+		"description": null,
+		"dialog_node": "Negative response",
+		"previous_sibling": "Purchase options"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "currencycash",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_16_1498055846726",
+		"previous_sibling": "node_15_1498050735490"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "currencycash",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#positive",
+		"description": null,
+		"dialog_node": "Purchase options",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hi, I am Jess your personal financial friend, here to look after you. How can I help?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Welcome",
+		"context": {
+			"var_api": 1,
+			"var_mic": 1,
+			"var_afford": 0,
+			"var_amount": 0,
+			"var_object": "",
+			"var_balance": 0
+		},
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_1_1498047284011",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I have checked your accounts and spending patterns, I am pleased to say you can buy this $var_object for $var_amount. I hope you enjoy your purchase!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "canafford",
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_45_1498063852664",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Hi, Your current balance is $var_balance, do you want to know how much disposable income you have for the rest of the month?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#balance",
+		"description": null,
+		"dialog_node": "Balance request check",
+		"previous_sibling": "Speakers on or off"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["That sounds great, how much is it?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"var_object": "@object"
+		},
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#buy",
+		"description": null,
+		"dialog_node": "item",
+		"previous_sibling": "Balance request check"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["It was a pleasure helping you today"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#goodbye",
+		"description": null,
+		"dialog_node": "Goodbye",
+		"previous_sibling": "item"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "Goodbye"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#togglespeaker",
+		"description": null,
+		"dialog_node": "Speakers on or off",
+		"previous_sibling": "Welcome"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-01-09T21:14:57.516Z",
+		"updated": "2018-01-09T21:14:57.516Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome || #greeting",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
+	"workspace_id": "d6b7bb99-c914-4756-ac5c-ac91a8bc311d",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

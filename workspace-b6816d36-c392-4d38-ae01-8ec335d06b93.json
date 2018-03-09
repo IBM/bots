@@ -1,1 +1,422 @@
-{"name":"BeerTalk","created":"2016-10-26T17:44:42.972Z","intents":[{"intent":"PedirCerveza","created":"2016-10-26T17:45:16.711Z","updated":"2016-11-03T23:49:54.942Z","examples":[{"text":"Quiero una @NoEstilo","created":"2016-11-02T18:17:45.586Z","updated":"2016-11-29T17:31:45.525Z"},{"text":"Una @Cerveza por favor","created":"2016-10-26T17:50:40.936Z","updated":"2016-11-29T17:31:45.525Z"},{"text":"Sírveme una @Cerveza","created":"2016-10-26T17:50:55.285Z","updated":"2016-11-29T17:31:45.525Z"},{"text":"Dame una @Estilo","created":"2016-10-26T17:51:02.926Z","updated":"2016-11-29T17:31:45.525Z"},{"text":"Quiero una @Estilo","created":"2016-10-26T17:51:20.690Z","updated":"2016-11-29T17:31:45.525Z"},{"text":"Quiero una @Cerveza","created":"2016-10-26T17:50:27.978Z","updated":"2016-11-29T17:31:45.525Z"}],"description":null},{"intent":"ListarEstilos","created":"2016-11-03T22:59:35.296Z","updated":"2016-11-03T23:50:53.154Z","examples":[{"text":"¿que sirven aquí?","created":"2016-11-03T23:49:20.922Z","updated":"2016-11-29T17:52:51.536Z"},{"text":"No se","created":"2016-11-03T23:50:53.154Z","updated":"2016-11-29T17:52:51.536Z"},{"text":"¿Que estilos tienen?","created":"2016-11-03T23:50:30.470Z","updated":"2016-11-29T17:52:51.536Z"}],"description":null},{"intent":"Saludo","created":"2016-10-26T17:45:10.222Z","updated":"2016-10-26T17:51:41.009Z","examples":[{"text":"Que tal","created":"2016-10-26T17:45:34.140Z","updated":"2016-11-29T18:05:16.563Z"},{"text":"Hola","created":"2016-10-26T17:45:26.418Z","updated":"2016-11-29T18:05:16.563Z"},{"text":"Yujuu","created":"2016-10-26T17:45:41.846Z","updated":"2016-11-29T18:05:16.563Z"},{"text":"Buen día","created":"2016-10-26T17:45:30.334Z","updated":"2016-11-29T18:05:16.563Z"},{"text":"Hi","created":"2016-10-26T17:51:41.009Z","updated":"2016-11-29T18:05:16.563Z"}],"description":null}],"updated":"2017-12-22T20:03:00.588Z","entities":[{"entity":"Caracteristica","values":[{"type":"synonyms","value":"Color","created":"2016-11-02T17:13:28.138Z","updated":"2016-11-02T17:13:35.554Z","metadata":null,"synonyms":["tono"]},{"type":"synonyms","value":"Amargor","created":"2016-11-02T17:13:18.972Z","updated":"2016-11-02T17:16:18.041Z","metadata":null,"synonyms":["IBU","amarga"]}],"created":"2016-11-02T17:13:07.100Z","updated":"2016-11-02T17:13:07.100Z","metadata":null,"description":null},{"entity":"Estilo","values":[{"type":"synonyms","value":"IPA","created":"2016-10-26T17:46:54.241Z","updated":"2016-10-26T17:46:54.241Z","metadata":null,"synonyms":["India Pale Ale"]},{"type":"synonyms","value":"Stout","created":"2016-10-26T17:47:09.769Z","updated":"2016-10-26T17:47:09.769Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Porter","created":"2016-10-26T17:47:18.825Z","updated":"2016-10-26T17:47:18.825Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"Red ale","created":"2016-10-26T17:49:32.387Z","updated":"2016-10-26T17:49:42.926Z","metadata":null,"synonyms":["Roja","Irish red"]}],"created":"2016-10-26T17:46:23.035Z","updated":"2016-10-26T17:46:23.035Z","metadata":null,"description":null},{"entity":"OffTopic","values":[{"type":"synonyms","value":"deportes","created":"2016-11-02T18:18:25.701Z","updated":"2016-11-02T18:19:20.599Z","metadata":null,"synonyms":["partido","america","pumas","futbol"]},{"type":"synonyms","value":"religión","created":"2016-11-02T17:20:59.331Z","updated":"2016-11-02T17:21:14.337Z","metadata":null,"synonyms":["iglesia"]},{"type":"synonyms","value":"política","created":"2016-11-02T17:20:59.331Z","updated":"2016-11-02T17:21:42.316Z","metadata":null,"synonyms":["peña nieto","trump","pri","elecciones"]}],"created":"2016-11-02T17:20:59.331Z","updated":"2016-11-02T17:20:59.331Z","metadata":null,"description":null},{"entity":"Cerveza","values":[],"created":"2016-10-26T17:46:06.233Z","updated":"2016-10-26T17:46:06.233Z","metadata":null,"description":null},{"entity":"Abominaciones","values":[{"type":"synonyms","value":"Michelada","created":"2016-11-02T17:12:26.951Z","updated":"2016-11-02T17:19:12.868Z","metadata":null,"synonyms":["Gomichela"]}],"created":"2016-11-02T17:12:26.951Z","updated":"2016-11-02T17:12:26.951Z","metadata":null,"description":null},{"entity":"NoEstilo","values":[{"type":"synonyms","value":"cualquier cosa","created":"2016-11-02T18:17:14.000Z","updated":"2016-11-02T18:17:23.893Z","metadata":null,"synonyms":["cualquiera","me da igual"]},{"type":"synonyms","value":"clara","created":"2016-11-02T17:11:36.765Z","updated":"2016-11-02T17:11:36.765Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"obscura","created":"2016-11-02T17:11:36.765Z","updated":"2016-11-02T17:11:36.765Z","metadata":null,"synonyms":[]}],"created":"2016-11-02T17:11:36.765Z","updated":"2016-11-02T17:11:36.765Z","metadata":null,"description":null}],"language":"es","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"},"runtime_version":"2017-02-03"},"description":null,"dialog_nodes":[{"type":"standard","title":null,"output":{},"parent":"node_15_1478213298708","context":null,"created":"2016-11-04T00:03:17.177Z","updated":"2016-11-04T16:03:38.362Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_4_1496330836788"},"conditions":"True","description":null,"dialog_node":"node_24_1478217796631","previous_sibling":null},{"type":"standard","title":null,"output":{"text":{"values":["¿Algún estilo en especial?"]}},"parent":"node_2_1494862476424","context":{"asked":true,"reprompt":true},"created":"2016-11-03T22:48:19.233Z","updated":"2017-12-22T20:03:00.588Z","metadata":{},"next_step":null,"conditions":"True","description":null,"dialog_node":"node_15_1478213298708","previous_sibling":"node_27_1478274892958"},{"type":"standard","title":null,"output":{"text":"@NoEstilo no es un estilo"},"parent":"node_2_1494862476424","context":null,"created":"2016-11-03T23:01:03.333Z","updated":"2016-11-04T00:07:01.558Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_19_1478213961161"},"conditions":"@NoEstilo","description":null,"dialog_node":"node_21_1478214062816","previous_sibling":"node_4_1496330836788"},{"type":"standard","title":null,"output":{"text":"Huy, aquí no servimos @Abominaciones"},"parent":"node_2_1494862476424","context":null,"created":"2016-11-04T15:54:54.262Z","updated":"2017-07-25T17:19:44.182Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"node_19_1478213961161"},"conditions":"@Abominaciones","description":null,"dialog_node":"node_27_1478274892958","previous_sibling":"node_21_1478214062816"},{"type":"standard","title":null,"output":{"text":"Excelente, una @Estilo para ti!"},"parent":"node_2_1494862476424","context":{"asked":false},"created":"2016-11-03T22:46:53.730Z","updated":"2017-06-01T15:27:19.866Z","metadata":null,"next_step":null,"conditions":"@Estilo","description":null,"dialog_node":"node_4_1496330836788","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"No no, yo mejor no hablo de @OffTopic"},"parent":null,"context":null,"created":"2016-11-02T18:11:33.955Z","updated":"2017-12-22T19:59:04.547Z","metadata":{},"next_step":null,"conditions":"@OffTopic","description":null,"dialog_node":"node_11_1478110292676","previous_sibling":"node_1_1477504962507"},{"type":"standard","title":null,"output":{"text":"Hola, ¿qué se te antoja tomar?"},"parent":null,"context":null,"created":"2016-10-26T18:25:36.708Z","updated":"2016-11-03T23:45:11.863Z","metadata":null,"next_step":null,"conditions":"#Saludo","description":null,"dialog_node":"node_3_1477506334510","previous_sibling":"node_2_1494862476424"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2016-11-03T22:46:23.068Z","updated":"2017-06-28T20:26:14.006Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_4_1496330836788"},"conditions":"#PedirCerveza || $asked==true","description":null,"dialog_node":"node_2_1494862476424","previous_sibling":"node_11_1478110292676"},{"type":"standard","title":null,"output":{"text":"Tenemos IPA, Pale Ale, Red Ale, Porter y Stouts"},"parent":null,"context":null,"created":"2016-11-03T22:59:21.670Z","updated":"2016-11-03T23:45:11.863Z","metadata":null,"next_step":null,"conditions":"#ListarEstilos","description":null,"dialog_node":"node_19_1478213961161","previous_sibling":"node_3_1477506334510"},{"type":"standard","title":null,"output":{"text":"¿Eso qué?"},"parent":null,"context":null,"created":"2016-10-26T18:02:51.146Z","updated":"2017-06-20T18:54:05.167Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_2_1477504968975","previous_sibling":"node_19_1478213961161"},{"type":"standard","title":null,"output":{"text":"Bienvenido a cognitive beer"},"parent":null,"context":null,"created":"2016-10-26T18:02:44.715Z","updated":"2017-07-08T04:35:13.139Z","metadata":null,"next_step":null,"conditions":"conversation_start","description":null,"dialog_node":"node_1_1477504962507","previous_sibling":null}],"workspace_id":"b6816d36-c392-4d38-ae01-8ec335d06b93","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "BeerTalk",
+	"created": "2016-10-26T17:44:42.972Z",
+	"intents": [{
+		"intent": "PedirCerveza",
+		"created": "2016-10-26T17:45:16.711Z",
+		"updated": "2016-11-03T23:49:54.942Z",
+		"examples": [{
+			"text": "Quiero una @NoEstilo",
+			"created": "2016-11-02T18:17:45.586Z",
+			"updated": "2016-11-29T17:31:45.525Z"
+		}, {
+			"text": "Una @Cerveza por favor",
+			"created": "2016-10-26T17:50:40.936Z",
+			"updated": "2016-11-29T17:31:45.525Z"
+		}, {
+			"text": "Sírveme una @Cerveza",
+			"created": "2016-10-26T17:50:55.285Z",
+			"updated": "2016-11-29T17:31:45.525Z"
+		}, {
+			"text": "Dame una @Estilo",
+			"created": "2016-10-26T17:51:02.926Z",
+			"updated": "2016-11-29T17:31:45.525Z"
+		}, {
+			"text": "Quiero una @Estilo",
+			"created": "2016-10-26T17:51:20.690Z",
+			"updated": "2016-11-29T17:31:45.525Z"
+		}, {
+			"text": "Quiero una @Cerveza",
+			"created": "2016-10-26T17:50:27.978Z",
+			"updated": "2016-11-29T17:31:45.525Z"
+		}],
+		"description": null
+	}, {
+		"intent": "ListarEstilos",
+		"created": "2016-11-03T22:59:35.296Z",
+		"updated": "2016-11-03T23:50:53.154Z",
+		"examples": [{
+			"text": "¿que sirven aquí?",
+			"created": "2016-11-03T23:49:20.922Z",
+			"updated": "2016-11-29T17:52:51.536Z"
+		}, {
+			"text": "No se",
+			"created": "2016-11-03T23:50:53.154Z",
+			"updated": "2016-11-29T17:52:51.536Z"
+		}, {
+			"text": "¿Que estilos tienen?",
+			"created": "2016-11-03T23:50:30.470Z",
+			"updated": "2016-11-29T17:52:51.536Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Saludo",
+		"created": "2016-10-26T17:45:10.222Z",
+		"updated": "2016-10-26T17:51:41.009Z",
+		"examples": [{
+			"text": "Que tal",
+			"created": "2016-10-26T17:45:34.140Z",
+			"updated": "2016-11-29T18:05:16.563Z"
+		}, {
+			"text": "Hola",
+			"created": "2016-10-26T17:45:26.418Z",
+			"updated": "2016-11-29T18:05:16.563Z"
+		}, {
+			"text": "Yujuu",
+			"created": "2016-10-26T17:45:41.846Z",
+			"updated": "2016-11-29T18:05:16.563Z"
+		}, {
+			"text": "Buen día",
+			"created": "2016-10-26T17:45:30.334Z",
+			"updated": "2016-11-29T18:05:16.563Z"
+		}, {
+			"text": "Hi",
+			"created": "2016-10-26T17:51:41.009Z",
+			"updated": "2016-11-29T18:05:16.563Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-12-22T20:03:00.588Z",
+	"entities": [{
+		"entity": "Caracteristica",
+		"values": [{
+			"type": "synonyms",
+			"value": "Color",
+			"created": "2016-11-02T17:13:28.138Z",
+			"updated": "2016-11-02T17:13:35.554Z",
+			"metadata": null,
+			"synonyms": ["tono"]
+		}, {
+			"type": "synonyms",
+			"value": "Amargor",
+			"created": "2016-11-02T17:13:18.972Z",
+			"updated": "2016-11-02T17:16:18.041Z",
+			"metadata": null,
+			"synonyms": ["IBU", "amarga"]
+		}],
+		"created": "2016-11-02T17:13:07.100Z",
+		"updated": "2016-11-02T17:13:07.100Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Estilo",
+		"values": [{
+			"type": "synonyms",
+			"value": "IPA",
+			"created": "2016-10-26T17:46:54.241Z",
+			"updated": "2016-10-26T17:46:54.241Z",
+			"metadata": null,
+			"synonyms": ["India Pale Ale"]
+		}, {
+			"type": "synonyms",
+			"value": "Stout",
+			"created": "2016-10-26T17:47:09.769Z",
+			"updated": "2016-10-26T17:47:09.769Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Porter",
+			"created": "2016-10-26T17:47:18.825Z",
+			"updated": "2016-10-26T17:47:18.825Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "Red ale",
+			"created": "2016-10-26T17:49:32.387Z",
+			"updated": "2016-10-26T17:49:42.926Z",
+			"metadata": null,
+			"synonyms": ["Roja", "Irish red"]
+		}],
+		"created": "2016-10-26T17:46:23.035Z",
+		"updated": "2016-10-26T17:46:23.035Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "OffTopic",
+		"values": [{
+			"type": "synonyms",
+			"value": "deportes",
+			"created": "2016-11-02T18:18:25.701Z",
+			"updated": "2016-11-02T18:19:20.599Z",
+			"metadata": null,
+			"synonyms": ["partido", "america", "pumas", "futbol"]
+		}, {
+			"type": "synonyms",
+			"value": "religión",
+			"created": "2016-11-02T17:20:59.331Z",
+			"updated": "2016-11-02T17:21:14.337Z",
+			"metadata": null,
+			"synonyms": ["iglesia"]
+		}, {
+			"type": "synonyms",
+			"value": "política",
+			"created": "2016-11-02T17:20:59.331Z",
+			"updated": "2016-11-02T17:21:42.316Z",
+			"metadata": null,
+			"synonyms": ["peña nieto", "trump", "pri", "elecciones"]
+		}],
+		"created": "2016-11-02T17:20:59.331Z",
+		"updated": "2016-11-02T17:20:59.331Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Cerveza",
+		"values": [],
+		"created": "2016-10-26T17:46:06.233Z",
+		"updated": "2016-10-26T17:46:06.233Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Abominaciones",
+		"values": [{
+			"type": "synonyms",
+			"value": "Michelada",
+			"created": "2016-11-02T17:12:26.951Z",
+			"updated": "2016-11-02T17:19:12.868Z",
+			"metadata": null,
+			"synonyms": ["Gomichela"]
+		}],
+		"created": "2016-11-02T17:12:26.951Z",
+		"updated": "2016-11-02T17:12:26.951Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "NoEstilo",
+		"values": [{
+			"type": "synonyms",
+			"value": "cualquier cosa",
+			"created": "2016-11-02T18:17:14.000Z",
+			"updated": "2016-11-02T18:17:23.893Z",
+			"metadata": null,
+			"synonyms": ["cualquiera", "me da igual"]
+		}, {
+			"type": "synonyms",
+			"value": "clara",
+			"created": "2016-11-02T17:11:36.765Z",
+			"updated": "2016-11-02T17:11:36.765Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "obscura",
+			"created": "2016-11-02T17:11:36.765Z",
+			"updated": "2016-11-02T17:11:36.765Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2016-11-02T17:11:36.765Z",
+		"updated": "2016-11-02T17:11:36.765Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "es",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		},
+		"runtime_version": "2017-02-03"
+	},
+	"description": null,
+	"dialog_nodes": [{
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_15_1478213298708",
+		"context": null,
+		"created": "2016-11-04T00:03:17.177Z",
+		"updated": "2016-11-04T16:03:38.362Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_4_1496330836788"
+		},
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_24_1478217796631",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["¿Algún estilo en especial?"]
+			}
+		},
+		"parent": "node_2_1494862476424",
+		"context": {
+			"asked": true,
+			"reprompt": true
+		},
+		"created": "2016-11-03T22:48:19.233Z",
+		"updated": "2017-12-22T20:03:00.588Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "True",
+		"description": null,
+		"dialog_node": "node_15_1478213298708",
+		"previous_sibling": "node_27_1478274892958"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "@NoEstilo no es un estilo"
+		},
+		"parent": "node_2_1494862476424",
+		"context": null,
+		"created": "2016-11-03T23:01:03.333Z",
+		"updated": "2016-11-04T00:07:01.558Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_19_1478213961161"
+		},
+		"conditions": "@NoEstilo",
+		"description": null,
+		"dialog_node": "node_21_1478214062816",
+		"previous_sibling": "node_4_1496330836788"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Huy, aquí no servimos @Abominaciones"
+		},
+		"parent": "node_2_1494862476424",
+		"context": null,
+		"created": "2016-11-04T15:54:54.262Z",
+		"updated": "2017-07-25T17:19:44.182Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_19_1478213961161"
+		},
+		"conditions": "@Abominaciones",
+		"description": null,
+		"dialog_node": "node_27_1478274892958",
+		"previous_sibling": "node_21_1478214062816"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Excelente, una @Estilo para ti!"
+		},
+		"parent": "node_2_1494862476424",
+		"context": {
+			"asked": false
+		},
+		"created": "2016-11-03T22:46:53.730Z",
+		"updated": "2017-06-01T15:27:19.866Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Estilo",
+		"description": null,
+		"dialog_node": "node_4_1496330836788",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "No no, yo mejor no hablo de @OffTopic"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-02T18:11:33.955Z",
+		"updated": "2017-12-22T19:59:04.547Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@OffTopic",
+		"description": null,
+		"dialog_node": "node_11_1478110292676",
+		"previous_sibling": "node_1_1477504962507"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Hola, ¿qué se te antoja tomar?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-10-26T18:25:36.708Z",
+		"updated": "2016-11-03T23:45:11.863Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Saludo",
+		"description": null,
+		"dialog_node": "node_3_1477506334510",
+		"previous_sibling": "node_2_1494862476424"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-03T22:46:23.068Z",
+		"updated": "2017-06-28T20:26:14.006Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_4_1496330836788"
+		},
+		"conditions": "#PedirCerveza || $asked==true",
+		"description": null,
+		"dialog_node": "node_2_1494862476424",
+		"previous_sibling": "node_11_1478110292676"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Tenemos IPA, Pale Ale, Red Ale, Porter y Stouts"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-03T22:59:21.670Z",
+		"updated": "2016-11-03T23:45:11.863Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#ListarEstilos",
+		"description": null,
+		"dialog_node": "node_19_1478213961161",
+		"previous_sibling": "node_3_1477506334510"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "¿Eso qué?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-10-26T18:02:51.146Z",
+		"updated": "2017-06-20T18:54:05.167Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1477504968975",
+		"previous_sibling": "node_19_1478213961161"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Bienvenido a cognitive beer"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-10-26T18:02:44.715Z",
+		"updated": "2017-07-08T04:35:13.139Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "conversation_start",
+		"description": null,
+		"dialog_node": "node_1_1477504962507",
+		"previous_sibling": null
+	}],
+	"workspace_id": "b6816d36-c392-4d38-ae01-8ec335d06b93",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

@@ -1,1 +1,935 @@
-{"name":"FoodKit","created":"2017-05-22T21:27:51.004Z","intents":[{"intent":"restart","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","examples":[{"text":"restart","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"start over","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"start again","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"first","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"get started","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"begin","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"}],"description":null},{"intent":"yes","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","examples":[{"text":"yes","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"add a food item","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"}],"description":null},{"intent":"no","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","examples":[{"text":"I am good","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"skip","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"no","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"}],"description":null},{"intent":"hello","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","examples":[{"text":"good morning","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"greetings","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"hello","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"hi","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"},{"text":"howdy","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z"}],"description":null}],"updated":"2017-07-29T00:45:53.394Z","entities":[{"entity":"foodtype","values":[{"type":"synonyms","value":"skip","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":["no","next"]},{"type":"synonyms","value":"food_item","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":["menu item","menu","food","taco","sandwich","salad","pizza","pasta","french fries","falafel","burrito","burger"]},{"type":"synonyms","value":"cuisine","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":["nigerian","korean","portuguese","egyptian","belgian","irish","tibetan","brazillian","hawaiian","german","canadian","russian","jewish","vietnamese","turkish","spanish","moroccan","mediterranean","japanese","caribbean","british","greek","french","indian","thai","italian","chinese","american","mexican"]}],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"search","values":[{"type":"synonyms","value":"search","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"no","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"yes","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]}],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"sys-location","values":[],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"location","values":[{"type":"synonyms","value":"505 Howard Street SF","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]}],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"price","values":[],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"cuisine_category","values":[{"type":"synonyms","value":"indian","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"mexican","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"american","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"italian","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"chinese","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"thai","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]}],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"menu_items","values":[{"type":"synonyms","value":"sandwich","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":["sub"]},{"type":"synonyms","value":"French fries","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":["fries"]},{"type":"synonyms","value":"taco","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"burrito","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"falafel","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"salad","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"burger","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]},{"type":"synonyms","value":"pizza","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]}],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"restaurant","values":[],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"radius","values":[{"type":"synonyms","value":"5","created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"synonyms":[]}],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"}},"description":"","dialog_nodes":[{"title":"anything_else","output":{"text":{"values":["Please enter a valid address"],"selection_policy":"sequential"}},"parent":"Selecting food type","context":{"location":0,"user_location":0},"created":"2017-05-22T21:27:51.004Z","updated":"2017-07-03T18:41:24.734Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Location"},"conditions":"anything_else || @foodtype:skip","description":null,"dialog_node":"anything_else","previous_sibling":"User Location"},{"title":"User Location","output":{"text":{"values":["How far do you want to travel?"],"selection_policy":"sequential"}},"parent":"Selecting food type","context":{"search":1,"user_location":1},"created":"2017-07-01T02:18:58.823Z","updated":"2017-07-03T18:44:24.077Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Radius"},"conditions":"input.text matches '^[-+]?([1-8]?\\d(\\.\\d+)?|90(\\.0+)?),\\s*[-+]?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$'","description":null,"dialog_node":"User Location","previous_sibling":"Location"},{"title":"Location","output":{"text":{"values":["How far do you want to travel"],"selection_policy":"sequential"}},"parent":"Selecting food type","context":{"search":1,"location":"<? input.text ?>"},"created":"2017-07-01T02:02:38.295Z","updated":"2017-07-28T21:28:16.733Z","metadata":null,"next_step":null,"conditions":"@sys-location && input.text != \"skip\"","description":null,"dialog_node":"Location","previous_sibling":null},{"title":"Restaurant Name","output":{"text":{"values":["How many results would you like to see?"],"selection_policy":"sequential"}},"parent":"Price","context":{"search":1,"restaurant_keyword":"<? input.text ?>"},"created":"2017-05-22T21:27:51.004Z","updated":"2017-06-22T22:13:15.216Z","metadata":null,"next_step":null,"conditions":"input.text != \"skip\"","description":null,"dialog_node":"Restaurant Name","previous_sibling":"node_1_1493440665278"},{"title":"skip Restaurant Name","output":{"text":{"values":["How many results would you like to see?"],"selection_policy":"sequential"}},"parent":"Price","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Final"},"conditions":"@foodtype:skip","description":null,"dialog_node":"skip Restaurant Name","previous_sibling":"Restaurant Name"},{"type":"response_condition","title":null,"output":{"text":{"values":["Looking for a specific restaurant? Enter it here..."],"selection_policy":"sequential"}},"parent":"Price","context":{"price":"<? input.text ?>","search":1},"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_1_1493440665278","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["Please enter a valid radius."],"selection_policy":"sequential"}},"parent":"node_2_1491870000425","context":null,"created":"2017-07-29T00:44:59.452Z","updated":"2017-07-29T00:45:00.136Z","metadata":null,"next_step":null,"conditions":null,"description":null,"dialog_node":"node_6_1501289099264","previous_sibling":null},{"title":null,"output":{"text":{"values":["I did not get it, you can say something like Restart"],"selection_policy":"sequential"}},"parent":"restart no","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-06-19T20:58:30.124Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_1_1493160751358"},"conditions":"anything_else","description":null,"dialog_node":"node_2_1493161447756","previous_sibling":"node_1_1493160751358"},{"title":null,"output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":"restart no","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Conversation Start"},"conditions":"#restart","description":null,"dialog_node":"node_1_1493160751358","previous_sibling":null},{"title":null,"output":{"text":{"values":["Do you want to restart?"],"selection_policy":"sequential"}},"parent":"Final","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":null,"conditions":"@search:no","description":null,"dialog_node":"node_4_1492030446663","previous_sibling":"Search"},{"title":null,"output":{"text":{"values":["Please say yes or no"],"selection_policy":"sequential"}},"parent":"Final","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Search"},"conditions":"anything_else","description":null,"dialog_node":"node_6_1492030456350","previous_sibling":"node_4_1492030446663"},{"title":"Search","output":{"text":{"values":["Executing search"],"selection_policy":"sequential"}},"parent":"Final","context":{"search":1},"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-24T16:04:27.169Z","metadata":null,"next_step":null,"conditions":"@search:yes","description":null,"dialog_node":"Search","previous_sibling":null},{"title":"restart no","output":{"text":{"values":["Alright, whenever you want, Say restart"],"selection_policy":"sequential"}},"parent":"node_4_1492030446663","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-06-19T17:41:33.045Z","metadata":null,"next_step":null,"conditions":"@search:no","description":null,"dialog_node":"restart no","previous_sibling":"restart yes"},{"title":null,"output":{"text":{"values":["Please say yes or no"],"selection_policy":"sequential"}},"parent":"node_4_1492030446663","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"restart yes"},"conditions":"anything_else","description":null,"dialog_node":"node_7_1492030592549","previous_sibling":"restart no"},{"title":"restart yes","output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":"node_4_1492030446663","context":{"price":-1,"radius":0,"search":1,"food_type":0,"output_limit":0,"restaurant_keyword":0},"created":"2017-05-22T21:27:51.004Z","updated":"2017-06-22T22:21:07.144Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Conversation Start"},"conditions":"@search:yes","description":null,"dialog_node":"restart yes","previous_sibling":null},{"title":"skip price","output":{"text":{"values":["Looking for a specific restaurant? Enter it here..."],"selection_policy":"sequential"}},"parent":"Radius","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Restaurant Name"},"conditions":"@foodtype:skip","description":null,"dialog_node":"skip price","previous_sibling":"Price"},{"title":null,"output":{"text":{"values":["I didn't get you. You can say something like \"less than $5\""],"selection_policy":"sequential"}},"parent":"Radius","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Price"},"conditions":"anything_else","description":null,"dialog_node":"node_8_1492449918008","previous_sibling":"skip price"},{"title":"Price","output":{},"parent":"Radius","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":null,"conditions":"@sys-number","description":null,"dialog_node":"Price","previous_sibling":null},{"title":"anything_else output limit","output":{"text":{"values":["The output limit can only be a number. Please enter a valid number"],"selection_policy":"sequential"}},"parent":"Restaurant Name","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-22T21:27:51.004Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Final"},"conditions":"anything_else","description":null,"dialog_node":"anything_else output limit","previous_sibling":"Final skip"},{"title":"Final skip","output":{"text":{"values":["We are done! Do you want to restart?"],"selection_policy":"sequential"}},"parent":"Restaurant Name","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-24T16:01:17.817Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"restart yes"},"conditions":"@foodtype:skip","description":null,"dialog_node":"Final skip","previous_sibling":"Final"},{"title":"Final","output":{"text":{"values":["We are done! Do you want to restart?"],"selection_policy":"sequential"}},"parent":"Restaurant Name","context":{"search":1,"output_limit":"@sys-number"},"created":"2017-05-22T21:27:51.004Z","updated":"2017-05-24T16:02:51.420Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"restart yes"},"conditions":"@sys-number","description":null,"dialog_node":"Final","previous_sibling":null},{"title":"Selecting food type","output":{"text":{"values":["Please specify your location"],"selection_policy":"sequential"}},"parent":"Conversation Start","context":{"search":1,"food_type":"<? input.text ?>"},"created":"2017-05-22T21:27:51.004Z","updated":"2017-07-28T00:00:12.979Z","metadata":null,"next_step":null,"conditions":"input.text != \"skip\"","description":null,"dialog_node":"Selecting food type","previous_sibling":"Skip Food Type"},{"title":"Skip Food Type","output":{"text":{"values":["Please specify your location"],"selection_policy":"sequential"}},"parent":"Conversation Start","context":{"search":1},"created":"2017-05-22T21:27:51.004Z","updated":"2017-07-03T18:45:56.395Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Location"},"conditions":"@foodtype:skip","description":null,"dialog_node":"Skip Food Type","previous_sibling":null},{"title":"skip radius","output":{},"parent":"Location","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-07-01T02:05:34.951Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Radius"},"conditions":"@foodtype:skip","description":null,"dialog_node":"skip radius","previous_sibling":"Radius"},{"title":null,"output":{},"parent":"Location","context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-07-29T00:45:00.165Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"Radius"},"conditions":"anything_else","description":null,"dialog_node":"node_2_1491870000425","previous_sibling":"skip radius"},{"title":"Radius","output":{"text":{"values":["How much do you want to spend?"],"selection_policy":"sequential"}},"parent":"Location","context":{"radius":"@sys-number","search":1},"created":"2017-05-22T21:27:51.004Z","updated":"2017-07-01T02:05:47.656Z","metadata":null,"next_step":null,"conditions":"@sys-number","description":null,"dialog_node":"Radius","previous_sibling":null},{"title":null,"output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-05-22T21:27:51.004Z","updated":"2017-07-29T00:44:05.341Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"body","dialog_node":"Conversation Start"},"conditions":"anything_else || input.text == 'RESET'","description":null,"dialog_node":"node_3_1491425604309","previous_sibling":"Conversation Start"},{"title":"Conversation Start","output":{"text":{"values":["Let's find you some food! What would you like to eat?"],"selection_policy":"sequential"}},"parent":null,"context":{"user_location":0},"created":"2017-05-22T21:27:51.004Z","updated":"2017-07-27T23:54:14.238Z","metadata":null,"next_step":null,"conditions":"conversation_start","description":null,"dialog_node":"Conversation Start","previous_sibling":null}],"workspace_id":"8ee7e4c3-2810-47ab-921f-630782729a82","counterexamples":[{"text":"No Results Found","created":"2017-07-28T21:31:12.424Z","updated":"2017-07-28T21:31:12.424Z"},{"text":"skip","created":"2017-07-01T02:10:04.698Z","updated":"2017-07-01T02:10:04.698Z"}],"learning_opt_out":false}
+{
+	"name": "FoodKit",
+	"created": "2017-05-22T21:27:51.004Z",
+	"intents": [{
+		"intent": "restart",
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"examples": [{
+			"text": "restart",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "start over",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "start again",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "first",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "get started",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "begin",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}],
+		"description": null
+	}, {
+		"intent": "yes",
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"examples": [{
+			"text": "yes",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "add a food item",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}],
+		"description": null
+	}, {
+		"intent": "no",
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"examples": [{
+			"text": "I am good",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "skip",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "no",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}],
+		"description": null
+	}, {
+		"intent": "hello",
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"examples": [{
+			"text": "good morning",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "greetings",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "hello",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "hi",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}, {
+			"text": "howdy",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-07-29T00:45:53.394Z",
+	"entities": [{
+		"entity": "foodtype",
+		"values": [{
+			"type": "synonyms",
+			"value": "skip",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": ["no", "next"]
+		}, {
+			"type": "synonyms",
+			"value": "food_item",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": ["menu item", "menu", "food", "taco", "sandwich", "salad", "pizza", "pasta", "french fries", "falafel", "burrito", "burger"]
+		}, {
+			"type": "synonyms",
+			"value": "cuisine",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": ["nigerian", "korean", "portuguese", "egyptian", "belgian", "irish", "tibetan", "brazillian", "hawaiian", "german", "canadian", "russian", "jewish", "vietnamese", "turkish", "spanish", "moroccan", "mediterranean", "japanese", "caribbean", "british", "greek", "french", "indian", "thai", "italian", "chinese", "american", "mexican"]
+		}],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "search",
+		"values": [{
+			"type": "synonyms",
+			"value": "search",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "no",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "yes",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-location",
+		"values": [],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "location",
+		"values": [{
+			"type": "synonyms",
+			"value": "505 Howard Street SF",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "price",
+		"values": [],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "cuisine_category",
+		"values": [{
+			"type": "synonyms",
+			"value": "indian",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "mexican",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "american",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "italian",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "chinese",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "thai",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "menu_items",
+		"values": [{
+			"type": "synonyms",
+			"value": "sandwich",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": ["sub"]
+		}, {
+			"type": "synonyms",
+			"value": "French fries",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": ["fries"]
+		}, {
+			"type": "synonyms",
+			"value": "taco",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "burrito",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "falafel",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "salad",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "burger",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}, {
+			"type": "synonyms",
+			"value": "pizza",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "restaurant",
+		"values": [],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "radius",
+		"values": [{
+			"type": "synonyms",
+			"value": "5",
+			"created": "2017-05-22T21:27:51.004Z",
+			"updated": "2017-05-22T21:27:51.004Z",
+			"metadata": null,
+			"synonyms": []
+		}],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		}
+	},
+	"description": "",
+	"dialog_nodes": [{
+		"title": "anything_else",
+		"output": {
+			"text": {
+				"values": ["Please enter a valid address"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Selecting food type",
+		"context": {
+			"location": 0,
+			"user_location": 0
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-07-03T18:41:24.734Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Location"
+		},
+		"conditions": "anything_else || @foodtype:skip",
+		"description": null,
+		"dialog_node": "anything_else",
+		"previous_sibling": "User Location"
+	}, {
+		"title": "User Location",
+		"output": {
+			"text": {
+				"values": ["How far do you want to travel?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Selecting food type",
+		"context": {
+			"search": 1,
+			"user_location": 1
+		},
+		"created": "2017-07-01T02:18:58.823Z",
+		"updated": "2017-07-03T18:44:24.077Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Radius"
+		},
+		"conditions": "input.text matches '^[-+]?([1-8]?\\d(\\.\\d+)?|90(\\.0+)?),\\s*[-+]?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$'",
+		"description": null,
+		"dialog_node": "User Location",
+		"previous_sibling": "Location"
+	}, {
+		"title": "Location",
+		"output": {
+			"text": {
+				"values": ["How far do you want to travel"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Selecting food type",
+		"context": {
+			"search": 1,
+			"location": "<? input.text ?>"
+		},
+		"created": "2017-07-01T02:02:38.295Z",
+		"updated": "2017-07-28T21:28:16.733Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-location && input.text != \"skip\"",
+		"description": null,
+		"dialog_node": "Location",
+		"previous_sibling": null
+	}, {
+		"title": "Restaurant Name",
+		"output": {
+			"text": {
+				"values": ["How many results would you like to see?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Price",
+		"context": {
+			"search": 1,
+			"restaurant_keyword": "<? input.text ?>"
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-06-22T22:13:15.216Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "input.text != \"skip\"",
+		"description": null,
+		"dialog_node": "Restaurant Name",
+		"previous_sibling": "node_1_1493440665278"
+	}, {
+		"title": "skip Restaurant Name",
+		"output": {
+			"text": {
+				"values": ["How many results would you like to see?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Price",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Final"
+		},
+		"conditions": "@foodtype:skip",
+		"description": null,
+		"dialog_node": "skip Restaurant Name",
+		"previous_sibling": "Restaurant Name"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Looking for a specific restaurant? Enter it here..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Price",
+		"context": {
+			"price": "<? input.text ?>",
+			"search": 1
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_1_1493440665278",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please enter a valid radius."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_2_1491870000425",
+		"context": null,
+		"created": "2017-07-29T00:44:59.452Z",
+		"updated": "2017-07-29T00:45:00.136Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "node_6_1501289099264",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I did not get it, you can say something like Restart"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "restart no",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-06-19T20:58:30.124Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_1_1493160751358"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1493161447756",
+		"previous_sibling": "node_1_1493160751358"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": [""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "restart no",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Conversation Start"
+		},
+		"conditions": "#restart",
+		"description": null,
+		"dialog_node": "node_1_1493160751358",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Do you want to restart?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Final",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@search:no",
+		"description": null,
+		"dialog_node": "node_4_1492030446663",
+		"previous_sibling": "Search"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please say yes or no"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Final",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Search"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_6_1492030456350",
+		"previous_sibling": "node_4_1492030446663"
+	}, {
+		"title": "Search",
+		"output": {
+			"text": {
+				"values": ["Executing search"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Final",
+		"context": {
+			"search": 1
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-24T16:04:27.169Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@search:yes",
+		"description": null,
+		"dialog_node": "Search",
+		"previous_sibling": null
+	}, {
+		"title": "restart no",
+		"output": {
+			"text": {
+				"values": ["Alright, whenever you want, Say restart"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1492030446663",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-06-19T17:41:33.045Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@search:no",
+		"description": null,
+		"dialog_node": "restart no",
+		"previous_sibling": "restart yes"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Please say yes or no"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1492030446663",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "restart yes"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_7_1492030592549",
+		"previous_sibling": "restart no"
+	}, {
+		"title": "restart yes",
+		"output": {
+			"text": {
+				"values": [""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_4_1492030446663",
+		"context": {
+			"price": -1,
+			"radius": 0,
+			"search": 1,
+			"food_type": 0,
+			"output_limit": 0,
+			"restaurant_keyword": 0
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-06-22T22:21:07.144Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Conversation Start"
+		},
+		"conditions": "@search:yes",
+		"description": null,
+		"dialog_node": "restart yes",
+		"previous_sibling": null
+	}, {
+		"title": "skip price",
+		"output": {
+			"text": {
+				"values": ["Looking for a specific restaurant? Enter it here..."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Radius",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Restaurant Name"
+		},
+		"conditions": "@foodtype:skip",
+		"description": null,
+		"dialog_node": "skip price",
+		"previous_sibling": "Price"
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I didn't get you. You can say something like \"less than $5\""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Radius",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Price"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_8_1492449918008",
+		"previous_sibling": "skip price"
+	}, {
+		"title": "Price",
+		"output": {},
+		"parent": "Radius",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "Price",
+		"previous_sibling": null
+	}, {
+		"title": "anything_else output limit",
+		"output": {
+			"text": {
+				"values": ["The output limit can only be a number. Please enter a valid number"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Restaurant Name",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-22T21:27:51.004Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Final"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "anything_else output limit",
+		"previous_sibling": "Final skip"
+	}, {
+		"title": "Final skip",
+		"output": {
+			"text": {
+				"values": ["We are done! Do you want to restart?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Restaurant Name",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-24T16:01:17.817Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "restart yes"
+		},
+		"conditions": "@foodtype:skip",
+		"description": null,
+		"dialog_node": "Final skip",
+		"previous_sibling": "Final"
+	}, {
+		"title": "Final",
+		"output": {
+			"text": {
+				"values": ["We are done! Do you want to restart?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Restaurant Name",
+		"context": {
+			"search": 1,
+			"output_limit": "@sys-number"
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-05-24T16:02:51.420Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "restart yes"
+		},
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "Final",
+		"previous_sibling": null
+	}, {
+		"title": "Selecting food type",
+		"output": {
+			"text": {
+				"values": ["Please specify your location"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Conversation Start",
+		"context": {
+			"search": 1,
+			"food_type": "<? input.text ?>"
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-07-28T00:00:12.979Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "input.text != \"skip\"",
+		"description": null,
+		"dialog_node": "Selecting food type",
+		"previous_sibling": "Skip Food Type"
+	}, {
+		"title": "Skip Food Type",
+		"output": {
+			"text": {
+				"values": ["Please specify your location"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Conversation Start",
+		"context": {
+			"search": 1
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-07-03T18:45:56.395Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Location"
+		},
+		"conditions": "@foodtype:skip",
+		"description": null,
+		"dialog_node": "Skip Food Type",
+		"previous_sibling": null
+	}, {
+		"title": "skip radius",
+		"output": {},
+		"parent": "Location",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-07-01T02:05:34.951Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Radius"
+		},
+		"conditions": "@foodtype:skip",
+		"description": null,
+		"dialog_node": "skip radius",
+		"previous_sibling": "Radius"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "Location",
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-07-29T00:45:00.165Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "Radius"
+		},
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1491870000425",
+		"previous_sibling": "skip radius"
+	}, {
+		"title": "Radius",
+		"output": {
+			"text": {
+				"values": ["How much do you want to spend?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "Location",
+		"context": {
+			"radius": "@sys-number",
+			"search": 1
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-07-01T02:05:47.656Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-number",
+		"description": null,
+		"dialog_node": "Radius",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": {
+				"values": [""],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-07-29T00:44:05.341Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "Conversation Start"
+		},
+		"conditions": "anything_else || input.text == 'RESET'",
+		"description": null,
+		"dialog_node": "node_3_1491425604309",
+		"previous_sibling": "Conversation Start"
+	}, {
+		"title": "Conversation Start",
+		"output": {
+			"text": {
+				"values": ["Let's find you some food! What would you like to eat?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"user_location": 0
+		},
+		"created": "2017-05-22T21:27:51.004Z",
+		"updated": "2017-07-27T23:54:14.238Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "conversation_start",
+		"description": null,
+		"dialog_node": "Conversation Start",
+		"previous_sibling": null
+	}],
+	"workspace_id": "8ee7e4c3-2810-47ab-921f-630782729a82",
+	"counterexamples": [{
+		"text": "No Results Found",
+		"created": "2017-07-28T21:31:12.424Z",
+		"updated": "2017-07-28T21:31:12.424Z"
+	}, {
+		"text": "skip",
+		"created": "2017-07-01T02:10:04.698Z",
+		"updated": "2017-07-01T02:10:04.698Z"
+	}],
+	"learning_opt_out": false
+}

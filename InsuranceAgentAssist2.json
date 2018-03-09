@@ -1,1 +1,1086 @@
-{"name":"InsuranceAgentAssist","created":"2016-11-25T13:21:15.782Z","intents":[{"intent":"What","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","examples":[{"text":"explain","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"What is meant","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"What are","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"What is","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Tell me about","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Could you tell me about","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Define","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"What is a","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"}],"description":null},{"intent":"Contains","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","examples":[{"text":"What are the","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"What is the","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Which are the","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"are there","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Any","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Does it contain","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Does it have","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"how many","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"}],"description":null},{"intent":"How","created":"2016-11-25T13:21:15.782Z","updated":"2017-02-08T05:38:02.980Z","examples":[{"text":"can i","created":"2017-02-08T05:38:02.980Z","updated":"2017-02-08T05:38:02.980Z"},{"text":"How can we","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"How do I","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"How to","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"how can i","created":"2017-02-08T05:37:32.366Z","updated":"2017-02-08T05:37:32.366Z"},{"text":"i need to","created":"2017-02-08T05:37:41.489Z","updated":"2017-02-08T05:37:41.489Z"},{"text":"i want to","created":"2017-02-08T05:37:46.817Z","updated":"2017-02-08T05:37:46.817Z"}],"description":null},{"intent":"ok","created":"2016-11-25T13:21:15.782Z","updated":"2017-02-08T05:38:27.085Z","examples":[{"text":"Thank you","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"alright","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Fine","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Ok","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"thats fine","created":"2017-02-08T05:38:23.726Z","updated":"2017-02-08T05:38:23.726Z"},{"text":"alrite","created":"2017-02-08T05:38:27.085Z","updated":"2017-02-08T05:38:27.085Z"}],"description":null},{"intent":"Greetings","created":"2016-11-25T13:21:15.782Z","updated":"2017-02-08T05:38:48.998Z","examples":[{"text":"How are you","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Hello","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"good morning","created":"2017-02-08T05:38:36.418Z","updated":"2017-02-08T05:38:36.418Z"},{"text":"good afternoon","created":"2017-02-08T05:38:40.968Z","updated":"2017-02-08T05:38:40.968Z"},{"text":"hey there","created":"2017-02-08T05:38:46.540Z","updated":"2017-02-08T05:38:46.540Z"},{"text":"howdy","created":"2017-02-08T05:38:48.998Z","updated":"2017-02-08T05:38:48.998Z"},{"text":"Hi, How are you","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Hi","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"}],"description":null},{"intent":"When","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","examples":[{"text":"When will","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"Till when","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"When","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"When does","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"},{"text":"When can","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-29T18:09:36.947Z"}],"description":null}],"updated":"2017-02-08T05:38:48.998Z","entities":[{"entity":"ProductFeatures","values":[{"type":"synonyms","value":"DeathBenefit","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["death benefit","death cover","value at death"]},{"type":"synonyms","value":"Documents","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["documentation","Documents"]},{"type":"synonyms","value":"GuaranteedReturn","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["Guaranteed return","guaranteed returns","guaranteed surrender value","guaranteed value","surrender value"]},{"type":"synonyms","value":"MaturityBenefit","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["expiry","expiry value","maturity benefit","maturity value","value at expiry","value at maturity"]},{"type":"synonyms","value":"PaymentMethods","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["methods","options of paying premiums","paying premium","payment methods","payment options","pay premium"]},{"type":"synonyms","value":"PaymentMode","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["modal frequency","modes of payment","payment modes","premium modes"]},{"type":"synonyms","value":"PaymentTerm","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["payment term","policy payment term","premium payment term"]},{"type":"synonyms","value":"PolicyTerm","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["term"]},{"type":"synonyms","value":"Premium","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["premium","premium value","price"]},{"type":"synonyms","value":"SurrenderValue","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["surrender value","terminal value"]}],"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"description":null},{"entity":"RiderType","values":[{"type":"synonyms","value":"AccidentalDisabilityRider","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["Accidental disability","accident disability","AD","HDFC Life Income benefit","IB","IBAD","income benefit","income benefit on accident"]},{"type":"synonyms","value":"CIRider","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["CI","Critical Illness","critical illnesses","HDFC Life Critical illness"]}],"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"description":null},{"entity":"Policy","values":[{"type":"synonyms","value":"Policy","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["Plan","Policy","Product"]}],"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"description":null},{"entity":"Rider","values":[{"type":"synonyms","value":"Rider","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["rider","riders"]}],"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"description":null},{"entity":"Coverage","values":[{"type":"synonyms","value":"exclusion","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["excluded","exclusions"]},{"type":"synonyms","value":"inclusion","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["covered","included","includes"]}],"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"description":null},{"entity":"ProductType","values":[{"type":"synonyms","value":"Click2ProtectPlus","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["Click 2 Protect Plus","Click2 Protect Plus","Click to Protect Plus","HDFC Life Click2ProtectPlus","HDFC Life Click 2 Protect Plus"]},{"type":"synonyms","value":"SuperIncomePlan","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["HDFC Life SuperIncome","HDFC Life Super Income","HDFC Super Income","SuperIncome","Super Income"]},{"type":"synonyms","value":"YoungStarUdaan","created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"synonyms":["HDFC Life YoungStarUdaan","HDFC Life Young Star Udaan","Young Star Udaan"]}],"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"},"runtime_version":"2016-09-20"},"description":"This workspace will enable the service to converse with the user about Life Insurance products","dialog_nodes":[{"title":null,"output":{},"parent":"node_15_1473687199241","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_11_1473057646701"},"conditions":"true","description":null,"dialog_node":"node_31_1473773044368","previous_sibling":"node_30_1473773020864"},{"title":null,"output":{"text":"On death of the life assured during the term of the policy, provided all due premiums are paid; the nominee will receive the higher of the following:\n•\tSum Assured on Death + Accrued Reversionary Bonuses + Interim Bonus (if any) + Terminal Bonus (if any)\n•\t105% of premiums# paid till date where, the Sum Assured on Death shall be the higher of:\n•\tSum Assured on Maturity\n•\t10 times Annualized Premium# for entry age up to 50 years and 7 times Annualized Premium# for entry age greater than 50 years"},"parent":"node_15_1473687199241","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@Policy:Policy || @ProductType:SuperIncomePlan || $SIP","description":null,"dialog_node":"node_30_1473773020864","previous_sibling":null},{"title":null,"output":{"text":""},"parent":"node_4_1474199478165","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_12_1473762792940"},"conditions":"true","description":null,"dialog_node":"node_6_1474199581267","previous_sibling":"node_5_1474199533496"},{"title":null,"output":{"text":"The payment options are online, cheque and Neft."},"parent":"node_4_1474199478165","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@Policy:Policy || @ProductType:SuperIncomePlan || $SIP","description":null,"dialog_node":"node_5_1474199533496","previous_sibling":null},{"title":null,"output":{"text":"HDFC Life Income benefit on accidental disability rider is a rider covers for your premiums incase of permanent disability or death"},"parent":"node_13_1473058128222","context":{"IR":true,"CIR":false},"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@RiderType:AccidentalDisabilityRider","description":null,"dialog_node":"node_1_1473689025654","previous_sibling":"node_31_1473688679451"},{"title":null,"output":{"text":"A critical illness rider financially empowers you to get the best possible treatment without worrying about costs, in case the Life Assured is diagnosed with a Critical Illness."},"parent":"node_13_1473058128222","context":{"IR":false,"CIR":true},"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@RiderType:CIRider","description":null,"dialog_node":"node_31_1473688679451","previous_sibling":"node_6_1473759503269"},{"title":null,"output":{"text":"A rider is an add-on provision to a basic insurance policy that provides additional benefits to the policyholder at an additional cost. This helps the product to be more flexible."},"parent":"node_13_1473058128222","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"true","description":null,"dialog_node":"node_2_1473689192588","previous_sibling":"node_1_1473689025654"},{"title":null,"output":{"text":""},"parent":"node_13_1473058128222","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_16_1473764440381"},"conditions":"@Coverage:inclusion","description":null,"dialog_node":"node_6_1473759503269","previous_sibling":null},{"title":null,"output":{"text":""},"parent":"node_41_1473862089567","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_25_1473771597863"},"conditions":"@Rider:Rider","description":null,"dialog_node":"node_1_1473745558173","previous_sibling":"node_15_1473687199241"},{"title":null,"output":{},"parent":"node_41_1473862089567","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_2_1474199014220"},"conditions":"@ProductFeatures:MaturityBenefit","description":null,"dialog_node":"node_1_1474198956441","previous_sibling":"node_4_1474199478165"},{"title":null,"output":{"text":""},"parent":"node_41_1473862089567","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_30_1473773020864"},"conditions":"@ProductFeatures:DeathBenefit","description":null,"dialog_node":"node_15_1473687199241","previous_sibling":"node_18_1473687455664"},{"title":null,"output":{"text":"Sorry, I did not understand your question. you can ask about the features of a product or riders."},"parent":"node_41_1473862089567","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"true","description":null,"dialog_node":"node_2_1474265106780","previous_sibling":"node_1_1473745558173"},{"title":null,"output":{"text":""},"parent":"node_41_1473862089567","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_28_1473772948221"},"conditions":"@ProductFeatures:Documents","description":null,"dialog_node":"node_18_1473687455664","previous_sibling":"node_19_1473687585612"},{"title":null,"output":{"text":""},"parent":"node_41_1473862089567","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_32_1473773107059"},"conditions":"@ProductFeatures:GuaranteedReturn","description":null,"dialog_node":"node_19_1473687585612","previous_sibling":"node_1_1474198956441"},{"title":null,"output":{},"parent":"node_41_1473862089567","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_5_1474199533496"},"conditions":"@ProductFeatures:PaymentMethods","description":null,"dialog_node":"node_4_1474199478165","previous_sibling":null},{"title":null,"output":{"text":"The documents required are income proof, address proof, ID and PAN card copy."},"parent":"node_18_1473687455664","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"true","description":null,"dialog_node":"node_29_1473772983587","previous_sibling":"node_28_1473772948221"},{"title":null,"output":{"text":"The documents required are income proof, address proof, ID and PAN card copy."},"parent":"node_18_1473687455664","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@Policy:Policy || @ProductType:SuperIncomePlan || $SIP","description":null,"dialog_node":"node_28_1473772948221","previous_sibling":null},{"title":null,"output":{"text":"Sorry, I did not understand your question. you can ask about the features of a product or riders."},"parent":"node_40_1473861912987","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"true","description":null,"dialog_node":"node_3_1474265258874","previous_sibling":"node_7_1473053911138"},{"title":null,"output":{"text":"Death benefit is the sum assured received at death of a life insured"},"parent":"node_40_1473861912987","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@ProductFeatures:DeathBenefit","description":null,"dialog_node":"node_11_1473057646701","previous_sibling":"node_10_1473760189029"},{"title":null,"output":{"text":""},"parent":"node_40_1473861912987","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_6_1473759503269"},"conditions":"@Rider:Rider","description":null,"dialog_node":"node_13_1473058128222","previous_sibling":"node_11_1473057646701"},{"title":null,"output":{"text":"The maturity benefit is a multiple of the premiums paid up to that time and the additional benefits which the insurance company chooses to give to the policyholder."},"parent":"node_40_1473861912987","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@ProductFeatures:MaturityBenefit","description":null,"dialog_node":"node_10_1473057561479","previous_sibling":"node_13_1473058128222"},{"title":null,"output":{"text":"A guaranteed policy is one in which the insurer assumes all the risk and contractually guarantees the death benefit in exchange for a set premium payment."},"parent":"node_40_1473861912987","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@ProductFeatures:GuaranteedReturn","description":null,"dialog_node":"node_7_1473053911138","previous_sibling":"node_10_1473057561479"},{"title":null,"output":{"text":"The Super income plan helps customers to fulfill multiple needs like planning for child’s education, retirement planning or simply to save for increasing expenses in future. This product offers higher death benefit to the customers in line with new regulations and also helps customers to secure their future with Guaranteed Regular Income."},"parent":"node_40_1473861912987","context":{"C2I":false,"SIP":true},"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@ProductType:SuperIncomePlan","description":null,"dialog_node":"node_10_1473760189029","previous_sibling":"node_12_1473762792940"},{"title":null,"output":{"text":"The payment options are online, cheque and Neft."},"parent":"node_40_1473861912987","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@ProductFeatures:PaymentMethods","description":null,"dialog_node":"node_12_1473762792940","previous_sibling":null},{"title":null,"output":{},"parent":"node_1_1473745558173","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_13_1473058128222"},"conditions":"true","description":null,"dialog_node":"node_26_1473771670148","previous_sibling":"node_25_1473771597863"},{"title":null,"output":{"text":"The Super Income Plan has two riders – the Critical Illness rider and the Accidental Disability rider."},"parent":"node_1_1473745558173","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@Policy:Policy || @ProductType:SuperIncomePlan || $SIP","description":null,"dialog_node":"node_25_1473771597863","previous_sibling":null},{"title":null,"output":{},"parent":"node_19_1473687585612","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_7_1473053911138"},"conditions":"true","description":null,"dialog_node":"node_33_1473773126938","previous_sibling":"node_32_1473773107059"},{"title":null,"output":{"text":"The policy will acquire a Guaranteed Surrender Value (GSV) provided 2 full years’ premium has been paid for premium payment term of 8 years and 3 full years premium have been paid for premium payment term of 10 and 12 years."},"parent":"node_19_1473687585612","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@Policy:Policy || @ProductType:SuperIncomePlan || $SIP","description":null,"dialog_node":"node_32_1473773107059","previous_sibling":null},{"title":null,"output":{"text":"Sorry I did not get what you asked. You can ask something like when policy achieves guaranteed returns."},"parent":"node_24_1473769999743","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"true","description":null,"dialog_node":"node_1_1474264982468","previous_sibling":"node_1_1473923565498"},{"title":null,"output":{},"parent":"node_24_1473769999743","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_15_1473763198289"},"conditions":"@ProductType:SuperIncomePlan || $SIP","description":null,"dialog_node":"node_1_1473923565498","previous_sibling":null},{"title":null,"output":{"text":"This rider covers for the permanent disability or death due to an accident"},"parent":"node_6_1473759503269","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@RiderType:AccidentalDisabilityRider || $IR","description":null,"dialog_node":"node_17_1473764562188","previous_sibling":"node_16_1473764440381"},{"title":null,"output":{"text":"The Critical Illness Rider ensures you are covered against 19 critical illnesses such as cancer, open chest CABG, first heart attack, Kidney failure, major organ / bone transplant, stroke, Apallic syndrome, benign brain tumour, Coma, end stage liver disease and lung disease, open heart replacement, loss of limbs, loss of independent existence, loss of sight, major burns, major head trauma permanent paralysis of limbs and surgery of aorta."},"parent":"node_6_1473759503269","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@RiderType:CIRider || $CIR","description":null,"dialog_node":"node_16_1473764440381","previous_sibling":null},{"title":null,"output":{"text":"The policy will acquire a Guaranteed Surrender Value (GSV) provided 2 full years’ premium has been paid for premium payment term of 8 years and 3 full years’ premium have been paid for premium payment term of 10 and 12 years."},"parent":"node_1_1473923565498","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@ProductFeatures:GuaranteedReturn","description":null,"dialog_node":"node_15_1473763198289","previous_sibling":null},{"title":null,"output":{},"parent":"node_1_1474198956441","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_10_1473057561479"},"conditions":"true","description":null,"dialog_node":"node_3_1474199109616","previous_sibling":"node_2_1474199014220"},{"title":null,"output":{"text":"For a policy where all due premiums have been paid, the maturity benefit will be the aggregate of:\n1.\tLast Guaranteed Base Income payout,\n2.\tAccrued Reversionary Bonuses,\n3.\tInterim Bonus, if any\n4.\tTerminal bonus, if any.\nOn payment of the Maturity Benefit, the policy will terminate and no more benefits will be payable."},"parent":"node_1_1474198956441","context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"@Policy:Policy || @ProductType:SuperIncomePlan || $SIP","description":null,"dialog_node":"node_2_1474199014220","previous_sibling":null},{"title":null,"output":{"text":"Hello, How can I help you?"},"parent":null,"context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"#Greetings","description":null,"dialog_node":"node_39_1473856624597","previous_sibling":"node_1_1473752183665"},{"title":null,"output":{},"parent":null,"context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_1_1473923565498"},"conditions":"#When","description":null,"dialog_node":"node_24_1473769999743","previous_sibling":"node_41_1473862089567"},{"title":null,"output":{},"parent":null,"context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_4_1474199478165"},"conditions":"#Contains","description":null,"dialog_node":"node_41_1473862089567","previous_sibling":"node_40_1473861912987"},{"title":null,"output":{"text":"Thanks, What else can I help you with?"},"parent":null,"context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"#ok","description":null,"dialog_node":"node_1_1473752183665","previous_sibling":"node_24_1473769999743"},{"title":null,"output":{"text":"I'm not sure about that. You can ask about a HDFC Life product or rider features."},"parent":null,"context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":null,"conditions":"anything_else","description":null,"dialog_node":"node_2_1473053390712","previous_sibling":"node_39_1473856624597"},{"title":null,"output":{},"parent":null,"context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2016-11-25T13:21:15.782Z","metadata":null,"next_step":{"behavior":"jump_to","selector":"condition","dialog_node":"node_12_1473762792940"},"conditions":"#What","description":null,"dialog_node":"node_40_1473861912987","previous_sibling":"node_1_1472808700390"},{"title":null,"output":{"text":"Welcome to Open Insurance! I’m Watson, your personal Digital Assistant.I can help you with any query regarding our products or the insurance industry. Feel free to ask me questions at any time."},"parent":null,"context":null,"created":"2016-11-25T13:21:15.782Z","updated":"2017-02-08T05:32:43.922Z","metadata":null,"next_step":null,"conditions":"conversation_start","description":null,"dialog_node":"node_1_1472808700390","previous_sibling":null}],"workspace_id":"8804a995-cd35-4b39-874e-39062ac6307b","counterexamples":[],"learning_opt_out":false}
+{
+	"name": "InsuranceAgentAssist",
+	"created": "2016-11-25T13:21:15.782Z",
+	"intents": [{
+		"intent": "What",
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"examples": [{
+			"text": "explain",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "What is meant",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "What are",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "What is",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Tell me about",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Could you tell me about",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Define",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "What is a",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Contains",
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"examples": [{
+			"text": "What are the",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "What is the",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Which are the",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "are there",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Any",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Does it contain",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Does it have",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "how many",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}],
+		"description": null
+	}, {
+		"intent": "How",
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2017-02-08T05:38:02.980Z",
+		"examples": [{
+			"text": "can i",
+			"created": "2017-02-08T05:38:02.980Z",
+			"updated": "2017-02-08T05:38:02.980Z"
+		}, {
+			"text": "How can we",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "How do I",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "How to",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "how can i",
+			"created": "2017-02-08T05:37:32.366Z",
+			"updated": "2017-02-08T05:37:32.366Z"
+		}, {
+			"text": "i need to",
+			"created": "2017-02-08T05:37:41.489Z",
+			"updated": "2017-02-08T05:37:41.489Z"
+		}, {
+			"text": "i want to",
+			"created": "2017-02-08T05:37:46.817Z",
+			"updated": "2017-02-08T05:37:46.817Z"
+		}],
+		"description": null
+	}, {
+		"intent": "ok",
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2017-02-08T05:38:27.085Z",
+		"examples": [{
+			"text": "Thank you",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "alright",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Fine",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Ok",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "thats fine",
+			"created": "2017-02-08T05:38:23.726Z",
+			"updated": "2017-02-08T05:38:23.726Z"
+		}, {
+			"text": "alrite",
+			"created": "2017-02-08T05:38:27.085Z",
+			"updated": "2017-02-08T05:38:27.085Z"
+		}],
+		"description": null
+	}, {
+		"intent": "Greetings",
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2017-02-08T05:38:48.998Z",
+		"examples": [{
+			"text": "How are you",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Hello",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "good morning",
+			"created": "2017-02-08T05:38:36.418Z",
+			"updated": "2017-02-08T05:38:36.418Z"
+		}, {
+			"text": "good afternoon",
+			"created": "2017-02-08T05:38:40.968Z",
+			"updated": "2017-02-08T05:38:40.968Z"
+		}, {
+			"text": "hey there",
+			"created": "2017-02-08T05:38:46.540Z",
+			"updated": "2017-02-08T05:38:46.540Z"
+		}, {
+			"text": "howdy",
+			"created": "2017-02-08T05:38:48.998Z",
+			"updated": "2017-02-08T05:38:48.998Z"
+		}, {
+			"text": "Hi, How are you",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Hi",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}],
+		"description": null
+	}, {
+		"intent": "When",
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"examples": [{
+			"text": "When will",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "Till when",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "When",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "When does",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}, {
+			"text": "When can",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-29T18:09:36.947Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-02-08T05:38:48.998Z",
+	"entities": [{
+		"entity": "ProductFeatures",
+		"values": [{
+			"type": "synonyms",
+			"value": "DeathBenefit",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["death benefit", "death cover", "value at death"]
+		}, {
+			"type": "synonyms",
+			"value": "Documents",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["documentation", "Documents"]
+		}, {
+			"type": "synonyms",
+			"value": "GuaranteedReturn",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["Guaranteed return", "guaranteed returns", "guaranteed surrender value", "guaranteed value", "surrender value"]
+		}, {
+			"type": "synonyms",
+			"value": "MaturityBenefit",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["expiry", "expiry value", "maturity benefit", "maturity value", "value at expiry", "value at maturity"]
+		}, {
+			"type": "synonyms",
+			"value": "PaymentMethods",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["methods", "options of paying premiums", "paying premium", "payment methods", "payment options", "pay premium"]
+		}, {
+			"type": "synonyms",
+			"value": "PaymentMode",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["modal frequency", "modes of payment", "payment modes", "premium modes"]
+		}, {
+			"type": "synonyms",
+			"value": "PaymentTerm",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["payment term", "policy payment term", "premium payment term"]
+		}, {
+			"type": "synonyms",
+			"value": "PolicyTerm",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["term"]
+		}, {
+			"type": "synonyms",
+			"value": "Premium",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["premium", "premium value", "price"]
+		}, {
+			"type": "synonyms",
+			"value": "SurrenderValue",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["surrender value", "terminal value"]
+		}],
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "RiderType",
+		"values": [{
+			"type": "synonyms",
+			"value": "AccidentalDisabilityRider",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["Accidental disability", "accident disability", "AD", "HDFC Life Income benefit", "IB", "IBAD", "income benefit", "income benefit on accident"]
+		}, {
+			"type": "synonyms",
+			"value": "CIRider",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["CI", "Critical Illness", "critical illnesses", "HDFC Life Critical illness"]
+		}],
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Policy",
+		"values": [{
+			"type": "synonyms",
+			"value": "Policy",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["Plan", "Policy", "Product"]
+		}],
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Rider",
+		"values": [{
+			"type": "synonyms",
+			"value": "Rider",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["rider", "riders"]
+		}],
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "Coverage",
+		"values": [{
+			"type": "synonyms",
+			"value": "exclusion",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["excluded", "exclusions"]
+		}, {
+			"type": "synonyms",
+			"value": "inclusion",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["covered", "included", "includes"]
+		}],
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "ProductType",
+		"values": [{
+			"type": "synonyms",
+			"value": "Click2ProtectPlus",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["Click 2 Protect Plus", "Click2 Protect Plus", "Click to Protect Plus", "HDFC Life Click2ProtectPlus", "HDFC Life Click 2 Protect Plus"]
+		}, {
+			"type": "synonyms",
+			"value": "SuperIncomePlan",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["HDFC Life SuperIncome", "HDFC Life Super Income", "HDFC Super Income", "SuperIncome", "Super Income"]
+		}, {
+			"type": "synonyms",
+			"value": "YoungStarUdaan",
+			"created": "2016-11-25T13:21:15.782Z",
+			"updated": "2016-11-25T13:21:15.782Z",
+			"metadata": null,
+			"synonyms": ["HDFC Life YoungStarUdaan", "HDFC Life Young Star Udaan", "Young Star Udaan"]
+		}],
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		},
+		"runtime_version": "2016-09-20"
+	},
+	"description": "This workspace will enable the service to converse with the user about Life Insurance products",
+	"dialog_nodes": [{
+		"title": null,
+		"output": {},
+		"parent": "node_15_1473687199241",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_11_1473057646701"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_31_1473773044368",
+		"previous_sibling": "node_30_1473773020864"
+	}, {
+		"title": null,
+		"output": {
+			"text": "On death of the life assured during the term of the policy, provided all due premiums are paid; the nominee will receive the higher of the following:\n•\tSum Assured on Death + Accrued Reversionary Bonuses + Interim Bonus (if any) + Terminal Bonus (if any)\n•\t105% of premiums# paid till date where, the Sum Assured on Death shall be the higher of:\n•\tSum Assured on Maturity\n•\t10 times Annualized Premium# for entry age up to 50 years and 7 times Annualized Premium# for entry age greater than 50 years"
+		},
+		"parent": "node_15_1473687199241",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Policy:Policy || @ProductType:SuperIncomePlan || $SIP",
+		"description": null,
+		"dialog_node": "node_30_1473773020864",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": ""
+		},
+		"parent": "node_4_1474199478165",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_12_1473762792940"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_6_1474199581267",
+		"previous_sibling": "node_5_1474199533496"
+	}, {
+		"title": null,
+		"output": {
+			"text": "The payment options are online, cheque and Neft."
+		},
+		"parent": "node_4_1474199478165",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Policy:Policy || @ProductType:SuperIncomePlan || $SIP",
+		"description": null,
+		"dialog_node": "node_5_1474199533496",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": "HDFC Life Income benefit on accidental disability rider is a rider covers for your premiums incase of permanent disability or death"
+		},
+		"parent": "node_13_1473058128222",
+		"context": {
+			"IR": true,
+			"CIR": false
+		},
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@RiderType:AccidentalDisabilityRider",
+		"description": null,
+		"dialog_node": "node_1_1473689025654",
+		"previous_sibling": "node_31_1473688679451"
+	}, {
+		"title": null,
+		"output": {
+			"text": "A critical illness rider financially empowers you to get the best possible treatment without worrying about costs, in case the Life Assured is diagnosed with a Critical Illness."
+		},
+		"parent": "node_13_1473058128222",
+		"context": {
+			"IR": false,
+			"CIR": true
+		},
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@RiderType:CIRider",
+		"description": null,
+		"dialog_node": "node_31_1473688679451",
+		"previous_sibling": "node_6_1473759503269"
+	}, {
+		"title": null,
+		"output": {
+			"text": "A rider is an add-on provision to a basic insurance policy that provides additional benefits to the policyholder at an additional cost. This helps the product to be more flexible."
+		},
+		"parent": "node_13_1473058128222",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_2_1473689192588",
+		"previous_sibling": "node_1_1473689025654"
+	}, {
+		"title": null,
+		"output": {
+			"text": ""
+		},
+		"parent": "node_13_1473058128222",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_16_1473764440381"
+		},
+		"conditions": "@Coverage:inclusion",
+		"description": null,
+		"dialog_node": "node_6_1473759503269",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": ""
+		},
+		"parent": "node_41_1473862089567",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_25_1473771597863"
+		},
+		"conditions": "@Rider:Rider",
+		"description": null,
+		"dialog_node": "node_1_1473745558173",
+		"previous_sibling": "node_15_1473687199241"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_41_1473862089567",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_2_1474199014220"
+		},
+		"conditions": "@ProductFeatures:MaturityBenefit",
+		"description": null,
+		"dialog_node": "node_1_1474198956441",
+		"previous_sibling": "node_4_1474199478165"
+	}, {
+		"title": null,
+		"output": {
+			"text": ""
+		},
+		"parent": "node_41_1473862089567",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_30_1473773020864"
+		},
+		"conditions": "@ProductFeatures:DeathBenefit",
+		"description": null,
+		"dialog_node": "node_15_1473687199241",
+		"previous_sibling": "node_18_1473687455664"
+	}, {
+		"title": null,
+		"output": {
+			"text": "Sorry, I did not understand your question. you can ask about the features of a product or riders."
+		},
+		"parent": "node_41_1473862089567",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_2_1474265106780",
+		"previous_sibling": "node_1_1473745558173"
+	}, {
+		"title": null,
+		"output": {
+			"text": ""
+		},
+		"parent": "node_41_1473862089567",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_28_1473772948221"
+		},
+		"conditions": "@ProductFeatures:Documents",
+		"description": null,
+		"dialog_node": "node_18_1473687455664",
+		"previous_sibling": "node_19_1473687585612"
+	}, {
+		"title": null,
+		"output": {
+			"text": ""
+		},
+		"parent": "node_41_1473862089567",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_32_1473773107059"
+		},
+		"conditions": "@ProductFeatures:GuaranteedReturn",
+		"description": null,
+		"dialog_node": "node_19_1473687585612",
+		"previous_sibling": "node_1_1474198956441"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_41_1473862089567",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_5_1474199533496"
+		},
+		"conditions": "@ProductFeatures:PaymentMethods",
+		"description": null,
+		"dialog_node": "node_4_1474199478165",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": "The documents required are income proof, address proof, ID and PAN card copy."
+		},
+		"parent": "node_18_1473687455664",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_29_1473772983587",
+		"previous_sibling": "node_28_1473772948221"
+	}, {
+		"title": null,
+		"output": {
+			"text": "The documents required are income proof, address proof, ID and PAN card copy."
+		},
+		"parent": "node_18_1473687455664",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Policy:Policy || @ProductType:SuperIncomePlan || $SIP",
+		"description": null,
+		"dialog_node": "node_28_1473772948221",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": "Sorry, I did not understand your question. you can ask about the features of a product or riders."
+		},
+		"parent": "node_40_1473861912987",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_3_1474265258874",
+		"previous_sibling": "node_7_1473053911138"
+	}, {
+		"title": null,
+		"output": {
+			"text": "Death benefit is the sum assured received at death of a life insured"
+		},
+		"parent": "node_40_1473861912987",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@ProductFeatures:DeathBenefit",
+		"description": null,
+		"dialog_node": "node_11_1473057646701",
+		"previous_sibling": "node_10_1473760189029"
+	}, {
+		"title": null,
+		"output": {
+			"text": ""
+		},
+		"parent": "node_40_1473861912987",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_6_1473759503269"
+		},
+		"conditions": "@Rider:Rider",
+		"description": null,
+		"dialog_node": "node_13_1473058128222",
+		"previous_sibling": "node_11_1473057646701"
+	}, {
+		"title": null,
+		"output": {
+			"text": "The maturity benefit is a multiple of the premiums paid up to that time and the additional benefits which the insurance company chooses to give to the policyholder."
+		},
+		"parent": "node_40_1473861912987",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@ProductFeatures:MaturityBenefit",
+		"description": null,
+		"dialog_node": "node_10_1473057561479",
+		"previous_sibling": "node_13_1473058128222"
+	}, {
+		"title": null,
+		"output": {
+			"text": "A guaranteed policy is one in which the insurer assumes all the risk and contractually guarantees the death benefit in exchange for a set premium payment."
+		},
+		"parent": "node_40_1473861912987",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@ProductFeatures:GuaranteedReturn",
+		"description": null,
+		"dialog_node": "node_7_1473053911138",
+		"previous_sibling": "node_10_1473057561479"
+	}, {
+		"title": null,
+		"output": {
+			"text": "The Super income plan helps customers to fulfill multiple needs like planning for child’s education, retirement planning or simply to save for increasing expenses in future. This product offers higher death benefit to the customers in line with new regulations and also helps customers to secure their future with Guaranteed Regular Income."
+		},
+		"parent": "node_40_1473861912987",
+		"context": {
+			"C2I": false,
+			"SIP": true
+		},
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@ProductType:SuperIncomePlan",
+		"description": null,
+		"dialog_node": "node_10_1473760189029",
+		"previous_sibling": "node_12_1473762792940"
+	}, {
+		"title": null,
+		"output": {
+			"text": "The payment options are online, cheque and Neft."
+		},
+		"parent": "node_40_1473861912987",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@ProductFeatures:PaymentMethods",
+		"description": null,
+		"dialog_node": "node_12_1473762792940",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_1_1473745558173",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_13_1473058128222"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_26_1473771670148",
+		"previous_sibling": "node_25_1473771597863"
+	}, {
+		"title": null,
+		"output": {
+			"text": "The Super Income Plan has two riders – the Critical Illness rider and the Accidental Disability rider."
+		},
+		"parent": "node_1_1473745558173",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Policy:Policy || @ProductType:SuperIncomePlan || $SIP",
+		"description": null,
+		"dialog_node": "node_25_1473771597863",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_19_1473687585612",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_7_1473053911138"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_33_1473773126938",
+		"previous_sibling": "node_32_1473773107059"
+	}, {
+		"title": null,
+		"output": {
+			"text": "The policy will acquire a Guaranteed Surrender Value (GSV) provided 2 full years’ premium has been paid for premium payment term of 8 years and 3 full years premium have been paid for premium payment term of 10 and 12 years."
+		},
+		"parent": "node_19_1473687585612",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Policy:Policy || @ProductType:SuperIncomePlan || $SIP",
+		"description": null,
+		"dialog_node": "node_32_1473773107059",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": "Sorry I did not get what you asked. You can ask something like when policy achieves guaranteed returns."
+		},
+		"parent": "node_24_1473769999743",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_1_1474264982468",
+		"previous_sibling": "node_1_1473923565498"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_24_1473769999743",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_15_1473763198289"
+		},
+		"conditions": "@ProductType:SuperIncomePlan || $SIP",
+		"description": null,
+		"dialog_node": "node_1_1473923565498",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": "This rider covers for the permanent disability or death due to an accident"
+		},
+		"parent": "node_6_1473759503269",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@RiderType:AccidentalDisabilityRider || $IR",
+		"description": null,
+		"dialog_node": "node_17_1473764562188",
+		"previous_sibling": "node_16_1473764440381"
+	}, {
+		"title": null,
+		"output": {
+			"text": "The Critical Illness Rider ensures you are covered against 19 critical illnesses such as cancer, open chest CABG, first heart attack, Kidney failure, major organ / bone transplant, stroke, Apallic syndrome, benign brain tumour, Coma, end stage liver disease and lung disease, open heart replacement, loss of limbs, loss of independent existence, loss of sight, major burns, major head trauma permanent paralysis of limbs and surgery of aorta."
+		},
+		"parent": "node_6_1473759503269",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@RiderType:CIRider || $CIR",
+		"description": null,
+		"dialog_node": "node_16_1473764440381",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": "The policy will acquire a Guaranteed Surrender Value (GSV) provided 2 full years’ premium has been paid for premium payment term of 8 years and 3 full years’ premium have been paid for premium payment term of 10 and 12 years."
+		},
+		"parent": "node_1_1473923565498",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@ProductFeatures:GuaranteedReturn",
+		"description": null,
+		"dialog_node": "node_15_1473763198289",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {},
+		"parent": "node_1_1474198956441",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_10_1473057561479"
+		},
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_3_1474199109616",
+		"previous_sibling": "node_2_1474199014220"
+	}, {
+		"title": null,
+		"output": {
+			"text": "For a policy where all due premiums have been paid, the maturity benefit will be the aggregate of:\n1.\tLast Guaranteed Base Income payout,\n2.\tAccrued Reversionary Bonuses,\n3.\tInterim Bonus, if any\n4.\tTerminal bonus, if any.\nOn payment of the Maturity Benefit, the policy will terminate and no more benefits will be payable."
+		},
+		"parent": "node_1_1474198956441",
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@Policy:Policy || @ProductType:SuperIncomePlan || $SIP",
+		"description": null,
+		"dialog_node": "node_2_1474199014220",
+		"previous_sibling": null
+	}, {
+		"title": null,
+		"output": {
+			"text": "Hello, How can I help you?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#Greetings",
+		"description": null,
+		"dialog_node": "node_39_1473856624597",
+		"previous_sibling": "node_1_1473752183665"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_1_1473923565498"
+		},
+		"conditions": "#When",
+		"description": null,
+		"dialog_node": "node_24_1473769999743",
+		"previous_sibling": "node_41_1473862089567"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_4_1474199478165"
+		},
+		"conditions": "#Contains",
+		"description": null,
+		"dialog_node": "node_41_1473862089567",
+		"previous_sibling": "node_40_1473861912987"
+	}, {
+		"title": null,
+		"output": {
+			"text": "Thanks, What else can I help you with?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#ok",
+		"description": null,
+		"dialog_node": "node_1_1473752183665",
+		"previous_sibling": "node_24_1473769999743"
+	}, {
+		"title": null,
+		"output": {
+			"text": "I'm not sure about that. You can ask about a HDFC Life product or rider features."
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1473053390712",
+		"previous_sibling": "node_39_1473856624597"
+	}, {
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2016-11-25T13:21:15.782Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "condition",
+			"dialog_node": "node_12_1473762792940"
+		},
+		"conditions": "#What",
+		"description": null,
+		"dialog_node": "node_40_1473861912987",
+		"previous_sibling": "node_1_1472808700390"
+	}, {
+		"title": null,
+		"output": {
+			"text": "Welcome to Open Insurance! I’m Watson, your personal Digital Assistant.I can help you with any query regarding our products or the insurance industry. Feel free to ask me questions at any time."
+		},
+		"parent": null,
+		"context": null,
+		"created": "2016-11-25T13:21:15.782Z",
+		"updated": "2017-02-08T05:32:43.922Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "conversation_start",
+		"description": null,
+		"dialog_node": "node_1_1472808700390",
+		"previous_sibling": null
+	}],
+	"workspace_id": "8804a995-cd35-4b39-874e-39062ac6307b",
+	"counterexamples": [],
+	"learning_opt_out": false
+}

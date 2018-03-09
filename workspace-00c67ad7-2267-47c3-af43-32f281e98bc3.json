@@ -1,1 +1,1571 @@
-{"name":"Parenting","created":"2018-02-01T13:07:09.054Z","intents":[{"intent":"not_specified","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z","examples":[{"text":"your favorite","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"you decide","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"you can go with your favorite","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Whatever you like","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"whatever you feel like","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Whatever is farthest","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"whatever","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"play whatever you want","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"play anything u like","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Pick any","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"no preference","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"I don't see anything","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"I don't see any options","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"I don't see any","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"I doesn't matter to me.","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"i didn't see any options","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"I did not say turn in anything I entered","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"I am not identifying any thing here","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"doesn't matter","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"do anything","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"but it doesn't really","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"as a matter of","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"anything would do","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"anything is fine","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"anything","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"any one","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Any of them.","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"any of them","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"any near","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"any goddam one!!!!","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"any","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"}],"description":null},{"intent":"greetings","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z","examples":[{"text":"yo my man","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"yo","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"yello","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"What's up?","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"What's up ?","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"What's up","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"what r u doing","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"what doing","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"sup","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"say hello to me","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"namaste","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"I would like you to say hello","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"howdy","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"How are you doing","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hola como estas","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hola","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hiya","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hi, Watson, my name is John","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hi watson","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hi to whom had like","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hi there","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hi, my name is Michel","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hi, my name is Diego","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hi how are u","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hi","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hey there","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"heya","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hey","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hello Watson","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hello, My name is John?","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hello, my name is esteban","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hello, how are you","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hello","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"greetings","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"good morning","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"good how are you","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"good evening","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"good day","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Good afternoon.","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"good","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"g'day","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"feeling bit low","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"fdsafsaHi watson","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"ciao","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"buenos dias","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"buenas dias","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"bonjour","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"aloha","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"}],"description":null},{"intent":"food","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:36:55.107Z","examples":[{"text":"food","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"baby food","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"child food","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"infant food","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"what is the food for baby less than 6 months","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"what is the food for baby between 6-9 months","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"food for 10-12 months baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"What should baby eat?","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"food recommendations for baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"kiddo eat","created":"2018-02-02T14:03:34.249Z","updated":"2018-02-02T14:03:34.249Z"},{"text":"kids food","created":"2018-02-02T14:03:40.206Z","updated":"2018-02-02T14:03:40.206Z"},{"text":"food for my  8 months baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:10:40.565Z"},{"text":"food for less than six months baby","created":"2018-02-02T14:10:50.042Z","updated":"2018-02-02T14:10:50.042Z"},{"text":"food for six months baby","created":"2018-02-02T14:10:55.042Z","updated":"2018-02-02T14:10:55.042Z"},{"text":"food for less than 6 months baby","created":"2018-02-02T14:11:39.331Z","updated":"2018-02-02T14:11:39.331Z"},{"text":"6 months","created":"2018-02-02T14:36:55.107Z","updated":"2018-02-02T14:36:55.107Z"}],"description":null},{"intent":"vaccine","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z","examples":[{"text":"what vaccines are required for my baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"what vaccines should be given to a baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"vaccine for 6-8 weeks baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"vaccine for 10-16 weeks baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"vaccine for 12  months baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"vaccine for 16-18 months baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"vaccine for 9-12 months baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"vaccine for 9 months baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"newborn baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"vaccine for newborn baby","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"vaccine for 6 to 8 week","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"18 month","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"}],"description":null},{"intent":"goodbyes","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z","examples":[{"text":"toodles","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"then bye","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"thanks byebye","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"swag out","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"soon","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"so long","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"signing out","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"signing off","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"shut down","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"shutdown","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"should go","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"should be going","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"see you","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"see ya soon","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"see ya later","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"see ya","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"run","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"over and out","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"out of time","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"ok bye","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"no, bye!","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"nice day","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"my time is up","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"logging off","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"leave","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"laters","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"later","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"i said goodbye","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"I'm leaving","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Hi, Watson. I want to stop car","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"hey stop here","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"Have a nice day","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"gtg","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"gotta run","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"gotta go","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"good night","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"good day","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"good bye","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"goodbye","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"going","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"go","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"finally reached home.. lock up and cock up.. good nite and good bye for ever","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"farewell","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"cya","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"bye now","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"bye bye","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"bye","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"au revoir","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"adios","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"},{"text":"adieu","created":"2018-02-02T14:02:22.766Z","updated":"2018-02-02T14:02:22.766Z"}],"description":null}],"updated":"2018-02-02T16:49:57.369Z","entities":[{"entity":"response_types","values":[{"type":"synonyms","value":"negative","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["definitely not","no","nope","not at all","no way"]},{"type":"synonyms","value":"positive","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["absolutely","definitely","yeah","yep","yeppers","yes"]},{"type":"synonyms","value":"uncertain","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["don't know","maybe","no idea","not sure","unknown"]}],"created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"description":null},{"entity":"sys-number","values":[],"created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"description":null},{"entity":"vaccination","values":[{"type":"synonyms","value":"vaccination","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["baby vaccine plan","vaccination plan","vaccine chart"]},{"type":"synonyms","value":"new born","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["just born","newly born","new born"]},{"type":"synonyms","value":"6-8 weeks","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["6-8 weeks","six-eight weeks","six to eight weeks","6 to 8 weeks","6 to eight weeks","six to 8 weeks"]},{"type":"synonyms","value":"10-16 weeks","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["10-16 weeks","10 to 16 weeks","ten to sixteen weeks","ten to 16 weeks","10 to sixteen weeks"]},{"type":"synonyms","value":"14-24 weeks","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["14-24 weeks","14 to 24 weeks","fourteen to twenty four weeks","14 to twenty four weeks","fourteen to 24 weeks","14-24 week"]},{"type":"synonyms","value":"6 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["6 months","six months"]},{"type":"synonyms","value":"7-8 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["7-8 months","7 to 8 months","seven to eight months","seven to 8 months","7 to eight months"]},{"type":"synonyms","value":"16-18 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["16-18 months","16 to 18 months","sixteen to eighteen months","16 to eighteen months","sixteen to 18 months"]},{"type":"synonyms","value":"9 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["9 months","nine months"]},{"type":"synonyms","value":"9-12 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["9-12 months","9 to 12 months","nine to twelve months","nine to 12 months","9 to twelve months"]},{"type":"synonyms","value":"15 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["15 months","fifteen months"]},{"type":"synonyms","value":"12 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["12 months","1 year","one year","1 yr","one yr","twelve months"]},{"type":"synonyms","value":"24 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["24 months","2 years","two years","2 yrs","two yrs","twenty four months"]},{"type":"synonyms","value":"18 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["18 months","eighteen months","1.5 years","one and a half year","1 & a half year"]}],"created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"description":null},{"entity":"sys-time","values":[],"created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"description":null},{"entity":"food","values":[{"type":"synonyms","value":"between 6-9 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["between 6-9 months","between six-nine months","6-9 months","6 to 9 months","between 6 to 9 months","7 months","8 months","9 months","between 6 and 9 months"]},{"type":"synonyms","value":"10-12 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"synonyms":["10-12 months","between 10-12 months","10 to 12 months","between 10 to 12 months","10 months","11 months","12 months","1 year","between 10-12 month","one year","1 yr"]},{"type":"synonyms","value":"below 6 month","created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T15:31:11.057Z","metadata":null,"synonyms":["below 6 months","below six months","less than six months","less than 6 months","6 months","six months","5 months","4 months","3 months","1 month","new born","infant","newly born","newborn","2 months"]},{"type":"synonyms","value":"7 month","created":"2018-02-02T15:16:54.716Z","updated":"2018-02-02T15:19:10.304Z","metadata":null,"synonyms":["7 months","seven month"]},{"type":"synonyms","value":"8 month","created":"2018-02-02T15:17:32.255Z","updated":"2018-02-02T15:19:50.658Z","metadata":null,"synonyms":["8 months","eight months","eight month"]},{"type":"synonyms","value":"9 month","created":"2018-02-02T15:17:47.563Z","updated":"2018-02-02T15:20:14.743Z","metadata":null,"synonyms":["9 months","nine months","nine month"]},{"type":"synonyms","value":"6 months","created":"2018-02-02T15:24:46.446Z","updated":"2018-02-02T15:30:07.406Z","metadata":null,"synonyms":["6 month","six month","six months","around 6 months","close to 6 months","approximately 6 months"]}],"created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T15:31:11.057Z","metadata":null,"description":null},{"entity":"sys-date","values":[],"created":"2018-02-02T14:53:44.533Z","updated":"2018-02-02T14:53:44.533Z","metadata":null,"description":null}],"language":"en","metadata":{"api_version":{"major_version":"v1","minor_version":"2017-05-26"},"from-sample":true},"description":"It can share some suggestions on baby's food and tips regarding the vaccine for babies","dialog_nodes":[{"type":"frame","title":"vaccine_unrecognised","output":{},"parent":"node_6_1467233590477","context":null,"created":"2018-02-01T15:44:49.817Z","updated":"2018-02-01T15:54:46.675Z","metadata":{"fallback":"leave"},"next_step":null,"conditions":"#vaccine","description":null,"dialog_node":"node_16_1517499889549","digress_out":"allow_all","previous_sibling":"node_1_1517495188863","digress_out_slots":"not_allowed"},{"type":"standard","title":"Vaccine chart","output":{},"parent":"node_6_1467233590477","context":null,"created":"2018-02-01T14:26:30.381Z","updated":"2018-02-02T15:10:50.021Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"@vaccination && $vaccine == \"on\"","description":null,"dialog_node":"node_1_1517495188863","digress_out":"allow_all","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["You can give a variety of foods with different textures like toast or bread,peeled slices of fruits such as apple,pears, musk melon,water melon and mango.","You can give cooked vegetables such as carrot, cauliflower, spinach, bottle gourd, apple gourd, broccoli, and pumpkin grilled or baked sweet potatoes and yam ,creamy milkshakes and soups macaroni or pasta in cheese or tomato sauce.","You can give fluids like cooled, boiled water. You could also try healthy drinks such as fruit and vegetable juices as well as smoothies and milkshakes.","You can give starchy food like bread, potato and rice (3 -4 servings a day).","You can give protein such a fish, eggs, meat, pulses (2 servings daily)."],"selection_policy":"sequential"}},"parent":"node_34_1517579710688","context":null,"created":"2018-02-02T14:28:21.753Z","updated":"2018-02-02T14:30:34.419Z","metadata":{},"next_step":null,"conditions":"@food:(10-12 month)","description":null,"dialog_node":"node_39_1517581700272","previous_sibling":"node_38_1517581358660"},{"type":"response_condition","title":null,"output":{"text":{"values":["You can give the grains by mixing them together that your baby has had earlier without any reaction(s),like Brown Rice and Oatmeal with Pear Sauce.","You can give plain milk to your baby with some mixing of flavour and sweet.","You can give bite sized pieces of paranthas and chapatis with little butter on it.","You can give dark green leafy vegetables, such as spinach and fenugreek.","You can give puffed rice  and breadsticks made of millet."],"selection_policy":"random"}},"parent":"node_34_1517579710688","context":null,"created":"2018-02-02T14:22:39.210Z","updated":"2018-02-02T15:17:51.504Z","metadata":{},"next_step":null,"conditions":"@food:(between 6-9 month) || @food:(7 month) || @food:(8 month) || @food:(9 month)","description":null,"dialog_node":"node_38_1517581358660","previous_sibling":"node_37_1517581259326"},{"type":"response_condition","title":null,"output":{"text":{"values":["Its Advised to exclusively breastfeed your baby for approximately 6 months. In Case breast feed is not possible/sufficient  one can use formula milk as per the consultation with your pediatrician"]}},"parent":"node_34_1517579710688","context":null,"created":"2018-02-02T15:25:50.806Z","updated":"2018-02-02T15:28:50.417Z","metadata":{},"next_step":null,"conditions":"@food:(below 6 month)","description":null,"dialog_node":"node_1_1517585148957","previous_sibling":"node_39_1517581700272"},{"type":"response_condition","title":null,"output":{"text":{"values":["You can give bananas which are known as a good source of potassium, this grab-and-go fruit also contains vitamins B6 and C, calcium, and iron.Moreover it is soft to eat.","You can give blueberries which give benefit to baby's eyes, brain, and even keep urinary tract.Moreover it is soft to eat.","You can give sweet potatoes which are one of the more popular first foods for babies, who tend to like both their sweetness and texture. These colorful root vegetables are packed with  vitamin C, and minerals, including iron and copper.","You can give steam vegetables and simple fruits like apples and pears to start with.","You can give pulse soup after boiling pulse in sufficient water.","You can give plain milk to your baby with some mixing of flavour and sweet."],"selection_policy":"sequential"}},"parent":"node_34_1517579710688","context":null,"created":"2018-02-02T14:20:59.860Z","updated":"2018-02-02T15:25:30.001Z","metadata":{},"next_step":null,"conditions":"@food:(6 months)","description":null,"dialog_node":"node_37_1517581259326","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["What is the age of your baby?  Less than 6 months, between 6-9 months or 10-12 months?"]}},"parent":"node_2_1487280430136","context":null,"created":"2018-02-02T14:14:49.777Z","updated":"2018-02-02T14:15:12.190Z","metadata":{},"next_step":null,"conditions":"#food","description":null,"dialog_node":"node_36_1517580888787","previous_sibling":"node_35_1517580787809"},{"type":"response_condition","title":null,"output":{"text":{"values":["Is your baby new born, 6-8 weeks,10-16 weeks,14-24 weeks, 6 months, 7-8 months, 9 months, 9-12 months,12 months, 15 months, 16-18 months, 18 months or 2 years?"]}},"parent":"node_2_1487280430136","context":{"default_counter":"<?$default_counter+1?>"},"created":"2018-02-02T14:13:08.324Z","updated":"2018-02-02T14:56:46.952Z","metadata":{},"next_step":null,"conditions":"#vaccine","description":null,"dialog_node":"node_35_1517580787809","previous_sibling":"node_1_1467919680248"},{"type":"standard","title":null,"output":{},"parent":"node_2_1487280430136","context":null,"created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T13:07:09.054Z","metadata":{},"next_step":null,"conditions":"true","description":null,"dialog_node":"node_1_1467919680248","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["I'm not sure about that.You can Ask for Reasons for baby crying,tips on baby soothing, suggestions on  baby food or tips regarding vaccine for babies"],"selection_policy":"sequential"}},"parent":"node_1_1467919680248","context":null,"created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T15:19:34.684Z","metadata":{},"next_step":null,"conditions":"$default_counter<3","description":null,"dialog_node":"node_12_1485227162156","previous_sibling":"node_13_1485227255152"},{"type":"response_condition","title":null,"output":{"text":{"values":["I am having trouble understanding you. Try asking your question in a different way."]}},"parent":"node_1_1467919680248","context":{"default_counter":0},"created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T15:17:29.333Z","metadata":{},"next_step":null,"conditions":"$default_counter>2","description":null,"dialog_node":"node_13_1485227255152","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":{"values":[""]}},"parent":"node_16_1517499889549","context":null,"created":"2018-02-01T16:06:42.782Z","updated":"2018-02-01T16:06:42.782Z","metadata":null,"next_step":null,"conditions":"@vaccination","event_name":"generic","description":null,"dialog_node":"handler_31_1517501119555","previous_sibling":"slot_22_1517500385267"},{"type":"slot","title":null,"output":{},"parent":"node_16_1517499889549","context":null,"created":"2018-02-01T15:53:05.537Z","updated":"2018-02-02T14:19:30.779Z","metadata":{},"variable":"$vaccination","next_step":null,"conditions":null,"description":null,"dialog_node":"slot_22_1517500385267","previous_sibling":null},{"type":"standard","title":"foodreco","output":{},"parent":"node_33_1517578860743","context":null,"created":"2018-02-02T13:55:11.195Z","updated":"2018-02-02T15:12:15.718Z","metadata":{"_customization":{"mcr":true}},"next_step":null,"conditions":"@food && $food == \"on\"","description":null,"dialog_node":"node_34_1517579710688","digress_out":"allow_all","previous_sibling":null},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 3rd dose of OPV (oral polio vaccine),1st dose of Measles (your doctor may recommend MMR1 or MR instead) and 1st dose of MMR (measles, mumps and rubella vaccine)."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:33:10.991Z","updated":"2018-02-01T15:39:28.154Z","metadata":{},"next_step":null,"conditions":"@vaccination:(9 month)","description":null,"dialog_node":"node_9_1517499190412","previous_sibling":"node_8_1517499189140"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 3rd dose of IPV (injectable polio vaccine),3rd dose of DTaP/DTwP (diptheria, tetanus and pertussis),3rd dose of Hib (Haemophilus influenzae type B vaccine),3rd dose of PCV (pneumococcal conjugate vaccine) and 3rd dose of Rotavirus."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:33:06.904Z","updated":"2018-02-01T15:34:39.139Z","metadata":{},"next_step":null,"conditions":"@vaccination:(14-24 weeks)","description":null,"dialog_node":"node_6_1517499186348","previous_sibling":"node_5_1517497483172"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 1st dose of Hep A (hepatitis A vaccine)."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:33:16.016Z","updated":"2018-02-01T15:37:41.715Z","metadata":{},"next_step":null,"conditions":"@vaccination:(12 month)","description":null,"dialog_node":"node_11_1517499195708","previous_sibling":"node_10_1517499192868"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 2nd dose of OPV (oral polio vaccine),3rd dose of Hep B (hepatitis B vaccine) and 1st dose of Influenza."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:33:08.153Z","updated":"2018-02-01T15:38:51.039Z","metadata":{},"next_step":null,"conditions":"@vaccination:(6 month)","description":null,"dialog_node":"node_7_1517499187852","previous_sibling":"node_6_1517499186348"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 1st dose of Meningococcal meningitis and Booster of Typhoid CV(typhoid conjugate vaccine)."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:36:16.495Z","updated":"2018-02-01T15:36:49.733Z","metadata":{},"next_step":null,"conditions":"@vaccination:(24 month)","description":null,"dialog_node":"node_15_1517499376195","previous_sibling":"node_14_1517499364931"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, Booster for PCV (pneumococcal conjugate vaccine),1st dose of Chickenpox(varicella) and 2nd dose of MMR (measles, mumps and rubella vaccine)."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:33:17.469Z","updated":"2018-02-01T15:37:20.013Z","metadata":{},"next_step":null,"conditions":"@vaccination:(15 month)","description":null,"dialog_node":"node_12_1517499197148","previous_sibling":"node_11_1517499195708"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give,  Booster of IPV (injectable polio vaccine), Booster of DTaP/DTwP (diptheria, tetanus and pertussis)and Booster of Hib (Haemophilus influenzae type B vaccine)."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:33:19.297Z","updated":"2018-02-01T15:37:08.493Z","metadata":{},"next_step":null,"conditions":"@vaccination:(16-18 month)","description":null,"dialog_node":"node_13_1517499198972","previous_sibling":"node_12_1517499197148"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 2nd dose of IPV (injectable polio vaccine),2nd dose of DTaP/DTwP (diptheria, tetanus and pertussis),2nd dose of Hib (Haemophilus influenzae type B vaccine),2nd dose of PCV (pneumococcal conjugate vaccine) and 2nd dose of Rotavirus."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:04:44.410Z","updated":"2018-02-01T15:34:04.182Z","metadata":{},"next_step":null,"conditions":"@vaccination:(10-16 weeks)","description":null,"dialog_node":"node_5_1517497483172","previous_sibling":"node_4_1517497479916"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 1st dose of both Typhoid CV (typhoid conjugate vaccine)and JE (Japanese encephalitis)."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:33:14.447Z","updated":"2018-02-01T15:38:17.485Z","metadata":{},"next_step":null,"conditions":"@vaccination:(9-12 month)","description":null,"dialog_node":"node_10_1517499192868","previous_sibling":"node_9_1517499190412"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 1st dose of IPV (injectable polio vaccine),2nd dose of Hep B (hepatitis B vaccine),1st dose of DTaP/DTwP (diptheria, tetanus and pertussis),1st dose of Hib (Haemophilus influenzae type B vaccine),1st dose of PCV (pneumococcal conjugate vaccine) and 1st dose of Rotavirus."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:04:41.481Z","updated":"2018-02-01T15:05:58.635Z","metadata":{},"next_step":null,"conditions":"@vaccination:(6-8 weeks)","description":null,"dialog_node":"node_4_1517497479916","previous_sibling":"node_3_1517497393143"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 2nd dose of Influenza."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:33:09.444Z","updated":"2018-02-01T15:39:12.419Z","metadata":{},"next_step":null,"conditions":"@vaccination:(7-8 month)","description":null,"dialog_node":"node_8_1517499189140","previous_sibling":"node_7_1517499187852"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 2nd dose of Hep A (hepatitis A vaccine) and 2nd dose of JE (Japanese encephalitis)."]}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:36:05.421Z","updated":"2018-02-01T15:43:38.033Z","metadata":{},"next_step":null,"conditions":"@vaccination:(18 month)","description":null,"dialog_node":"node_14_1517499364931","previous_sibling":"node_13_1517499198972"},{"type":"response_condition","title":null,"output":{"text":{"values":["You should give, 1st dose of BCG (tuberculosis vaccine),1st dose of OPV (oral polio vaccine) and 1st dose of Hep B (hepatitis B vaccine)."],"selection_policy":"sequential"}},"parent":"node_1_1517495188863","context":null,"created":"2018-02-01T15:03:13.512Z","updated":"2018-02-01T15:05:28.444Z","metadata":{},"next_step":null,"conditions":"@vaccination:(new born)","description":null,"dialog_node":"node_3_1517497393143","previous_sibling":null},{"type":"event_handler","title":null,"output":{"text":"Is your baby new born, 6-8 weeks,10-16 weeks,14-24 weeks, 6 months, 7-8 months, 9 months, 9-12 months,12 months, 15 months, 16-18 months, 18 months or 2 years?"},"parent":"slot_22_1517500385267","context":null,"created":"2018-02-01T15:53:06.654Z","updated":"2018-02-02T14:14:41.335Z","metadata":{},"next_step":null,"conditions":null,"event_name":"focus","description":null,"dialog_node":"handler_24_1517500385267","previous_sibling":"handler_23_1517500385267"},{"type":"event_handler","title":null,"output":{},"parent":"slot_22_1517500385267","context":{"vaccination":"@vaccination"},"created":"2018-02-01T15:53:06.038Z","updated":"2018-02-02T14:19:31.291Z","metadata":{},"next_step":null,"conditions":"@vaccination","event_name":"input","description":null,"dialog_node":"handler_23_1517500385267","previous_sibling":null},{"type":"standard","title":null,"output":{"text":"Hello! I'm here to help you. I can share some  suggestions on baby's food and tips regarding the vaccine for babies. Please tell me what do you want to know?"},"parent":null,"context":null,"created":"2018-02-01T13:07:09.054Z","updated":"2018-02-02T15:45:27.425Z","metadata":{},"next_step":null,"conditions":"#greetings","digress_in":"does_not_return","description":null,"dialog_node":"node_7_1468608329601","previous_sibling":"Start And Initialize Context"},{"type":"standard","title":null,"output":{"text":{"values":["What is the age of your baby?  Less than 6 months, between 6-9 months or 10-12 months?"],"selection_policy":"sequential"}},"parent":null,"context":{"food":"on"},"created":"2018-02-02T13:41:02.657Z","updated":"2018-02-02T14:57:57.509Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_34_1517579710688"},"conditions":"#food","description":null,"dialog_node":"node_33_1517578860743","previous_sibling":"node_6_1467233590477"},{"type":"standard","title":"vaccination","output":{"text":{"values":["There are different vaccines depending on the age of your baby. Is your baby new born, 6-8 weeks,10-16 weeks,14-24 weeks, 6 months, 7-8 months, 9 months, 9-12 months,12 months, 15 months, 16-18 months, 18 months or 2 years?"]}},"parent":null,"context":{"vaccine":"on"},"created":"2018-02-01T13:07:09.054Z","updated":"2018-02-02T15:06:36.218Z","metadata":{},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_1_1517495188863"},"conditions":"#vaccine","description":null,"dialog_node":"node_6_1467233590477","previous_sibling":"node_7_1468608329601"},{"type":"standard","title":null,"output":{},"parent":null,"context":null,"created":"2018-02-01T13:07:09.054Z","updated":"2018-02-02T14:18:46.642Z","metadata":{"_customization":{"mcr":true}},"next_step":{"behavior":"jump_to","selector":"user_input","dialog_node":"node_1_1467919680248"},"conditions":"anything_else","digress_in":"does_not_return","description":null,"dialog_node":"node_2_1487280430136","digress_out":"allow_all","previous_sibling":"node_8_1468608349230"},{"type":"standard","title":null,"output":{"text":{"values":["Okay! Speak to you soon.","Thanks!! See You later","Hope I was helpful, C U next time"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T15:22:17.787Z","metadata":{},"next_step":null,"conditions":"#goodbyes","description":null,"dialog_node":"node_8_1468608349230","previous_sibling":"node_33_1517578860743"},{"type":"standard","title":"Start And Initialize Context","output":{"text":{"values":["Hi! Welcome to the Parenting Bot. I can share some suggestions on baby's food and details regarding the vaccine for babies. Please tell me what do you want to know?"]}},"parent":null,"context":{"food":"off","crying":"off","vaccine":"off","soothing":"off","appl_action":"","default_counter":0},"created":"2018-02-01T13:07:09.054Z","updated":"2018-02-02T16:49:57.369Z","metadata":{},"next_step":null,"conditions":"conversation_start","description":null,"dialog_node":"Start And Initialize Context","previous_sibling":null}],"workspace_id":"00c67ad7-2267-47c3-af43-32f281e98bc3","counterexamples":[{"text":"aho","created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T13:07:09.054Z"},{"text":"asdasdasda","created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T13:07:09.054Z"},{"text":"asdasidjiwe","created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T13:07:09.054Z"},{"text":"cats are my favorite animal","created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T13:07:09.054Z"},{"text":"when will it be funny","created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T13:07:09.054Z"},{"text":"which color is best for wedding","created":"2018-02-01T13:07:09.054Z","updated":"2018-02-01T13:07:09.054Z"}],"learning_opt_out":false}
+{
+	"name": "Parenting",
+	"created": "2018-02-01T13:07:09.054Z",
+	"intents": [{
+		"intent": "not_specified",
+		"created": "2018-02-02T14:02:22.766Z",
+		"updated": "2018-02-02T14:02:22.766Z",
+		"examples": [{
+			"text": "your favorite",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "you decide",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "you can go with your favorite",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Whatever you like",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "whatever you feel like",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Whatever is farthest",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "whatever",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "play whatever you want",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "play anything u like",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Pick any",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "no preference",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "I don't see anything",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "I don't see any options",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "I don't see any",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "I doesn't matter to me.",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "i didn't see any options",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "I did not say turn in anything I entered",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "I am not identifying any thing here",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "doesn't matter",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "do anything",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "but it doesn't really",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "as a matter of",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "anything would do",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "anything is fine",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "anything",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "any one",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Any of them.",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "any of them",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "any near",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "any goddam one!!!!",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "any",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greetings",
+		"created": "2018-02-02T14:02:22.766Z",
+		"updated": "2018-02-02T14:02:22.766Z",
+		"examples": [{
+			"text": "yo my man",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "yo",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "yello",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "What's up?",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "What's up ?",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "What's up",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "what r u doing",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "what doing",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "sup",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "say hello to me",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "namaste",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "I would like you to say hello",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "howdy",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "How are you doing",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hola como estas",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hola",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hiya",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hi, Watson, my name is John",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hi watson",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hi to whom had like",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hi there",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hi, my name is Michel",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hi, my name is Diego",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hi how are u",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hi",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hey there",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "heya",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hey",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hello Watson",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hello, My name is John?",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hello, my name is esteban",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hello, how are you",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hello",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "greetings",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "good morning",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "good how are you",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "good evening",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "good day",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Good afternoon.",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "good",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "g'day",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "feeling bit low",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "fdsafsaHi watson",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "ciao",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "buenos dias",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "buenas dias",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "bonjour",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "aloha",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}],
+		"description": null
+	}, {
+		"intent": "food",
+		"created": "2018-02-02T14:02:22.766Z",
+		"updated": "2018-02-02T14:36:55.107Z",
+		"examples": [{
+			"text": "food",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "baby food",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "child food",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "infant food",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "what is the food for baby less than 6 months",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "what is the food for baby between 6-9 months",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "food for 10-12 months baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "What should baby eat?",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "food recommendations for baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "kiddo eat",
+			"created": "2018-02-02T14:03:34.249Z",
+			"updated": "2018-02-02T14:03:34.249Z"
+		}, {
+			"text": "kids food",
+			"created": "2018-02-02T14:03:40.206Z",
+			"updated": "2018-02-02T14:03:40.206Z"
+		}, {
+			"text": "food for my  8 months baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:10:40.565Z"
+		}, {
+			"text": "food for less than six months baby",
+			"created": "2018-02-02T14:10:50.042Z",
+			"updated": "2018-02-02T14:10:50.042Z"
+		}, {
+			"text": "food for six months baby",
+			"created": "2018-02-02T14:10:55.042Z",
+			"updated": "2018-02-02T14:10:55.042Z"
+		}, {
+			"text": "food for less than 6 months baby",
+			"created": "2018-02-02T14:11:39.331Z",
+			"updated": "2018-02-02T14:11:39.331Z"
+		}, {
+			"text": "6 months",
+			"created": "2018-02-02T14:36:55.107Z",
+			"updated": "2018-02-02T14:36:55.107Z"
+		}],
+		"description": null
+	}, {
+		"intent": "vaccine",
+		"created": "2018-02-02T14:02:22.766Z",
+		"updated": "2018-02-02T14:02:22.766Z",
+		"examples": [{
+			"text": "what vaccines are required for my baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "what vaccines should be given to a baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "vaccine for 6-8 weeks baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "vaccine for 10-16 weeks baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "vaccine for 12  months baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "vaccine for 16-18 months baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "vaccine for 9-12 months baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "vaccine for 9 months baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "newborn baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "vaccine for newborn baby",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "vaccine for 6 to 8 week",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "18 month",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}],
+		"description": null
+	}, {
+		"intent": "goodbyes",
+		"created": "2018-02-02T14:02:22.766Z",
+		"updated": "2018-02-02T14:02:22.766Z",
+		"examples": [{
+			"text": "toodles",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "then bye",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "thanks byebye",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "swag out",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "soon",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "so long",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "signing out",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "signing off",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "shut down",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "shutdown",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "should go",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "should be going",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "see you",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "see ya soon",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "see ya later",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "see ya",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "run",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "over and out",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "out of time",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "ok bye",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "no, bye!",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "nice day",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "my time is up",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "logging off",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "leave",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "laters",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "later",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "i said goodbye",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "I'm leaving",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Hi, Watson. I want to stop car",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "hey stop here",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "Have a nice day",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "gtg",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "gotta run",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "gotta go",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "good night",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "good day",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "good bye",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "goodbye",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "going",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "go",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "finally reached home.. lock up and cock up.. good nite and good bye for ever",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "farewell",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "cya",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "bye now",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "bye bye",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "bye",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "au revoir",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "adios",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}, {
+			"text": "adieu",
+			"created": "2018-02-02T14:02:22.766Z",
+			"updated": "2018-02-02T14:02:22.766Z"
+		}],
+		"description": null
+	}],
+	"updated": "2018-02-02T16:49:57.369Z",
+	"entities": [{
+		"entity": "response_types",
+		"values": [{
+			"type": "synonyms",
+			"value": "negative",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["definitely not", "no", "nope", "not at all", "no way"]
+		}, {
+			"type": "synonyms",
+			"value": "positive",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["absolutely", "definitely", "yeah", "yep", "yeppers", "yes"]
+		}, {
+			"type": "synonyms",
+			"value": "uncertain",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["don't know", "maybe", "no idea", "not sure", "unknown"]
+		}],
+		"created": "2018-02-02T14:53:44.533Z",
+		"updated": "2018-02-02T14:53:44.533Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-number",
+		"values": [],
+		"created": "2018-02-02T14:53:44.533Z",
+		"updated": "2018-02-02T14:53:44.533Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "vaccination",
+		"values": [{
+			"type": "synonyms",
+			"value": "vaccination",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["baby vaccine plan", "vaccination plan", "vaccine chart"]
+		}, {
+			"type": "synonyms",
+			"value": "new born",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["just born", "newly born", "new born"]
+		}, {
+			"type": "synonyms",
+			"value": "6-8 weeks",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["6-8 weeks", "six-eight weeks", "six to eight weeks", "6 to 8 weeks", "6 to eight weeks", "six to 8 weeks"]
+		}, {
+			"type": "synonyms",
+			"value": "10-16 weeks",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["10-16 weeks", "10 to 16 weeks", "ten to sixteen weeks", "ten to 16 weeks", "10 to sixteen weeks"]
+		}, {
+			"type": "synonyms",
+			"value": "14-24 weeks",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["14-24 weeks", "14 to 24 weeks", "fourteen to twenty four weeks", "14 to twenty four weeks", "fourteen to 24 weeks", "14-24 week"]
+		}, {
+			"type": "synonyms",
+			"value": "6 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["6 months", "six months"]
+		}, {
+			"type": "synonyms",
+			"value": "7-8 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["7-8 months", "7 to 8 months", "seven to eight months", "seven to 8 months", "7 to eight months"]
+		}, {
+			"type": "synonyms",
+			"value": "16-18 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["16-18 months", "16 to 18 months", "sixteen to eighteen months", "16 to eighteen months", "sixteen to 18 months"]
+		}, {
+			"type": "synonyms",
+			"value": "9 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["9 months", "nine months"]
+		}, {
+			"type": "synonyms",
+			"value": "9-12 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["9-12 months", "9 to 12 months", "nine to twelve months", "nine to 12 months", "9 to twelve months"]
+		}, {
+			"type": "synonyms",
+			"value": "15 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["15 months", "fifteen months"]
+		}, {
+			"type": "synonyms",
+			"value": "12 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["12 months", "1 year", "one year", "1 yr", "one yr", "twelve months"]
+		}, {
+			"type": "synonyms",
+			"value": "24 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["24 months", "2 years", "two years", "2 yrs", "two yrs", "twenty four months"]
+		}, {
+			"type": "synonyms",
+			"value": "18 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["18 months", "eighteen months", "1.5 years", "one and a half year", "1 & a half year"]
+		}],
+		"created": "2018-02-02T14:53:44.533Z",
+		"updated": "2018-02-02T14:53:44.533Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-time",
+		"values": [],
+		"created": "2018-02-02T14:53:44.533Z",
+		"updated": "2018-02-02T14:53:44.533Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "food",
+		"values": [{
+			"type": "synonyms",
+			"value": "between 6-9 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["between 6-9 months", "between six-nine months", "6-9 months", "6 to 9 months", "between 6 to 9 months", "7 months", "8 months", "9 months", "between 6 and 9 months"]
+		}, {
+			"type": "synonyms",
+			"value": "10-12 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T14:53:44.533Z",
+			"metadata": null,
+			"synonyms": ["10-12 months", "between 10-12 months", "10 to 12 months", "between 10 to 12 months", "10 months", "11 months", "12 months", "1 year", "between 10-12 month", "one year", "1 yr"]
+		}, {
+			"type": "synonyms",
+			"value": "below 6 month",
+			"created": "2018-02-02T14:53:44.533Z",
+			"updated": "2018-02-02T15:31:11.057Z",
+			"metadata": null,
+			"synonyms": ["below 6 months", "below six months", "less than six months", "less than 6 months", "6 months", "six months", "5 months", "4 months", "3 months", "1 month", "new born", "infant", "newly born", "newborn", "2 months"]
+		}, {
+			"type": "synonyms",
+			"value": "7 month",
+			"created": "2018-02-02T15:16:54.716Z",
+			"updated": "2018-02-02T15:19:10.304Z",
+			"metadata": null,
+			"synonyms": ["7 months", "seven month"]
+		}, {
+			"type": "synonyms",
+			"value": "8 month",
+			"created": "2018-02-02T15:17:32.255Z",
+			"updated": "2018-02-02T15:19:50.658Z",
+			"metadata": null,
+			"synonyms": ["8 months", "eight months", "eight month"]
+		}, {
+			"type": "synonyms",
+			"value": "9 month",
+			"created": "2018-02-02T15:17:47.563Z",
+			"updated": "2018-02-02T15:20:14.743Z",
+			"metadata": null,
+			"synonyms": ["9 months", "nine months", "nine month"]
+		}, {
+			"type": "synonyms",
+			"value": "6 months",
+			"created": "2018-02-02T15:24:46.446Z",
+			"updated": "2018-02-02T15:30:07.406Z",
+			"metadata": null,
+			"synonyms": ["6 month", "six month", "six months", "around 6 months", "close to 6 months", "approximately 6 months"]
+		}],
+		"created": "2018-02-02T14:53:44.533Z",
+		"updated": "2018-02-02T15:31:11.057Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-date",
+		"values": [],
+		"created": "2018-02-02T14:53:44.533Z",
+		"updated": "2018-02-02T14:53:44.533Z",
+		"metadata": null,
+		"description": null
+	}],
+	"language": "en",
+	"metadata": {
+		"api_version": {
+			"major_version": "v1",
+			"minor_version": "2017-05-26"
+		},
+		"from-sample": true
+	},
+	"description": "It can share some suggestions on baby's food and tips regarding the vaccine for babies",
+	"dialog_nodes": [{
+		"type": "frame",
+		"title": "vaccine_unrecognised",
+		"output": {},
+		"parent": "node_6_1467233590477",
+		"context": null,
+		"created": "2018-02-01T15:44:49.817Z",
+		"updated": "2018-02-01T15:54:46.675Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#vaccine",
+		"description": null,
+		"dialog_node": "node_16_1517499889549",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_1_1517495188863",
+		"digress_out_slots": "not_allowed"
+	}, {
+		"type": "standard",
+		"title": "Vaccine chart",
+		"output": {},
+		"parent": "node_6_1467233590477",
+		"context": null,
+		"created": "2018-02-01T14:26:30.381Z",
+		"updated": "2018-02-02T15:10:50.021Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "@vaccination && $vaccine == \"on\"",
+		"description": null,
+		"dialog_node": "node_1_1517495188863",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You can give a variety of foods with different textures like toast or bread,peeled slices of fruits such as apple,pears, musk melon,water melon and mango.", "You can give cooked vegetables such as carrot, cauliflower, spinach, bottle gourd, apple gourd, broccoli, and pumpkin grilled or baked sweet potatoes and yam ,creamy milkshakes and soups macaroni or pasta in cheese or tomato sauce.", "You can give fluids like cooled, boiled water. You could also try healthy drinks such as fruit and vegetable juices as well as smoothies and milkshakes.", "You can give starchy food like bread, potato and rice (3 -4 servings a day).", "You can give protein such a fish, eggs, meat, pulses (2 servings daily)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_34_1517579710688",
+		"context": null,
+		"created": "2018-02-02T14:28:21.753Z",
+		"updated": "2018-02-02T14:30:34.419Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@food:(10-12 month)",
+		"description": null,
+		"dialog_node": "node_39_1517581700272",
+		"previous_sibling": "node_38_1517581358660"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You can give the grains by mixing them together that your baby has had earlier without any reaction(s),like Brown Rice and Oatmeal with Pear Sauce.", "You can give plain milk to your baby with some mixing of flavour and sweet.", "You can give bite sized pieces of paranthas and chapatis with little butter on it.", "You can give dark green leafy vegetables, such as spinach and fenugreek.", "You can give puffed rice  and breadsticks made of millet."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": "node_34_1517579710688",
+		"context": null,
+		"created": "2018-02-02T14:22:39.210Z",
+		"updated": "2018-02-02T15:17:51.504Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@food:(between 6-9 month) || @food:(7 month) || @food:(8 month) || @food:(9 month)",
+		"description": null,
+		"dialog_node": "node_38_1517581358660",
+		"previous_sibling": "node_37_1517581259326"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Its Advised to exclusively breastfeed your baby for approximately 6 months. In Case breast feed is not possible/sufficient  one can use formula milk as per the consultation with your pediatrician"]
+			}
+		},
+		"parent": "node_34_1517579710688",
+		"context": null,
+		"created": "2018-02-02T15:25:50.806Z",
+		"updated": "2018-02-02T15:28:50.417Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@food:(below 6 month)",
+		"description": null,
+		"dialog_node": "node_1_1517585148957",
+		"previous_sibling": "node_39_1517581700272"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You can give bananas which are known as a good source of potassium, this grab-and-go fruit also contains vitamins B6 and C, calcium, and iron.Moreover it is soft to eat.", "You can give blueberries which give benefit to baby's eyes, brain, and even keep urinary tract.Moreover it is soft to eat.", "You can give sweet potatoes which are one of the more popular first foods for babies, who tend to like both their sweetness and texture. These colorful root vegetables are packed with  vitamin C, and minerals, including iron and copper.", "You can give steam vegetables and simple fruits like apples and pears to start with.", "You can give pulse soup after boiling pulse in sufficient water.", "You can give plain milk to your baby with some mixing of flavour and sweet."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_34_1517579710688",
+		"context": null,
+		"created": "2018-02-02T14:20:59.860Z",
+		"updated": "2018-02-02T15:25:30.001Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@food:(6 months)",
+		"description": null,
+		"dialog_node": "node_37_1517581259326",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["What is the age of your baby?  Less than 6 months, between 6-9 months or 10-12 months?"]
+			}
+		},
+		"parent": "node_2_1487280430136",
+		"context": null,
+		"created": "2018-02-02T14:14:49.777Z",
+		"updated": "2018-02-02T14:15:12.190Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#food",
+		"description": null,
+		"dialog_node": "node_36_1517580888787",
+		"previous_sibling": "node_35_1517580787809"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Is your baby new born, 6-8 weeks,10-16 weeks,14-24 weeks, 6 months, 7-8 months, 9 months, 9-12 months,12 months, 15 months, 16-18 months, 18 months or 2 years?"]
+			}
+		},
+		"parent": "node_2_1487280430136",
+		"context": {
+			"default_counter": "<?$default_counter+1?>"
+		},
+		"created": "2018-02-02T14:13:08.324Z",
+		"updated": "2018-02-02T14:56:46.952Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#vaccine",
+		"description": null,
+		"dialog_node": "node_35_1517580787809",
+		"previous_sibling": "node_1_1467919680248"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": "node_2_1487280430136",
+		"context": null,
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T13:07:09.054Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "true",
+		"description": null,
+		"dialog_node": "node_1_1467919680248",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I'm not sure about that.You can Ask for Reasons for baby crying,tips on baby soothing, suggestions on  baby food or tips regarding vaccine for babies"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1467919680248",
+		"context": null,
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T15:19:34.684Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$default_counter<3",
+		"description": null,
+		"dialog_node": "node_12_1485227162156",
+		"previous_sibling": "node_13_1485227255152"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I am having trouble understanding you. Try asking your question in a different way."]
+			}
+		},
+		"parent": "node_1_1467919680248",
+		"context": {
+			"default_counter": 0
+		},
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T15:17:29.333Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "$default_counter>2",
+		"description": null,
+		"dialog_node": "node_13_1485227255152",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": [""]
+			}
+		},
+		"parent": "node_16_1517499889549",
+		"context": null,
+		"created": "2018-02-01T16:06:42.782Z",
+		"updated": "2018-02-01T16:06:42.782Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@vaccination",
+		"event_name": "generic",
+		"description": null,
+		"dialog_node": "handler_31_1517501119555",
+		"previous_sibling": "slot_22_1517500385267"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_16_1517499889549",
+		"context": null,
+		"created": "2018-02-01T15:53:05.537Z",
+		"updated": "2018-02-02T14:19:30.779Z",
+		"metadata": {},
+		"variable": "$vaccination",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_22_1517500385267",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": "foodreco",
+		"output": {},
+		"parent": "node_33_1517578860743",
+		"context": null,
+		"created": "2018-02-02T13:55:11.195Z",
+		"updated": "2018-02-02T15:12:15.718Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "@food && $food == \"on\"",
+		"description": null,
+		"dialog_node": "node_34_1517579710688",
+		"digress_out": "allow_all",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 3rd dose of OPV (oral polio vaccine),1st dose of Measles (your doctor may recommend MMR1 or MR instead) and 1st dose of MMR (measles, mumps and rubella vaccine)."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:33:10.991Z",
+		"updated": "2018-02-01T15:39:28.154Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(9 month)",
+		"description": null,
+		"dialog_node": "node_9_1517499190412",
+		"previous_sibling": "node_8_1517499189140"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 3rd dose of IPV (injectable polio vaccine),3rd dose of DTaP/DTwP (diptheria, tetanus and pertussis),3rd dose of Hib (Haemophilus influenzae type B vaccine),3rd dose of PCV (pneumococcal conjugate vaccine) and 3rd dose of Rotavirus."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:33:06.904Z",
+		"updated": "2018-02-01T15:34:39.139Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(14-24 weeks)",
+		"description": null,
+		"dialog_node": "node_6_1517499186348",
+		"previous_sibling": "node_5_1517497483172"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 1st dose of Hep A (hepatitis A vaccine)."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:33:16.016Z",
+		"updated": "2018-02-01T15:37:41.715Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(12 month)",
+		"description": null,
+		"dialog_node": "node_11_1517499195708",
+		"previous_sibling": "node_10_1517499192868"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 2nd dose of OPV (oral polio vaccine),3rd dose of Hep B (hepatitis B vaccine) and 1st dose of Influenza."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:33:08.153Z",
+		"updated": "2018-02-01T15:38:51.039Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(6 month)",
+		"description": null,
+		"dialog_node": "node_7_1517499187852",
+		"previous_sibling": "node_6_1517499186348"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 1st dose of Meningococcal meningitis and Booster of Typhoid CV(typhoid conjugate vaccine)."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:36:16.495Z",
+		"updated": "2018-02-01T15:36:49.733Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(24 month)",
+		"description": null,
+		"dialog_node": "node_15_1517499376195",
+		"previous_sibling": "node_14_1517499364931"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, Booster for PCV (pneumococcal conjugate vaccine),1st dose of Chickenpox(varicella) and 2nd dose of MMR (measles, mumps and rubella vaccine)."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:33:17.469Z",
+		"updated": "2018-02-01T15:37:20.013Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(15 month)",
+		"description": null,
+		"dialog_node": "node_12_1517499197148",
+		"previous_sibling": "node_11_1517499195708"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give,  Booster of IPV (injectable polio vaccine), Booster of DTaP/DTwP (diptheria, tetanus and pertussis)and Booster of Hib (Haemophilus influenzae type B vaccine)."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:33:19.297Z",
+		"updated": "2018-02-01T15:37:08.493Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(16-18 month)",
+		"description": null,
+		"dialog_node": "node_13_1517499198972",
+		"previous_sibling": "node_12_1517499197148"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 2nd dose of IPV (injectable polio vaccine),2nd dose of DTaP/DTwP (diptheria, tetanus and pertussis),2nd dose of Hib (Haemophilus influenzae type B vaccine),2nd dose of PCV (pneumococcal conjugate vaccine) and 2nd dose of Rotavirus."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:04:44.410Z",
+		"updated": "2018-02-01T15:34:04.182Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(10-16 weeks)",
+		"description": null,
+		"dialog_node": "node_5_1517497483172",
+		"previous_sibling": "node_4_1517497479916"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 1st dose of both Typhoid CV (typhoid conjugate vaccine)and JE (Japanese encephalitis)."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:33:14.447Z",
+		"updated": "2018-02-01T15:38:17.485Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(9-12 month)",
+		"description": null,
+		"dialog_node": "node_10_1517499192868",
+		"previous_sibling": "node_9_1517499190412"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 1st dose of IPV (injectable polio vaccine),2nd dose of Hep B (hepatitis B vaccine),1st dose of DTaP/DTwP (diptheria, tetanus and pertussis),1st dose of Hib (Haemophilus influenzae type B vaccine),1st dose of PCV (pneumococcal conjugate vaccine) and 1st dose of Rotavirus."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:04:41.481Z",
+		"updated": "2018-02-01T15:05:58.635Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(6-8 weeks)",
+		"description": null,
+		"dialog_node": "node_4_1517497479916",
+		"previous_sibling": "node_3_1517497393143"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 2nd dose of Influenza."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:33:09.444Z",
+		"updated": "2018-02-01T15:39:12.419Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(7-8 month)",
+		"description": null,
+		"dialog_node": "node_8_1517499189140",
+		"previous_sibling": "node_7_1517499187852"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 2nd dose of Hep A (hepatitis A vaccine) and 2nd dose of JE (Japanese encephalitis)."]
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:36:05.421Z",
+		"updated": "2018-02-01T15:43:38.033Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(18 month)",
+		"description": null,
+		"dialog_node": "node_14_1517499364931",
+		"previous_sibling": "node_13_1517499198972"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["You should give, 1st dose of BCG (tuberculosis vaccine),1st dose of OPV (oral polio vaccine) and 1st dose of Hep B (hepatitis B vaccine)."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": "node_1_1517495188863",
+		"context": null,
+		"created": "2018-02-01T15:03:13.512Z",
+		"updated": "2018-02-01T15:05:28.444Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination:(new born)",
+		"description": null,
+		"dialog_node": "node_3_1517497393143",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "Is your baby new born, 6-8 weeks,10-16 weeks,14-24 weeks, 6 months, 7-8 months, 9 months, 9-12 months,12 months, 15 months, 16-18 months, 18 months or 2 years?"
+		},
+		"parent": "slot_22_1517500385267",
+		"context": null,
+		"created": "2018-02-01T15:53:06.654Z",
+		"updated": "2018-02-02T14:14:41.335Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_24_1517500385267",
+		"previous_sibling": "handler_23_1517500385267"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_22_1517500385267",
+		"context": {
+			"vaccination": "@vaccination"
+		},
+		"created": "2018-02-01T15:53:06.038Z",
+		"updated": "2018-02-02T14:19:31.291Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "@vaccination",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_23_1517500385267",
+		"previous_sibling": null
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": "Hello! I'm here to help you. I can share some  suggestions on baby's food and tips regarding the vaccine for babies. Please tell me what do you want to know?"
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-02T15:45:27.425Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#greetings",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_7_1468608329601",
+		"previous_sibling": "Start And Initialize Context"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["What is the age of your baby?  Less than 6 months, between 6-9 months or 10-12 months?"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": {
+			"food": "on"
+		},
+		"created": "2018-02-02T13:41:02.657Z",
+		"updated": "2018-02-02T14:57:57.509Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_34_1517579710688"
+		},
+		"conditions": "#food",
+		"description": null,
+		"dialog_node": "node_33_1517578860743",
+		"previous_sibling": "node_6_1467233590477"
+	}, {
+		"type": "standard",
+		"title": "vaccination",
+		"output": {
+			"text": {
+				"values": ["There are different vaccines depending on the age of your baby. Is your baby new born, 6-8 weeks,10-16 weeks,14-24 weeks, 6 months, 7-8 months, 9 months, 9-12 months,12 months, 15 months, 16-18 months, 18 months or 2 years?"]
+			}
+		},
+		"parent": null,
+		"context": {
+			"vaccine": "on"
+		},
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-02T15:06:36.218Z",
+		"metadata": {},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_1_1517495188863"
+		},
+		"conditions": "#vaccine",
+		"description": null,
+		"dialog_node": "node_6_1467233590477",
+		"previous_sibling": "node_7_1468608329601"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-02T14:18:46.642Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_1_1467919680248"
+		},
+		"conditions": "anything_else",
+		"digress_in": "does_not_return",
+		"description": null,
+		"dialog_node": "node_2_1487280430136",
+		"digress_out": "allow_all",
+		"previous_sibling": "node_8_1468608349230"
+	}, {
+		"type": "standard",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Okay! Speak to you soon.", "Thanks!! See You later", "Hope I was helpful, C U next time"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T15:22:17.787Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "#goodbyes",
+		"description": null,
+		"dialog_node": "node_8_1468608349230",
+		"previous_sibling": "node_33_1517578860743"
+	}, {
+		"type": "standard",
+		"title": "Start And Initialize Context",
+		"output": {
+			"text": {
+				"values": ["Hi! Welcome to the Parenting Bot. I can share some suggestions on baby's food and details regarding the vaccine for babies. Please tell me what do you want to know?"]
+			}
+		},
+		"parent": null,
+		"context": {
+			"food": "off",
+			"crying": "off",
+			"vaccine": "off",
+			"soothing": "off",
+			"appl_action": "",
+			"default_counter": 0
+		},
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-02T16:49:57.369Z",
+		"metadata": {},
+		"next_step": null,
+		"conditions": "conversation_start",
+		"description": null,
+		"dialog_node": "Start And Initialize Context",
+		"previous_sibling": null
+	}],
+	"workspace_id": "00c67ad7-2267-47c3-af43-32f281e98bc3",
+	"counterexamples": [{
+		"text": "aho",
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T13:07:09.054Z"
+	}, {
+		"text": "asdasdasda",
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T13:07:09.054Z"
+	}, {
+		"text": "asdasidjiwe",
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T13:07:09.054Z"
+	}, {
+		"text": "cats are my favorite animal",
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T13:07:09.054Z"
+	}, {
+		"text": "when will it be funny",
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T13:07:09.054Z"
+	}, {
+		"text": "which color is best for wedding",
+		"created": "2018-02-01T13:07:09.054Z",
+		"updated": "2018-02-01T13:07:09.054Z"
+	}],
+	"learning_opt_out": false
+}
