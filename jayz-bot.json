@@ -130,7 +130,7 @@
 		}],
 		"description": null
 	}],
-	"updated": "2017-11-16T17:31:53.694Z",
+	"updated": "2017-11-16T17:43:39.558Z",
 	"entities": [{
 		"entity": "business",
 		"values": [{
@@ -430,14 +430,14 @@
 		"title": "Anything else",
 		"output": {
 			"text": {
-				"values": ["' '"],
+				"values": ["Only God can judge me, so I'm gone.......Either love me, or leave me alone"],
 				"selection_policy": "sequential"
 			}
 		},
 		"parent": null,
 		"context": null,
 		"created": "2017-11-15T23:27:47.171Z",
-		"updated": "2017-11-16T09:10:18.877Z",
+		"updated": "2017-11-16T17:43:39.558Z",
 		"metadata": null,
 		"next_step": null,
 		"conditions": "anything_else",

@@ -2,535 +2,538 @@
 	"name": "DoorAnsweringBot",
 	"created": "2017-11-14T01:36:00.439Z",
 	"intents": [{
-			"intent": "schedule_visit",
-			"created": "2017-11-14T07:24:24.152Z",
-			"updated": "2017-11-14T07:26:04.406Z",
-			"examples": [{
-					"text": "reserve a time slot for another visit",
-					"created": "2017-11-14T07:26:04.406Z",
-					"updated": "2017-11-14T07:26:04.406Z"
-				},
-				{
-					"text": "schedule a visit",
-					"created": "2017-11-14T07:24:35.628Z",
-					"updated": "2017-11-14T07:24:35.628Z"
-				},
-				{
-					"text": "make a pointment",
-					"created": "2017-11-14T07:25:48.700Z",
-					"updated": "2017-11-14T07:25:48.700Z"
-				}
-			],
-			"description": null
-		},
-		{
-			"intent": "nothing_else",
-			"created": "2017-11-14T06:40:44.875Z",
-			"updated": "2017-11-14T06:41:05.931Z",
-			"examples": [{
-					"text": "that's all",
-					"created": "2017-11-14T06:40:50.553Z",
-					"updated": "2017-11-14T06:40:50.553Z"
-				},
-				{
-					"text": "nothing more",
-					"created": "2017-11-14T06:41:05.931Z",
-					"updated": "2017-11-14T06:41:05.931Z"
-				},
-				{
-					"text": "all set",
-					"created": "2017-11-14T06:40:55.924Z",
-					"updated": "2017-11-14T06:40:55.924Z"
-				}
-			],
-			"description": null
-		},
-		{
-			"intent": "package_delivery",
-			"created": "2017-11-14T01:38:46.597Z",
-			"updated": "2017-11-14T06:14:40.256Z",
-			"examples": [{
-					"text": "deliver several packages",
-					"created": "2017-11-14T01:39:01.957Z",
-					"updated": "2017-11-14T05:54:46.289Z"
-				},
-				{
-					"text": "deliver UPS package",
-					"created": "2017-11-14T05:52:33.163Z",
-					"updated": "2017-11-14T05:54:42.062Z"
-				},
-				{
-					"text": "parcel delivery",
-					"created": "2017-11-14T06:14:40.256Z",
-					"updated": "2017-11-14T06:14:40.256Z"
-				},
-				{
-					"text": "deliver a parcel",
-					"created": "2017-11-14T06:14:30.716Z",
-					"updated": "2017-11-14T06:14:30.716Z"
-				},
-				{
-					"text": "package delivery",
-					"created": "2017-11-14T05:54:55.947Z",
-					"updated": "2017-11-14T05:54:55.947Z"
-				},
-				{
-					"text": "deliver amazon package",
-					"created": "2017-11-14T01:39:52.200Z",
-					"updated": "2017-11-14T05:54:50.062Z"
-				}
-			],
-			"description": null
-		},
-		{
-			"intent": "donation",
-			"created": "2017-11-14T05:59:35.462Z",
-			"updated": "2017-11-14T06:03:16.129Z",
-			"examples": [{
-					"text": "ask for donation",
-					"created": "2017-11-14T05:59:54.435Z",
-					"updated": "2017-11-14T05:59:54.435Z"
-				},
-				{
-					"text": "a charity foundation",
-					"created": "2017-11-14T06:01:16.746Z",
-					"updated": "2017-11-14T06:01:16.746Z"
-				},
-				{
-					"text": "non-profit orgnization",
-					"created": "2017-11-14T06:01:30.188Z",
-					"updated": "2017-11-14T06:01:30.188Z"
-				},
-				{
-					"text": "need your help",
-					"created": "2017-11-14T06:01:46.601Z",
-					"updated": "2017-11-14T06:01:46.601Z"
-				},
-				{
-					"text": "charity canvasser",
-					"created": "2017-11-14T06:03:16.129Z",
-					"updated": "2017-11-14T06:03:16.129Z"
-				}
-			],
-			"description": null
-		},
-		{
-			"intent": "speak_to_homeowner",
-			"created": "2017-11-14T08:57:17.068Z",
-			"updated": "2017-11-14T08:58:12.099Z",
-			"examples": [{
-					"text": "talk to the homeowner",
-					"created": "2017-11-14T08:57:58.552Z",
-					"updated": "2017-11-14T08:57:58.552Z"
-				},
-				{
-					"text": "want to speak to the homeowner",
-					"created": "2017-11-14T08:57:29.625Z",
-					"updated": "2017-11-14T08:57:29.625Z"
-				},
-				{
-					"text": "meet the homeowner",
-					"created": "2017-11-14T08:58:12.099Z",
-					"updated": "2017-11-14T08:58:12.099Z"
-				}
-			],
-			"description": null
-		},
-		{
-			"intent": "mail_delivery",
-			"created": "2017-11-14T01:36:18.525Z",
-			"updated": "2017-11-14T06:19:52.293Z",
-			"examples": [{
-					"text": "there are some fliers",
-					"created": "2017-11-14T06:18:41.764Z",
-					"updated": "2017-11-14T06:18:41.764Z"
-				},
-				{
-					"text": "deliver the flyers",
-					"created": "2017-11-14T06:17:18.238Z",
-					"updated": "2017-11-14T06:17:18.238Z"
-				},
-				{
-					"text": "deliver the postcards",
-					"created": "2017-11-14T05:47:14.759Z",
-					"updated": "2017-11-14T05:54:30.283Z"
-				},
-				{
-					"text": "one postcard delivery",
-					"created": "2017-11-14T05:46:51.009Z",
-					"updated": "2017-11-14T05:54:14.264Z"
-				},
-				{
-					"text": "deliver a letter",
-					"created": "2017-11-14T01:37:12.718Z",
-					"updated": "2017-11-14T05:53:48.222Z"
-				},
-				{
-					"text": "several letters",
-					"created": "2017-11-14T01:37:33.749Z",
-					"updated": "2017-11-14T05:51:53.004Z"
-				},
-				{
-					"text": "deliver monthly circular",
-					"created": "2017-11-14T06:19:52.293Z",
-					"updated": "2017-11-14T06:19:52.293Z"
-				}
-			],
-			"description": null
-		},
-		{
-			"intent": "applicance_delivery",
-			"created": "2017-11-14T05:47:36.007Z",
-			"updated": "2017-11-14T08:19:12.669Z",
-			"examples": [{
-					"text": "order a new furniture",
-					"created": "2017-11-14T05:55:54.447Z",
-					"updated": "2017-11-14T05:55:54.447Z"
-				},
-				{
-					"text": "new chars",
-					"created": "2017-11-14T05:48:04.932Z",
-					"updated": "2017-11-14T05:51:09.073Z"
-				},
-				{
-					"text": "install the new washer and dryer",
-					"created": "2017-11-14T05:49:58.326Z",
-					"updated": "2017-11-14T05:51:31.419Z"
-				},
-				{
-					"text": "a sofa",
-					"created": "2017-11-14T05:49:27.187Z",
-					"updated": "2017-11-14T05:51:27.167Z"
-				},
-				{
-					"text": "new desktop",
-					"created": "2017-11-14T05:48:28.947Z",
-					"updated": "2017-11-14T05:51:17.120Z"
-				},
-				{
-					"text": "refrigerator",
-					"created": "2017-11-14T05:53:31.795Z",
-					"updated": "2017-11-14T05:53:31.795Z"
-				},
-				{
-					"text": "a new sofa",
-					"created": "2017-11-14T08:19:12.669Z",
-					"updated": "2017-11-14T08:19:12.669Z"
-				}
-			],
-			"description": null
-		},
-		{
-			"intent": "signature_required",
-			"created": "2017-11-14T05:57:35.365Z",
-			"updated": "2017-11-14T06:12:03.757Z",
-			"examples": [{
-					"text": "a signature required package",
-					"created": "2017-11-14T06:12:03.757Z",
-					"updated": "2017-11-14T06:12:03.757Z"
-				},
-				{
-					"text": "sign up your name",
-					"created": "2017-11-14T05:58:26.961Z",
-					"updated": "2017-11-14T05:58:26.961Z"
-				},
-				{
-					"text": "sign the form",
-					"created": "2017-11-14T05:58:26.961Z",
-					"updated": "2017-11-14T05:58:26.961Z"
-				},
-				{
-					"text": "need your signature",
-					"created": "2017-11-14T05:58:26.961Z",
-					"updated": "2017-11-14T05:58:26.961Z"
-				},
-				{
-					"text": "sign the package",
-					"created": "2017-11-14T05:58:26.961Z",
-					"updated": "2017-11-14T05:58:26.961Z"
-				}
-			],
-			"description": null
-		},
-		{
-			"intent": "greetings",
-			"created": "2017-11-14T01:44:34.380Z",
-			"updated": "2017-11-14T01:44:34.380Z",
-			"examples": [{
-					"text": "good",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Good afternoon.",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "good day",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "good evening",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "good how are you",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "good morning",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Hello, how are you",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "hello, my name is esteban",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Hello, My name is John?",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Hello Watson",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "heya",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "hey there",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "hi how are u",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Hi, my name is Diego",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Hi, my name is Michel",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "hi there",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "hi to whom had like",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Hi watson",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Hi, Watson, my name is John",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "hiya",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Hola",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "hola como estas",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "How are you doing",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "howdy",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "I would like you to say hello",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "namaste",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "say hello to me",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "sup",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "what doing",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "what r u doing",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "What's up",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "What's up ?",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "yello",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "yo",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "yo my man",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "buenos dias",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "buenas dias",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "bonjour",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "aloha",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "Heyya",
-					"created": "2017-11-14T01:44:34.388Z",
-					"updated": "2017-11-14T01:44:34.388Z"
-				},
-				{
-					"text": "greetings",
-					"created": "2017-11-14T01:44:34.388Z",
-					"updated": "2017-11-14T01:44:34.388Z"
-				},
-				{
-					"text": "What's up?",
-					"created": "2017-11-14T01:44:34.388Z",
-					"updated": "2017-11-14T01:44:34.388Z"
-				},
-				{
-					"text": "Hi",
-					"created": "2017-11-14T01:44:34.388Z",
-					"updated": "2017-11-14T01:44:34.388Z"
-				},
-				{
-					"text": "Hey",
-					"created": "2017-11-14T01:44:34.388Z",
-					"updated": "2017-11-14T01:44:34.388Z"
-				},
-				{
-					"text": "Hello",
-					"created": "2017-11-14T01:44:34.388Z",
-					"updated": "2017-11-14T01:44:34.388Z"
-				},
-				{
-					"text": "ciao",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "fdsafsaHi watson",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "feeling bit low",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				},
-				{
-					"text": "g'day",
-					"created": "2017-11-14T01:45:56.134Z",
-					"updated": "2017-11-14T01:45:56.134Z"
-				}
-			],
-			"description": null
-		}
-	],
-	"updated": "2017-11-14T09:00:11.466Z",
+		"intent": "schedule_visit",
+		"created": "2017-11-14T07:24:24.152Z",
+		"updated": "2017-11-14T10:09:40.734Z",
+		"examples": [{
+			"text": "reserve a time slot for another visit",
+			"created": "2017-11-14T07:26:04.406Z",
+			"updated": "2017-11-14T07:26:04.406Z"
+		}, {
+			"text": "I will visit tomorrow at 3:00 PM",
+			"created": "2017-11-14T10:08:47.729Z",
+			"updated": "2017-11-14T10:08:47.729Z"
+		}, {
+			"text": "schedule a visit",
+			"created": "2017-11-14T07:24:35.628Z",
+			"updated": "2017-11-14T07:24:35.628Z"
+		}, {
+			"text": "I will come again tomorrow",
+			"created": "2017-11-14T10:09:40.734Z",
+			"updated": "2017-11-14T10:09:40.734Z"
+		}, {
+			"text": "make a pointment",
+			"created": "2017-11-14T07:25:48.700Z",
+			"updated": "2017-11-14T07:25:48.700Z"
+		}],
+		"description": null
+	}, {
+		"intent": "party_time",
+		"created": "2017-11-14T09:33:14.695Z",
+		"updated": "2017-11-14T09:33:26.722Z",
+		"examples": [{
+			"text": "it's party time",
+			"created": "2017-11-14T09:33:26.722Z",
+			"updated": "2017-11-14T09:33:26.722Z"
+		}],
+		"description": null
+	}, {
+		"intent": "nothing_else",
+		"created": "2017-11-14T06:40:44.875Z",
+		"updated": "2017-11-14T06:41:05.931Z",
+		"examples": [{
+			"text": "all set",
+			"created": "2017-11-14T06:40:55.924Z",
+			"updated": "2017-11-14T06:40:55.924Z"
+		}, {
+			"text": "that's all",
+			"created": "2017-11-14T06:40:50.553Z",
+			"updated": "2017-11-14T06:40:50.553Z"
+		}, {
+			"text": "nothing more",
+			"created": "2017-11-14T06:41:05.931Z",
+			"updated": "2017-11-14T06:41:05.931Z"
+		}],
+		"description": null
+	}, {
+		"intent": "package_delivery",
+		"created": "2017-11-14T01:38:46.597Z",
+		"updated": "2017-11-14T06:14:40.256Z",
+		"examples": [{
+			"text": "parcel delivery",
+			"created": "2017-11-14T06:14:40.256Z",
+			"updated": "2017-11-14T06:14:40.256Z"
+		}, {
+			"text": "package delivery",
+			"created": "2017-11-14T05:54:55.947Z",
+			"updated": "2017-11-14T05:54:55.947Z"
+		}, {
+			"text": "deliver amazon package",
+			"created": "2017-11-14T01:39:52.200Z",
+			"updated": "2017-11-14T05:54:50.062Z"
+		}, {
+			"text": "deliver several packages",
+			"created": "2017-11-14T01:39:01.957Z",
+			"updated": "2017-11-14T05:54:46.289Z"
+		}, {
+			"text": "deliver UPS package",
+			"created": "2017-11-14T05:52:33.163Z",
+			"updated": "2017-11-14T05:54:42.062Z"
+		}, {
+			"text": "deliver a parcel",
+			"created": "2017-11-14T06:14:30.716Z",
+			"updated": "2017-11-14T06:14:30.716Z"
+		}],
+		"description": null
+	}, {
+		"intent": "donation",
+		"created": "2017-11-14T05:59:35.462Z",
+		"updated": "2017-11-14T06:03:16.129Z",
+		"examples": [{
+			"text": "non-profit orgnization",
+			"created": "2017-11-14T06:01:30.188Z",
+			"updated": "2017-11-14T06:01:30.188Z"
+		}, {
+			"text": "ask for donation",
+			"created": "2017-11-14T05:59:54.435Z",
+			"updated": "2017-11-14T05:59:54.435Z"
+		}, {
+			"text": "a charity foundation",
+			"created": "2017-11-14T06:01:16.746Z",
+			"updated": "2017-11-14T06:01:16.746Z"
+		}, {
+			"text": "need your help",
+			"created": "2017-11-14T06:01:46.601Z",
+			"updated": "2017-11-14T06:01:46.601Z"
+		}, {
+			"text": "charity canvasser",
+			"created": "2017-11-14T06:03:16.129Z",
+			"updated": "2017-11-14T06:03:16.129Z"
+		}],
+		"description": null
+	}, {
+		"intent": "speak_to_homeowner",
+		"created": "2017-11-14T08:57:17.068Z",
+		"updated": "2017-11-14T08:58:12.099Z",
+		"examples": [{
+			"text": "want to speak to the homeowner",
+			"created": "2017-11-14T08:57:29.625Z",
+			"updated": "2017-11-14T08:57:29.625Z"
+		}, {
+			"text": "talk to the homeowner",
+			"created": "2017-11-14T08:57:58.552Z",
+			"updated": "2017-11-14T08:57:58.552Z"
+		}, {
+			"text": "meet the homeowner",
+			"created": "2017-11-14T08:58:12.099Z",
+			"updated": "2017-11-14T08:58:12.099Z"
+		}],
+		"description": null
+	}, {
+		"intent": "mail_delivery",
+		"created": "2017-11-14T01:36:18.525Z",
+		"updated": "2017-11-14T06:19:52.293Z",
+		"examples": [{
+			"text": "deliver the postcards",
+			"created": "2017-11-14T05:47:14.759Z",
+			"updated": "2017-11-14T05:54:30.283Z"
+		}, {
+			"text": "one postcard delivery",
+			"created": "2017-11-14T05:46:51.009Z",
+			"updated": "2017-11-14T05:54:14.264Z"
+		}, {
+			"text": "deliver a letter",
+			"created": "2017-11-14T01:37:12.718Z",
+			"updated": "2017-11-14T05:53:48.222Z"
+		}, {
+			"text": "deliver monthly circular",
+			"created": "2017-11-14T06:19:52.293Z",
+			"updated": "2017-11-14T06:19:52.293Z"
+		}, {
+			"text": "there are some fliers",
+			"created": "2017-11-14T06:18:41.764Z",
+			"updated": "2017-11-14T06:18:41.764Z"
+		}, {
+			"text": "deliver the flyers",
+			"created": "2017-11-14T06:17:18.238Z",
+			"updated": "2017-11-14T06:17:18.238Z"
+		}, {
+			"text": "several letters",
+			"created": "2017-11-14T01:37:33.749Z",
+			"updated": "2017-11-14T05:51:53.004Z"
+		}],
+		"description": null
+	}, {
+		"intent": "trick_or_treat",
+		"created": "2017-11-14T18:31:18.090Z",
+		"updated": "2017-11-14T18:32:19.781Z",
+		"examples": [{
+			"text": "trick or treat",
+			"created": "2017-11-14T18:31:46.355Z",
+			"updated": "2017-11-14T18:31:46.355Z"
+		}, {
+			"text": "happy halloween",
+			"created": "2017-11-14T18:32:19.781Z",
+			"updated": "2017-11-14T18:32:19.781Z"
+		}],
+		"description": null
+	}, {
+		"intent": "applicance_delivery",
+		"created": "2017-11-14T05:47:36.007Z",
+		"updated": "2017-11-15T23:06:12.671Z",
+		"examples": [{
+			"text": "new desktop",
+			"created": "2017-11-14T05:48:28.947Z",
+			"updated": "2017-11-14T05:51:17.120Z"
+		}, {
+			"text": "a new sofa",
+			"created": "2017-11-14T08:19:12.669Z",
+			"updated": "2017-11-14T08:19:12.669Z"
+		}, {
+			"text": "order a new furniture",
+			"created": "2017-11-14T05:55:54.447Z",
+			"updated": "2017-11-14T05:55:54.447Z"
+		}, {
+			"text": "refrigerator",
+			"created": "2017-11-14T05:53:31.795Z",
+			"updated": "2017-11-14T05:53:31.795Z"
+		}, {
+			"text": "new chars",
+			"created": "2017-11-14T05:48:04.932Z",
+			"updated": "2017-11-14T05:51:09.073Z"
+		}, {
+			"text": "install the new washer and dryer",
+			"created": "2017-11-14T05:49:58.326Z",
+			"updated": "2017-11-14T05:51:31.419Z"
+		}, {
+			"text": "a sofa",
+			"created": "2017-11-14T05:49:27.187Z",
+			"updated": "2017-11-14T05:51:27.167Z"
+		}, {
+			"text": "I'm here to deliver the new washer",
+			"created": "2017-11-15T23:06:12.671Z",
+			"updated": "2017-11-15T23:06:12.671Z"
+		}],
+		"description": null
+	}, {
+		"intent": "reject",
+		"created": "2017-11-14T23:06:37.533Z",
+		"updated": "2017-11-14T23:06:53.555Z",
+		"examples": [{
+			"text": "I won't come again",
+			"created": "2017-11-14T23:06:53.555Z",
+			"updated": "2017-11-14T23:06:53.555Z"
+		}, {
+			"text": "No",
+			"created": "2017-11-14T23:06:41.272Z",
+			"updated": "2017-11-14T23:06:41.272Z"
+		}, {
+			"text": "Don't bother",
+			"created": "2017-11-14T23:06:45.866Z",
+			"updated": "2017-11-14T23:06:45.866Z"
+		}],
+		"description": null
+	}, {
+		"intent": "signature_required",
+		"created": "2017-11-14T05:57:35.365Z",
+		"updated": "2017-11-14T06:12:03.757Z",
+		"examples": [{
+			"text": "need your signature",
+			"created": "2017-11-14T05:58:26.961Z",
+			"updated": "2017-11-14T05:58:26.961Z"
+		}, {
+			"text": "sign up your name",
+			"created": "2017-11-14T05:58:26.961Z",
+			"updated": "2017-11-14T05:58:26.961Z"
+		}, {
+			"text": "sign the form",
+			"created": "2017-11-14T05:58:26.961Z",
+			"updated": "2017-11-14T05:58:26.961Z"
+		}, {
+			"text": "sign the package",
+			"created": "2017-11-14T05:58:26.961Z",
+			"updated": "2017-11-14T05:58:26.961Z"
+		}, {
+			"text": "a signature required package",
+			"created": "2017-11-14T06:12:03.757Z",
+			"updated": "2017-11-14T06:12:03.757Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greetings",
+		"created": "2017-11-14T01:44:34.380Z",
+		"updated": "2017-11-14T01:44:34.380Z",
+		"examples": [{
+			"text": "Hello, My name is John?",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Hello Watson",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "heya",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "hey there",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "hi how are u",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Hi, my name is Diego",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Hi, my name is Michel",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "hi there",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "hi to whom had like",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Hi watson",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Hi, Watson, my name is John",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "hiya",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Hola",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "hola como estas",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "How are you doing",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "howdy",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "I would like you to say hello",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "namaste",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "say hello to me",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "sup",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "what doing",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "what r u doing",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "What's up",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "What's up ?",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "yello",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "yo",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "yo my man",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "good evening",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "good day",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Good afternoon.",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "good",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "g'day",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "feeling bit low",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "fdsafsaHi watson",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "What's up?",
+			"created": "2017-11-14T01:44:34.388Z",
+			"updated": "2017-11-14T01:44:34.388Z"
+		}, {
+			"text": "Hi",
+			"created": "2017-11-14T01:44:34.388Z",
+			"updated": "2017-11-14T01:44:34.388Z"
+		}, {
+			"text": "ciao",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Hey",
+			"created": "2017-11-14T01:44:34.388Z",
+			"updated": "2017-11-14T01:44:34.388Z"
+		}, {
+			"text": "Hello",
+			"created": "2017-11-14T01:44:34.388Z",
+			"updated": "2017-11-14T01:44:34.388Z"
+		}, {
+			"text": "buenos dias",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "buenas dias",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "bonjour",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "aloha",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Heyya",
+			"created": "2017-11-14T01:44:34.388Z",
+			"updated": "2017-11-14T01:44:34.388Z"
+		}, {
+			"text": "greetings",
+			"created": "2017-11-14T01:44:34.388Z",
+			"updated": "2017-11-14T01:44:34.388Z"
+		}, {
+			"text": "good how are you",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "good morning",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "Hello, how are you",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}, {
+			"text": "hello, my name is esteban",
+			"created": "2017-11-14T01:45:56.134Z",
+			"updated": "2017-11-14T01:45:56.134Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-11-16T00:44:16.157Z",
 	"entities": [{
-			"entity": "sys-time",
-			"values": [],
-			"created": "2017-11-14T08:49:54.534Z",
-			"updated": "2017-11-14T08:49:54.534Z",
+		"entity": "code",
+		"values": [{
+			"type": "patterns",
+			"value": "party_animal",
+			"created": "2017-11-14T09:45:53.468Z",
+			"updated": "2017-11-14T09:46:05.780Z",
 			"metadata": null,
-			"description": null
-		},
-		{
-			"entity": "sys-person",
-			"values": [],
-			"created": "2017-11-14T09:00:11.466Z",
-			"updated": "2017-11-14T09:00:11.466Z",
+			"patterns": ["party\\sanimal"]
+		}],
+		"created": "2017-11-14T09:40:33.474Z",
+		"updated": "2017-11-14T09:46:05.780Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-time",
+		"values": [],
+		"created": "2017-11-14T08:49:54.534Z",
+		"updated": "2017-11-14T08:49:54.534Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-person",
+		"values": [],
+		"created": "2017-11-14T09:00:11.466Z",
+		"updated": "2017-11-14T09:00:11.466Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "delivery_item",
+		"values": [{
+			"type": "synonyms",
+			"value": "package",
+			"created": "2017-11-14T22:45:38.057Z",
+			"updated": "2017-11-14T22:47:29.869Z",
 			"metadata": null,
-			"description": null
-		},
-		{
-			"entity": "sys-date",
-			"values": [],
-			"created": "2017-11-14T08:49:54.534Z",
-			"updated": "2017-11-14T08:49:54.534Z",
+			"synonyms": ["parcel"]
+		}, {
+			"type": "synonyms",
+			"value": "letter",
+			"created": "2017-11-14T22:47:36.742Z",
+			"updated": "2017-11-14T22:48:00.448Z",
 			"metadata": null,
-			"description": null
-		}
-	],
+			"synonyms": ["mail"]
+		}, {
+			"type": "synonyms",
+			"value": "flyers",
+			"created": "2017-11-14T22:48:06.664Z",
+			"updated": "2017-11-14T22:48:15.034Z",
+			"metadata": null,
+			"synonyms": ["fliers"]
+		}, {
+			"type": "synonyms",
+			"value": "furniture",
+			"created": "2017-11-14T23:03:36.456Z",
+			"updated": "2017-11-14T23:03:36.456Z",
+			"metadata": null,
+			"synonyms": ["table", "sofa", "chair"]
+		}],
+		"created": "2017-11-14T22:45:31.782Z",
+		"updated": "2017-11-14T23:03:36.456Z",
+		"metadata": null,
+		"description": null
+	}, {
+		"entity": "sys-date",
+		"values": [],
+		"created": "2017-11-14T08:49:54.534Z",
+		"updated": "2017-11-14T08:49:54.534Z",
+		"metadata": null,
+		"description": null
+	}],
 	"language": "en",
 	"metadata": {
 		"api_version": {
@@ -540,470 +543,631 @@
 	},
 	"description": "It helps you to handle the usual mail or package delivery and sales or donation request.",
 	"dialog_nodes": [{
-			"type": "event_handler",
-			"title": null,
-			"output": {
-				"text": {
-					"values": [
-						"Sorry, I can't catch the day you said. What day will you visit again?"
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": "slot_12_1510646650573",
-			"context": null,
-			"created": "2017-11-14T08:44:53.428Z",
-			"updated": "2017-11-14T08:44:53.428Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": null,
-			"event_name": "nomatch",
-			"description": null,
-			"dialog_node": "handler_26_1510648983174",
-			"previous_sibling": "handler_13_1510646650573"
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_34_1510652225722",
+		"context": null,
+		"created": "2017-11-14T09:44:41.281Z",
+		"updated": "2017-11-14T09:44:41.281Z",
+		"metadata": null,
+		"variable": " ",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_35_1510652680408",
+		"previous_sibling": "node_38_1510652800867"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": []
+			}
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": {},
-			"parent": "slot_12_1510646650573",
-			"context": {
-				"date": "@sys-date"
-			},
-			"created": "2017-11-14T08:04:06.688Z",
-			"updated": "2017-11-14T08:44:53.159Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "@sys-date",
-			"event_name": "input",
-			"description": null,
-			"dialog_node": "handler_13_1510646650573",
-			"previous_sibling": "handler_14_1510646650573"
+		"parent": "node_34_1510652225722",
+		"context": null,
+		"created": "2017-11-14T09:46:41.204Z",
+		"updated": "2017-11-14T09:48:08.342Z",
+		"disabled": true,
+		"metadata": null,
+		"next_step": null,
+		"conditions": "",
+		"description": null,
+		"dialog_node": "node_38_1510652800867",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Thanks you and have a nice day"]
+			}
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": {
-				"text": "What day would you like to visit again?"
-			},
-			"parent": "slot_12_1510646650573",
-			"context": null,
-			"created": "2017-11-14T08:04:06.922Z",
-			"updated": "2017-11-14T08:44:52.855Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": null,
-			"event_name": "focus",
-			"description": null,
-			"dialog_node": "handler_14_1510646650573",
-			"previous_sibling": null
+		"parent": "node_32_1510649590776",
+		"context": null,
+		"created": "2017-11-16T00:28:22.093Z",
+		"updated": "2017-11-16T00:33:50.578Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "! @code",
+		"description": null,
+		"dialog_node": "node_3_1510792101280",
+		"previous_sibling": "node_2_1510791952138"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["come on in"],
+				"selection_policy": "sequential"
+			}
 		},
-		{
-			"type": "slot",
-			"title": null,
-			"output": null,
-			"parent": "node_21_1510647968902",
-			"context": null,
-			"created": "2017-11-14T08:50:06.545Z",
-			"updated": "2017-11-14T08:50:06.545Z",
-			"metadata": null,
-			"variable": " ",
-			"next_step": null,
-			"conditions": null,
-			"description": null,
-			"dialog_node": "slot_29_1510649410611",
-			"previous_sibling": null
+		"parent": "node_32_1510649590776",
+		"context": null,
+		"created": "2017-11-16T00:25:52.914Z",
+		"updated": "2017-11-16T00:28:10.826Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@code",
+		"description": null,
+		"dialog_node": "node_2_1510791952138",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_35_1510652680408",
+		"context": null,
+		"created": "2017-11-14T09:44:42.283Z",
+		"updated": "2017-11-14T09:44:42.283Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_37_1510652680408",
+		"previous_sibling": "handler_36_1510652680408"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_35_1510652680408",
+		"context": null,
+		"created": "2017-11-14T09:44:41.803Z",
+		"updated": "2017-11-14T09:44:41.803Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_36_1510652680408",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorry, I can't catch the day you said. What day will you visit again?"],
+				"selection_policy": "sequential"
+			}
 		},
-		{
-			"type": "response_condition",
-			"title": null,
-			"output": {
-				"text": {
-					"values": [
-						"The homeowner is not able to fulfill your request at this moment. You can schedule another visit."
-					]
-				}
-			},
-			"parent": "node_4_1510641742897",
-			"context": null,
-			"created": "2017-11-14T07:22:38.590Z",
-			"updated": "2017-11-14T08:19:04.570Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "$homeowner_state == \"unavailable\"",
-			"description": null,
-			"dialog_node": "node_7_1510644162777",
-			"previous_sibling": "node_6_1510642428723"
+		"parent": "slot_12_1510646650573",
+		"context": null,
+		"created": "2017-11-14T08:44:53.428Z",
+		"updated": "2017-11-14T08:44:53.428Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_26_1510648983174",
+		"previous_sibling": "handler_13_1510646650573"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_12_1510646650573",
+		"context": {
+			"date": "@sys-date"
 		},
-		{
-			"type": "slot",
-			"title": null,
-			"output": null,
-			"parent": "node_4_1510641742897",
-			"context": null,
-			"created": "2017-11-14T07:14:18.708Z",
-			"updated": "2017-11-14T07:14:18.708Z",
-			"metadata": null,
-			"variable": " ",
-			"next_step": null,
-			"conditions": null,
-			"description": null,
-			"dialog_node": "slot_2_1510643662687",
-			"previous_sibling": "node_7_1510644162777"
+		"created": "2017-11-14T08:04:06.688Z",
+		"updated": "2017-11-14T08:44:53.159Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-date",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_13_1510646650573",
+		"previous_sibling": "handler_14_1510646650573"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "What day would you like to visit again?"
 		},
-		{
-			"type": "response_condition",
-			"title": null,
-			"output": {
-				"text": {
-					"values": [
-						"I have notified the home owner. Please wait for a while",
-						"I have notified the home owner or you can press the door bell again."
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": "node_4_1510641742897",
-			"context": null,
-			"created": "2017-11-14T06:53:44.532Z",
-			"updated": "2017-11-14T07:16:49.441Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "$homeowner_state == \"available\"",
-			"description": null,
-			"dialog_node": "node_6_1510642428723",
-			"previous_sibling": null
+		"parent": "slot_12_1510646650573",
+		"context": null,
+		"created": "2017-11-14T08:04:06.922Z",
+		"updated": "2017-11-14T08:44:52.855Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_14_1510646650573",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_21_1510647968902",
+		"context": null,
+		"created": "2017-11-14T08:50:06.545Z",
+		"updated": "2017-11-14T08:50:06.545Z",
+		"metadata": null,
+		"variable": " ",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_29_1510649410611",
+		"previous_sibling": null
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["The homeowner is not able to fulfill your request at this moment. What date and time will you come again?"]
+			}
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": {
-				"text": {
-					"values": [
-						"Sorry, can you repeat the time again?"
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": "slot_17_1510646810016",
-			"context": null,
-			"created": "2017-11-14T08:45:56.414Z",
-			"updated": "2017-11-14T08:45:56.414Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": null,
-			"event_name": "nomatch",
-			"description": null,
-			"dialog_node": "handler_28_1510649103687",
-			"previous_sibling": "handler_18_1510646810016"
+		"parent": "node_4_1510641742897",
+		"context": null,
+		"created": "2017-11-14T07:22:38.590Z",
+		"updated": "2017-11-15T18:15:28.827Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$homeowner_state == \"unavailable\" || !$homeowner_state",
+		"description": null,
+		"dialog_node": "node_7_1510644162777",
+		"previous_sibling": "node_6_1510642428723"
+	}, {
+		"title": "No",
+		"output": {
+			"text": {
+				"values": ["Please leave contact information in the mailbox. We will contact you later."],
+				"selection_policy": "sequential"
+			}
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": {},
-			"parent": "slot_17_1510646810016",
-			"context": {
-				"time": "@sys-time"
-			},
-			"created": "2017-11-14T08:06:46.095Z",
-			"updated": "2017-11-14T08:45:56.087Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "@sys-time",
-			"event_name": "input",
-			"description": null,
-			"dialog_node": "handler_18_1510646810016",
-			"previous_sibling": "handler_19_1510646810016"
+		"parent": "node_4_1510641742897",
+		"context": null,
+		"created": "2017-11-14T23:07:58.008Z",
+		"updated": "2017-11-16T00:35:59.778Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_32_1510649590776"
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": {
-				"text": "What time?"
-			},
-			"parent": "slot_17_1510646810016",
-			"context": null,
-			"created": "2017-11-14T08:06:46.365Z",
-			"updated": "2017-11-14T08:45:55.713Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": null,
-			"event_name": "focus",
-			"description": null,
-			"dialog_node": "handler_19_1510646810016",
-			"previous_sibling": null
+		"conditions": "#reject",
+		"description": null,
+		"dialog_node": "node_1_1510700877788",
+		"previous_sibling": "node_7_1510644162777"
+	}, {
+		"type": "response_condition",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["I have notified the home owner. Please wait for a while", "I have notified the home owner or you can press the door bell again."],
+				"selection_policy": "random"
+			}
 		},
-		{
-			"type": "slot",
-			"title": null,
-			"output": {},
-			"parent": "node_8_1510646533393",
-			"context": null,
-			"created": "2017-11-14T08:06:45.862Z",
-			"updated": "2017-11-14T08:45:55.166Z",
-			"metadata": null,
-			"variable": "$time",
-			"next_step": null,
-			"conditions": null,
-			"description": null,
-			"dialog_node": "slot_17_1510646810016",
-			"previous_sibling": "slot_12_1510646650573"
+		"parent": "node_4_1510641742897",
+		"context": null,
+		"created": "2017-11-14T06:53:44.532Z",
+		"updated": "2017-11-15T18:15:28.582Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "$homeowner_state == \"available\"",
+		"description": null,
+		"dialog_node": "node_6_1510642428723",
+		"previous_sibling": "node_8_1510646533393"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": null,
+		"parent": "node_4_1510641742897",
+		"context": null,
+		"created": "2017-11-14T07:14:18.708Z",
+		"updated": "2017-11-14T07:14:18.708Z",
+		"metadata": null,
+		"variable": " ",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_2_1510643662687",
+		"previous_sibling": "node_1_1510700877788"
+	}, {
+		"type": "frame",
+		"title": "schedule",
+		"output": {
+			"text": {
+				"values": ["You have scheduled a visit with home owner on $date at $time."],
+				"selection_policy": "sequential"
+			}
 		},
-		{
-			"type": "slot",
-			"title": null,
-			"output": {},
-			"parent": "node_8_1510646533393",
-			"context": null,
-			"created": "2017-11-14T08:04:06.417Z",
-			"updated": "2017-11-14T08:44:52.575Z",
-			"metadata": null,
-			"variable": "$date",
-			"next_step": null,
-			"conditions": null,
-			"description": null,
-			"dialog_node": "slot_12_1510646650573",
-			"previous_sibling": null
+		"parent": "node_4_1510641742897",
+		"context": null,
+		"created": "2017-11-14T08:02:09.256Z",
+		"updated": "2017-11-15T18:20:30.116Z",
+		"metadata": {
+			"fallback": "leave"
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": {},
-			"parent": "slot_29_1510649410611",
-			"context": null,
-			"created": "2017-11-14T08:50:07.542Z",
-			"updated": "2017-11-14T08:50:07.542Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": null,
-			"event_name": "focus",
-			"description": null,
-			"dialog_node": "handler_31_1510649410611",
-			"previous_sibling": "handler_30_1510649410611"
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_32_1510649590776"
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": null,
-			"parent": "slot_29_1510649410611",
-			"context": null,
-			"created": "2017-11-14T08:50:06.881Z",
-			"updated": "2017-11-14T08:50:06.881Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": null,
-			"event_name": "input",
-			"description": null,
-			"dialog_node": "handler_30_1510649410611",
-			"previous_sibling": null
+		"conditions": "#schedule_visit || anything_else",
+		"description": null,
+		"dialog_node": "node_8_1510646533393",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": {
+				"values": ["Sorry, can you repeat the time again?"],
+				"selection_policy": "sequential"
+			}
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": {},
-			"parent": "slot_2_1510643662687",
-			"context": null,
-			"created": "2017-11-14T07:14:19.292Z",
-			"updated": "2017-11-14T07:14:19.292Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": null,
-			"event_name": "focus",
-			"description": null,
-			"dialog_node": "handler_4_1510643662688",
-			"previous_sibling": "handler_3_1510643662688"
+		"parent": "slot_17_1510646810016",
+		"context": null,
+		"created": "2017-11-14T08:45:56.414Z",
+		"updated": "2017-11-14T08:45:56.414Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "nomatch",
+		"description": null,
+		"dialog_node": "handler_28_1510649103687",
+		"previous_sibling": "handler_18_1510646810016"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_17_1510646810016",
+		"context": {
+			"time": "@sys-time"
 		},
-		{
-			"type": "event_handler",
-			"title": null,
-			"output": null,
-			"parent": "slot_2_1510643662687",
-			"context": null,
-			"created": "2017-11-14T07:14:19.020Z",
-			"updated": "2017-11-14T07:14:19.020Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": null,
-			"event_name": "input",
-			"description": null,
-			"dialog_node": "handler_3_1510643662688",
-			"previous_sibling": null
+		"created": "2017-11-14T08:06:46.095Z",
+		"updated": "2017-11-14T08:45:56.087Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "@sys-time",
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_18_1510646810016",
+		"previous_sibling": "handler_19_1510646810016"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {
+			"text": "What time?"
 		},
-		{
-			"title": "Anything else",
-			"output": {
-				"text": {
-					"values": [
-						"I didn't understand. You can try rephrasing.",
-						"Can you reword your statement? I'm not understanding.",
-						"I didn't get your meaning."
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": null,
-			"context": null,
-			"created": "2017-11-14T06:21:04.130Z",
-			"updated": "2017-11-14T06:21:04.130Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "anything_else",
-			"description": null,
-			"dialog_node": "Anything else",
-			"previous_sibling": "node_32_1510649590776"
+		"parent": "slot_17_1510646810016",
+		"context": null,
+		"created": "2017-11-14T08:06:46.365Z",
+		"updated": "2017-11-14T08:45:55.713Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_19_1510646810016",
+		"previous_sibling": null
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_8_1510646533393",
+		"context": null,
+		"created": "2017-11-14T08:06:45.862Z",
+		"updated": "2017-11-14T08:45:55.166Z",
+		"metadata": null,
+		"variable": "$time",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_17_1510646810016",
+		"previous_sibling": "slot_12_1510646650573"
+	}, {
+		"type": "slot",
+		"title": null,
+		"output": {},
+		"parent": "node_8_1510646533393",
+		"context": null,
+		"created": "2017-11-14T08:04:06.417Z",
+		"updated": "2017-11-14T08:44:52.575Z",
+		"metadata": null,
+		"variable": "$date",
+		"next_step": null,
+		"conditions": null,
+		"description": null,
+		"dialog_node": "slot_12_1510646650573",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_29_1510649410611",
+		"context": null,
+		"created": "2017-11-14T08:50:07.542Z",
+		"updated": "2017-11-14T08:50:07.542Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_31_1510649410611",
+		"previous_sibling": "handler_30_1510649410611"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_29_1510649410611",
+		"context": null,
+		"created": "2017-11-14T08:50:06.881Z",
+		"updated": "2017-11-14T08:50:06.881Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_30_1510649410611",
+		"previous_sibling": null
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": {},
+		"parent": "slot_2_1510643662687",
+		"context": null,
+		"created": "2017-11-14T07:14:19.292Z",
+		"updated": "2017-11-14T07:14:19.292Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "focus",
+		"description": null,
+		"dialog_node": "handler_4_1510643662688",
+		"previous_sibling": "handler_3_1510643662688"
+	}, {
+		"type": "event_handler",
+		"title": null,
+		"output": null,
+		"parent": "slot_2_1510643662687",
+		"context": null,
+		"created": "2017-11-14T07:14:19.020Z",
+		"updated": "2017-11-14T07:14:19.020Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": null,
+		"event_name": "input",
+		"description": null,
+		"dialog_node": "handler_3_1510643662688",
+		"previous_sibling": null
+	}, {
+		"title": "incorrect",
+		"output": {
+			"text": {
+				"values": ["Oops! Wanna try again?"],
+				"selection_policy": "sequential"
+			}
 		},
-		{
-			"title": "Goodbye",
-			"output": {
-				"text": {
-					"values": [
-						"Have a nice day!"
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": null,
-			"context": null,
-			"created": "2017-11-14T08:53:06.678Z",
-			"updated": "2017-11-14T08:53:33.015Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "#nothing_else",
-			"description": null,
-			"dialog_node": "node_32_1510649590776",
-			"previous_sibling": "node_21_1510647968902"
+		"parent": "node_33_1510652021507",
+		"context": null,
+		"created": "2017-11-14T09:53:57.605Z",
+		"updated": "2017-11-14T09:55:45.147Z",
+		"metadata": null,
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "user_input",
+			"dialog_node": "node_34_1510652225722"
 		},
-		{
-			"title": "mails",
-			"output": {
-				"text": {
-					"values": [
-						"Please put them into the mailbox. Thanks."
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": null,
-			"context": null,
-			"created": "2017-11-14T06:25:11.064Z",
-			"updated": "2017-11-14T07:09:08.189Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "#mail_delivery",
-			"description": null,
-			"dialog_node": "node_2_1510640715254",
-			"previous_sibling": "node_4_1510641742897"
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_40_1510653237369",
+		"previous_sibling": "node_34_1510652225722"
+	}, {
+		"title": "code",
+		"output": {
+			"text": {
+				"values": ["Yes! We are party animals! Welcome!"],
+				"selection_policy": "sequential"
+			}
 		},
-		{
-			"title": "donate",
-			"output": {
-				"text": {
-					"values": [
-						"Please leave the contact information in the mailbox and home owner will contact you. Thanks."
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": null,
-			"context": null,
-			"created": "2017-11-14T08:26:04.771Z",
-			"updated": "2017-11-14T08:50:27.893Z",
-			"metadata": {
-				"fallback": "leave"
-			},
-			"next_step": null,
-			"conditions": "#donation",
-			"description": null,
-			"dialog_node": "node_21_1510647968902",
-			"previous_sibling": "node_8_1510646533393"
+		"parent": "node_33_1510652021507",
+		"context": null,
+		"created": "2017-11-14T09:37:05.915Z",
+		"updated": "2017-11-16T00:25:18.655Z",
+		"metadata": {
+			"fallback": "leave",
+			"_customization": {
+				"mcr": false
+			}
 		},
-		{
-			"title": "signature_needed_available",
-			"output": {},
-			"parent": null,
-			"context": null,
-			"created": "2017-11-14T06:42:18.696Z",
-			"updated": "2017-11-14T08:58:43.508Z",
-			"metadata": {
-				"fallback": "leave",
-				"_customization": {
-					"mcr": true
-				}
-			},
-			"next_step": null,
-			"conditions": "#signature_required || #applicance_delivery || #speak_to_homeowner",
-			"description": null,
-			"dialog_node": "node_4_1510641742897",
-			"previous_sibling": "Welcome"
+		"next_step": {
+			"behavior": "jump_to",
+			"selector": "body",
+			"dialog_node": "node_32_1510649590776"
 		},
-		{
-			"title": "packages",
-			"output": {
-				"text": {
-					"values": [
-						"I have notify the homeowner. Please leave the package in front of the door. Thanks."
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": null,
-			"context": null,
-			"created": "2017-11-14T07:02:08.172Z",
-			"updated": "2017-11-14T07:03:58.088Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "#package_delivery",
-			"description": null,
-			"dialog_node": "node_1_1510642932330",
-			"previous_sibling": "node_2_1510640715254"
+		"conditions": "@code",
+		"description": null,
+		"dialog_node": "node_34_1510652225722",
+		"previous_sibling": null
+	}, {
+		"title": "Anything else",
+		"output": {
+			"text": {
+				"values": ["I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning."],
+				"selection_policy": "random"
+			}
 		},
-		{
-			"type": "frame",
-			"title": "schedule",
-			"output": {
-				"text": {
-					"values": [
-						"You have scheduled a visit with home owner on $date at $time."
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": null,
-			"context": null,
-			"created": "2017-11-14T08:02:09.256Z",
-			"updated": "2017-11-14T08:21:31.401Z",
-			"metadata": {
-				"fallback": "leave"
-			},
-			"next_step": null,
-			"conditions": "#schedule_visit",
-			"description": null,
-			"dialog_node": "node_8_1510646533393",
-			"previous_sibling": "node_1_1510642932330"
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T06:21:04.130Z",
+		"updated": "2017-11-14T23:13:21.091Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "Anything else",
+		"previous_sibling": "node_32_1510649590776"
+	}, {
+		"title": "party",
+		"output": {
+			"text": {
+				"values": ["Welcome! Let's party all night long. But you have to say the secret code first!"],
+				"selection_policy": "sequential"
+			}
 		},
-		{
-			"title": "Welcome",
-			"output": {
-				"text": {
-					"values": [
-						"Hello. How can I help you?",
-						"What's your purpose of the visit today?"
-					],
-					"selection_policy": "sequential"
-				}
-			},
-			"parent": null,
-			"context": null,
-			"created": "2017-11-14T06:21:04.130Z",
-			"updated": "2017-11-14T06:22:29.463Z",
-			"metadata": null,
-			"next_step": null,
-			"conditions": "welcome",
-			"description": null,
-			"dialog_node": "Welcome",
-			"previous_sibling": null
-		}
-	],
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T09:33:42.007Z",
+		"updated": "2017-11-14T09:50:50.584Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#party_time",
+		"description": null,
+		"dialog_node": "node_33_1510652021507",
+		"previous_sibling": "node_21_1510647968902"
+	}, {
+		"title": "letters/flyers",
+		"output": {
+			"text": {
+				"values": ["Please put them into the mailbox. Thanks for the delivery."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T06:25:11.064Z",
+		"updated": "2017-11-14T22:51:33.174Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#mail_delivery",
+		"description": null,
+		"dialog_node": "node_2_1510640715254",
+		"previous_sibling": "node_4_1510641742897"
+	}, {
+		"title": "thanks-bye",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T08:53:06.678Z",
+		"updated": "2017-11-16T00:25:53.143Z",
+		"metadata": {
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#nothing_else",
+		"description": null,
+		"dialog_node": "node_32_1510649590776",
+		"previous_sibling": "node_1_1510684704247"
+	}, {
+		"title": "signature_needed_available",
+		"output": {},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T06:42:18.696Z",
+		"updated": "2017-11-15T18:15:29.049Z",
+		"metadata": {
+			"fallback": "leave",
+			"_customization": {
+				"mcr": true
+			}
+		},
+		"next_step": null,
+		"conditions": "#signature_required || #applicance_delivery || #speak_to_homeowner",
+		"description": null,
+		"dialog_node": "node_4_1510641742897",
+		"previous_sibling": "Welcome"
+	}, {
+		"title": "packages",
+		"output": {
+			"text": {
+				"values": ["I have notified the homeowner. Please leave the package in front of the door.", "Thanks for the delivery. Please put it in front of the door. I have notified the homeowner."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T07:02:08.172Z",
+		"updated": "2017-11-14T22:50:41.086Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#package_delivery",
+		"description": null,
+		"dialog_node": "node_1_1510642932330",
+		"previous_sibling": "node_2_1510640715254"
+	}, {
+		"title": "Halloween",
+		"output": {
+			"text": {
+				"values": ["Happy Halloween! Please take the candy by yourself.", "I am behind you. Boo! Please enjoy the candies right next to the door."],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T18:38:25.643Z",
+		"updated": "2017-11-16T00:44:16.157Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "#trick_or_treat",
+		"description": null,
+		"dialog_node": "node_1_1510684704247",
+		"previous_sibling": "node_33_1510652021507"
+	}, {
+		"title": "donate",
+		"output": {
+			"text": {
+				"values": ["Please leave the contact information in the mailbox and home owner will contact you. Thanks."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T08:26:04.771Z",
+		"updated": "2017-11-14T08:50:27.893Z",
+		"metadata": {
+			"fallback": "leave"
+		},
+		"next_step": null,
+		"conditions": "#donation",
+		"description": null,
+		"dialog_node": "node_21_1510647968902",
+		"previous_sibling": "node_1_1510642932330"
+	}, {
+		"title": "Welcome",
+		"output": {
+			"text": {
+				"values": ["Hello. How can I help you?", "What's your purpose of the visit today?"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-11-14T06:21:04.130Z",
+		"updated": "2017-11-14T18:38:08.507Z",
+		"metadata": null,
+		"next_step": null,
+		"conditions": "welcome",
+		"description": null,
+		"dialog_node": "Welcome",
+		"previous_sibling": null
+	}],
 	"workspace_id": "c664e9f4-7a08-4402-bfab-97bc1de84842",
 	"counterexamples": [],
 	"learning_opt_out": false
