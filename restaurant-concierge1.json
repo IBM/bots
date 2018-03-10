@@ -1,5 +1,5 @@
 {
-	"name": "Restaurant Concierge v2.5",
+	"name": "Restaurant Concierge",
 	"created": "2016-08-25T20:24:53.829Z",
 	"intents": [{
 		"intent": "Directions",

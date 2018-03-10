@@ -1,5 +1,5 @@
 {
-	"name": "CPR & Choke from a foreign body",
+	"name": "CPR bot",
 	"created": "2018-01-13T19:43:16.334Z",
 	"intents": [{
 		"intent": "Response",

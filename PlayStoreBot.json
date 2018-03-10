@@ -118,7 +118,7 @@
 		}],
 		"description": null
 	}],
-	"updated": "2017-11-21T23:10:14.123Z",
+	"updated": "2017-11-21T23:12:42.251Z",
 	"entities": [{
 		"entity": "games",
 		"values": [{
@@ -267,7 +267,7 @@
 			"minor_version": "2017-05-26"
 		}
 	},
-	"description": "A sample play store bot that helps the user to get information about the latest trending applications, games etc.",
+	"description": "A sample play store bot that helps the user to get information about the trending applications, games etc.",
 	"dialog_nodes": [{
 		"type": "slot",
 		"title": null,

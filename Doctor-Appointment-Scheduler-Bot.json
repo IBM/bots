@@ -1,5 +1,5 @@
 {
-	"name": "مساعد حجز مواعيد طبية",
+	"name": "appointment bot",
 	"intents": [{
 		"intent": "حجز_موعد",
 		"examples": [{

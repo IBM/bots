@@ -1,5 +1,5 @@
 {
-	"name": "Superheroes",
+	"name": "Superheroes bot",
 	"created": "2018-02-02T11:35:42.387Z",
 	"intents": [{
 		"intent": "superheros",

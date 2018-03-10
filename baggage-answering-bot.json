@@ -1,5 +1,5 @@
 {
-	"name": "Aegean Baggage Chatbot v2",
+	"name": "Aegean Baggage Chatbot",
 	"created": "2017-03-01T16:20:17.953Z",
 	"intents": [{
 		"intent": "add_baggage",

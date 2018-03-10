@@ -1,5 +1,5 @@
 {
-	"name": "Zonald- Your personal shopping assistant",
+	"name": "Shopping assistant bot",
 	"created": "2017-10-27T10:50:58.551Z",
 	"intents": [{
 		"intent": "GoodMorning",
