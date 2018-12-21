@@ -3058,7 +3058,7 @@
 		"title": null,
 		"output": {
 			"text": {
-				"values": ["Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @plataforma no seguinte link: https://console.ng.bluemix.net/?direct=classic/&cm_mc_uid=82027627090314855424595&cm_mc_sid_50200000=1490210851#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=247dbd31-fe91-4a58-ba70-b9202d4873ad&spaceGuid=efd876d4-622e-433a-8daa-fcb38f2b118b"],
+				"values": ["Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @plataforma no seguinte link: https://cloud.ibm.com/?direct=classic/&cm_mc_uid=82027627090314855424595&cm_mc_sid_50200000=1490210851#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=247dbd31-fe91-4a58-ba70-b9202d4873ad&spaceGuid=efd876d4-622e-433a-8daa-fcb38f2b118b"],
 				"selection_policy": "sequential"
 			}
 		},
@@ -3172,7 +3172,7 @@
 		"title": "Serviço",
 		"output": {
 			"text": {
-				"values": ["Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @servicos no seguinte link: https://console.ng.bluemix.net/docs/pricing/index.htmlfalse"],
+				"values": ["Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @servicos no seguinte link: https://cloud.ibm.com/docs/pricing/index.htmlfalse"],
 				"selection_policy": "sequential"
 			}
 		},
@@ -3191,7 +3191,7 @@
 		"title": "Calcular no geral",
 		"output": {
 			"text": {
-				"values": ["Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução no seguinte link: https://console.ng.bluemix.net/?direct=classic/&cm_mc_uid=82027627090314855424595&cm_mc_sid_50200000=1490210851#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=247dbd31-fe91-4a58-ba70-b9202d4873ad&spaceGuid=efd876d4-622e-433a-8daa-fcb38f2b118b"],
+				"values": ["Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução no seguinte link: https://cloud.ibm.com/?direct=classic/&cm_mc_uid=82027627090314855424595&cm_mc_sid_50200000=1490210851#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=247dbd31-fe91-4a58-ba70-b9202d4873ad&spaceGuid=efd876d4-622e-433a-8daa-fcb38f2b118b"],
 				"selection_policy": "sequential"
 			}
 		},
@@ -3210,7 +3210,7 @@
 		"title": "Runtimes",
 		"output": {
 			"text": {
-				"values": ["Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @runtime no seguinte link: https://console.ng.bluemix.net/docs/pricing/index.htmlfalse"],
+				"values": ["Você encontrará toda a informação de como estimar e calcular, inclusive com uma calculadora, o custo de sua solução utilizando @runtime no seguinte link: https://cloud.ibm.com/docs/pricing/index.htmlfalse"],
 				"selection_policy": "sequential"
 			}
 		},
@@ -3539,7 +3539,7 @@
 		"title": null,
 		"output": {
 			"text": {
-				"values": ["https://console.ng.bluemix.net/docs/services/Weather/index.html"],
+				"values": ["https://cloud.ibm.com/docs/services/Weather/index.html"],
 				"selection_policy": "sequential"
 			}
 		},
@@ -4415,7 +4415,7 @@
 		"title": null,
 		"output": {
 			"text": {
-				"values": ["O Bluemix tem um modelo de negócio baseado em serviço, portanto se paga pelo uso, ou seja, de acordo com o volume consumido. No caso de aplicação se paga pela quantidade de memória utilizada, e os serviços consumidos, conforme o modelo de negócio de cada um deles, que pode ser por chamada de API (ex: Watson), e outros por volume em bytes (Ex: Banco de dados). A maioria dos serviços têm uma camada gratuita, ou seja, é possível usar o Bluemix sem custo por tempo indeterminado. Maiores detalhes no link: https://console.ng.bluemix.net/docs/pricing/index.htmlfalse"],
+				"values": ["O Bluemix tem um modelo de negócio baseado em serviço, portanto se paga pelo uso, ou seja, de acordo com o volume consumido. No caso de aplicação se paga pela quantidade de memória utilizada, e os serviços consumidos, conforme o modelo de negócio de cada um deles, que pode ser por chamada de API (ex: Watson), e outros por volume em bytes (Ex: Banco de dados). A maioria dos serviços têm uma camada gratuita, ou seja, é possível usar o Bluemix sem custo por tempo indeterminado. Maiores detalhes no link: https://cloud.ibm.com/docs/pricing/index.htmlfalse"],
 				"selection_policy": "sequential"
 			}
 		},
@@ -4571,7 +4571,7 @@
 		"title": null,
 		"output": {
 			"text": {
-				"values": ["https://console.ng.bluemix.net/catalog/?category=watson"],
+				"values": ["https://cloud.ibm.com/catalog/?category=watson"],
 				"selection_policy": "sequential"
 			}
 		},
@@ -4806,7 +4806,7 @@
 		"title": null,
 		"output": {
 			"text": {
-				"values": ["O Bluemix tem dezenas de serviços disponíveis, divididos por categoria, como serviços de infra de servidores, segurança, armazenamento e redes, já para aplicações é possível criar instâncias para executá-los, através de cloud foundry ou container, podendo ainda executar ações com tecnologia FaaS (OpenWhisk). Além disso, serviços de Data e Analytics, com banco de dados SQL e NOSql, serviço de computação cognitiva (Watson), IoT,  entre muitos outros. Dê uma olhada no catálogo da plataforma: https://console.ng.bluemix.net/catalog"],
+				"values": ["O Bluemix tem dezenas de serviços disponíveis, divididos por categoria, como serviços de infra de servidores, segurança, armazenamento e redes, já para aplicações é possível criar instâncias para executá-los, através de cloud foundry ou container, podendo ainda executar ações com tecnologia FaaS (OpenWhisk). Além disso, serviços de Data e Analytics, com banco de dados SQL e NOSql, serviço de computação cognitiva (Watson), IoT,  entre muitos outros. Dê uma olhada no catálogo da plataforma: https://cloud.ibm.com/catalog"],
 				"selection_policy": "sequential"
 			}
 		},
